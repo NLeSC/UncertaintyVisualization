@@ -6,6 +6,7 @@ addons:
   code_climate:
     repo_token: ef1939588b1230f06a704858afb754c6434c41602b7997aee180b8afe30b34b3
 install:
+  - 'npm install -g npm@2'
   - 'npm install'
   - 'npm install -g bower grunt-cli'
   - 'bower install'
