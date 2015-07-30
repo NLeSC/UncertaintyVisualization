@@ -7,10 +7,4 @@ describe('app', function() {
   beforeEach(inject(function(_$rootScope_) {
     $rootScope = _$rootScope_;
   }));
-
-  describe('uncertApp.run() function', function() {
-    it('should do nothing', inject(function() {
-      //Nothing to expect
-    }));
-  });
 });

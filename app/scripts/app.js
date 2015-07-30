@@ -18,9 +18,7 @@
       'ngTouch',
       'ui.bootstrap'
     ])
-    .run(function(SitesService, DrivemapService) {
-      DrivemapService.load();
-      SitesService.load();
+    .run(function() {
     });
 
   angular.module('uncertApp.templates', []);

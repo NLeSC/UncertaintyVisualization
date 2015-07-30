@@ -15,6 +15,9 @@ module.exports = function(grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  //We use this to run webdriver-manager update
+	var path = require('path');
+
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
@@ -43,10 +46,6 @@ module.exports = function(grunt) {
       jsTest: {
         files: ['test/spec/{,*/}*.js'],
         tasks: ['newer:jshint:test', 'karma']
-      },
-      compass: {
-        files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-        tasks: ['compass:server', 'autoprefixer']
       },
       gruntfile: {
         files: ['Gruntfile.js']
@@ -170,35 +169,6 @@ module.exports = function(grunt) {
       sass: {
         src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         ignorePath: /(\.\.\/){1,2}bower_components\//
-      }
-    },
-
-    // Compiles Sass to CSS and generates necessary files if requested
-    compass: {
-      options: {
-        sassDir: '<%= yeoman.app %>/styles',
-        cssDir: '.tmp/styles',
-        generatedImagesDir: '.tmp/images/generated',
-        imagesDir: '<%= yeoman.app %>/images',
-        javascriptsDir: '<%= yeoman.app %>/scripts',
-        fontsDir: '<%= yeoman.app %>/styles/fonts',
-        importPath: './bower_components',
-        httpImagesPath: '/images',
-        httpGeneratedImagesPath: '/images/generated',
-        httpFontsPath: '/styles/fonts',
-        relativeAssets: false,
-        assetCacheBuster: false,
-        raw: 'Sass::Script::Number.precision = 10\n'
-      },
-      dist: {
-        options: {
-          generatedImagesDir: '<%= yeoman.dist %>/images/generated'
-        }
-      },
-      server: {
-        options: {
-          debugInfo: true
-        }
       }
     },
 
@@ -362,8 +332,8 @@ module.exports = function(grunt) {
           src: ['generated/*']
         }, {
           expand: true,
-          cwd: '.',
-          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
+          cwd: 'bower_components/bootstrap/dist',
+          src: 'fonts/*',
           dest: '<%= yeoman.dist %>'
         }]
       },
@@ -387,13 +357,13 @@ module.exports = function(grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
-        'compass:server'
+        'copy:styles'
       ],
       test: [
-        'compass'
+        'copy:styles'
       ],
       dist: [
-        'compass:dist',
+        'copy:styles',
         'imagemin',
         'svgmin'
       ]
@@ -419,6 +389,15 @@ module.exports = function(grunt) {
         }
       }
     },
+
+		shell: {
+			webdriverManagerUpdate: {
+				options: {
+					stdout: true
+				},
+				command: path.resolve('node_modules/grunt-protractor-runner/node_modules/.bin/webdriver-manager') + ' update'
+			}
+		},
 
     gitcheckout: {
       sauce: {
@@ -496,11 +475,13 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('e2e-local', [
+		'shell:webdriverManagerUpdate',
     'connect:test',
     'protractor:local'
   ]);
 
   grunt.registerTask('e2e-sauce', [
+		'shell:webdriverManagerUpdate',
     'connect:test',
     'copy:sauce', // copy overwrites
     'protractor:sauce',
