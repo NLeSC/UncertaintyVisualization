@@ -1,0 +1,16 @@
+node_modules
+dist
+.tmp
+.sass-cache
+.project
+bower_components
+test/reports
+e2e/reports
+
+## Non-project files:
+# exvim
+.exvim.project*
+project.exvim
+
+/doc
+/npm-debug.log
