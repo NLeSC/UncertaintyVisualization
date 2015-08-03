@@ -1,10 +1,10 @@
-Uncertainty Visualziation
+Uncertainty Visualization
 =========================
 
 [![Build Status](https://travis-ci.org/NLeSC/UncertaintyVisualization.svg?branch=master)](https://travis-ci.org/NLeSC/UncertaintyVisualization)
 [![Code Climate](https://codeclimate.com/github/NLeSC/UncertaintyVisualization/badges/gpa.svg)](https://codeclimate.com/github/NLeSC/UncertaintyVisualization)
 [![Test Coverage](https://codeclimate.com/github/NLeSC/UncertaintyVisualization/badges/coverage.svg)](https://codeclimate.com/github/NLeSC/UncertaintyVisualization)
-[![Sauce Test Status](https://saucelabs.com/buildstatus/UncertaintyVisualization)](https://saucelabs.com/u/UncertaintyVisualization)
+[![Sauce Test Status](https://saucelabs.com/buildstatus/uncertaintyvis)](https://saucelabs.com/u/uncertaintyvis)
 [![devDependency Status](https://david-dm.org/NLeSC/UncertaintyVisualization/dev-status.svg)](https://david-dm.org/NLeSC/UncertaintyVisualization#info=devDependencies)
 
 Getting started (windows, from scratch)
