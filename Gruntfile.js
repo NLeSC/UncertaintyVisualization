@@ -17,9 +17,6 @@ module.exports = function(grunt) {
 
   var serveStatic = require('serve-static');
 
-  //We use this to run webdriver-manager update
-	var path = require('path');
-
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
@@ -174,9 +171,22 @@ module.exports = function(grunt) {
         src: ['<%= yeoman.app %>/index.html'],
         ignorePath: /\.\.\//
       },
-      sass: {
-        src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-        ignorePath: /(\.\.\/){1,2}bower_components\//
+      test: {
+        src: ['test/karma.conf.js'],
+        ignorePath: /\.\.\//,
+        exclude: [ /angular-scenario/ ],
+        devDependencies: true,
+        fileTypes: {
+          js: {
+            block: /(([\s\t]*)\/\/\s*bower:*(\S*))(\n|\r|.)*?(\/\/\s*endbower)/gi,
+            detect: {
+              js: /'(.*\.js)'/gi
+            },
+            replace: {
+              js: '\'{{filePath}}\','
+            }
+          }
+        }
       }
     },
 
@@ -474,11 +484,13 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('e2e-local', [
+    'wiredep',
     'connect:test',
     'protractor:local'
   ]);
 
   grunt.registerTask('e2e-sauce', [
+    'wiredep',
     'connect:test',
     'copy:sauce', // copy overwrites
     'protractor:sauce',
