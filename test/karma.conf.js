@@ -74,7 +74,8 @@ module.exports = function(config) {
     },
     reporters: ['dots', 'junit', 'coverage', 'html'],
     junitReporter: {
-      outputFile: 'test/reports/TEST-results.xml'
+      outputDir: 'test/reports/' //,
+      //outputFile: 'test/reports/TEST-results.xml'
     },
     coverageReporter: {
       dir: 'test/reports/coverage/',
