@@ -4,7 +4,7 @@ exports.config = {
   allScriptsTimeout: 11000,
 
   specs: [
-    '*.js'
+    'scenario.js'
   ],
 
   multiCapabilities: [{
@@ -12,8 +12,9 @@ exports.config = {
   }],
 
   baseUrl: 'http://localhost:9001/',
+  //seleniumAddress: 'http://localhost:4444/wd/hub',
 
-  framework: 'jasmine',
+  framework: 'jasmine2',
 
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000

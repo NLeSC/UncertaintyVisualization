@@ -81,6 +81,9 @@ module.exports = function(grunt) {
               serveStatic('.tmp'),
               connect().use(
                 '/bower_components',
+                serveStatic('./bower_components')
+              ),
+              connect().use(
                 serveStatic('./bower_components/angularjs')
               ),
               serveStatic(appConfig.app)
@@ -97,6 +100,9 @@ module.exports = function(grunt) {
               serveStatic('test'),
               connect().use(
                 '/bower_components',
+                serveStatic('./bower_components')
+              ),
+              connect().use(
                 serveStatic('./bower_components/angularjs')
               ),
               serveStatic(appConfig.app)
@@ -392,15 +398,6 @@ module.exports = function(grunt) {
       }
     },
 
-		shell: {
-			webdriverManagerUpdate: {
-				options: {
-					stdout: true
-				},
-				command: path.resolve('node_modules/grunt-protractor-runner/node_modules/.bin/webdriver-manager') + ' update'
-			}
-		},
-
     gitcheckout: {
       sauce: {
         options: {
@@ -477,13 +474,11 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('e2e-local', [
-		'shell:webdriverManagerUpdate',
     'connect:test',
     'protractor:local'
   ]);
 
   grunt.registerTask('e2e-sauce', [
-		'shell:webdriverManagerUpdate',
     'connect:test',
     'copy:sauce', // copy overwrites
     'protractor:sauce',
