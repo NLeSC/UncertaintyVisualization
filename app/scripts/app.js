@@ -16,11 +16,19 @@
       'ngAnimate',
       'ngSanitize',
       'ngTouch',
-      'ui.bootstrap'
+      'ngRoute',
+      'ngCookies',
+      'ui.bootstrap',
+      'uncertApp.authentication',
+      //'uncertApp.sparql',
+      'uncertApp.text'
     ])
     .run(function() {
     });
 
   angular.module('uncertApp.templates', []);
   angular.module('uncertApp.utils', ['uncertApp.templates']);
+  angular.module('uncertApp.authentication', ['ngCookies']);
+  angular.module('uncertApp.sparql', ['uncertApp.utils','uncertApp.authentication']);
+  angular.module('uncertApp.text', ['uncertApp.sparql', 'uncertApp.utils']);
 })();
