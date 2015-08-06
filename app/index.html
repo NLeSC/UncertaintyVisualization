@@ -14,6 +14,7 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body ng-app="uncertApp">
@@ -22,7 +23,9 @@
     <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Nothing here yet</p>
+  <authentication-directive></authentication-directive>
+  <!-- <p>Nothing here yet</p> -->
+  <text-directive></text-directive>
 
   <!-- build:js(.) scripts/oldieshim.js -->
   <!--[if lt IE 9]>
@@ -49,6 +52,16 @@
 
   <!-- build:js({.tmp,app}) scripts/scripts.js -->
   <script src="scripts/app.js"></script>
+  <script src="scripts/utils/messagebus.service.js"></script>
+  <script src="scripts/authentication/base64.service.js"></script>
+  <script src="scripts/authentication/authentication.service.js"></script>
+  <script src="scripts/authentication/authentication.controller.js"></script>
+  <script src="scripts/authentication/authentication.directive.js"></script>
+  <!-- <script src="../node_modules/sparqljs/sparql.js"></script> -->
+
+  <script src="scripts/sparqlservice/sparql.service.js"></script>
+  <script src="scripts/text/text.directive.js"></script>
+  <script src="scripts/text/text.controller.js"></script>
 
   <!-- endbuild -->
 </body>
