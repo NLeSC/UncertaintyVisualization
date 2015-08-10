@@ -28,7 +28,11 @@
         <div>
           <h1>Triples found in trig file</h1>
           <ul>
-            <li ng-repeat="triple in triples">Subject: {{triple.subject}}, Predicate: {{triple.predicate}}, Object: {{triple.object}}</li>
+            <li ng-repeat="triple in triples">
+              Subject: <a href="{{ triple.subject }}">{{triple.subject}}</a>,
+              Predicate: <a href="{{ triple.predicate }}">{{triple.predicate}}</a>,
+              Object: <a href="{{ triple.object }}">{{triple.object}}</a>
+            </li>
           </ul>
           {{ triples.length }} triples found
         </div>
