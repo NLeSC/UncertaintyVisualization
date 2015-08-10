@@ -22,7 +22,19 @@
     <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Nothing here yet</p>
+  <div class="container-fluid">
+    <div class="row"  ng-controller="rdfCtrl">
+      <div class="col-md-12">
+        <div>
+          <h1>Triples found in trig file</h1>
+          <ul>
+            <li ng-repeat="triple in triples">Subject: {{triple.subject}}, Predicate: {{triple.predicate}}, Object: {{triple.object}}</li>
+          </ul>
+          {{ triples.length }} triples found
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- build:js(.) scripts/oldieshim.js -->
   <!--[if lt IE 9]>
@@ -44,6 +56,7 @@
   <script src="bower_components/angular-touch/angular-touch.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="bower_components/d3/d3.js"></script>
+  <script src="bower_components/n3js/n3-browser.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
