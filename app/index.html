@@ -23,9 +23,29 @@
     <![endif]-->
 
   <!-- Add your site or application content here -->
+
   <authentication-directive></authentication-directive>
   <!-- <p>Nothing here yet</p> -->
   <text-directive></text-directive>
+
+  <!-- Read RDF from file example -->
+  <div class="container-fluid">
+    <div class="row"  ng-controller="rdfCtrl">
+      <div class="col-md-12">
+        <div>
+          <h1>Triples found in trig file</h1>
+          <ul>
+            <li ng-repeat="triple in triples">
+              Subject: <a href="{{ triple.subject }}">{{triple.subject}}</a>,
+              Predicate: <a href="{{ triple.predicate }}">{{triple.predicate}}</a>,
+              Object: <a href="{{ triple.object }}">{{triple.object}}</a>
+            </li>
+          </ul>
+          {{ triples.length }} triples found
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- build:js(.) scripts/oldieshim.js -->
   <!--[if lt IE 9]>
@@ -47,6 +67,7 @@
   <script src="bower_components/angular-touch/angular-touch.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="bower_components/d3/d3.js"></script>
+  <script src="bower_components/n3js/n3-browser.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
