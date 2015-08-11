@@ -28,24 +28,10 @@
   <!-- <p>Nothing here yet</p> -->
   <text-directive></text-directive>
 
+  <rdf-directive></rdf-directive>
+
   <!-- Read RDF from file example -->
-  <div class="container-fluid">
-    <div class="row"  ng-controller="rdfCtrl">
-      <div class="col-md-12">
-        <div>
-          <h1>Triples found in trig file</h1>
-          <ul>
-            <li ng-repeat="triple in triples">
-              Subject: <a href="{{ triple.subject }}">{{triple.subject}}</a>,
-              Predicate: <a href="{{ triple.predicate }}">{{triple.predicate}}</a>,
-              Object: <a href="{{ triple.object }}">{{triple.object}}</a>
-            </li>
-          </ul>
-          {{ triples.length }} triples found
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   <!-- build:js(.) scripts/oldieshim.js -->
   <!--[if lt IE 9]>
@@ -78,9 +64,10 @@
   <script src="scripts/authentication/authentication.service.js"></script>
   <script src="scripts/authentication/authentication.controller.js"></script>
   <script src="scripts/authentication/authentication.directive.js"></script>
-  <!-- <script src="../node_modules/sparqljs/sparql.js"></script> -->
+  <script src="scripts/rdf/rdf.controller.js"></script>
+  <script src="scripts/rdf/rdf.directive.js"></script>
 
-  <script src="scripts/sparqlservice/sparql.service.js"></script>
+  <script src="scripts/sparql/sparql.service.js"></script>
   <script src="scripts/text/text.directive.js"></script>
   <script src="scripts/text/text.controller.js"></script>
 
