@@ -14,7 +14,7 @@ script:
   - 'grunt test'
   - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && grunt e2e-sauce || false'
 after_script:
-  - codeclimate < test/reports/coverage/*/lcov.info
+  - codeclimate-test-reporter < test/reports/coverage/*/lcov.info
 env:
   global:
     - secure: QHMeVROGTQEplE+OzMJJDdIfxcWh9ZZUbl0wElZS1GDLX4ysZzh7xhGQ/9yFGkCwJqNOeTwF1l/5shGPGlHet9F5fVN2eava7QTf/hAIfVZZUe2DXen5fyZ/RIJ/+v/8Ww9jht8Ml6ObZxhK84yOck2K4/Rx2AP5Dn9LSPbU1bx0/P9uvDH7TnBuebT3Ozjpi2ODq1yvUB49yp7q19zdXX8TXBbCHAxZlRC6IB1DCG8XGszAObvyHXnogmcvjWU3sDOXEPam30ZFbabmMsuqO/vXJLeig7knGda4IGm8PC0JK4hc4T3CrFelQO2l++NshZ6yew+lJq2+F/btZX9Dezn/KQB7IEynql4pZDsTvkdsXA/sy0B2auD8AhSb/RAded4q70I44yIk7ed+5z3U9YNDdPUW9VKvhu0VzIzsKTZtjcS5hh4Nr0Wa6x4/7BUeigROrpYE9nZs8i6vc4IztHmM6vKa7ksIvA3QFhR5DfMHjlVuzfXRGeTLfV79xcyJjoUjSzxG6r5wZ3y55AbKlhi30mxdXQB+UNWbX9NVapKe+V+XNz7GcNV1VgjeIEH1SQp2W4gQRItuYv8NhY08mM2OJI9XR+oRkg2U2LcNG9dluqs/zBEDOobEJUpmT+y47ERx1xHyElmcFGX0+V2gXTryby2Kr8qpzsgjeuX/C74=
