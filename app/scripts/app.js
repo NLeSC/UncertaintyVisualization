@@ -1,7 +1,11 @@
 // The app
+/* global N3:false */
 
 (function() {
   'use strict';
+
+  angular.module('uncertApp.n3', [])
+    .constant('N3', N3);
 
   /**
    * @ngdoc overview
@@ -16,29 +20,21 @@
       'ngAnimate',
       'ngSanitize',
       'ngTouch',
-      'ui.bootstrap'
+      'ngRoute',
+      'ngCookies',
+      'ui.bootstrap',
+      'uncertApp.authentication',
+      'uncertApp.rdf',
+      'uncertApp.sparql'
     ])
     .run(function() {
-    })
-    .controller('rdfCtrl', function ($scope, $http){
-      var parser = N3.Parser();
-
-      $scope.triples = [];
-      $scope.test = 0;
-
-      $http.get('data/4M1J-3MC0-TWKJ-V1W8.xml.perspective.trig')
-        .then(function (response){
-          parser.parse(response.data, function (error, triple, prefixes) {
-            // See https://github.com/RubenVerborgh/N3.js/ for details on how
-            // the function on the parsed data is called.
-            if (triple){
-              $scope.triples.push(triple);
-            }
-            $scope.$apply();
-          });
-        });
     });
+
 
   angular.module('uncertApp.templates', []);
   angular.module('uncertApp.utils', ['uncertApp.templates']);
+  angular.module('uncertApp.authentication', ['ngCookies']);
+  angular.module('uncertApp.sparql', ['uncertApp.utils','uncertApp.authentication']);
+  //angular.module('uncertApp.sparql', ['uncertApp.utils']);
+  angular.module('uncertApp.rdf', ['uncertApp.n3']);
 })();
