@@ -19,7 +19,13 @@ def hello_world():
         results = sparql.query().convert()
         return jsonify(**results)
     else:
-        response = jsonify({'status': 404, 'statusText': 'not authorized or no query'})
+        msg = []
+        if auth is None:
+            msg.append('authorization error')
+        if query is None:
+            msg.append('no query')
+
+        response = jsonify({'status': 404, 'statusText': ' '.join(msg)})
         response.status_code = 404
         return response
 
