@@ -1,12 +1,12 @@
 'use strict';
 
-describe('text', function() {
+describe('sparql', function() {
   // load the module
   beforeEach(module('uncertApp.templates'));
-  beforeEach(module('uncertApp.text'));
+  beforeEach(module('uncertApp.sparql'));
 
   describe('directive', function() {
-    var element = '<text-directive></text-directive>';
+    var element = '<sparql-directive></sparql-directive>';
     var html;
     var scope;
 
@@ -28,7 +28,7 @@ describe('text', function() {
     beforeEach(function() {
       inject(function($rootScope, $controller) {
         var scope = $rootScope.$new();
-        ctrl = $controller('TextController', {
+        ctrl = $controller('SparqlController', {
           $scope: scope
         });
       });

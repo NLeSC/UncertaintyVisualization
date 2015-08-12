@@ -25,8 +25,7 @@
       'ui.bootstrap',
       'uncertApp.authentication',
       'uncertApp.rdf',
-      //'uncertApp.sparql',
-      'uncertApp.text'
+      'uncertApp.sparql'
     ])
     .run(function() {
     });
@@ -36,6 +35,6 @@
   angular.module('uncertApp.utils', ['uncertApp.templates']);
   angular.module('uncertApp.authentication', ['ngCookies']);
   angular.module('uncertApp.sparql', ['uncertApp.utils','uncertApp.authentication']);
-  angular.module('uncertApp.text', ['uncertApp.sparql', 'uncertApp.utils']);
+  //angular.module('uncertApp.sparql', ['uncertApp.utils']);
   angular.module('uncertApp.rdf', ['uncertApp.n3']);
 })();

@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function TextController(AuthenticationService, SparqlService) {
+  function SparqlController(AuthenticationService, SparqlService) {
     this.resultText = '';
 
     AuthenticationService.ready.then(function() {
@@ -9,5 +9,5 @@
     }.bind(this));
   }
 
-  angular.module('uncertApp.text').controller('TextController', TextController);
+  angular.module('uncertApp.sparql').controller('SparqlController', SparqlController);
 })();
