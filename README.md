@@ -119,7 +119,7 @@ grunt jsdoc
 
 API documentation is generated in `doc/` directory.
 
-## Knwowledge Store Authentication Workaround
+## Knowledge Store Authentication Workaround
 
 The Flask app requires Python 2.7 and pip.
 
