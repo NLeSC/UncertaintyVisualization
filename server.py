@@ -1,6 +1,6 @@
 from flask import Flask
 from SPARQLWrapper import SPARQLWrapper, JSON
-from flask import request
+from flask import request, jsonify
 from flask.ext.cors import CORS
 
 app = Flask(__name__)
@@ -16,8 +16,7 @@ def hello_world():
     sparql.setCredentials(auth.username, auth.password)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    r = ['{} {}'.format(k, v) for k, v in results.iteritems()]
-    return ' '.join(r)
+    return jsonify(**results)
 
 if __name__ == '__main__':
     app.run(debug=True)
