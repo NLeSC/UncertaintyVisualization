@@ -14,13 +14,16 @@
     this.initialized = false;
 
     this.init = function() {
-      this.doQuery().then(function success(queryResult) {
-        console.log(queryResult);
-      });
+      this.doQuery();
     };
 
     this.doQuery = function() {
-      return $http.get(encodeURI(this.knowledgeStoreURL + this.exampleQuery));
+      return $http.get(encodeURI(this.knowledgeStoreURL + this.exampleQuery)).then(function(queryResult) {
+        console.log(queryResult);
+        return queryResult.data;
+      }, function (error){
+        return error.statusText;
+      });
     };
 
     // this.init();
