@@ -1,13 +1,23 @@
 (function() {
   'use strict';
 
-  function DcjsController(d3, dc, crossfilter, colorbrewer) {
-    this.init = function(element) {
+  function DcjsController(d3, dc, crossfilter, colorbrewer, Messagebus) {
+    this.queryResult = '';
 
+    Messagebus.subscribe('received query result', function(event, jsonData) {
+      console.log('DcjsController received data');
+
+      this.queryResult = JSON.stringify(jsonData, null, 2); // spacing level = 2
+
+      // jsonData.results.bindings.forEach(function(source) {
+      //   console.log(source.label.value);
+      // });
+
+    }.bind(this));
+
+    this.init = function(element) {
       var width = 900;
       var height = 250;
-
-      console.log(width + ':'+height );
 
       var container = element.children[0];
       // var gainOrLossChart = dc.pieChart('#gain-loss-chart');
@@ -36,7 +46,6 @@
 
         //See the [crossfilter API](https://github.com/square/crossfilter/wiki/API-Reference) for reference.
         var ndx = crossfilter(data);
-        var all = ndx.groupAll();
 
         // Dimension by year
         var yearlyDimension = ndx.dimension(function(d) {
@@ -79,83 +88,6 @@
             };
           }
         );
-
-        // Dimension by full date
-        var dateDimension = ndx.dimension(function(d) {
-          return d.dd;
-        });
-
-        // Dimension by month
-        var moveMonths = ndx.dimension(function(d) {
-          return d.month;
-        });
-        // Group by total movement within month
-        var monthlyMoveGroup = moveMonths.group().reduceSum(function(d) {
-          return Math.abs(d.close - d.open);
-        });
-        // Group by total volume within move, and scale down result
-        var volumeByMonthGroup = moveMonths.group().reduceSum(function(d) {
-          return d.volume / 500000;
-        });
-        var indexAvgByMonthGroup = moveMonths.group().reduce(
-          function(p, v) {
-            ++p.days;
-            p.total += (v.open + v.close) / 2;
-            p.avg = Math.round(p.total / p.days);
-            return p;
-          },
-          function(p, v) {
-            --p.days;
-            p.total -= (v.open + v.close) / 2;
-            p.avg = p.days ? Math.round(p.total / p.days) : 0;
-            return p;
-          },
-          function() {
-            return {
-              days: 0,
-              total: 0,
-              avg: 0
-            };
-          }
-        );
-
-        // Create categorical dimension
-        var gainOrLoss = ndx.dimension(function(d) {
-          return d.open > d.close ? 'Loss' : 'Gain';
-        });
-        // Produce counts records in the dimension
-        var gainOrLossGroup = gainOrLoss.group();
-
-        // Determine a histogram of percent changes
-        var fluctuation = ndx.dimension(function(d) {
-          return Math.round((d.close - d.open) / d.open * 100);
-        });
-        var fluctuationGroup = fluctuation.group();
-
-        // Summarize volume by quarter
-        var quarter = ndx.dimension(function(d) {
-          var month = d.dd.getMonth();
-          if (month <= 2) {
-            return 'Q1';
-          } else if (month > 2 && month <= 5) {
-            return 'Q2';
-          } else if (month > 5 && month <= 8) {
-            return 'Q3';
-          } else {
-            return 'Q4';
-          }
-        });
-        var quarterGroup = quarter.group().reduceSum(function(d) {
-          return d.volume;
-        });
-
-        // Counts per weekday
-        var dayOfWeek = ndx.dimension(function(d) {
-          var day = d.dd.getDay();
-          var name = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-          return day + '.' + name[day];
-        });
-        var dayOfWeekGroup = dayOfWeek.group();
 
         //### Define Chart Attributes
         // Define chart attributes using fluent methods. See the

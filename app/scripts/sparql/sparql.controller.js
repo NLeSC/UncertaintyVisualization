@@ -1,10 +1,10 @@
 (function() {
   'use strict';
 
-  function SparqlController($scope, AuthenticationService, SparqlService) {
+  function SparqlController($scope, AuthenticationService, SparqlService, Messagebus) {
     this.resultText = '';
     this.errorMessage = '';
-    this.query = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . } LIMIT 100';
+    this.query = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . }';
     this.showForm = false;
     this.jsonData = {};
 
@@ -13,7 +13,7 @@
     }.bind(this));
 
     this.doQuery = function() {
-      console.log('doQuery');
+      // console.log('doQuery');
       SparqlService.doQuery(this.query).then(function(result) {
         if (typeof(result) === 'string') {
           if (result === '') {
@@ -23,7 +23,8 @@
           }
         } else {
           this.jsonData = result.data;
-          console.log(this.jsonData);
+          Messagebus.publish('received query result', this.jsonData);
+          // console.log(this.jsonData);
         }
       }.bind(this));
     };

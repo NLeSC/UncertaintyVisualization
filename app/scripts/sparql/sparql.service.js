@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function SparqlService($q, $http, Messagebus, AuthenticationService) {
+  function SparqlService($q, $http) {
 
     //this.knowledgeStoreURL = 'https://knowledgestore2.fbk.eu/nwr/dutchhouse/sparql?query=';
     this.knowledgeStoreURL = 'https://shrouded-gorge-9256.herokuapp.com/do_sparql?query=';
@@ -14,9 +14,9 @@
 
     this.initialized = false;
 
-    this.init = function() {
-      this.doQuery();
-    };
+    // this.init = function() {
+    //   this.doQuery();
+    // };
 
     this.doQuery = function(query) {
       return $http.get(encodeURI(this.knowledgeStoreURL + query)).then(function(queryResult) {

@@ -19,7 +19,7 @@
   angular.module('uncertApp.colorbrewer', [])
     .constant('colorbrewer', colorbrewer);
 
-  
+
 
   /**
    * @ngdoc overview
@@ -51,5 +51,5 @@
   angular.module('uncertApp.authentication', ['ngCookies']);
   angular.module('uncertApp.sparql', ['uncertApp.utils','uncertApp.authentication']);
   angular.module('uncertApp.rdf', ['uncertApp.n3']);
-  angular.module('uncertApp.dcjs', ['uncertApp.dc', 'uncertApp.d3', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
+  angular.module('uncertApp.dcjs', ['uncertApp.utils','uncertApp.dc', 'uncertApp.d3', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
 })();
