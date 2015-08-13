@@ -18,10 +18,9 @@
       this.doQuery();
     };
 
-    this.doQuery = function() {
-      return $http.get(encodeURI(this.knowledgeStoreURL + this.exampleQuery)).then(function(queryResult) {
-        console.log(queryResult);
-        return queryResult.data;
+    this.doQuery = function(query) {
+      return $http.get(encodeURI(this.knowledgeStoreURL + query)).then(function(queryResult) {
+        return queryResult;
       }, function (error){
         return error.statusText;
       });

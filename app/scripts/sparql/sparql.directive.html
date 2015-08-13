@@ -1,7 +1,22 @@
-<div id="errorMessage" class="alert alert-danger" ng-show="sparqlcontroller.errorMessage">
-  Error: {{sparqlcontroller.errorMessage}}
-</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>SPARQL Queries</h1>
 
-<div id="queryResult">
-  {{sparqlcontroller.resultText}}
-</span>
+      <div class="alert alert-danger" id="errorMessage" ng-show="sparqlcontroller.errorMessage">
+        Error:
+        {{sparqlcontroller.errorMessage}}
+      </div>
+
+      <form class="form-horizontal" role="form" ng-show="sparqlcontroller.showForm">
+        <div class="form-group">
+          <textarea class="form-control" id="query" rows="5" ng-model="sparqlcontroller.query"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit" ng-click="sparqlcontroller.doQuery()">Submit query</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
