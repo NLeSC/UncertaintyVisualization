@@ -15,7 +15,7 @@
 
     this.initialized = false;
 
-    this.datasets = ['cars', 'cars2', 'dutchhouse'];
+    this.datasets = ['cars', 'cars2', 'dutchhouse', 'wikinews'];
 
     this.init = function() {
       this.doQuery();

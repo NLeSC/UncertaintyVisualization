@@ -19,7 +19,7 @@ describe('sparql', function() {
     });
 
     it('should create an element with a result text box', function() {
-      expect(html.html()).toContain('div id="queryResult"');
+      expect(html.html()).toContain('<textarea class="form-control ng-pristine ng-untouched ng-valid" id="query" rows="5" ng-model="sparqlcontroller.query"></textarea>');
     });
   });
 
