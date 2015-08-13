@@ -9,14 +9,12 @@
       SparqlService.doQuery().then(function (result){
         if( typeof(result) === 'string' ){
           if( result === '' ){
-            this.errorMessage = 'Please check whether the Flask app is running on http://127.0.0.1:5000/';
+            this.errorMessage = 'Something went wrong. Please check that the Flask app is running on https://shrouded-gorge-9256.herokuapp.com/ Or install locally.';
           } else {
             this.errorMessage = result;
           }
         }
-      }.bind(this), function (error){
-
-      });
+      }.bind(this));
 
     }.bind(this));
   }
