@@ -4,7 +4,17 @@
   function SparqlController($scope, AuthenticationService, SparqlService) {
     this.resultText = '';
     this.errorMessage = '';
-    this.query = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . } LIMIT 100';
+    this.query = 'SELECT DISTINCT ?source ?doc \n' +
+        'WHERE { \n' +
+        '  VALUES ?event { <http://www.newsreader-project.eu/data/cars/2009/05/22/7VRY-F631-2PP8-S0NC.xml#ev21> } \n' +
+        '  { \n' +
+        '    GRAPH ?graph { ?event ?predicate ?object . } \n' +
+        '    ?graph prov:wasAttributedTo ?source . \n'+
+        '    ?graph gaf:denotedBy ?mention . \n' +
+        '    BIND (STRBEFORE(STR(?mention),"#") as ?doc) \n' +
+        '  } \n' +
+        '} \n' +
+        'ORDER BY ?doc';
     this.dataset = 'dutchhouse';
     this.credentialsSet = false;
     this.jsonData = {};
@@ -32,6 +42,7 @@
           }
         } else {
           this.jsonData = result.data;
+          this.resultText = JSON.stringify(this.jsonData);
           console.log(this.jsonData);
         }
       }.bind(this));
