@@ -8,9 +8,20 @@
         {{sparqlcontroller.errorMessage}}
       </div>
 
-      <form class="form-horizontal" role="form" ng-show="sparqlcontroller.showForm">
+      <form class="form-vertical" role="form" ng-show="sparqlcontroller.showForm">
         <div class="form-group">
+          <label for="query">Query</label>
           <textarea class="form-control" id="query" rows="5" ng-model="sparqlcontroller.query"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="dataset">Data set</label>
+          <div id="dataset">
+            <div ng-repeat="ds in sparqlcontroller.datasets" class="radio-inline">
+              <label class="radio-inline">
+                <input type="radio" name="dataset" ng-checked="{{ds==sparqlcontroller.dataset}}">{{ds}}
+              </label>
+            </div>
+          </div>
         </div>
         <div class="form-group">
           <button class="btn btn-primary" type="submit" ng-click="sparqlcontroller.doQuery()">Submit query</button>
