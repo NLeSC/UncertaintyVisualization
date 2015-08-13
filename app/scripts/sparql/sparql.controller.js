@@ -6,17 +6,23 @@
     this.errorMessage = '';
     this.query = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . } LIMIT 100';
     this.dataset = 'dutchhouse';
-    this.showForm = false;
+    this.credentialsSet = false;
     this.jsonData = {};
     this.datasets = SparqlService.datasets;
     this.dataset = this.datasets[0];
 
     AuthenticationService.ready.then(function() {
-      this.showForm = true;
+      this.credentialsSet = true;
     }.bind(this));
 
     this.doQuery = function() {
       console.log('doQuery');
+      if(!this.credentialsSet){
+        this.errorMessage = 'Please log in before submitting a query.';
+        return;
+      } else {
+        this.errorMessage = '';
+      }
       SparqlService.doQuery(this.query, this.dataset).then(function(result) {
         if (typeof(result) === 'string') {
           if (result === '') {
