@@ -18,7 +18,7 @@
           <div id="dataset">
             <div ng-repeat="ds in sparqlcontroller.datasets" class="radio-inline">
               <label class="radio-inline">
-                <input type="radio" name="dataset" ng-checked="{{ds==sparqlcontroller.dataset}}">{{ds}}
+                <input type="radio" name="dataset" ng-checked="{{ds==sparqlcontroller.dataset}}" ng-click="sparqlcontroller.dataset=ds">{{ds}}
               </label>
             </div>
           </div>
