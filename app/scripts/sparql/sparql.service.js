@@ -22,7 +22,10 @@
     };
 
     this.doQuery = function(query, dataset) {
-      return $http.get(encodeURI(this.knowledgeStoreURL + query + '&dataset=' + dataset)).then(function(queryResult) {
+      var url = this.knowledgeStoreURL + encodeURI(query) + '&dataset=' + encodeURI(dataset);
+      // encodeURI does not encode #, which is a problem
+      url = url.replace(/#/g, '%23');
+      return $http.get(url).then(function(queryResult) {
         return queryResult;
       }, function (error){
         return error.statusText;
