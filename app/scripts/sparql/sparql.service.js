@@ -5,6 +5,7 @@
 
     //this.knowledgeStoreURL = 'https://knowledgestore2.fbk.eu/nwr/dutchhouse/sparql?query=';
     this.knowledgeStoreURL = 'https://shrouded-gorge-9256.herokuapp.com/do_sparql?query=';
+    //this.knowledgeStoreURL = 'http://0.0.0.0:5000/do_sparql?query=';
 
     this.exampleQuery = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . } LIMIT 100';
     //this.exampleQuery = 'SELECT%20*%20WHERE%20%7Bdbpedia%3ABarack_Obama%20rdfs%3Alabel%20%3Flabel%20.%20%7D%20LIMIT%20100';
@@ -14,12 +15,17 @@
 
     this.initialized = false;
 
-    // this.init = function() {
-    //   this.doQuery();
-    // };
+    this.datasets = ['cars', 'cars2', 'dutchhouse'];
 
-    this.doQuery = function(query) {
-      return $http.get(encodeURI(this.knowledgeStoreURL + query)).then(function(queryResult) {
+    this.init = function() {
+      this.doQuery();
+    };
+
+    this.doQuery = function(query, dataset) {
+      var url = this.knowledgeStoreURL + encodeURI(query) + '&dataset=' + encodeURI(dataset);
+      // encodeURI does not encode #, which is a problem
+      url = url.replace(/#/g, '%23');
+      return $http.get(url).then(function(queryResult) {
         return queryResult;
       }, function (error){
         return error.statusText;

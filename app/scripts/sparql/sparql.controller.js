@@ -4,17 +4,26 @@
   function SparqlController($scope, AuthenticationService, SparqlService, Messagebus) {
     this.resultText = '';
     this.errorMessage = '';
-    this.query = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . }';
-    this.showForm = false;
+    this.query = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . } LIMIT 100';
+    this.dataset = 'dutchhouse';
+    this.credentialsSet = false;
     this.jsonData = {};
+    this.datasets = SparqlService.datasets;
+    this.dataset = this.datasets[0];
 
     AuthenticationService.ready.then(function() {
-      this.showForm = true;
+      this.credentialsSet = true;
     }.bind(this));
 
     this.doQuery = function() {
-      // console.log('doQuery');
-      SparqlService.doQuery(this.query).then(function(result) {
+      console.log('doQuery');
+      if(!this.credentialsSet){
+        this.errorMessage = 'Please log in before submitting a query.';
+        return;
+      } else {
+        this.errorMessage = '';
+      }
+      SparqlService.doQuery(this.query, this.dataset).then(function(result) {
         if (typeof(result) === 'string') {
           if (result === '') {
             this.errorMessage = 'Something went wrong. Please check that the Flask app is running on https://shrouded-gorge-9256.herokuapp.com/ Or install locally.';
