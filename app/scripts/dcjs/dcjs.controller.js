@@ -3,6 +3,12 @@
 
   function DcjsController(d3, dc, crossfilter, colorbrewer) {
     this.init = function(element) {
+
+      var width = 900;
+      var height = 250;
+
+      console.log(width + ':'+height );
+
       var container = element.children[0];
       // var gainOrLossChart = dc.pieChart('#gain-loss-chart');
       // var fluctuationChart = dc.barChart('#fluctuation-chart');
@@ -166,9 +172,9 @@
 
         yearlyBubbleChart /* dc.bubbleChart('#yearly-bubble-chart', 'chartGroup') */
         // (_optional_) define chart width, `default = 200`
-          .width(990)
+          .width(width)
           // (_optional_) define chart height, `default = 200`
-          .height(250)
+          .height(height)
           // (_optional_) define chart transition duration, `default = 750`
           .transitionDuration(1500)
           .margins({

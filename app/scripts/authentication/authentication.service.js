@@ -7,12 +7,14 @@
 
     $rootScope.globals = {};
 
+
+
     this.Login = function(username, password, callback) {
       /* Dummy authentication for testing, uses $timeout to simulate api call
        ----------------------------------------------*/
       // $timeout(function() {
       var response = {
-         success: true
+        success: true
       };
       // if (!response.success) {
       //   response.message = 'Username or password is incorrect';
