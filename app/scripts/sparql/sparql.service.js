@@ -2,8 +2,9 @@
   'use strict';
 
   function SparqlService($q, $http, Messagebus, AuthenticationService) {
-    this.knowledgeStoreURL = 'http://localhost:5000/?query=';
-    //this.knowledgeStoreURL = 'http://httpbin.org/basic-auth/user/passwd';
+    //this.knowledgeStoreURL = 'https://knowledgestore2.fbk.eu/nwr/dutchhouse/sparql?query=';
+    this.knowledgeStoreURL = 'https://shrouded-gorge-9256.herokuapp.com/do_sparql?query=';
+    //this.knowledgeStoreURL = 'http://0.0.0.0:5000/do_sparql?query=';
 
     this.exampleQuery = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . } LIMIT 100';
     //this.exampleQuery = '';

@@ -121,15 +121,6 @@ API documentation is generated in `doc/` directory.
 
 ## Knowledge Store Authentication Workaround
 
-The Flask app requires Python 2.7 and pip.
+Requests to the Knowledge Store are send to a Flask app on heroku in order to circumvent the authorization issues. Please note that the app can be slow (it has to be woken up) and can't be used 24/7. However, for development this is probably sufficient.
 
-### Installation
-
-    cd UncertaintyVisualization
-    pip install -r requirements.txt
-
-### Run the Flask app
-
-In de `UncertaintyVisualization` directory run:
-
-    python server.py
+The Flask app can also be run locally. See [the github page](https://github.com/jvdzwaan/visun-flask) for installation instructions.
