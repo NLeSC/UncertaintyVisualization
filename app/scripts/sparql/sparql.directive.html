@@ -11,26 +11,40 @@
       <form class="form-vertical" role="form">
         <div class="form-group">
           <label for="query">Query</label>
-          <textarea class="form-control" id="query" rows="5" ng-model="sparqlcontroller.query"></textarea>
+          <textarea class="form-control" id="query" ng-model="sparqlcontroller.query" rows="5"></textarea>
         </div>
         <div class="form-group">
           <label for="dataset">Data set</label>
           <div id="dataset">
-            <div ng-repeat="ds in sparqlcontroller.datasets" class="radio-inline">
+            <div class="radio-inline" ng-repeat="ds in sparqlcontroller.datasets">
               <label class="radio-inline">
-                <input type="radio" name="dataset" ng-checked="{{ds==sparqlcontroller.dataset}}">{{ds}}
+                <input name="dataset" ng-checked="{{ds==sparqlcontroller.dataset}}" type="radio">{{ds}}
               </label>
             </div>
           </div>
         </div>
         <div class="form-group">
-          <button class="btn btn-primary" type="submit" ng-click="sparqlcontroller.doQuery()">Submit query</button>
+          <button class="btn btn-primary" ng-click="sparqlcontroller.doQuery()" type="submit">Submit query</button>
         </div>
       </form>
 
       <div id="resultText" ng-show="sparqlcontroller.resultText">
         <h2>Query results</h2>
         {{sparqlcontroller.resultText}}
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th ng-repeat="h in sparqlcontroller.jsonData.head.vars">{{h}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="b in sparqlcontroller.jsonData.results.bindings">
+              <td ng-repeat="h in sparqlcontroller.jsonData.head.vars">
+                <span ng-bind-html="b[h] | formatSparqlBinding"></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
     </div>
