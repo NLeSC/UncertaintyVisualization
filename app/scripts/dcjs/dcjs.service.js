@@ -1,8 +1,8 @@
 (function() {
   'use strict';
 
-  function DcjsService(d3, dc, crossfilter) {
-    
+  function DcjsService() {
+
   }
 
   angular.module('uncertApp.dcjs').service('DcjsService', DcjsService);

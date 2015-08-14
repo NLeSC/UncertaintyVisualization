@@ -18,8 +18,8 @@ describe('sparql', function() {
       });
     });
 
-    it('should create an element with a result text box', function() {
-      expect(html.html()).toContain('div id="queryResult"');
+    it('should create an element with a text box to input sparql queries', function() {
+      expect(html.html()).toContain('<textarea class="form-control ng-pristine ng-untouched ng-valid" id="query" ng-model="sparqlcontroller.query" rows="5"></textarea>');
     });
   });
 
@@ -38,9 +38,9 @@ describe('sparql', function() {
       expect(ctrl).toBeDefined();
     });
 
-    it('should have a textResult object with an empty string', function() {
-      expect(ctrl.resultText).toBeDefined();
-      expect(ctrl.resultText).toMatch('');
+    it('should have an empty jsonData object', function() {
+      expect(ctrl.jsonData).toBeDefined();
+      expect(ctrl.jsonData).toEqual({});
     });
   });
 });

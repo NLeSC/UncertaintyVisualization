@@ -1,8 +1,7 @@
 (function() {
   'use strict';
 
-  function SparqlController($scope, AuthenticationService, SparqlService) {
-    this.resultText = '';
+  function SparqlController($scope, AuthenticationService, SparqlService, Messagebus) {
     this.errorMessage = '';
     this.query = 'SELECT DISTINCT ?source ?doc \n' +
         'WHERE { \n' +
@@ -42,8 +41,8 @@
           }
         } else {
           this.jsonData = result.data;
-          this.resultText = JSON.stringify(this.jsonData);
-          console.log(this.jsonData);
+          Messagebus.publish('received query result', this.jsonData);
+          // console.log(this.jsonData);
         }
       }.bind(this));
     };
