@@ -2,8 +2,10 @@
   'use strict';
 
   function AuthenticationService($q, Base64, $http, $cookieStore, $rootScope) {
-    var deferred = $q.defer();
-    this.ready = deferred.promise;
+    this.deferred = $q.defer();
+    this.ready = this.deferred.promise;
+
+    $rootScope.globals = {};
 
     this.Login = function(username, password, callback) {
       /* Dummy authentication for testing, uses $timeout to simulate api call
@@ -42,13 +44,13 @@
       $http.defaults.headers.common['Authorization'] = 'Basic ' + authdata; // jshint ignore:line
       // $http.defaults.headers.common['Authorization'] = 'Basic ' + username + ':' + password; // jshint ignore:line
       $cookieStore.put('globals', $rootScope.globals);
-      deferred.resolve();
+      this.deferred.resolve();
     };
 
     this.ClearCredentials = function() {
       $rootScope.globals = {};
       $cookieStore.remove('globals');
-      $http.defaults.headers.common.Authorization = 'Basic ';
+      $http.defaults.headers.common['Authorization'] = 'Basic '; // jshint ignore:line
     };
   }
 
