@@ -2,6 +2,39 @@
   'use strict';
 
   function DcjsController(d3, dc, crossfilter, colorbrewer, Messagebus) {
+    this.requestee = 'DcjsController';
+    this.queryPre = 'SELECT * \n' +
+      'WHERE {  \n' +
+      '  VALUES ?event { <';
+    this.queryPost = '> }  \n {  \n' +
+      '    GRAPH ?graph { ?event ?predicate ?object . }  \n' +
+      '    ?graph prov:wasAttributedTo ?source .  \n' +
+      '  }  \n' +
+      '}  \n';
+    this.queryEvent = 'http://www.newsreader-project.eu/data/cars/2009/05/22/7VRY-F631-2PP8-S0NC.xml#ev21';
+    this.errorMessage = '';
+    this.datasets = ['cars', 'cars2', 'dutchhouse', 'wikinews'];
+    this.dataset = this.datasets[0];
+
+    Messagebus.subscribe('queryResult '+this.requestee, function(event, queryResult) {
+      if (queryResult.status === 'success') {
+        this.jsonData = queryResult.data.data;
+        Messagebus.publish('received query result', this.jsonData);
+      } else {
+        if (queryResult.data === '') {
+          this.errorMessage = 'Something went wrong. Please check that the Flask app is running on https://shrouded-gorge-9256.herokuapp.com/ Or install locally.';
+        } else {
+          this.errorMessage = queryResult.data;
+        }
+      }
+    }.bind(this));
+
+    this.doQuery = function() {
+      this.errorMessage = '';
+      var queryURL = encodeURI(this.queryPre+this.queryEvent+this.queryPost) + '&dataset=' + encodeURI(this.dataset);
+      Messagebus.publish('query', {requestee:this.requestee, url:queryURL});
+    };
+
     this.queryResult = '';
 
     Messagebus.subscribe('received query result', function(event, jsonData) {
@@ -19,7 +52,7 @@
       var width = 900;
       var height = 250;
 
-      var container = element.children[0];
+      var container = element.children[1];
       // var gainOrLossChart = dc.pieChart('#gain-loss-chart');
       // var fluctuationChart = dc.barChart('#fluctuation-chart');
       // var quarterChart = dc.pieChart('#quarter-chart');

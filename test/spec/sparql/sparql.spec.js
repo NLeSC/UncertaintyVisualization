@@ -43,4 +43,8 @@ describe('sparql', function() {
       expect(ctrl.jsonData).toEqual({});
     });
   });
+
+  describe('service', function() {
+
+  });
 });

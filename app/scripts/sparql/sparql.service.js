@@ -1,38 +1,35 @@
 (function() {
   'use strict';
 
-  function SparqlService($q, $http) {
-
-    //this.knowledgeStoreURL = 'https://knowledgestore2.fbk.eu/nwr/dutchhouse/sparql?query=';
+  function SparqlService($q, $http, AuthenticationService, Messagebus) {
+    // this.knowledgeStoreURL = 'https://knowledgestore2.fbk.eu/nwr/cars2/sparql?query=';
     this.knowledgeStoreURL = 'https://shrouded-gorge-9256.herokuapp.com/do_sparql?query=';
-    //this.knowledgeStoreURL = 'http://0.0.0.0:5000/do_sparql?query=';
-
-    this.exampleQuery = 'SELECT * WHERE {dbpedia:Barack_Obama rdfs:label ?label . } LIMIT 100';
-    //this.exampleQuery = 'SELECT%20*%20WHERE%20%7Bdbpedia%3ABarack_Obama%20rdfs%3Alabel%20%3Flabel%20.%20%7D%20LIMIT%20100';
 
     var deferred = $q.defer();
     this.ready = deferred.promise;
 
-    this.initialized = false;
-
     this.datasets = ['cars', 'cars2', 'dutchhouse', 'wikinews'];
 
-    this.init = function() {
-      this.doQuery();
-    };
+    this.credentialsSet = false;
+    AuthenticationService.ready.then(function() {
+      this.credentialsSet = true;
+    }.bind(this));
 
-    this.doQuery = function(query, dataset) {
-      var url = this.knowledgeStoreURL + encodeURI(query) + '&dataset=' + encodeURI(dataset);
-      // encodeURI does not encode #, which is a problem
-      url = url.replace(/#/g, '%23');
+    Messagebus.subscribe('query', function(event, queryStruct) {
+      if (!this.credentialsSet) {
+        Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:'Not logged in.'});
+        return;
+      }
+
+      var url = this.knowledgeStoreURL + queryStruct.url.replace(/#/g, '%23');
+
       return $http.get(url).then(function(queryResult) {
-        return queryResult;
-      }, function (error){
-        return error.statusText;
+        Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'success', data:queryResult});
+      }, function(error) {
+        Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:error.statusText});
       });
-    };
 
-    // this.init();
+    }.bind(this));
   }
 
   angular.module('uncertApp.sparql').service('SparqlService', SparqlService);

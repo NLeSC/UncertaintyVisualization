@@ -1,7 +1,8 @@
 (function() {
   'use strict';
 
-  function SparqlController($scope, AuthenticationService, SparqlService, Messagebus) {
+  function SparqlController($scope, AuthenticationService, Messagebus) {
+    this.requestee = 'SparqlController';
     this.errorMessage = '';
     this.query = 'SELECT DISTINCT ?source ?doc \n' +
         'WHERE { \n' +
@@ -15,36 +16,28 @@
         '} \n' +
         'ORDER BY ?doc';
     this.dataset = 'dutchhouse';
-    this.credentialsSet = false;
     this.jsonData = {};
-    this.datasets = SparqlService.datasets;
+
+    this.datasets = ['cars', 'cars2', 'dutchhouse', 'wikinews'];
     this.dataset = this.datasets[0];
 
-    AuthenticationService.ready.then(function() {
-      this.credentialsSet = true;
+    Messagebus.subscribe('queryResult '+this.requestee, function(event, queryResult) {
+      if (queryResult.status === 'success') {
+        this.jsonData = queryResult.data.data;
+        Messagebus.publish('received query result', this.jsonData);
+      } else {
+        if (queryResult.data === '') {
+          this.errorMessage = 'Something went wrong. Please check that the Flask app is running on https://shrouded-gorge-9256.herokuapp.com/ Or install locally.';
+        } else {
+          this.errorMessage = queryResult.data;
+        }
+      }
     }.bind(this));
 
     this.doQuery = function() {
-      console.log('doQuery');
-      if(!this.credentialsSet){
-        this.errorMessage = 'Please log in before submitting a query.';
-        return;
-      } else {
-        this.errorMessage = '';
-      }
-      SparqlService.doQuery(this.query, this.dataset).then(function(result) {
-        if (typeof(result) === 'string') {
-          if (result === '') {
-            this.errorMessage = 'Something went wrong. Please check that the Flask app is running on https://shrouded-gorge-9256.herokuapp.com/ Or install locally.';
-          } else {
-            this.errorMessage = result;
-          }
-        } else {
-          this.jsonData = result.data;
-          Messagebus.publish('received query result', this.jsonData);
-          // console.log(this.jsonData);
-        }
-      }.bind(this));
+      this.errorMessage = '';
+      var queryURL = encodeURI(this.query) + '&dataset=' + encodeURI(this.dataset);
+      Messagebus.publish('query', {requestee:this.requestee, url:queryURL});
     };
 
   }

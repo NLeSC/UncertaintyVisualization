@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function sparqlDirective() {
+  function sparqlDirective(SparqlService) {
     return {
       restrict: 'E',
       templateUrl: 'scripts/sparql/sparql.directive.html',
