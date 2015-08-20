@@ -10,7 +10,7 @@ describe('authentication', function() {
       inject(function(_AuthenticationService_, $rootScope, $http, $cookieStore) {
         AuthenticationService = _AuthenticationService_;
         rootScope = $rootScope;
-        http = $http;
+        http = $http; 
         cookieStore = $cookieStore;
       });
     });
@@ -20,10 +20,8 @@ describe('authentication', function() {
       expect(rootScope.globals).toEqual(expected);
     });
 
-    it('should contain a ready promise which is initially unresolved', function() {
-      expect(AuthenticationService.deferred).toBeDefined();
-      expect(AuthenticationService.ready).toBeDefined();
-      expect(AuthenticationService.ready).toEqual(AuthenticationService.deferred.promise);
+    it('should contain a credentialsSet variable that is initially false', function() {
+      expect(AuthenticationService.credentialsSet).toBeFalsy();
     });
 
     var username = 'maarten';
@@ -82,8 +80,8 @@ describe('authentication', function() {
         expect(cookieStore.get('globals')).toEqual(expectedRootScopeGlobals);
       });
 
-      it('should have resolved the promise on ready', function() {
-        expect(AuthenticationService.ready).toBeTruthy();
+      it('should have set the credentialsSet variable to be true', function() {
+        expect(AuthenticationService.credentialsSet).toBeTruthy();
       });
     });
 
@@ -115,6 +113,12 @@ describe('authentication', function() {
         var expected ='Basic ';
         AuthenticationService.ClearCredentials();
         expect(http.defaults.headers.common.Authorization).toEqual(expected);
+      });
+
+      it('should have set the credentialsSet variable to be true', function() {
+        AuthenticationService.credentialsSet = false;
+        AuthenticationService.ClearCredentials();
+        expect(AuthenticationService.credentialsSet).toBeFalsy();
       });
     });
   });
