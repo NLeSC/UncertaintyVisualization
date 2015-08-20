@@ -18,7 +18,7 @@
 
     Messagebus.subscribe('queryResult '+this.requestee, function(event, queryResult) {
       if (queryResult.status === 'success') {
-        this.jsonData = queryResult.data.data;
+        this.jsonData = queryResult.data;
         Messagebus.publish('received query result', this.jsonData);
       } else {
         if (queryResult.data === '') {

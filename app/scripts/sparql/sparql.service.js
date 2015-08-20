@@ -24,13 +24,9 @@
       var url = this.knowledgeStoreURL + queryStruct.url.replace(/#/g, '%23');
 
       return $http.get(url).then(function(queryResult) {
-        if (queryResult.data.status === 200) {
-          Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'success', data:queryResult.data});
-        } else {
-          Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:queryResult.statusText});
-        }
+        Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'success', data:queryResult.data});
       }, function(error) {
-        Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:error.statusText});
+        Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:error.data.statusText});
       });
     };
 
