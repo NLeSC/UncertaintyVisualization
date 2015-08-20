@@ -1,13 +1,10 @@
 (function() {
   'use strict';
 
-  function AuthenticationService($q, Base64, $http, $cookieStore, $rootScope) {
-    this.deferred = $q.defer();
-    this.ready = this.deferred.promise;
+  function AuthenticationService(Base64, $http, $cookieStore, $rootScope) {
+    this.credentialsSet = false;
 
     $rootScope.globals = {};
-
-
 
     this.Login = function(username, password, callback) {
       /* Dummy authentication for testing, uses $timeout to simulate api call
@@ -46,13 +43,14 @@
       $http.defaults.headers.common['Authorization'] = 'Basic ' + authdata; // jshint ignore:line
       // $http.defaults.headers.common['Authorization'] = 'Basic ' + username + ':' + password; // jshint ignore:line
       $cookieStore.put('globals', $rootScope.globals);
-      this.deferred.resolve();
+      this.credentialsSet = true;
     };
 
     this.ClearCredentials = function() {
       $rootScope.globals = {};
       $cookieStore.remove('globals');
       $http.defaults.headers.common['Authorization'] = 'Basic '; // jshint ignore:line
+      this.credentialsSet = false;
     };
   }
 

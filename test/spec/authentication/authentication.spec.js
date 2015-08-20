@@ -7,13 +7,13 @@ describe('authentication', function() {
 
   describe('directive', function() {
     var element = '<authentication-directive></authentication-directive>';
-    var html;
-    var scope;
+    var html, scope;
 
     beforeEach(function() {
-      inject(function($rootScope, $compile) {
+      inject(function($rootScope, $compile) {        
         scope = $rootScope.$new();
         html = $compile(element)(scope);
+
         scope.$digest();
       });
     });
@@ -21,6 +21,7 @@ describe('authentication', function() {
     it('should create an element for an error message', function() {
       scope.error = 'fake error message';
       scope.$digest();
+
       expect(html.html()).toContain('<div ng-show="error" class="alert alert-danger ng-binding">fake error message</div>');
     });
 

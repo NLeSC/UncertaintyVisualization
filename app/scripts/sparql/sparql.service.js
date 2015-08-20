@@ -5,18 +5,18 @@
     // this.knowledgeStoreURL = 'https://knowledgestore2.fbk.eu/nwr/cars2/sparql?query=';
     this.knowledgeStoreURL = 'https://shrouded-gorge-9256.herokuapp.com/do_sparql?query=';
 
-    var deferred = $q.defer();
-    this.ready = deferred.promise;
+    this.queryKnowledgeBase = function(queryStruct) {
+      if (queryStruct.requestee === undefined) {
+        Messagebus.publish('error', 'queryKnowledgeBase input error, no requestee set');
+        return;
+      }
 
-    this.datasets = ['cars', 'cars2', 'dutchhouse', 'wikinews'];
+      if (queryStruct.url === undefined) {
+        Messagebus.publish('queryResult '+queryStruct.requestee, {url:'', status:'error', data:'No struct provided with both requestee and url.'});
+        return;
+      }
 
-    this.credentialsSet = false;
-    AuthenticationService.ready.then(function() {
-      this.credentialsSet = true;
-    }.bind(this));
-
-    Messagebus.subscribe('query', function(event, queryStruct) {
-      if (!this.credentialsSet) {
+      if (!AuthenticationService.credentialsSet) {
         Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:'Not logged in.'});
         return;
       }
@@ -24,11 +24,18 @@
       var url = this.knowledgeStoreURL + queryStruct.url.replace(/#/g, '%23');
 
       return $http.get(url).then(function(queryResult) {
-        Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'success', data:queryResult});
+        if (queryResult.data.status === 200) {
+          Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'success', data:queryResult.data});
+        } else {
+          Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:queryResult.statusText});
+        }
       }, function(error) {
         Messagebus.publish('queryResult '+queryStruct.requestee, {url:queryStruct.url, status:'error', data:error.statusText});
       });
+    };
 
+    Messagebus.subscribe('query', function(event, queryStruct) {
+      this.queryKnowledgeBase(queryStruct);
     }.bind(this));
   }
 
