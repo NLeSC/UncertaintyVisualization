@@ -1,0 +1,727 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02288295-v-and-ili-30-02289295-v-and-ili-30-02292125-v
+            a              sem:Event , fn:Getting , eso:Getting , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02288295-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02289295-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02292125-v> ;
+            rdfs:label     "gain" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1611,1617> .
+    
+    <http://www.newsreader-project.eu/time/20041124>
+            a              time:DateTimeDescription ;
+            time:day       "---24"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct>
+            a                time:Interval ;
+            rdfs:label       "2004-11-24T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20041124> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev34>
+            a              sem:Event ;
+            rdfs:label     "discussion" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=50,61> .
+    
+    <http://www.newsreader-project.eu/data/timeline/entities/Boeing-Air_Force>
+            a              nwrontology:ORGANIZATION ;
+            rdfs:label     "Boeing-Air Force" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=24,40> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tmx1>
+            a                time:Interval ;
+            rdfs:label       "November" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=63,71> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=72,74> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=74,75> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20041124> .
+    
+    nwrontology:ili-30-02090435-v-and-ili-30-02089420-v-and-ili-30-02089984-v-and-ili-30-02096167-v
+            a              sem:Event , fn:Cause_to_move_in_place , fn:Change_direction , fn:Moving_in_place , eso:Motion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02090435-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02089420-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02089984-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02096167-v> ;
+            rdfs:label     "turn" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1888,1892> .
+    
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            a              sem:Event , fn:Replacing , fn:Take_place_of , eso:Replacing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02257767-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00162688-v> ;
+            rdfs:label     "replace" , "replacement" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1272,1279> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4287,4298> .
+    
+    <http://dbpedia.org/resource/Boeing>
+            rdfs:label     "aircraft manufacturer Boeing" , "Boeing" , "Boeing 's" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=205,211> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=423,429> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2748,2754> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2902,2908> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3144,3150> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2991,2993> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=708,714> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1262,1268> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1407,1415> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1658,1664> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=614,620> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=183,211> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3797,3803> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3238,3244> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3923,3929> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1407,1413> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3890,3896> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/its+tanker+fleet>
+            rdfs:label     "its tanker fleet" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1280,1296> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/to+replace+its+tanker+fleet>
+            rdfs:label     "to replace its tanker fleet" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1269,1296> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/tanker+replacement>
+            rdfs:label     "tanker replacement" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4281,4298> .
+    
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v
+            a              sem:Event , fn:Giving , eso:Giving , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01178565-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02199590-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02200686-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02200498-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02316868-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02230772-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02359553-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02309374-v> ;
+            rdfs:label     "give" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3179,3183> .
+    
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            a              sem:Event , eso:Motion , fn:Departing , fn:Path_shape , eso:Leaving , eso:LeavingAnOrganization , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02009433-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02015598-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02383440-v> ;
+            rdfs:label     "leave" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=970,976> .
+    
+    nwrontology:ili-30-02667228-v-and-ili-30-00805228-v
+            a              sem:Event , fn:Compatibility , fn:Hostile_encounter , nwrontology:SPEECH_COGNITIVE , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02667228-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00805228-v> ;
+            rdfs:label     "controversy" , "conflict" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1017,1026> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4044,4052> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4029,4040> .
+    
+    nwrontology:ili-30-02727462-v-and-ili-30-00117985-v-and-ili-30-01857392-v-and-ili-30-02009200-v-and-ili-30-02637202-v
+            a              sem:Event , fn:Residence , fn:State_continue , fn:Avoiding , eso:BeingAtAPlace , eso:SocialInteraction , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02727462-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00117985-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01857392-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02009200-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02637202-v> ;
+            rdfs:label     "stay" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2570,2576> .
+    
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            a              sem:Event , eso:Motion , fn:Arriving , fn:Reveal_secret , eso:Arriving , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01849221-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02005948-v> ;
+            rdfs:label     "come" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2480,2484> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev79>
+            a              sem:Event , fn:Cause_harm , eso:Injuring ;
+            rdfs:label     "torture" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2579,2587> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev36_7>
+            a              sem:Event ;
+            rdfs:label     "work" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3881,3885> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev94>
+            a              sem:Event ;
+            rdfs:label     "consideration" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3782,3795> .
+    
+    nwrontology:ili-30-02203168-v-and-ili-30-02203844-v-and-ili-30-02204094-v-and-ili-30-01184625-v
+            a              sem:Event , fn:Avoiding , fn:Storing , fn:Activity_ongoing , fn:Cause_to_continue , eso:Placing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02203168-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02203844-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02204094-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01184625-v> ;
+            rdfs:label     "keep" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2179,2183> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes>
+            rdfs:label     "their record of bribe" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2184,2206> .
+    
+    nwrontology:ili-30-00014742-v
+            a              sem:Event , fn:Sleep , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00014742-v> ;
+            rdfs:label     "sleep" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2027,2032> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev33>
+            a              sem:Event ;
+            rdfs:label     "email" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=10,16> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2648,2653> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3010,3015> .
+    
+    <http://dbpedia.org/resource/Hoffmann-La_Roche>
+            rdfs:label     "James Roche" , "Roche" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2075,2080> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2527,2532> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3018,3023> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3073,3075> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2685,2696> .
+    
+    <http://www.newsreader-project.eu/data/timeline/entities/Burkhardt_%26_Associates>
+            a              nwrontology:ORGANIZATION ;
+            rdfs:label     "Burkhardt &amp; Associates" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2659,2680> .
+    
+    nwrontology:ili-30-00471711-v-and-ili-30-00072989-v-and-ili-30-00685419-v-and-ili-30-02629256-v
+            a              sem:Event , fn:Killing , fn:Removing , eso:Killing , eso:Removing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00471711-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00072989-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00685419-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02629256-v> ;
+            rdfs:label     "preclude" , "eliminate" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=804,815> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3458,3467> .
+    
+    nwrontology:ili-30-02294436-v-and-ili-30-01378556-v-and-ili-30-02201644-v-and-ili-30-02479990-v
+            a              sem:Event , fn:Dispersal , eso:Distribution , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02294436-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01378556-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02201644-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02479990-v> ;
+            rdfs:label     "distribute" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2793,2803> .
+    
+    nwrontology:ili-30-02409412-v
+            a              sem:Event , fn:Employing , eso:InEmployment , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02409412-v> ;
+            rdfs:label     "personnel" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1061,1070> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4170,4179> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/Former+military+personnel>
+            rdfs:label     "former military personnel" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4156,4179> .
+    
+    nwrontology:ili-30-02174662-v-and-ili-30-02187510-v
+            a              sem:Event , fn:Make_noise , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02174662-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02187510-v> ;
+            rdfs:label     "boom" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1963,1967> .
+    
+    <http://dbpedia.org/resource/Airbus>
+            rdfs:label     "their" , "Airbus" , "Airbus 's" , "Air Force" , "Airbus manufacturers" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1433,1439> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3064,3070> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1954,1962> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2059,2068> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1467,1473> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2349,2355> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1538,1544> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1229,1238> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1323,1332> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1444,1447> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2514,2522> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2017,2019> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1538,1558> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1872,1874> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2184,2189> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2134,2138> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1737,1743> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1954,1960> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt34> {
+    nwrontology:ili-30-02288295-v-and-ili-30-02289295-v-and-ili-30-02292125-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt34>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1611,1617> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv431>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1611,1617> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=50,71> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr2,rl3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=24,61> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1888,1892> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr51,rl114>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1888,1908> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1888,1892> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1272,1279> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr37,rl85>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1262,1279> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr37,rl86>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1272,1296> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv41>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1272,1279> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4287,4298> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr133,rl306>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4281,4298> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3179,3183> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr92,rl220>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3179,3245> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv81>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3179,3183> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt27>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=970,976> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr28,rl65>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=970,993> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr28,rl66>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=970,1038> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr28,rl67>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=970,1070> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv371>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=970,976> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt36>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1017,1026> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4044,4052> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4029,4040> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr30,rl69>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1017,1038> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr123,rl283>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4029,4062> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt58>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2570,2576> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv571>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2570,2576> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt55>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2480,2484> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr69,rl161>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2457,2484> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv541>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2480,2484> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt59>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2579,2587> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv581>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2579,2587> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3881,3885> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr118,rl272>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3881,3896> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv31>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3881,3885> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt72>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3782,3795> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr115,rl266>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3782,3803> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt33>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2179,2183> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr63,rl143>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2179,2206> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv421>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2179,2183> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt49>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2027,2032> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv501>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2027,2032> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tr1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=10,71> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr76,rl183>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2648,2696> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv01>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=10,16> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt22>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=804,815> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3458,3467> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv311>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=804,815> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=3458,3467> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt18>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2793,2803> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr81,rl194>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2788,2828> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv221>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=2793,2803> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt37>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1061,1070> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4170,4179> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr31,rl70>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1049,1070> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr127,rl292>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4156,4179> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt47>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1963,1967> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr56,rl122>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1954,1967> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr56,rl123>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1963,2005> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv431> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev54_3>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tr2> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev34>
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr2,rl3> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev34>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/entities/Boeing-Air_Force> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Boeing-Air_Force> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt4> {
+    nwrontology:ili-30-02090435-v-and-ili-30-02089420-v-and-ili-30-02089984-v-and-ili-30-02096167-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr51,rl114> {
+    nwrontology:ili-30-02090435-v-and-ili-30-02089420-v-and-ili-30-02089984-v-and-ili-30-02096167-v
+            sem:hasActor               <http://www.newsreader-project.eu/data/timeline/non-entities/the+other+cheek> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_move_in_place@Bodypart_of_agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+other+cheek> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_move_in_place@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+other+cheek> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_direction@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+other+cheek> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_direction@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+other+cheek> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Moving_in_place@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+other+cheek> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+other+cheek> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv51> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev36_3>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt2> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr37,rl85> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasActor          <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Replacing@New>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Take_place_of@New>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr37,rl86> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/its+tanker+fleet> , <http://www.newsreader-project.eu/data/timeline/non-entities/to+replace+its+tanker+fleet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Replacing@Old>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+tanker+fleet> , <http://www.newsreader-project.eu/data/timeline/non-entities/to+replace+its+tanker+fleet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Take_place_of@Old>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+tanker+fleet> , <http://www.newsreader-project.eu/data/timeline/non-entities/to+replace+its+tanker+fleet> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+tanker+fleet> , <http://www.newsreader-project.eu/data/timeline/non-entities/to+replace+its+tanker+fleet> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv41> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev36_2>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt3> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr133,rl306> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/tanker+replacement> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Replacing@Old>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/tanker+replacement> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Take_place_of@Old>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/tanker+replacement> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/tanker+replacement> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt7> {
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr92,rl220> {
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/entities/Blue_Eyed_Arabs_of_the_North> ;
+            eso:possession-owner_2  <http://www.newsreader-project.eu/data/timeline/entities/Blue_Eyed_Arabs_of_the_North> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Giving@Recipient>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Blue_Eyed_Arabs_of_the_North> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Blue_Eyed_Arabs_of_the_North> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv81> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev36_5>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt27> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr28,rl65> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/no-bid+contracts> ;
+            eso:translocation-source  <http://www.newsreader-project.eu/data/timeline/non-entities/no-bid+contracts> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Departing@Source>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/no-bid+contracts> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Path_shape@Source>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/no-bid+contracts> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/no-bid+contracts> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr28,rl66> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/of+conflicts+of+interest> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+conflicts+of+interest> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr28,rl67> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasPlace  <http://www.newsreader-project.eu/data/timeline/non-entities/the+procurement+personnel> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+procurement+personnel> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv371> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev54_1>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt36> {
+    nwrontology:ili-30-02667228-v-and-ili-30-00805228-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr30,rl69> {
+    nwrontology:ili-30-02667228-v-and-ili-30-00805228-v
+            sem:hasActor                 <http://www.newsreader-project.eu/data/timeline/non-entities/of+conflicts+of+interest> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+interest> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Hostile_encounter@Side_2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+conflicts+of+interest> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+interest> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+conflicts+of+interest> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+interest> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr123,rl283> {
+    nwrontology:ili-30-02667228-v-and-ili-30-00805228-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/a+controversy+over+conflict+of+interest> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+controversy+over+conflict+of+interest> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt58> {
+    nwrontology:ili-30-02727462-v-and-ili-30-00117985-v-and-ili-30-01857392-v-and-ili-30-02009200-v-and-ili-30-02637202-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv571> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev78>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt55> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr69,rl161> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/his+day+of+reckoning> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/his+day+of+reckoning> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Reveal_secret@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/his+day+of+reckoning> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/his+day+of+reckoning> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv541> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev75>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt59> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev79>
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv581> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev79>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt1> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev36_7>
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr118,rl272> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev36_7>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A3>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv31> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev36_7>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt72> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev94>
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr115,rl266> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev94>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt33> {
+    nwrontology:ili-30-02203168-v-and-ili-30-02203844-v-and-ili-30-02204094-v-and-ili-30-01184625-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr63,rl143> {
+    nwrontology:ili-30-02203168-v-and-ili-30-02203844-v-and-ili-30-02204094-v-and-ili-30-01184625-v
+            sem:hasActor                  <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes> ;
+            eso:translocation-theme       <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Activity_ongoing@Activity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Avoiding@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_continue@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Storing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+record+of+bribes> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv421> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev54_7>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt49> {
+    nwrontology:ili-30-00014742-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv501> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev69>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tr1> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev33>
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr76,rl183> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev33>
+            sem:hasActor  <http://dbpedia.org/resource/Hoffmann-La_Roche> , <http://www.newsreader-project.eu/data/timeline/entities/Burkhardt_%26_Associates> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Hoffmann-La_Roche> , <http://www.newsreader-project.eu/data/timeline/entities/Burkhardt_%26_Associates> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv01> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev33>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt22> {
+    nwrontology:ili-30-00471711-v-and-ili-30-00072989-v-and-ili-30-00685419-v-and-ili-30-02629256-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv311> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev51>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt18> {
+    nwrontology:ili-30-02294436-v-and-ili-30-01378556-v-and-ili-30-02201644-v-and-ili-30-02479990-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr81,rl194> {
+    nwrontology:ili-30-02294436-v-and-ili-30-01378556-v-and-ili-30-02201644-v-and-ili-30-02479990-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/%27%27I%27+per> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/%27%27I%27+per> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Dispersal@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/%27%27I%27+per> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/%27%27I%27+per> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv221> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev39_3>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt37> {
+    nwrontology:ili-30-02409412-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr31,rl70> {
+    nwrontology:ili-30-02409412-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/the+procurement+personnel> ;
+            eso:employment-employer  <http://www.newsreader-project.eu/data/timeline/non-entities/the+procurement+personnel> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Employing@Employer>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+procurement+personnel> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+procurement+personnel> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr127,rl292> {
+    nwrontology:ili-30-02409412-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/Former+military+personnel> ;
+            eso:employment-employee  <http://www.newsreader-project.eu/data/timeline/non-entities/Former+military+personnel> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Employing@Employee>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Former+military+personnel> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Former+military+personnel> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dt47> {
+    nwrontology:ili-30-02174662-v-and-ili-30-02187510-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#dct> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr56,rl122> {
+    nwrontology:ili-30-02174662-v-and-ili-30-02187510-v
+            sem:hasActor               <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Make_noise@Noisy_event>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr56,rl123> {
+    nwrontology:ili-30-02174662-v-and-ili-30-02187510-v
+            sem:hasActor               <http://www.newsreader-project.eu/data/timeline/non-entities/footprint+%2C+and+financial+shortcoming> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Make_noise@Noisy_event>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/footprint+%2C+and+financial+shortcoming> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/footprint+%2C+and+financial+shortcoming> .
+}

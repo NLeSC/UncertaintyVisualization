@@ -1,0 +1,63 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01239359-v
+            a              sem:Event , fn:Placing , eso:Placing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01239359-v> ;
+            rdfs:label     "shoulder" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1064,1074> .
+    
+    <http://www.newsreader-project.eu/time/201001>
+            a              time:DateTimeDescription ;
+            time:month     "--01"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#tmx8>
+            a                time:Interval ;
+            rdfs:label       "month" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1264,1267> , <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1268,1271> , <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1272,1274> , <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1275,1278> , <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1279,1284> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/201001> .
+}
+
+<http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#tr27> {
+    nwrontology:ili-30-01239359-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#tmx8> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#tr27>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1064,1267> .
+    
+    <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#pr35,rl82>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1048,1074> .
+    
+    <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#fv201>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#char=1064,1074> .
+}
+
+<http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#pr35,rl82> {
+    nwrontology:ili-30-01239359-v
+            sem:hasActor      <http://www.newsreader-project.eu/data/timeline/non-entities/this+cost> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Placing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/this+cost> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/this+cost> .
+}
+
+<http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#fv201> {
+    <http://en.wikinews.org/wiki/Technical_problem_on_Airbus_A400M_maiden_flight#ev33>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}

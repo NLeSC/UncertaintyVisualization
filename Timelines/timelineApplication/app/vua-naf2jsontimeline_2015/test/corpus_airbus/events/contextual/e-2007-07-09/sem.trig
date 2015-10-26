@@ -1,0 +1,165 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-00429060-v
+            a              sem:Event , fn:Cause_change_of_position_on_a_scale , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00429060-v> ;
+            rdfs:label     "reduction" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=858,867> .
+    
+    <http://www.newsreader-project.eu/time/20070709>
+            a              time:DateTimeDescription ;
+            time:day       "---09"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--07"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dct>
+            a                time:Interval ;
+            rdfs:label       "2007-07-09T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20070709> .
+    
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            a              sem:Event , eso:QuantityChange , fn:Arriving , fn:Change_position_on_a_scale , fn:Path_shape , eso:Giving , eso:Arriving , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02230772-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02020590-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02006834-v> ;
+            rdfs:label     "reach" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2104,2111> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tmx10>
+            a                time:Interval ;
+            rdfs:label       "Today" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2029,2034> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20070709> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tmx11>
+            a                time:Interval ;
+            rdfs:label       "today" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2301,2306> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20070709> .
+    
+    nwrontology:ili-30-01583142-v-and-ili-30-01654628-v
+            a              sem:Event , fn:Building , eso:Constructing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01583142-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01654628-v> ;
+            rdfs:label     "construction" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=811,823> .
+    
+    nwrontology:ili-30-00998399-v
+            a              sem:Event , fn:Recording , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00998399-v> ;
+            rdfs:label     "history" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2061,2068> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dt8> {
+    nwrontology:ili-30-00429060-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dct> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dt8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=858,867> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr28,rl59>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=858,877> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tr61>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2029,2111> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tr62>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2104,2306> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr65,rl137>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2084,2111> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#fv281>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2104,2111> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dt3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=811,823> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr23,rl48>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=780,823> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr23,rl49>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=794,823> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tr60>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#char=2029,2068> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr28,rl59> {
+    nwrontology:ili-30-00429060-v
+            sem:hasActor        <http://www.newsreader-project.eu/data/timeline/non-entities/of+weight> ;
+            eso:quantity-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/of+weight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+weight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+weight> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tr61> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tmx10> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tr62> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tmx11> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr65,rl137> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/such+a+milestone> ;
+            eso:translocation-goal  <http://www.newsreader-project.eu/data/timeline/non-entities/such+a+milestone> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/such+a+milestone> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_position_on_a_scale@Difference>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/such+a+milestone> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Path_shape@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/such+a+milestone> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/such+a+milestone> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#fv281> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#ev65>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dt3> {
+    nwrontology:ili-30-01583142-v-and-ili-30-01654628-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr23,rl48> {
+    nwrontology:ili-30-01583142-v-and-ili-30-01654628-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/mostly+carbon> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Building@Created_entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/mostly+carbon> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/mostly+carbon> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#pr23,rl49> {
+    nwrontology:ili-30-01583142-v-and-ili-30-01654628-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/fibre+composites> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Building@Created_entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/fibre+composites> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/fibre+composites> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tr60> {
+    nwrontology:ili-30-00998399-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_new_787_Dreamliner#tmx10> .
+}

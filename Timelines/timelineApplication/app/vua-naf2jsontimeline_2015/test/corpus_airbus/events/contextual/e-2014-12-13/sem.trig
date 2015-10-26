@@ -1,0 +1,464 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v-and-ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            a              sem:Event , fn:Bringing , fn:Motion , fn:Operate_vehicle , fn:Ride_vehicle , fn:Self_motion , eso:Transportation , eso:Motion , eso:Translocation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01451842-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01847845-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01840238-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02140965-v> , nwrontology:SPEECH_COGNITIVE , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01449974-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01408760-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02700867-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00738951-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01203074-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01740320-v> ;
+            rdfs:label     "carry" , "flight" , "fly" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=18,24> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=75,81> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=720,726> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=373,376> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=819,827> .
+    
+    <http://dbpedia.org/resource/Airbus>
+            rdfs:label     "Airbus A380" , "Airbus" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=664,670> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1288,1294> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1,12> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=93,104> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them>
+            rdfs:label     "the flight without they" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=716,739> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane>
+            rdfs:label     "the plane" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=741,750> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/150+passengers>
+            rdfs:label     "150 passenger" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=828,842> .
+    
+    <http://www.newsreader-project.eu/time/20141213>
+            a              time:DateTimeDescription ;
+            time:day       "---13"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2>
+            a                time:Interval ;
+            rdfs:label       "today" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,174> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20141213> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev18>
+            a              sem:Event ;
+            rdfs:label     "parking" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=338,345> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space>
+            rdfs:label     "a parking space" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=336,351> .
+    
+    nwrontology:ili-30-01278817-v-and-ili-30-00564857-v
+            a              sem:Event , fn:Body_movement , fn:Reshaping , eso:ChangingShape , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01278817-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00564857-v> ;
+            rdfs:label     "crumple" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=549,557> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev13>
+            a              sem:Event ;
+            rdfs:label     "accident" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=195,203> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=272,280> .
+    
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            a              sem:Event , eso:Motion , fn:Departing , fn:Path_shape , eso:Leaving , eso:LeavingAnOrganization , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02009433-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02015598-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02383440-v> ;
+            rdfs:label     "leave" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=328,335> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=751,755> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft>
+            rdfs:label     "the aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=311,323> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/four+hours>
+            rdfs:label     "four hour" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=756,766> .
+    
+    nwrontology:ili-30-02709107-v-and-ili-30-01224744-v-and-ili-30-01525666-v
+            a              sem:Event , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02709107-v> , fn:Being_in_operation , fn:Operating_a_system , fn:Using , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01224744-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01525666-v> ;
+            rdfs:label     "operate" , "serve" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=235,241> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1021,1029> .
+    
+    <http://dbpedia.org/resource/Suvarnabhumi_Airport>
+            rdfs:label     "their" , "Suvarnabhumi Airport" , "Suvarnabhumi airport" , "Bangkok" , "Suvarnabhumi" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=207,227> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1092,1112> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=242,249> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1092,1104> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1328,1333> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1304,1308> .
+    
+    <http://dbpedia.org/resource/Thailand>
+            rdfs:label     "Thailand" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=251,259> .
+    
+    nwrontology:ili-30-01224744-v-and-ili-30-01525666-v
+            a              sem:Event , fn:Being_in_operation , fn:Operating_a_system , fn:Using , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01224744-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01525666-v> ;
+            rdfs:label     "operator" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=483,491> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator>
+            rdfs:label     "a Thai airways International tug operator" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=450,491> .
+    
+    nwrontology:ili-30-02641957-v
+            a              sem:Event , fn:Change_event_time , fn:Hindering , eso:IntentionalEvent , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02641957-v> ;
+            rdfs:label     "delay" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=25,32> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=161,168> .
+    
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v
+            a              sem:Event , eso:Motion , eso:Translocation , fn:Cause_change_of_position_on_a_scale , fn:Cause_motion , fn:Manipulation , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01871979-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01872645-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01872877-v> ;
+            rdfs:label     "push" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=297,301> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=435,441> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet>
+            rdfs:label     "the jet" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=417,424> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr1> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v-and-ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=75,174> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr1,rl1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1,24> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr24,rl49>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=716,739> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr26,rl54>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=741,827> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr26,rl55>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=819,842> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv01>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=373,376> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=819,827> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,345> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr11,rl24>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=336,351> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr12>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,557> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv91>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=549,557> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,203> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,335> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr10,rl21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=311,335> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr10,rl22>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=328,351> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr25,rl50>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=741,755> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr25,rl51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=751,766> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv61>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=328,335> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv71>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=751,755> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,241> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr6,rl15>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=235,259> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv31>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=235,241> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=1021,1029> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,491> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr15,rl33>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=452,491> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=161,174> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=25,32> , <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=161,168> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=169,301> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr14,rl30>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=417,441> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr14,rl32>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=435,491> .
+    
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#char=435,441> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr1,rl1> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v-and-ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor               <http://dbpedia.org/resource/Airbus> ;
+            eso:translocation-source   <http://dbpedia.org/resource/Airbus> ;
+            eso:translocation-theme    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Driver>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Source>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Vehicle>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Source>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr24,rl49> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v-and-ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+flight+without+them> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr26,rl54> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v-and-ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Area>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr26,rl55> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v-and-ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/non-entities/150+passengers> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/150+passengers> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/150+passengers> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv01> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev11>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv11> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev11>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr8> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev18>
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr11,rl24> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev18>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr12> {
+    nwrontology:ili-30-01278817-v-and-ili-30-00564857-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv91> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev22>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr3> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev13>
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr7> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr10,rl21> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasActor        <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Departing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Path_shape@Road>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr10,rl22> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space> ;
+            eso:translocation-source  <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Departing@Source>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Path_shape@Source>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+parking+space> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr25,rl50> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasActor        <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Departing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Path_shape@Road>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr25,rl51> {
+    nwrontology:ili-30-02009433-v-and-ili-30-02015598-v-and-ili-30-02383440-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/four+hours> ;
+            eso:translocation-source  <http://www.newsreader-project.eu/data/timeline/non-entities/four+hours> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Departing@Source>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/four+hours> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Path_shape@Source>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/four+hours> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/four+hours> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv61> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev17>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv71> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev17>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr4> {
+    nwrontology:ili-30-02709107-v-and-ili-30-01224744-v-and-ili-30-01525666-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr6,rl15> {
+    nwrontology:ili-30-02709107-v-and-ili-30-01224744-v-and-ili-30-01525666-v
+            sem:hasActor  <http://dbpedia.org/resource/Suvarnabhumi_Airport> , <http://dbpedia.org/resource/Thailand> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://dbpedia.org/resource/Suvarnabhumi_Airport> , <http://dbpedia.org/resource/Thailand> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv31> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr10> {
+    nwrontology:ili-30-01224744-v-and-ili-30-01525666-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr15,rl33> {
+    nwrontology:ili-30-01224744-v-and-ili-30-01525666-v
+            sem:hasPlace  <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> , <http://dbpedia.org/resource/Thai_Airways_International> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> , <http://dbpedia.org/resource/Thai_Airways_International> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr2> {
+    nwrontology:ili-30-02641957-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv21> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev12>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tr6> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#tmx2> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr14,rl30> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            eso:quantity-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            eso:translocation-goal  <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manipulation@Entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+jet> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#pr14,rl32> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manipulation@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+Thai+Airways+International+tug+operator> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#fv51> {
+    <http://en.wikinews.org/wiki/Airbus_A380_test_flight_delayed_after_accident#ev16>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

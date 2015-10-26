@@ -1,0 +1,176 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            a              sem:Event , fn:Arriving , fn:Change_position_on_a_scale , fn:Path_shape , eso:Giving , eso:Arriving , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02230772-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02020590-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02006834-v> ;
+            rdfs:label     "reach" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1473,1478> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/their+final+destinations>
+            rdfs:label     "their final destination" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1479,1503> .
+    
+    <http://www.newsreader-project.eu/time/200411>
+            a              time:DateTimeDescription ;
+            time:month     "--11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tmx5>
+            a                time:Interval ;
+            rdfs:label       "November" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1138,1142> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1143,1151> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200411> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev33>
+            a              sem:Event ;
+            rdfs:label     "rival" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1172,1177> .
+    
+    <http://dbpedia.org/resource/Boeing_747>
+            rdfs:label     "Boeing 's" , "Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1,7> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1507,1513> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1186,1191> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=761,767> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1154,1162> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=836,838> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=499,505> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=105,108> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=51,57> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1154,1160> .
+    
+    nwrontology:ili-30-01354673-v
+            a              sem:Event , fn:Attaching , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01354673-v> ;
+            rdfs:label     "connect" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=530,537> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1451,1461> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/almost+any+two+cities+on+Earth>
+            rdfs:label     "almost any two city on Earth" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=538,568> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/connecting+flights>
+            rdfs:label     "connect flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1451,1469> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev15>
+            a              sem:Event ;
+            rdfs:label     "version" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=94,101> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1108,1115> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr3> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tmx5> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1138,1478> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr43,rl108>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1473,1503> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#fv21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1473,1478> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr24>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1138,1177> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr31,rl80>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1154,1177> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr16>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1138,1461> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr16,rl43>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=514,568> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr41,rl105>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1451,1469> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#fv91>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=530,537> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1451,1461> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1108,1142> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr3,rl5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=51,101> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr43,rl108> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/their+final+destinations> ;
+            eso:translocation-goal  <http://www.newsreader-project.eu/data/timeline/non-entities/their+final+destinations> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+final+destinations> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_position_on_a_scale@Difference>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+final+destinations> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Path_shape@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+final+destinations> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+final+destinations> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#fv21> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev16_5>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr24> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev33>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tmx5> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr31,rl80> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev33>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing_747> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Boeing_747> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr16> {
+    nwrontology:ili-30-01354673-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tmx5> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr16,rl43> {
+    nwrontology:ili-30-01354673-v
+            sem:hasActor        <http://www.newsreader-project.eu/data/timeline/non-entities/almost+any+two+cities+on+Earth> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Attaching@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/almost+any+two+cities+on+Earth> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/almost+any+two+cities+on+Earth> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr41,rl105> {
+    nwrontology:ili-30-01354673-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/non-entities/connecting+flights> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Attaching@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/connecting+flights> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/connecting+flights> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#fv91> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev24>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr2> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev15>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tmx5> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr3,rl5> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev15>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing_747> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing_747> .
+}

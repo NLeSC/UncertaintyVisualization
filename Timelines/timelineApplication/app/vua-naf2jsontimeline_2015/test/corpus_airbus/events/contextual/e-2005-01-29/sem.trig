@@ -1,0 +1,269 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02207206-v
+            a              sem:Event , fn:Commerce_buy , eso:Buying , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02207206-v> ;
+            rdfs:label     "purchase" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=24,32> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=154,162> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=261,270> .
+    
+    <http://www.newsreader-project.eu/data/timeline/entities/People_%27s_Republic_of_China>
+            a              nwrontology:ORGANIZATION ;
+            rdfs:label     "person 's Republic of China" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=112,138> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/60+Boeing+787+Dreamliner+aircraft>
+            rdfs:label     "60 Boeing 787 Dreamliner aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=163,196> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/worth+US%24+7.2+bn>
+            rdfs:label     "worth US$ 7.2 bn" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=207,221> .
+    
+    <http://dbpedia.org/resource/China>
+            rdfs:label     "China" , "chinese" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=1,8> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=227,232> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=290,295> .
+    
+    <http://www.newsreader-project.eu/time/20050129>
+            a              time:DateTimeDescription ;
+            time:day       "---29"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--01"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#tmx1>
+            a                time:Interval ;
+            rdfs:label       "January" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=75,82> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=83,85> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=85,86> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20050129> .
+    
+    nwrontology:ili-30-02396205-v-and-ili-30-01028748-v-and-ili-30-02396716-v-and-ili-30-01029212-v-and-ili-30-00974367-v-and-ili-30-00975427-v
+            a              sem:Event , fn:Change_of_leadership , fn:Name_conferral , eso:ChangeOfLeadership , eso:IntentionalEvent , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02396205-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01028748-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02396716-v> , nwrontology:SPEECH_COGNITIVE , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01029212-v> , fn:Statement , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00974367-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00975427-v> ;
+            rdfs:label     "announce" , "name" , "rename" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=634,639> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=656,663> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=694,703> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dct>
+            a                time:Interval ;
+            rdfs:label       "2005-01-29T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20050129> .
+    
+    nwrontology:ili-30-01621555-v
+            a              sem:Event , fn:Behind_the_scenes , fn:Cause_to_start , fn:Intentionally_create , fn:Manufacturing , eso:Manufacturing , eso:Creating , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01621555-v> ;
+            rdfs:label     "production" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=723,733> .
+    
+    <http://dbpedia.org/resource/Boeing>
+            rdfs:label     "Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=36,42> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=705,711> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=166,172> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev12>
+            a              sem:Event ;
+            rdfs:label     "official" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=93,102> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev22>
+            a              sem:Event ;
+            rdfs:label     "enter" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=766,771> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#tr2> {
+    nwrontology:ili-30-02207206-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#tmx1> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=24,162> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr6,rl9>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=93,162> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr6,rl10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=154,196> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr6,rl11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=154,221> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr9,rl17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=224,270> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=154,162> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=261,270> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dt4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=634,639> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=656,663> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=694,703> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr16,rl35>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=612,639> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr18,rl40>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=681,703> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv91>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=634,639> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=656,663> , <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=694,703> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dt6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=723,733> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr20,rl45>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=705,733> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=75,102> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr4,rl5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=93,138> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dt7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=766,771> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr21,rl46>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=705,771> .
+    
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv111>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#char=766,771> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr6,rl9> {
+    nwrontology:ili-30-02207206-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/entities/People_%27s_Republic_of_China> ;
+            eso:possession-owner_2  <http://www.newsreader-project.eu/data/timeline/entities/People_%27s_Republic_of_China> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_buy@Buyer>
+                    <http://www.newsreader-project.eu/data/timeline/entities/People_%27s_Republic_of_China> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/entities/People_%27s_Republic_of_China> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr6,rl10> {
+    nwrontology:ili-30-02207206-v
+            sem:hasActor           <http://www.newsreader-project.eu/data/timeline/non-entities/60+Boeing+787+Dreamliner+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_buy@Goods>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/60+Boeing+787+Dreamliner+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/60+Boeing+787+Dreamliner+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr6,rl11> {
+    nwrontology:ili-30-02207206-v
+            sem:hasPlace  <http://www.newsreader-project.eu/data/timeline/non-entities/worth+US%24+7.2+bn> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/worth+US%24+7.2+bn> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr9,rl17> {
+    nwrontology:ili-30-02207206-v
+            sem:hasPlace  <http://dbpedia.org/resource/China> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/China> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv11> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev10>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv21> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev10>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dt4> {
+    nwrontology:ili-30-02396205-v-and-ili-30-01028748-v-and-ili-30-02396716-v-and-ili-30-01029212-v-and-ili-30-00974367-v-and-ili-30-00975427-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dct> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr16,rl35> {
+    nwrontology:ili-30-02396205-v-and-ili-30-01028748-v-and-ili-30-02396716-v-and-ili-30-01029212-v-and-ili-30-00974367-v-and-ili-30-00975427-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_of_leadership@New_leader>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Name_conferral@Entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr18,rl40> {
+    nwrontology:ili-30-02396205-v-and-ili-30-01028748-v-and-ili-30-02396716-v-and-ili-30-01029212-v-and-ili-30-00974367-v-and-ili-30-00975427-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Statement@Message>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Statement@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv91> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev19>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dt6> {
+    nwrontology:ili-30-01621555-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dct> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr20,rl45> {
+    nwrontology:ili-30-01621555-v
+            sem:hasActor                   <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Behind_the_scenes@Artist>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_start@Agent>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Intentionally_create@Creator>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manufacturing@Manufacturer>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#tr3> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev12>
+            sem:hasTime  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr4,rl5> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev12>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/entities/People_%27s_Republic_of_China> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/entities/People_%27s_Republic_of_China> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dt7> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev22>
+            sem:hasTime  <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#dct> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#pr21,rl46> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev22>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#fv111> {
+    <http://en.wikinews.org/wiki/Chinese_airlines_agree_purchase_of_Boeing_787_Dreamliners_worth_US$7.2bn#ev22>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

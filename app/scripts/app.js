@@ -74,7 +74,8 @@
       'uncertApp.rdf',
       'uncertApp.sparql',
       //'uncertApp.text',
-      'uncertApp.dcjs'
+      'uncertApp.dcjs',
+      'uncertApp.timeline'
     ])
     .run(function() {});
 
@@ -85,4 +86,5 @@
   angular.module('uncertApp.sparql', ['uncertApp.utils','uncertApp.authentication']);
   angular.module('uncertApp.rdf', ['uncertApp.n3']);
   angular.module('uncertApp.dcjs', ['uncertApp.dc', 'uncertApp.d3', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
+  angular.module('uncertApp.timeline', ['uncertApp.d3']);
 })();

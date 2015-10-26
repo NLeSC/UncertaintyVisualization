@@ -1,0 +1,275 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            a              sem:Event , fn:Arriving , fn:Building , fn:Cause_change , fn:Cooking_creation , fn:Intentionally_create , fn:Manufacturing , fn:Self_motion , eso:Arriving , eso:Constructing , eso:Creating , eso:Manufacturing , eso:Translocation , eso:IntentionalEvent , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02621395-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01621555-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01619014-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01664172-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01755504-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01654628-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02748759-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02748627-v> ;
+            rdfs:label     "make" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=36,41> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=156,160> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner>
+            rdfs:label     "World 's large passenger airliner" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=1,35> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight>
+            rdfs:label     "its maiden flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=160,175> .
+    
+    <http://www.newsreader-project.eu/time/20140427>
+            a              time:DateTimeDescription ;
+            time:day       "---27"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--04"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2014"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tmx1>
+            a                time:Interval ;
+            rdfs:label       "April" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=56,61> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=62,64> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=64,65> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20140427> .
+    
+    <http://www.newsreader-project.eu/time/200501>
+            a              time:DateTimeDescription ;
+            time:month     "--01"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tmx3>
+            a                time:Interval ;
+            rdfs:label       "2005" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=92,99> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=99,103> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200501> .
+    
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            a              sem:Event , fn:Self_motion , eso:Translocation , fn:Bringing , fn:Motion , fn:Operate_vehicle , fn:Ride_vehicle , eso:Transportation , eso:Motion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01451842-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01847845-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01840238-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02140965-v> ;
+            rdfs:label     "fly" , "flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=48,54> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=169,175> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=501,507> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=313,317> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=694,700> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft>
+            rdfs:label     "the aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=300,312> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people>
+            rdfs:label     "around 50,000 person" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=461,481> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight>
+            rdfs:label     "the maiden flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=490,507> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft>
+            rdfs:label     "the aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=681,693> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr11> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasTime  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tmx1> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=36,61> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr12>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=92,160> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr2,rl3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=1,41> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr5,rl10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=156,175> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#fv81>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=36,41> , <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=156,160> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=48,61> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr14>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=92,175> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr6,rl14>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=163,175> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr10,rl25>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=300,317> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr17,rl37>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=461,507> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr17,rl38>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=494,507> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr24,rl54>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=681,700> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#fv91>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=313,317> .
+    
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#fv101>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#char=694,700> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr12> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasTime  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr2,rl3> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasActor                   <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            eso:translocation-source       <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Building@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cooking_creation@Cook>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Intentionally_create@Creator>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manufacturing@Manufacturer>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Source>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/World+%27s+largest+passenger+airliner> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr5,rl10> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#fv81> {
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#ev16_1>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr13> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasTime  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tr14> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasTime  <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr6,rl14> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+maiden+flight> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr10,rl25> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr17,rl37> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Around+50%2C000+people> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr17,rl38> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+maiden+flight> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#pr24,rl54> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#fv91> {
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#ev17>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#fv101> {
+    <http://en.wikinews.org/wiki/World's_largest_passenger_airliner_makes_first_flight#ev17>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}

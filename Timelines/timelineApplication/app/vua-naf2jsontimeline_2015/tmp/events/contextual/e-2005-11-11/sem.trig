@@ -1,0 +1,86 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            a              sem:Event , nwrontology:llegar.1.impersonal , fn:Arriving , fn:Change_position_on_a_scale , fn:Path_shape , eso:Giving , eso:Arriving , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02230772-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02020590-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02006834-v> ;
+            rdfs:label     "llegar" ;
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=680,686> .
+    
+    <http://www.newsreader-project.eu/time/20051111>
+            a              time:DateTimeDescription ;
+            time:day       "---11"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tx4>
+            a                time:Interval ;
+            rdfs:label       "noviembre" ;
+            gaf:denotedBy    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=687,689> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=690,692> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=693,695> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=696,705> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20051111> .
+    
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#ev20>
+            a              sem:Event , nwrontology:llevar.14.default ;
+            rdfs:label     "llevar" ;
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=631,636> .
+    
+    <http://dbpedia.org/resource/Airbus_A380>
+            a              <http://dbpedia.org/resource/Airbus_A380> ;
+            rdfs:label     "A380" , "Airbus 380" , "Airbus" ;
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=620,630> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=372,374> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=249,255> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=54,60> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=131,137> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=1003,1007> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=1048,1050> .
+    
+    <http://dbpedia.org/resource/Singapore_Airlines>
+            a              <http://dbpedia.org/resource/Singapore_Airlines> ;
+            rdfs:label     "Singapore Airlines" ;
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=476,494> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=654,672> .
+}
+
+<http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tr12> {
+    nwrontology:ili-30-02230772-v-and-ili-30-02020590-v-and-ili-30-02006834-v
+            sem:hasTime  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tx4> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tr12>
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=680,689> .
+    
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tr10>
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=631,689> .
+    
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#pr12,rl19>
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=617,636> .
+    
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#pr12,rl20>
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=631,672> .
+}
+
+<http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tr10> {
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#ev20>
+            sem:hasTime  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tx4> .
+}
+
+<http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#pr12,rl19> {
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#ev20>
+            sem:hasActor  <http://dbpedia.org/resource/Airbus_A380> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/arg0>
+                    <http://dbpedia.org/resource/Airbus_A380> .
+}
+
+<http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#pr12,rl20> {
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#ev20>
+            sem:hasActor  <http://dbpedia.org/resource/Singapore_Airlines> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/arg1>
+                    <http://dbpedia.org/resource/Singapore_Airlines> .
+}

@@ -1,0 +1,68 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02210119-v
+            a              sem:Event , fn:Receiving , eso:Getting , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02210119-v> ;
+            rdfs:label     "receive" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=772,780> .
+    
+    <http://dbpedia.org/resource/Boeing_747>
+            rdfs:label     "Boeing 's" , "Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1,7> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1507,1513> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1186,1191> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=761,767> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1154,1162> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=836,838> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=499,505> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=105,108> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=51,57> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=1154,1160> .
+    
+    <http://www.newsreader-project.eu/time/200002>
+            a              time:DateTimeDescription ;
+            time:month     "--02"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tmx2>
+            a                time:Interval ;
+            rdfs:label       "2000" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=856,864> , <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=865,869> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200002> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr21> {
+    nwrontology:ili-30-02210119-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tmx2> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#tr21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=772,864> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr24,rl63>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=761,780> .
+    
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#fv121>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#char=772,780> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#pr24,rl63> {
+    nwrontology:ili-30-02210119-v
+            sem:hasActor            <http://dbpedia.org/resource/Boeing_747> ;
+            eso:possession-owner_1  <http://dbpedia.org/resource/Boeing_747> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Receiving@Donor>
+                    <http://dbpedia.org/resource/Boeing_747> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing_747> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#fv121> {
+    <http://en.wikinews.org/wiki/Boeing_unveils_long-range_777#ev30>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
