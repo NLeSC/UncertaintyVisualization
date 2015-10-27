@@ -34,8 +34,9 @@
 
   <!-- <dcjs-directive></dcjs-directive> -->
 
-  <timeline-directive></timeline-directive>
+  <!-- <timeline-directive></timeline-directive> -->
 
+  <punchcard-directive></punchcard-directive>
   <!-- Read RDF from file example -->
 
 
@@ -50,7 +51,9 @@
 
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-cookies/angular-cookies.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -63,6 +66,7 @@
   <script src="bower_components/crossfilter/crossfilter.js"></script>
   <script src="bower_components/dcjs/dc.js"></script>
   <script src="bower_components/colorbrewer/colorbrewer.js"></script>
+  <script src="bower_components/lodash/lodash.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -86,6 +90,10 @@
 
   <script src="scripts/timeline/timeline.controller.js"></script>
   <script src="scripts/timeline/timeline.directive.js"></script>
+
+  <script src="scripts/punchcard/d3.punchcard.js"></script>
+  <script src="scripts/punchcard/punchcard.controller.js"></script>
+  <script src="scripts/punchcard/punchcard.directive.js"></script>
   <!-- endbuild -->
 </body>
 

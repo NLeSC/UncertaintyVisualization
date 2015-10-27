@@ -1,5 +1,5 @@
 // The app
-/* global N3:false, dc:false, d3:false, crossfilter:false, colorbrewer:false */
+/* global N3:false, dc:false, d3:false, crossfilter:false, colorbrewer:false, _:false */
 
 (function() {
   'use strict';
@@ -12,6 +12,12 @@
 
   angular.module('uncertApp.d3', [])
     .constant('d3', d3);
+
+  angular.module('uncertApp._', [])
+    .constant('_', _);
+
+  angular.module('uncertApp.D3punchcard', [])
+    .constant('D3punchcard', d3.punchcard);
 
   angular.module('uncertApp.crossfilter', [])
     .constant('crossfilter', crossfilter);
@@ -75,7 +81,9 @@
       'uncertApp.sparql',
       //'uncertApp.text',
       'uncertApp.dcjs',
-      'uncertApp.timeline'
+      'uncertApp.timeline',
+      'uncertApp._',
+      'uncertApp.punchcard'
     ])
     .run(function() {});
 
@@ -87,4 +95,5 @@
   angular.module('uncertApp.rdf', ['uncertApp.n3']);
   angular.module('uncertApp.dcjs', ['uncertApp.dc', 'uncertApp.d3', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
   angular.module('uncertApp.timeline', ['uncertApp.d3']);
+  angular.module('uncertApp.punchcard', ['uncertApp.d3', 'uncertApp.D3punchcard', 'uncertApp._']);
 })();
