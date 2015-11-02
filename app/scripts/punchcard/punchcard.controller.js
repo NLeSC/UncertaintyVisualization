@@ -223,10 +223,98 @@
             .elasticY(true)
             .brushOn(true)
             .clipPadding(10)
+            .xAxisLabel('time')
             .yAxisLabel('climax score sum')
             .dimension(timeDimension)
             .group(climaxSumGroup);
-          // scatterPlot.render();
+          customSeriesChart.render();
+
+
+
+
+          var yearlyBubbleChart = dc.bubbleChart('#laneChart');
+
+          var laneTimeDimension = ndx.dimension(function(d) {
+            var time = d3.time.format('%Y%m%d').parse(d.time);
+            var group = d.group.split(':')[0];
+            return [time,group];
+          });
+
+          var laneClimaxGroup = laneTimeDimension.group().reduceSum(function(d) {
+            return +d.climax;
+          });
+
+          yearlyBubbleChart
+            .width(1400)
+            .height(400)
+            .margins({
+              top: 10,
+              right: 50,
+              bottom: 30,
+              left: 40
+            })
+            .dimension(laneTimeDimension)
+            .group(laneClimaxGroup)
+            .transitionDuration(1500)
+            // .colors(["#a60000", "#ff0000", "#ff4040", "#ff7373", "#67e667", "#39e639", "#00cc00"])
+            // .colorDomain([-12000, 12000])
+            // .colorAccessor(function(d) {
+            //   return d.value.absGain;
+            // })
+            .keyAccessor(function(p) {
+              return p.key[0];
+            })
+            .valueAccessor(function(p) {
+              return p.key[1];
+            })
+            .radiusValueAccessor(function(p) {
+              return p.value;
+            })
+            .minRadius(2)
+            .maxBubbleRelativeSize(0.01)
+            .x(d3.time.scale().domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
+            .y(d3.scale.linear().domain([0, 125]))
+            .r(d3.scale.linear().domain([0, 140]))
+            .elasticY(false)
+            .yAxisPadding(100)
+            .elasticX(false)
+            .xAxisPadding(500)
+            .renderHorizontalGridLines(true)
+            .renderVerticalGridLines(true)
+            .renderLabel(true)
+            .renderTitle(true)
+            .label(function(p) {
+              return ' '; //p.key;
+            })
+            .title(function(p) {
+              return p.key + '\n' + 'Climax: ' + p.value;
+            })
+            .xAxisLabel('time')
+            .yAxisLabel('group')
+            .yAxis().tickFormat(function(v) {
+              return v;
+            });
+
+          yearlyBubbleChart.render();
+          // var laneChart = dc.laneChart('#laneChart');
+          // laneChart
+          //   .x(d3.time.scale().domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
+          //   .width(768)
+          //   .height(480)
+          //   .keyAccessor(function(d) {
+          //     return d.key;
+          //   })
+          //   .valueAccessor(function(d) {
+          //     return d.value;
+          //   })
+          //   .dimension(laneTimeDimension)
+          //   .group(laneClimaxSumGroup);
+
+
+
+
+
+
 
 
 
@@ -243,56 +331,57 @@
           //   return +d.climax;
           // });
 
-          var symbolScale2 = d3.scale.ordinal().range(d3.svg.symbolTypes);
+          // var symbolScale2 = d3.scale.ordinal().range(d3.svg.symbolTypes);
 
 
 
 
-          var composite = dc.customCompositeChart('#timeline2');
-
-          composite
-            .width(768)
-            .height(480)
-            .x(d3.time.scale().domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
-            .renderHorizontalGridLines(true)
-
-            .compose([
-              dc.lineChart(composite)
-                .dimension(timeDimension2)
-                .group(climaxSumGroup2)
-                .colors('navy')
-                .dashStyle([2,2])
-                .keyAccessor(function(d) {
-                  return d.key;
-                })
-                .valueAccessor(function(d) {
-                  return +d.value;
-                }),
-              dc.customScatterPlot(composite)
-                .dimension(timeDimension2)
-                .group(climaxSumGroup2)
-                // .colors(d3.scale.category20c())
-                // .colorAccessor(function(d, i) {
-                //   return d.key;
-                // })
-                // .symbol(function(d) {
-                //   return symbolScale2(d.key[0]);
-                // })
-                .symbolSize(8)
-                .highlightedSize(10)
-                .keyAccessor(function(d) {
-                  return d.key;
-                })
-                .valueAccessor(function(d) {
-                  return +d.value;
-                })
-              ])
-            // .keyAccessor(function(d) {return d.key; })
-            // .valueAccessor(function(d) {return d.value; })
-            .elasticY(true)
-            .brushOn(true)
-            .clipPadding(10)
-            .yAxisLabel('climax score sum');
+          // var composite = dc.customCompositeChart('#timeline2');
+          //
+          // composite
+          //   .width(768)
+          //   .height(480)
+          //   .x(d3.time.scale().domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
+          //   .renderHorizontalGridLines(true)
+          //
+          //   .compose([
+          //     dc.lineChart(composite)
+          //       .dimension(timeDimension2)
+          //       .group(climaxSumGroup2)
+          //       .colors('navy')
+          //       .dashStyle([2,2])
+          //       .keyAccessor(function(d) {
+          //         return d.key;
+          //       })
+          //       .valueAccessor(function(d) {
+          //         return +d.value;
+          //       }),
+          //     dc.customScatterPlot(composite)
+          //       .dimension(timeDimension2)
+          //       .group(climaxSumGroup2)
+          //       // .colors(d3.scale.category20c())
+          //       // .colorAccessor(function(d, i) {
+          //       //   return d.key;
+          //       // })
+          //       // .symbol(function(d) {
+          //       //   return symbolScale2(d.key[0]);
+          //       // })
+          //       .symbolSize(8)
+          //       .highlightedSize(10)
+          //       .keyAccessor(function(d) {
+          //         return d.key;
+          //       })
+          //       .valueAccessor(function(d) {
+          //         return +d.value;
+          //       })
+          //     ])
+          //   // .keyAccessor(function(d) {return d.key; })
+          //   // .valueAccessor(function(d) {return d.value; })
+          //   .elasticY(true)
+          //   .brushOn(true)
+          //   .clipPadding(10)
+          //   .xAxisLabel('time')
+          //   .yAxisLabel('climax score sum');
           // composite.render();
 
 
@@ -321,7 +410,7 @@
             .group(countPerGroup);
 
           rowChart1.on('renderlet', textRenderlet);
-          // rowChart1.render();
+          rowChart1.render();
 
           var actorA0Dimension = ndx.dimension(function(d) {
             var actor0 = d.actors['pb/A0'];
@@ -351,7 +440,7 @@
             .group(countPerActorA0);
 
           rowChart2.on('renderlet', textRenderlet);
-          // rowChart2.render();
+          rowChart2.render();
 
           var actorA1Dimension = ndx.dimension(function(d) {
             var actor0 = d.actors['pb/A1'];
@@ -381,7 +470,7 @@
             .group(countPerActorA1);
 
           rowChart3.on('renderlet', textRenderlet);
-          // rowChart3.render();
+          rowChart3.render();
 
           var idDimension = ndx.dimension(function(d) {
             return [d.group, d.time, d.labels];
@@ -430,8 +519,8 @@
                 }
               }
             ]);
-          // dataTable.render();
-          dc.renderAll();
+          dataTable.render();
+          // dc.renderAll();
         }
       );
     }
