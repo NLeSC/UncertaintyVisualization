@@ -95,5 +95,5 @@
   angular.module('uncertApp.rdf', ['uncertApp.n3']);
   angular.module('uncertApp.dcjs', ['uncertApp.dc', 'uncertApp.d3', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
   angular.module('uncertApp.timeline', ['uncertApp.d3']);
-  angular.module('uncertApp.punchcard', ['uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.D3punchcard', 'uncertApp._']);
+  angular.module('uncertApp.punchcard', ['uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
 })();

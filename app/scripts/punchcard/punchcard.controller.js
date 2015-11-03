@@ -15,8 +15,7 @@
     this.groupNamePositions = {};
   }
 
-  function PunchcardController(d3, dc, crossfilter, D3punchcard, _) {
-
+  function PunchcardController(d3, dc, crossfilter, colorbrewer) {
     var textRenderlet = function(_chart) {
       function setStyle(selection) {
         var rects = selection.select('rect');
@@ -38,105 +37,6 @@
         .selectAll('g.row'), 'layer'
       );
     };
-
-    function filterData(data, actor, timeFormat) {
-      var prereqs = function(item) {
-        if (!_.has(item, 'time')) {
-          return false;
-        }
-        var hit = false;
-        _.forEach(item.actors, function(n) {
-          if (hit) {
-            return;
-          } else {
-            hit = _.includes(n, actor.name);
-          }
-        });
-        return hit;
-      };
-
-      var retrieveTimestampAndScores = function(item) {
-        var time = d3.time.format(timeFormat)
-          .parse(item.time);
-        var climax = item.climax;
-        return {
-          'date': time,
-          'score': climax
-        };
-      };
-
-      // var splitDate = function(date) {
-      //   return {
-      //     date: date,
-      //     year: date.getFullYear(),
-      //     month: date.getMonth(),
-      //     day: date.getDay()
-      //   };
-      // };
-
-      // extract timestamps
-      // var timestamps = _.map(
-      //   _.filter(data, emailPred),
-      //   _.compose(splitDate, retrieveTimestamp));
-
-      var timestamps = _.map(
-        _.filter(data, prereqs), retrieveTimestampAndScores);
-      // _.flow(retrieveTimestamp, splitDate));
-
-      // count number of items in each bin
-      var tsCounts = _.countBy(timestamps, function(n) {
-        return n.date;
-      });
-
-      return tsCounts;
-
-      // console.log(tsCounts);
-
-      // map the nested objects to a list of lists containing {key, value}-pairs
-      // var dict2List = function(dict) {
-      //   return _.map(d3.range(90, 130), function(i) {
-      //     return {
-      //       key: _.parseInt(i) + 'h',
-      //       value: _.get(dict, i.toString(), 0)
-      //     };
-      //   });
-      // };
-      //
-      // return _.map(_.pairs(tsCounts),
-      //   function(kvpair) {
-      //     var dayInWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-      //     return [{key: 'Day', value: dayInWeek[kvpair[0]]}].concat(dict2List(kvpair[1]));
-      //   });
-    }
-
-    // function showGraph ( data ) {
-    //   var flatAscending, upperLimit;
-    //
-    //   flatAscending = data.map( function(array) {
-    //     //var value;
-    //     return array.slice(1).map( function ( sliced ) {
-    //       return parseFloat( sliced.value );
-    //     }).filter(function ( element ) {
-    //       return element > 0;
-    //     });
-    //
-    //   }).reduce(function(a, b) {
-    //     return a.concat(b);
-    //   }).sort(function(a, b) {
-    //     return a - b;
-    //   } );
-    //
-    //   // we find the upper limit quantile in order
-    //   // to not show upper outliers
-    //   upperLimit = d3.quantile( flatAscending, 0.95 );
-    //
-    //   new D3punchcard({
-    //     data: data,
-    //     element: '#punchcard',
-    //     upperLimit: upperLimit
-    //   })
-    //   .draw({ width: document.getElementById('punchcard').offsetWidth });
-    // }
 
     function readData(filename) {
       var margin = {
@@ -191,7 +91,7 @@
             .height(480)
             // .chart(subChart1)
             .chart(subChart1)
-            .x(d3.time.scale().domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
+            .x(d3.time.scale())//.domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
             .renderHorizontalGridLines(true)
             .seriesAccessor(function(d) {
               return d.key[0];
@@ -220,6 +120,7 @@
             })
             // .keyAccessor(function(d) {return d.key; })
             // .valueAccessor(function(d) {return d.value; })
+            .elasticX(true)
             .elasticY(true)
             .brushOn(true)
             .clipPadding(10)
@@ -232,21 +133,33 @@
 
 
 
-          var yearlyBubbleChart = dc.bubbleChart('#laneChart');
+          var customBubbleChart = dc.customBubbleChart('#laneChart');
 
           var laneTimeDimension = ndx.dimension(function(d) {
             var time = d3.time.format('%Y%m%d').parse(d.time);
             var group = d.group.split(':')[0];
-            return [time,group];
+            return [group, time];
           });
 
-          var laneClimaxGroup = laneTimeDimension.group().reduceSum(function(d) {
-            return +d.climax;
-          });
+          var laneClimaxGroup = laneTimeDimension.group().reduce(
+            function(p, v) {
+              p.climax = p.climax + v.climax;
+              p.labels.push(v.labels);
+              return p;
+            },
+            function(p, v) {
+              p.climax = p.climax - v.climax;
+              p.labels.pop(v.labels);
+              return p;
+            },
+            function(p, v) {
+              return {climax:0, labels:[]};
+            }
+          );
 
-          yearlyBubbleChart
+          customBubbleChart
             .width(1400)
-            .height(400)
+            .height(500)
             .margins({
               top: 10,
               right: 50,
@@ -256,46 +169,64 @@
             .dimension(laneTimeDimension)
             .group(laneClimaxGroup)
             .transitionDuration(1500)
-            // .colors(["#a60000", "#ff0000", "#ff4040", "#ff7373", "#67e667", "#39e639", "#00cc00"])
-            // .colorDomain([-12000, 12000])
-            // .colorAccessor(function(d) {
-            //   return d.value.absGain;
-            // })
-            .keyAccessor(function(p) {
-              return p.key[0];
+            .colors(colorbrewer.RdYlGn[9])
+            .calculateColorDomain()
+            // .linearColors([0, 140])
+            .colorDomain([0, 140])
+            .colorAccessor(function(d) {
+              return d.value.climax;
             })
-            .valueAccessor(function(p) {
+            .keyAccessor(function(p) {
+              if (p.key[1] < new Date(1980,1,1)) {
+                console.log(p.key[1]);
+              }
               return p.key[1];
             })
+            .valueAccessor(function(p) {
+              return p.key[0];
+            })
             .radiusValueAccessor(function(p) {
-              return p.value;
+              return p.value.climax;
             })
             .minRadius(2)
-            .maxBubbleRelativeSize(0.01)
-            .x(d3.time.scale().domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
-            .y(d3.scale.linear().domain([0, 125]))
+            .maxBubbleRelativeSize(0.015)
+            .x(d3.time.scale())//.domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
+            .y(d3.scale.ordinal().domain((function() {
+              var domain = laneClimaxGroup.all().map(function(d) {
+                return(d.key[0]);
+              });
+              return domain;
+            })()))
             .r(d3.scale.linear().domain([0, 140]))
-            .elasticY(false)
-            .yAxisPadding(100)
-            .elasticX(false)
-            .xAxisPadding(500)
-            .renderHorizontalGridLines(true)
-            .renderVerticalGridLines(true)
+            // .elasticY(true)
+            // .yAxisPadding(100)
+            .elasticX(true)
+            // .xAxisPadding(500)
+            // .renderHorizontalGridLines(true)
+            // .renderVerticalGridLines(true)
             .renderLabel(true)
             .renderTitle(true)
             .label(function(p) {
-              return ' '; //p.key;
+              return p.value.labels.toString(); //p.key;
             })
             .title(function(p) {
-              return p.key + '\n' + 'Climax: ' + p.value;
+              return p.key[1] + '\n' + 'Group:'+ p.key[0] + '\n' + 'Labels: ' + p.value.labels.toString() + '\n' + 'Climax: ' + p.value.climax;
             })
             .xAxisLabel('time')
             .yAxisLabel('group')
-            .yAxis().tickFormat(function(v) {
-              return v;
-            });
+            // .yAxis().tickFormat(function(v) {
+            //   return v;
+            // })
+            ;
+          dc.override(customBubbleChart, '_prepareYAxis', function(g) {
+            this.__prepareYAxis(g);
+            this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
+            // this.y().ticks = 
+            // this._renderHorizontalGridLinesForAxis(g, this.y(), this.yAxis());
+            // this.yAxis = this.yAxis().scale(this.y());
+          });
 
-          yearlyBubbleChart.render();
+          customBubbleChart.render();
           // var laneChart = dc.laneChart('#laneChart');
           // laneChart
           //   .x(d3.time.scale().domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
@@ -525,7 +456,7 @@
       );
     }
 
-    readData('data/airbus_contextual.timeline.json');
+    readData('data/gm_contextual.timeline.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);
