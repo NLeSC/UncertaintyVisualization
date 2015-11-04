@@ -69,6 +69,19 @@
             return [group, time, climax];
           });
 
+          var maxDate = new Date(-8640000000000000);
+          var minDate = new Date(8640000000000000);
+
+          timeDimension.top(Infinity).forEach(function(d) {
+            var time = d3.time.format('%Y%m%d').parse(d.time);
+            if (time < minDate) {
+              minDate = time;
+            }
+            if (time > maxDate) {
+              maxDate = time;
+            }
+          });
+
           var climaxSumGroup = timeDimension.group().reduceSum(function(d) {
             return +d.climax;
           });
@@ -87,8 +100,8 @@
           var customSeriesChart = dc.customSeriesChart('#timeline');
 
           customSeriesChart
-            .width(768)
-            .height(480)
+            .width(1400)
+            .height(200)
             // .chart(subChart1)
             .chart(subChart1)
             .x(d3.time.scale())//.domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
@@ -103,8 +116,20 @@
               return d.value;
             })
             .filterHandler(function(dimension, filter){
+              if (filter.length ===0) {
+                dimension.top(Infinity).forEach(function(d) {
+                  var time = d3.time.format('%Y%m%d').parse(d.time);
+                  if (time < minDate) {
+                    minDate = time;
+                  }
+                  if (time > maxDate) {
+                    maxDate = time;
+                  }
+                });
+              }
               dimension.filterFunction(function(d) {
                 var result = true;
+
                 filter.forEach(function(f) {
                   if (result === true) {
                     if ((d[1] < Math.min(f[0][0], f[1][0]) || d[1] > Math.max(f[0][0], f[1][0])) ||
@@ -112,6 +137,8 @@
                       result = false;
                     }
                   }
+                  minDate = f[0][0];
+                  maxDate = f[1][0];
                 });
                 return result;
               });
@@ -144,16 +171,56 @@
           var laneClimaxGroup = laneTimeDimension.group().reduce(
             function(p, v) {
               p.climax = p.climax + v.climax;
-              p.labels.push(v.labels);
+
+              var actor0 = v.actors['pb/A0'];
+              if (actor0 === undefined || actor0 === '') {
+                actor0 = 'unknown';
+              }
+              var parts = actor0[0].split('/');
+              var actor0Name = parts[parts.length-1];
+              if (p.actors[actor0Name] === undefined) {
+                p.actors[actor0Name] = v.climax;
+              } else {
+                p.actors[actor0Name] = p.actors[actor0Name] + v.climax;
+              }
+
+              v.labels.forEach(function(l) {
+                if (p.labels[l] === undefined) {
+                  p.labels[l] = v.climax;
+                } else {
+                  p.labels[l] = p.labels[l] + v.climax;
+                }
+              });
+
               return p;
             },
             function(p, v) {
               p.climax = p.climax - v.climax;
-              p.labels.pop(v.labels);
+
+              var actor0 = v.actors['pb/A0'];
+              if (actor0 === undefined || actor0 === '') {
+                actor0 = 'unknown';
+              }
+              var parts = actor0[0].split('/');
+              var actor0Name = parts[parts.length-1];
+              if (p.actors[actor0Name] === undefined) {
+                p.actors[actor0Name] = -v.climax;
+              } else {
+                p.actors[actor0Name] = p.actors[actor0Name] - v.climax;
+              }
+
+              v.labels.forEach(function(l) {
+                if (p.labels[l] === undefined) {
+                  p.labels[l] = -v.climax;
+                } else {
+                  p.labels[l] = p.labels[l] - v.climax;
+                }
+              });
+
               return p;
             },
-            function(p, v) {
-              return {climax:0, labels:[]};
+            function() {
+              return {climax: 0, actors: {}, labels: {}};
             }
           );
 
@@ -177,9 +244,6 @@
               return d.value.climax;
             })
             .keyAccessor(function(p) {
-              if (p.key[1] < new Date(1980,1,1)) {
-                console.log(p.key[1]);
-              }
               return p.key[1];
             })
             .valueAccessor(function(p) {
@@ -190,7 +254,7 @@
             })
             .minRadius(2)
             .maxBubbleRelativeSize(0.015)
-            .x(d3.time.scale())//.domain([new Date(1995, 0, 1), new Date(2025, 0, 1)]))
+            .x(d3.time.scale().domain([minDate, maxDate]))
             .y(d3.scale.ordinal().domain((function() {
               var domain = laneClimaxGroup.all().map(function(d) {
                 return(d.key[0]);
@@ -206,25 +270,73 @@
             // .renderVerticalGridLines(true)
             .renderLabel(true)
             .renderTitle(true)
+            .turnOnControls(true)
+            .minRadiusWithLabel(0)
             .label(function(p) {
-              return p.value.labels.toString(); //p.key;
+              var mostImportantLabel;
+              var climaxScoreOfMostImportantLabel = -1;
+              var labels = Object.keys(p.value.labels);
+              labels.forEach(function(l) {
+                if (p.value.labels[l] > climaxScoreOfMostImportantLabel) {
+                  mostImportantLabel = l;
+                  climaxScoreOfMostImportantLabel = p.value.labels[l];
+                }
+              });
+              return mostImportantLabel.toString(); //p.key;
             })
             .title(function(p) {
-              return p.key[1] + '\n' + 'Group:'+ p.key[0] + '\n' + 'Labels: ' + p.value.labels.toString() + '\n' + 'Climax: ' + p.value.climax;
+              var mostImportantActor = '';
+              var climaxScoreOfMostImportantActor = -1;
+              var actors = Object.keys(p.value.actors);
+              actors.forEach(function(a) {
+                if (p.value.actors[a] > climaxScoreOfMostImportantActor) {
+                  mostImportantActor = a;
+                  climaxScoreOfMostImportantActor = p.value.actors[a];
+                }
+              });
+
+              var labels = Object.keys(p.value.labels);
+              var labelString = '';
+              labels.forEach(function(l) {
+                labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
+              });
+              // p.value.labels.forEach(function(d) {
+              //   labelString += d.climax + ' : ' + d.labels.toString() + '\n';
+              // });
+              return p.key[1] + '\n' + 'Group:'+ p.key[0] + '\n' + labelString +  mostImportantActor + '\n' + 'Climax: ' + p.value.climax;
             })
             .xAxisLabel('time')
-            .yAxisLabel('group')
+            .yAxisLabel('group');
             // .yAxis().tickFormat(function(v) {
             //   return v;
             // })
-            ;
+            //
+
+          dc.override(customBubbleChart, 'xAxisMin', function() {
+            // var min = d3.min(customBubbleChart.data(), function (e) {
+            //   return customBubbleChart.keyAccessor()(e);
+            // });
+            // return dc.utils.subtract(min, customBubbleChart.xAxisPadding());
+            return minDate;
+          });
+
+          dc.override(customBubbleChart, 'xAxisMax', function() {
+            // var max = d3.max(customBubbleChart.data(), function (e) {
+            //   return customBubbleChart.keyAccessor()(e);
+            // });
+            // return dc.utils.add(max, customBubbleChart.xAxisPadding());
+            return maxDate;
+          });
+
           dc.override(customBubbleChart, '_prepareYAxis', function(g) {
             this.__prepareYAxis(g);
             this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
-            // this.y().ticks = 
+            // this.y().ticks =
             // this._renderHorizontalGridLinesForAxis(g, this.y(), this.yAxis());
             // this.yAxis = this.yAxis().scale(this.y());
           });
+
+          // customBubbleChart.on('renderlet', textRenderlet);
 
           customBubbleChart.render();
           // var laneChart = dc.laneChart('#laneChart');
@@ -456,7 +568,7 @@
       );
     }
 
-    readData('data/gm_contextual.timeline.json');
+    readData('data/airbus_contextual.timeline.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);

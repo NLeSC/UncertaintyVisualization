@@ -25,7 +25,7 @@
  * @return {dc.customBubbleChart}
  */
 dc.customBubbleChart = function (parent, chartGroup) {
-    var _chart = dc.bubbleMixin(dc.coordinateGridMixin({}));
+    var _chart = dc.customBubbleMixin(dc.coordinateGridMixin({}));
 
     var _elasticRadius = false;
 
@@ -76,6 +76,7 @@ dc.customBubbleChart = function (parent, chartGroup) {
     };
 
     function renderLanes (gridLineG) {
+
       var rangeBands = _chart.y().range();
       // var xOffset = _chart.x(_chart.xAxisMin());
 
@@ -84,6 +85,7 @@ dc.customBubbleChart = function (parent, chartGroup) {
           .attr('class', 'grid-line' + ' ' + 'horizontal')
           .attr('transform', 'translate(' + _chart.margins().left + ',' + _chart.margins().top + ')');
       }
+
       var lines = gridLineG.selectAll('line')
           .data(rangeBands);
 
@@ -185,11 +187,12 @@ dc.customBubbleChart = function (parent, chartGroup) {
 
     _chart.renderBrush = function () {
         // override default x axis brush from parent chart
+        //
     };
 
     _chart.redrawBrush = function () {
         // override default x axis brush from parent chart
-        _chart.fadeDeselectedArea();
+        // _chart.fadeDeselectedArea();
     };
 
     return _chart.anchor(parent, chartGroup);
