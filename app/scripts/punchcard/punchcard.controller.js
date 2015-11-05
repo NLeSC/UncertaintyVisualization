@@ -362,14 +362,14 @@
 
 
 
-          var timeDimension2 = ndx.dimension(function(d) {
-            // var group = d.group;
-            var time = d3.time.format('%Y%m%d').parse(d.time);
-            // return [group, time];
-            return time;
-          });
-
-          var climaxSumGroup2 = timeDimension2.group();
+          // var timeDimension2 = ndx.dimension(function(d) {
+          //   // var group = d.group;
+          //   var time = d3.time.format('%Y%m%d').parse(d.time);
+          //   // return [group, time];
+          //   return time;
+          // });
+          //
+          // var climaxSumGroup2 = timeDimension2.group();
           // .reduceSum(function(d) {
           //   return +d.climax;
           // });
@@ -433,7 +433,11 @@
           var groupDimension = ndx.dimension(function(d) {
             return d.group.split(':')[0];
           });
-          var countPerGroup = groupDimension.group();
+
+          var climaxSumPerGroup = groupDimension.group().reduceSum(function(d) {
+            return +d.climax;
+          });
+          // var countPerGroup = groupDimension.group();
 
           var rowChart1 = dc.rowChart('#rowchart_groups');
           rowChart1
@@ -450,7 +454,7 @@
             .height(480)
             .elasticX(true)
             .dimension(groupDimension)
-            .group(countPerGroup);
+            .group(climaxSumPerGroup);
 
           rowChart1.on('renderlet', textRenderlet);
           rowChart1.render();
@@ -463,7 +467,10 @@
             var parts = actor0[0].split('/');
             return parts[parts.length-1];
           });
-          var countPerActorA0 = actorA0Dimension.group();
+
+          var climaxSumPerActorA0 = actorA0Dimension.group().reduceSum(function(d) {
+            return +d.climax;
+          });
 
           var rowChart2 = dc.rowChart('#rowchart_firstAction');
           rowChart2
@@ -480,7 +487,7 @@
             .height(480)
             .elasticX(true)
             .dimension(actorA0Dimension)
-            .group(countPerActorA0);
+            .group(climaxSumPerActorA0);
 
           rowChart2.on('renderlet', textRenderlet);
           rowChart2.render();
@@ -493,7 +500,11 @@
             var parts = actor0[0].split('/');
             return parts[parts.length-1];
           });
-          var countPerActorA1 = actorA1Dimension.group();
+
+          var climaxSumPerActorA1 = actorA1Dimension.group().reduceSum(function(d) {
+            return +d.climax;
+          });
+          // var countPerActorA1 = actorA1Dimension.group();
 
           var rowChart3 = dc.rowChart('#rowchart_secondAction');
           rowChart3
@@ -510,7 +521,7 @@
             .height(480)
             .elasticX(true)
             .dimension(actorA1Dimension)
-            .group(countPerActorA1);
+            .group(climaxSumPerActorA1);
 
           rowChart3.on('renderlet', textRenderlet);
           rowChart3.render();
