@@ -92,7 +92,7 @@ dc.customBubbleChart = function (parent, chartGroup) {
           // enter
           var linesGEnter = lines.enter()
             .append('line')
-            .attr('x1', 1)
+            .attr('x1', -_chart.margins().left)
             .attr('y1', function (d) {
                 return d;
             })
@@ -106,7 +106,7 @@ dc.customBubbleChart = function (parent, chartGroup) {
 
           // update
           dc.transition(lines, _chart.transitionDuration())
-            .attr('x1', 1)
+            .attr('x1', -_chart.margins().left)
             .attr('y1', function (d) {
                 return d;
             })
