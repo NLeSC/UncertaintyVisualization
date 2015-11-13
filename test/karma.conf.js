@@ -23,11 +23,9 @@ module.exports = function(config) {
       'test/polyfills/string.includes.js',
 
       // bower:js
-      'bower_components/jquery/dist/jquery.js',
       'bower_components/es5-shim/es5-shim.js',
       'bower_components/angular/angular.js',
       'bower_components/json3/lib/json3.js',
-      'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/angular-animate/angular-animate.js',
       'bower_components/angular-cookies/angular-cookies.js',
       'bower_components/angular-resource/angular-resource.js',
@@ -41,6 +39,7 @@ module.exports = function(config) {
       'bower_components/dcjs/dc.js',
       'bower_components/colorbrewer/colorbrewer.js',
       'bower_components/lodash/lodash.js',
+      'bower_components/material-design-lite/material.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
 

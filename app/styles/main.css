@@ -1,3 +1,17 @@
+#banner {
+  color: white;
+  margin-top: 10px;
+}
+
+#introduction {
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.16);
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.16);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -6,6 +20,31 @@
 }
 
 body {
-  padding: 0;
-  overflow: hidden;
+  margin:10px;
+  overflow:auto;
+}
+
+#pagetitle {
+  position: relative;
+  top: -15px;
+}
+
+.logo {
+  width: 80%;
+}
+
+.nwa_logo {
+  position: absolute;
+  height: 14%;
+  right: 10px;
+}
+
+div.dc-chart {
+    float: none;
+}
+
+.dc-chart g.row text {
+    fill: black;
+    font-size: 10px;
+    cursor: pointer;
 }

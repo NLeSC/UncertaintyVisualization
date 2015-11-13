@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PunchcardController(d3, dc, crossfilter, colorbrewer) {
+  function PunchcardController(d3, dc, crossfilter, colorbrewer, $window) {
     //A renderlet that makes the text in the rowCharts to which it is applied more
     //readable by changing the text color based on the background color.
     var textRenderlet = function(_chart) {
@@ -26,6 +26,39 @@
       );
     };
 
+    var symbolScale = d3.scale.ordinal().range(d3.svg.symbolTypes);
+    var symbolRenderlet = function(_chart) {
+      _chart.selectAll('g.row').each(function() {
+        d3.select(this).append('path')
+          .data(d3.select(this).data())
+          .attr('class','symbol')
+          .attr('opacity', '1')
+          .attr('fill', _chart.getColor)
+          .attr('transform', function() {
+            return 'translate(' + 3 + ',' + 3.710526315789474 + ')';
+          })
+          .attr('d', function(d) {
+            var symbol = d3.svg.symbol();
+            symbol.size(15);
+            symbol.type(symbolScale(d.key));
+            return symbol();
+          });
+
+        d3.select(this).select('rect')
+          .attr('transform', function() {
+            return 'translate(' + 10 + ',' + 0 + ')';
+          });
+      });
+    };
+
+    var colorRenderlet = function(_chart) {
+      _chart.selectAll('g.sub').each(function() {
+        d3.select(this).select('path')
+          .data(d3.select(this).data())
+          .attr('fill', _chart.getColor);
+      });
+    };
+
     function readData(filename) {
       //We use d3 to read our JSON file
       d3.json(filename,
@@ -42,6 +75,84 @@
           // var all = ndx.groupAll();
 
 
+          //The row Chart which shows how important the groups are in terms of climax scores
+          var groupRowChart = dc.rowChart('#rowchart_groups');
+
+          //A dimension which consists of all the different group numbers
+          var groupDimension = ndx.dimension(function(d) {
+            return d.group;
+          });
+
+          //We sum the climax scores for the groups.
+          var climaxSumPerGroup = groupDimension.group();
+          // .reduceSum(function(d) {
+          //   return +d.climax;
+          // });
+          //Alternatively, we could use a count.
+          // var countPerGroup = groupDimension.group();
+          //
+          //
+          ///The group includes a value which tells us how important the group is
+          //in the overall storyline. For this graph, we filter out the groups with
+          //an importance value <= 1%
+          function filterGroupsOnImportance(sourceGroup) {
+            return {
+              all:function () {
+                return sourceGroup.all().filter(function(d) {
+                  var groupNum = parseInt(d.key.split(':')[0]);
+                  return  groupNum > 1;
+                });
+              },
+              top:function(n) {
+                return sourceGroup.top(Infinity).filter(function(d) {
+                  var groupNum = parseInt(d.key.split(':')[0]);
+                  return  groupNum > 1;
+                }).slice(0,n);
+              }
+            };
+          }
+          var filteredGroups = filterGroupsOnImportance(climaxSumPerGroup);
+
+          //Set up the
+          groupRowChart
+            //Size in pixels
+            .margins({
+              top: 20,
+              right: 0,
+              bottom: 20,
+              left: 0
+            })
+            .width(parseInt(d3.select('#rowchart_groups').style('width'), 10))
+            .height(400)
+
+            .gap(2)
+            .colors(d3.scale.category20c())
+            .colorAccessor(function(d) {
+              var splitString = d.key.split(':');
+              var valueApproximation = - (10000 * parseInt(splitString[0]) + 10*splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
+              return valueApproximation;
+            })
+
+            //Bind data
+            .dimension(groupDimension)
+            .group(filteredGroups)
+
+            //Order by key string (reverse, so we had to invent some shenanigans)
+            //This is done explicitly to match the laneChart ordering.
+            .ordering(function(d) {
+              var splitString = d.key.split(':');
+              var valueApproximation = - (10000 * parseInt(splitString[0]) + 10*splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
+              return valueApproximation;
+            })
+
+            //The x Axis
+            .x(d3.scale.linear())
+            .elasticX(true)
+            .xAxis().tickValues([]);
+
+          //Use a renderlet function to make the text more readable (defined above)
+          groupRowChart.on('renderlet', symbolRenderlet);
+          groupRowChart.render();
 
 
           //The customSeriesChart
@@ -51,7 +162,7 @@
           //for the series, and bin everything having the same group number, day
           //and climax score.
           var timeDimension = ndx.dimension(function(d) {
-            var group = d.group.split(':')[0];
+            var group = d.group;
             var time = d3.time.format('%Y%m%d').parse(d.time);
             var climax = d.climax;
             return [group, time, climax];
@@ -64,36 +175,57 @@
           });
 
           //A subChart is needed to assign a symbol per group
-          var symbolScale = d3.scale.ordinal().range(d3.svg.symbolTypes);
           var subChart1 = function(c) {
-            return dc.scatterPlot(c)
+            var subScatter = dc.scatterPlot(c)
               .symbol(function(d) {
                 return symbolScale(d.key[0]);
               })
-              .symbolSize(8)
-              .highlightedSize(10);
+              .symbolSize(6)
+              .highlightedSize(10)
+
+              .colors(groupRowChart.colors())
+              .colorAccessor(function(d) {
+                var splitString = d.key[0].split(':');
+                var valueApproximation = - (10000 * parseInt(splitString[0]) + 10*splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
+                return valueApproximation;
+              })
+
+              // .ordinalColors(Object.keys(groupDimension.top(Infinity)))
+              ;
+
+            return subScatter;
           };
 
           //Set up the
           customSeriesChart
             //Sizes in pixels
-            .width(1400)
+            .width(parseInt(d3.select('#timeline').style('width'), 10))
             .height(200)
+            .margins({
+              top: 10,
+              right: 10,
+              bottom: 20,
+              left: 20
+            })
             .brushOn(true)
             .clipPadding(10)
             .dimension(timeDimension)
             .group(climaxSumGroup)
+            .shareColors(false)
 
             //A subchart is needed to render the different series as different
             //symbols, it is defined above.
             .chart(subChart1)
             .seriesAccessor(function(d) {
+              // var splitString = d.key[0].split(':');
+              // var valueApproximation = - (10000 * parseInt(splitString[0]) + 10*splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
+              // return valueApproximation;
               //Tell dc how to access the data for the series (group)
               return d.key[0];
             })
 
             //All x Axis stuff
-            .xAxisLabel('time')
+            // .xAxisLabel('time')
             .x(d3.time.scale())
             .elasticX(true)
             .keyAccessor(function(d) {
@@ -128,7 +260,18 @@
               });
               return filter; // set the actual filter value to the new value
             });
+          // customSeriesChart.on('renderlet', colorRenderlet);
           customSeriesChart.render();
+
+          // var resize = function() {
+          //   customSeriesChart
+          //     .width(parseInt(d3.select('#timeline').style('width'), 10))
+          //     .height(200)
+          //     .rescale()
+          //     .redraw();
+          // };
+          //
+          // window.on('resize', resize);
 
 
           //The customBubbleChart aka timelineChart aka laneChart
@@ -138,7 +281,7 @@
           //and bin everything in the same group number and day.
           var laneTimeDimension = ndx.dimension(function(d) {
             var time = d3.time.format('%Y%m%d').parse(d.time);
-            var group = d.group.split(':')[0];
+            var group = d.group;
             return [group, time];
           });
 
@@ -218,27 +361,49 @@
             }
           );
 
+          //The group includes a value which tells us how important the group is
+          //in the overall storyline. For this graph, we filter out the groups with
+          //an importance value <= 1%
+          function filterOnGroupImportance(sourceGroup) {
+            return {
+              all:function () {
+                return sourceGroup.all().filter(function(d) {
+                  var groupNum = parseInt(d.key[0].split(':')[0]);
+                  return  groupNum > 1;
+                });
+              },
+              top:function(n) {
+                return sourceGroup.top(Infinity).filter(function(d) {
+                  var groupNum = parseInt(d.key[0].split(':')[0]);
+                  return  groupNum > 1;
+                }).slice(0,n);
+              }
+            };
+          }
+          var filteredLaneClimaxGroup = filterOnGroupImportance(laneClimaxGroup);
+          var ordinalGroupScale;
+
           //Set up the
           customBubbleChart
             //Sizes in pixels
-            .width(1400)
-            .height(500)
+            .width(parseInt(d3.select('#laneChart').style('width'), 10))
+            .height(400)
             .margins({
               top: 10,
-              right: 50,
-              bottom: 30,
-              left: 40
+              right: 0,
+              bottom: 20,
+              left: 0
             })
 
             //Bind data
             .dimension(laneTimeDimension)
-            .group(laneClimaxGroup)
+            .group(filteredLaneClimaxGroup)
 
             //The time this chart takes to do its animations.
             .transitionDuration(1500)
 
             //x Axis
-            .xAxisLabel('time')
+            // .xAxisLabel('time')
             .x(d3.time.scale())
             .elasticX(true)
             .xAxisPadding(100)
@@ -248,16 +413,17 @@
             })
 
             //y Axis
-            .yAxisLabel('group')
-            .y(d3.scale.ordinal().domain((function() {
+            // .yAxisLabel('group')
+            .y(ordinalGroupScale = d3.scale.ordinal().domain((function() {
               //Because we use an ordinal scale here, we have to tell the chart
               //which values to expect.
-              var domain = laneClimaxGroup.all().map(function(d) {
+              var domain = filteredLaneClimaxGroup.all().map(function(d) {
                 //The group of this event
                 return(d.key[0]);
               });
               return domain;
-            })()))
+            })()).copy()
+            )
             .valueAccessor(function(p) {
               //The group of this event
               return p.key[0];
@@ -353,83 +519,50 @@
 
           customBubbleChart.render();
 
-          //The row Chart which shows how important the groups are in terms of climax scores
-          var groupRowChart = dc.rowChart('#rowchart_groups');
-
-          //A dimension which consists of all the different group numbers
-          var groupDimension = ndx.dimension(function(d) {
-            return d.group.split(':')[0];
-          });
-
-          //We sum the climax scores for the groups.
-          var climaxSumPerGroup = groupDimension.group().reduceSum(function(d) {
-            return +d.climax;
-          });
-          //Alternatively, we could use a count.
-          // var countPerGroup = groupDimension.group();
-
-          //Set up the
-          groupRowChart
-            //Size in pixels
-            .width(768)
-            .height(480)
-
-            //Bind data
-            .dimension(groupDimension)
-            .group(climaxSumPerGroup)
-
-            //The x Axis
-            .x(d3.scale.linear())
-            .elasticX(true)
-
-            //We use this custom data and ordering functions to sort the data and
-            //limit to the top 20 (in climax scores)
-            .data(function(d) {
-              return d.order(function(d) {
-                return d;
-              }).top(20);
-            })
-            .ordering(function(d) {
-              return -d;
-            });
-
-          //Use a renderlet function to make the text more readable (defined above)
-          groupRowChart.on('renderlet', textRenderlet);
-          groupRowChart.render();
-
 
           //A rowChart that shows us the importance of the propbank A0 actors
           var actorA0rowChart = dc.rowChart('#rowchart_firstAction');
 
-          //In defining this dimension, we cheat a little by only pulling the
-          //first A0 actor. TODO: fix this
           var actorA0Dimension = ndx.dimension(function(d) {
             //1. Get the propbank A0 actors for this event.
             var actor0 = d.actors['pb/A0'];
-            var actor0Name;
+            var actor0Names = [];
             if (actor0 === undefined || actor0 === '') {
               //2a. Clean data (fill missing values with 'unknown')
-              actor0Name = 'unknown';
+              actor0Names = ['unknown'];
             } else {
-              //2b. Split the string and get only the last part of it, the rest we
-              //consider 'fluff'
-              var parts = actor0[0].split('/');
-              actor0Name = parts[parts.length-1];
+              actor0.forEach(function(a) {
+                //2b. Split the string and get only the last part of it, the rest we
+                //consider 'fluff'
+                var parts = a.split('/');
+                actor0Names.push(parts[parts.length-1]);
+              });
             }
-            return actor0Name;
+            return actor0Names;
           });
 
-          //Reduce (bin) over the dimension and sum the climax scores
           var climaxSumPerActorA0 = actorA0Dimension.group().reduceSum(function(d) {
             return +d.climax;
           });
-          //Alternatively, we could use a count.
-          // var countPerGroup = groupDimension.group();
+
+          // var fakeClimaxSumPerActorA0 = {
+          //   all: function() {
+          //     var hash = climaxSumPerActorA0.value();
+          //     var result = [];
+          //     for (var kv in hash) {
+          //       result.push({
+          //         key: kv,
+          //         value: hash[kv]
+          //       });
+          //     }
+          //     return result;
+          //   }
+          // };
 
           //Set up the
           actorA0rowChart
             //Size in pixels
-            .width(768)
+            .width(parseInt(d3.select('#rowchart_firstAction').style('width'), 10))
             .height(480)
 
             //Bind data
@@ -484,7 +617,7 @@
 
           actorA1rowChart
             //Size in pixels
-            .width(768)
+            .width(parseInt(d3.select('#rowchart_secondAction').style('width'), 10))
             .height(480)
 
             //Bind data
