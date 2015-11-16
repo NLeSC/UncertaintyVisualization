@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PunchcardController(d3, dc, crossfilter, colorbrewer, $window) {
+  function PunchcardController(d3, dc, crossfilter, colorbrewer) {
     //A renderlet that makes the text in the rowCharts to which it is applied more
     //readable by changing the text color based on the background color.
     var textRenderlet = function(_chart) {
@@ -26,17 +26,26 @@
       );
     };
 
+    //A renderlet as a helper function for the groupChart, to add the symbols
+    //from the series chart (and adjust the positions to accomodate them)
     var symbolScale = d3.scale.ordinal().range(d3.svg.symbolTypes);
     var symbolRenderlet = function(_chart) {
+      //For each row in the chart
       _chart.selectAll('g.row').each(function() {
+        //Append a path element
         d3.select(this).append('path')
+          //Bind he data so we can use it for determining the symbol shape
           .data(d3.select(this).data())
           .attr('class','symbol')
           .attr('opacity', '1')
+          //Get the color from the chart
           .attr('fill', _chart.getColor)
+          //Position correctly, the Y attribute is a magic number
           .attr('transform', function() {
             return 'translate(' + 3 + ',' + 3.710526315789474 + ')';
           })
+          //Determine the symbol from the data. Use the same symbol scale as the
+          //series chart
           .attr('d', function(d) {
             var symbol = d3.svg.symbol();
             symbol.size(15);
@@ -44,18 +53,11 @@
             return symbol();
           });
 
+        //Reposition the rectangles to make room for the symbol
         d3.select(this).select('rect')
           .attr('transform', function() {
             return 'translate(' + 10 + ',' + 0 + ')';
           });
-      });
-    };
-
-    var colorRenderlet = function(_chart) {
-      _chart.selectAll('g.sub').each(function() {
-        d3.select(this).select('path')
-          .data(d3.select(this).data())
-          .attr('fill', _chart.getColor);
       });
     };
 
@@ -85,13 +87,7 @@
 
           //We sum the climax scores for the groups.
           var climaxSumPerGroup = groupDimension.group();
-          // .reduceSum(function(d) {
-          //   return +d.climax;
-          // });
-          //Alternatively, we could use a count.
-          // var countPerGroup = groupDimension.group();
-          //
-          //
+
           ///The group includes a value which tells us how important the group is
           //in the overall storyline. For this graph, we filter out the groups with
           //an importance value <= 1%
@@ -125,8 +121,12 @@
             .width(parseInt(d3.select('#rowchart_groups').style('width'), 10))
             .height(400)
 
+            //A smaller-than-default gap between bars
             .gap(2)
+
+            //Use an ordinal color scale
             .colors(d3.scale.category20c())
+            //Use a custom accessor
             .colorAccessor(function(d) {
               var splitString = d.key.split(':');
               var valueApproximation = - (10000 * parseInt(splitString[0]) + 10*splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
@@ -150,7 +150,7 @@
             .elasticX(true)
             .xAxis().tickValues([]);
 
-          //Use a renderlet function to make the text more readable (defined above)
+          //Use a renderlet function to add the colored symbols to the legend (defined above)
           groupRowChart.on('renderlet', symbolRenderlet);
           groupRowChart.render();
 
@@ -177,21 +177,21 @@
           //A subChart is needed to assign a symbol per group
           var subChart1 = function(c) {
             var subScatter = dc.scatterPlot(c)
+              //Use the global symbol scale to determine the symbol to be used
               .symbol(function(d) {
                 return symbolScale(d.key[0]);
               })
               .symbolSize(6)
               .highlightedSize(10)
 
+              //Use the color scheme of the groupRowChart
               .colors(groupRowChart.colors())
+              //re-use the custom color accessor from the group chart
               .colorAccessor(function(d) {
                 var splitString = d.key[0].split(':');
                 var valueApproximation = - (10000 * parseInt(splitString[0]) + 10*splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
                 return valueApproximation;
-              })
-
-              // .ordinalColors(Object.keys(groupDimension.top(Infinity)))
-              ;
+              });
 
             return subScatter;
           };
@@ -217,9 +217,6 @@
             //symbols, it is defined above.
             .chart(subChart1)
             .seriesAccessor(function(d) {
-              // var splitString = d.key[0].split(':');
-              // var valueApproximation = - (10000 * parseInt(splitString[0]) + 10*splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
-              // return valueApproximation;
               //Tell dc how to access the data for the series (group)
               return d.key[0];
             })
@@ -260,18 +257,7 @@
               });
               return filter; // set the actual filter value to the new value
             });
-          // customSeriesChart.on('renderlet', colorRenderlet);
           customSeriesChart.render();
-
-          // var resize = function() {
-          //   customSeriesChart
-          //     .width(parseInt(d3.select('#timeline').style('width'), 10))
-          //     .height(200)
-          //     .rescale()
-          //     .redraw();
-          // };
-          //
-          // window.on('resize', resize);
 
 
           //The customBubbleChart aka timelineChart aka laneChart
@@ -584,7 +570,7 @@
               return -d;
             });
 
-          actorA0rowChart.on('renderlet', textRenderlet);
+          // actorA0rowChart.on('renderlet', textRenderlet);
           actorA0rowChart.render();
 
 
@@ -639,7 +625,7 @@
               return -d;
             });
 
-          actorA1rowChart.on('renderlet', textRenderlet);
+          // actorA1rowChart.on('renderlet', textRenderlet);
           actorA1rowChart.render();
 
           //Now, build a table with the filtered results
