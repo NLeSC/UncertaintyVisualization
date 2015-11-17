@@ -73,6 +73,7 @@
 
           //Crossfilter initialization
           var events = data.timeline.events;
+          var sources = data.timeline.sources;
           var ndx = crossfilter(events);
           // var all = ndx.groupAll();
 
@@ -506,6 +507,111 @@
           customBubbleChart.render();
 
 
+          //A rowChart that shows us the importance of the all actors
+          var allActorChart = dc.rowChart('#rowchart_allActors');
+
+          //Helper function to get unique elements of an array
+          var arrayUnique = function(a) {
+              return a.reduce(function(p, c) {
+                  if (p.indexOf(c) < 0) {
+                    p.push(c);
+                  }
+                  return p;
+              }, []);
+          };
+
+          //Dimension of the list of unique actors present in each event.
+          var allActorsDimension = ndx.dimension(function(d) {
+            var concatenatedActors = [];
+
+            var keys = Object.keys(d.actors);
+            keys.forEach(function (key) {
+              var keysActors = d.actors[key];
+              keysActors.forEach(function(keysActor) {
+                concatenatedActors.push(keysActor);
+              });
+            });
+            var uniqueActors = arrayUnique(concatenatedActors);
+
+            return uniqueActors;
+          });
+
+          //Custom reduce functions to split events up with multiple keys
+          function reduceAdd(p, v) {
+            var keys = Object.keys(v.actors);
+            keys.forEach (function(key) {
+              var actors = v.actors[key];
+              actors.forEach(function (actor) {
+                p[actor] = (p[actor] || 0) + v.climax;
+              });
+            });
+            return p;
+          }
+
+          function reduceRemove(p, v) {
+            var keys = Object.keys(v.actors);
+            keys.forEach (function(key) {
+              var actors = v.actors[key];
+              actors.forEach(function (actor) {
+                p[actor] = (p[actor] || 0) - v.climax;
+              });
+            });
+            return p;
+          }
+
+          function reduceInitial() {
+            return {};
+          }
+
+          //Apply custom reduce
+          var allActorsClimaxSum = allActorsDimension.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value();
+
+          //Hack to add the all and top functions again
+          allActorsClimaxSum.all = function() {
+            var newObject = [];
+            for (var key in this) {
+              if (this.hasOwnProperty(key) && key !== 'all' && key !== 'top' && key !== 'order') {
+                newObject.push({
+                  key: key,
+                  value: this[key]
+                });
+              }
+            }
+            return newObject;
+          };
+          allActorsClimaxSum.top = function(n) {
+            var newObject = this.all().sort(function(a, b) {
+              return b.value - a.value;
+            }).slice(0,n);
+
+            return newObject;
+          };
+
+          //Set up the
+          allActorChart
+            //Size in pixels
+            .width(parseInt(d3.select('#rowchart_allActors').style('width'), 10))
+            .height(480)
+
+            //Bind data
+            .dimension(allActorsDimension)
+            .group(allActorsClimaxSum)
+
+            //The x Axis
+            .x(d3.scale.linear())
+            .elasticX(true)
+
+            //We use this custom data and ordering functions to sort the data and
+            //limit to the top 20 (in climax scores)
+            .data(function(d) {
+              return d.top(20);
+            });
+
+          allActorChart.render();
+
+
+
+
           //A rowChart that shows us the importance of the propbank A0 actors
           var actorA0rowChart = dc.rowChart('#rowchart_firstAction');
 
@@ -571,7 +677,7 @@
             });
 
           // actorA0rowChart.on('renderlet', textRenderlet);
-          actorA0rowChart.render();
+          // actorA0rowChart.render();
 
 
           //A rowChart that shows us the importance of the propbank A1 actors
@@ -626,7 +732,7 @@
             });
 
           // actorA1rowChart.on('renderlet', textRenderlet);
-          actorA1rowChart.render();
+          // actorA1rowChart.render();
 
           //Now, build a table with the filtered results
           var dataTable = dc.dataTable('#dataTable');
@@ -635,6 +741,16 @@
           var idDimension = ndx.dimension(function(d) {
             return [d.group, d.time, d.labels];
           });
+
+          var findMine = function(sources, uri) {
+            var result;
+            sources.forEach(function(source) {
+              if (source.uri.localeCompare(uri) === 0) {
+                result = source;
+              }
+            });
+            return result;
+          };
 
           //Set up the
           dataTable
@@ -648,14 +764,15 @@
             })
             .order(d3.ascending)
             .columns([
-              { label:'Group',
+              { label:'GroupName',
                 format: function(d) {
-                  return d.group;
+                  return d.groupName;
                 }
               },
               { label:'Time',
                 format: function(d) {
-                  return d.time;
+                  var time = d3.time.format('%Y%m%d').parse(d.time);
+                  return time.getDay() + '/' + time.getMonth() + '/' + time.getFullYear();
                 }
               },
               { label:'Climax Score',
@@ -663,14 +780,38 @@
                   return d.climax;
                 }
               },
-              { label:'A0',
+              { label:'Mentions',
                 format: function(d) {
-                  return d.actors['pb/A0'];
-                }
-              },
-              { label:'A1',
-                format: function(d) {
-                  return d.actors['pb/A1'];
+                  var result = [];
+                  var raw = d.mentions;
+                  for (var i=0; i<raw.length;i+=2) {
+                    var uri = raw[i].split('#')[0];
+                    var charStart = parseInt(raw[i].split('#')[1].split('=')[1]);
+                    var charEnd = parseInt(raw[i+1].split('&')[0]);
+
+                    if (charStart < 0) {
+                      charStart = 0;
+                    }
+
+                    var found = findMine(sources, uri);
+
+                    // var meta = raw[i+1].split('=');
+                    // var sentence = meta[meta.length-1];
+                    result.push({
+                      charStart:charStart,
+                      charEnd:charEnd,
+                      text:found.text
+                    });
+                  }
+                  var html = '';
+                  result.forEach(function(phrase) {
+                    var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart-1);
+                    var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
+                    var post = phrase.text.substring(phrase.charEnd+1 ,phrase.charEnd+30);
+
+                    html += pre + '<span style=\'background-color:red\'>'+word+'</span>' + post;
+                  });
+                  return html;
                 }
               },
               { label:'Labels',
@@ -684,7 +825,7 @@
       );
     }
 
-    readData('data/airbus_contextual.timeline.json');
+    readData('data/airbus_contextual.timeline2.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);
