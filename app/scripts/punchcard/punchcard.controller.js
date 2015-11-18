@@ -784,14 +784,13 @@
                 format: function(d) {
                   var result = [];
                   var raw = d.mentions;
-                  for (var i=0; i<raw.length;i+=2) {
-                    var uri = raw[i].split('#')[0];
-                    var charStart = parseInt(raw[i].split('#')[1].split('=')[1]);
-                    var charEnd = parseInt(raw[i+1].split('&')[0]);
-
-                    if (charStart < 0) {
-                      charStart = 0;
+                  raw.forEach(function(mention) {
+                    var uri = mention.uri[0];
+                    if (mention.uri[1] !== undefined) {
+                      console.log('unparsed mention here');
                     }
+                    var charStart = parseInt(mention.char[0]);
+                    var charEnd = parseInt(mention.char[1]);
 
                     var found = findMine(sources, uri);
 
@@ -802,7 +801,7 @@
                       charEnd:charEnd,
                       text:found.text
                     });
-                  }
+                  });
                   var html = '';
                   result.forEach(function(phrase) {
                     var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart-1);
@@ -825,7 +824,7 @@
       );
     }
 
-    readData('data/airbus_contextual.timeline2.json');
+    readData('data/contextual.timeline18-11.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);
