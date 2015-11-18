@@ -804,9 +804,9 @@
                   });
                   var html = '';
                   result.forEach(function(phrase) {
-                    var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart-1);
+                    var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart);
                     var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
-                    var post = phrase.text.substring(phrase.charEnd+1 ,phrase.charEnd+30);
+                    var post = phrase.text.substring(phrase.charEnd ,phrase.charEnd+30);
 
                     html += pre + '<span style=\'background-color:red\'>'+word+'</span>' + post;
                   });
