@@ -2,6 +2,16 @@
   'use strict';
 
   function PunchcardController(d3, dc, crossfilter, colorbrewer) {
+    //Helper function to get unique elements of an array
+    var arrayUnique = function(a) {
+        return a.reduce(function(p, c) {
+            if (p.indexOf(c) < 0) {
+              p.push(c);
+            }
+            return p;
+        }, []);
+    };
+
     //A renderlet that makes the text in the rowCharts to which it is applied more
     //readable by changing the text color based on the background color.
     var textRenderlet = function(_chart) {
@@ -73,6 +83,7 @@
 
           //Crossfilter initialization
           var events = data.timeline.events;
+          var sources = data.timeline.sources;
           var ndx = crossfilter(events);
           // var all = ndx.groupAll();
 
@@ -280,28 +291,19 @@
               //Climax score summed for all events with the same time(day) and group(number).
               p.climax = p.climax + v.climax;
 
-              //To get the 'main' actor, we cheat and currently only get the first
-              //propbank A0 actor listed. We then assign this group's climax score
-              //to it and sum that over all events matching this time and group.
-              //TODO: fix this
-              //1. Get the propbank A0 actors for this event.
-              var actor0 = v.actors['pb/A0'];
-              var actor0Name;
-              if (actor0 === undefined || actor0 === '') {
-                //2a. Clean data (fill missing values with 'unknown')
-                actor0Name = 'unknown';
-              } else {
-                //2b. Split the string and get only the last part of it, the rest we
-                //consider 'fluff'
-                var parts = actor0[0].split('/');
-                actor0Name = parts[parts.length-1];
-              }
-              //3. Sum actor values over all events fitting this time and group.
-              if (p.actors[actor0Name] === undefined) {
-                p.actors[actor0Name] = v.climax;
-              } else {
-                p.actors[actor0Name] = p.actors[actor0Name] + v.climax;
-              }
+              var concatenatedActors = [];
+
+              var keys = Object.keys(v.actors);
+              keys.forEach(function (key) {
+                var keysActors = v.actors[key];
+                keysActors.forEach(function(keysActor) {
+                  concatenatedActors.push(keysActor);
+                });
+              });
+              var uniqueActors = arrayUnique(concatenatedActors);
+              uniqueActors.forEach(function(a) {
+                p.actors[a] = (p.actors[a] || 0) + v.climax;
+              });
 
               //Sum label values over all events fitting this time and group.
               v.labels.forEach(function(l) {
@@ -319,17 +321,19 @@
             function(p, v) {
               p.climax = p.climax - v.climax;
 
-              var actor0 = v.actors['pb/A0'];
-              if (actor0 === undefined || actor0 === '') {
-                actor0 = 'unknown';
-              }
-              var parts = actor0[0].split('/');
-              var actor0Name = parts[parts.length-1];
-              if (p.actors[actor0Name] === undefined) {
-                p.actors[actor0Name] = -v.climax;
-              } else {
-                p.actors[actor0Name] = p.actors[actor0Name] - v.climax;
-              }
+              var concatenatedActors = [];
+
+              var keys = Object.keys(v.actors);
+              keys.forEach(function (key) {
+                var keysActors = v.actors[key];
+                keysActors.forEach(function(keysActor) {
+                  concatenatedActors.push(keysActor);
+                });
+              });
+              var uniqueActors = arrayUnique(concatenatedActors);
+              uniqueActors.forEach(function(a) {
+                p.actors[a] = (p.actors[a] || 0) - v.climax;
+              });
 
               v.labels.forEach(function(l) {
                 if (p.labels[l] === undefined) {
@@ -458,6 +462,8 @@
             //Information on hover
             .renderTitle(true)
             .title(function(p) {
+              var formattedTime = p.key[1].getDay() + '/' + p.key[1].getMonth() + '/' + p.key[1].getFullYear();
+
               //Get the most important actor (highest climax score)
               var mostImportantActor = '';
               var climaxScoreOfMostImportantActor = -1;
@@ -475,7 +481,7 @@
               labels.forEach(function(l) {
                 labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
               });
-              return p.key[1] + '\n' + 'Group:'+ p.key[0] + '\n' + labelString +  mostImportantActor + '\n' + 'Climax: ' + p.value.climax;
+              return formattedTime + '\n' + 'Group:'+ p.key[0] + '\n' + labelString +  mostImportantActor + '\n' + 'Climax: ' + p.value.climax;
             });
 
           //A hack to make the customBubbleChart filter out 0-value bubbles while determining the x-axis range
@@ -506,54 +512,85 @@
           customBubbleChart.render();
 
 
-          //A rowChart that shows us the importance of the propbank A0 actors
-          var actorA0rowChart = dc.rowChart('#rowchart_firstAction');
+          //A rowChart that shows us the importance of the all actors
+          var allActorChart = dc.rowChart('#rowchart_allActors');
 
-          var actorA0Dimension = ndx.dimension(function(d) {
-            //1. Get the propbank A0 actors for this event.
-            var actor0 = d.actors['pb/A0'];
-            var actor0Names = [];
-            if (actor0 === undefined || actor0 === '') {
-              //2a. Clean data (fill missing values with 'unknown')
-              actor0Names = ['unknown'];
-            } else {
-              actor0.forEach(function(a) {
-                //2b. Split the string and get only the last part of it, the rest we
-                //consider 'fluff'
-                var parts = a.split('/');
-                actor0Names.push(parts[parts.length-1]);
+          //Dimension of the list of unique actors present in each event.
+          var allActorsDimension = ndx.dimension(function(d) {
+            var concatenatedActors = [];
+
+            var keys = Object.keys(d.actors);
+            keys.forEach(function (key) {
+              var keysActors = d.actors[key];
+              keysActors.forEach(function(keysActor) {
+                concatenatedActors.push(keysActor);
               });
+            });
+            var uniqueActors = arrayUnique(concatenatedActors);
+
+            return uniqueActors;
+          });
+
+          //Custom reduce functions to split events up with multiple keys
+          function reduceAdd(p, v) {
+            var keys = Object.keys(v.actors);
+            keys.forEach (function(key) {
+              var actors = v.actors[key];
+              actors.forEach(function (actor) {
+                p[actor] = (p[actor] || 0) + v.climax;
+              });
+            });
+            return p;
+          }
+
+          function reduceRemove(p, v) {
+            var keys = Object.keys(v.actors);
+            keys.forEach (function(key) {
+              var actors = v.actors[key];
+              actors.forEach(function (actor) {
+                p[actor] = (p[actor] || 0) - v.climax;
+              });
+            });
+            return p;
+          }
+
+          function reduceInitial() {
+            return {};
+          }
+
+          //Apply custom reduce
+          var allActorsClimaxSum = allActorsDimension.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value();
+
+          //Hack to add the all and top functions again
+          allActorsClimaxSum.all = function() {
+            var newObject = [];
+            for (var key in this) {
+              if (this.hasOwnProperty(key) && key !== 'all' && key !== 'top' && key !== 'order') {
+                newObject.push({
+                  key: key,
+                  value: this[key]
+                });
+              }
             }
-            return actor0Names;
-          });
+            return newObject;
+          };
+          allActorsClimaxSum.top = function(n) {
+            var newObject = this.all().sort(function(a, b) {
+              return b.value - a.value;
+            }).slice(0,n);
 
-          var climaxSumPerActorA0 = actorA0Dimension.group().reduceSum(function(d) {
-            return +d.climax;
-          });
-
-          // var fakeClimaxSumPerActorA0 = {
-          //   all: function() {
-          //     var hash = climaxSumPerActorA0.value();
-          //     var result = [];
-          //     for (var kv in hash) {
-          //       result.push({
-          //         key: kv,
-          //         value: hash[kv]
-          //       });
-          //     }
-          //     return result;
-          //   }
-          // };
+            return newObject;
+          };
 
           //Set up the
-          actorA0rowChart
+          allActorChart
             //Size in pixels
-            .width(parseInt(d3.select('#rowchart_firstAction').style('width'), 10))
+            .width(parseInt(d3.select('#rowchart_allActors').style('width'), 10))
             .height(480)
 
             //Bind data
-            .dimension(actorA0Dimension)
-            .group(climaxSumPerActorA0)
+            .dimension(allActorsDimension)
+            .group(allActorsClimaxSum)
 
             //The x Axis
             .x(d3.scale.linear())
@@ -562,71 +599,11 @@
             //We use this custom data and ordering functions to sort the data and
             //limit to the top 20 (in climax scores)
             .data(function(d) {
-              return d.order(function(d) {
-                return d;
-              }).top(20);
-            })
-            .ordering(function(d) {
-              return -d;
+              return d.top(20);
             });
 
-          // actorA0rowChart.on('renderlet', textRenderlet);
-          actorA0rowChart.render();
+          allActorChart.render();
 
-
-          //A rowChart that shows us the importance of the propbank A1 actors
-          var actorA1rowChart = dc.rowChart('#rowchart_secondAction');
-
-          //In defining this dimension, we cheat a little by only pulling the
-          //first A1 actor. TODO: fix this
-          var actorA1Dimension = ndx.dimension(function(d) {
-            //1. Get the propbank A0 actors for this event.
-            var actor1 = d.actors['pb/A1'];
-            var actor1Name;
-            if (actor1 === undefined || actor1 === '') {
-              //2a. Clean data (fill missing values with 'unknown')
-              actor1Name = 'unknown';
-            } else {
-              //2b. Split the string and get only the last part of it, the rest we
-              //consider 'fluff'
-              var parts = actor1[0].split('/');
-              actor1Name = parts[parts.length-1];
-            }
-            return actor1Name;
-          });
-
-          //Reduce (bin) over the dimension and sum the climax scores
-          var climaxSumPerActorA1 = actorA1Dimension.group().reduceSum(function(d) {
-            return +d.climax;
-          });
-          // var countPerActorA1 = actorA1Dimension.group();
-
-          actorA1rowChart
-            //Size in pixels
-            .width(parseInt(d3.select('#rowchart_secondAction').style('width'), 10))
-            .height(480)
-
-            //Bind data
-            .dimension(actorA1Dimension)
-            .group(climaxSumPerActorA1)
-
-            //The x Axis
-            .x(d3.scale.linear())
-            .elasticX(true)
-
-            //We use this custom data and ordering functions to sort the data and
-            //limit to the top 20 (in climax scores)
-            .data(function(d) {
-              return d.order(function(d) {
-                return d;
-              }).top(20);
-            })
-            .ordering(function(d) {
-              return -d;
-            });
-
-          // actorA1rowChart.on('renderlet', textRenderlet);
-          actorA1rowChart.render();
 
           //Now, build a table with the filtered results
           var dataTable = dc.dataTable('#dataTable');
@@ -635,6 +612,16 @@
           var idDimension = ndx.dimension(function(d) {
             return [d.group, d.time, d.labels];
           });
+
+          var findMine = function(sources, uri) {
+            var result;
+            sources.forEach(function(source) {
+              if (source.uri.localeCompare(uri) === 0) {
+                result = source;
+              }
+            });
+            return result;
+          };
 
           //Set up the
           dataTable
@@ -648,14 +635,15 @@
             })
             .order(d3.ascending)
             .columns([
-              { label:'Group',
+              { label:'GroupName',
                 format: function(d) {
-                  return d.group;
+                  return d.groupName;
                 }
               },
               { label:'Time',
                 format: function(d) {
-                  return d.time;
+                  var time = d3.time.format('%Y%m%d').parse(d.time);
+                  return time.getDay() + '/' + time.getMonth() + '/' + time.getFullYear();
                 }
               },
               { label:'Climax Score',
@@ -663,14 +651,37 @@
                   return d.climax;
                 }
               },
-              { label:'A0',
+              { label:'Mentions',
                 format: function(d) {
-                  return d.actors['pb/A0'];
-                }
-              },
-              { label:'A1',
-                format: function(d) {
-                  return d.actors['pb/A1'];
+                  var result = [];
+                  var raw = d.mentions;
+                  raw.forEach(function(mention) {
+                    var uri = mention.uri[0];
+                    if (mention.uri[1] !== undefined) {
+                      console.log('unparsed mention here');
+                    }
+                    var charStart = parseInt(mention.char[0]);
+                    var charEnd = parseInt(mention.char[1]);
+
+                    var found = findMine(sources, uri);
+
+                    // var meta = raw[i+1].split('=');
+                    // var sentence = meta[meta.length-1];
+                    result.push({
+                      charStart:charStart,
+                      charEnd:charEnd,
+                      text:found.text
+                    });
+                  });
+                  var html = '';
+                  result.forEach(function(phrase) {
+                    var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart);
+                    var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
+                    var post = phrase.text.substring(phrase.charEnd ,phrase.charEnd+30);
+
+                    html += pre + '<span style=\'background-color:red\'>'+word+'</span>' + post;
+                  });
+                  return html;
                 }
               },
               { label:'Labels',
@@ -684,7 +695,7 @@
       );
     }
 
-    readData('data/airbus_contextual.timeline.json');
+    readData('data/contextual.timeline18-11-fn.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);

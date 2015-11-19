@@ -147,15 +147,15 @@ dc.customBubbleChart = function (parent, chartGroup) {
 
     function updateNodes (bubbleG) {
         dc.transition(bubbleG, _chart.transitionDuration())
-            .attr('transform', bubbleLocator)
-            .selectAll('circle.' + _chart.BUBBLE_CLASS)
-            .attr('fill', _chart.getColor)
-            .attr('r', function (d) {
-                return _chart.bubbleR(d);
-            })
-            .attr('opacity', function (d) {
-                return (_chart.bubbleR(d) > 0) ? 1 : 0;
-            });
+          .attr('transform', bubbleLocator)
+          .selectAll('circle.' + _chart.BUBBLE_CLASS)
+          .attr('fill', _chart.getColor)
+          .attr('r', function (d) {
+              return _chart.bubbleR(d);
+          })
+          .attr('opacity', function (d) {
+              return (_chart.bubbleR(d) > 0) ? 1 : 0;
+          });
 
         _chart.doUpdateLabels(bubbleG);
         _chart.doUpdateTitles(bubbleG);
