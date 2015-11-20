@@ -110,10 +110,11 @@ dc.customBubbleMixin = function (_chart) {
 
             if (label.empty()) {
                 label = bubbleGEnter.append('text')
-                    .attr('transform', 'translate(' + 0 + ',' + -offset*0.5 + ')')
-                    .attr('text-anchor', 'middle')
-                    .attr('dy', '.3em')
-                    .on('click', _chart.onClick);
+                  .attr('transform', 'rotate(-45) translate(' + 5 + ',' + 0 + ') ')
+                  // .attr('transform', ')
+                  .attr('text-anchor', 'left')
+                  .attr('dy', '.3em')
+                  .on('click', _chart.onClick);
             }
 
             label

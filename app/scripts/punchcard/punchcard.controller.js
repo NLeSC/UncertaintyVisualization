@@ -2,6 +2,16 @@
   'use strict';
 
   function PunchcardController(d3, dc, crossfilter, colorbrewer) {
+    //Helper function to get unique elements of an array
+    var arrayUnique = function(a) {
+        return a.reduce(function(p, c) {
+            if (p.indexOf(c) < 0) {
+              p.push(c);
+            }
+            return p;
+        }, []);
+    };
+
     //A renderlet that makes the text in the rowCharts to which it is applied more
     //readable by changing the text color based on the background color.
     var textRenderlet = function(_chart) {
@@ -281,36 +291,18 @@
               //Climax score summed for all events with the same time(day) and group(number).
               p.climax = p.climax + v.climax;
 
-              //To get the 'main' actor, we cheat and currently only get the first
-              //propbank A0 actor listed. We then assign this group's climax score
-              //to it and sum that over all events matching this time and group.
-              //TODO: fix this
-              //1. Get the propbank A0 actors for this event.
-              var actor0 = v.actors['pb/A0'];
-              var actor0Name;
-              if (actor0 === undefined || actor0 === '') {
-                //2a. Clean data (fill missing values with 'unknown')
-                actor0Name = 'unknown';
-              } else {
-                //2b. Split the string and get only the last part of it, the rest we
-                //consider 'fluff'
-                var parts = actor0[0].split('/');
-                actor0Name = parts[parts.length-1];
-              }
-              //3. Sum actor values over all events fitting this time and group.
-              if (p.actors[actor0Name] === undefined) {
-                p.actors[actor0Name] = v.climax;
-              } else {
-                p.actors[actor0Name] = p.actors[actor0Name] + v.climax;
-              }
+              var keys = Object.keys(v.actors);
+              keys.forEach(function (key) {
+                var keysActors = v.actors[key];
+                keysActors.forEach(function(keysActor) {
+                  var actorLabel = key + ' : ' + keysActor;
+                  p.actors[actorLabel] = (p.actors[actorLabel] || 0) + v.climax;
+                });
+              });
 
               //Sum label values over all events fitting this time and group.
               v.labels.forEach(function(l) {
-                if (p.labels[l] === undefined) {
-                  p.labels[l] = v.climax;
-                } else {
-                  p.labels[l] = p.labels[l] + v.climax;
-                }
+                p.labels[l] = (p.labels[l] || 0) + v.climax;
               });
 
               return p;
@@ -320,24 +312,17 @@
             function(p, v) {
               p.climax = p.climax - v.climax;
 
-              var actor0 = v.actors['pb/A0'];
-              if (actor0 === undefined || actor0 === '') {
-                actor0 = 'unknown';
-              }
-              var parts = actor0[0].split('/');
-              var actor0Name = parts[parts.length-1];
-              if (p.actors[actor0Name] === undefined) {
-                p.actors[actor0Name] = -v.climax;
-              } else {
-                p.actors[actor0Name] = p.actors[actor0Name] - v.climax;
-              }
+              var keys = Object.keys(v.actors);
+              keys.forEach(function (key) {
+                var keysActors = v.actors[key];
+                keysActors.forEach(function(keysActor) {
+                  var actorLabel = key + ' : ' + keysActor;
+                  p.actors[actorLabel] = (p.actors[actorLabel] || 0) - v.climax;
+                });
+              });
 
               v.labels.forEach(function(l) {
-                if (p.labels[l] === undefined) {
-                  p.labels[l] = -v.climax;
-                } else {
-                  p.labels[l] = p.labels[l] - v.climax;
-                }
+                p.labels[l] = (p.labels[l] || 0) - v.climax;
               });
 
               return p;
@@ -459,15 +444,13 @@
             //Information on hover
             .renderTitle(true)
             .title(function(p) {
-              //Get the most important actor (highest climax score)
-              var mostImportantActor = '';
-              var climaxScoreOfMostImportantActor = -1;
+              var formattedTime = p.key[1].getDay() + '/' + p.key[1].getMonth() + '/' + p.key[1].getFullYear();
+
+              //Get the actors
               var actors = Object.keys(p.value.actors);
+              var actorString = '';
               actors.forEach(function(a) {
-                if (p.value.actors[a] > climaxScoreOfMostImportantActor) {
-                  mostImportantActor = a;
-                  climaxScoreOfMostImportantActor = p.value.actors[a];
-                }
+                actorString += p.value.actors[a] + ' : ' + a.toString() + '\n';
               });
 
               //List all individual labels and their climax scores
@@ -476,7 +459,15 @@
               labels.forEach(function(l) {
                 labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
               });
-              return p.key[1] + '\n' + 'Group:'+ p.key[0] + '\n' + labelString +  mostImportantActor + '\n' + 'Climax: ' + p.value.climax;
+
+              var titleString = formattedTime +
+                                '\n-----Group------\n' +
+                                'Group:'+ p.key[0] +
+                                '\n-----Actors-----\n' +
+                                actorString +
+                                '\n-----Labels-----\n' +
+                                labelString;
+              return titleString;
             });
 
           //A hack to make the customBubbleChart filter out 0-value bubbles while determining the x-axis range
@@ -509,16 +500,6 @@
 
           //A rowChart that shows us the importance of the all actors
           var allActorChart = dc.rowChart('#rowchart_allActors');
-
-          //Helper function to get unique elements of an array
-          var arrayUnique = function(a) {
-              return a.reduce(function(p, c) {
-                  if (p.indexOf(c) < 0) {
-                    p.push(c);
-                  }
-                  return p;
-              }, []);
-          };
 
           //Dimension of the list of unique actors present in each event.
           var allActorsDimension = ndx.dimension(function(d) {
@@ -610,130 +591,6 @@
           allActorChart.render();
 
 
-
-
-          //A rowChart that shows us the importance of the propbank A0 actors
-          var actorA0rowChart = dc.rowChart('#rowchart_firstAction');
-
-          var actorA0Dimension = ndx.dimension(function(d) {
-            //1. Get the propbank A0 actors for this event.
-            var actor0 = d.actors['pb/A0'];
-            var actor0Names = [];
-            if (actor0 === undefined || actor0 === '') {
-              //2a. Clean data (fill missing values with 'unknown')
-              actor0Names = ['unknown'];
-            } else {
-              actor0.forEach(function(a) {
-                //2b. Split the string and get only the last part of it, the rest we
-                //consider 'fluff'
-                var parts = a.split('/');
-                actor0Names.push(parts[parts.length-1]);
-              });
-            }
-            return actor0Names;
-          });
-
-          var climaxSumPerActorA0 = actorA0Dimension.group().reduceSum(function(d) {
-            return +d.climax;
-          });
-
-          // var fakeClimaxSumPerActorA0 = {
-          //   all: function() {
-          //     var hash = climaxSumPerActorA0.value();
-          //     var result = [];
-          //     for (var kv in hash) {
-          //       result.push({
-          //         key: kv,
-          //         value: hash[kv]
-          //       });
-          //     }
-          //     return result;
-          //   }
-          // };
-
-          //Set up the
-          actorA0rowChart
-            //Size in pixels
-            .width(parseInt(d3.select('#rowchart_firstAction').style('width'), 10))
-            .height(480)
-
-            //Bind data
-            .dimension(actorA0Dimension)
-            .group(climaxSumPerActorA0)
-
-            //The x Axis
-            .x(d3.scale.linear())
-            .elasticX(true)
-
-            //We use this custom data and ordering functions to sort the data and
-            //limit to the top 20 (in climax scores)
-            .data(function(d) {
-              return d.order(function(d) {
-                return d;
-              }).top(20);
-            })
-            .ordering(function(d) {
-              return -d;
-            });
-
-          // actorA0rowChart.on('renderlet', textRenderlet);
-          // actorA0rowChart.render();
-
-
-          //A rowChart that shows us the importance of the propbank A1 actors
-          var actorA1rowChart = dc.rowChart('#rowchart_secondAction');
-
-          //In defining this dimension, we cheat a little by only pulling the
-          //first A1 actor. TODO: fix this
-          var actorA1Dimension = ndx.dimension(function(d) {
-            //1. Get the propbank A0 actors for this event.
-            var actor1 = d.actors['pb/A1'];
-            var actor1Name;
-            if (actor1 === undefined || actor1 === '') {
-              //2a. Clean data (fill missing values with 'unknown')
-              actor1Name = 'unknown';
-            } else {
-              //2b. Split the string and get only the last part of it, the rest we
-              //consider 'fluff'
-              var parts = actor1[0].split('/');
-              actor1Name = parts[parts.length-1];
-            }
-            return actor1Name;
-          });
-
-          //Reduce (bin) over the dimension and sum the climax scores
-          var climaxSumPerActorA1 = actorA1Dimension.group().reduceSum(function(d) {
-            return +d.climax;
-          });
-          // var countPerActorA1 = actorA1Dimension.group();
-
-          actorA1rowChart
-            //Size in pixels
-            .width(parseInt(d3.select('#rowchart_secondAction').style('width'), 10))
-            .height(480)
-
-            //Bind data
-            .dimension(actorA1Dimension)
-            .group(climaxSumPerActorA1)
-
-            //The x Axis
-            .x(d3.scale.linear())
-            .elasticX(true)
-
-            //We use this custom data and ordering functions to sort the data and
-            //limit to the top 20 (in climax scores)
-            .data(function(d) {
-              return d.order(function(d) {
-                return d;
-              }).top(20);
-            })
-            .ordering(function(d) {
-              return -d;
-            });
-
-          // actorA1rowChart.on('renderlet', textRenderlet);
-          // actorA1rowChart.render();
-
           //Now, build a table with the filtered results
           var dataTable = dc.dataTable('#dataTable');
 
@@ -824,7 +681,7 @@
       );
     }
 
-    readData('data/contextual.timeline18-11-2.json');
+    readData('data/contextual.timeline18-11-eso.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);
