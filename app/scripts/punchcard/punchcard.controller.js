@@ -460,13 +460,14 @@
                 labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
               });
 
-              var titleString = formattedTime +
-                                '\n-----Group------\n' +
-                                'Group:'+ p.key[0] +
+              var titleString = '\n-----Labels-----\n' +
+                                labelString +
                                 '\n-----Actors-----\n' +
                                 actorString +
-                                '\n-----Labels-----\n' +
-                                labelString;
+                                '\n-----Time-------\n' +
+                                formattedTime +
+                                '\n-----Group------\n' +
+                                p.key[0];
               return titleString;
             });
 
@@ -681,7 +682,7 @@
       );
     }
 
-    readData('data/contextual.timeline18-11-eso.json');
+    readData('data/contextual.timeline24-11-eso.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);
