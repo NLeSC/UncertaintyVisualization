@@ -97,6 +97,11 @@ div.dc-chart {
   transition-property: background-color;
 }
 
+.dc-chart .brush rect.extent {
+    fill: steelblue;
+    fill-opacity: .6;
+}
+
 .dc-table-column {
   position: relative;
   vertical-align: top;
