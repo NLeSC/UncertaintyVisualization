@@ -42,6 +42,7 @@
     var symbolRenderlet = function(_chart) {
       //For each row in the chart
       _chart.selectAll('g.row').each(function() {
+        var barHeight = d3.select(this).select('rect')[0][0].getAttribute('height');
         //Append a path element
         d3.select(this).append('path')
           //Bind he data so we can use it for determining the symbol shape
@@ -52,13 +53,13 @@
           .attr('fill', _chart.getColor)
           //Position correctly, the Y attribute is a magic number
           .attr('transform', function() {
-            return 'translate(' + 3 + ',' + 3.710526315789474 + ')';
+            return 'translate(' + d3.select(this.parentNode).select('rect')[0][0].getAttribute('height')/4 + ',' + d3.select(this.parentNode).select('rect')[0][0].getAttribute('height')/4 + ')';
           })
           //Determine the symbol from the data. Use the same symbol scale as the
           //series chart
           .attr('d', function(d) {
             var symbol = d3.svg.symbol();
-            symbol.size(15);
+            symbol.size(d3.select(this.parentNode).select('rect')[0][0].getAttribute('height'));
             symbol.type(symbolScale(d.key));
             return symbol();
           });
@@ -66,7 +67,7 @@
         //Reposition the rectangles to make room for the symbol
         d3.select(this).select('rect')
           .attr('transform', function() {
-            return 'translate(' + 10 + ',' + 0 + ')';
+            return 'translate(' + d3.select(this.parentNode).select('rect')[0][0].getAttribute('height')/2 + ',' + 0 + ')';
           });
       });
     };
@@ -300,6 +301,9 @@
                 });
               });
 
+              //Sum event values over all events fitting this time and group.
+              p.events[v.event] = (p.events[v.event] || 0) + v.climax;
+
               //Sum label values over all events fitting this time and group.
               v.labels.forEach(function(l) {
                 p.labels[l] = (p.labels[l] || 0) + v.climax;
@@ -321,6 +325,8 @@
                 });
               });
 
+              p.events[v.event] = (p.events[v.event] || 0) - v.climax;
+
               v.labels.forEach(function(l) {
                 p.labels[l] = (p.labels[l] || 0) - v.climax;
               });
@@ -329,7 +335,7 @@
             },
             //Set up the inital data structure.
             function() {
-              return {climax: 0, actors: {}, labels: {}};
+              return {climax: 0, events: {}, actors: {}, labels: {}};
             }
           );
 
@@ -446,6 +452,13 @@
             .title(function(p) {
               var formattedTime = p.key[1].getDay() + '/' + p.key[1].getMonth() + '/' + p.key[1].getFullYear();
 
+              //Get the events
+              var events = Object.keys(p.value.events);
+              var eventString = '';
+              events.forEach(function(e) {
+                eventString += p.value.events[e] + ' : ' + e.toString() + '\n';
+              });
+
               //Get the actors
               var actors = Object.keys(p.value.actors);
               var actorString = '';
@@ -460,7 +473,9 @@
                 labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
               });
 
-              var titleString = '\n-----Labels-----\n' +
+              var titleString = '\n-----Events-----\n' +
+                                eventString +
+                                '\n-----Labels-----\n' +
                                 labelString +
                                 '\n-----Actors-----\n' +
                                 actorString +
@@ -625,6 +640,11 @@
               { label:'GroupName',
                 format: function(d) {
                   return d.groupName;
+                }
+              },
+              { label:'Event',
+                format: function(d) {
+                  return d.event;
                 }
               },
               { label:'Time',
