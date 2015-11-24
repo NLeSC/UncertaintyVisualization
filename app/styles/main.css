@@ -102,6 +102,10 @@ div.dc-chart {
     fill-opacity: .6;
 }
 
+span.highlighted-mention {
+    color: red;
+}
+
 .dc-table-column {
   position: relative;
   vertical-align: top;

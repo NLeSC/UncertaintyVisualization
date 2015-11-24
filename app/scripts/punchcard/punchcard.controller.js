@@ -666,7 +666,7 @@
                     var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
                     var post = phrase.text.substring(phrase.charEnd ,phrase.charEnd+30);
 
-                    html += pre + '<span style=\'background-color:red\'>'+word+'</span>' + post;
+                    html += pre + '<span class=\'highlighted-mention\'>'+word+'</span>' + post + '</BR>\n';
                   });
                   return html;
                 }
