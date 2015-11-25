@@ -50,6 +50,20 @@ div.dc-chart {
     cursor: pointer;
 }
 
+.dc-chart .grid-line {
+    fill: none;
+    stroke: #ccc;
+    opacity: .75;
+    shape-rendering: crispEdges;
+}
+
+.dc-chart .subway-line {
+    fill: none;
+    stroke: #f00;
+    opacity: 1;
+    shape-rendering: crispEdges;
+}
+
 #dataTable {
   position: relative;
   border: 1px solid rgba(0,0,0,.12);

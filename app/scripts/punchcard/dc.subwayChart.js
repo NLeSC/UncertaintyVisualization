@@ -25,9 +25,13 @@
  * @return {dc.subwayChart}
  */
 dc.subwayChart = function (parent, chartGroup) {
-    var _chart = dc.customBubbleMixin(dc.coordinateGridMixin({}));
+    var _chart = dc.customBubbleMixin(dc.stackMixin(dc.coordinateGridMixin({})));
 
     var _elasticRadius = false;
+    var _interpolate = 'linear';
+    var _tension = 0.7;
+    var _defined;
+    var _dashStyle;
 
     _chart.transitionDuration(750);
 
@@ -60,8 +64,27 @@ dc.subwayChart = function (parent, chartGroup) {
 
         _chart.r().range([_chart.MIN_RADIUS, _chart.xAxisLength() * _chart.maxBubbleRelativeSize()]);
 
-        var gridLineG = _chart.chartBodyG().selectAll('g.' + 'horizontal');
-        renderLanes(gridLineG);
+        // var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line');
+        var chartBody = _chart.chartBodyG();
+        var layersList = chartBody.selectAll('g.stack-list');
+
+        if (layersList.empty()) {
+            layersList = chartBody.append('g').attr('class', 'stack-list');
+        }
+
+        var layers = layersList.selectAll('g.stack').data(_chart.data());
+
+        var layersEnter = layers
+            .enter()
+            .append('g')
+            .attr('class', function (d, i) {
+                return 'stack ' + '_' + i;
+            });
+
+        // drawLine(layersEnter, layers);
+
+        layers.exit().remove();
+        // renderLines(subwayLineG);
 
         var bubbleG = _chart.chartBodyG().selectAll('g.' + _chart.BUBBLE_NODE_CLASS)
             .data(_chart.data(), function (d) { return d.key; });
@@ -74,50 +97,125 @@ dc.subwayChart = function (parent, chartGroup) {
 
         _chart.fadeDeselectedArea();
     };
+    _chart.interpolate = function (interpolate) {
+        if (!arguments.length) {
+            return _interpolate;
+        }
+        _interpolate = interpolate;
+        return _chart;
+    };
+    _chart.tension = function (tension) {
+        if (!arguments.length) {
+            return _tension;
+        }
+        _tension = tension;
+        return _chart;
+    };
+    _chart.defined = function (defined) {
+        if (!arguments.length) {
+            return _defined;
+        }
+        _defined = defined;
+        return _chart;
+    };
+    _chart.dashStyle = function (dashStyle) {
+        if (!arguments.length) {
+            return _dashStyle;
+        }
+        _dashStyle = dashStyle;
+        return _chart;
+    };
 
-    function renderLanes (gridLineG) {
-
-      var rangeBands = _chart.y().range();
-      // var xOffset = _chart.x(_chart.xAxisMin());
-
-      if (gridLineG.empty()) {
-        gridLineG = _chart.chartBodyG().insert('g', ':first-child')
-          .attr('class', 'grid-line' + ' ' + 'horizontal')
-          .attr('transform', 'translate(' + _chart.margins().left + ',' + _chart.margins().top + ')');
-      }
-
-      var lines = gridLineG.selectAll('line')
-          .data(rangeBands);
-
-          // enter
-          var linesGEnter = lines.enter()
-            .append('line')
-            .attr('x1', -_chart.margins().left)
-            .attr('y1', function (d) {
-                return d;
-            })
-            .attr('x2', _chart.xAxisLength())
-            .attr('y2', function (d) {
-                return d;
-            })
-            .attr('opacity', 1);
-          dc.transition(linesGEnter, _chart.transitionDuration())
-            .attr('opacity', 1);
-
-          // update
-          dc.transition(lines, _chart.transitionDuration())
-            .attr('x1', -_chart.margins().left)
-            .attr('y1', function (d) {
-                return d;
-            })
-            .attr('x2', _chart.xAxisLength())
-            .attr('y2', function (d) {
-                return d;
-            });
-
-          // exit
-          lines.exit().remove();
+    function colors (d, i) {
+        return  '#1f77b4';//_chart.getColor.call(d, d.values, i);
     }
+
+    function drawLine (layersEnter, layers) {
+        var line = d3.svg.line()
+            .x(function (d) {
+                return _chart.x()(_chart.keyAccessor()(d));
+            })
+            .y(function (d) {
+                return _chart.y()(_chart.valueAccessor()(d));
+            })
+            .interpolate(_interpolate)
+            .tension(_tension);
+        if (_defined) {
+            line.defined(_defined);
+        }
+
+        var path = layersEnter.append('path')
+            .attr('class', 'line')
+            .attr('stroke', colors);
+        if (_dashStyle) {
+            path.attr('stroke-dasharray', _dashStyle);
+        }
+
+        determineLines(_chart.data());
+
+        dc.transition(layers.select('path.line'), _chart.transitionDuration())
+            //.ease('linear')
+            .attr('stroke', colors)
+            .attr('d', function (d) {
+                return safeD(line(d));
+            });
+    }
+
+    function safeD (d) {
+        return (!d || d.indexOf('NaN') >= 0) ? 'M0,0' : d;
+    }
+
+    // function renderLines (subwayLineG) {
+    //   var rangeBands = _chart.y().range();
+    //   // var xOffset = _chart.x(_chart.xAxisMin());
+    //
+    //   if (subwayLineG.empty()) {
+    //     subwayLineG = _chart.chartBodyG().insert('g', ':first-child')
+    //       .attr('class', 'subway-line')
+    //       .attr('transform', 'translate(' + _chart.margins().left + ',' + _chart.margins().top + ')');
+    //   }
+    //
+    //   var lines = subwayLineG.selectAll('line')
+    //       .data(_chart.data(), function (d) { return d.key; });
+    //
+    //       // enter
+    //       var linesGEnter = lines.enter()
+    //         .append('line')
+    //         .attr('x1', function (d) {
+    //             return _chart.x()(_chart.keyAccessor()(d));
+    //         })
+    //         //-_chart.margins().left)
+    //         .attr('y1', function (d) {
+    //             return _chart.y()(_chart.valueAccessor()(d));
+    //         })
+    //         .attr('x2', function (d) {
+    //             return _chart.x()(_chart.keyAccessor()(d));
+    //         })
+    //         .attr('y2', function (d) {
+    //             return _chart.y()(_chart.valueAccessor()(d));
+    //         })
+    //         .attr('opacity', 1);
+    //       dc.transition(linesGEnter, _chart.transitionDuration())
+    //         .attr('opacity', 1);
+    //
+    //       // update
+    //       dc.transition(lines, _chart.transitionDuration())
+    //         .attr('x1', function (d) {
+    //             return _chart.x()(_chart.keyAccessor()(d));
+    //         })
+    //         .attr('y1', function (d) {
+    //             return _chart.y()(_chart.valueAccessor()(d));
+    //         })
+    //         .attr('x2', function (d) {
+    //             return _chart.x()(_chart.keyAccessor()(d));
+    //         })
+    //         .attr('y2', function (d) {
+    //             return _chart.y()(_chart.valueAccessor()(d));
+    //         });
+    //
+    //       // exit
+    //       lines.exit().remove();
+    // }
 
     function renderNodes (bubbleG) {
         var bubbleGEnter = bubbleG.enter().append('g');
