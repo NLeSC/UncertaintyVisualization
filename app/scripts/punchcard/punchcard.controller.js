@@ -104,7 +104,15 @@
             keys.forEach(function (key) {
               var keysActors = d.actors[key];
               keysActors.forEach(function(keysActor) {
-                concatenatedActors.push(keysActor);
+                var splitString = keysActor.split(':');
+                var category = splitString[0];
+                var entity = splitString[1];
+                if (category === 'nwr-non-entities') {
+                  concatenatedActors.push(category);
+                } else {
+                  concatenatedActors.push(category + ':' + entity);
+                }
+
               });
             });
             var uniqueActors = arrayUnique(concatenatedActors);

@@ -60,10 +60,10 @@ dc.subwayChart = function (parent, chartGroup) {
     };
 
     var objectCompare = function (a, b) {
-      if (a.x < b.x) {
+      if (a.x < b.source.x) {
         return -1;
       }
-      if (a.x > b.x) {
+      if (a.x > b.source.x) {
         return 1;
       }
       return 0;
@@ -91,7 +91,34 @@ dc.subwayChart = function (parent, chartGroup) {
     }
 
     function insert(element, array) {
-      array.splice(locationOf(element, array, objectCompare) + 1, 0, element);
+      var location, elementPre, elementPost;
+
+      if (array.length === 1) {
+        location = 0;
+        elementPre = array[0];
+        elementPost = array[0];
+      } else {
+        location = locationOf(element, array, objectCompare);
+        elementPre = array[location];
+        // if (element.x <= elementPre.source.x) {
+        //   console.log('asjemenou');
+        //   elementPost = array[location];
+        //   debugger
+        // }
+        if (element.x <= elementPre.target.x) {
+          elementPost = array[location];
+        } else {
+          elementPost = array[location+1];
+        }
+      }
+      location -= 1;
+
+      var newElement = {source:{x:elementPre.source.x, y:elementPre.source.y},
+                        target:{x:element.x,    y:element.y}};
+      elementPost.source.x = element.x;
+      elementPost.source.y = element.y;
+
+      array.splice(location + 1, 0, newElement);
       return array;
     }
 
@@ -104,7 +131,10 @@ dc.subwayChart = function (parent, chartGroup) {
           var dataKey = object.key[1][objKey];
           var dataValue = _chart.valueAccessor()(object);
           if (result[dataKey] === undefined) {
-            result[dataKey] = { key: dataKey, values: [{x:_chart.x().range()[0], y:_chart.y()(dataValue)},{x:_chart.x().range()[1], y:_chart.y()(dataValue)}] };
+            result[dataKey] = { key: dataKey, values: [{
+                                                        source:{x:_chart.x().range()[0], y:_chart.y()(dataValue)},
+                                                        target:{x:_chart.x().range()[1], y:_chart.y()(dataValue)}
+                                                      }]};
           }
 
           insert({x:_chart.x()(object.key[0]), y:_chart.y()(dataValue)}, result[dataKey].values);
@@ -113,16 +143,11 @@ dc.subwayChart = function (parent, chartGroup) {
 
       var arrayResult = [];
       var allKeys = Object.keys(result);
-      var count = 0;
       allKeys.forEach(function(k) {
         arrayResult.push(result[k]);
-        if (result[k].values.length > 3) {
-          count++;
-        }
       });
 
       linesColorScale = d3.scale.category20c().domain(allKeys);
-      console.log(count);
       return arrayResult;
     };
 
@@ -202,32 +227,58 @@ dc.subwayChart = function (parent, chartGroup) {
     }
 
     function drawLine (layersEnter, layers) {
-        var line = d3.svg.line()
-            .x(function (d) {
-                return d.x;
-            })
-            .y(function (d) {
-                return d.y;
-            })
-            .interpolate(_interpolate)
-            .tension(_tension);
+        var diagonal = d3.svg.diagonal()
+          .source(function(d) {
+            return {'x':d.source.y, 'y':d.source.x};
+          })
+          .target(function(d) {
+            return {'x':d.target.y, 'y':d.target.x};
+          })
+          .projection(function(d) {
+            var rangeBands = _chart.y().range().length;
+            var height = _chart.effectiveHeight();
+            var offset = height/rangeBands;
+
+            var y = d.y;
+            if (isNaN(y)) {
+                y = 0;
+            }
+            var result =  dc.utils.safeNumber(y+0.5*offset);
+
+            return [result, d.x];
+          });
         if (_defined) {
             line.defined(_defined);
         }
 
-        var path = layersEnter.append('path')
-            .attr('class', 'line')
-            .attr('stroke', colors);
-        if (_dashStyle) {
-            path.attr('stroke-dasharray', _dashStyle);
-        }
+        layersEnter[0].forEach(function(currentLayer) {
+          var subLayerList = d3.select(currentLayer).selectAll('g.stack-list');
 
-        dc.transition(layers.select('path.line'), _chart.transitionDuration())
+          if (subLayerList.empty()) {
+            subLayerList = d3.select(currentLayer).append('g').attr('class', 'stack-list')
+            .attr('stroke', colors);
+          }
+
+          var subLayers = subLayerList.selectAll('path.diagonal').data(function(d) {
+            return d.values;
+          });
+
+          var path = subLayers
+            .enter()
+            .append('path')
+            .attr('class', 'diagonal');
+          if (_dashStyle) {
+            path.attr('stroke-dasharray', _dashStyle);
+          }
+
+          dc.transition(path, _chart.transitionDuration())
             //.ease('linear')
-            .attr('stroke', colors)
             .attr('d', function (d) {
-                return safeD(line(d.values));
+                return safeD(diagonal(d));
             });
+
+          subLayers.exit().remove();
+        });
     }
 
     function safeD (d) {

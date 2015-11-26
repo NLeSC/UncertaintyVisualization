@@ -69,6 +69,11 @@ div.dc-chart {
     stroke-width: 2.5px;
 }
 
+.dc-chart path.diagonal {
+    fill: none;
+    stroke-width: 2.5px;
+}
+
 #dataTable {
   position: relative;
   border: 1px solid rgba(0,0,0,.12);
