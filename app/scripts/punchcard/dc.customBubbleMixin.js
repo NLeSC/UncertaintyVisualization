@@ -110,6 +110,8 @@ dc.customBubbleMixin = function (_chart) {
 
             if (label.empty()) {
                 label = bubbleGEnter.append('text')
+                  .attr('class', 'bubble-text')
+                  .attr('dx', '.3em')
                   .attr('transform', 'rotate(-45) translate(' + 5 + ',' + 0 + ') ')
                   // .attr('transform', ')
                   .attr('text-anchor', 'left')

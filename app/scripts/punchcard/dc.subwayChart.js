@@ -32,6 +32,7 @@ dc.subwayChart = function (parent, chartGroup) {
     var _tension = 0.1;
     var _defined;
     var _dashStyle;
+    _chart.BUBBLE_CLASS = 'subwayBubble';
 
     var linesColorScale;
 
@@ -92,6 +93,10 @@ dc.subwayChart = function (parent, chartGroup) {
 
     function insert(element, array) {
       var location, elementPre, elementPost;
+      //Don't bother placing filtered out elements
+      if (element.x < array[0].source.x || element.x > array[0].target.x) {
+        return array;
+      }
 
       if (array.length === 1) {
         location = 0;
@@ -100,11 +105,7 @@ dc.subwayChart = function (parent, chartGroup) {
       } else {
         location = locationOf(element, array, objectCompare);
         elementPre = array[location];
-        // if (element.x <= elementPre.source.x) {
-        //   console.log('asjemenou');
-        //   elementPost = array[location];
-        //   debugger
-        // }
+
         if (element.x <= elementPre.target.x) {
           elementPost = array[location];
         } else {
@@ -113,8 +114,8 @@ dc.subwayChart = function (parent, chartGroup) {
       }
       location -= 1;
 
-      var newElement = {source:{x:elementPre.source.x, y:elementPre.source.y},
-                        target:{x:element.x,    y:element.y}};
+      var newElement = {source:{x:elementPre.source.x,  y:elementPre.source.y},
+                        target:{x:element.x,            y:element.y}};
       elementPost.source.x = element.x;
       elementPost.source.y = element.y;
 
@@ -122,23 +123,36 @@ dc.subwayChart = function (parent, chartGroup) {
       return array;
     }
 
-    var preprocessDataForLines = function(chartData) {
+    var ordinalAverager = function(ordinalValues)  {
+      var result = 0;
+      ordinalValues.forEach(function(ordinalValue) {
+        result += _chart.y()(ordinalValue);
+      });
 
+      return result / ordinalValues.length;
+    };
+
+    var preprocessDataForLines = function(chartData) {
       var result = {};
       chartData.forEach(function (object) {
-        var objKeys = Object.keys(object.key[1]);
-        objKeys.forEach(function (objKey) {
-          var dataKey = object.key[1][objKey];
-          var dataValue = _chart.valueAccessor()(object);
-          if (result[dataKey] === undefined) {
-            result[dataKey] = { key: dataKey, values: [{
-                                                        source:{x:_chart.x().range()[0], y:_chart.y()(dataValue)},
-                                                        target:{x:_chart.x().range()[1], y:_chart.y()(dataValue)}
-                                                      }]};
-          }
-
-          insert({x:_chart.x()(object.key[0]), y:_chart.y()(dataValue)}, result[dataKey].values);
-        });
+        //Don't bother adding nodes which are filtered out
+        if (object.value.count > 0) {
+          var objKeys = Object.keys(object.key[1]);
+          objKeys.forEach(function (objKey) {
+            var dataKey = object.key[1][objKey];
+            var dataValue = _chart.valueAccessor()(object);
+            if (result[dataKey] === undefined) {
+              result[dataKey] = {
+                key: dataKey,
+                values: [{
+                          source:{x:_chart.x().range()[0], y:_chart.y()(dataKey)},
+                          target:{x:_chart.x().range()[1], y:_chart.y()(dataKey)}
+                        }]
+              };
+            }
+            insert({x:_chart.x()(object.key[0]), y:ordinalAverager(dataValue)}, result[dataKey].values);
+          });
+        }
       });
 
       var arrayResult = [];
@@ -147,7 +161,7 @@ dc.subwayChart = function (parent, chartGroup) {
         arrayResult.push(result[k]);
       });
 
-      linesColorScale = d3.scale.category20c().domain(allKeys);
+      linesColorScale = d3.scale.category20b().domain(allKeys);
       return arrayResult;
     };
 
@@ -158,29 +172,11 @@ dc.subwayChart = function (parent, chartGroup) {
 
         _chart.r().range([_chart.MIN_RADIUS, _chart.xAxisLength() * _chart.maxBubbleRelativeSize()]);
 
-        // var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line');
-        var chartBody = _chart.chartBodyG();
-        var layersList = chartBody.selectAll('g.stack-list');
-
-        if (layersList.empty()) {
-            layersList = chartBody.append('g').attr('class', 'stack-list');
-        }
-
         var linesData = preprocessDataForLines(_chart.data());
-
-        var layers = layersList.selectAll('g.stack').data(linesData);
-
-        var layersEnter = layers
-            .enter()
-            .append('g')
-            .attr('class', function (d, i) {
-                return 'stack ' + '_' + i;
-            });
-
-        drawLine(layersEnter, layers);
-
-        layers.exit().remove();
-        // renderLines(subwayLineG);
+        _chart.chartBodyG().selectAll('g.' + 'subway-line').remove();
+        var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
+            .data(linesData);
+        renderLines(subwayLineG);
 
         var bubbleG = _chart.chartBodyG().selectAll('g.' + _chart.BUBBLE_NODE_CLASS)
             .data(_chart.data(), function (d) { return d.key; });
@@ -222,120 +218,61 @@ dc.subwayChart = function (parent, chartGroup) {
         return _chart;
     };
 
-    function colors (d) {
-      return linesColorScale(d.key);
-    }
 
-    function drawLine (layersEnter, layers) {
-        var diagonal = d3.svg.diagonal()
-          .source(function(d) {
-            return {'x':d.source.y, 'y':d.source.x};
-          })
-          .target(function(d) {
-            return {'x':d.target.y, 'y':d.target.x};
-          })
-          .projection(function(d) {
-            var rangeBands = _chart.y().range().length;
-            var height = _chart.effectiveHeight();
-            var offset = height/rangeBands;
 
-            var y = d.y;
-            if (isNaN(y)) {
-                y = 0;
-            }
-            var result =  dc.utils.safeNumber(y+0.5*offset);
+    function renderLines(subwayLineG) {
+      var lineGEnter = subwayLineG.enter().insert('g', ':first-child');
 
-            return [result, d.x];
-          });
-        if (_defined) {
-            line.defined(_defined);
-        }
+      var diagonal = d3.svg.diagonal()
+        .source(function(d) {
+          return {'x':d.source.y, 'y':d.source.x};
+        })
+        .target(function(d) {
+          return {'x':d.target.y, 'y':d.target.x};
+        })
+        .projection(function(d) {
+          var rangeBands = _chart.y().range().length;
+          var height = _chart.effectiveHeight();
+          var offset = height/rangeBands;
 
-        layersEnter[0].forEach(function(currentLayer) {
-          var subLayerList = d3.select(currentLayer).selectAll('g.stack-list');
-
-          if (subLayerList.empty()) {
-            subLayerList = d3.select(currentLayer).append('g').attr('class', 'stack-list')
-            .attr('stroke', colors);
+          var x = d.x;
+          if (isNaN(x)) {
+              x = 0;
           }
+          var result = dc.utils.safeNumber(x+0.5*offset);
 
-          var subLayers = subLayerList.selectAll('path.diagonal').data(function(d) {
-            return d.values;
-          });
-
-          var path = subLayers
-            .enter()
-            .append('path')
-            .attr('class', 'diagonal');
-          if (_dashStyle) {
-            path.attr('stroke-dasharray', _dashStyle);
-          }
-
-          dc.transition(path, _chart.transitionDuration())
-            //.ease('linear')
-            .attr('d', function (d) {
-                return safeD(diagonal(d));
-            });
-
-          subLayers.exit().remove();
+          return [d.y, result];
         });
+
+      lineGEnter
+        .attr('stroke', function(d) {
+          return linesColorScale(d.key);
+        })
+        .attr('class', function (d, i) {
+            return 'subway-line ' + '_' + i;
+          });
+
+      var paths = lineGEnter.selectAll('path.diagonal').data(function(d) {
+        return d.values;
+      });
+
+      var pathEnter = paths
+        .enter()
+        .append('path')
+        .attr('class', 'diagonal');
+
+      dc.transition(pathEnter, _chart.transitionDuration())
+        .attr('d', function (d) {
+            return safeD(diagonal(d));
+        });
+
+      paths.exit().remove();
+      subwayLineG.exit().remove();
     }
 
     function safeD (d) {
         return (!d || d.indexOf('NaN') >= 0) ? 'M0,0' : d;
     }
-
-    // function renderLines (subwayLineG) {
-    //   var rangeBands = _chart.y().range();
-    //   // var xOffset = _chart.x(_chart.xAxisMin());
-    //
-    //   if (subwayLineG.empty()) {
-    //     subwayLineG = _chart.chartBodyG().insert('g', ':first-child')
-    //       .attr('class', 'subway-line')
-    //       .attr('transform', 'translate(' + _chart.margins().left + ',' + _chart.margins().top + ')');
-    //   }
-    //
-    //   var lines = subwayLineG.selectAll('line')
-    //       .data(_chart.data(), function (d) { return d.key; });
-    //
-    //       // enter
-    //       var linesGEnter = lines.enter()
-    //         .append('line')
-    //         .attr('x1', function (d) {
-    //             return _chart.x()(_chart.keyAccessor()(d));
-    //         })
-    //         //-_chart.margins().left)
-    //         .attr('y1', function (d) {
-    //             return _chart.y()(_chart.valueAccessor()(d));
-    //         })
-    //         .attr('x2', function (d) {
-    //             return _chart.x()(_chart.keyAccessor()(d));
-    //         })
-    //         .attr('y2', function (d) {
-    //             return _chart.y()(_chart.valueAccessor()(d));
-    //         })
-    //         .attr('opacity', 1);
-    //       dc.transition(linesGEnter, _chart.transitionDuration())
-    //         .attr('opacity', 1);
-    //
-    //       // update
-    //       dc.transition(lines, _chart.transitionDuration())
-    //         .attr('x1', function (d) {
-    //             return _chart.x()(_chart.keyAccessor()(d));
-    //         })
-    //         .attr('y1', function (d) {
-    //             return _chart.y()(_chart.valueAccessor()(d));
-    //         })
-    //         .attr('x2', function (d) {
-    //             return _chart.x()(_chart.keyAccessor()(d));
-    //         })
-    //         .attr('y2', function (d) {
-    //             return _chart.y()(_chart.valueAccessor()(d));
-    //         });
-    //
-    //       // exit
-    //       lines.exit().remove();
-    // }
 
     function renderNodes (bubbleG) {
         var bubbleGEnter = bubbleG.enter().append('g');
@@ -343,16 +280,20 @@ dc.subwayChart = function (parent, chartGroup) {
         bubbleGEnter
             .attr('class', _chart.BUBBLE_NODE_CLASS)
             .attr('transform', bubbleLocator)
-            .append('circle').attr('class', function (d, i) {
+            .append('ellipse').attr('class', function (d, i) {
                 return _chart.BUBBLE_CLASS + ' _' + i;
             })
             .on('click', _chart.onClick)
             .attr('fill', _chart.getColor)
-            .attr('r', 0);
+            .attr('width', 0)
+            .attr('height', 0);
         dc.transition(bubbleG, _chart.transitionDuration())
-            .selectAll('circle.' + _chart.BUBBLE_CLASS)
-            .attr('r', function (d) {
+            .selectAll('ellipse.' + _chart.BUBBLE_CLASS)
+            .attr('ry', function (d) {
                 return _chart.bubbleR(d);
+            })
+            .attr('rx', function (d) {
+                return _chart.minRadius();
             })
             .attr('opacity', function (d) {
                 return (_chart.bubbleR(d) > 0) ? 1 : 0;
@@ -366,10 +307,13 @@ dc.subwayChart = function (parent, chartGroup) {
     function updateNodes (bubbleG) {
         dc.transition(bubbleG, _chart.transitionDuration())
           .attr('transform', bubbleLocator)
-          .selectAll('circle.' + _chart.BUBBLE_CLASS)
+          .selectAll('ellipse.' + _chart.BUBBLE_CLASS)
           .attr('fill', _chart.getColor)
-          .attr('r', function (d) {
+          .attr('ry', function (d) {
               return _chart.bubbleR(d);
+          })
+          .attr('rx', function (d) {
+              return _chart.minRadius();
           })
           .attr('opacity', function (d) {
               return (_chart.bubbleR(d) > 0) ? 1 : 0;
@@ -396,7 +340,7 @@ dc.subwayChart = function (parent, chartGroup) {
         var height = _chart.effectiveHeight();
         var offset = height/rangeBands;
 
-        var y = _chart.y()(_chart.valueAccessor()(d));
+        var y = ordinalAverager(_chart.valueAccessor()(d));
         if (isNaN(y)) {
             y = 0;
         }

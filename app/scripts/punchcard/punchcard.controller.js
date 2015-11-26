@@ -120,7 +120,35 @@
             return [time, uniqueActors];
           });
 
-          var subwayGroup = subwayDimension.group();
+          var subwayGroup = subwayDimension.group().reduce(
+            //Add something to our temporary collection
+            function(p, v) {
+              //Climax score summed for all events with the same time(day) and group(number).
+              p.count = p.count + 1;
+
+              //Sum label values over all events fitting this time and group.
+              v.labels.forEach(function(l) {
+                p.labels[l] = (p.labels[l] || 0) + p.count;
+              });
+
+              return p;
+            },
+            //Remove something from our temporary collection, (basically do
+            //everything in the add step, but then in reverse).
+            function(p, v) {
+              p.count = p.count - 1;
+
+              v.labels.forEach(function(l) {
+                p.labels[l] = (p.labels[l] || 0) - p.count;
+              });
+
+              return p;
+            },
+            //Set up the inital data structure.
+            function() {
+              return {count: 0, labels: {}};
+            }
+          );
 
           var uniqueActors = [];
           subwayGroup.all().map(function(d) {
@@ -168,47 +196,33 @@
               })())
             )
             .valueAccessor(function(p) {
-              // var mostImportantActor;
-              // var score = -1;
-              // var actors = p.key[1];
-              // actors.forEach(function(l) {
-              //   if (p.value > score) {
-              //     mostImportantActor = l;
-              //     score = p.value;
-              //   }
-              // });
-              // return mostImportantActor;
-              return p.key[1][0];
+              return p.key[1];
             })
 
             //Radius of the bubble
-            .r(d3.scale.linear().domain(
-              //We assume a climax value in the domain [ 0 , n ]
-              [0, d3.max(subwayChart.data(), function (e) {
-                    return e.value;
-                  })]))
+            .r(d3.scale.linear())
+            .elasticRadius(true)
             .radiusValueAccessor(function(p) {
-              return p.value;
+              return p.value.count;
             })
-            .minRadius(2)
+            .minRadius(5)
             .maxBubbleRelativeSize(0.015)
-
-            //Everything related to coloring the bubbles
-            .colors(colorbrewer.RdYlGn[9])
-            // We currently color the bubble using the same values as the radius
-            .colorDomain(
-              [0, d3.max(subwayChart.data(), function (e) {
-                return e.value;
-              })])
-            .colorAccessor(function(d) {
-              return d.value;
-            })
 
             //Labels printed just above the bubbles
             .renderLabel(true)
             .minRadiusWithLabel(0)
             .label(function(p) {
-              // return p.key[1]; //p.key;
+              var mostImportantLabel;
+              var scoreOfMostImportantLabel = -1;
+              //Get the most important label (highest climax score)
+              var labels = Object.keys(p.value.labels);
+              labels.forEach(function(l) {
+                if (p.value.labels[l] > scoreOfMostImportantLabel) {
+                  mostImportantLabel = l;
+                  scoreOfMostImportantLabel = p.value.labels[l];
+                }
+              });
+              return mostImportantLabel.toString(); //p.key;
             })
 
             //Information on hover
@@ -220,7 +234,7 @@
               var actors = p.key[1];
               var actorString = '';
               actors.forEach(function(a) {
-                actorString += p.key[1] + ' : ' + a.toString() + '\n';
+                actorString += a + '\n';
               });
 
               var titleString = '\n-----Actors-----\n' +

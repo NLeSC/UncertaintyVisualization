@@ -57,21 +57,20 @@ div.dc-chart {
     shape-rendering: crispEdges;
 }
 
-.dc-chart .subway-line {
-    fill: none;
-    stroke: #f00;
-    opacity: 1;
-    shape-rendering: crispEdges;
+.dc-chart .subwayBubble {
+    stroke: black;
+    stroke-width: 4px;
+    fill: white;
 }
 
-.dc-chart path.line {
-    fill: none;
-    stroke-width: 2.5px;
+#subwayChart .bubble-text {
+    color: red;
+    font-size: 12px;
 }
 
 .dc-chart path.diagonal {
     fill: none;
-    stroke-width: 2.5px;
+    stroke-width: 4px;
 }
 
 #dataTable {
