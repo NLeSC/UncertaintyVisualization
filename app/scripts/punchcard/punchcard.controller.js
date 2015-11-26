@@ -155,21 +155,22 @@
             //y Axis
             // .yAxisLabel('group')
             .y(d3.scale.ordinal()
-            .domain((function() {
-              return uniqueActors;
-            })())
+              .domain((function() {
+                return uniqueActors;
+              })())
             )
             .valueAccessor(function(p) {
-              var mostImportantActor;
-              var score = -1;
-              var actors = p.key[1];
-              actors.forEach(function(l) {
-                if (p.value > score) {
-                  mostImportantActor = l;
-                  score = p.value;
-                }
-              });
-              return mostImportantActor;
+              // var mostImportantActor;
+              // var score = -1;
+              // var actors = p.key[1];
+              // actors.forEach(function(l) {
+              //   if (p.value > score) {
+              //     mostImportantActor = l;
+              //     score = p.value;
+              //   }
+              // });
+              // return mostImportantActor;
+              return p.key[1][0];
             })
 
             //Radius of the bubble
@@ -199,7 +200,7 @@
             .renderLabel(true)
             .minRadiusWithLabel(0)
             .label(function(p) {
-              return p.key[1]; //p.key;
+              // return p.key[1]; //p.key;
             })
 
             //Information on hover
@@ -809,11 +810,6 @@
               { label:'GroupName',
                 format: function(d) {
                   return d.groupName;
-                }
-              },
-              { label:'Event',
-                format: function(d) {
-                  return d.event;
                 }
               },
               { label:'Time',
