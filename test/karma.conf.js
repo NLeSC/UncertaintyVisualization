@@ -25,6 +25,7 @@ module.exports = function(config) {
       // bower:js
       'bower_components/es5-shim/es5-shim.js',
       'bower_components/angular/angular.js',
+      'bower_components/json3/lib/json3.js',
       'bower_components/angular-animate/angular-animate.js',
       'bower_components/angular-cookies/angular-cookies.js',
       'bower_components/angular-resource/angular-resource.js',

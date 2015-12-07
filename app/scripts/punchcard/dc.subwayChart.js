@@ -60,16 +60,32 @@ dc.subwayChart = function (parent, chartGroup) {
         return _chart;
     };
 
-    var objectCompare = function (a, b) {
-      if (a.x < b.source.x) {
-        return -1;
-      }
-      if (a.x > b.source.x) {
-        return 1;
-      }
-      return 0;
-    };
-
+    // function Station(x, y) {
+    //   this.x = x;
+    //   this.y = y;
+    // }
+    //
+    // function Segment(source, target) {
+    //   this.source = source;
+    //   this.target = target;
+    // }
+    //
+    // function SubwayLine(lineID, stations) {
+    //   this.lineID = lineID;
+    //   this.stations = stations;
+    //   this.segments = [];
+    // }
+    //
+    // var stationCompare = function (a, b) {
+    //   if (a.x < b.x) {
+    //     return -1;
+    //   }
+    //   if (a.x > b.x) {
+    //     return 1;
+    //   }
+    //   return 0;
+    // };
+    //
     function locationOf(element, array, comparer, start, end) {
       if (array.length === 0) {
         return -1;
@@ -90,24 +106,230 @@ dc.subwayChart = function (parent, chartGroup) {
           case 1: return locationOf(element, array, comparer, pivot, end);
       }
     }
+    //
+    // function insertStation(station, stations) {
+    //   var location = locationOf(station, stations, stationCompare)+1;
+    //
+    //   stations.splice(location, 0, station);
+    //
+    //   return stations;
+    // }
+
+    // Object.equals = function( x, y ) {
+    //   // if both x and y are null or undefined and exactly the same
+    //   if ( x === y ) {
+    //     return true;
+    //   }
+    //
+    //     // if they are not strictly equal, they both need to be Objects
+    //   if ( ! ( x instanceof Object ) || ! ( y instanceof Object ) ) {
+    //     return false;
+    //   }
+    //
+    //   // they must have the exact same prototype chain, the closest we can do is
+    //   // test their constructor.
+    //   if ( x.constructor !== y.constructor ) {
+    //     return false;
+    //   }
+    //
+    //   for ( var p in x ) {
+    //     // other properties were tested using x.constructor === y.constructor
+    //     if ( ! x.hasOwnProperty( p ) ) {
+    //       continue;
+    //     }
+    //
+    //     // allows to compare x[ p ] and y[ p ] when set to undefined
+    //     if ( ! y.hasOwnProperty( p ) ) {
+    //       return false;
+    //     }
+    //
+    //     // if they have the same strict value or identity then they are equal
+    //     if ( x[ p ] === y[ p ] ) {
+    //       continue;
+    //     }
+    //
+    //     // Numbers, Strings, Functions, Booleans must be strictly equal
+    //     if ( typeof( x[ p ] ) !== 'object') {
+    //       return false;
+    //     }
+    //
+    //     // Objects and Arrays must be tested recursively
+    //     if ( ! Object.equals( x[ p ],  y[ p ] ) ) {
+    //       return false;
+    //     }
+    //   }
+    //
+    //   // allows x[ p ] to be set to undefined
+    //   for ( p in y ) {
+    //     if ( y.hasOwnProperty( p ) && ! x.hasOwnProperty( p ) ) {
+    //       return false;
+    //     }
+    //   }
+    //   return true;
+    // };
+
+    // function LineSegment(line, source, target) {
+    //   this.line = line;
+    //   this.source = source;
+    //   this.target = target;
+    // }
+
+    // var preprocessDataForLines = function(chartData) {
+    //   var subwayLines = {};
+    //
+    //   chartData.forEach(function (object) {
+    //     //Don't bother adding nodes which are filtered out
+    //     if (object.value.count > 0) {
+    //       var objKeys = Object.keys(object.key[1]);
+    //       objKeys.forEach(function (objKey) {
+    //         var line = object.key[1][objKey];
+    //         var dataValue = _chart.valueAccessor()(object);
+    //
+    //         if (subwayLines[line] === undefined) {
+    //           // var source = new Station(_chart.x().range()[0], _chart.y()(line));
+    //           // var target = new Station(_chart.x().range()[1], _chart.y()(line));
+    //           // subwayLines[line] = new SubwayLine(line, [source, target]);
+    //           subwayLines[line] = new SubwayLine(line, []); //[source, target]);
+    //         }
+    //
+    //         // insertStation(new Station(_chart.x()(object.key[0]), ordinalAverager(dataValue)), subwayLines[line].stations);
+    //         insertStation(new Station(object.key[0], dataValue), subwayLines[line].stations);
+    //       });
+    //     }
+    //   });
+    //
+    //   subwayLines.forEach(function(line) {
+    //     var source = new Station(_chart.x().range()[0], _chart.y()(line));
+    //     var target = new Station(_chart.x().range()[1], _chart.y()(line));
+    //
+    //     line.segments.push(source);
+    //     line.segments.push(target);
+    //
+    //     var index = 0;
+    //     line.stations.forEach(function(station){
+    //       while (line.stations[index+2] === line.stations[index+1]) {
+    //
+    //       }
+    //
+    //       if (line.stations(index+1) && line.stations(index+2) )
+    //     });
+    //   });
+    //
+    //   var arrayResult = [];
+    //   var allKeys = Object.keys(subwayLines);
+    //   allKeys.forEach(function(k) {
+    //     arrayResult.push(subwayLines[k]);
+    //   });
+    //
+    //   linesColorScale = d3.scale.category20b().domain(allKeys);
+    //   return arrayResult;
+    // };
+
+
+
+
+
+
+
+    var objectCompare = function (a, b) {
+      if (a.x < b.source.x) {
+        return -1;
+      }
+      if (a.x > b.source.x) {
+        return 1;
+      }
+      return 0;
+    };
+
+
+    function splicePath(array, location, pathPre, element, pathPost) {
+      var newPath = {
+        source:{x:pathPre.source.x, y:pathPre.source.y},
+        target:{x:element.x,        y:element.y}
+      };
+
+      pathPre.target.x = element.x;
+      pathPre.target.y = element.y;
+
+      pathPost.source.x = element.x;
+      pathPost.source.y = element.y;
+
+      array.splice(location, 0, newPath);
+    }
+
+    function splitPath(array, location, pathPre, element, pathPost) {
+      var newPath1 = {
+        source:{x:pathPre.source.x, y:pathPre.source.y},
+        target:{x:element.x,        y:element.y}
+      };
+      var newPath2 = {
+        source:{x:element.x,         y:element.y},
+        target:{x:pathPost.target.x, y:pathPost.target.y}
+      };
+
+      pathPre.target.x = element.x;
+      pathPre.target.y = element.y;
+
+      pathPost.source.x = element.x;
+      pathPost.source.y = element.y;
+
+      array.splice(location, 0, newPath);
+    }
 
     function insert(element, array) {
       var location, elementPre, elementPost;
       //Don't bother placing filtered out elements
-      if (element.x < array[0].source.x || element.x > array[0].target.x) {
+      if (element.x < array[0].source.x || element.x > array[array.length-1].target.x) {
+        console.log('OUT OF BOUNDS : ' + element.x);
         return array;
       }
 
       if (array.length === 1) {
+        console.log('FIRST ADDITION : ' + element.x);
         location = 0;
         elementPre = array[0];
         elementPost = array[0];
+
+        var newElement = {source:{x:elementPre.source.x,  y:elementPre.source.y},
+                          target:{x:element.x,            y:element.y}};
+        elementPost.source.x = element.x;
+        elementPost.source.y = element.y;
+
+        array.splice(location + 1, 0, newElement);
+
+
       } else {
         location = locationOf(element, array, objectCompare);
+
+        if (array[location].source.x < element.x)  {
+
+        } else if (array[location].source.x < element.x)  {
+        }
+
         elementPre = array[location];
 
-        if (element.x <= elementPre.target.x) {
+
+
+        if (element.x < elementPre.target.x) {
           elementPost = array[location];
+        } else if (element.x === elementPre.target.x) {
+          //console.log('T same : ' + element.x + ' : ' + elementPre.source.x);
+          var newSource, newTarget, newLocation = location;
+          while (element.x === array[newLocation].target.x || newLocation === 0) {
+            newLocation--;
+            newSource = array[newLocation];
+          }
+
+          newLocation = location;
+          while (element.x === array[newLocation].target.x || newLocation === array.length-1) {
+            newLocation++;
+            newTarget = array[newLocation];
+          }
+
+          console.log('WAS : ' + element.x);
+          console.log('NOW : ' + newSource.target.x + ' : ' + element.x + ' : ' + newTarget.target.x);
+
+          elementPost = array[location+1];
         } else {
           elementPost = array[location+1];
         }
