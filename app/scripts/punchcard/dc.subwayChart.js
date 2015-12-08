@@ -60,331 +60,204 @@ dc.subwayChart = function (parent, chartGroup) {
         return _chart;
     };
 
-    // function Station(x, y) {
-    //   this.x = x;
-    //   this.y = y;
-    // }
-    //
+    function Station(x, y) {
+      this.x = x;
+      this.y = y;
+    }
+
     // function Segment(source, target) {
     //   this.source = source;
     //   this.target = target;
     // }
-    //
-    // function SubwayLine(lineID, stations) {
-    //   this.lineID = lineID;
-    //   this.stations = stations;
-    //   this.segments = [];
-    // }
-    //
-    // var stationCompare = function (a, b) {
-    //   if (a.x < b.x) {
-    //     return -1;
-    //   }
-    //   if (a.x > b.x) {
-    //     return 1;
-    //   }
-    //   return 0;
-    // };
-    //
-    function locationOf(element, array, comparer, start, end) {
-      if (array.length === 0) {
-        return -1;
-      }
 
-      start = start || 0;
-      end = end || array.length;
-      var pivot = (start + end) >> 1;
-
-      var c = comparer(element, array[pivot]);
-      if (end - start <= 1) {
-        return c === -1 ? pivot - 1 : pivot;
-      }
-
-      switch (c) {
-          case -1: return locationOf(element, array, comparer, start, pivot);
-          case 0: return pivot;
-          case 1: return locationOf(element, array, comparer, pivot, end);
-      }
-    }
-    //
-    // function insertStation(station, stations) {
-    //   var location = locationOf(station, stations, stationCompare)+1;
-    //
-    //   stations.splice(location, 0, station);
-    //
-    //   return stations;
-    // }
-
-    // Object.equals = function( x, y ) {
-    //   // if both x and y are null or undefined and exactly the same
-    //   if ( x === y ) {
-    //     return true;
-    //   }
-    //
-    //     // if they are not strictly equal, they both need to be Objects
-    //   if ( ! ( x instanceof Object ) || ! ( y instanceof Object ) ) {
-    //     return false;
-    //   }
-    //
-    //   // they must have the exact same prototype chain, the closest we can do is
-    //   // test their constructor.
-    //   if ( x.constructor !== y.constructor ) {
-    //     return false;
-    //   }
-    //
-    //   for ( var p in x ) {
-    //     // other properties were tested using x.constructor === y.constructor
-    //     if ( ! x.hasOwnProperty( p ) ) {
-    //       continue;
-    //     }
-    //
-    //     // allows to compare x[ p ] and y[ p ] when set to undefined
-    //     if ( ! y.hasOwnProperty( p ) ) {
-    //       return false;
-    //     }
-    //
-    //     // if they have the same strict value or identity then they are equal
-    //     if ( x[ p ] === y[ p ] ) {
-    //       continue;
-    //     }
-    //
-    //     // Numbers, Strings, Functions, Booleans must be strictly equal
-    //     if ( typeof( x[ p ] ) !== 'object') {
-    //       return false;
-    //     }
-    //
-    //     // Objects and Arrays must be tested recursively
-    //     if ( ! Object.equals( x[ p ],  y[ p ] ) ) {
-    //       return false;
-    //     }
-    //   }
-    //
-    //   // allows x[ p ] to be set to undefined
-    //   for ( p in y ) {
-    //     if ( y.hasOwnProperty( p ) && ! x.hasOwnProperty( p ) ) {
-    //       return false;
-    //     }
-    //   }
-    //   return true;
-    // };
-
-    // function LineSegment(line, source, target) {
-    //   this.line = line;
-    //   this.source = source;
-    //   this.target = target;
-    // }
-
-    // var preprocessDataForLines = function(chartData) {
-    //   var subwayLines = {};
-    //
-    //   chartData.forEach(function (object) {
-    //     //Don't bother adding nodes which are filtered out
-    //     if (object.value.count > 0) {
-    //       var objKeys = Object.keys(object.key[1]);
-    //       objKeys.forEach(function (objKey) {
-    //         var line = object.key[1][objKey];
-    //         var dataValue = _chart.valueAccessor()(object);
-    //
-    //         if (subwayLines[line] === undefined) {
-    //           // var source = new Station(_chart.x().range()[0], _chart.y()(line));
-    //           // var target = new Station(_chart.x().range()[1], _chart.y()(line));
-    //           // subwayLines[line] = new SubwayLine(line, [source, target]);
-    //           subwayLines[line] = new SubwayLine(line, []); //[source, target]);
-    //         }
-    //
-    //         // insertStation(new Station(_chart.x()(object.key[0]), ordinalAverager(dataValue)), subwayLines[line].stations);
-    //         insertStation(new Station(object.key[0], dataValue), subwayLines[line].stations);
-    //       });
-    //     }
-    //   });
-    //
-    //   subwayLines.forEach(function(line) {
-    //     var source = new Station(_chart.x().range()[0], _chart.y()(line));
-    //     var target = new Station(_chart.x().range()[1], _chart.y()(line));
-    //
-    //     line.segments.push(source);
-    //     line.segments.push(target);
-    //
-    //     var index = 0;
-    //     line.stations.forEach(function(station){
-    //       while (line.stations[index+2] === line.stations[index+1]) {
-    //
-    //       }
-    //
-    //       if (line.stations(index+1) && line.stations(index+2) )
-    //     });
-    //   });
-    //
-    //   var arrayResult = [];
-    //   var allKeys = Object.keys(subwayLines);
-    //   allKeys.forEach(function(k) {
-    //     arrayResult.push(subwayLines[k]);
-    //   });
-    //
-    //   linesColorScale = d3.scale.category20b().domain(allKeys);
-    //   return arrayResult;
-    // };
-
-
-
-
-
-
-
-    var objectCompare = function (a, b) {
-      if (a.x < b.source.x) {
-        return -1;
-      }
-      if (a.x > b.source.x) {
-        return 1;
-      }
-      return 0;
-    };
-
-
-    function splicePath(array, location, pathPre, element, pathPost) {
-      var newPath = {
-        source:{x:pathPre.source.x, y:pathPre.source.y},
-        target:{x:element.x,        y:element.y}
-      };
-
-      pathPre.target.x = element.x;
-      pathPre.target.y = element.y;
-
-      pathPost.source.x = element.x;
-      pathPost.source.y = element.y;
-
-      array.splice(location, 0, newPath);
+    function SubwayLine(lineID, stations) {
+      this.lineID = lineID;
+      this.stations = stations;
+      this.segments = [];
     }
 
-    function splitPath(array, location, pathPre, element, pathPost) {
-      var newPath1 = {
-        source:{x:pathPre.source.x, y:pathPre.source.y},
-        target:{x:element.x,        y:element.y}
-      };
-      var newPath2 = {
-        source:{x:element.x,         y:element.y},
-        target:{x:pathPost.target.x, y:pathPost.target.y}
-      };
-
-      pathPre.target.x = element.x;
-      pathPre.target.y = element.y;
-
-      pathPost.source.x = element.x;
-      pathPost.source.y = element.y;
-
-      array.splice(location, 0, newPath);
-    }
-
-    function insert(element, array) {
-      var location, elementPre, elementPost;
-      //Don't bother placing filtered out elements
-      if (element.x < array[0].source.x || element.x > array[array.length-1].target.x) {
-        console.log('OUT OF BOUNDS : ' + element.x);
-        return array;
-      }
-
-      if (array.length === 1) {
-        console.log('FIRST ADDITION : ' + element.x);
-        location = 0;
-        elementPre = array[0];
-        elementPost = array[0];
-
-        var newElement = {source:{x:elementPre.source.x,  y:elementPre.source.y},
-                          target:{x:element.x,            y:element.y}};
-        elementPost.source.x = element.x;
-        elementPost.source.y = element.y;
-
-        array.splice(location + 1, 0, newElement);
-
-
+    function insertStation(station, stations) {
+      if (stations[station.x] === undefined) {
+        stations[station.x] = [station.y];
       } else {
-        location = locationOf(element, array, objectCompare);
-
-        if (array[location].source.x < element.x)  {
-
-        } else if (array[location].source.x < element.x)  {
-        }
-
-        elementPre = array[location];
-
-
-
-        if (element.x < elementPre.target.x) {
-          elementPost = array[location];
-        } else if (element.x === elementPre.target.x) {
-          //console.log('T same : ' + element.x + ' : ' + elementPre.source.x);
-          var newSource, newTarget, newLocation = location;
-          while (element.x === array[newLocation].target.x || newLocation === 0) {
-            newLocation--;
-            newSource = array[newLocation];
-          }
-
-          newLocation = location;
-          while (element.x === array[newLocation].target.x || newLocation === array.length-1) {
-            newLocation++;
-            newTarget = array[newLocation];
-          }
-
-          console.log('WAS : ' + element.x);
-          console.log('NOW : ' + newSource.target.x + ' : ' + element.x + ' : ' + newTarget.target.x);
-
-          elementPost = array[location+1];
-        } else {
-          elementPost = array[location+1];
-        }
+        stations[station.x].push(station.y);
       }
-      location -= 1;
 
-      var newElement = {source:{x:elementPre.source.x,  y:elementPre.source.y},
-                        target:{x:element.x,            y:element.y}};
-      elementPost.source.x = element.x;
-      elementPost.source.y = element.y;
-
-      array.splice(location + 1, 0, newElement);
-      return array;
+      return stations;
     }
 
-    var ordinalAverager = function(ordinalValues)  {
-      var result = 0;
-      ordinalValues.forEach(function(ordinalValue) {
-        result += _chart.y()(ordinalValue);
-      });
+    function buildSegments(subwayLines, domain) {
+      var offset = 6;
 
-      return result / ordinalValues.length;
-    };
+      var lineKeys = Object.keys(subwayLines);
+      lineKeys.forEach(function(lineKey) {
+        var subwayLine = subwayLines[lineKey];
+        var stationKeys = Object.keys(subwayLine.stations);
 
-    var preprocessDataForLines = function(chartData) {
-      var result = {};
-      chartData.forEach(function (object) {
-        //Don't bother adding nodes which are filtered out
-        if (object.value.count > 0) {
-          var objKeys = Object.keys(object.key[1]);
-          objKeys.forEach(function (objKey) {
-            var dataKey = object.key[1][objKey];
-            var dataValue = _chart.valueAccessor()(object);
-            if (result[dataKey] === undefined) {
-              result[dataKey] = {
-                key: dataKey,
-                values: [{
-                          source:{x:_chart.x().range()[0], y:_chart.y()(dataKey)},
-                          target:{x:_chart.x().range()[1], y:_chart.y()(dataKey)}
-                        }]
-              };
-            }
-            insert({x:_chart.x()(object.key[0]), y:ordinalAverager(dataValue)}, result[dataKey].values);
+        stationKeys.sort(function (a, b) {
+          return a - b;
+        });
+
+        var len = stationKeys.length;
+        for (var i = 0; i < len-1; i++) {
+          var k = stationKeys[i];
+          var l = stationKeys[i+1];
+
+          var currentStations = subwayLine.stations[k];
+          var nextStations = subwayLine.stations[l];
+
+          currentStations.sort(function(a, b) {
+            return domain.indexOf(a) - domain.indexOf(b);
+          });
+
+          nextStations.sort(function(a, b) {
+            return domain.indexOf(a) - domain.indexOf(b);
+          });
+
+          var iC = 0, iN = 0;
+          var startC = -currentStations.length*0.5*offset;
+          var startN = -nextStations.length*0.5*offset;
+
+          currentStations.forEach(function(currentStation) {
+            nextStations.forEach(function(nextStation) {
+              subwayLine.segments.push({
+                source: {
+                  x:parseFloat(k),
+                  y:currentStation //+(startC + offset*iC)
+                },
+                target: {
+                  x:parseFloat(l),
+                  y:nextStation // +(startN + offset*iC)
+                }
+              });
+              iN++;
+            });
+            iC++;
           });
         }
       });
 
-      var arrayResult = [];
-      var allKeys = Object.keys(result);
-      allKeys.forEach(function(k) {
-        arrayResult.push(result[k]);
+      return subwayLines;
+    }
+
+    function fiddleWithDomain(domainHelper) {
+      var domain = _chart.y().domain();
+      var keys = Object.keys(domainHelper);
+
+      keys.sort(function (a, b) {
+        return new Date(a) - new Date(b);
       });
 
-      linesColorScale = d3.scale.category20b().domain(allKeys);
+      var newDomain = [];
+      keys.forEach(function(key) {
+        domainHelper[key].forEach(function(station) {
+          station.forEach(function(lineName) {
+            if (newDomain.indexOf(lineName) < 0) {
+              newDomain.push(lineName);
+            }
+          });
+        });
+      });
+
+      _chart.y().domain(newDomain);
+
+      return newDomain;
+    }
+
+    Object.prototype.renameProperty = function (oldName, newName) {
+      // Do nothing if the names are the same
+      if (oldName === newName) {
+          return this;
+      }
+      // Check for the old property name to avoid a ReferenceError in strict mode.
+      if (this.hasOwnProperty(oldName)) {
+        this[newName] = this[oldName];
+        delete this[oldName];
+      }
+      return this;
+    };
+
+    var preprocessDataForLines = function(chartData) {
+      var subwayLines = {};
+      var domainHelper = {};
+
+      chartData.forEach(function (object) {
+
+        //Don't bother adding nodes which are filtered out
+        if (object.value.count > 0) {
+          var objKeys = Object.keys(object.key[1]);
+          objKeys.forEach(function (objKey) {
+            var line = object.key[1][objKey];
+            var dataValue = _chart.valueAccessor()(object);
+
+            if (subwayLines[line] === undefined) {
+              subwayLines[line] = new SubwayLine(line, {});
+            }
+
+            // insertStation(new Station(_chart.x()(object.key[0]), ordinalAverager(dataValue)), subwayLines[line].stations);
+            insertStation(new Station(object.key[0], dataValue), subwayLines[line].stations);
+            insertStation(new Station(object.key[0], dataValue), domainHelper);
+          });
+        }
+      });
+
+      var domain = fiddleWithDomain(domainHelper);
+
+      var lineKeys = Object.keys(subwayLines);
+      lineKeys.forEach(function(line) {
+        var timeKeys = Object.keys(subwayLines[line].stations);
+        timeKeys.forEach(function(time) {
+          //Transform station's time values into x coordinates
+          var newKey = _chart.x()(new Date(time));
+          subwayLines[line].stations.renameProperty(time, newKey);
+
+          //Transform station's ordinal values into y coordinates
+          for (var i =0; i < subwayLines[line].stations[newKey].length; i++) {
+            subwayLines[line].stations[newKey][i] = ordinalDivider(time, subwayLines[line].stations[newKey][i]);
+          }
+        });
+
+        //add source and dest stations
+        insertStation(new Station(_chart.x().range()[0],  ordinalDivider(0, [line])), subwayLines[line].stations);
+        insertStation(new Station(_chart.x().range()[1],  ordinalDivider(0, [line])), subwayLines[line].stations);
+      });
+
+      buildSegments(subwayLines, domain);
+
+      var arrayResult = [];
+      var allKeys2 = Object.keys(subwayLines);
+      allKeys2.forEach(function(line) {
+        arrayResult.push(subwayLines[line]);
+      });
+
+      linesColorScale = d3.scale.category20b().domain(allKeys2);
       return arrayResult;
+    };
+
+    var ordinalDivider = function(time, ordinalValues)  {
+      var result = 0;
+      // ordinalValues.forEach(function(ordinalValue) {
+      //   result += _chart.y()(ordinalValue);
+      // });
+      var domain = _chart.y().domain();
+      for (var i = 0; i < domain.length; i++) {
+        if (ordinalValues.indexOf(domain[i]) >= 0) {
+          result = _chart.y()(domain[i]);
+          break;
+        }
+      }
+
+      var rangeBands = _chart.y().range().length;
+      var height = _chart.effectiveHeight();
+      var offset = height/rangeBands;
+
+      var x = result; // / ordinalValues.length;
+      if (isNaN(x)) {
+          x = 0;
+      }
+      var resultX = dc.utils.safeNumber(x+0.5*offset);
+
+      return resultX;
     };
 
     _chart.plotData = function () {
@@ -399,6 +272,10 @@ dc.subwayChart = function (parent, chartGroup) {
         var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
             .data(linesData);
         renderLines(subwayLineG);
+
+        // updateLines(subwayLineG);
+
+        removeLines(subwayLineG);
 
         var bubbleG = _chart.chartBodyG().selectAll('g.' + _chart.BUBBLE_NODE_CLASS)
             .data(_chart.data(), function (d) { return d.key; });
@@ -440,42 +317,33 @@ dc.subwayChart = function (parent, chartGroup) {
         return _chart;
     };
 
-
+    var diagonal = d3.svg.diagonal()
+      .source(function(d) {
+        return {'x':d.source.y, 'y':d.source.x};
+        // return {'x':ordinalAverager(d.source.y), 'y':_chart.x()(new Date(d.source.x))};
+      })
+      .target(function(d) {
+        return {'x':d.target.y, 'y':d.target.x};
+        // return {'x':ordinalAverager(d.target.y), 'y':_chart.x()(new Date(d.target.x))};
+      })
+      .projection(function(d) {
+        return [d.y, d.x];
+      });
 
     function renderLines(subwayLineG) {
       var lineGEnter = subwayLineG.enter().insert('g', ':first-child');
 
-      var diagonal = d3.svg.diagonal()
-        .source(function(d) {
-          return {'x':d.source.y, 'y':d.source.x};
-        })
-        .target(function(d) {
-          return {'x':d.target.y, 'y':d.target.x};
-        })
-        .projection(function(d) {
-          var rangeBands = _chart.y().range().length;
-          var height = _chart.effectiveHeight();
-          var offset = height/rangeBands;
-
-          var x = d.x;
-          if (isNaN(x)) {
-              x = 0;
-          }
-          var result = dc.utils.safeNumber(x+0.5*offset);
-
-          return [d.y, result];
-        });
-
       lineGEnter
         .attr('stroke', function(d) {
-          return linesColorScale(d.key);
+          return linesColorScale(d.lineID);
         })
         .attr('class', function (d, i) {
             return 'subway-line ' + '_' + i;
           });
 
       var paths = lineGEnter.selectAll('path.diagonal').data(function(d) {
-        return d.values;
+        // return d.values;
+        return d.segments;
       });
 
       var pathEnter = paths
@@ -485,10 +353,25 @@ dc.subwayChart = function (parent, chartGroup) {
 
       dc.transition(pathEnter, _chart.transitionDuration())
         .attr('d', function (d) {
-            return safeD(diagonal(d));
+      		var o = {x: d.source.x0 || 0, y: d.source.y0 || 0};
+      		return diagonal({source: o, target: o});
         });
 
-      paths.exit().remove();
+      dc.transition(pathEnter, _chart.transitionDuration())
+        .attr('d', diagonal);
+
+      var pathExit = paths
+        .exit();
+
+      dc.transition(pathExit, _chart.transitionDuration())
+    	  .attr('d', function(d) {
+      		var o = {x: d.source.x, y: d.source.y};
+      		return diagonal({source: o, target: o});
+    	  })
+    	  .remove();
+    }
+
+    function removeLines(subwayLineG) {
       subwayLineG.exit().remove();
     }
 
@@ -558,15 +441,16 @@ dc.subwayChart = function (parent, chartGroup) {
     }
 
     function bubbleY (d) {
-        var rangeBands = _chart.y().range().length;
-        var height = _chart.effectiveHeight();
-        var offset = height/rangeBands;
+        // var rangeBands = _chart.y().range().length;
+        // var height = _chart.effectiveHeight();
+        // var offset = height/rangeBands;
 
-        var y = ordinalAverager(_chart.valueAccessor()(d));
-        if (isNaN(y)) {
-            y = 0;
-        }
-        return dc.utils.safeNumber(y+0.5*offset);
+        var y = ordinalDivider(_chart.keyAccessor()(d), _chart.valueAccessor()(d));
+        // if (isNaN(y)) {
+        //     y = 0;
+        // }
+        // return dc.utils.safeNumber(y+0.5*offset);
+        return y;
     }
 
     _chart.renderBrush = function () {
