@@ -235,6 +235,10 @@ dc.subwayChart = function (parent, chartGroup) {
     };
 
     var ordinalDivider = function(time, ordinalValues)  {
+      var rangeBands = _chart.y().range().length;
+      var height = _chart.effectiveHeight();
+      var offset = height/rangeBands;
+
       var result = 0;
       // ordinalValues.forEach(function(ordinalValue) {
       //   result += _chart.y()(ordinalValue);
@@ -243,13 +247,8 @@ dc.subwayChart = function (parent, chartGroup) {
       for (var i = 0; i < domain.length; i++) {
         if (ordinalValues.indexOf(domain[i]) >= 0) {
           result = _chart.y()(domain[i]);
-          break;
         }
       }
-
-      var rangeBands = _chart.y().range().length;
-      var height = _chart.effectiveHeight();
-      var offset = height/rangeBands;
 
       var x = result; // / ordinalValues.length;
       if (isNaN(x)) {

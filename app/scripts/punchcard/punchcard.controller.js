@@ -36,6 +36,81 @@
       );
     };
 
+    var findMine = function(sources, uri) {
+      var result;
+      sources.forEach(function(source) {
+        if (source.uri.localeCompare(uri) === 0) {
+          result = source;
+        }
+      });
+      return result;
+    };
+
+    var mentionToHtml = function(d, sources) {
+      var result = [];
+      var raw = d.mentions;
+      raw.forEach(function(mention) {
+        var uri = mention.uri[0];
+        if (mention.uri[1] !== undefined) {
+          console.log('unparsed mention here');
+        }
+        var charStart = parseInt(mention.char[0]);
+        var charEnd = parseInt(mention.char[1]);
+
+        var found = findMine(sources, uri);
+
+        // var meta = raw[i+1].split('=');
+        // var sentence = meta[meta.length-1];
+        result.push({
+          charStart:charStart,
+          charEnd:charEnd,
+          text:found.text
+        });
+      });
+      var html = '';
+      result.forEach(function(phrase) {
+        var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart);
+        var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
+        var post = phrase.text.substring(phrase.charEnd ,phrase.charEnd+30);
+
+        html += pre + '<span class=\'highlighted-mention\'>'+word+'</span>' + post + '</BR>\n';
+      });
+      return html;
+
+    }
+
+    var mentionToTxt = function(d, sources) {
+      var result = [];
+      var raw = d.mentions;
+      raw.forEach(function(mention) {
+        var uri = mention.uri[0];
+        if (mention.uri[1] !== undefined) {
+          console.log('unparsed mention here');
+        }
+        var charStart = parseInt(mention.char[0]);
+        var charEnd = parseInt(mention.char[1]);
+
+        var found = findMine(sources, uri);
+
+        // var meta = raw[i+1].split('=');
+        // var sentence = meta[meta.length-1];
+        result.push({
+          charStart:charStart,
+          charEnd:charEnd,
+          text:found.text
+        });
+      });
+      var txt = '';
+      result.forEach(function(phrase) {
+        var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart);
+        var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
+        var post = phrase.text.substring(phrase.charEnd ,phrase.charEnd+30);
+
+        txt += pre + word + post + '\n';
+      });
+      return txt;
+    }
+
     //A renderlet as a helper function for the groupChart, to add the symbols
     //from the series chart (and adjust the positions to accomodate them)
     var symbolScale = d3.scale.ordinal().range(d3.svg.symbolTypes);
@@ -131,6 +206,11 @@
                 p.labels[l] = (p.labels[l] || 0) + p.count;
               });
 
+              //Push mentions over all events fitting this time and group.
+              v.mentions.forEach(function(m) {
+                p.mentions.push(m);
+              });
+
               return p;
             },
             //Remove something from our temporary collection, (basically do
@@ -142,11 +222,16 @@
                 p.labels[l] = (p.labels[l] || 0) - p.count;
               });
 
+              //Push mentions over all events fitting this time and group.
+              v.mentions.forEach(function(m) {
+                p.mentions.pop(m);
+              });
+
               return p;
             },
             //Set up the inital data structure.
             function() {
-              return {count: 0, labels: {}};
+              return {count: 0, labels: {}, mentions:[]};
             }
           );
 
@@ -203,7 +288,11 @@
             .r(d3.scale.linear())
             .elasticRadius(true)
             .radiusValueAccessor(function(p) {
-              return p.value.count;
+              if (p.value.count >0) {
+                return p.key[1].length;
+              } else {
+                return 0;
+              }
             })
             .minRadius(5)
             .maxBubbleRelativeSize(0.015)
@@ -237,10 +326,18 @@
                 actorString += a + '\n';
               });
 
-              var titleString = '\n-----Actors-----\n' +
+              var labelString = '';
+              var labels = Object.keys(p.value.labels);
+              labels.forEach(function(l) {
+                labelString += l + '\n';
+              });
+
+              var titleString = '\n---Actors-------\n' +
                                 actorString +
-                                '\n-----Time-------\n' +
-                                formattedTime;
+                                '\n---Labels-------\n' +
+                                labelString +
+                                '\n---Mentions-----\n' +
+                                mentionToTxt(p.value, sources);
               return titleString;
             });
 
@@ -807,16 +904,6 @@
             return [d.group, d.time, d.labels];
           });
 
-          var findMine = function(sources, uri) {
-            var result;
-            sources.forEach(function(source) {
-              if (source.uri.localeCompare(uri) === 0) {
-                result = source;
-              }
-            });
-            return result;
-          };
-
           //Set up the
           dataTable
             .size(25)
@@ -847,35 +934,7 @@
               },
               { label:'Mentions',
                 format: function(d) {
-                  var result = [];
-                  var raw = d.mentions;
-                  raw.forEach(function(mention) {
-                    var uri = mention.uri[0];
-                    if (mention.uri[1] !== undefined) {
-                      console.log('unparsed mention here');
-                    }
-                    var charStart = parseInt(mention.char[0]);
-                    var charEnd = parseInt(mention.char[1]);
-
-                    var found = findMine(sources, uri);
-
-                    // var meta = raw[i+1].split('=');
-                    // var sentence = meta[meta.length-1];
-                    result.push({
-                      charStart:charStart,
-                      charEnd:charEnd,
-                      text:found.text
-                    });
-                  });
-                  var html = '';
-                  result.forEach(function(phrase) {
-                    var pre = phrase.text.substring(phrase.charStart-30,phrase.charStart);
-                    var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
-                    var post = phrase.text.substring(phrase.charEnd ,phrase.charEnd+30);
-
-                    html += pre + '<span class=\'highlighted-mention\'>'+word+'</span>' + post + '</BR>\n';
-                  });
-                  return html;
+                  return mentionToHtml(d, sources);
                 }
               },
               { label:'Labels',
