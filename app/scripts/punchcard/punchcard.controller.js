@@ -182,8 +182,8 @@
                 var splitString = keysActor.split(':');
                 var category = splitString[0];
                 var entity = splitString[1];
-                if (category === 'nwr-non-entities') {
-                  concatenatedActors.push(category);
+                if (category === 'nwr-non-entities' || category === 'ne') {
+                  // concatenatedActors.push(category);
                 } else {
                   concatenatedActors.push(category + ':' + entity);
                 }
@@ -948,7 +948,7 @@
       );
     }
 
-    readData('data/contextual.timeline24-11-eso.json');
+    readData('data/contextual.timeline10-12-eso.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);
