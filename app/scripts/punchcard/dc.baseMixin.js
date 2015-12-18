@@ -1019,6 +1019,7 @@ dc.baseMixin = function (_chart) {
     };
 
     _chart.reverseFilter = function (filter) {
+      if (!_chart.hasFilter()) {
         var data = _chart.data();
         // var newFilter = [];
 
@@ -1035,8 +1036,9 @@ dc.baseMixin = function (_chart) {
             }
           }
         });
+      }
 
-        return _chart;
+      return _chart;
     };
 
     /**
@@ -1079,12 +1081,12 @@ dc.baseMixin = function (_chart) {
         var filter = _chart.keyAccessor()(datum);
         dc.events.trigger(function () {
           if (d3.event.which === 1 && !d3.event.shiftKey) {
-            _chart.filter(filter);
+            _chart.filter(filter, (d3.event.which !== 1));
           } else if (d3.event.which === 1) {
             _chart.reverseFilter(filter);
           }
 
-            _chart.redrawGroup();
+          _chart.redrawGroup();
         });
     };
 

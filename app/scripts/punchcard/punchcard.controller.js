@@ -77,7 +77,7 @@
       });
       return html;
 
-    }
+    };
 
     var mentionToTxt = function(d, sources) {
       var result = [];
@@ -109,7 +109,7 @@
         txt += pre + word + post + '\n';
       });
       return txt;
-    }
+    };
 
     //A renderlet as a helper function for the groupChart, to add the symbols
     //from the series chart (and adjust the positions to accomodate them)
@@ -146,6 +146,29 @@
       });
     };
 
+    function allPossibleCases(array) {
+      if (array.length === 1) {
+        return [array[0]];
+      } else {
+        var result = [];
+        result.push(array);
+
+        var theRest = allPossibleCases(array.slice(1));
+        if (theRest.length === 1) {
+          result.push(array[0]);
+        } else {
+          for (var i = 0; i < theRest.length; i++) {
+            for (var j = 0; j < array.length; j++) {
+              result.push([array[j], theRest[i]]);
+              result.push([theRest[i], array[j]]);
+            }
+          }
+        }
+
+        return result;
+      }
+    }
+
     function readData(filename) {
       //We use d3 to read our JSON file
       d3.json(filename,
@@ -161,6 +184,151 @@
           var sources = data.timeline.sources;
           var ndx = crossfilter(events);
           // var all = ndx.groupAll();
+          //
+
+
+          //A rowChart that shows us the importance of the all actors
+          var allActorChart = dc.rowChart('#rowchart_allActors');
+
+          //Dimension of the list of unique actors present in each event.
+          var allActorsDimension = ndx.dimension(function(d) {
+            var concatenatedActors = [];
+
+            var keys = Object.keys(d.actors);
+            keys.forEach(function (key) {
+              var keysActors = d.actors[key];
+              keysActors.forEach(function(keysActor) {
+                var splitString = keysActor.split(':');
+                var category = splitString[0];
+                var entity = splitString[1];
+                if (category === 'nwr-non-entities' || category === 'ne') {
+                  // concatenatedActors.push(category);
+                } else {
+                  concatenatedActors.push(category + ':' + entity);
+                }
+
+              });
+            });
+            var uniqueActors = arrayUnique(concatenatedActors);
+
+            return uniqueActors;
+          });
+
+          //Custom reduce functions to split events up with multiple keys
+          function reduceAdd(p, v) {
+            var keys = Object.keys(v.actors);
+            keys.forEach (function(key) {
+              var actors = v.actors[key];
+              actors.forEach(function (actor) {
+                var splitString = actor.split(':');
+                var category = splitString[0];
+                if (category === 'nwr-non-entities' || category === 'ne') {
+
+                } else {
+                  p[actor] = (p[actor] || 0) + 1;
+                }
+              });
+            });
+            return p;
+          }
+
+          function reduceRemove(p, v) {
+            var keys = Object.keys(v.actors);
+            keys.forEach (function(key) {
+              var actors = v.actors[key];
+              actors.forEach(function (actor) {
+                var splitString = actor.split(':');
+                var category = splitString[0];
+                if (category === 'nwr-non-entities' || category === 'ne') {
+
+                } else {
+                  p[actor] = (p[actor] || 0) - 1;
+                }
+              });
+            });
+            return p;
+          }
+
+          function reduceInitial() {
+            return {};
+          }
+
+          //Apply custom reduce
+          var allActorsClimaxSum = allActorsDimension.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value();
+
+          //Hack to add the all and top functions again
+          allActorsClimaxSum.all = function() {
+            var newObject = [];
+            for (var key in this) {
+              if (this.hasOwnProperty(key) && key !== 'all' && key !== 'top' && key !== 'order') {
+                newObject.push({
+                  key: key,
+                  value: this[key]
+                });
+              }
+            }
+            return newObject;
+          };
+          allActorsClimaxSum.top = function(n) {
+            var newObject = this.all().sort(function(a, b) {
+              return b.value - a.value;
+            }).slice(0,n);
+
+            return newObject;
+          };
+
+          //Set up the
+          allActorChart
+            //Size in pixels
+            .width(parseInt(d3.select('#rowchart_allActors').style('width'), 10))
+            .height(400)
+            .margins({
+              top: 10,
+              right: 0,
+              bottom: 20,
+              left: 0
+            })
+
+            //Bind data
+            .dimension(allActorsDimension)
+            .keyAccessor(function (d) {
+              return d.key;
+            })
+            .group(allActorsClimaxSum)
+            .valueAccessor(function (d) {
+              return d.value;
+            })
+
+            //The x Axis
+            .x(d3.scale.linear())
+            .elasticX(true)
+
+            .filterHandler(function(dimension, filters) {
+              // var newFilters = [];
+
+              dimension.filter(null);
+              if (filters.length === 0) {
+                dimension.filter(null);
+              } else {
+                dimension.filter(function(d) {
+                  var result = true;
+                  if (allActorChart.filters() !== null) {
+                    var currentFilters = allActorChart.filters();
+                    currentFilters.forEach(function(f) {
+                      if (d.indexOf(f) < 0) {
+                        result = false;
+                      }
+                    });
+                  }
+                  return result;
+                });
+              }
+              return filters;
+            })
+
+            .xAxis().tickValues([]);
+
+          allActorChart.render();
 
 
           //The row Chart which shows how important the groups are in terms of climax scores
@@ -364,6 +532,30 @@
           dc.override(subwayChart, '_prepareYAxis', function(g) {
             this.__prepareYAxis(g);
             this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
+          });
+
+          dc.override(subwayChart, 'fadeDeselectedArea', function() {
+            if (subwayChart.hasFilter()) {
+              subwayChart.selectAll('g.' + subwayChart.BUBBLE_NODE_CLASS).each(function(d) {
+                if (subwayChart.isSelectedNode(d)) {
+                  subwayChart.highlightSelected(this);
+                } else {
+                  subwayChart.fadeDeselected(this);
+                }
+              });
+
+              // subwayChart.selectAll('g.subway-line').each(function(d) {
+              //   if (subwayChart.hasFilter(d.lineID)) {
+              //     subwayChart.highlightSelected(this);
+              //   } else {
+              //     subwayChart.fadeDeselected(this);
+              //   }
+              // });
+            } else {
+              subwayChart.selectAll('g.' + subwayChart.BUBBLE_NODE_CLASS).each(function() {
+                subwayChart.resetHighlight(this);
+              });
+            }
           });
 
           subwayChart.render();
@@ -690,8 +882,7 @@
                 return(d.key[0]);
               });
               return domain;
-            })()).copy()
-            )
+            })()).copy())
             .valueAccessor(function(p) {
               //The group of this event
               return p.key[0];
@@ -803,97 +994,7 @@
           customBubbleChart.render();
 
 
-          //A rowChart that shows us the importance of the all actors
-          var allActorChart = dc.rowChart('#rowchart_allActors');
 
-          //Dimension of the list of unique actors present in each event.
-          var allActorsDimension = ndx.dimension(function(d) {
-            var concatenatedActors = [];
-
-            var keys = Object.keys(d.actors);
-            keys.forEach(function (key) {
-              var keysActors = d.actors[key];
-              keysActors.forEach(function(keysActor) {
-                concatenatedActors.push(keysActor);
-              });
-            });
-            var uniqueActors = arrayUnique(concatenatedActors);
-
-            return uniqueActors;
-          });
-
-          //Custom reduce functions to split events up with multiple keys
-          function reduceAdd(p, v) {
-            var keys = Object.keys(v.actors);
-            keys.forEach (function(key) {
-              var actors = v.actors[key];
-              actors.forEach(function (actor) {
-                p[actor] = (p[actor] || 0) + v.climax;
-              });
-            });
-            return p;
-          }
-
-          function reduceRemove(p, v) {
-            var keys = Object.keys(v.actors);
-            keys.forEach (function(key) {
-              var actors = v.actors[key];
-              actors.forEach(function (actor) {
-                p[actor] = (p[actor] || 0) - v.climax;
-              });
-            });
-            return p;
-          }
-
-          function reduceInitial() {
-            return {};
-          }
-
-          //Apply custom reduce
-          var allActorsClimaxSum = allActorsDimension.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value();
-
-          //Hack to add the all and top functions again
-          allActorsClimaxSum.all = function() {
-            var newObject = [];
-            for (var key in this) {
-              if (this.hasOwnProperty(key) && key !== 'all' && key !== 'top' && key !== 'order') {
-                newObject.push({
-                  key: key,
-                  value: this[key]
-                });
-              }
-            }
-            return newObject;
-          };
-          allActorsClimaxSum.top = function(n) {
-            var newObject = this.all().sort(function(a, b) {
-              return b.value - a.value;
-            }).slice(0,n);
-
-            return newObject;
-          };
-
-          //Set up the
-          allActorChart
-            //Size in pixels
-            .width(parseInt(d3.select('#rowchart_allActors').style('width'), 10))
-            .height(480)
-
-            //Bind data
-            .dimension(allActorsDimension)
-            .group(allActorsClimaxSum)
-
-            //The x Axis
-            .x(d3.scale.linear())
-            .elasticX(true)
-
-            //We use this custom data and ordering functions to sort the data and
-            //limit to the top 20 (in climax scores)
-            .data(function(d) {
-              return d.top(20);
-            });
-
-          allActorChart.render();
 
 
           //Now, build a table with the filtered results

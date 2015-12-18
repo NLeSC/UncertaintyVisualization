@@ -258,7 +258,7 @@ dc.subwayChart = function (parent, chartGroup) {
 
       return resultX;
     };
-
+    var linesData;
     _chart.plotData = function () {
         if (_elasticRadius) {
             _chart.r().domain([_chart.rMin(), _chart.rMax()]);
@@ -266,7 +266,7 @@ dc.subwayChart = function (parent, chartGroup) {
 
         _chart.r().range([_chart.MIN_RADIUS, _chart.xAxisLength() * _chart.maxBubbleRelativeSize()]);
 
-        var linesData = preprocessDataForLines(_chart.data());
+        linesData = preprocessDataForLines(_chart.data());
         _chart.chartBodyG().selectAll('g.' + 'subway-line').remove();
         var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
             .data(linesData);
