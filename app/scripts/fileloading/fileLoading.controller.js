@@ -1,21 +1,24 @@
 (function() {
   'use strict';
 
-  function FileController(toastr) {
-    this.query = '';
+  function FileController(DataService, uncertConf, Messagebus) {
+    var me = this;
+    this.query = uncertConf.DATA_JSON_URL;
 
     this.clear = function() {
-      this.query = '';
+      me.query = uncertConf.DATA_JSON_URL;
+      me.open();
     };
 
     this.open = function() {
-      toastr.error('Search' + this.query);
-      // BingGeoCoderService.geocode(this.query).then(
-      //   this.onLocationResponse.bind(this),
-      //   function() {
-      //     toastr.error('Search failed', 'for some reason');
-      //   }
-      // );
+      DataService.ready.then(function() {
+        Messagebus.publish('data request', me.query);
+        // toastr.error('Search' + me.query);
+      });
+    };
+
+    this.search = function() {
+      me.open();
     };
 
     /**
@@ -24,7 +27,7 @@
     this.onQueryKeyPress = function($event) {
       var enterCode = 13;
       if ($event.keyCode === enterCode) {
-        this.open();
+        me.open();
       }
     };
   }

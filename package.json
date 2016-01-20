@@ -5,8 +5,7 @@
     "type": "git",
     "url": "https://github.com/NLeSC/UncertaintyVisualization.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "codeclimate-test-reporter": "^0.1.0",
     "grunt": "^0.4.5",

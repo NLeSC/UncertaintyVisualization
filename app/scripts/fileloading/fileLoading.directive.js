@@ -3,7 +3,7 @@
 
   function fileLoadingDirective() {
     return {
-      restrict: 'E',
+      restrict: 'EA',
       templateUrl: 'scripts/fileloading/fileLoading.directive.html',
       controller: 'FileController',
       controllerAs: 'fc'

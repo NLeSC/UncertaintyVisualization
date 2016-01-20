@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PunchcardController(DataService, d3, dc, crossfilter, colorbrewer) {
+  function PunchcardController(DataService, d3, dc, crossfilter, colorbrewer, Messagebus) {
     //Helper function to get unique elements of an array
     var arrayUnique = function(a) {
         return a.reduce(function(p, c) {
@@ -1050,6 +1050,8 @@
     };
 
     DataService.ready.then(this.readData);
+
+    Messagebus.subscribe('data loaded', this.readData);
     // readData('data/contextual.timeline10-12-eso.json');
   }
 

@@ -46,8 +46,8 @@
 
 
   angular.module('uncertApp.templates', []);
-  angular.module('uncertApp.utils', ['uncertApp.templates', 'toastr']);
-  angular.module('uncertApp.core', ['uncertApp.utils']);
+  angular.module('uncertApp.utils', ['uncertApp.templates']);
+  angular.module('uncertApp.core', ['uncertApp.utils', 'toastr']);
   angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);
   angular.module('uncertApp.punchcard', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
 })();
