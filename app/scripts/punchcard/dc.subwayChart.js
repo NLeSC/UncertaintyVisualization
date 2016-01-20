@@ -60,9 +60,9 @@ dc.subwayChart = function (parent, chartGroup) {
         return _chart;
     };
 
-    function Station(x, y) {
+    function Station(x, yRaw) {
       this.x = x;
-      this.y = y;
+      this.yRaw = yRaw;
     }
 
     // function Segment(source, target) {
@@ -78,9 +78,9 @@ dc.subwayChart = function (parent, chartGroup) {
 
     function insertStation(station, stations) {
       if (stations[station.x] === undefined) {
-        stations[station.x] = [station.y];
+        stations[station.x] = [station];
       } else {
-        stations[station.x].push(station.y);
+        stations[station.x].push(station);
       }
 
       return stations;
@@ -95,7 +95,15 @@ dc.subwayChart = function (parent, chartGroup) {
         var stationKeys = Object.keys(subwayLine.stations);
 
         stationKeys.sort(function (a, b) {
-          return a - b;
+          if (Number.isNaN(parseInt(a)) && Number.isNaN(parseInt(b))) {
+            return new Date(a) - new Date(b);
+          } else if ((!Number.isNaN(parseInt(a)) && parseInt(a) === 0) || (!Number.isNaN(parseInt(b)) && parseInt(b) !== 0)) {
+            return -1;
+          } else if ((!Number.isNaN(parseInt(a)) && parseInt(a) !== 0) || (!Number.isNaN(parseInt(b)) && parseInt(b) === 0)) {
+            return 1;
+          } else {
+            return 1;
+          }
         });
 
         var len = stationKeys.length;
@@ -121,14 +129,9 @@ dc.subwayChart = function (parent, chartGroup) {
           currentStations.forEach(function(currentStation) {
             nextStations.forEach(function(nextStation) {
               subwayLine.segments.push({
-                source: {
-                  x:parseFloat(k),
-                  y:currentStation //+(startC + offset*iC)
-                },
-                target: {
-                  x:parseFloat(l),
-                  y:nextStation // +(startN + offset*iC)
-                }
+                source: currentStation,
+                target: nextStation,
+                visible: true
               });
               iN++;
             });
@@ -151,7 +154,7 @@ dc.subwayChart = function (parent, chartGroup) {
       var newDomain = [];
       keys.forEach(function(key) {
         domainHelper[key].forEach(function(station) {
-          station.forEach(function(lineName) {
+          station.yRaw.forEach(function(lineName) {
             if (newDomain.indexOf(lineName) < 0) {
               newDomain.push(lineName);
             }
@@ -209,17 +212,18 @@ dc.subwayChart = function (parent, chartGroup) {
         timeKeys.forEach(function(time) {
           //Transform station's time values into x coordinates
           var newKey = _chart.x()(new Date(time));
-          subwayLines[line].stations.renameProperty(time, newKey);
+          // subwayLines[line].stations.renameProperty(time, newKey);
 
           //Transform station's ordinal values into y coordinates
-          for (var i =0; i < subwayLines[line].stations[newKey].length; i++) {
-            subwayLines[line].stations[newKey][i] = ordinalDivider(time, subwayLines[line].stations[newKey][i]);
+          for (var i =0; i < subwayLines[line].stations[time].length; i++) {
+            subwayLines[line].stations[time][i].x = newKey;
+            subwayLines[line].stations[time][i].y = ordinalDivider(time, subwayLines[line].stations[time][i]);
           }
         });
 
         //add source and dest stations
-        insertStation(new Station(_chart.x().range()[0],  ordinalDivider(0, [line])), subwayLines[line].stations);
-        insertStation(new Station(_chart.x().range()[1],  ordinalDivider(0, [line])), subwayLines[line].stations);
+        insertStation({x:_chart.x().range()[0],  y:ordinalDivider(0, {x:0,yRaw:[line]})}, subwayLines[line].stations);
+        insertStation({x:_chart.x().range()[1],  y:ordinalDivider(0, {x:0,yRaw:[line]})}, subwayLines[line].stations);
       });
 
       buildSegments(subwayLines, domain);
@@ -234,7 +238,64 @@ dc.subwayChart = function (parent, chartGroup) {
       return arrayResult;
     };
 
-    var ordinalDivider = function(time, ordinalValues)  {
+    var updateLineData = function(chartData) {
+      var domainHelper = {};
+
+      chartData.forEach(function (object) {
+        //Don't bother adding nodes which are filtered out
+        if (object.value.count > 0) {
+          var objKeys = Object.keys(object.key[1]);
+          objKeys.forEach(function (objKey) {
+            var dataValue = _chart.valueAccessor()(object);
+
+            insertStation(new Station(object.key[0], dataValue), domainHelper);
+          });
+        }
+      });
+
+      var domain = fiddleWithDomain(domainHelper);
+
+      linesData.forEach(function (l) {
+        var timeKeys = Object.keys(l.stations);
+        for (var i =0; i < timeKeys.length; i++) {
+          var timeIndex = timeKeys[i];
+          if (Number.isNaN(parseInt(timeIndex))) {
+            //Actual stations
+            for (var j =0; j < l.stations[timeIndex].length; j++) {
+              l.stations[timeIndex][j].x0 = l.stations[timeIndex][j].x;
+              l.stations[timeIndex][j].y0 = l.stations[timeIndex][j].y;
+
+              l.stations[timeIndex][j].x = _chart.x()(new Date(timeIndex));
+              l.stations[timeIndex][j].y = ordinalDivider(timeIndex, l.stations[timeIndex][j]);
+            }
+          } else {
+            l.stations[timeIndex][0].x0 = l.stations[timeIndex][0].x;
+            l.stations[timeIndex][0].y0 = l.stations[timeIndex][0].y;
+            //The beginning or end of the line
+            if (parseInt(timeIndex) === 0) {
+              l.stations[timeIndex][0].x = _chart.x().range()[0];
+              l.stations[timeIndex][0].y = ordinalDivider(0, {x:0,yRaw:[l.lineID]});
+            } else {
+              l.stations[timeIndex][0].x = _chart.x().range()[1];
+              l.stations[timeIndex][0].y = ordinalDivider(0, {x:0,yRaw:[l.lineID]});
+            }
+          }
+        }
+        if (_chart.y().domain().indexOf(l) >= 0) {
+          l.segments.forEach(function(s) {
+            s.visible = true;
+          });
+        } else {
+          l.segments.forEach(function(s) {
+            s.visible = false;
+          });
+        }
+      });
+
+      return linesData;
+    };
+
+    var ordinalDivider = function(time, stations)  {
       var rangeBands = _chart.y().range().length;
       var height = _chart.effectiveHeight();
       var offset = height/rangeBands;
@@ -245,7 +306,8 @@ dc.subwayChart = function (parent, chartGroup) {
       // });
       var domain = _chart.y().domain();
       for (var i = 0; i < domain.length; i++) {
-        if (ordinalValues.indexOf(domain[i]) >= 0) {
+        // console.log(stations);
+        if (stations.yRaw.indexOf(domain[i]) >= 0) {
           result = _chart.y()(domain[i]);
         }
       }
@@ -258,6 +320,7 @@ dc.subwayChart = function (parent, chartGroup) {
 
       return resultX;
     };
+
     var linesData;
     _chart.plotData = function () {
         if (_elasticRadius) {
@@ -266,27 +329,33 @@ dc.subwayChart = function (parent, chartGroup) {
 
         _chart.r().range([_chart.MIN_RADIUS, _chart.xAxisLength() * _chart.maxBubbleRelativeSize()]);
 
-        linesData = preprocessDataForLines(_chart.data());
-        _chart.chartBodyG().selectAll('g.' + 'subway-line').remove();
+        if (linesData === undefined) {
+          linesData = preprocessDataForLines(_chart.data());
+        } else {
+          linesData = updateLineData(_chart.data());
+        }
+
         var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
-            .data(linesData);
-        renderLines(subwayLineG);
+          .data(linesData);
 
-        // updateLines(subwayLineG);
+        renderLines(subwayLineG, linesData);
 
-        removeLines(subwayLineG);
+        updateLines(subwayLineG, linesData);
+
+        subwayLineG.exit().remove();
+
+        // removeLines(subwayLineG);
 
         var bubbleG = _chart.chartBodyG().selectAll('g.' + _chart.BUBBLE_NODE_CLASS)
             .data(_chart.data(), function (d) { return d.key; });
 
         renderNodes(bubbleG);
-
         updateNodes(bubbleG);
-
         removeNodes(bubbleG);
 
         _chart.fadeDeselectedArea();
     };
+
     _chart.interpolate = function (interpolate) {
         if (!arguments.length) {
             return _interpolate;
@@ -329,53 +398,52 @@ dc.subwayChart = function (parent, chartGroup) {
         return [d.y, d.x];
       });
 
-    function renderLines(subwayLineG) {
-      var lineGEnter = subwayLineG.enter().insert('g', ':first-child');
 
-      lineGEnter
+    function renderLines(subwayLineG, linesData) {
+      subwayLineG.enter()
+        .insert('g', ':first-child')
         .attr('stroke', function(d) {
           return linesColorScale(d.lineID);
         })
         .attr('class', function (d, i) {
-            return 'subway-line ' + '_' + i;
-          });
+          return 'subway-line ' + '_' + i;
+        });
 
-      var paths = lineGEnter.selectAll('path.diagonal').data(function(d) {
+      var paths = subwayLineG.selectAll('path.diagonal').data(function(d) {
         // return d.values;
         return d.segments;
       });
 
-      var pathEnter = paths
-        .enter()
-        .append('path')
-        .attr('class', 'diagonal');
-
-      dc.transition(pathEnter, _chart.transitionDuration())
+      paths.enter()
+        .insert('path', 'g')
+        .attr('class', 'diagonal')
         .attr('d', function (d) {
-      		var o = {x: d.source.x0 || 0, y: d.source.y0 || 0};
-      		return diagonal({source: o, target: o});
-        });
-
-      dc.transition(pathEnter, _chart.transitionDuration())
-        .attr('d', diagonal);
-
-      var pathExit = paths
-        .exit();
-
-      dc.transition(pathExit, _chart.transitionDuration())
-    	  .attr('d', function(d) {
-      		var o = {x: d.source.x, y: d.source.y};
-      		return diagonal({source: o, target: o});
-    	  })
-    	  .remove();
+      		var origin = {x: d.source.x0 || 0, y: d.source.y0 || 0};
+          var dest = {x: d.target.x0 || 0, y: d.target.y0 || 0};
+      		return safeD(diagonal({source: origin, target: dest}));
+        })
+        // .transition().duration(_chart.transitionDuration())
+        //   .attr('d', diagonal)
+        ;
     }
 
-    function removeLines(subwayLineG) {
-      subwayLineG.exit().remove();
-    }
+  function updateLines(subwayLineG, linesData) {
+    var paths = subwayLineG.selectAll('path.diagonal').data(function(d) {
+      // return d.values;
+      return d.segments;
+    });
+    dc.transition(paths, _chart.transitionDuration())
+      .attr('d', diagonal)
+      // .attr('opacity', function (d) {
+      //     return (d.visible) ? 1 : 0;
+      // })
+      ;
+
+    paths.exit().remove();
+  }
 
     function safeD (d) {
-        return (!d || d.indexOf('NaN') >= 0) ? 'M0,0' : d;
+        return (!d || d.indexOf('NaN') >= 0 || d.indexOf('Infinity') >= 0) ? 'M0,0' : d;
     }
 
     function renderNodes (bubbleG) {
@@ -444,7 +512,7 @@ dc.subwayChart = function (parent, chartGroup) {
         // var height = _chart.effectiveHeight();
         // var offset = height/rangeBands;
 
-        var y = ordinalDivider(_chart.keyAccessor()(d), _chart.valueAccessor()(d));
+        var y = ordinalDivider(_chart.keyAccessor()(d), {yRaw:_chart.valueAccessor()(d)});
         // if (isNaN(y)) {
         //     y = 0;
         // }

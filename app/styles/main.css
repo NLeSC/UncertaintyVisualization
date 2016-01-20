@@ -1,3 +1,5 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
 #banner {
   color: white;
   margin-top: 10px;
@@ -23,6 +25,10 @@ body {
   margin:10px;
   overflow:auto;
   background: #fafafa;
+}
+
+.mdl-grid {
+  padding: 0;
 }
 
 #pagetitle {
@@ -148,11 +154,12 @@ g.node.selected {
 }
 
 .logo-vu {
-  background-image: url("../images/vu-logo-2.png");
+  background-image: url("../images/VUlogo.png");
   height: 100px;
   width: 100%;
-  background-size: 100% auto;
+  background-size: 67% auto;
   background-repeat: no-repeat;
+  background-position-x: 50px;
 }
 .logo-nwr {
   background-image: url("../images/NWR_logo_1920x200.png");
@@ -160,14 +167,14 @@ g.node.selected {
   width: 100%;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position-y: 20px;
+  background-position-y: 35px;
 }
 
 .logo-nlesc {
-  background-image: url("../images/ESCIENCE_logo_B_nl_long_cyanblack.svg");
+  background-image: url("../images/NLESClogo.png");
   height: 100px;
   width: 100%;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position-y: 30px;
+  background-position-y: 40px;
 }

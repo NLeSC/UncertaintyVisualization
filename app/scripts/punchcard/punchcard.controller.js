@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PunchcardController(d3, dc, crossfilter, colorbrewer) {
+  function PunchcardController(DataService, d3, dc, crossfilter, colorbrewer) {
     //Helper function to get unique elements of an array
     var arrayUnique = function(a) {
         return a.reduce(function(p, c) {
@@ -169,13 +169,13 @@
       }
     }
 
-    function readData(filename) {
+    this.readData = function() {
       //We use d3 to read our JSON file
-      d3.json(filename,
-        function(error, data) {
-          if (error) {
-            console.log(error);
-          }
+      var data = DataService.getData();
+        // function(error, data) {
+        //   if (error) {
+        //     console.log(error);
+        //   }
 
           // var actors = data.timeline.actors;
 
@@ -1045,11 +1045,12 @@
               }
             ]);
           dataTable.render();
-        }
-      );
-    }
+        // }
+      // );
+    };
 
-    readData('data/contextual.timeline10-12-eso.json');
+    DataService.ready.then(this.readData);
+    // readData('data/contextual.timeline10-12-eso.json');
   }
 
   angular.module('uncertApp.punchcard').controller('PunchcardController', PunchcardController);
