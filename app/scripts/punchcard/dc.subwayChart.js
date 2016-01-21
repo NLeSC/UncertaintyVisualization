@@ -281,7 +281,7 @@ dc.subwayChart = function (parent, chartGroup) {
             }
           }
         }
-        if (_chart.y().domain().indexOf(l) >= 0) {
+        if (domain.indexOf(l.lineID) >= 0) {
           l.segments.forEach(function(s) {
             s.visible = true;
           });
@@ -422,6 +422,9 @@ dc.subwayChart = function (parent, chartGroup) {
           var dest = {x: d.target.x0 || 0, y: d.target.y0 || 0};
       		return safeD(diagonal({source: origin, target: dest}));
         })
+        .attr('opacity', function (d) {
+            return (d.visible) ? 1 : 0;
+        })
         // .transition().duration(_chart.transitionDuration())
         //   .attr('d', diagonal)
         ;
@@ -434,9 +437,9 @@ dc.subwayChart = function (parent, chartGroup) {
     });
     dc.transition(paths, _chart.transitionDuration())
       .attr('d', diagonal)
-      // .attr('opacity', function (d) {
-      //     return (d.visible) ? 1 : 0;
-      // })
+      .attr('opacity', function (d) {
+          return (d.visible) ? 1 : 0;
+      })
       ;
 
     paths.exit().remove();
