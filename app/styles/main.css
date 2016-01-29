@@ -65,7 +65,7 @@ div.dc-chart {
 
 .dc-chart .subwayBubble {
     stroke: black;
-    stroke-width: 4px;
+    stroke-width: 2px;
     fill: white;
 }
 
@@ -153,6 +153,16 @@ g.node.selected {
   box-sizing: border-box;
 }
 
+.breadcrumb_class {
+  font-size: 12px;
+  padding-left: 10px;
+  color: rgb(255, 0, 0);
+}
+
+.breadcrumb_empty {
+  color: rgb(0, 0, 0);
+}
+
 .logo-vu {
   background-image: url("../images/VUlogo.png");
   height: 100px;
@@ -161,6 +171,7 @@ g.node.selected {
   background-repeat: no-repeat;
   background-position-x: 50px;
 }
+
 .logo-nwr {
   background-image: url("../images/NWR_logo_1920x200.png");
   height: 100px;

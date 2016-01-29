@@ -231,11 +231,11 @@ dc.customBubbleMixin = function (_chart) {
     };
 
     _chart.onClick = function (d) {
-        var filter = d.key;
-        dc.events.trigger(function () {
-            _chart.filter(filter);
-            _chart.redrawGroup();
-        });
+      var filter = d.key;
+      dc.events.trigger(function () {
+        _chart.filter(filter);
+        _chart.redrawGroup();
+      });
     };
 
     return _chart;

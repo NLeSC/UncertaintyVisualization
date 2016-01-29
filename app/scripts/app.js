@@ -34,7 +34,8 @@
       'ngTouch',
       'ui.bootstrap',
       'uncertApp.fileLoading',
-      'uncertApp.punchcard'
+      'uncertApp.punchcard',
+      'uncertApp.breadcrumbs'
     ])
     .config(function($compileProvider) {
        // data urls are not allowed by default, so whitelist them
@@ -50,4 +51,5 @@
   angular.module('uncertApp.core', ['uncertApp.utils', 'toastr']);
   angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);
   angular.module('uncertApp.punchcard', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
+  angular.module('uncertApp.breadcrumbs', ['uncertApp.core','uncertApp.utils']);
 })();

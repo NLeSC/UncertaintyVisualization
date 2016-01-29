@@ -14,27 +14,27 @@
 
     //A renderlet that makes the text in the rowCharts to which it is applied more
     //readable by changing the text color based on the background color.
-    var textRenderlet = function(_chart) {
-      function setStyle(selection) {
-        var rects = selection.select('rect');
-        var texts = selection.select('text');
-
-        var colors = [];
-        rects.each( function(){
-          colors.push(d3.select(this).attr('fill'));
-        });
-
-        texts.each( function(){
-          d3.select(this).style('fill', function() {
-            return 'black';
-          });
-        });
-      }
-      // set the fill attribute for the bars
-      setStyle(_chart
-        .selectAll('g.row'), 'layer'
-      );
-    };
+    // var textRenderlet = function(_chart) {
+    //   function setStyle(selection) {
+    //     var rects = selection.select('rect');
+    //     var texts = selection.select('text');
+    //
+    //     var colors = [];
+    //     rects.each( function(){
+    //       colors.push(d3.select(this).attr('fill'));
+    //     });
+    //
+    //     texts.each( function(){
+    //       d3.select(this).style('fill', function() {
+    //         return 'black';
+    //       });
+    //     });
+    //   }
+    //   // set the fill attribute for the bars
+    //   setStyle(_chart
+    //     .selectAll('g.row'), 'layer'
+    //   );
+    // };
 
     var findMine = function(sources, uri) {
       var result;
@@ -146,28 +146,89 @@
       });
     };
 
-    function allPossibleCases(array) {
-      if (array.length === 1) {
-        return [array[0]];
-      } else {
-        var result = [];
-        result.push(array);
+    // function allPossibleCases(array) {
+    //   if (array.length === 1) {
+    //     return [array[0]];
+    //   } else {
+    //     var result = [];
+    //     result.push(array);
+    //
+    //     var theRest = allPossibleCases(array.slice(1));
+    //     if (theRest.length === 1) {
+    //       result.push(array[0]);
+    //     } else {
+    //       for (var i = 0; i < theRest.length; i++) {
+    //         for (var j = 0; j < array.length; j++) {
+    //           result.push([array[j], theRest[i]]);
+    //           result.push([theRest[i], array[j]]);
+    //         }
+    //       }
+    //     }
+    //
+    //     return result;
+    //   }
+    // }
 
-        var theRest = allPossibleCases(array.slice(1));
-        if (theRest.length === 1) {
-          result.push(array[0]);
-        } else {
-          for (var i = 0; i < theRest.length; i++) {
-            for (var j = 0; j < array.length; j++) {
-              result.push([array[j], theRest[i]]);
-              result.push([theRest[i], array[j]]);
+    // var onClickOverride = function(datum) {
+    //   if (!this.__dcFlag__) {
+    //     console.log('Tried overriding onClick on a non-dc chart');
+    //     return;
+    //   }
+    //
+    //   var chart = this;
+    //
+    //   console.log(chart.anchorName() + 'filter on: '+datum);
+    //
+    //   var filter = chart.keyAccessor()(datum);
+    //   dc.events.trigger(function () {
+    //     chart.filter(filter);
+    //     chart.redrawGroup();
+    //   });
+    //
+    //   setTimeout(
+    //     function() {
+    //       dc.events.trigger(function () {
+    //         chart.filter(filter);
+    //         chart.redrawGroup();
+    //       });
+    //     }, 5000);
+    // };
+
+    var filterFunction = function(dimension, filters) {
+      dimension.filter(null);
+      if (filters.length === 0) {
+        dimension.filter(null);
+      } else {
+        dimension.filterFunction(function (d) {
+          for (var i = 0; i < filters.length; i++) {
+            var filter = filters[i];
+            if (filter.isFiltered && filter.isFiltered(d)) {
+              return true;
+            } else if (filter <= d && filter >= d) {
+              return true;
             }
           }
-        }
-
-        return result;
+          return false;
+        });
       }
-    }
+      return filters;
+    };
+
+    var customDefaultFilterHandler = function(dimension, filters) {
+      Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+      return filterFunction(dimension, filters);
+    };
+
+    Messagebus.subscribe('filterThis', function(event, value) {
+      var chart = value.chart;
+      var filter = value.filters;
+      dc.events.trigger(function () {
+        chart.filter(filter);
+        chart.redrawGroup();
+      });
+      // chart.filters = filterFunction(chart.dimension(), value.filters);
+    });
 
     this.readData = function() {
       //We use d3 to read our JSON file
@@ -303,8 +364,9 @@
             .x(d3.scale.linear())
             .elasticX(true)
 
-            .filterHandler(function(dimension, filters) {
-              // var newFilters = [];
+            .filterHandler( //customDefaultFilterHandler.bind(allActorChart))
+              function(dimension, filters) {
+              Messagebus.publish('newFilterEvent', [this, filters, dimension]);
 
               dimension.filter(null);
               if (filters.length === 0) {
@@ -324,9 +386,11 @@
                 });
               }
               return filters;
-            })
+            }.bind(allActorChart))
 
             .xAxis().tickValues([]);
+
+          // dc.override(allActorChart, 'onClick', onClickOverride);
 
           allActorChart.render();
 
@@ -428,6 +492,8 @@
             .dimension(subwayDimension)
             .group(subwayGroup)
 
+            .filterHandler(customDefaultFilterHandler.bind(subwayChart))
+
             //The time this chart takes to do its animations.
             .transitionDuration(1500)
 
@@ -485,7 +551,7 @@
             //Information on hover
             .renderTitle(true)
             .title(function(p) {
-              var formattedTime = p.key[0].getDay() + '/' + p.key[0].getMonth() + '/' + p.key[0].getFullYear();
+              // var formattedTime = p.key[0].getDay() + '/' + p.key[0].getMonth() + '/' + p.key[0].getFullYear();
 
               //Get the actors
               var actors = p.key[1];
@@ -543,20 +609,22 @@
                   subwayChart.fadeDeselected(this);
                 }
               });
-
-              // subwayChart.selectAll('g.subway-line').each(function(d) {
-              //   if (subwayChart.hasFilter(d.lineID)) {
-              //     subwayChart.highlightSelected(this);
-              //   } else {
-              //     subwayChart.fadeDeselected(this);
-              //   }
-              // });
             } else {
               subwayChart.selectAll('g.' + subwayChart.BUBBLE_NODE_CLASS).each(function() {
                 subwayChart.resetHighlight(this);
               });
             }
           });
+
+          dc.override(subwayChart, 'onClick', function(datum) {
+            var filter = subwayChart.keyAccessor()(datum);
+            dc.events.trigger(function () {
+              subwayChart.filter(filter);
+              subwayChart.redrawGroup();
+            });
+          });
+
+          // dc.override(subwayChart, 'onClick', onClickOverride);
 
           subwayChart.render();
 
@@ -631,6 +699,8 @@
             .dimension(groupDimension)
             .group(filteredGroups)
 
+            .filterHandler(customDefaultFilterHandler.bind(groupRowChart))
+
             //Order by key string (reverse, so we had to invent some shenanigans)
             //This is done explicitly to match the laneChart ordering.
             .ordering(function(d) {
@@ -646,6 +716,8 @@
 
           //Use a renderlet function to add the colored symbols to the legend (defined above)
           groupRowChart.on('renderlet', symbolRenderlet);
+
+          // dc.override(groupRowChart, 'onClick', onClickOverride);
           groupRowChart.render();
 
 
@@ -736,6 +808,8 @@
             //A custom filterhandler is needed to make us able to brush
             //horizontally _and_ vertically
             .filterHandler(function(dimension, filter) {
+              Messagebus.publish('newFilterEvent', [this, filter, dimension]);
+
               dimension.filterFunction(function(d) {
                 var result = true;
 
@@ -750,7 +824,9 @@
                 return result;
               });
               return filter; // set the actual filter value to the new value
-            });
+            }.bind(customSeriesChart));
+
+
           customSeriesChart.render();
 
 
@@ -858,6 +934,8 @@
             //Bind data
             .dimension(laneTimeDimension)
             .group(filteredLaneClimaxGroup)
+
+            .filterHandler(customDefaultFilterHandler.bind(customBubbleChart))
 
             //The time this chart takes to do its animations.
             .transitionDuration(1500)
@@ -991,6 +1069,8 @@
             this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
           });
 
+
+          // dc.override(customBubbleChart, 'onClick', onClickOverride);
           customBubbleChart.render();
 
 
@@ -1052,6 +1132,14 @@
     DataService.ready.then(this.readData);
 
     Messagebus.subscribe('data loaded', this.readData);
+
+    // Messagebus.subscribe('newFilterEvent', function(event, filterData) {
+    //   var dimension = filterData[0];
+    //   var filters = filterData[1];
+    //
+    //   console.log(dimension);
+    //   console.log(filters);
+    // });
     // readData('data/contextual.timeline10-12-eso.json');
   }
 
