@@ -245,9 +245,7 @@
           var sources = data.timeline.sources;
           var ndx = crossfilter(events);
           // var all = ndx.groupAll();
-          //
-
-
+          
           //A rowChart that shows us the importance of the all actors
           var allActorChart = dc.rowChart('#rowchart_allActors');
 
