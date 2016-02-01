@@ -16,6 +16,11 @@
       Messagebus.publish('filterThis', {chart: me.charts[clickElement.chartID], filters:filter.filter});
     };
 
+    Messagebus.subscribe('clearFilters', function(event) {
+      me.charts = {};
+      me.filters = [];
+    });
+
     Messagebus.subscribe('newFilterEvent', function(event, filterData) {
       var chartID = filterData[0].chartID();
       var chart = filterData[0];

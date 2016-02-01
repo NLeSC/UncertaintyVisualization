@@ -323,37 +323,38 @@ dc.subwayChart = function (parent, chartGroup) {
 
     var linesData;
     _chart.plotData = function () {
-        if (_elasticRadius) {
-            _chart.r().domain([_chart.rMin(), _chart.rMax()]);
-        }
+      if (linesData === undefined) {
+        linesData = preprocessDataForLines(_chart.data());
+      } else {
+        linesData = updateLineData(_chart.data());
+      }
 
-        _chart.r().range([_chart.MIN_RADIUS, _chart.xAxisLength() * _chart.maxBubbleRelativeSize()]);
+      if (_elasticRadius) {
+          _chart.r().domain([_chart.rMin(), _chart.rMax()]);
+      }
 
-        if (linesData === undefined) {
-          linesData = preprocessDataForLines(_chart.data());
-        } else {
-          linesData = updateLineData(_chart.data());
-        }
+      _chart.r().range([_chart.MIN_RADIUS, _chart.xAxisLength() * _chart.maxBubbleRelativeSize()]);
 
-        var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
-          .data(linesData);
+      var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
+        .data(linesData);
 
-        renderLines(subwayLineG, linesData);
+      renderLines(subwayLineG, linesData);
 
-        updateLines(subwayLineG, linesData);
+      updateLines(subwayLineG, linesData);
 
-        subwayLineG.exit().remove();
+      subwayLineG.exit().remove();
 
-        // removeLines(subwayLineG);
+      // removeLines(subwayLineG);
 
-        var bubbleG = _chart.chartBodyG().selectAll('g.' + _chart.BUBBLE_NODE_CLASS)
-            .data(_chart.data(), function (d) { return d.key; });
+      var bubbleG = _chart.chartBodyG().selectAll('g.' + _chart.BUBBLE_NODE_CLASS)
+          .data(_chart.data(), function (d) { return d.key; });
 
-        renderNodes(bubbleG);
-        updateNodes(bubbleG);
-        removeNodes(bubbleG);
+      renderNodes(bubbleG);
+      updateNodes(bubbleG);
+      removeNodes(bubbleG);
 
-        _chart.fadeDeselectedArea();
+      _chart.rescale();
+      _chart.fadeDeselectedArea();
     };
 
     _chart.interpolate = function (interpolate) {
