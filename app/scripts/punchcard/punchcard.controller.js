@@ -287,7 +287,7 @@
 
       dimensions.forEach(function(d) {
         d.dispose();
-        console.log(d);
+        // console.log(d);
       });
     }
 
@@ -306,7 +306,6 @@
       var events = data.timeline.events;
       var sources = data.timeline.sources;
 
-      ndx = crossfilter(events);
       Messagebus.publish('clearFilters');
 
       //Force clear all svg elements.
@@ -335,6 +334,8 @@
       //Now, build a table with the filtered results
       var dataTable = dc.dataTable('#dataTable');
       clearChart(dataTable, '#dataTable');
+
+      ndx = crossfilter(events);
 
       //Dimension of the list of unique actors present in each event.
       var allActorsDimension = ndx.dimension(function(d) {
@@ -675,11 +676,11 @@
       });
 
       dc.override(subwayChart, 'onClick', function(datum) {
-        var filter = subwayChart.keyAccessor()(datum);
-        dc.events.trigger(function() {
-          subwayChart.filter(filter);
-          subwayChart.redrawGroup();
-        });
+        // var filter = subwayChart.keyAccessor()(datum);
+        // dc.events.trigger(function() {
+        //   subwayChart.filter(filter);
+        //   subwayChart.redrawGroup();
+        // });
       });
 
       // dc.override(subwayChart, 'onClick', onClickOverride);
