@@ -8,7 +8,7 @@
    * @class
    * @memberOf core
    */
-  function DataService($http, $q, $log, uncertConf, Messagebus, toastr) {
+  function DataService($http, $q, $log, d3, uncertConf, Messagebus, toastr) {
     var me = this;
     this.data = {};
     var deferred = $q.defer();
@@ -27,7 +27,25 @@
      * @returns {Promise}
      */
     this.load = function() {
-      return $http.get(uncertConf.DATA_JSON_URL).success(this.onLoad).error(this.onLoadFailure);
+      var dataType = uncertConf.DATA_JSON_URL.split(':')[0];
+      console.log(dataType);
+      var data;
+      if (dataType === 'file') {
+        var fileName = uncertConf.DATA_JSON_URL.split(':')[1];
+        d3.json(fileName, function(error, json) {
+          if (error) {
+            return console.warn(error);
+          }
+          me.data = json;
+          deferred.resolve(me.data);
+          Messagebus.publish('data loaded');
+        })
+      } else if (dataType === 'http') {
+        me.data = $http.get(uncertConf.DATA_JSON_URL).success(this.onLoad).error(this.onLoadFailure);
+      } else {
+        console.log('Unknown data type.');
+      }
+      // return me.data;
     };
 
     /**
