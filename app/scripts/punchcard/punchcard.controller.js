@@ -262,10 +262,10 @@
 
     var clearChart = function(chart, id) {
       chart.anchor(id).resetSvg();
-      chart.addFilterHandler();
-      chart.hasFilterHandler();
-      chart.removeFilterHandler();
-      chart.resetFilterHandler();
+      // chart.addFilterHandler();
+      // chart.hasFilterHandler();
+      // chart.removeFilterHandler();
+      // chart.resetFilterHandler();
       chart.expireCache();
     };
 
@@ -332,8 +332,8 @@
       clearChart(customBubbleChart, '#laneChart');
 
       //Now, build a table with the filtered results
-      var dataTable = dc.dataTable('#dataTable');
-      clearChart(dataTable, '#dataTable');
+      var dataTable = dc.dataTable('#data-table');
+      clearChart(dataTable, '#data-table');
 
       ndx = crossfilter(events);
 
@@ -1139,8 +1139,8 @@
 
       //Set up the
       dataTable
-        .size(25)
-        .width(1200)
+        // .size(10)
+        // .width(1200)
         .dimension(idDimension)
         .group(function() {
           return '';
@@ -1175,6 +1175,7 @@
             return d.labels;
           }
         }]);
+
       dataTable.render();
       // }
       // );
