@@ -28,8 +28,8 @@
      */
     this.load = function() {
       var dataType = uncertConf.DATA_JSON_URL.split(':')[0];
-      console.log(dataType);
-      var data;
+      
+
       if (dataType === 'file') {
         var fileName = uncertConf.DATA_JSON_URL.split(':')[1];
         d3.json(fileName, function(error, json) {
@@ -39,8 +39,8 @@
           me.data = json;
           deferred.resolve(me.data);
           Messagebus.publish('data loaded');
-        })
-      } else if (dataType === 'http') {
+        });
+      } else if (dataType === 'http' || dataType === 'https') {
         me.data = $http.get(uncertConf.DATA_JSON_URL).success(this.onLoad).error(this.onLoadFailure);
       } else {
         console.log('Unknown data type.');
