@@ -734,14 +734,18 @@
       //A smaller-than-default gap between bars
       .gap(2)
 
+      .keyAccessor(function(d) {
+        return d.key;
+      })
+
       //Use an ordinal color scale
       .colors(d3.scale.category20c())
-        //Use a custom accessor
-        .colorAccessor(function(d) {
-          var splitString = d.key.split(':');
-          var valueApproximation = -(10000 * parseInt(splitString[0]) + 10 * splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
-          return valueApproximation;
-        })
+      //Use a custom accessor
+      .colorAccessor(function(d) {
+        var splitString = d.key.split(':');
+        var valueApproximation = -(10000 * parseInt(splitString[0]) + 10 * splitString[1].charCodeAt(2) + splitString[1].charCodeAt(3));
+        return valueApproximation;
+      })
 
       //Bind data
       .dimension(groupDimension)
