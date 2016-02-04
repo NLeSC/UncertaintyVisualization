@@ -2,6 +2,7 @@
   'use strict';
 
   function PunchcardController($scope, DataService, d3, dc, crossfilter, colorbrewer, Messagebus) {
+    var me = this;
     //Helper function to get unique elements of an array
     var arrayUnique = function(a) {
       return a.reduce(function(p, c) {
@@ -333,7 +334,7 @@
 
       //Now, build a table with the filtered results
       var dataTable = dc.dataTable('#data-table');
-      clearChart(dataTable, '#data-table');
+      // clearChart(dataTable, '#data-table');
 
       ndx = crossfilter(events);
 
@@ -1134,8 +1135,37 @@
       var idDimension = ndx.dimension(function(d) {
         return [d.group, d.time, d.labels];
       });
+      // var grouping = function (d) {
+      //   return -d.groupScore;
+      // };
 
       dimensions.push(idDimension);
+
+      // use odd page size to show the effect better
+      me.ofs = 0;
+      me.pag = 17;
+      me.tableDisplay = function() {
+          d3.select('#begin').text(me.ofs);
+          d3.select('#end').text(me.ofs+me.pag-1);
+          d3.select('#last').attr('disabled', me.ofs-me.pag<0 ? 'true' : null);
+          d3.select('#next').attr('disabled', me.ofs+me.pag>=ndx.size() ? 'true' : null);
+          d3.select('#size').text(ndx.size());
+      };
+      me.tableUpdate = function() {
+          dataTable.beginSlice(me.ofs);
+          dataTable.endSlice(me.ofs+me.pag);
+          me.tableDisplay();
+      };
+      me.tableNext = function() {
+          me.ofs += me.pag;
+          me.tableUpdate();
+          dataTable.redraw();
+      };
+      me.tableLast = function() {
+          me.ofs -= me.pag;
+          me.tableUpdate();
+          dataTable.redraw();
+      };
 
       //Set up the
       dataTable
@@ -1144,7 +1174,9 @@
         .dimension(idDimension)
         .group(function() {
           return '';
-        }).sortBy(function(d) {
+        })
+        .size(Infinity)
+        .sortBy(function(d) {
           return d.time;
         })
         .order(d3.ascending)
@@ -1176,6 +1208,7 @@
           }
         }]);
 
+      me.tableUpdate();
       dataTable.render();
       // }
       // );
