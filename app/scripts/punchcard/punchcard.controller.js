@@ -74,10 +74,9 @@
         var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
         var post = phrase.text.substring(phrase.charEnd, phrase.charEnd + 30);
 
-        html += pre + '<span class=\'highlighted-mention\'>' + word + '</span>' + post + '</BR>\n';
+        html += pre + '<span class=\'highlighted-mention\'>' + word + '</span>' + post + '</br>';
       });
       return html;
-
     };
 
     var mentionToTxt = function(d, sources) {
@@ -1204,7 +1203,12 @@
         }, {
           label: 'Labels',
           format: function(d) {
-            return d.labels;
+            var result = '';
+            d.labels.forEach(function(l) {
+              result += l + '</br>';
+            });
+
+            return result;
           }
         }]);
 
