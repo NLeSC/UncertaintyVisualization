@@ -262,10 +262,6 @@
 
     var clearChart = function(chart, id) {
       chart.anchor(id).resetSvg();
-      // chart.addFilterHandler();
-      // chart.hasFilterHandler();
-      // chart.removeFilterHandler();
-      // chart.resetFilterHandler();
       chart.expireCache();
     };
 
@@ -292,16 +288,7 @@
     }
 
     var ndx, dimensions = [], data;
-    this.readData = function() {
-      var newData = DataService.getData();
-      if (data && newData && data !== newData) {
-        $scope.$evalAsync(function() {
-          resetData(ndx, dimensions);
-          dimensions = [];
-        });
-      }
-      data = newData;
-
+    this.readData = function(data) {
       //Crossfilter initialization
       var events = data.timeline.events;
       var sources = data.timeline.sources;
@@ -309,27 +296,27 @@
       Messagebus.publish('clearFilters');
 
       //Force clear all svg elements.
-      d3.selectAll('svg').remove();
+      // d3.selectAll('svg').remove();
 
       //A rowChart that shows us the importance of the all actors
       var allActorChart = dc.rowChart('#rowchart_allActors');
-      clearChart(allActorChart, '#rowchart_allActors');
+      // clearChart(allActorChart, '#rowchart_allActors');
 
       //The row Chart which shows how important the groups are in terms of climax scores
       var subwayChart = dc.subwayChart('#subwayChart');
-      clearChart(subwayChart, '#subwayChart');
+      // clearChart(subwayChart, '#subwayChart');
 
       //The row Chart which shows how important the groups are in terms of climax scores
       var groupRowChart = dc.rowChart('#rowchart_groups');
-      clearChart(groupRowChart, '#rowchart_groups');
+      // clearChart(groupRowChart, '#rowchart_groups');
 
       //The customSeriesChart
       var customSeriesChart = dc.customSeriesChart('#timeline');
-      clearChart(customSeriesChart, '#timeline');
+      // clearChart(customSeriesChart, '#timeline');
 
       //The customBubbleChart aka timelineChart aka laneChart
       var customBubbleChart = dc.customBubbleChart('#laneChart');
-      clearChart(customBubbleChart, '#laneChart');
+      // clearChart(customBubbleChart, '#laneChart');
 
       //Now, build a table with the filtered results
       var dataTable = dc.dataTable('#data-table');
@@ -341,6 +328,8 @@
       var allActorsDimension = ndx.dimension(function(d) {
         return determineUniqueActors(d);
       });
+
+      dimensions.push(allActorsDimension);
 
       //Custom reduce functions to split events up with multiple keys
       function reduceAdd(p, v) {
@@ -1222,9 +1211,20 @@
       // );
     };
 
-    DataService.ready.then(this.readData);
+    // DataService.ready.then(this.readData);
 
-    Messagebus.subscribe('data loaded', this.readData);
+    Messagebus.subscribe('data loaded', function () {
+      var newData = DataService.getData();
+      if (data && newData && data !== newData) {
+        $scope.$evalAsync(function() {
+          resetData(ndx, dimensions);
+          dimensions = [];
+          dc.redrawAll();
+        }).then(this.readData(newData));
+      } else {
+        this.readData(newData);
+      }
+    }.bind(this));
 
     // Messagebus.subscribe('newFilterEvent', function(event, filterData) {
     //   var dimension = filterData[0];
