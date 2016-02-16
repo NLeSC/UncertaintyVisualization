@@ -26,6 +26,6 @@
     };
   }
 
-  angular.module('uncertApp.utils')
+  angular.module('rigApp.utils')
     .service('Messagebus', Messagebus);
 })();

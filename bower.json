@@ -1,10 +1,12 @@
 {
-  "name": "uncert",
+  "name": "rig",
   "version": "0.0.0",
-  "homepage": "https://github.com/NLeSC/UncertaintyVisualization",
+  "homepage": "https://github.com/nlesc-sherlock/Rig",
   "authors": [
     "maartenvm <m.vanmeersbergen@esciencecenter.nl>",
-    "jvdzwaan <j.vanderzwaan@esciencecenter.nl>"
+    "jvdzwaan <j.vanderzwaan@esciencecenter.nl>",
+    "oscarmartinezrubi <o.rubi@esciencecenter.nl>",
+    "wrvhage <w.vanhage@esciencecenter.nl>"
   ],
   "license": "Apache 2.0",
   "dependencies": {

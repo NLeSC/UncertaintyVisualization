@@ -1,9 +1,9 @@
 {
-  "name": "uncert",
+  "name": "rig",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NLeSC/UncertaintyVisualization.git"
+    "url": "https://github.com/nlesc-sherlock/Rig"
   },
   "dependencies": {},
   "devDependencies": {

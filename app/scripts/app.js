@@ -12,7 +12,7 @@
    * Main module of the application.
    */
   angular
-    .module('uncertApp', [
+    .module('rigApp', [
       'ngAnimate',
       'ngSanitize',
       'ngTouch',
@@ -23,6 +23,6 @@
       SitesService.load();
     });
 
-  angular.module('uncertApp.templates', []);
-  angular.module('uncertApp.utils', ['uncertApp.templates']);
+  angular.module('rigApp.templates', []);
+  angular.module('rigApp.utils', ['rigApp.templates']);
 })();
