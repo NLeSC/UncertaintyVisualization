@@ -2,6 +2,12 @@ from flask import Flask, jsonify
 import pandas as pd
 import codecs
 import os
+import sys
+
+try:
+    from ConfigParser import SafeConfigParser, Error
+except:
+    from configparser import SafeConfigParser, Error
 
 app = Flask(__name__)
 
@@ -11,8 +17,18 @@ def hello():
     return jsonify({'#records': data.shape[0]})
 
 if __name__ == '__main__':
-    print('Loading data')
-    data_dir = '/home/jvdzwaan/data/enron_data_date/enron_email_clean_json'
+    conf = SafeConfigParser(allow_no_value=True)
+
+    # Try reading files in the current directory first
+    conf.read(['.rigrc', 'rigrc'])
+
+    try:
+        data_dir = conf.get('data', 'path')
+    except:
+        print('Please specify the data directory in a .rigrc (see README).')
+        sys.exit()
+
+    print('Loading data from {}'.format(data_dir))
 
     dfs = []
     for doc in os.listdir(data_dir):
