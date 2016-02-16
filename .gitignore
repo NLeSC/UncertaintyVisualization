@@ -16,3 +16,4 @@ project.exvim
 /npm-debug.log
 
 .rigrc
+*.pyc
