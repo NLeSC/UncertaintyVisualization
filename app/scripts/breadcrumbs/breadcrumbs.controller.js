@@ -16,7 +16,7 @@
       Messagebus.publish('filterThis', {chart: me.charts[clickElement.chartID], filters:filter.filter});
     };
 
-    Messagebus.subscribe('clearFilters', function(event) {
+    Messagebus.subscribe('clearFilters', function() {
       me.charts = {};
       me.filters = [];
     });
@@ -44,9 +44,6 @@
           });
         });
       });
-
-      // console.log(dimension);
-      // console.log(filters);
     });
   }
 

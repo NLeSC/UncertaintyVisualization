@@ -10,9 +10,6 @@
   angular.module('uncertApp.d3', [])
     .constant('d3', d3);
 
-  angular.module('uncertApp.D3punchcard', [])
-    .constant('D3punchcard', d3.punchcard);
-
   angular.module('uncertApp.crossfilter', [])
     .constant('crossfilter', crossfilter);
 
@@ -34,8 +31,14 @@
       'ngTouch',
       'ui.bootstrap',
       'uncertApp.fileLoading',
-      'uncertApp.punchcard',
-      'uncertApp.breadcrumbs'
+      // 'uncertApp.punchcard',
+      'uncertApp.breadcrumbs',
+      'uncertApp.allactorchart',
+      'uncertApp.subwaychart',
+      'uncertApp.grouprowchart',
+      'uncertApp.lanechart',
+      'uncertApp.serieschart',
+      'uncertApp.datatable'
     ])
     .config(function($compileProvider) {
        // data urls are not allowed by default, so whitelist them
@@ -48,8 +51,17 @@
 
   angular.module('uncertApp.templates', []);
   angular.module('uncertApp.utils', ['uncertApp.templates']);
-  angular.module('uncertApp.core', ['uncertApp.utils', 'toastr']);
+
+  angular.module('uncertApp.ndx', ['uncertApp.crossfilter','uncertApp.utils']);
+  angular.module('uncertApp.allactorchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.subwaychart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.grouprowchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.lanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
+  angular.module('uncertApp.serieschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.datatable', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+
+  angular.module('uncertApp.core', ['uncertApp.utils', 'toastr', 'uncertApp.ndx']);
   angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);
-  angular.module('uncertApp.punchcard', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
+  // angular.module('uncertApp.punchcard', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
   angular.module('uncertApp.breadcrumbs', ['uncertApp.core','uncertApp.utils']);
 })();

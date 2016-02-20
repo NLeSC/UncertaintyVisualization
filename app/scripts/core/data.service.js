@@ -28,7 +28,7 @@
      */
     this.load = function() {
       var dataType = uncertConf.DATA_JSON_URL.split(':')[0];
-      
+
 
       if (dataType === 'file') {
         var fileName = uncertConf.DATA_JSON_URL.split(':')[1];
@@ -38,7 +38,8 @@
           }
           me.data = json;
           deferred.resolve(me.data);
-          Messagebus.publish('data loaded');
+          Messagebus.publish('data loaded', this.getData);
+          // Messagebus.publish('new data loaded', this.getData);
         });
       } else if (dataType === 'http' || dataType === 'https') {
         me.data = $http.get(uncertConf.DATA_JSON_URL).success(this.onLoad).error(this.onLoadFailure);
@@ -60,14 +61,16 @@
     this.onUrlLoad = function(response) {
       me.data = response;
       toastr.success('New data loaded!');
-      Messagebus.publish('data loaded');
-    };
+      Messagebus.publish('data loaded', this.getData);
+      // Messagebus.publish('new data loaded', this.getData);
+    }.bind(this);
 
     this.onLoad = function(response) {
       me.data = response;
       deferred.resolve(response);
-      Messagebus.publish('data loaded');
-    };
+      Messagebus.publish('data loaded', this.getData);
+      // Messagebus.publish('new data loaded', this.getData);
+    }.bind(this);
 
     this.onLoadFailure = function() {
       $log.log('Failed to load data!!');
@@ -77,7 +80,7 @@
 
     this.getData = function () {
       return this.data;
-    };
+    }.bind(this);
 
     Messagebus.subscribe('data request', this.urlload);
   }
