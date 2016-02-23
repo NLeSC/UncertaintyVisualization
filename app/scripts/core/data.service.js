@@ -29,7 +29,6 @@
     this.load = function() {
       var dataType = uncertConf.DATA_JSON_URL.split(':')[0];
 
-
       if (dataType === 'file') {
         var fileName = uncertConf.DATA_JSON_URL.split(':')[1];
         d3.json(fileName, function(error, json) {
@@ -40,14 +39,14 @@
           deferred.resolve(me.data);
           Messagebus.publish('data loaded', this.getData);
           // Messagebus.publish('new data loaded', this.getData);
-        });
+        }.bind(this));
       } else if (dataType === 'http' || dataType === 'https') {
         me.data = $http.get(uncertConf.DATA_JSON_URL).success(this.onLoad).error(this.onLoadFailure);
       } else {
         console.log('Unknown data type.');
       }
       // return me.data;
-    };
+    }.bind(this);
 
     /**
      * Load data from server

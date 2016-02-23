@@ -28,11 +28,13 @@
 
         // var meta = raw[i+1].split('=');
         // var sentence = meta[meta.length-1];
-        result.push({
-          charStart: charStart,
-          charEnd: charEnd,
-          text: found.text
-        });
+        if (found) {
+          result.push({
+            charStart: charStart,
+            charEnd: charEnd,
+            text: found.text
+          });
+        }
       });
       var html = '';
       result.forEach(function(phrase) {

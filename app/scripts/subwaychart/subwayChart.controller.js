@@ -2,7 +2,7 @@
   'use strict';
 
   function SubwayChartController($scope, $element, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
-    var sources = {};
+    this.sources = {};
     var findMine = function(sources, uri) {
       var result;
       sources.forEach(function(source) {
@@ -24,16 +24,18 @@
         var charStart = parseInt(mention.char[0]);
         var charEnd = parseInt(mention.char[1]);
 
-        var found = findMine(sources, uri);
+        var found = findMine(this.sources, uri);
 
         // var meta = raw[i+1].split('=');
         // var sentence = meta[meta.length-1];
-        result.push({
-          charStart: charStart,
-          charEnd: charEnd,
-          text: found.text
-        });
-      });
+        if (found) { 
+          result.push({
+            charStart: charStart,
+            charEnd: charEnd,
+            text: found.text
+          });
+        }
+      }.bind(this));
       var txt = '';
       result.forEach(function(phrase) {
         var pre = phrase.text.substring(phrase.charStart - 30, phrase.charStart);
@@ -43,7 +45,7 @@
         txt += pre + word + post + '\n';
       });
       return txt;
-    };
+    }.bind(this);
 
     Messagebus.subscribe('filterThis', function(event, value) {
       var chart = value.chart;
@@ -210,9 +212,9 @@
             '\n---Labels-------\n' +
             labelString +
             '\n---Mentions-----\n' +
-            mentionToTxt(p.value, sources);
+            mentionToTxt(p.value, this.sources);
           return titleString;
-        });
+        }.bind(this));
 
       //A hack to make the customBubbleChart filter out 0-value bubbles while determining the x-axis range
       dc.override(subwayChart, 'xAxisMin', function() {
@@ -263,7 +265,7 @@
     };
 
     Messagebus.subscribe('crossfilter ready', function() {
-      sources = NdxService.getData().timeline.sources;
+      this.sources = NdxService.getData().timeline.sources;
       this.initializeChart();
     }.bind(this));
   }

@@ -44,8 +44,10 @@
        // data urls are not allowed by default, so whitelist them
        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|tel|file|blob):/);
     })
-    .run(function(DataService) {
-      DataService.load();
+    .run(function($timeout, DataService) {
+      angular.element(document).ready(function () {
+        $timeout(DataService.load(), 1000);
+      });
     });
 
 
