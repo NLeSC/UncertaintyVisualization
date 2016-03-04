@@ -60,9 +60,10 @@ dc.subwayChart = function (parent, chartGroup) {
         return _chart;
     };
 
-    function Station(x, yRaw) {
+    function Station(x, yRaw, visible) {
       this.x = x;
       this.yRaw = yRaw;
+      this.visible = visible;
     }
 
     // function Segment(source, target) {
@@ -144,7 +145,6 @@ dc.subwayChart = function (parent, chartGroup) {
     }
 
     function fiddleWithDomain(domainHelper) {
-      var domain = _chart.y().domain();
       var keys = Object.keys(domainHelper);
 
       keys.sort(function (a, b) {
@@ -161,8 +161,6 @@ dc.subwayChart = function (parent, chartGroup) {
           });
         });
       });
-
-      _chart.y().domain(newDomain);
 
       return newDomain;
     }
@@ -283,7 +281,14 @@ dc.subwayChart = function (parent, chartGroup) {
         }
         if (domain.indexOf(l.lineID) >= 0) {
           l.segments.forEach(function(s) {
-            s.visible = true;
+            var times = Object.keys(domainHelper);
+            var srcTime = s.source.xRaw ? s.source.xRaw.toString() : 0;
+            var tgtTime = s.target.xRaw ? s.target.xRaw.toString() : 0;
+            if (times.indexOf(srcTime) >= 0 || times.indexOf(tgtTime) >= 0) {
+              s.visible = true;
+            } else {
+              s.visible = false;
+            }
           });
         } else {
           l.segments.forEach(function(s) {
@@ -321,13 +326,141 @@ dc.subwayChart = function (parent, chartGroup) {
       return resultX;
     };
 
+
+
+
+
+
+
+
+
+
+
+
+    // function Station(x, participants, visible) {
+    //   this.x = x;
+    //   this.participants = participants;
+    //   this.visible = visible;
+    // }
+    //
+    // function SubwayLine(lineID, stations) {
+    //   this.lineID = lineID;
+    //   this.stations = stations;
+    //   this.segments = [];
+    // }
+    //
+    // function insertStation(station, stations) {
+    //   if (stations[station.x] === undefined) {
+    //     stations[station.x] = [station];
+    //   } else {
+    //     stations[station.x].push(station);
+    //   }
+    //
+    //   return stations;
+    // }
+
+    var determineNodes = function(chartData) {
+      var nodes = {};
+
+      chartData.forEach(function (node) {
+        //Don't bother adding nodes which are filtered out
+        if (node.value.count > 0) {
+          var time = node.key[0];
+          var participants = _chart.valueAccessor()(node);
+
+          insertStation(new Station(new Date(time), participants, true), nodes);
+        }
+      });
+
+      return nodes;
+    };
+
+    var createLines = function(domain, nodes) {
+      //First, we create our lines based on our domain, each with a begin station
+      var lines = {};
+      domain.forEach(function(lineName) {
+        if (lines[lineName] === undefined) {
+          lines[lineName] = new SubwayLine(lineName, {});
+        }
+        //Insert a start point station into the line
+        insertStation(new Station(new Date(-8640000000000000), [lineName], true), lines[lineName].stations);
+        //Insert an end point station into the line
+        insertStation(new Station(new Date(8640000000000000), [lineName], true), lines[lineName].stations);
+      });
+
+      //Then we add the stations to those lines based on the nodes
+      Object.keys(nodes).forEach(function(time) {
+        Object.keys(nodes[time]).forEach(function(stationKey) {
+          var station = nodes[time][stationKey];
+          var participants = station.yRaw;
+
+          participants.forEach(function(participant) {
+            //Insert the nodes into each line
+            insertStation(station, lines[participant].stations);
+          });
+        });
+      });
+
+      return lines;
+    };
+
+    var updateLines = function(lines, domain, nodes) {
+      this.visibleTimeStrings = Object.keys(nodes);
+      this.visibleTimeStrings.push(new Date(8640000000000000).toString());
+      this.visibleTimeStrings.push(new Date(-8640000000000000).toString());
+      this.visibleDomain = domain;
+
+      Object.keys(lines).forEach(function(lineKey) {
+        var line = lines[lineKey];
+        var stations = line.stations;
+        var dateStrings = Object.keys(stations);
+
+        dateStrings.forEach(function(dateString){
+          var stationList = stations[dateString];
+
+          Object.keys(stationList).forEach(function(stationKey) {
+            var station = stationList[stationKey];
+            var anyParticipantVisible = false;
+            station.yRaw.forEach(function(participant) {
+              if (this.visibleDomain.indexOf(participant) >= 0) {
+                anyParticipantVisible = true;
+              }
+            }.bind(this));
+
+            //If any of the participants are visible, this node should be visible.
+            if (anyParticipantVisible && this.visibleTimeStrings.indexOf(dateString) >= 0) {
+              station.visible = true;
+            } else {
+              station.visible = false;
+            }
+          }.bind(this));
+        }.bind(this));
+      }.bind(this));
+
+      return lines;
+    };
+
     var linesData;
+    var lines;
     _chart.plotData = function () {
-      if (linesData === undefined) {
-        linesData = preprocessDataForLines(_chart.data());
-      } else {
-        linesData = updateLineData(_chart.data());
+      // if (linesData === undefined) {
+      //   linesData = preprocessDataForLines(_chart.data());
+      // } else {
+      //   linesData = updateLineData(_chart.data());
+      // }
+
+      var nodes = determineNodes(_chart.data());
+      var domain = fiddleWithDomain(nodes);
+      _chart.y().domain(domain);
+
+      //Make the lines if this is the first pass
+      if (lines === undefined) {
+        lines = createLines(domain, nodes);
       }
+      //Update the lines by determining if the nodes are in the scope and making them (in)visible, and updating x and y values of the nodes.
+      lines = updateLines(lines, domain, nodes);
+
+
 
       if (_elasticRadius) {
           _chart.r().domain([_chart.rMin(), _chart.rMax()]);
@@ -335,14 +468,14 @@ dc.subwayChart = function (parent, chartGroup) {
 
       _chart.r().range([_chart.MIN_RADIUS, _chart.xAxisLength() * _chart.maxBubbleRelativeSize()]);
 
-      var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
-        .data(linesData);
+      // var subwayLineG = _chart.chartBodyG().selectAll('g.' + 'subway-line')
+      //   .data(linesData);
 
-      renderLines(subwayLineG, linesData);
+      // renderLines(subwayLineG, linesData);
+      //
+      // updateLines(subwayLineG, linesData);
 
-      updateLines(subwayLineG, linesData);
-
-      subwayLineG.exit().remove();
+      // subwayLineG.exit().remove();
 
       // removeLines(subwayLineG);
 
