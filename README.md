@@ -186,18 +186,3 @@ The character offsets are used to highlight the appropriate words in the data ta
 * `uri` is the id of the text, which is referred to in the `mentions`.
 
 Examples of data files can be found in `app/data/`.
-
-## Knowledge Store Authentication Workaround
-
-The Flask app requires Python 2.7 and pip.
-
-### Installation
-
-    cd UncertaintyVisualization
-    pip install -r requirements.txt
-
-### Run the Flask app
-
-In de `UncertaintyVisualization` directory run:
-
-    python server.py
