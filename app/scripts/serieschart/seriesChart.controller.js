@@ -87,6 +87,7 @@
       //horizontally _and_ vertically
       .filterHandler(function(dimension, filter) {
         Messagebus.publish('newFilterEvent', [this, filter, dimension]);
+        Messagebus.publish('pollFilterEvent', [this, filter, dimension]);
 
         dimension.filterFunction(function(d) {
           var result = true;

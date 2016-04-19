@@ -21,6 +21,7 @@
 </head>
 
 <body ng-app="uncertApp">
+
   <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--4-col">
       <div class="logo-vu"></div>
@@ -36,42 +37,60 @@
   <file-loading-directive></file-loading-directive>
   <breadcrumbs-directive></breadcrumbs-directive>
 
+  <div class="mdl-grid myChart">
+    <div class="mdl-cell mdl-cell--4-col">
+      <poll-row-chart-directive></poll-row-chart-directive>
+    </div>
+    <div class="mdl-cell mdl-cell--8-col">
+      <poll-lane-chart-directive></poll-lane-chart-directive>
+    </div>
+  </div>
+
   <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col myChart">
+    <div class="mdl-cell mdl-cell--8-col">
       <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--2-col">
-          <all-actor-chart-directive></all-actor-chart-directive>
+        <div class="mdl-cell mdl-cell--12-col myChart">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col">
+              <all-actor-chart-directive></all-actor-chart-directive>
+            </div>
+            <div class="mdl-cell mdl-cell--10-col">
+              <subway-chart-directive></subway-chart-directive>
+            </div>
+          </div>
         </div>
-        <div class="mdl-cell mdl-cell--10-col">
-          <subway-chart-directive></subway-chart-directive>
+      </div>
+
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col myChart">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col">
+              <group-row-chart-directive></group-row-chart-directive>
+            </div>
+            <div class="mdl-cell mdl-cell--10-col">
+              <lane-chart-directive></lane-chart-directive>
+            </div>
+          </div>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+              <series-chart-directive></series-chart-directive>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col myChart">
+          <datatable-directive></datatable-directive>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col myChart">
-      <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--2-col">
-          <group-row-chart-directive></group-row-chart-directive>
-        </div>
-        <div class="mdl-cell mdl-cell--10-col">
-          <lane-chart-directive></lane-chart-directive>
-        </div>
-      </div>
-      <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--12-col">
-          <series-chart-directive></series-chart-directive>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col myChart">
-      <datatable-directive></datatable-directive>
-    </div>
-  </div>
+
+
 
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
@@ -125,6 +144,11 @@
   <script src="scripts/serieschart/seriesChart.directive.js"></script>
   <script src="scripts/datatable/dataTable.controller.js"></script>
   <script src="scripts/datatable/dataTable.directive.js"></script>
+
+  <script src="scripts/pollrowchart/pollRowChart.controller.js"></script>
+  <script src="scripts/pollrowchart/pollRowChart.directive.js"></script>
+  <script src="scripts/polllanechart/pollLaneChart.controller.js"></script>
+  <script src="scripts/polllanechart/pollLaneChart.directive.js"></script>
 
   <script src="scripts/core/data.service.js"></script>
   <!-- endbuild -->

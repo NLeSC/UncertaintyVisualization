@@ -20,13 +20,7 @@
           keys.forEach(function(key) {
             var actors = v.actors[key];
             actors.forEach(function(actor) {
-              var splitString = actor.split(':');
-              var category = splitString[0];
-              if (category === 'nwr-non-entities' || category === 'ne') {
-
-              } else {
-                p[actor] = (p[actor] || 0) + 1;
-              }
+              p[actor] = (p[actor] || 0) + 1;
             });
           });
         }
@@ -41,13 +35,7 @@
           keys.forEach(function(key) {
             var actors = v.actors[key];
             actors.forEach(function(actor) {
-              var splitString = actor.split(':');
-              var category = splitString[0];
-              if (category === 'nwr-non-entities' || category === 'ne') {
-
-              } else {
-                p[actor] = (p[actor] || 0) - 1;
-              }
+              p[actor] = (p[actor] || 0) - 1;
             });
           });
         }

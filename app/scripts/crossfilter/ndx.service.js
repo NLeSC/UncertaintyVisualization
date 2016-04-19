@@ -4,10 +4,12 @@
   function NdxService(crossfilter, Messagebus) {
     this.data = {};
     this.dimensions = [];
+    this.pollDimensions = [];
 
     this.getData = function() {
       return this.data;
     };
+    
     this.getSize = function() {
       return this.ndx.size();
     };
@@ -16,8 +18,15 @@
       //Crossfilter initialization
       this.data = data;
       this.ndx = crossfilter(data.timeline.events);
+      this.ndxPolls = crossfilter(data.timeline.polls);
 
       Messagebus.publish('crossfilter ready', this.getData);
+    };
+
+    this.pollDimension = function(keyAccessor) {
+      var newDimension = this.ndxPolls.dimension(keyAccessor);
+      this.pollDimensions.push(newDimension);
+      return newDimension;
     };
 
     this.buildDimension = function(keyAccessor) {
@@ -31,7 +40,12 @@
         d.filter(null);
         d.dispose();
       });
+      this.pollDimensions.forEach(function(d) {
+        d.filter(null);
+        d.dispose();
+      });
       this.ndx.remove();
+      this.ndxPolls.remove();
       Messagebus.publish('clearFilters');
     };
 

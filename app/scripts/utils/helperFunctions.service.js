@@ -42,7 +42,7 @@
       return uniqueActors;
     };
 
-    var filterFunction = function(dimension, filters) {
+    this.filterFunction = function(dimension, filters) {
       dimension.filter(null);
       if (filters.length === 0) {
         dimension.filter(null);
@@ -65,8 +65,8 @@
     this.customDefaultFilterHandler = function(dimension, filters) {
       Messagebus.publish('newFilterEvent', [this, filters, dimension]);
 
-      return filterFunction(dimension, filters);
-    };
+      return this.filterFunction(dimension, filters);
+    }.bind(this);
 
     this.symbolScale = d3.scale.ordinal().range(d3.svg.symbolTypes);
 

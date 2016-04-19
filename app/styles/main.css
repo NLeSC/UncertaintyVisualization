@@ -137,3 +137,7 @@ g.node.selected {
   background-repeat: no-repeat;
   background-position-y: 40px;
 }
+
+.dc-data-table {
+    font-size: 10px;
+}

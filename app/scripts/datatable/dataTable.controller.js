@@ -119,9 +119,11 @@
           label: 'Labels',
           format: function(d) {
             var result = '';
-            d.labels.forEach(function(l) {
-              result += l + '</br>';
-            });
+            if (d.labels) {
+              d.labels.forEach(function(l) {
+                result += l + '</br>';
+              });
+            }           
 
             return result;
           }

@@ -28,7 +28,7 @@
 
         // var meta = raw[i+1].split('=');
         // var sentence = meta[meta.length-1];
-        if (found) { 
+        if (found) {
           result.push({
             charStart: charStart,
             charEnd: charEnd,
@@ -74,9 +74,14 @@
           p.count = p.count + 1;
 
           //Sum label values over all events fitting this time and group.
-          v.labels.forEach(function(l) {
-            p.labels[l] = (p.labels[l] || 0) + p.count;
-          });
+          if (v.labels) {
+            v.labels.forEach(function(l) {
+              p.labels[l] = (p.labels[l] || 0) + p.count;
+            });
+          } else {
+            p.labels.none = (p.labels.none || 0) + p.count;
+          }
+
 
           //Push mentions over all events fitting this time and group.
           v.mentions.forEach(function(m) {
@@ -90,9 +95,13 @@
         function(p, v) {
           p.count = p.count - 1;
 
-          v.labels.forEach(function(l) {
-            p.labels[l] = (p.labels[l] || 0) - p.count;
-          });
+          if (v.labels) {
+            v.labels.forEach(function(l) {
+              p.labels[l] = (p.labels[l] || 0) - p.count;
+            });
+          } else {
+            p.labels.none = (p.labels.none || 0) - p.count;
+          }
 
           //Push mentions over all events fitting this time and group.
           v.mentions.forEach(function(m) {

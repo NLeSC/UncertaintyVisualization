@@ -35,9 +35,13 @@
           p.events[v.event] = (p.events[v.event] || 0) + v.climax;
 
           //Sum label values over all events fitting this time and group.
-          v.labels.forEach(function(l) {
-            p.labels[l] = (p.labels[l] || 0) + v.climax;
-          });
+          if (v.labels) {
+            v.labels.forEach(function(l) {
+              p.labels[l] = (p.labels[l] || 0) + 1;
+            });
+          } else {
+            p.labels.none = (p.labels.none || 0) + 1;
+          }
 
           return p;
         },
@@ -57,9 +61,14 @@
 
           p.events[v.event] = (p.events[v.event] || 0) - v.climax;
 
-          v.labels.forEach(function(l) {
-            p.labels[l] = (p.labels[l] || 0) - v.climax;
-          });
+          //Sum label values over all events fitting this time and group.
+          if (v.labels) {
+            v.labels.forEach(function(l) {
+              p.labels[l] = (p.labels[l] || 0) - 1;
+            });
+          } else {
+            p.labels.none = (p.labels.none || 0) - 1;
+          }
 
           return p;
         },

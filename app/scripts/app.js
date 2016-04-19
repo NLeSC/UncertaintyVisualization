@@ -38,7 +38,10 @@
       'uncertApp.grouprowchart',
       'uncertApp.lanechart',
       'uncertApp.serieschart',
-      'uncertApp.datatable'
+      'uncertApp.datatable',
+
+      'uncertApp.pollrowchart',
+      'uncertApp.polllanechart'
     ])
     .config(function($compileProvider) {
        // data urls are not allowed by default, so whitelist them
@@ -61,6 +64,9 @@
   angular.module('uncertApp.lanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
   angular.module('uncertApp.serieschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.datatable', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+
+  angular.module('uncertApp.pollrowchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.polllanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
 
   angular.module('uncertApp.core', ['uncertApp.utils', 'toastr', 'uncertApp.ndx']);
   angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);
