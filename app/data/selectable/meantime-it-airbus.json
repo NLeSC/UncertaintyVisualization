@@ -1,0 +1,3919 @@
+{ "timeline":
+{
+"actor_cnt": [156],
+"event_cnt": [149],
+"events": [
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": [
+"dbp:Sydney",
+"dbp:London",
+"ne:una_nuova_versione_del_suo_aereo_di_linea_777_ad_autonomia_elevatissima"
+]
+},
+"climax": 100,
+"event": "ev3",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp#ev3",
+"labels": [
+"presentare",
+"presentire presentare"
+],
+"mentions": [
+{
+"char": [
+"72",
+"82"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"]
+},
+{
+"char": [
+"7",
+"15"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"]
+}
+],
+"prefLabel": ["presentire presentare"],
+"sentence": "7",
+"size": "25.0",
+"time": "20050217"
+},
+{
+"actors": {"pb/A0": ["dbp:Boeing"]},
+"climax": 98,
+"event": "ev5",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp#ev5",
+"labels": [
+"presentare",
+"presentire presentare"
+],
+"mentions": [
+{
+"char": [
+"7",
+"15"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+},
+{
+"char": [
+"89",
+"99"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+}
+],
+"prefLabel": ["presentire presentare"],
+"sentence": "7",
+"size": "12.25",
+"time": "20070708"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": [
+"ne:il_primo_787_dreamliner_pronto_per_entrare_in_servizio",
+"ne:la_consegna_del_primo_aereo"
+]
+},
+"climax": 93,
+"event": "ev1",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp#ev1",
+"labels": [
+"consegnare",
+"consegna"
+],
+"mentions": [
+{
+"char": [
+"271",
+"279"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+},
+{
+"char": [
+"7",
+"15"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+},
+{
+"char": [
+"1601",
+"1609"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+}
+],
+"prefLabel": ["consegna"],
+"sentence": "7",
+"size": "11.625",
+"time": "20080501"
+},
+{
+"actors": {
+"pb/A0": ["ne:e-mail_interne"],
+"pb/A1": ["dbp:Boeing"]
+},
+"climax": 42,
+"event": "ev20",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev20",
+"labels": ["rivelare"],
+"mentions": [{
+"char": [
+"15",
+"23"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["rivelare"],
+"sentence": "15",
+"size": "5.25",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["dbp:McDonnell_Douglas"],
+"pb/A2": ["ne:dell%27_ultimo_717_a_airtran"]
+},
+"climax": 14,
+"event": "ev6",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp#ev6",
+"labels": ["concludere"],
+"mentions": [
+{
+"char": [
+"239",
+"250"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp"]
+},
+{
+"char": [
+"52",
+"60"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp"]
+}
+],
+"prefLabel": ["concludere"],
+"sentence": "52",
+"size": "1.75",
+"time": "20060529"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:due_grandi_ordini_per_nuovi_aerei"]
+},
+"climax": 6,
+"event": "ev5",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp#ev5",
+"labels": ["assicurare"],
+"mentions": [{
+"char": [
+"102",
+"112"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp"]
+}],
+"prefLabel": ["assicurare"],
+"sentence": "102",
+"size": "0.75",
+"time": "20050427"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:il_primo_modello_destinato"]
+},
+"climax": 3,
+"event": "ev11",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp#ev11",
+"labels": ["rilasciare"],
+"mentions": [{
+"char": [
+"166",
+"176"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+}],
+"prefLabel": ["rilasciare"],
+"sentence": "166",
+"size": "0.375",
+"time": "20080501"
+},
+{
+"actors": {
+"pb/A0": ["dbp:AirTran_Airways"],
+"pb/A1": ["dbp:Boeing"]
+},
+"climax": 2,
+"event": "ev9",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp#ev9",
+"labels": ["esprimere"],
+"mentions": [{
+"char": [
+"316",
+"323"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp"]
+}],
+"prefLabel": ["esprimere"],
+"sentence": "316",
+"size": "0.25",
+"time": "20060529"
+},
+{
+"actors": {
+"pb/A1": ["ne:un_ulteriore_progresso_della_tecnologia"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 2,
+"event": "ev10",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp#ev10",
+"labels": ["ritenere"],
+"mentions": [{
+"char": [
+"285",
+"292"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp"]
+}],
+"prefLabel": ["ritenere"],
+"sentence": "285",
+"size": "0.25",
+"time": "20080524"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": [
+"ne:in_termini_di_consumo",
+"ne:il_nuovo_aereo_di_linea_bimotore"
+]
+},
+"climax": 2,
+"event": "ev7",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/153-textpro.txt.txp#ev7",
+"labels": ["affermare"],
+"mentions": [{
+"char": [
+"248",
+"255"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/153-textpro.txt.txp"]
+}],
+"prefLabel": ["affermare"],
+"sentence": "248",
+"size": "0.25",
+"time": "20091216"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:solo_la_societ%e2%88%9a%e2%80%a0_scelta_dall%27_agenzia_appaltante"]
+},
+"climax": 2,
+"event": "ev17",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev17",
+"labels": [
+"partecipare",
+"iscrivere"
+],
+"mentions": [
+{
+"char": [
+"1177",
+"1188"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+},
+{
+"char": [
+"290",
+"298"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}
+],
+"prefLabel": ["iscrivere"],
+"sentence": "290",
+"size": "0.25",
+"time": "20041117"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A2": ["ne:un_appalto"]
+},
+"climax": 2,
+"event": "ev30",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev30",
+"labels": ["battere"],
+"mentions": [{
+"char": [
+"286",
+"293"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["battere"],
+"sentence": "286",
+"size": "0.25",
+"time": "20080301"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 1,
+"event": "ev11",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp#ev11",
+"labels": ["aereo"],
+"mentions": [{
+"char": [
+"568",
+"573"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"]
+}],
+"prefLabel": ["aereo"],
+"sentence": "568",
+"size": "0.125",
+"time": "20050613"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Qatar_Airways"],
+"pb/A1": ["dbp:Boeing"]
+},
+"climax": 1,
+"event": "ev10",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp#ev10",
+"labels": ["acquistare"],
+"mentions": [{
+"char": [
+"546",
+"556"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"]
+}],
+"prefLabel": ["acquistare"],
+"sentence": "546",
+"size": "0.125",
+"time": "20050613"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:worldliner"],
+"pb/A2": ["ne:la_sua_capacit%e2%88%9a%e2%80%a0"]
+},
+"climax": 1,
+"event": "ev9",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp#ev9",
+"labels": ["chiamare"],
+"mentions": [{
+"char": [
+"528",
+"536"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"]
+}],
+"prefLabel": ["chiamare"],
+"sentence": "528",
+"size": "0.125",
+"time": "20050217"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:100_aerocisterne"]
+},
+"climax": 1,
+"event": "ev1",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev1",
+"labels": ["produrre"],
+"mentions": [{
+"char": [
+"526",
+"534"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["produrre"],
+"sentence": "526",
+"size": "0.125",
+"time": "20041117"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:Boeing",
+"ne:joe_leonard"
+],
+"pb/A1": ["ne:l%27_annullamento_del_programma_717"]
+},
+"climax": 1,
+"event": "ev1",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp#ev1",
+"labels": ["annunciare"],
+"mentions": [
+{
+"char": [
+"1211",
+"1221"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp"]
+},
+{
+"char": [
+"568",
+"578"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp"]
+}
+],
+"prefLabel": ["annunciare"],
+"sentence": "568",
+"size": "0.125",
+"time": "20050101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:di_aver_ricevuto_800_ordini_a_200_milioni_per_aereo"]
+},
+"climax": 1,
+"event": "ev17",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp#ev17",
+"labels": ["rivelare"],
+"mentions": [{
+"char": [
+"561",
+"567"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+}],
+"prefLabel": ["rivelare"],
+"sentence": "561",
+"size": "0.125",
+"time": "20110808"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:%25_affinch%e2%88%9a%c2%a9_il_nuovo_aereo_di_linea_risulti_sostenibile_dal_punto_di_vista_commerciale"]
+},
+"climax": 1,
+"event": "ev17",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp#ev17",
+"labels": ["sostenere"],
+"mentions": [{
+"char": [
+"552",
+"560"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp"]
+}],
+"prefLabel": ["sostenere"],
+"sentence": "552",
+"size": "0.125",
+"time": "20080524"
+},
+{
+"actors": {
+"pb/A0": ["ne:il_nuovo_aereo_di_linea_bimotore"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 1,
+"event": "ev8",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/153-textpro.txt.txp#ev8",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"344",
+"345"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/153-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "344",
+"size": "0.125",
+"time": "20091216"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 1,
+"event": "ev10",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp#ev10",
+"labels": ["ringraziamento"],
+"mentions": [{
+"char": [
+"327",
+"341"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp"]
+}],
+"prefLabel": ["ringraziamento"],
+"sentence": "327",
+"size": "0.125",
+"time": "20060529"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:per_aver_violato_la_legge_federale"]
+},
+"climax": 1,
+"event": "ev5",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6432-textpro.txt.txp#ev5",
+"labels": ["sospendere"],
+"mentions": [{
+"char": [
+"357",
+"364"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6432-textpro.txt.txp"]
+}],
+"prefLabel": ["sospendere"],
+"sentence": "357",
+"size": "0.125",
+"time": "20030724"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 1,
+"event": "ev4",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp#ev4",
+"labels": ["progetto"],
+"mentions": [{
+"char": [
+"520",
+"528"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp"]
+}],
+"prefLabel": ["progetto"],
+"sentence": "520",
+"size": "0.125",
+"time": "20050118"
+},
+{
+"actors": {
+"pb/A1": ["dbp:Boeing"],
+"pb/AM-LOC": ["ne:l%27_assegnazione_con_una_protesta_formale_presso_il_gao"]
+},
+"climax": 1,
+"event": "ev1",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp#ev1",
+"labels": ["protesta"],
+"mentions": [
+{
+"char": [
+"893",
+"901"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"]
+},
+{
+"char": [
+"767",
+"775"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"]
+}
+],
+"prefLabel": ["protesta"],
+"sentence": "767",
+"size": "0.125",
+"time": "20080229"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 1,
+"event": "ev15",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/13466-textpro.txt.txp#ev15",
+"labels": ["scelta"],
+"mentions": [{
+"char": [
+"552",
+"558"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/13466-textpro.txt.txp"]
+}],
+"prefLabel": ["scelta"],
+"sentence": "552",
+"size": "0.125",
+"time": "20050613"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ryanair"],
+"pb/A1": [
+"dbp:Boeing",
+"ne:la_migliore_affidabilit%e2%88%9a%e2%80%a0_tecnica",
+"dbp:Boeing_737"
+]
+},
+"climax": 1,
+"event": "ev14",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/13466-textpro.txt.txp#ev14",
+"labels": ["giustificare"],
+"mentions": [{
+"char": [
+"536",
+"548"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/13466-textpro.txt.txp"]
+}],
+"prefLabel": ["giustificare"],
+"sentence": "536",
+"size": "0.125",
+"time": "20050613"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["dbp:Boeing"],
+"pb/A2": [
+"ne:sulla_societ%e2%88%9a%e2%80%a0_statunitense",
+"ne:dubbi"
+]
+},
+"climax": 0,
+"event": "ev15",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp#ev15",
+"labels": ["vendere"],
+"mentions": [{
+"char": [
+"798",
+"805"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"]
+}],
+"prefLabel": ["vendere"],
+"sentence": "798",
+"size": "1.0",
+"time": "20040101"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:Boeing",
+"ne:da_appaltatori"
+],
+"pb/A1": ["ne:il_vice_sottosegretario_civile"],
+"pb/A2": [
+"ne:dell%27_aeronautica_militare_darleen_druyun",
+"ne:influenza"
+]
+},
+"climax": 0,
+"event": "ev7",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev7",
+"labels": ["assumere"],
+"mentions": [
+{
+"char": [
+"5232",
+"5239"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+},
+{
+"char": [
+"5516",
+"5523"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+},
+{
+"char": [
+"5578",
+"5585"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}
+],
+"prefLabel": ["assumere"],
+"sentence": "5232",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:cinque_ordiniper"]
+},
+"climax": 0,
+"event": "ev16",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp#ev16",
+"labels": ["ricevere"],
+"mentions": [{
+"char": [
+"877",
+"885"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"]
+}],
+"prefLabel": ["ricevere"],
+"sentence": "877",
+"size": "1.0",
+"time": "20000201"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:Airbus",
+"dbp:Boeing"
+],
+"pb/A1": ["ne:il_lancio_di_un_velivolo_simile"]
+},
+"climax": 0,
+"event": "ev28",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/153-textpro.txt.txp#ev28",
+"labels": ["preparare"],
+"mentions": [{
+"char": [
+"1170",
+"1180"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/153-textpro.txt.txp"]
+}],
+"prefLabel": ["preparare"],
+"sentence": "1170",
+"size": "1.0",
+"time": "20130101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:che_i_passeggeri_preferiscano_voli_diretti_tra_pi%e2%88%9a%cf%80_aeroporti_locali_%2c_troppo_piccoli_per_gestire_aerei_come"]
+},
+"climax": 0,
+"event": "ev34",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp#ev34",
+"labels": ["ritenere"],
+"mentions": [{
+"char": [
+"1821",
+"1828"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"]
+}],
+"prefLabel": ["ritenere"],
+"sentence": "1821",
+"size": "1.0",
+"time": "20050217"
+},
+{
+"actors": {"pb/A2": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev24",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp#ev24",
+"labels": ["superare"],
+"mentions": [{
+"char": [
+"1353",
+"1361"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"]
+}],
+"prefLabel": ["superare"],
+"sentence": "1353",
+"size": "1.0",
+"time": "20030101"
+},
+{
+"actors": {"pb/A0": [
+"dbp:Airbus",
+"dbp:Boeing"
+]},
+"climax": 0,
+"event": "ev26",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp#ev26",
+"labels": ["convincere"],
+"mentions": [{
+"char": [
+"1404",
+"1412"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"]
+}],
+"prefLabel": ["convincere"],
+"sentence": "1404",
+"size": "1.0",
+"time": "20030101"
+},
+{
+"actors": {
+"pb/A1": ["ne:seppur"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev5",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp#ev5",
+"labels": ["ritardare"],
+"mentions": [{
+"char": [
+"676",
+"685"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+}],
+"prefLabel": ["ritardare"],
+"sentence": "676",
+"size": "1.0",
+"time": "20110808"
+},
+{
+"actors": {
+"pb/A1": ["ne:di_un_momento_meraviglioso"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev41",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp#ev41",
+"labels": ["trattare"],
+"mentions": [{
+"char": [
+"1745",
+"1751"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+}],
+"prefLabel": ["trattare"],
+"sentence": "1745",
+"size": "1.0",
+"time": "20110808"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:la_necessit%e2%88%9a%e2%80%a0_di_aumentare_il_ritmo_di_produzione_da_due_aerei_al_mese"]
+},
+"climax": 0,
+"event": "ev43",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp#ev43",
+"labels": ["ammettere"],
+"mentions": [{
+"char": [
+"1909",
+"1916"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+}],
+"prefLabel": ["ammettere"],
+"sentence": "1909",
+"size": "1.0",
+"time": "20110808"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:di_avere"]
+},
+"climax": 0,
+"event": "ev42",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp#ev42",
+"labels": ["sperare"],
+"mentions": [{
+"char": [
+"1673",
+"1680"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp"]
+}],
+"prefLabel": ["sperare"],
+"sentence": "1673",
+"size": "1.0",
+"time": "20120101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:la_compagnia_aerea"],
+"pb/A2": ["dbp:Airbus"]
+},
+"climax": 0,
+"event": "ev24",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp#ev24",
+"labels": ["rivolgere"],
+"mentions": [{
+"char": [
+"1097",
+"1104"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"]
+}],
+"prefLabel": ["rivolgere"],
+"sentence": "1097",
+"size": "1.0",
+"time": "20060901"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": [
+"dbp:Airbus",
+"ne:a_ricevere_il_primo_aereo_a_maggio_2008"
+]
+},
+"climax": 0,
+"event": "ev1",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp#ev1",
+"labels": ["ricevere"],
+"mentions": [
+{
+"char": [
+"2258",
+"2266"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+},
+{
+"char": [
+"1753",
+"1761"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+}
+],
+"prefLabel": ["ricevere"],
+"sentence": "1753",
+"size": "1.0",
+"time": "20070709"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev14",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev14",
+"labels": ["affermare"],
+"mentions": [{
+"char": [
+"745",
+"754"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["affermare"],
+"sentence": "745",
+"size": "1.0",
+"time": "20041001"
+},
+{
+"actors": {
+"pb/A0": ["ne:eads"],
+"pb/A1": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev17",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10730-textpro.txt.txp#ev17",
+"labels": ["battere"],
+"mentions": [{
+"char": [
+"1348",
+"1355"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10730-textpro.txt.txp"]
+}],
+"prefLabel": ["battere"],
+"sentence": "1348",
+"size": "1.0",
+"time": "20080227"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev30",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev30",
+"labels": ["trattativa"],
+"mentions": [{
+"char": [
+"875",
+"885"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["trattativa"],
+"sentence": "875",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:un_contratto_diretto"],
+"pb/A2": ["ne:di_appalto"]
+},
+"climax": 0,
+"event": "ev31",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev31",
+"labels": ["riguardare"],
+"mentions": [{
+"char": [
+"907",
+"919"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["riguardare"],
+"sentence": "907",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A0": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev28",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev28",
+"labels": ["favorire"],
+"mentions": [{
+"char": [
+"776",
+"784"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["favorire"],
+"sentence": "776",
+"size": "1.0",
+"time": "20041001"
+},
+{
+"actors": {
+"pb/A1": ["ne:l%27_incarico_di_sostituire_la_flotta_di_aerei_cisterna"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev41",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev41",
+"labels": ["affidare"],
+"mentions": [{
+"char": [
+"1601",
+"1609"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["affidare"],
+"sentence": "1601",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Boeing",
+"ne:quote_di_mercato",
+"ne:nel_settore_passeggeri"
+]},
+"climax": 0,
+"event": "ev47",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev47",
+"labels": ["conquistare"],
+"mentions": [{
+"char": [
+"2086",
+"2097"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["conquistare"],
+"sentence": "2086",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["ne:di_contratti"],
+"pb/A1": ["ne:i_funzionari"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev44",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev44",
+"labels": ["risultare"],
+"mentions": [{
+"char": [
+"1790",
+"1799"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["risultare"],
+"sentence": "1790",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev103",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev103",
+"labels": ["considerazione"],
+"mentions": [{
+"char": [
+"4951",
+"4965"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["considerazione"],
+"sentence": "4951",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev27",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp#ev27",
+"labels": ["risultato"],
+"mentions": [{
+"char": [
+"1154",
+"1163"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"]
+}],
+"prefLabel": ["risultato"],
+"sentence": "1154",
+"size": "1.0",
+"time": "20080702"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev26",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp#ev26",
+"labels": ["influenzare"],
+"mentions": [{
+"char": [
+"1139",
+"1150"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"]
+}],
+"prefLabel": ["influenzare"],
+"sentence": "1139",
+"size": "1.0",
+"time": "20080702"
+},
+{
+"actors": {
+"pb/A0": ["ne:il_gao"],
+"pb/A1": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev20",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp#ev20",
+"labels": ["sostenere"],
+"mentions": [{
+"char": [
+"880",
+"889"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"]
+}],
+"prefLabel": ["sostenere"],
+"sentence": "880",
+"size": "1.0",
+"time": "20080229"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": [
+"ne:l%27_aereo",
+"ne:l%27_assegnazione_con_una_protesta_formale_presso_il_gao",
+"ne:denunciando_una_distorsione_della_valutazione_a_favore_di_northrop"
+]
+},
+"climax": 0,
+"event": "ev16",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp#ev16",
+"labels": ["contestare"],
+"mentions": [{
+"char": [
+"734",
+"742"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"]
+}],
+"prefLabel": ["contestare"],
+"sentence": "734",
+"size": "1.0",
+"time": "20080229"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev114",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev114",
+"labels": ["reato"],
+"mentions": [{
+"char": [
+"5435",
+"5440"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["reato"],
+"sentence": "5435",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:un_accordo_provvisorio"],
+"pb/A2": ["ne:gli_interessi_dell%27_aeronautica_militare"]
+},
+"climax": 0,
+"event": "ev13",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6432-textpro.txt.txp#ev13",
+"labels": ["firmare"],
+"mentions": [{
+"char": [
+"691",
+"698"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6432-textpro.txt.txp"]
+}],
+"prefLabel": ["firmare"],
+"sentence": "691",
+"size": "1.0",
+"time": "19980101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:caso"]
+},
+"climax": 0,
+"event": "ev19",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6432-textpro.txt.txp#ev19",
+"labels": ["accusare"],
+"mentions": [{
+"char": [
+"865",
+"873"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6432-textpro.txt.txp"]
+}],
+"prefLabel": ["accusare"],
+"sentence": "865",
+"size": "1.0",
+"time": "20050306"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:uno_spazio_di_crescita_nel_settore"]
+},
+"climax": 0,
+"event": "ev37",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp#ev37",
+"labels": ["prevedere"],
+"mentions": [{
+"char": [
+"2173",
+"2180"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+}],
+"prefLabel": ["prevedere"],
+"sentence": "2173",
+"size": "1.0",
+"time": "20070709"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:la_divergenza_delle_strategie_adottate"]
+},
+"climax": 0,
+"event": "ev31",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp#ev31",
+"labels": ["adottare"],
+"mentions": [{
+"char": [
+"1840",
+"1848"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+}],
+"prefLabel": ["adottare"],
+"sentence": "1840",
+"size": "1.0",
+"time": "20070101"
+},
+{
+"actors": {
+"pb/A0": ["ne:da_burkhardt_%26_amp_%3b_associates"],
+"pb/A1": [
+"dbp:Boeing",
+"ne:un%27_e-mail"
+]
+},
+"climax": 0,
+"event": "ev73",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev73",
+"labels": ["consigliare"],
+"mentions": [{
+"char": [
+"3420",
+"3429"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["consigliare"],
+"sentence": "3420",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A2": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev74",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev74",
+"labels": ["rilasciare"],
+"mentions": [{
+"char": [
+"3447",
+"3457"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["rilasciare"],
+"sentence": "3447",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": [
+"ne:per_qualche_societ%e2%88%9a%e2%80%a0_commerciale",
+"ne:pi%e2%88%9a%cf%80_recente_contratto"
+]
+},
+"climax": 0,
+"event": "ev83",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev83",
+"labels": ["stipulare"],
+"mentions": [{
+"char": [
+"3739",
+"3748"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["stipulare"],
+"sentence": "3739",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A2": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev89",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev89",
+"labels": ["usare"],
+"mentions": [{
+"char": [
+"4243",
+"4249"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["usare"],
+"sentence": "4243",
+"size": "1.0",
+"time": "20030101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:che_la_conseguente_riduzione_di_peso_rispetto_al_tradizionale_alluminio_offrir%e2%88%9a%e2%80%a0_una_maggiore_efficienza_in_termini_di_consumo_di_carburante_%2c_a_vantaggio_sia_degli_operatori_sia_dell%27_ambiente"]
+},
+"climax": 0,
+"event": "ev19",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp#ev19",
+"labels": ["sostenere"],
+"mentions": [{
+"char": [
+"966",
+"974"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+}],
+"prefLabel": ["sostenere"],
+"sentence": "966",
+"size": "1.0",
+"time": "20070709"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev90",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev90",
+"labels": ["riferire/pro riferire/loc"],
+"mentions": [{
+"char": [
+"4254",
+"4263"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["riferire/pro riferire/loc"],
+"sentence": "4254",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:un_totale_di_237_ordini"]
+},
+"climax": 0,
+"event": "ev21",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp#ev21",
+"labels": ["vantare"],
+"mentions": [{
+"char": [
+"1101",
+"1106"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp"]
+}],
+"prefLabel": ["vantare"],
+"sentence": "1101",
+"size": "1.0",
+"time": "20050401"
+},
+{
+"actors": {
+"pb/A0": ["ne:dreamliner"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev29",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp#ev29",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"1508",
+"1509"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "1508",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:lunga_autonomia"]
+},
+"climax": 0,
+"event": "ev24",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp#ev24",
+"labels": ["realizzare"],
+"mentions": [{
+"char": [
+"1245",
+"1255"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp"]
+}],
+"prefLabel": ["realizzare"],
+"sentence": "1245",
+"size": "1.0",
+"time": "20050427"
+},
+{
+"actors": {
+"pb/A1": [
+"dbp:Boeing",
+"ne:l%27_ottenimento_di_un_posto_di_lavoro"
+],
+"pb/A2": ["dbp:Sears"]
+},
+"climax": 0,
+"event": "ev160",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev160",
+"labels": ["favorire"],
+"mentions": [{
+"char": [
+"7445",
+"7453"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["favorire"],
+"sentence": "7445",
+"size": "1.0",
+"time": "20030101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:di_noleggiare_100_aerei_cisterna"]
+},
+"climax": 0,
+"event": "ev156",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev156",
+"labels": ["accettare"],
+"mentions": [{
+"char": [
+"7299",
+"7308"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["accettare"],
+"sentence": "7299",
+"size": "1.0",
+"time": "20030101"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev154",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev154",
+"labels": ["salvare"],
+"mentions": [{
+"char": [
+"7248",
+"7255"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["salvare"],
+"sentence": "7248",
+"size": "1.0",
+"time": "20080301"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev155",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev155",
+"labels": ["vita"],
+"mentions": [{
+"char": [
+"7256",
+"7260"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["vita"],
+"sentence": "7256",
+"size": "1.0",
+"time": "20080301"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:Boeing",
+"dbp:UBS",
+"dbp:David_Strauss"
+],
+"pb/A2": ["ne:dal_suo_portavoce_william_barksdale"]
+},
+"climax": 0,
+"event": "ev22",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev22",
+"labels": ["rivelare"],
+"mentions": [
+{
+"char": [
+"3346",
+"3352"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+},
+{
+"char": [
+"1343",
+"1349"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}
+],
+"prefLabel": ["rivelare"],
+"sentence": "1343",
+"size": "1.0",
+"time": "20060101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:di_vincere_%2c_con_la_sua_promessa_di_44.000_nuove_posizioni_presso_300_fornitori_in_40_stati"]
+},
+"climax": 0,
+"event": "ev56",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev56",
+"labels": ["aspettare"],
+"mentions": [{
+"char": [
+"1735",
+"1744"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["aspettare"],
+"sentence": "1735",
+"size": "1.0",
+"time": "20080301"
+},
+{
+"actors": {"pb/A1": ["dbp:Boeing"]},
+"climax": 0,
+"event": "ev76",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev76",
+"labels": ["possibilit√\u2020"],
+"mentions": [{
+"char": [
+"3003",
+"3014"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["possibilit√\u2020"],
+"sentence": "3003",
+"size": "1.0",
+"time": "20060101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:la_decisione"]
+},
+"climax": 0,
+"event": "ev78",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev78",
+"labels": ["perdere"],
+"mentions": [{
+"char": [
+"3078",
+"3083"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["perdere"],
+"sentence": "3078",
+"size": "1.0",
+"time": "20060101"
+},
+{
+"actors": {
+"pb/A1": ["ne:una_contestazione_dell%27_aggiudicazione"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev117",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev117",
+"labels": ["aspettare"],
+"mentions": [{
+"char": [
+"5130",
+"5137"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["aspettare"],
+"sentence": "5130",
+"size": "1.0",
+"time": "20080301"
+},
+{
+"actors": {
+"pb/A0": ["ne:il_processo"],
+"pb/A2": ["dbp:Boeing"]
+},
+"climax": 0,
+"event": "ev99",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev99",
+"labels": ["interrompere"],
+"mentions": [{
+"char": [
+"4453",
+"4463"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["interrompere"],
+"sentence": "4453",
+"size": "1.0",
+"time": "20030101"
+},
+{
+"actors": {
+"pb/A0": ["ne:la_propria_attivit%e2%88%9a%e2%80%a0_di_aerei_di_linea_commerciali"],
+"pb/A1": [
+"dbp:Boeing",
+"ne:stesso_stato"
+]
+},
+"climax": 0,
+"event": "ev84",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev84",
+"labels": ["impiantare"],
+"mentions": [{
+"char": [
+"3592",
+"3602"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["impiantare"],
+"sentence": "3592",
+"size": "1.0",
+"time": "20080301"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Boeing"],
+"pb/A1": ["ne:la_produzione_nel_2006"]
+},
+"climax": 0,
+"event": "ev14",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30531-textpro.txt.txp#ev14",
+"labels": ["avviare"],
+"mentions": [{
+"char": [
+"780",
+"787"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30531-textpro.txt.txp"]
+}],
+"prefLabel": ["avviare"],
+"sentence": "780",
+"size": "1.0",
+"time": "20050129"
+},
+{
+"actors": {
+"pb/A1": ["dbp:France"],
+"pb/A2": ["dbp:Sydney"]
+},
+"climax": 1,
+"event": "ev5",
+"group": "100:[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupName": "[\"presentare\",\"presentire presentare\"]:dbp:Sydney",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp#ev5",
+"labels": [
+"volare",
+"volo"
+],
+"mentions": [
+{
+"char": [
+"875",
+"881"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp"]
+},
+{
+"char": [
+"1180",
+"1184"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp"]
+}
+],
+"prefLabel": ["volare"],
+"sentence": "875",
+"size": "0.125",
+"time": "20051105"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": [
+"ne:di_ristrutturazione",
+"ne:tagli_per_10.000_posti_di_lavoro"
+],
+"pb/A2": ["ne:alle_future_iniziative"]
+},
+"climax": 97,
+"event": "ev1",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp#ev1",
+"labels": [
+"annunciare",
+"annuncio"
+],
+"mentions": [
+{
+"char": [
+"1340",
+"1350"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp"]
+},
+{
+"char": [
+"7",
+"15"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp"]
+},
+{
+"char": [
+"1503",
+"1511"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp"]
+},
+{
+"char": [
+"126",
+"136"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp"]
+}
+],
+"prefLabel": ["annunciare"],
+"sentence": "7",
+"size": "24.25",
+"time": "20070228"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:finanziamenti"],
+"pb/A2": ["dbp:Air_France"]
+},
+"climax": 91,
+"event": "ev11",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp#ev11",
+"labels": ["offrire"],
+"mentions": [{
+"char": [
+"7",
+"12"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp"]
+}],
+"prefLabel": ["offrire"],
+"sentence": "7",
+"size": "11.375",
+"time": "20090730"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:l%27_aereo_di_linea_per_il_trasporto_passeggeri_pi%e2%88%9a%cf%80_grande_del_mondo"]
+},
+"climax": 91,
+"event": "ev5",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp#ev5",
+"labels": ["lanciare"],
+"mentions": [{
+"char": [
+"7",
+"13"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp"]
+}],
+"prefLabel": ["lanciare"],
+"sentence": "7",
+"size": "11.375",
+"time": "20050118"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Airbus",
+"ne:problemi"
+]},
+"climax": 33,
+"event": "ev6",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp#ev6",
+"labels": ["ritardare"],
+"mentions": [{
+"char": [
+"19",
+"28"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp"]
+}],
+"prefLabel": ["ritardare"],
+"sentence": "19",
+"size": "4.125",
+"time": "20051105"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Indonesia"],
+"pb/A1": [
+"ne:le_compagnie_aeree",
+"ne:le_compagnie_aeree_locali_a_non_acquistare_aerei_da_produttori_europei"
+],
+"pb/A2": ["dbp:Airbus"]
+},
+"climax": 19,
+"event": "ev15",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev15",
+"labels": ["invitare"],
+"mentions": [
+{
+"char": [
+"205",
+"213"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+},
+{
+"char": [
+"38",
+"44"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}
+],
+"prefLabel": ["invitare"],
+"sentence": "38",
+"size": "2.375",
+"time": "20071220"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": [
+"ne:eads",
+"ne:un_contratto_da_13_miliardi_di_sterline_con_la_united_kingdom%27",
+"dbp:Royal_Air_Force",
+"ne:amp_%3b_space_nv"
+]
+},
+"climax": 17,
+"event": "ev1",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10730-textpro.txt.txp#ev1",
+"labels": ["aggiudicare"],
+"mentions": [
+{
+"char": [
+"262",
+"273"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10730-textpro.txt.txp"]
+},
+{
+"char": [
+"41",
+"50"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10730-textpro.txt.txp"]
+}
+],
+"prefLabel": ["aggiudicare"],
+"sentence": "41",
+"size": "2.125",
+"time": "20080327"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:il_primo_superjumbo"]
+},
+"climax": 8,
+"event": "ev2",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/32421-textpro.txt.txp#ev2",
+"labels": ["realizzare"],
+"mentions": [{
+"char": [
+"74",
+"84"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/32421-textpro.txt.txp"]
+}],
+"prefLabel": ["realizzare"],
+"sentence": "74",
+"size": "1.0",
+"time": "20071015"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": [
+"ne:software",
+"dbp:Airbus_A400M_Atlas"
+]
+},
+"climax": 7,
+"event": "ev6",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3161-textpro.txt.txp#ev6",
+"labels": ["confermare"],
+"mentions": [{
+"char": [
+"80",
+"90"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3161-textpro.txt.txp"]
+}],
+"prefLabel": ["confermare"],
+"sentence": "80",
+"size": "0.875",
+"time": "20100125"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Airbus",
+"dbp:France"
+]},
+"climax": 7,
+"event": "ev9",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp#ev9",
+"labels": ["partenza"],
+"mentions": [{
+"char": [
+"83",
+"91"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp"]
+}],
+"prefLabel": ["partenza"],
+"sentence": "83",
+"size": "0.875",
+"time": "20051105"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:la_propria_intenzione_di_contribuire_per_una_cifra_compresa_tra"]
+},
+"climax": 5,
+"event": "ev12",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp#ev12",
+"labels": ["annunciare"],
+"mentions": [{
+"char": [
+"112",
+"122"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp"]
+}],
+"prefLabel": ["annunciare"],
+"sentence": "112",
+"size": "0.625",
+"time": "20090730"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:un_ordinativo_da_parte_di_qatar_airways_per_ben_60_dei_suoi_nuovi_aerei"]
+},
+"climax": 4,
+"event": "ev3",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp#ev3",
+"labels": ["ottenere"],
+"mentions": [{
+"char": [
+"149",
+"157"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"]
+}],
+"prefLabel": ["ottenere"],
+"sentence": "149",
+"size": "0.5",
+"time": "20050613"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:i_progetti_per"]
+},
+"climax": 3,
+"event": "ev7",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp#ev7",
+"labels": ["svelare"],
+"mentions": [{
+"char": [
+"201",
+"208"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp"]
+}],
+"prefLabel": ["svelare"],
+"sentence": "201",
+"size": "0.375",
+"time": "20050118"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:la_maggior_parte"]
+},
+"climax": 1,
+"event": "ev18",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp#ev18",
+"labels": ["costituire"],
+"mentions": [{
+"char": [
+"487",
+"497"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+}],
+"prefLabel": ["costituire"],
+"sentence": "487",
+"size": "0.125",
+"time": "20070319"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 1,
+"event": "ev7",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp#ev7",
+"labels": ["dominare"],
+"mentions": [{
+"char": [
+"412",
+"420"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"]
+}],
+"prefLabel": ["dominare"],
+"sentence": "412",
+"size": "0.125",
+"time": "20050613"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 1,
+"event": "ev15",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp#ev15",
+"labels": ["progetto"],
+"mentions": [{
+"char": [
+"532",
+"540"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"]
+}],
+"prefLabel": ["progetto"],
+"sentence": "532",
+"size": "0.125",
+"time": "20110101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": [
+"ne:dei_motori_rolls",
+"dbp:Rolls-Royce_Trent"
+]
+},
+"climax": 1,
+"event": "ev12",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp#ev12",
+"labels": ["annunciare"],
+"mentions": [{
+"char": [
+"332",
+"342"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp"]
+}],
+"prefLabel": ["annunciare"],
+"sentence": "332",
+"size": "0.125",
+"time": "20061101"
+},
+{
+"actors": {
+"pb/A0": ["ne:molti_pi%e2%88%9a%cf%80_ordini"],
+"pb/A1": ["dbp:Airbus"]
+},
+"climax": 0,
+"event": "ev21",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp#ev21",
+"labels": ["ricevere"],
+"mentions": [{
+"char": [
+"1051",
+"1059"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"]
+}],
+"prefLabel": ["ricevere"],
+"sentence": "1051",
+"size": "1.0",
+"time": "20050101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Qatar"],
+"pb/A1": [
+"ne:che_inizieranno",
+"ne:un_ordine_precedente"
+],
+"pb/A2": ["dbp:Airbus"]
+},
+"climax": 0,
+"event": "ev12",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp#ev12",
+"labels": ["avere"],
+"mentions": [{
+"char": [
+"643",
+"645"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"]
+}],
+"prefLabel": ["avere"],
+"sentence": "643",
+"size": "1.0",
+"time": "20090101"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev37",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp#ev37",
+"labels": ["vendita"],
+"mentions": [{
+"char": [
+"1670",
+"1677"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+}],
+"prefLabel": ["vendita"],
+"sentence": "1670",
+"size": "1.0",
+"time": "20070319"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev35",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp#ev35",
+"labels": ["ristrutturazione"],
+"mentions": [{
+"char": [
+"1562",
+"1578"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+}],
+"prefLabel": ["ristrutturazione"],
+"sentence": "1562",
+"size": "1.0",
+"time": "20070319"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev34",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp#ev34",
+"labels": ["programma"],
+"mentions": [{
+"char": [
+"1549",
+"1558"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+}],
+"prefLabel": ["programma"],
+"sentence": "1549",
+"size": "1.0",
+"time": "20070319"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["dbp:Project"]
+},
+"climax": 0,
+"event": "ev30",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3161-textpro.txt.txp#ev30",
+"labels": ["richiedere"],
+"mentions": [{
+"char": [
+"1432",
+"1441"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3161-textpro.txt.txp"]
+}],
+"prefLabel": ["richiedere"],
+"sentence": "1432",
+"size": "1.0",
+"time": "20100101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:l%27_eventualit%e2%88%9a%e2%80%a0_dell%27_insorgenza_di_costi_aggiuntivi"]
+},
+"climax": 0,
+"event": "ev30",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp#ev30",
+"labels": ["anticipare"],
+"mentions": [{
+"char": [
+"1418",
+"1428"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+}],
+"prefLabel": ["anticipare"],
+"sentence": "1418",
+"size": "1.0",
+"time": "20070319"
+},
+{
+"actors": {
+"pb/A1": ["ne:la_verit%e2%88%9a%e2%80%a0"],
+"pb/AM-LOC": ["dbp:Airbus"]
+},
+"climax": 0,
+"event": "ev6",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev6",
+"labels": ["dire"],
+"mentions": [
+{
+"char": [
+"2441",
+"2445"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+},
+{
+"char": [
+"4330",
+"4334"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}
+],
+"prefLabel": ["dire"],
+"sentence": "2441",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:vari_aerei_di_linea"]
+},
+"climax": 0,
+"event": "ev2",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev2",
+"labels": ["produrre"],
+"mentions": [{
+"char": [
+"2019",
+"2026"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["produrre"],
+"sentence": "2019",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A0": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev55",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp#ev55",
+"labels": ["realizzare"],
+"mentions": [{
+"char": [
+"2460",
+"2470"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp"]
+}],
+"prefLabel": ["realizzare"],
+"sentence": "2460",
+"size": "1.0",
+"time": "20070610"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_accordo"],
+"pb/A1": [
+"dbp:Airbus",
+"ne:in_un_secondo_momento"
+]
+},
+"climax": 0,
+"event": "ev57",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp#ev57",
+"labels": ["pregiudicare"],
+"mentions": [{
+"char": [
+"2538",
+"2548"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp"]
+}],
+"prefLabel": ["pregiudicare"],
+"sentence": "2538",
+"size": "1.0",
+"time": "20070610"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["dbp:Asia"]
+},
+"climax": 0,
+"event": "ev40",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp#ev40",
+"labels": ["affermare"],
+"mentions": [{
+"char": [
+"1587",
+"1596"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp"]
+}],
+"prefLabel": ["affermare"],
+"sentence": "1587",
+"size": "1.0",
+"time": "20060901"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev60",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp#ev60",
+"labels": ["disporre"],
+"mentions": [{
+"char": [
+"3193",
+"3203"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"]
+}],
+"prefLabel": ["disporre"],
+"sentence": "3193",
+"size": "1.0",
+"time": "20070609"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev25",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp#ev25",
+"labels": ["ritenere"],
+"mentions": [{
+"char": [
+"1274",
+"1282"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"]
+}],
+"prefLabel": ["ritenere"],
+"sentence": "1274",
+"size": "1.0",
+"time": "20060901"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Aer_Lingus"],
+"pb/A1": ["dbp:Airbus"],
+"pb/A2": [
+"ne:a_corto_raggio",
+"ne:da_30_velivoli"
+]
+},
+"climax": 0,
+"event": "ev19",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp#ev19",
+"labels": ["disporre"],
+"mentions": [{
+"char": [
+"694",
+"701"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"]
+}],
+"prefLabel": ["disporre"],
+"sentence": "694",
+"size": "1.0",
+"time": "20060901"
+},
+{
+"actors": {
+"pb/A0": ["ne:un%27_ulteriore_e-mail"],
+"pb/A1": ["dbp:Airbus"]
+},
+"climax": 0,
+"event": "ev11",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev11",
+"labels": ["offrire"],
+"mentions": [{
+"char": [
+"3936",
+"3941"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["offrire"],
+"sentence": "3936",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["ne:bill_bodie"],
+"pb/A1": ["dbp:Airbus"]
+},
+"climax": 0,
+"event": "ev48",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev48",
+"labels": ["seguire"],
+"mentions": [{
+"char": [
+"2156",
+"2161"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["seguire"],
+"sentence": "2156",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A0": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev46",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev46",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"1929",
+"1930"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "1929",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:di_prevedere_che"]
+},
+"climax": 0,
+"event": "ev15",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp#ev15",
+"labels": ["dichiarare"],
+"mentions": [{
+"char": [
+"750",
+"760"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp"]
+}],
+"prefLabel": ["dichiarare"],
+"sentence": "750",
+"size": "1.0",
+"time": "20050118"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Airbus",
+"ne:che_le_vendite_superino_la_quota_700"
+]},
+"climax": 0,
+"event": "ev22",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp#ev22",
+"labels": ["augurare"],
+"mentions": [{
+"char": [
+"950",
+"956"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp"]
+}],
+"prefLabel": ["augurare"],
+"sentence": "950",
+"size": "1.0",
+"time": "20050118"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": ["ne:la_sostituzione_di_un_componente_di_tale_sistema_%2c"]
+},
+"climax": 0,
+"event": "ev58",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp#ev58",
+"labels": ["raccomandare"],
+"mentions": [{
+"char": [
+"2357",
+"2369"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp"]
+}],
+"prefLabel": ["raccomandare"],
+"sentence": "2357",
+"size": "1.0",
+"time": "20090730"
+},
+{
+"actors": {"pb/A0": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev46",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp#ev46",
+"labels": ["ritornare"],
+"mentions": [{
+"char": [
+"2664",
+"2673"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"]
+}],
+"prefLabel": ["ritornare"],
+"sentence": "2664",
+"size": "1.0",
+"time": "20070710"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev86",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp#ev86",
+"labels": ["contrasto"],
+"mentions": [{
+"char": [
+"3951",
+"3960"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"]
+}],
+"prefLabel": ["contrasto"],
+"sentence": "3951",
+"size": "1.0",
+"time": "20041124"
+},
+{
+"actors": {"pb/A1": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev32",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp#ev32",
+"labels": ["ribadire"],
+"mentions": [{
+"char": [
+"942",
+"950"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp"]
+}],
+"prefLabel": ["ribadire"],
+"sentence": "942",
+"size": "1.0",
+"time": "20090730"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Airbus",
+"ne:in_un_secondo_momento"
+]},
+"climax": 0,
+"event": "ev8",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp#ev8",
+"labels": [
+"piano",
+"progettazione"
+],
+"mentions": [
+{
+"char": [
+"2015",
+"2028"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp"]
+},
+{
+"char": [
+"2551",
+"2556"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp"]
+}
+],
+"prefLabel": ["progettazione"],
+"sentence": "2015",
+"size": "1.0",
+"time": "20070610"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus"],
+"pb/A1": [
+"ne:entrambe_le_alette",
+"ne:di_rimuovere"
+]
+},
+"climax": 0,
+"event": "ev21",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp#ev21",
+"labels": ["decidere"],
+"mentions": [{
+"char": [
+"810",
+"816"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp"]
+}],
+"prefLabel": ["decidere"],
+"sentence": "810",
+"size": "1.0",
+"time": "20070901"
+},
+{
+"actors": {
+"pb/A0": ["ne:la_a380-800"],
+"pb/A1": ["dbp:Airbus"]
+},
+"climax": 0,
+"event": "ev31",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp#ev31",
+"labels": ["vendere"],
+"mentions": [{
+"char": [
+"1407",
+"1414"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp"]
+}],
+"prefLabel": ["vendere"],
+"sentence": "1407",
+"size": "1.0",
+"time": "20050427"
+},
+{
+"actors": {"pb/A0": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev26",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26315-textpro.txt.txp#ev26",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"865",
+"866"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26315-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "865",
+"size": "1.0",
+"time": "20061005"
+},
+{
+"actors": {"pb/A0": ["dbp:Airbus"]},
+"climax": 0,
+"event": "ev13",
+"group": "097:[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupName": "[\"annunciare\",\"annuncio\"]:ne:di_ristrutturazione",
+"groupScore": "097",
+"instance": "http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp#ev13",
+"labels": ["ammontare"],
+"mentions": [{
+"char": [
+"715",
+"722"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp"]
+}],
+"prefLabel": ["ammontare"],
+"sentence": "715",
+"size": "1.0",
+"time": "20070228"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_aereo"],
+"pb/A2": [
+"ne:500_persone",
+"ne:la_prima_volta_in_cui_l%27_aereo_trasporta_un_numero_quasi_normale_di_passeggeri"
+]
+},
+"climax": 3,
+"event": "ev11",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp#ev11",
+"labels": ["trasportare"],
+"mentions": [
+{
+"char": [
+"409",
+"418"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+},
+{
+"char": [
+"321",
+"332"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+}
+],
+"prefLabel": ["trasportare"],
+"sentence": "321",
+"size": "0.75",
+"time": "20070319"
+},
+{
+"actors": {
+"pb/A0": ["ne:rolls_-"],
+"pb/A1": [
+"ne:l%27_aereo",
+"ne:di_quattro_motori"
+]
+},
+"climax": 2,
+"event": "ev7",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/32421-textpro.txt.txp#ev7",
+"labels": ["dotare"],
+"mentions": [{
+"char": [
+"309",
+"315"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/32421-textpro.txt.txp"]
+}],
+"prefLabel": ["dotare"],
+"sentence": "309",
+"size": "0.25",
+"time": "20071025"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_aereo"],
+"pb/A1": ["ne:una_maggiore_efficienza_in_termini_di_consumo_carburante"]
+},
+"climax": 1,
+"event": "ev14",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp#ev14",
+"labels": ["garantire"],
+"mentions": [{
+"char": [
+"351",
+"361"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"]
+}],
+"prefLabel": ["garantire"],
+"sentence": "351",
+"size": "0.125",
+"time": "20110908"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_aereo"],
+"pb/A1": ["ne:la_piazzola_di_sosta"]
+},
+"climax": 1,
+"event": "ev13",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp#ev13",
+"labels": ["lasciare"],
+"mentions": [{
+"char": [
+"412",
+"421"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp"]
+}],
+"prefLabel": ["lasciare"],
+"sentence": "412",
+"size": "0.125",
+"time": "20070901"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Thai_Airways"],
+"pb/A1": ["ne:l%27_aereo"]
+},
+"climax": 1,
+"event": "ev14",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp#ev14",
+"labels": ["spingere"],
+"mentions": [{
+"char": [
+"528",
+"534"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp"]
+}],
+"prefLabel": ["spingere"],
+"sentence": "528",
+"size": "0.125",
+"time": "20070901"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_aereo"],
+"pb/A1": ["ne:verso_i_limpidi_cieli_blu_con_un_equipaggio_di_volo_di_sei_persone"]
+},
+"climax": 1,
+"event": "ev10",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp#ev10",
+"labels": ["spiccare"],
+"mentions": [{
+"char": [
+"396",
+"404"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp"]
+}],
+"prefLabel": ["spiccare"],
+"sentence": "396",
+"size": "0.125",
+"time": "20050427"
+},
+{
+"actors": {"pb/A1": ["ne:l%27_aereo"]},
+"climax": 0,
+"event": "ev53",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp#ev53",
+"labels": ["mantenere"],
+"mentions": [{
+"char": [
+"2024",
+"2035"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp"]
+}],
+"prefLabel": ["mantenere"],
+"sentence": "2024",
+"size": "1.0",
+"time": "20140101"
+},
+{
+"actors": {"pb/A1": ["ne:l%27_aereo"]},
+"climax": 0,
+"event": "ev15",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp#ev15",
+"labels": ["costruire"],
+"mentions": [{
+"char": [
+"706",
+"715"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"]
+}],
+"prefLabel": ["costruire"],
+"sentence": "706",
+"size": "1.0",
+"time": "20080702"
+},
+{
+"actors": {"pb/A0": ["ne:l%27_aereo"]},
+"climax": 0,
+"event": "ev2",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp#ev2",
+"labels": ["consegnare"],
+"mentions": [{
+"char": [
+"1051",
+"1061"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp"]
+}],
+"prefLabel": ["consegnare"],
+"sentence": "1051",
+"size": "1.0",
+"time": "20060101"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_aereo"],
+"pb/A2": ["ne:150_passeggeri"]
+},
+"climax": 0,
+"event": "ev23",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp#ev23",
+"labels": ["partire"],
+"mentions": [{
+"char": [
+"909",
+"916"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp"]
+}],
+"prefLabel": ["partire"],
+"sentence": "909",
+"size": "1.0",
+"time": "20070901"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_aereo"],
+"pb/A1": ["ne:il_giro"],
+"pb/A2": [
+"dbp:Bay_of_Biscay",
+"dbp:Toulouse"
+]
+},
+"climax": 0,
+"event": "ev20",
+"group": "003:[\"trasportare\"]",
+"groupName": "[\"trasportare\"]",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp#ev20",
+"labels": ["fare"],
+"mentions": [{
+"char": [
+"865",
+"870"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp"]
+}],
+"prefLabel": ["fare"],
+"sentence": "865",
+"size": "1.0",
+"time": "20050427"
+},
+{
+"actors": {"pb/A1": ["dbp:European_Union"]},
+"climax": 3,
+"event": "ev10",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev10",
+"labels": ["decisione"],
+"mentions": [
+{
+"char": [
+"352",
+"361"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+},
+{
+"char": [
+"534",
+"543"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}
+],
+"prefLabel": ["decisione"],
+"sentence": "352",
+"size": "0.75",
+"time": "20070101"
+},
+{
+"actors": {"pb/A1": ["dbp:European_Union"]},
+"climax": 2,
+"event": "ev19",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev19",
+"labels": ["trattare"],
+"mentions": [{
+"char": [
+"316",
+"322"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}],
+"prefLabel": ["trattare"],
+"sentence": "316",
+"size": "0.25",
+"time": "20070101"
+},
+{
+"actors": {"pb/A1": ["dbp:European_Union"]},
+"climax": 1,
+"event": "ev20",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev20",
+"labels": ["risposta"],
+"mentions": [{
+"char": [
+"330",
+"338"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}],
+"prefLabel": ["risposta"],
+"sentence": "330",
+"size": "0.125",
+"time": "20070101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:European_Union"],
+"pb/A1": ["ne:la_decisione_di_vietare_il_traffico_aereo_indonesiano_a_causa_di_una_serie_di_incidenti_avvenuti_nel_paese_%2c"]
+},
+"climax": 1,
+"event": "ev22",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev22",
+"labels": ["prendere"],
+"mentions": [{
+"char": [
+"525",
+"530"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}],
+"prefLabel": ["prendere"],
+"sentence": "525",
+"size": "0.125",
+"time": "20070101"
+},
+{
+"actors": {
+"pb/A1": ["ne:indonesiani"],
+"pb/A2": [
+"dbp:European_Union",
+"ne:tali_aerei"
+]
+},
+"climax": 0,
+"event": "ev3",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev3",
+"labels": ["preoccupare"],
+"mentions": [{
+"char": [
+"1169",
+"1180"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}],
+"prefLabel": ["preoccupare"],
+"sentence": "1169",
+"size": "1.0",
+"time": "20071220"
+},
+{
+"actors": {"pb/A0": [
+"dbp:European_Union",
+"ne:l%27_acquisizione"
+]},
+"climax": 0,
+"event": "ev52",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp#ev52",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"2860",
+"2861"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "2860",
+"size": "1.0",
+"time": "20070609"
+},
+{
+"actors": {"pb/A1": ["dbp:European_Union"]},
+"climax": 0,
+"event": "ev54",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp#ev54",
+"labels": ["approvazione"],
+"mentions": [{
+"char": [
+"2904",
+"2916"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"]
+}],
+"prefLabel": ["approvazione"],
+"sentence": "2904",
+"size": "1.0",
+"time": "20070609"
+},
+{
+"actors": {
+"pb/A0": ["ne:nessun_funzionario_indonesiano"],
+"pb/A1": ["ne:per_collaborare_alla_risoluzione_della_situazione"],
+"pb/AM-LOC": ["dbp:European_Union"]
+},
+"climax": 0,
+"event": "ev72",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev72",
+"labels": ["inviare"],
+"mentions": [{
+"char": [
+"3351",
+"3358"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}],
+"prefLabel": ["inviare"],
+"sentence": "3351",
+"size": "1.0",
+"time": "20071220"
+},
+{
+"actors": {
+"pb/A0": ["ne:djamal"],
+"pb/A1": ["ne:200.000_dollari"],
+"pb/A2": ["dbp:European_Union"]
+},
+"climax": 0,
+"event": "ev65",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp#ev65",
+"labels": ["spiegare"],
+"mentions": [{
+"char": [
+"2978",
+"2986"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"]
+}],
+"prefLabel": ["spiegare"],
+"sentence": "2978",
+"size": "1.0",
+"time": "20071220"
+},
+{
+"actors": {"pb/A1": ["dbp:European_Union"]},
+"climax": 0,
+"event": "ev113",
+"group": "003:[\"decisione\"]:dbp:European_Union",
+"groupName": "[\"decisione\"]:dbp:European_Union",
+"groupScore": "003",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp#ev113",
+"labels": ["affidare"],
+"mentions": [{
+"char": [
+"4966",
+"4974"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"]
+}],
+"prefLabel": ["affidare"],
+"sentence": "4966",
+"size": "1.0",
+"time": "20080301"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Airbus_A380"],
+"pb/A1": [
+"ne:il_suo_primo_volo",
+"ne:l%27_aereo_passeggeri_pi%e2%88%9a%cf%80_grande_del_mondo"
+],
+"pb/A2": [
+"dbp:France",
+"dbp:Toulouse"
+]
+},
+"climax": 2,
+"event": "ev5",
+"group": "002:[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupName": "[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupScore": "002",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp#ev5",
+"labels": ["effettuare"],
+"mentions": [{
+"char": [
+"222",
+"232"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp"]
+}],
+"prefLabel": ["effettuare"],
+"sentence": "222",
+"size": "0.5",
+"time": "20050101"
+},
+{
+"actors": {
+"pb/A0": ["ne:la_societ%e2%88%9a%e2%80%a0"],
+"pb/A1": [
+"dbp:France",
+"ne:4.300_posti_di_lavoro"
+]
+},
+"climax": 1,
+"event": "ev10",
+"group": "002:[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupName": "[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupScore": "002",
+"instance": "http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp#ev10",
+"labels": ["prevedere"],
+"mentions": [{
+"char": [
+"465",
+"472"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp"]
+}],
+"prefLabel": ["prevedere"],
+"sentence": "465",
+"size": "0.125",
+"time": "20070228"
+},
+{
+"actors": {
+"pb/A0": ["dbp:France"],
+"pb/A1": ["ne:4.300_posti_di_lavoro"],
+"pb/A2": ["dbp:Germany"]
+},
+"climax": 0,
+"event": "ev38",
+"group": "002:[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupName": "[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupScore": "002",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp#ev38",
+"labels": ["perdere"],
+"mentions": [{
+"char": [
+"1737",
+"1744"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"]
+}],
+"prefLabel": ["perdere"],
+"sentence": "1737",
+"size": "1.0",
+"time": "20070319"
+},
+{
+"actors": {
+"pb/A0": ["ne:il_primo_prototipo_di_a380"],
+"pb/A2": ["dbp:France"]
+},
+"climax": 0,
+"event": "ev27",
+"group": "002:[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupName": "[\"effettuare\"]:ne:il_suo_primo_volo",
+"groupScore": "002",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp#ev27",
+"labels": ["presentare"],
+"mentions": [{
+"char": [
+"1216",
+"1226"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp"]
+}],
+"prefLabel": ["presentare"],
+"sentence": "1216",
+"size": "1.0",
+"time": "20050118"
+}
+],
+"headline": "corpus_airbus",
+"mention_cnt": [171],
+"sources": [
+{
+"text": "Northrop Grumman e la capogruppo di Airbus EADS hanno la meglio su Boeing per l'appalto degli aerocisterna da 40 miliardi di dollari_1 marzo 2008_Northrop Grumman e la societ√\u2020 capogruppo di Airbus, European Aeronautic Defence and Space Company EADS N.V._(EADS), a sorpresa hanno battuto Boeing in un appalto indetto dall'Aeronautica militare degli Stati Uniti (USAF) del valore di 40 miliardi di dollari (20,1 miliardi di sterline), per la fornitura di 179 nuovi aerei cisterna, con consegne di 15 velivoli all'anno._Si tratta del pi√π grande contratto nel suo genere dall'avvio del programma Joint Strike Fighter._La gara √® stata combattuta tra Boeing e Lockheed Martin, che infine ha avuto la meglio._Paul Nesbit, analista della difesa di JSA Research, ha spiegato che le operazioni di manutenzione, riparazione e revisione (MRO) per l'intera durata cinquantennale del velivolo potrebbero portare il valore del contratto fino a 100 miliardi di dollari._Ron Sugar, CEO di Northrop Grumman, ha confidato in un'intervista ^Tutti ci dicevano che eravamo pazzi, che non avevamo alcuna possibilit√\u2020._Ma abbiamo fatto un gran tiro e questa volta abbiamo centrato la porta^._I funzionari USAF hanno spiegato che il contratto √® stato assegnato sulla base di competenze, credenziali e prezzi competitivi, come rivela l'analista di UBS David Strauss: ^Per la decisione finale, √® risultata decisiva la quantit√\u2020 di carburante che l'aereo pi√π grande poteva trasportare._Nelle forze armate, il carburante in aria non √® mai troppo^._USAF, inoltre, ha negato l'influenza della creazione di posti di lavoro negli Stati Uniti; l'offerta di posti di lavoro era stata la ragione per cui Boeing si aspettava di vincere, con la sua promessa di 44.000 nuove posizioni presso 300 fornitori in 40 stati._Le aerocisterne KC-45 di Northrop Grumman, pi√π spesso note come KC-30, si basano sull' Airbus A330 MRTT._I primi quattro aerei saranno assemblati presso lo stabilimento principale di Airbus a Tolosa, in Francia, ma dal 2010-11 la produzione dei rimanenti esemplari sar√\u2020 effettuata in uno stabilimento a Mobile, Alabama._Si ritiene che il programma probabilmente creer√\u2020 dai 1.500 ai 2.000 posti di lavoro e ne sosterr√\u2020 altri 25.000._Il 60% delle parti sar√\u2020 fornito da produttori nazionali._EADS aveva gi√\u2020 annunciato l'intenzione di spostare gran parte della produzione negli Stati Uniti, per via dell'attuale debolezza del dollaro._Il generale Arthur Lichte, capo del Mobility Command dell'USAF, spera che il primo velivolo possa essere testato nel 2010 ed entri in funzione tre anni dopo._Il capo di stato maggiore dell'USAF, generale Duncan McNab ha dichiarato: ^L'aerocisterna rappresenta la priorit√\u2020 numero uno degli acquisti per noi in questo momento._√à il primo passo nel nostro impegno fondamentale di ricapitalizzare la nostra vecchia flotta, per mobilitare, fornire e posizionare risorse ovunque^.__Sussiste ancora una possibilit√\u2020 per Boeing di contestare la decisione; la stessa Boeing aveva perso, a seguito di una contestazione da parte di Lockheed e Sikorsky nel 2006, un contratto col Pentagono da 10 miliardi di dollari per la fornitura di elicotteri da ricerca e soccorso._Una dichiarazione di Boeing, espressa dal suo portavoce William Barksdale, rivela: ^Ovviamente siamo molto delusi..._Dopo un esame dei dettagli dell'aggiudicazione, prenderemo una decisione sulle possibili alternative^._Il senatore di Washington Patty Murray, che proviene dallo stesso stato in cui Boeing ha impiantato la propria attivit√\u2020 di aerei di linea commerciali, ha osservato in una dichiarazione critica: ^Siamo sconvolti del fatto che l'Aeronautica militare abbia preferito una societ√\u2020 europea e i suoi lavoratori stranieri per fornire un'aerocisterna ai militari americani._In un tale momento di crisi per la nostra economia, la decisione di esternalizzare i nostri aerei cisterna rappresenta un duro colpo per l'industria aerospaziale americana, per i lavoratori americani e per i soldati americani^._Il rappresentante di Washington Norm Dicks ha a sua volta dichiarato di essere ^sconvolto^, aggiungendo ^Questa decisione √® ancora pi√π deludente perch√© l'Aeronautica militare aveva gi√\u2020 preferito l'aerocisterna Boeing 767 e ci eravamo preparati per proseguire con la produzione di 100 aerei cisterna nel 2003, prima che il processo fosse interrotto a causa dello scandalo Boeing._Mi dispiace che ci sia voluto cos√¨ tanto tempo per rispondere a quella che era, ed √® tuttora, un'urgente necessit√\u2020 di sostituire questi velivoli pi√π vecchi._E ancora pi√π deplorevole √® la decisione di aggiudicare l'appalto a Airbus, che ha utilizzato costantemente sussidi governativi europei sleali per portare via il lavoro ai lavoratori americani nel settore dell'aeronautica^._Il senatore del Kansas Sam Brownback ha affermato: ^Mi stupisce il fatto di affidare la produzione di questi aerei all'Europa, invece di costruirli in America._Intendo invitare il Segretario della Difesa per un debriefing completo e mi aspetto una contestazione dell'aggiudicazione da parte di Boeing^._Todd Tiahrt, un rappresentante del Kansas, ha rincarato: ^Dobbiamo avere un aereo cisterna americano costruito da una societ√\u2020 americana per opera di lavoratori americani._Non posso credere che vogliamo creare posti di lavoro francesi anzich√© posti di lavoro in Kansas^._Un gruppo di politici di Washington ha rilasciato una dichiarazione congiunta che dice ^Porremo domande dure riguardo alla decisione di esternalizzare questo contratto..._In questo momento di crisi per la nostra economia, questo √® un duro colpo, non solo per il nostro stato, ma per pi√π di 40 stati in tutto il Paese, che avrebbero contribuito alla costruzione di questo aereo nazionale^._Il governatore dell'Alabama Bob Riley ha dichiarato: ^Dire che questo √® un gran giorno per l'Alabama √® estremamente riduttivo._Questo passer√\u2020 alla storia come uno dei nostri giorni pi√π grandi.^_Ralph Crosby, CEO del Nord America di EADS ed ex dirigente di Northrop, ha commentato che l'azienda ha ^impegnato a pieno le proprie risorse per supportare questo programma vitale per i nostri principali contraenti, Northrop Grumman, l'Aeronautica militare e i combattenti di guerra, che questo sistema servir√\u2020 per decenni a venire._Abbiamo gi√\u2020 intrapreso i lavori necessari per espandere la nostra presenza industriale negli Stati Uniti, a supporto di questo importante programma^._L'amministratore delegato di EADS Louis Gallois ha commentato: ^Questa scelta fondamentale genera una situazione io vinco-tu vinci, per i nostri clienti, per l'indotto di cooperazione industriale e per EADS._Segna un balzo in avanti nel nostro impegno verso il cliente della difesa statunitense, riflette e supporta la nostra strategia globale di aumento della presenza industriale di EADS sui mercati chiave e il nostro obiettivo di i e portafogli commerciali e di difesa della societ√\u2020^._Il generale Arthur Lichte ha dichiarato: ^Sar√\u2020 un aereo cisterna americano, pilotato da aviatori americani con una bandiera americana sulla coda e, ogni giorno, salver√\u2020 vite americane._Boeing inizialmente aveva accettato di noleggiare 100 aerei cisterna, ma nel 2003 scoppi√≤ uno scandalo quando emerse che il dirigente  di Boeing, Michael M. Sears, aveva favorito l'ottenimento di un posto di lavoro per il funzionario USAF Darleen Druyun mentre le trattative erano ancora in corso._Entrambi stanno scontando pene detentive per le accuse di corruzione ed √® stata aperta una nuova gara per l'aggiudicazione del contratto.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/21058-textpro.txt.txp"
+},
+{
+"text": "EADS, societ√\u2020 capogruppo di Airbus, si aggiudica un contratto con la RAF da 13 miliardi di sterline per aerei cisterna_27 marzo 2008_European Aeronautic Defence &amp; Space NV (EADS), societ√\u2020 capogruppo del costruttore aeronautico europeo Airbus, si √® aggiudicata un contratto da 13 miliardi di sterline con la United Kingdom's Royal Air Force (RAF), per la fornitura di aerei cisterna in sostituzione dell'attuale flotta nazionale, ormai vetusta._AirTanker Ltd., un consorzio guidato da EADS, ha firmato un contratto di 27 anni con il Ministero della Difesa per la fornitura di 14 nuovi Airbus A330-200, aerei passeggeri di linea convertiti per lo scopo._Tali velivoli saranno di propriet√\u2020 di AirTanker, che mantiene i diritti di noleggio commerciale per i cinque che possono trasportare 290 passeggeri oltre alle merci, ma voleranno con lo stemma della RAF._Sostituiranno gli attuali aerei VC-10 Lockheed Tristar e Vickers._Il primo velivolo entrer√\u2020 in servizio entro il 2011 e tutti gli altri entro il 2016._Rolls-Royce, membro del consorzio, fornir√\u2020 i motori._La francese Thales fornir√\u2020 l'elettronica, la britannica Cobham di Wimborne produrr√\u2020 le attrezzature per il rifornimento e il gruppo britannico VT di Southampton fornir√\u2020 la gestione dei servizi._Il mese scorso, Northrop Grumman ed EADS hanno battuto Boeing nell'aggiudicazione di un ordine enorme per 179 aerei cisterna da fornire all'Aeronautica militare degli Stati Uniti._Airbus inoltre ha firmato di recente vantaggiosi contratti con la Royal Australian Air Force, la Royal Saudi Air Force e la UAE Air Force.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/10730-textpro.txt.txp"
+},
+{
+"text": "Boeing rinvia lo sviluppo del sostituto del 737_24 maggio 2008_Il costruttore aeronautico statunitense Boeing ha annunciato che lo sviluppo di un sostituto per il suo aereo di linea a fusoliera stretta 737, avviato due anni fa, √® stato rinviato di parecchi anni, in quanto Boeing ritiene necessario un ulteriore progresso della tecnologia._La portavoce Sandy Angers ha dichiarato che il team impegnato nello sviluppo √® confluito nel  team di sviluppo del prodotto della societ√\u2020 capogruppo, abbandonando l'esame dei progetti specifici._Boeing sostiene che le compagnie aeree richiedono miglioramenti delle prestazioni del 15-20% affinch√© il nuovo aereo di linea risulti sostenibile dal punto di vista commerciale._^Abbiamo ridotto il nostro sforzo di progettazione aeronautica per concentrarci maggiormente sulle innovazioni tecnologiche^, ha spiegato Angers._^Abbiamo bisogno di innovazioni tecnologiche per motori, aerodinamica, materiali e altri sistemi._Non si pu√≤ semplicemente compattare il 787 e aspettarsi gli stessi benefici per il segmento di mercato degli aerei a fusoliera stretta._Dobbiamo affrontare sfide difficili^._Una differenza importante √® che il composito plastico utilizzato per la fusoliera del 787 non offrirebbe un risparmio di peso cos√¨ significativo su un aereo pi√π piccolo._La data di consegna dell'aereo attualmente prevista √® stata posticipata intorno al 2020 e non al 2015, come si era sperato in un primo momento._Tale data coincide con la data prevista per la sostituzione dell'A320 da parte di Airbus._Gli analisti del settore prevedono che lo sviluppo di uno inneschi lo sviluppo dell'altro._Boeing sperava di avere il suo pronto per il 2012._Il CEO di Boeing Commercial Airplanes Scott Carson ha commentato: ^Stiamo proseguendo negli sforzi di ricerca per trovare la giusta soluzione._Dovr√\u2020 essere un prodotto da 25 anni^._Dal suo debutto nel 1967, sono stati consegnati fino a oggi 5.700 esemplari di 737, con ordini per altri 2.200 che manterranno l'aereo in produzione almeno fino al 2014._√à l'aereo di linea pi√π famoso di Boeing.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/22601-textpro.txt.txp"
+},
+{
+"text": "Il Government Accountability Office chiede la ripetizione del bando gara per le aerocisterne dell'Areonautica militare americana_2 luglio 2008_Il 18 giugno, il Government Accountability Office ha avanzato la richiesta di ripetizione dell'appalto per il contratto delle aerocisterne dell'Areonautica militare americana, del valori di 40 miliardi dollari, adducendo come motivazione importanti difetti individuati nel corso della procedura di appalto._Tale richiesta mette a rischio il piano di Northrop Grumman e EADS Nord America in merito all'assemblaggio degli aerei a Mobile, in Alabama._Quando il 29 febbraio l'Areonautica militare scelse Northrop Grumman, con sede a Los Angeles, per costruire l'aereo, Boeing contest√≤ l'assegnazione con una protesta formale presso il GAO, denunciando una distorsione della valutazione a favore di Northrop._Il GAO ha sostenuto la protesta di Boeing, sebbene non tutti i singoli ricorsi siano stati accolti._^La revisione della documentazione ci ha portato a concludere che l'Areonautica militare abbia commesso un certo numero di_errori significativi che potrebbero aver influenzato il risultato di una_competizione serrata tra Boeing e Northrop Grumman^, dichiara Michael R. Golden, responsabile dell'ufficio legale del GAO_per la normativa sugli appalti._Il GAO ha emesso una raccomandazione non vincolante per la riapertura della gara da parte dell'Areonautica militare, consentendo ai concorrenti di presentare offerte riviste e procedendo a una rivalutazione completa delle nuove offerte._Il completamento di tale processo potrebbe richiedere un anno o pi√π._L'areonautica militare ha 60 giorni di tempo per rispondere al GAO.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/10246-textpro.txt.txp"
+},
+{
+"text": "Ryanair esercita opzioni su cinque Boeing 737_13 giugno 2005_La compagnia low cost irlandese Ryanair oggi ha annunciato la propria intenzione di esercitare le opzioni con Boeing per l'acquisto di cinque nuovi aeromobili 737._Questo porta il numero complessivo di ordini in sospeso di Ryanair con il produttore americano a 230._I nuovi aerei, che provengono dalla gamma 737-800, saranno dotati di winglet a sviluppo geometrico graduale per aumentare l'efficienza dei consumi fino al 3%._L'AD di Ryanair Michael O'Leary ha giustificato la scelta di Boeing affermando ^Il Boeing 737-800 vanta la migliore affidabilit√\u2020 tecnica e garantisce a Ryanair il primo posto per puntualit√\u2020 tra le compagnie aeree in Europa^ ... ^Inoltre, il costo operativo unitario √® il pi√π basso._L'aggiunta di questi cinque velivoli ci consente di proseguire nello sviluppo di nuove tratte aggiuntive in \u201aÄã\u201aÄãEuropa e di offrire tariffe ridotte a molti pi√π clienti europei^._Ryanair, la compagnia aerea pi√π redditizia del mondo, con profitti record di 269 milioni di euro all'inizio di quest'anno, sta portando avanti un piano di espansione aggressivo che vedr√\u2020 lievitare il suo numero complessivo di passeggeri a 70 milioni nei prossimi anni._Attualmente Ryanair dispone di 91 aeromobili e 230 in ordinazione.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/13466-textpro.txt.txp"
+},
+{
+"text": "Airbus si aggiudica l'ordine di Qatar Airways per un valore di 15 miliardi di dollari_13 giugno 2005_Il costruttore aeronautico europeo Airbus ha ottenuto un ordinativo da parte di Qatar Airways per ben 60 dei suoi nuovi aerei A350 di medie dimensioni._L'ordine, stimato per un valore di 15 miliardi dollari, ha dato una spinta all'altrimenti deludente esposizione aeronautica di Parigi, che era stata dominata da una disputa per gli aiuti di stato tra Airbus e Boeing._Qatar Airways, che ha preferito l'Airbus A350 al Boeing 787, acquister√\u2020 inoltre 20 aerei 777 di Boeing, pi√π grandi, per 4,6 miliardi di dollari._Il Qatar ha un ordine precedente per 2 dei nuovi enormi A380 di Airbus che inizieranno a volare nel 2009 dall'aeroporto Heathrow di Londra._Nel 2004, Airbus ha venduto pi√π aerei di Boeing per la prima volta nella storia, scatenando dubbi sulla societ√\u2020 statunitense che sembra aver perso la presa sul mercato del trasporto aereo, un tempo apparentemente inespugnabile._Tuttavia fino a questo momento Boeing ha ricevuto molti pi√π ordini di Airbus nel 2005.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/15116-textpro.txt.txp"
+},
+{
+"text": "E-mail interne rivelano le  discussioni contrattuali tra Boeing e l'Aeronautica militare_24 novembre 2004_Le e-mail intercorse tra i funzionari dell'Aeronautica militare degli Stati Uniti e il produttore di aeromobili Boeing in merito a un contratto da 23 miliardi di dollari  sono state iscritte nell'archivio pubblico._Il senatore John McCain (R-AZ) le ha registrate nell'archivio del congresso, durante un discorso la scorsa settimana pronunciato contro l'ormai annullato accordo di noleggio per 100 aerocisterne prodotte da Boeing._I legislatori del Congresso hanno respinto la proposta nel mese di ottobre, sebbene gli esperti del settore sostengano che l'accordo sia saltato per opera del Pentagono, a causa di rapporti che affermano che Boeing sia stata favorita dal contratto._Il senatore McCain √® stato il pi√π fervido oppositore dell'accordo._Le trattative originali con Boeing riguardavano un contratto diretto, senza gara di appalto._Tali contratti sono spesso giustificati dalla velocit√\u2020 che offrono, poich√© eliminano l'offerta preliminare e la fase di selezione che possono durare mesi._Tuttavia, ai contratti senza gara d'appalto pu√≤ partecipare solo la societ√\u2020 scelta dall'agenzia appaltante._Questo espone i contratti senza gara d'appalto alle accuse di conflitto di interesse per il personale responsabile degli acquisti._Tali accuse sono state gi√\u2020 mosse contro il vice presidente Dick Cheney per un contratto senza gara di appalto in favore di Halliburton e ora vengono rivolte contro alti funzionari dell'Aeronautica militare per la decisione di affidare a Boeing l'incarico di sostituire la flotta di aerei cisterna._Nelle e-mail pubblicate, i funzionari dell'Aeronautica militare responsabili per l'aggiudicazione di contratti risultano prevenuti nei confronti del principale concorrente di Boeing, Airbus, e del suo amministratore delegato Ralph Crosby._Airbus √® di propriet√\u2020 della societ√\u2020 European Aeronautic Defense &amp; Space  (EADS)._Airbus produce vari aerei di linea e militari e nel settore passeggeri ha conquistato quote di mercato su Boeing nel corso degli ultimi anni._Segue uno scambio sequenziale di e-mail relative a Airbus, come registrato nell'Archivio del Congresso._: Bill Bodie, assistente speciale alla segreteria e direttore delle comunicazioni dell'Aeronautica militare:_^Non dobbiamo porgere l'altra guancia, lo sai._Sono pronto a dire la verit√\u2020 sul boom di Airbus, il suo impatto e le carenze finanziarie._Ma forse dovremmo dormirci su.^_: James Roche, segretario dell'Aeronautica militare:_^No, signore, se ne ricordi e lo spazzi via._Ha ammesso che non erano qualificati dal punto di vista tecnico!_E ci teniamo il loro registro di tangenti come nostra carta vincente!_Jim.^_: Darleen Druyun, vice sottosegretario civile per gli acquisti dell'Aeronautica militare:_^Ho letto con disgusto l'articolo sugli aerei cisterna di Airbus del nuovo CEO di EADS nel Nord America._Che schifezza..._._. il fango non dovrebbe sorprenderci._._. arriver√\u2020 anche per lui il giorno della resa dei conti, speriamo.^_: James Roche, segretario dell'Aeronautica militare:_^Certo,_ne convengo._Speravo che saresti rimasto torturandolo lentamente nel corso dei prossimi anni, finch√© EADS non se ne fosse sbarazzata!_Jim.^_Un'e-mail inviata da Burkhardt &amp; Associates a James Roche consiglia al segretario di rilasciare le cifre fiscali favorevoli a Boeing, apparentemente senza tenere conto dei fatti:_^Diffonderei una nota di una pagina per spiegare che il costo del noleggio per singolo aereo non sar√\u2020 maggiore di x e questo x deve essere inferiore rispetto al pi√π recente contratto di noleggio stipulato da Boeing per qualche societ√\u2020 commerciale, oppure questo x rappresenta y dollari in meno rispetto al costo di una nuova aerocisterna^, afferma._Un'ulteriore e-mail inviata da Roche offre un netto contrasto rispetto al suo atteggiamento critico nei confronti di Airbus, mentre parla di Boeing con l'assistente alla segreteria per gli acquisti dell'Aeronautica militare, Marvin Sambur, affermando: ^Mi piaci, ragazzone._Dallo agli arabi dagli occhi blu del Nord (espressione che usiamo per riferirci a Boeing)^._GovExec.com cita un ^consulente del Senato^ che dice:_^Il codice della Casa [del conto spesa] non tiene conto dell'analisi delle alternative richiesta nel codice di autorizzazione dello scorso anno, dal Direttore degli acquisti del Pentagono Michael Wynne e dal DSB._Preclude tale analisi e predetermina il risultato a favore del Boeing 767, prima ancora dell'inizio dello studio^._L'organizzazione attivista del Progetto di vigilanza del governo lo ha definito ^un caso da manuale di favoritismo nei confronti di un unico appaltatore della difesa.^_L'assistente alla segreteria per gli acquisti dell'Aeronautica militare Marvin Sambur ha difeso la considerazione esclusiva di Boeing operata dall'Aeronautica militare, affermando: ^Non si trattava di un processo di offerta competitiva._All'Aeronautica militare √® stato ordinato dal Congresso di collaborare con Boeing sul nuovo programma di aerocisterne^._Boeing aveva assunto in precedenza il vice sottosegretario civile per gli acquisti dell'Aeronautica militare Darleen Druyun._Ci√≤ ha scatenato una polemica sul conflitto di interesse, concretizzatasi in accuse di reato grave contro il direttore finanziario di Boeing, Michael Sears per averla assunta illegalmente._L'ex personale militare spesso viene assunto da appaltatori della difesa per acquisire influenza negli appalti._Alcuni giorni dopo le osservazioni del senatore McCain, l'Aeronautica militare ha affermato che l'appalto per la sostituzione delle aerocisterne sarebbe ripreso come gara pubblica._Il vice segretario alla Difesa Wolfowitz ha pubblicato un articolo aperto nell'Archivio del congresso, che afferma:_^Dopo aver selezionato un'alternativa adeguata, abbiamo intenzione di indire un bando^.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/12067-textpro.txt.txp"
+},
+{
+"text": "China Eastern Airlines acquister√\u2020 venti nuovi jet Airbus A320_18 giugno 2009_China Eastern Airlines ha dichiarato gioved√¨ di aver firmato un contratto per l'acquisto di una ventina di jet passeggeri Airbus A320, per 9,9 miliardi di yuan (circa 1,4 miliardi di dollari)._La compagnia aerea, terza per dimensioni in Cina, ha firmato l'accordo a Parigi il 15 giugno._La societ√\u2020 ha dichiarato che gli aerei avrebbero soddisfatto la domanda aggiuntiva sulle rotte nazionali di trasporto passeggeri._L'accordo √® stato approvato all'unanimit√\u2020 dal consiglio di amministrazione di China Eastern._Il quotidiano China Daily ha riferito che la trattativa si trova in attesa di approvazione da parte delle autorit√\u2020 aeronautiche cinesi._L'avvio della consegna degli aerei √® previsto per il 2011 e terminer√\u2020 due anni dopo._L'Airbus A320 √® un aereo a corridoio singolo ed √® il modello pi√π venduto di jet Airbus._Pu√≤ ospitare fino a 150 persone ed √® utilizzato principalmente per le tratte a media e breve percorrenza.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/8740-textpro.txt.txp"
+},
+{
+"text": "Airbus offre finanziamenti per la ricerca delle scatole nere del disastro Air France_30 luglio 2009_Airbus ha annunciato la propria intenzione di contribuire per una cifra compresa tra i 12 e i 20 milioni di euro (da 16 a 28 milioni di dollari circa) per finanziare una ricerca pi√π estesa delle scatole nere del volo Air France 447._Il jet di linea Airbus A330 √® precipitato nell'Oceano Atlantico nel mese di giugno, provocando la morte di tutte le 228 persone a bordo._L'amministratore delegato Thomas Enders ha dichiarato in un comunicato: ^Vogliamo sapere che cosa sia successo, perch√© il miglioramento della sicurezza aerea √® la nostra massima priorit√\u2020._Siamo totalmente impegnati nel sostenere l'ampliamento della ricerca, con un contributo significativo^._Bench√© di norma i costruttori forniscano assistenza tecnica alle indagini, l'imparzialit√\u2020 richiesta rende la proposta di finanziamento un evento raro, come ribadito dal portavoce di Airbus Stefan Schaffrath, che ha definito senza precedenti la mossa della societ√\u2020._^Si tratta di un incidente eccezionale e di una situazione eccezionale^, ha spiegato Schaffrath._L'agenzia investigativa francese BEA ha richiesto assistenza finanziaria per la ricerca  sia a Airbus sia a Air France._Air France ha discusso questa possibilit√\u2020 con la BEA._Gli investigatori hanno gi√\u2020 rinunciato a cercare il registratore vocale della cabina di pilotaggio e il registratore dei dati di volo utilizzando il metodo convenzionale di tracciamento dei segnali audio ^pinger^, le cui batterie si esauriscono nell'arco di 30-40 giorni._Le ricerche sono tuttora in corso, con l'impiego di apparecchiature di rilevazione a rimorchio da una nave francese, ma se il tentativo si rivelasse infruttuoso la BEA  richieder√\u2020 finanziamenti per un'ulteriore ricerca della durata di tre mesi._Il sistema ACARS (Aircraft Communications Addressing and Reporting System, ovvero il sistema di indirizzamento e segnalazione delle comunicazioni dell'aeromobile) dell'aereo era riuscito a trasmettere informazioni riguardanti problemi a bordo prima dell'incidente._I dati ACARS suggeriscono che l'aereo aveva riportato una perdita di letture fondamentali, tra cui la velocit√\u2020, facendo ricadere i sospetti sul sistema pitot-statico che fornisce diverse misurazioni._Airbus aveva gi√\u2020 raccomandato la sostituzione di un componente di tale sistema, i tubi di Pitot, sugli A330._Air France non la applic√≤ sul velivolo coinvolto nell'incidente, bench√© ora l'intera flotta disponga di tale modifica._Da allora, sono stati identificati altri tre incidenti riconducibili a circostanze analoghe._Il National Transportation Safety Board degli Stati Uniti sta indagando sui due verificatisi su suolo americano, mentre all'inizio del corrente mese un altro Air France A330 equipaggiato con i nuovi tubi ha subito una serie di problemi analoga sulla rotta dall'Italia alla Francia.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/11506-textpro.txt.txp"
+},
+{
+"text": "Volo di inaugurazione  per il Boeing 787 ^Dreamliner^_16 dicembre 2009_L'ultimo arrivato degli aeromobili commerciali Boeing, il 787 ^Dreamliner^, ha compiuto il primo volo di prova marted√¨ a Everett, Washington, alle 18:00 UTC._Boeing afferma che il nuovo aereo di linea bimotore, a fusoliera larga con oltre 290  posti a sedere, √® pi√π efficiente in termini di consumo di carburante rispetto ai precedenti modelli Boeing._Il lancio del ^Dreamliner^ avviene con quasi due anni e mezzo di ritardo._Il progetto √® stato afflitto da vari problemi, tra cui scioperi, carenza di componenti e problemi di progettazione._Il velivolo avrebbe totalizzato fino a oggi 840 ordini, anche se alcuni sono stati cancellati a causa dei ritardi, producendo un valore intorno a 140 miliardi di dollari (96 miliardi di euro, 86 miliardi di sterline) per Boeing._Un analista aerospaziale, Richard Aboulafia, ha dichiarato che ^[Il volo di prova] fornir√\u2020 una percezione assolutamente necessaria del fatto che il programma sia nuovamente regolato da una pianificazione , ma  ancora lontano dal risultato finale.^_Airbus, la rivale europea di Boeing, sta preparando il lancio di un velivolo simile, l'A350, nel 2013.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/153-textpro.txt.txp"
+},
+{
+"text": "Problema tecnico al volo inaugurale di Airbus A400M_25 gennaio 2010_Airbus ha confermato l'esistenza di un problema software durante il primo volo del suo aereo da trasporto militare Airbus A400M._Si √® trattato di un problema di entit√\u2020 relativamente secondaria che riguardava il software di controllo dei motori._L'inconveniente non era stato segnalato al momento del primo volo effettuato dall'aereo, l'11 dicembre (avvenuto con quattro anni di ritardo e con un extra budget di 7,3 miliardi dollari, a causa di ci√≤ che i produttori definiscono ^interferenza politica^) ed √® emerso all'attenzione pubblica solo in questo fine settimana, quando la rivista tedesca Der Spiegel ha pubblicato in un rapporto alcuni documenti riservati del produttore del motore Europrop ._Il computer di guida e il sistema di backup sono andati fuori uso dopo trenta minuti._Il problema √® stato risolto, secondo il portavoce di Airbus Jaime Perez-Guerra._A quanto pare, il difetto ha costretto i piloti a disattivare un motore, consentendo alle pale di girare liberamente._Da allora, sostiene, l'aereo ha volato per quasi 30 ore con un risultato superiore alle aspettative._Tuttavia si sono aggiunti ulteriori costi che l'appaltatore aerospaziale europeo EADS  desidera vengano sostenuti dalle sette nazioni clienti del progetto:_Belgio, Francia, Germania, Lussemburgo, Spagna, Turchia e Regno Unito._Airbus ha richiesto che la decisione in merito alla modalit√\u2020 di prosecuzione del progetto venga presa entro la fine del mese.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/3161-textpro.txt.txp"
+},
+{
+"text": "Problemi al motore ritardano il tour del superjumbo di Airbus_5 novembre 2005_La partenza dalla Francia del nuovo aereo di linea di Airbus, il superjumbo A380, per un tour in Asia e Australia √® stata ritardata, producendo una riorganizzazione delle sue apparizioni pubbliche._A titolo di ^misura precauzionale^, Airbus ha annunciato la sostituzione di due dei motori Rolls-Royce Trent 900 sul prototipo dell'aereo di linea prima dell'inizio del tour._Singapore rimane la prima tappa dell'aereo, dove la compagnia Singapore Airlines esporr√\u2020  il velivolo che intende lanciare nel servizio di trasporto passeggeri a novembre 2006._Ci si aspetta che l'Airbus 380 esibisca il marchio di Singapore Airlines al suo arrivo, l'11 novembre, tre giorni pi√π tardi di quanto originariamente previsto._Il gigante alato quindi salter√\u2020 la tappa prevista in Malesia e voler√\u2020 direttamente a Sydney, poi a Melbourne e infine a Brisbane, in vista dei festeggiamenti per l'85¬∞ anniversario di Qantas il 16 novembre._Qantas prevede di iniziare le operazioni con l'A380 a partire da aprile 2007._La visita in Malesia √® stata riprogrammata per il 17 novembre, durante il volo di ritorno in Francia._Non √® chiaro se siano confermate le date originariamente previste per il tour australiano, alcune fonti indicano che la prima tappa dell'aereo a Brisbane, l'11 novembre, possa essere cancellata in favore di una breve apparizione il 16 novembre.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/21272-textpro.txt.txp"
+},
+{
+"text": "Boeing consegna il primo 787 Dreamliner pronto per entrare in servizio_8 agosto 2011_Con un ritardo di tre anni rispetto ai tempi inizialmente previsti, Boeing ha rilasciato il primo modello destinato a un cliente._La compagnia aerea giapponese (ANA) attendeva la consegna per maggio 2008, ma ricever√\u2020 il velivolo il mese prossimo._L'aereo garantisce una maggiore efficienza in termini di consumo carburante poich√© √® il primo modello costruito in materiali compositi di plastica e carbonio, pi√π leggeri rispetto ai materiali convenzionali._Boeing rivela di aver ricevuto 800 ordini a 200 milioni per aereo._Il cliente di lancio ANA ne ha ordinati 55._Seppur ritardati dal sistema di outsourcing di Boeing verso un'ampia serie di subappaltatori, sono stati sviluppati due modelli._Il 787-8 pu√≤ trasportare tra i 210 e i 250 passeggeri; il 787-9 ha una capacit√\u2020 di 250-290._Le compagnie aeree scelgono la disposizione dei posti a sedere che desiderano._Dopo l'arrivo a Tokyo il mese prossimo del 787, gi√\u2020 marchiato ANA, la compagnia aerea destiner√\u2020 il suo primo volo commerciale a un charter speciale da Tokyo a Hong Kong._^Abbiamo in programma di utilizzare il 787 per espandere la nostra attivit√\u2020, in particolare le rotte internazionali^, spiega il vice presidente senior di ANA Mitsuo Morimoto._^Prevediamo di incrementare il fatturato derivante dalle tratte internazionali in modo significativo e il 787 svolger√\u2020 un ruolo fondamentale^, aggiunge rimarcando la possibilit√\u2020 del 787 di compiere voli verso l'Europa o gli Stati Uniti ._^Stiamo realizzando la consegna del primo aereo, il primo 787^ commenta entusiasta Scott Fancher, responsabile del progetto 787 e vice presidente di Boeing._^Si tratta di un momento meraviglioso per chi ha lavorato sul programma da cinque, sei, sette anni qui in Boeing e per i nostri partner in tutto il mondo^._Boeing ammette la necessit√\u2020 di aumentare il ritmo di produzione da due aerei al mese a dieci, per poter soddisfare la domanda dei clienti._^√à una sfida straordinaria, nessuno in precedenza ha mai costruito un aereo a fusoliera larga al ritmo di 10 al mese^ afferma lo scrittore John Ostrower.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/30989-textpro.txt.txp"
+},
+{
+"text": "Airbus lancia l'aereo di linea per il trasporto passeggeri pi√π grande del mondo_18 gennaio 2005_In una cerimonia cui hanno partecipato diversi leader politici europei e 5.000 ospiti VIP, Airbus ha svelato i progetti per l'A380, un aereo a doppio ponte che pu√≤ trasportare fino a 840 persone, tutte in Economy Class (550 per un Boeing 747), oppure 555 persone nella configurazione tipica a tre classi miste._Il nuovo velivolo strapper√\u2020 il titolo di aereo pi√π grande del mondo al rivale Boeing 747._Il nuovo progetto imminente di Boeing, il 7e7, non tenta di competere direttamente con l'A380, aspira piuttosto a offrire un volo pi√π efficiente e confortevole per 200-250 posti._L'amministratore delegato di Airbus Noel Forgeard ha dichiarato di prevedere che le vendite del velivolo superino le 250 richieste per consentire il pareggio del progetto._A oggi, sono stati ricevuti 149 ordini confermati per i velivoli._Airbus si augura che le vendite superino la quota 700._La societ√\u2020 √® attualmente in trattativa con la Cina riguardo alle possibili vendite in tale area._Il primo volo di prova del velivolo potrebbe aver luogo gi√\u2020 a marzo mentre il primo volo commerciale √® previsto a met√\u2020 del 2006 dall'aeroporto Changi di Singapore._La compagnia aerea britannica e americana Virgin Atlantic ha acquistato sei di questi aerei che intende attrezzare con palestre e bar, in aggiunta ai sedili.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/3451-textpro.txt.txp"
+},
+{
+"text": "Le compagnie aeree cinesi concordano l'acquisto del Boeing 787 Dreamliner per 7,2 miliardi di dollari_29 gennaio 2005_I funzionari della Repubblica Popolare Cinese hanno deciso di acquistare 60 aerei Boeing 787 Dreamliner in un accordo del valore di 7,2 miliardi di dollari._In Cina, gli aerei di linea vengono scelti e acquistati dal governo, che poi li distribuisce alle diverse compagnie aeree._L'accordo preliminare vedr√\u2020 Dreamliner consegnato a sei compagnie aeree: Air China, China Eastern Airlines, China Southern Airlines, Hainan Airlines, Shanghai Airlines and Xiamen Airlines._Le consegne sono previste in tempo per le Olimpiadi di Pechino 2008._Il velivolo, un tempo chiamato 7E7, √® stato rinominato al momento dell'annuncio dell'accordo._Boeing avvier√\u2020 la produzione nel 2006 e l'aereo dovrebbe entrare in servizio di linea nel 2008._Ospiter√\u2020 dalle 200 alle 300 persone e disporr√\u2020 di un'autonomia dalle 3.500 alle 8.500 miglia nautiche._Grazie all'impiego di materiali e di progetti di ultima generazione, in termini di consumo carburante avr√\u2020 un'efficienza superiore del 20% rispetto all'equivalente velivolo attualmente esistente.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/30531-textpro.txt.txp"
+},
+{
+"text": "Con la consegna dell'ultimo 717 a AirTran, Boeing conclude l'era Douglas_29 maggio 2006_Boeing Commercial Airplanes marted√¨ ha consegnato l'ultimo jet 717 realizzato per AirTran Airways, con cerimonie a Long Beach, in California, concludendo cos√¨ la produzione di jet McDonnell Douglas._^AirTran Airways esprime un ringraziamento ai molti dipendenti Boeing per il duro lavoro e la dedizione profusi nel corso degli anni, che ci hanno consentito di assemblare una flotta di aeromobili senza eguali a livello mondiale nel settore del trasporto aereo^, ha annunciato Joe Leonard, presidente e direttore generale di AirTran Airways._Il Boeing 717 √® stato l'ultimo dei 15599 aerei costruiti dallo stabilimento di Long Beach, la storica sede di Douglas Aircraft e McDonnell Douglas._Segna inoltre la fine della famosa famiglia di aerei DC-9, che ha venduto oltre 2.400 unit√\u2020 nel corso dei suoi 41 anni di storia._Nel 1995, McDonnell Douglas lanci√≤ il MD-95, divenuto in seguito Boeing 717, con la fusione tra McDonnell Douglas e Boeing nel 1996._Il 717 aveva risentito di una lentezza nelle vendite nel corso di tutta la sua storia, con 155 aerei ordinati._A gennaio 2005, Boeing ha annunciato l'annullamento del programma 717 dopo il completamento di tutti gli ordini in sospeso._La fine del programma 717 lascia il cargo militare C-17 come unico jet rimasto costruito in California._Alcuni lavoratori del programma 717 sono stati trasferiti al programma C-17._Anche il suo futuro √® incerto, dato che il contratto di produzione del velivolo di Boeing scade nel 2008.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/25429-textpro.txt.txp"
+},
+{
+"text": "Boeing presenta il 777 a lunga percorrenza_17 febbraio 2005_Boeing ha presentato una nuova versione del suo aereo di linea 777 ad autonomia elevatissima, in grado di volare da Londra a Sydney senza scalo._Il 777-200LR √® in grado di volare per 9.420 miglia nautiche (17.446 km) con 301 passeggeri a bordo, dimostrando un'autonomia superiore a qualsiasi altro aereo di linea del mondo._Il velivolo pu√≤ volare senza scali da New York a Singapore e da Los Angeles a Dubai a pieno carico di passeggeri e bagagli; √® stato chiamato Worldliner da Boeing per rimarcare la sua capacit√\u2020 di collegare praticamente qualsiasi coppia di citt√\u2020 sulla Terra._Sebbene possa volare da Londra a Sydney senza scali, il 777-200LR dovr√\u2020 interrompere il viaggio di ritorno per fare rifornimento, a causa della direzione dei venti dominanti nell'atmosfera superiore._Finora Boeing ha ricevuto cinque ordiniper il 777-200LR  da due clienti, da quando √® stato annunciato nel febbraio 2000._Il primo aereo del nuovo modello sar√\u2020 consegnato a Pakistan International Airlines a gennaio 2006._EVA Airways √® l'altro cliente di lancio._Il primo volo √® previsto ai primi di marzo._Il 777-200LR costituir√\u2020 la base per una versione del 777 interamente destinata al trasporto merci, annunciata lo scorso novembre._La rivale europea di Boeing, Airbus, che ha superato Boeing per numero di vendite dal 2003, √® convinta che il futuro degli aerei di linea passeggeri sia rappresentato da aeromobili di grandi dimensioni, come il suo nuovo aereo di linea A380 a doppio ponte, capace di trasportare fino a 840 persone tra un numero relativamente ridotto di grandi nodi aeroportuali in tutto il mondo._I passeggeri dovrebbero poi prendere voli di collegamento per raggiungere le proprie destinazioni finali._Boeing, invece, ritiene che i passeggeri preferiscano voli diretti tra pi√π aeroporti locali, troppo piccoli per gestire aerei come l'A380.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/17734-textpro.txt.txp"
+},
+{
+"text": "Singapore Airlines attende un risarcimento per i ritardi del A380_5 ottobre 2006_Singapore Airlines dichiara di essere in attesa di un risarcimento da parte di Airbus per il prolungato ritardo nella consegna del suo nuovo superjumbo A380._La consegna dell'aereo commerciale a doppio ponte, prevista originariamente entro la fine dell'anno, √® stata posticipata a ottobre 2007._Il motivo principale del ritardo √® stato ricondotto a problemi rilevati lungo i 500 km di cablaggio del velivolo._In una dichiarazione pubblicata sul sito web di Airbus, la societ√\u2020 ha spiegato che ^la causa principale del problema √® il fatto che il modello digitale in 3D, che semplifica la progettazione del sistema di cablaggio elettrico, √® stato implementato in ritardo, con il personale coinvolto nell'incarico ancora in fase di apprendimento^._Airbus attualmente √® in ritardo di due anni._In una dichiarazione, SIA ha rivelato che ^Tali ritardi sono deludenti; tanto pi√π che il programma di test di volo e di certificazione sta procedendo bene e i ritardi sono imputabili a problematiche di produzione^._Gli analisti prevedono che i risarcimenti possano arrivare a qualche centinaio di milioni di dollari._SIA ha dichiarato che i dettagli dei risarcimenti saranno mantenuti riservati._Singapore Airlines √® la prima compagnia aerea a far volare l'A380 ed √® in attesa di ricevere i primi quattro aerei.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/26315-textpro.txt.txp"
+},
+{
+"text": "Boeing pu√≤ di nuovo presentare un'offerta per contratti di lancio nello spazio degli Stati Uniti_6 marzo 2005_Le divisioni aziendali di Boeing, Launch Systems, Launch Services e Delta Program, possono ancora una volta presentare un'offerta per aggiudicarsi contratti di lancio nello spazio degli Stati Uniti, lo annuncia l'USAF ._Boeing era stato sospesa dal 24 luglio 2003 per aver violato la legge federale._La societ√\u2020 era stata sorpresa in possesso di migliaia di pagine di documentazione appartenente a Lockheed Martin, rivale di Boeing nel corso del processo di selezione per l'approvvigionamento del veicolo di lancio evoluto monouso, nel 1998._L'USAF e Boeing hanno firmato un accordo provvisorio per tutelare gli interessi dell'Aeronautica militare._L'accordo prevede la reintroduzione della sospensione, nel caso in cui Boeing venga accusata o condannata, o in caso di rinvenimento di nuove prove._Boeing dovr√\u2020 sottoporre a verifica esterna le misure correttive adottate e non pu√≤ imputare all'Aeronautica militare i relativi costi._Le responsabilit√\u2020 gestionali interne per la pratica etica sono state modificate._Atlas V di Lockheed Martin e Delta IV di Boeing sono due tipologie di razzi monouso, progettati per ridurre il costo dei lanci spaziali.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/6432-textpro.txt.txp"
+},
+{
+"text": "Airbus annuncia tagli per 10.000 posti di lavoro_28 febbraio 2007_Airbus, il pi√π grande produttore di aerei in Europa, ha annunciato tagli per 10.000 posti di lavoro nel corso dei prossimi quattro anni._La notizia arriva a seguito di un importante programma di ristrutturazione, avviato da EADS, la societ√\u2020 capogruppo, a causa dell'insufficiente efficienza dell'azienda._Louis Gallois, amministratore delegato di Airbus, ha anticipato che la societ√\u2020 prevede di tagliare circa 4.300 posti di lavoro in Francia, 3.700 in Germania, 1.600 nel Regno Unito e 400 in Spagna._Circa la met√\u2020 dei tagli andr√\u2020 a colpire subappaltatori e lavoratori temporanei._L'attuale riduzione dei dipendenti di Airbus ammonta a circa 5.000 o al 9% della forza lavoro europea complessiva, costituita da 55.000 dipendenti a tempo pieno._Sebbene Gallois auspichi di raggiungere tale obiettivo principalmente attraverso uscite fisiologiche, i sindacati erano contrariati._I funzionari sindacali informano che quasi 14.000 dipendenti, in quattro siti francesi, hanno fatto due ore di sciopero mercoled√¨ pomeriggio per protestare contro i tagli._^La risposta √® stata ampiamente condivisa^, ha commentato Julien Talavan, un portavoce di Force Ouvri√®re, il principale sindacato di Airbus in Francia._^Questo √® solo l'inizio^, ha annunciato, alludendo alle future iniziative._Questa mossa giunge a seguito dei ritardi ampiamente pubblicizzati del superjumbo commerciale di linea A380._L'annuncio di ristrutturazione comprende anche la proposta di vendita o la chiusura di 3 stabilimenti.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/27342-textpro.txt.txp"
+},
+{
+"text": "A380 effettua il volo inaugurale negli Stati Uniti_19 marzo 2007_L'atterraggio dell'Airbus A380, l'aereo passeggeri pi√π grande del mondo, era stato programmato per luned√¨, negli Stati Uniti d'America, dopo un volo di prova._Uno degli A380 sta volando da Francoforte a Chicago passando per New York; l'aereo trasporter√\u2020 circa 500 persone._√à stata presentata come la prima volta in cui l'aereo trasporta un numero quasi normale di passeggeri, anche se la maggior parte √® costituita da personale di Airbus e della compagnia aerea tedesca Lufthansa._Un secondo A380 inoltre √® atteso negli Stati Uniti per \u201aÄãluned√¨, ma senza passeggeri._Il marchio lo identifica come un volo Qantas, con partenza da Francoforte e destinazione l'aeroporto di Los Angeles LAX._La prima tappa del viaggio in direzione di New York verr√\u2020 condotta con un numero di volo Lufthansa e l'arrivo all'aeroporto di New York John F. Kennedy √® previsto alle 12:30 EST (16:30 UTC)._I voli di prova sono utilizzati per monitorare ogni aspetto, dalla facilit√\u2020 di attracco dell'aereo al terminal gate alle modalit√\u2020 di funzionamento in volo della ristorazione e dei servizi di intrattenimento._Le consegne a Singapore Airlines, il cliente di lancio, non sono previste prima di ottobre, con un ritardo di due anni._I ritardi nella produzione dell'A380 sono costati a Airbus pi√π di 6 miliardi di dollari._Airbus aveva anticipato l'eventualit√\u2020 dell'insorgenza di costi aggiuntivi._Tali problemi finanziari hanno portato al recente annuncio di un programma di ristrutturazione di Airbus, denominato Power8, in cui sono previsti tagli per 10.000 posti di lavoro e la vendita di numerosi stabilimenti a partner di Airbus._La Francia perder√\u2020 4.300 posti di lavoro, seguita dalla Germania con una perdita di 3.700 posti di lavoro, mentre il Regno Unito e la Spagna vedranno rispettivamente il taglio di 1.600 e 400 posti di lavoro._Il governo belga ha annunciato la propria disponibilit√\u2020 a erogare aiuti fino a 150 milioni di euro (199 milioni di dollari) in favore dei subappaltatori fornitori di Airbus che impiegano migliaia di lavoratori.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/20583-textpro.txt.txp"
+},
+{
+"text": "Aer Lingus compra dodici nuovi Airbus a lunga percorrenza_9 giugno 2007_La compagnia di bandiera irlandese Aer Lingus ha acquistato 12 nuovi aeromobili Airbus a lunga percorrenza come mezzo di modernizzazione della propria flotta a lungo raggio e per il miglioramento della propria rete transatlantica._In base all'accordo, Aer Lingus Group PLC ha annunciato che ricever√\u2020 sei nuovi aerei A330-300E tra il 2009 e il 2011, poi tra il 2014 e il 2016 sono previsti sei nuovi aerei A350 XWB (a fusoliera extra larga), un nuovo progetto attualmente in fase di sviluppo da parte di Airbus._Aer Lingus dispone inoltre di opzioni per altri sei A350 da esercitare entro il 2018._Aer Lingus dispone gi√\u2020 di una flotta completa di Airbus in funzione, composta da 30 velivoli a corto raggio (24 A320 e 6 A321) e da otto A330 a lungo raggio, ma ha considerato l'acquisto dei nuovi aerei di linea a lungo raggio come una priorit√\u2020 assoluta, in quanto la societ√\u2020, in precedenza statale, √® stata quotata sui mercati azionari britannici e irlandesi a settembre 2006._La compagnia aerea si era rivolta alla rivale di Airbus, Boeing, per un potenziale accordo sul loro nuovo velivolo 787, ma l'amministratore delegato di Aer Lingus, Dermot Mannion, ha dichiarato di ritenere il velivolo Airbus ^migliore riguardo ai consumi di carburante e migliore per autonomia^ rispetto al 787._Ha aggiunto inoltre che, sebbene il prezzo di listino dell'aereo ammontasse a 1,78 miliardi di euro (2,4 miliardi di dollari), Airbus lo aveva offerto con ^sconti eccezionali^._Alcuni degli A330 saranno sostituiti dal nuovo velivolo._Oltre alle nuove rotte verso gli Stati Uniti, Mannion ha annunciato anche la possibilit√\u2020 di ulteriori itinerari grazie al nuovo velivolo, affermando: ^Daremo priorit√\u2020 gli Stati Uniti (ma) teniamo d'occhio ci√≤ che sta accadendo in Estremo Oriente e Sud Africa^._La compagnia aerea gi√\u2020 offre voli a New York, Boston, Chicago, Los Angeles, Dubai e ha di recente inaugurato tre nuove rotte statunitensi, a San Francisco, Orlando e Washington._Le azioni Aer Lingus nella Borsa valori irlandese sono calate del 2,5 per cento, a 2,73 \u201aÇ¨ (3,68 $) il giorno dell'annuncio dell'accordo._Rischia il fallimento se non interviene il salvataggio da parte degli azionisti._Ryanair, rivale di Aer Lingus, sta tentando l'acquisizione di Aer Lingus da dicembre; in caso di successo dell\u201aÄôofferta, il nuovo aeromobile potrebbe risultare superfluo, in quanto Ryanair intende terminare i servizi transatlantici._Tuttavia, il governo irlandese, che detiene una quota del 25 per cento di Aer Lingus, non approva l'acquisizione e neppure i fondi controllati dai dipendenti di Aer Lingus, che detengono pi√π del 15 per cento delle azioni._Ryanair detiene una quota del 25 per cento di Aer Lingus._Inoltre √® improbabile che l'acquisizione riceva l'approvazione delle autorit√\u2020 dell'Unione europea._Mannion ha affermato a proposito dell'integrazione del nuovo aeromobile ^L'A350 XWB √® in sintonia con i nostri ambiziosi piani di espansione delle rotte attuali e di apertura di nuove tratte dal nostro nodo aeroportuale di Dublino._Disponiamo gi√\u2020 di una flotta completa Airbus e il nuovo velivolo vi si integra perfettamente^.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/1494-textpro.txt.txp"
+},
+{
+"text": "Aeroflot negozia l'acquisto di 22 nuovi aeromobili Boeing 787 Dreamliner_10 giugno 2007_La compagnia di bandiera russa Aeroflot ha negoziato l'acquisto di 22 nuovi Boeing 787 Dreamliner, un velivolo di Boeing  attualmente in fase di sviluppo._I primi aerei saranno consegnati nel 2014._Il Dreamliner sar√\u2020 il primo aereo commerciale realizzato prevalentemente con materiali compositi in fibra di carbonio, al posto dell'alluminio usato in precedenza._L'accordo √® stato annunciato nel corso di un grande business forum che il presidente Vladimir Putin ha istituito per mostrare il ruolo del proprio Paese sul mercato internazionale._L'accordo ha rappresentato il fulcro della manifestazione._La vendita √® il risultato di un accordo iniziato tra Aeroflot e l'azienda di Chicago Boeing  lo scorso anno, ma le trattative si erano interrotte a causa di un peggioramento delle relazioni tra Stati Uniti e Russia._Aeroflot ha subito danni a causa del ritardo._Se la vendita fosse andata in porto lo scorso anno, l'aereo sarebbe stato consegnato entro il 2011._Il velivolo ha un valore di catalogo, antecedente alle modifiche, di 3,5 miliardi di dollari, anche se nessuna delle due societ√\u2020 interessate intende rivelare l'accordo effettivo raggiunto._Alla domanda se l'accordo dovesse essere considerato come un passo verso una risoluzione della frattura tra Russia e Stati Uniti, il vice presidente esecutivo di Boeing Scott Carson ha risposto: ^Rappresenta un rapporto commerciale tra la nostra societ√\u2020 e Aeroflot, ne sono davvero orgoglioso^._Boeing ha seguito una politica di coinvolgimento della Russia che risale ai primi anni '90._Pi√π recentemente, Boeing ha stipulato un accordo con il produttore russo Sukhoi per la commercializzazione in tutto il mondo e il supporto post-vendita dei propri aeromobili da trasporto regionale, i Superjet, e ha raggiunto un accordo di cooperazione generale con Unified Aircraft di propriet√\u2020 del Cremlino._Possiede inoltre un centro di progettazione a Mosca, con 1.400 dipendenti e un contratto di 30 anni per la fornitura di componenti in titanio con la russa VSMPO-Avisma, che Boeing stima per un valore di 18 milioni di dollari._√à stato riferito che la ripresa dell'accordo tra Boeing e Aeroflot √® intervenuta dopo la promessa di Boeing di fornire assistenza tecnica a Aeroflot per il nuovo velivolo._L'attuale flotta di Aeroflot di aeromobili Boeing e Airbus √® stata realizzata durante l'epoca sovietica._Aeroflot sostiene che l'accordo non pregiudica i piani per l'acquisto di nuovi Airbus in un secondo momento.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/18598-textpro.txt.txp"
+},
+{
+"text": "Boeing presenta il nuovo 787 Dreamliner_9 luglio 2007_Il produttore di aerei Boeing ha presentato il nuovo 787 Dreamliner nel proprio stabilimento di Everett vicino a Seattle, Washington, negli Stati Uniti._La scelta della data √® ricaduta su domenica, per la corrispondenza con il numero di designazione del velivolo se scritto nel formato americano, 7/8/07._L'evento ha visto la partecipazione di 15.000 persone tra dipendenti, clienti, fornitori e funzionari del governo e della comunit√\u2020 locale._Scott Carson, presidente e amministratore delegato di Boeing Commercial Airplanes, ha dichiarato ^√à stato un giorno meraviglioso ed emozionante per celebrare questo aereo innovativo insieme ai nostri clienti, dipendenti, partner fornitori e alle nostre comunit√\u2020.^_Il 787, di medie dimensioni, ospita tra i 210 e i 330 passeggeri e sar√\u2020 il primo aereo di linea commerciale realizzato prevalentemente in compositi in fibra di carbonio._Boeing sostiene che la conseguente riduzione di peso rispetto al tradizionale alluminio offrir√\u2020 una maggiore efficienza in termini di consumo di carburante, a vantaggio sia degli operatori sia dell'ambiente._Secondo la societ√\u2020, il 787 Dreamliner consuma il 20 per cento in meno di carburante per passeggero rispetto ai velivoli di dimensioni simili._Sabato scorso, Boeing ha annunciato 35 nuovi ordini provenienti dalla compagnia aerea tedesca Air Berlin e da ALAFCO Aviation Lease &amp; Finance del Kuwait, portando il totale degli ordini a 677 per conto di 47 clienti._A prezzo di listino, tali ordini sono del valore di 5,62 miliardi dollari._Il primo volo √® previsto per il mese di agosto o settembre di quest'anno, con il primo cliente, All Nippon Airways, destinato a ricevere il primo aereo a maggio 2008._Il 787 dimostra la divergenza delle strategie adottate da Boeing e Airbus, il cui A380 a doppio ponte ha compiuto il suo primo volo ad aprile 2005 e dovrebbe entrare in servizio entro la fine dell'anno._Mentre l'Airbus A380 punta a far volare un gran numero di passeggeri tra i principali nodi aeroportuali, il Dreamliner √® destinato ad aeroporti pi√π piccoli, dove Boeing prevede uno spazio di crescita nel settore._All'inizio della giornata, Boeing ha ricevuto una lettera di congratulazioni da parte di Airbus._Il presidente della societ√\u2020 e amministratore delegato Louis Gallois ha dichiarato: ^Oggi √® un grande giorno nella storia dell'aviazione._Infatti, ogni volta che viene raggiunto un tale traguardo nel nostro settore, √® sempre frutto del duro lavoro da parte di persone dedicate ispirate dalla meraviglia del volo._Anche se domani Airbus ritorner√\u2020 nel mondo della competizione sfrenata, oggi √® il giorno di Boeing, una giornata per celebrare il 787^.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/25115-textpro.txt.txp"
+},
+{
+"text": "Volo di prova di Airbus A380 ritardato a seguito di un incidente_1 settembre 2007_Un volo di prova del nuovo superjumbo Airbus A380, il pi√π grande aereo passeggeri del mondo, √® stato ritardato oggi a seguito di un incidente in superficie all'aeroporto di Suvarnabhumi, che serve la citt√\u2020 di Bangkok, Thailandia._Il piccolo incidente √® avvenuto durante l'operazione di push back, quando l'aereo stava lasciando la piazzola di sosta prima del volo diretto al Chiang Mai International Airport._Mentre l'aereo veniva spinto indietro da un rimorchiatore Thai Airways International, l'aletta sinistra ha colpito il lato del capannone, contro il quale si √® accartocciata._Le alette, volte a migliorare il rendimento del carburante, sono parti non fondamentali._Dopo un sopralluogo, Airbus ha deciso di rimuovere entrambe le alette e di proseguire il volo senza tali componenti._L'aereo √® partito quattro ore dopo l'orario previsto per il decollo, alle 09:45 ora locale, trasportando 150 passeggeri._Il volo doveva smentire le critiche rivolte all'enorme aereo di linea, con un'apertura alare di 79 metri, secondo le quali sarebbe troppo grande (e quindi troppo complesso per il personale di terra)  per le operazioni pratiche nella maggior parte degli aeroporti._Dimostra inoltre i persistenti problemi all'aeroporto di Suvarnabhumi, che ha subito vari incidenti dalla sua apertura, avvenuta lo scorso settembre, il pi√π grave dei quali √® stata la scoperta di grandi crepe nelle piste di rullaggio dell'aeroporto, poco dopo l'apertura._Airbus ha affermato che proseguir√\u2020 con il tour dimostrativo dell'aereo in Asia.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/23242-textpro.txt.txp"
+},
+{
+"text": "Primo Airbus A380 consegnato_15 ottobre 2007_Il primo superjumbo A380, realizzato da Airbus, √® stato consegnato oggi a Singapore Airlines (SIA), con 18 mesi di ritardo._Dopo la consegna a Singapore, √® stato portato in volo a Tolosa, in Francia, per la cerimonia con circa 500 ospiti._L'aereo √® dotato di quattro motori Rolls-Royce Trent 900._Il primo volo decoller√\u2020 per un ^volo speciale di beneficenza^ da Singapore e atterrer√\u2020 a Sydney il 25 ottobre._I servizi eccezionali proseguiranno dal 28 ottobre._^Questa √® una pietra miliare per il programma A380 e vorrei esprimere il mio pi√π profondo apprezzamento a tutte le parti interessate._Voglio ringraziare i nostri team e tutti coloro che hanno lavorato duramente, giorni, notti e week-end, per la loro dedizione e il loro impegno^, ha dichiarato il presidente e amministratore delegato di Airbus Tom Enders.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/32421-textpro.txt.txp"
+},
+{
+"text": "Il primo A380 entra in servizio_17 ottobre 2007_Una pietra miliare nella storia dell'aviazione: il primo Airbus A380 √® atterrato al Changi International Airport di Singapore alle 18:40 (GMT +  8) dopo un volo di 12 ore dall'Airbus' Delivery Center._Il velivolo √® stato accolto da circa 400 ospiti, tra cui il primo ministro di Singapore Lee Hsien Loong, al Terminal 3, prossimo all'apertura, dell'aeroporto Changi International Airport._Nel suo discorso, il Primo Ministro ha elogiato Singapore Airlines (SIA), il vettore destinatario, e ha citato il suo successo come una fonte di orgoglio per tutti gli abitanti di Singapore._Ha aggiunto inoltre che l'atterraggio ha rappresentato una pietra miliare non solo per SIA, ma anche per il Changi International Airport, l'aeroporto nazionale principale._Tutti i terminal esistenti sono attualmente pronti a ricevere l'A380 e il Terminal 3 da 1,75 miliardi di SGD aprir√\u2020 i battenti a gennaio del prossimo anno._L'A380 eseguir√\u2020 un volo speciale di beneficenza il 25 ottobre da Singapore a Sydney ed entrer√\u2020 in servizio regolare sulla rotta Singapore-Sydney il 28 ottobre.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/31769-textpro.txt.txp"
+},
+{
+"text": "Il ministro dei trasporti indonesiano invita le compagnie aeree a non acquistare aerei europei a causa del divieto UE_20 dicembre 2007_Jusman Syafii Djamal, ministro dei trasporti per l'Indonesia, ha invitato le compagnie aeree locali a non acquistare aerei da produttori europei, come ad esempio Airbus._Si tratta di una risposta diretta alla decisione dell'Unione europea (UE) di aggiungere tutti i 51 vettori aerei dell'Indonesia all'elenco dei vettori aerei soggetti a divieto operativo nell'UE._L'UE ha preso la decisione di vietare il traffico aereo indonesiano a causa di una serie di incidenti avvenuti nel Paese, tra cui due grandi catastrofi di quest'anno, la perdita del volo 574 Adam Air Flight e ddel volo 200 di Garuda Indonesia, in cui sono morte rispettivamente 102 e 21 persone.__^Non abbiamo bisogno di comprare aerei dall'Europa fino a quando il divieto di volo persiste^ Detik.com cita le parole di Djamal, anche se Xinhua ha tradotto la citazione con:_^Finch√© il divieto resta in vigore, √® meglio non comprare [aerei] dall'Europa.^_^In caso di aerei acquistati e registrati come indonesiani [in Europa], siamo preoccupati per il fatto che tali aerei non possano volare in Indonesia, dato che gli aerei delle compagnie aeree indonesiane sono interdetti dallo spazio aereo europeo^, ha proseguito._Djamal, piuttosto, √® preoccupato perch√© i nuovi aerei europei dovrebbero essere trasportati in Indonesia prima della registrazione, con maggiori costi conseguenti da sostenere._L'annuncio, gi√\u2020 comunicato alle compagnie aeree due settimane fa, √® stato dato durante una conferenza stampa congiunta con il vice presidente indonesiano Jusuf Kalla a Giacarta._Djamal ha confidato ai giornalisti che l'alternativa migliore a suo parere sarebbe la revoca del divieto._^Il modo pi√π semplice √® revocare il divieto, che viola il principio della politica del cielo aperto^, ha dichiarato._Il presidente indonesiano Susilo Bambang Yudhoyono ha gi√\u2020 rinviato una visita diplomatica in Europa, adducendo il divieto come motivazione._Normalmente, il presidente vola su un aeromobile del vettore di bandiera nazionale di propriet√\u2020 dello stato, Garuda Indonesia._A Bruxelles, il 28 novembre, si √® tenuto un riesame della Commissione europea._Nonostante la rimozione dei divieti per il vettore di bandiera pakistana Pakistan International Airlines e per il vettore del Suriname, Blue Wing Airlines, le sanzioni per le compagnie aeree indonesiane sono rimaste in vigore._Diverse compagnie aeree locali stanno considerando la possibilit√\u2020 di espandere la propria flotta, valutando alcuni aerei di Airbus come possibili opzioni._Airbus, in particolare, applica un costo aggiuntivo per portare un aereo in Indonesia per la registrazione._^Si tratta di un costo aggiuntivo che deve essere pagato dalle compagnie aeree indonesiane che acquistano l'aereo (Airbus) dall'Europa, 200.000 dollari^ ha spiegato Djamal._^Per questo motivo invitiamo a non comprare aerei dall'Europa._Finch√© il divieto UE resta in vigore, verr√\u2020 applicato il pagamento supplementare^._Tuttavia, ha proseguito dicendo che se il produttore fosse disposto a sostenerne il costo, non contesterebbe l'acquisto del velivolo._Ha anche confermato che nessun funzionario indonesiano verr√\u2020 inviato in Europa per collaborare alla risoluzione della situazione.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/26815-textpro.txt.txp"
+},
+{
+"text": "Il pi√π grande aereo di linea per il trasporto passeggeri del mondo compie il suo primo volo_27 aprile 2005_L'aereo passeggeri pi√π grande del mondo, l'Airbus A380, ha effettuato il suo primo volo decollando da Tolosa, in Francia._Il decollo, alle 08:30 UTC, √® stato apparentemente normale e si √® svolto in perfetto orario._L'aereo √® spiccato verso i limpidi cieli blu con un equipaggio di volo di sei persone (tutte indossavano il paracadute come precauzione di sicurezza) e con venti tonnellate di apparecchiature di test a bordo._Circa 50.000 persone hanno visto il volo inaugurale, molte delle quali sedute sulle strisce di erba che costeggiano la pista._Altre persone hanno seguito il volo su un megaschermo eretto nel centro di Tolosa._Il volo di prova √® durato quattro ore, l'aereo ha fatto il giro del Golfo di Biscaglia, senza allontanarsi pi√π di 100 miglia da Tolosa e non ha superato le 10.000 miglia di quota._L'A380, noto per molti anni durante la sua fase di sviluppo come Airbus A3XX, sar√\u2020 di gran lunga il pi√π grande aereo di linea del mondo al momento della sua entrata in servizio._Il primo prototipo di A380 √® stato presentato nel corso di una sontuosa cerimonia a Tolosa, in Francia, il 18 gennaio 2005._Il suo numero di serie √® 001 ed √® stato immatricolato F-WWOW._Il nuovo Airbus inizialmente sar√\u2020 venduto in due versioni: la A380-800, con una configurazione completa a doppio ponte, in grado di trasportare 555 passeggeri nella disposizione a tre classi oppure fino a 800 passeggeri nella disposizione a sola classe economica ._L'autonomia prevista per il modello A380-800 √® di 8.000 miglia nautiche (14.800 chilometri)._Il secondo modello destinato al trasporto merci, A380-800F, porter√\u2020 150 tonnellate di carico per 5.600 miglia (10.400 chilometri)._Il costo del progetto ammonta finora a 8,4 miliardi di sterline, con 1 miliardo di sterline oltre il budget._Sono gi√\u2020 stati ordinati 144 aerei._Singapore Airlines, che sar√\u2020 la prima compagnia a far volare il nuovo gigante dell'aria nel luglio 2006, ha aperto un sito di prenotazione per il primo volo regolare.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/3828-textpro.txt.txp"
+},
+{
+"text": "Boeing porta a casa 11 miliardi di dollari in ordinazioni per aeromobili_27 aprile 2005_Boeing si √® assicurata due grandi ordini per nuovi aerei._Air Canada ha ordinato nuovi aerei di linea per un totale di 6 miliardi di dollari, mentre Air India ha firmato un accordo per un'ulteriore ordine da 7 miliardi di dollari._L'accordo con Air Canada prevede ordini definitivi per 18 modelli 777 e 14 del nuovo  787 Dreamliner, di medie dimensioni e a lunga autonomia._Sono inoltre incluse opzioni per 18 ulteriori 777 e 46 altri 787._L'ordine di Air India ha un valore di 6,8 miliardi dollari per 50 esemplari di 787._Air India sostiene che il nuovo aereo di linea consente un risparmio in termini di consumo di carburante di 300 milioni di dollari all'anno, mentre Air Canada ha stimato un risparmio di carburante del 30% rispetto ai propri 767._Air India ha aggiunto che il fattore decisivo √® rappresentato dai 20 posti aggiuntivi che il 787 offre rispetto a un Airbus A330 di pari dimensioni._Anche Korean Air ha acquistato 20 Dreamliner all'inizio del mese._Boeing attualmente vanta un totale di 237 ordini e impegni per il 787._Il Boeing 777 √® una famiglia di aeromobili bimotore a fusoliera larga e a lunga autonomia realizzata da Boeing Commercial Airplanes._Pu√≤ trasportare tra i 305 e i 550 passeggeri e ha un'autonomia da 5.600 a 8.870 miglia nautiche (da 10.400 a 16.400 chilometri)._Il primo volo del 777 √® stato effettuato nel 1994._Il Boeing 787, o Dreamliner, √® un aereo di linea per il trasporto passeggeri di medie dimensioni attualmente in fase di sviluppo da parte di Boeing Commercial Airplanes e l'entrata in servizio √® prevista per il 2008._Pu√≤ trasportare dai 200 ai 350 passeggeri a seconda della configurazione dei posti a sedere ed √® pi√π efficiente in termini di consumi rispetto agli aerei di linea che lo precedono._Inoltre, sar√\u2020 il primo grande aereo per il quale √® stato utilizzato materiale composito nella maggior parte della costruzione.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/14907-textpro.txt.txp"
+}
+],
+"story_cnt": [5],
+"text": "NewsReader timeline",
+"type": "default"
+}}

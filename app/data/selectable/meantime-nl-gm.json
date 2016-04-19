@@ -1,0 +1,2737 @@
+{ "timeline":
+{
+"actor_cnt": [97],
+"event_cnt": [64],
+"events": [
+{
+"actors": {
+"fn/Containing_object": ["ne:zo_%27_n_1.100_dealers"],
+"pb/A0": [
+"dbp:United_States",
+"dbp:General_Motors"
+],
+"pb/A1": ["ne:1.100_dealers"]
+},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Closure",
+"Body_movement"
+]
+},
+"climax": 100,
+"event": "ev1",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml#ev1",
+"labels": ["sluiten"],
+"mentions": [
+{
+"char": [
+"174",
+"182"
+],
+"sentence": ["3"],
+"terms": ["t_27"],
+"tokens": ["w28"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"47",
+"54"
+],
+"sentence": ["1"],
+"terms": ["t_6"],
+"tokens": ["w7"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"362",
+"370"
+],
+"sentence": ["4"],
+"terms": ["t_59"],
+"tokens": ["w60"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"735",
+"743"
+],
+"sentence": ["9"],
+"terms": ["t_124"],
+"tokens": ["w125"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["sluiten"],
+"sentence": "1",
+"size": "25.0",
+"time": "20090515"
+},
+{
+"actors": {
+"fn/Medium": [
+"ne:waaronder",
+"ne:14_fabrieken",
+"ne:25.000_tot_30.000_arbeidsplaatsen"
+],
+"pb/A1": [
+"ne:productiefaciliteiten",
+"dbp:Ford_Motor_Company",
+"ne:een_inkrimping_van_21_%25_%28_168.000_stuks"
+],
+"pb/AM-LOC": [
+"dbp:United_States",
+"dbp:Canada"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 93,
+"event": "ev4",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2006/8/19/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses_dutch_utf8.txt.xml#ev4",
+"labels": ["aan_kondigen"],
+"mentions": [
+{
+"char": [
+"5",
+"12"
+],
+"sentence": ["1"],
+"terms": ["t_1"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/2006/8/19/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"100",
+"107"
+],
+"sentence": ["3"],
+"terms": ["t_12"],
+"tokens": ["w13"],
+"uri": ["http://www.newsreader-project.eu/data/2006/8/19/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"351",
+"363"
+],
+"sentence": ["4"],
+"terms": ["t_54"],
+"tokens": ["w55"],
+"uri": ["http://www.newsreader-project.eu/data/2006/8/19/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["aan_kondigen"],
+"sentence": "1",
+"size": "11.625",
+"time": "20060101"
+},
+{
+"actors": {
+"fn/Buyer": [
+"ne:voor_%24_7%2c4_miljard",
+"dbp:New_York_City"
+],
+"fn/Goods": [
+"dbp:United_States",
+"dbp:Chrysler",
+"dbp:Daimler_AG"
+]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 90,
+"event": "ev3",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2007/5/14/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group_dutch_utf8.txt.xml#ev3",
+"labels": ["verkopen"],
+"mentions": [
+{
+"char": [
+"164",
+"172"
+],
+"sentence": ["3"],
+"terms": ["t_24"],
+"tokens": ["w25"],
+"uri": ["http://www.newsreader-project.eu/data/2007/5/14/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"16",
+"24"
+],
+"sentence": ["1"],
+"terms": ["t_1"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/2007/5/14/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"367",
+"375"
+],
+"sentence": ["5"],
+"terms": ["t_57"],
+"tokens": ["w58"],
+"uri": ["http://www.newsreader-project.eu/data/2007/5/14/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["verkopen"],
+"sentence": "1",
+"size": "11.25",
+"time": "20070514"
+},
+{
+"actors": {
+"fn/Circumstances": [
+"ne:aan",
+"ne:31.500_banen"
+],
+"fn/Place": ["dbp:General_Motors"],
+"fn/Recipient": [
+"ne:aan_het_merendeel_van_de_vakbondsleden_die_zijn_aangesloten_bij_united_auto_workers_%28_uaw_%29_%3a_62.000_man",
+"ne:werknemers"
+],
+"fn/Theme": [
+"ne:afkoop_en_vervroegd_pensioen",
+"ne:een_ontslagregeling",
+"ne:deze_deal",
+"dbp:Chrysler",
+"ne:hun_werknemers"
+]
+},
+"classes": {
+"eso": [
+"Placing",
+"Giving"
+],
+"fn": [
+"Supply",
+"Causation"
+]
+},
+"climax": 87,
+"event": "ev7",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml#ev7",
+"labels": ["aan_bieden"],
+"mentions": [
+{
+"char": [
+"165",
+"171"
+],
+"sentence": ["3"],
+"terms": ["t_26"],
+"tokens": ["w27"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"13",
+"19"
+],
+"sentence": ["1"],
+"terms": ["t_3"],
+"tokens": ["w4"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"570",
+"576"
+],
+"sentence": ["7"],
+"terms": ["t_97"],
+"tokens": ["w98"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["aan_bieden"],
+"sentence": "1",
+"size": "10.875",
+"time": "20120101"
+},
+{
+"actors": {
+"fn/Jurisdiction": ["ne:een_plan"],
+"pb/A1": ["dbp:General_Motors"]
+},
+"classes": {
+"eso": ["BeingLeader"],
+"fn": ["Leadership"]
+},
+"climax": 78,
+"event": "ev7",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml#ev7",
+"labels": ["presenteren"],
+"mentions": [
+{
+"char": [
+"11",
+"22"
+],
+"sentence": ["1"],
+"terms": ["t_3"],
+"tokens": ["w4"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"138",
+"150"
+],
+"sentence": ["3"],
+"terms": ["t_25"],
+"tokens": ["w26"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["presenteren"],
+"sentence": "1",
+"size": "9.75",
+"time": "20090601"
+},
+{
+"actors": {
+"fn/Agent": ["dbp:United_States"],
+"fn/Containing_object": [
+"ne:de_fabriek",
+"ne:nog_meer_fabrieken",
+"dbp:Detroit",
+"ne:30.000_banen_te_schrappen_en_14_fabrieken_te_sluiten"
+],
+"fn/Individual1": [
+"dbp:Ford_Motor_Company",
+"ne:het_bedrijf"
+],
+"pb/A1": [
+"dbp:St._Louis",
+"dbp:Atlanta",
+"ne:met_de_vraag"
+],
+"pb/AM-LOC": [
+"dbp:Ohio",
+"dbp:Ontario"
+]
+},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Social_connection",
+"Closure",
+"Body_movement"
+]
+},
+"climax": 63,
+"event": "ev10",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml#ev10",
+"labels": ["sluiten"],
+"mentions": [
+{
+"char": [
+"2078",
+"2086"
+],
+"sentence": ["16"],
+"terms": ["t_369"],
+"tokens": ["w370"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"1009",
+"1014"
+],
+"sentence": ["9"],
+"terms": ["t_185"],
+"tokens": ["w186"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"787",
+"795"
+],
+"sentence": ["6"],
+"terms": ["t_140"],
+"tokens": ["w141"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"639",
+"647"
+],
+"sentence": ["5"],
+"terms": ["t_114"],
+"tokens": ["w115"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"1237",
+"1245"
+],
+"sentence": ["9"],
+"terms": ["t_222"],
+"tokens": ["w223"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"2321",
+"2329"
+],
+"sentence": ["18"],
+"terms": ["t_416"],
+"tokens": ["w417"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"186",
+"193"
+],
+"sentence": ["3"],
+"terms": ["t_33"],
+"tokens": ["w34"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"3297",
+"3305"
+],
+"sentence": ["26"],
+"terms": ["t_584"],
+"tokens": ["w585"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["sluiten"],
+"sentence": "3",
+"size": "7.875",
+"time": "20050101"
+},
+{
+"actors": {
+"fn/Theme": ["dbp:General_Motors"],
+"pb/A0": [
+"dbp:United_States",
+"dbp:Ford_Motor_Company"
+]
+},
+"classes": {
+"eso": ["Translocation"],
+"fn": ["Traversing"]
+},
+"climax": 59,
+"event": "ev15",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml#ev15",
+"labels": ["passeren"],
+"mentions": [{
+"char": [
+"33",
+"41"
+],
+"sentence": ["1"],
+"terms": ["t_5"],
+"tokens": ["w6"],
+"uri": ["http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["passeren"],
+"sentence": "1",
+"size": "7.375",
+"time": "20100303"
+},
+{
+"actors": {
+"fn/Goods": [
+"ne:141.951_auto_%27_s",
+"ne:142.285_auto_%27_s",
+"ne:in_totaal",
+"dbp:Toyota",
+"dbp:General_Motors",
+"ne:pickup_trucks"
+],
+"fn/Seller": ["ne:het_bedrijf"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 55,
+"event": "ev4",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml#ev4",
+"labels": ["verkopen"],
+"mentions": [
+{
+"char": [
+"351",
+"359"
+],
+"sentence": ["4"],
+"terms": ["t_62"],
+"tokens": ["w63"],
+"uri": ["http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"253",
+"261"
+],
+"sentence": ["3"],
+"terms": ["t_43"],
+"tokens": ["w44"],
+"uri": ["http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"388",
+"396"
+],
+"sentence": ["4"],
+"terms": ["t_70"],
+"tokens": ["w71"],
+"uri": ["http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"1113",
+"1121"
+],
+"sentence": ["10"],
+"terms": ["t_208"],
+"tokens": ["w209"],
+"uri": ["http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["verkopen"],
+"sentence": "3",
+"size": "6.875",
+"time": "20100201"
+},
+{
+"actors": {
+"fn/Agent": ["dbp:General_Motors"],
+"fn/Goal": ["ne:zo_%27_n_zes_procent_van_alle_werknemers"],
+"fn/Projectile": [
+"ne:47.000_werknemers",
+"ne:drieduizend_werknemers"
+]
+},
+"classes": {
+"eso": ["LeavingAnOrganization"],
+"fn": [
+"Assistance",
+"Firing",
+"Shoot_projectiles",
+"Judgment_communication",
+"Quitting"
+]
+},
+"climax": 42,
+"event": "ev23",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml#ev23",
+"labels": ["ontslaan"],
+"mentions": [
+{
+"char": [
+"450",
+"459"
+],
+"sentence": ["4"],
+"terms": ["t_74"],
+"tokens": ["w75"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"319",
+"327"
+],
+"sentence": ["3"],
+"terms": ["t_49"],
+"tokens": ["w50"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"749",
+"757"
+],
+"sentence": ["7"],
+"terms": ["t_130"],
+"tokens": ["w131"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["ontslaan"],
+"sentence": "3",
+"size": "5.25",
+"time": "20080101"
+},
+{
+"actors": {"fn/Theme": [
+"dbp:United_States",
+"dbp:African_Union",
+"ne:hulp",
+"dbp:Victoria_(Australia)",
+"ne:de_federale_overheid_ford_australia"
+]},
+"classes": {
+"eso": [
+"Working",
+"Giving",
+"BeingEmployed",
+"Placing"
+],
+"fn": [
+"Causation",
+"Being_employed",
+"Working_on",
+"Work",
+"Supply"
+]
+},
+"climax": 34,
+"event": "ev10",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2006/5/5/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford_dutch_utf8.txt.xml#ev10",
+"labels": ["bieden"],
+"mentions": [
+{
+"char": [
+"309",
+"314"
+],
+"sentence": ["3"],
+"terms": ["t_52"],
+"tokens": ["w53"],
+"uri": ["http://www.newsreader-project.eu/data/2006/5/5/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"364",
+"370"
+],
+"sentence": ["4"],
+"terms": ["t_63"],
+"tokens": ["w64"],
+"uri": ["http://www.newsreader-project.eu/data/2006/5/5/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["bieden"],
+"sentence": "3",
+"size": "4.25",
+"time": "20060505"
+},
+{
+"actors": {
+"fn/Speaker": [
+"dbp:United_States",
+"dbp:General_Motors"
+],
+"pb/A1": ["ne:de_te_sluiten_dealerschappen"],
+"pb/AM-LOC": ["dbp:Chrysler"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 31,
+"event": "ev2",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml#ev2",
+"labels": ["aan_kondigen"],
+"mentions": [
+{
+"char": [
+"444",
+"455"
+],
+"sentence": ["5"],
+"terms": ["t_72"],
+"tokens": ["w73"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"115",
+"123"
+],
+"sentence": ["3"],
+"terms": ["t_16"],
+"tokens": ["w17"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["aan_kondigen"],
+"sentence": "3",
+"size": "3.875",
+"time": "20090515"
+},
+{
+"actors": {
+"fn/Goods": [
+"ne:13%2c2_miljoen_auto_%27_s",
+"ne:28_%25_minder_auto",
+"dbp:Honda",
+"ne:42_%25_minder_dan_vorig_jaar"
+],
+"fn/Place": ["dbp:United_States"],
+"fn/Seller": ["dbp:Ford_Motor_Company"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 27,
+"event": "ev4",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/3/corrected_13417_Automobile_sales_in_the_United_States_down_sharply_dutch_utf8.txt.xml#ev4",
+"labels": ["verkopen"],
+"mentions": [
+{
+"char": [
+"630",
+"638"
+],
+"sentence": ["8"],
+"terms": ["t_110"],
+"tokens": ["w111"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/corrected_13417_Automobile_sales_in_the_United_States_down_sharply_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"255",
+"263"
+],
+"sentence": ["4"],
+"terms": ["t_42"],
+"tokens": ["w43"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/corrected_13417_Automobile_sales_in_the_United_States_down_sharply_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"977",
+"985"
+],
+"sentence": ["12"],
+"terms": ["t_170"],
+"tokens": ["w171"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/corrected_13417_Automobile_sales_in_the_United_States_down_sharply_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["verkopen"],
+"sentence": "4",
+"size": "3.375",
+"time": "20080101"
+},
+{
+"actors": {"fn/Topic": [
+"dbp:General_Motors",
+"ne:de_gebeurtenissen_van_vandaag",
+"ne:als_%60%60tekenend_moment"
+]},
+"classes": {"fn": [
+"Statement",
+"Communicate_categorization",
+"Reporting"
+]},
+"climax": 26,
+"event": "ev12",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml#ev12",
+"labels": ["beschrijven"],
+"mentions": [
+{
+"char": [
+"432",
+"441"
+],
+"sentence": ["4"],
+"terms": ["t_76"],
+"tokens": ["w77"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"636",
+"645"
+],
+"sentence": ["5"],
+"terms": ["t_117"],
+"tokens": ["w118"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["beschrijven"],
+"sentence": "4",
+"size": "3.25",
+"time": "20090604"
+},
+{
+"actors": {
+"fn/Cause": [
+"dbp:General_Motors",
+"ne:een_verlies_van_%24_381_miljoen_%2c_%24_0%2c67_per_aandeel"
+],
+"pb/A1": [
+"ne:het_bedrijf",
+"ne:netto_%24_5%2c9_miljard_verlies_geleden_oftewel_%24_9%2c66_per_aandeel"
+]
+},
+"classes": {"fn": ["Catastrophe"]},
+"climax": 26,
+"event": "ev13",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/5/7/13972_US_automaker_GM_reports_losses_dutch_utf8.txt.xml#ev13",
+"labels": ["lijden"],
+"mentions": [
+{
+"char": [
+"381",
+"385"
+],
+"sentence": ["5"],
+"terms": ["t_58"],
+"tokens": ["w59"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/7/13972_US_automaker_GM_reports_losses_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"305",
+"312"
+],
+"sentence": ["4"],
+"terms": ["t_44"],
+"tokens": ["w45"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/7/13972_US_automaker_GM_reports_losses_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["lijden"],
+"sentence": "4",
+"size": "3.25",
+"time": "20080330"
+},
+{
+"actors": {"fn/Speaker": [
+"dbp:General_Motors",
+"dbp:GMC_(automobile)"
+]},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev2",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/4/1/13798_General_Motors_automobile_sales_plunge_by_45%_dutch_utf8.txt.xml#ev2",
+"labels": ["aan_kondigen"],
+"mentions": [{
+"char": [
+"93",
+"101"
+],
+"sentence": ["3"],
+"terms": ["t_16"],
+"tokens": ["w17"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/1/13798_General_Motors_automobile_sales_plunge_by_45%_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["aan_kondigen"],
+"sentence": "3",
+"size": "2.375",
+"time": "20450301"
+},
+{
+"actors": {"fn/Speaker": [
+"dbp:United_States",
+"dbp:General_Motors",
+"dbp:GMC_(automobile)",
+"ne:faillissement"
+]},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev21",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/6/5/14111_Penske_Auto_selected_to_buy_General_Motors_dutch_utf8.txt.xml#ev21",
+"labels": ["aan_kondigen"],
+"mentions": [{
+"char": [
+"181",
+"189"
+],
+"sentence": ["3"],
+"terms": ["t_27"],
+"tokens": ["w28"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/5/14111_Penske_Auto_selected_to_buy_General_Motors_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["aan_kondigen"],
+"sentence": "3",
+"size": "2.375",
+"time": "20090605"
+},
+{
+"actors": {"fn/Agent": [
+"dbp:United_States",
+"dbp:Chrysler"
+]},
+"classes": {"fn": [
+"Taking",
+"Adopt_selection"
+]},
+"climax": 19,
+"event": "ev3",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2011/5/29/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler_dutch_utf8.txt.xml#ev3",
+"labels": ["over_nemen"],
+"mentions": [{
+"char": [
+"233",
+"238"
+],
+"sentence": ["3"],
+"terms": ["t_38"],
+"tokens": ["w39"],
+"uri": ["http://www.newsreader-project.eu/data/2011/5/29/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["over_nemen"],
+"sentence": "3",
+"size": "2.375",
+"time": "20110527"
+},
+{
+"actors": {
+"fn/Agent": ["dbp:General_Motors"],
+"fn/Event": ["ne:een_herstructureringsplan_voor_de_overheid_opstellen_%2c_waaronder_fabrieken_moeten_worden_gesloten_en_andere_schuldverlagingsmaatregelen"]
+},
+"classes": {
+"eso": [
+"Creating",
+"Leaving",
+"Killing"
+],
+"fn": [
+"Encoding",
+"Cause_to_start",
+"Execution",
+"Dressing",
+"Change_of_consistency",
+"Posing_as",
+"Causation",
+"Cause_change_of_consistency",
+"Ingestion",
+"Feigning",
+"Imprisonment",
+"Building",
+"Setting_out",
+"Cooking_creation",
+"Placing",
+"Change_event_time",
+"Departing"
+]
+},
+"climax": 14,
+"event": "ev7",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/5/28/14056_Bankruptcy_for_U.S._automaker_GM_becomes_almost_certain_after_bondholder_offers_fail_dutch_utf8.txt.xml#ev7",
+"labels": ["op_stellen"],
+"mentions": [{
+"char": [
+"384",
+"393"
+],
+"sentence": ["4"],
+"terms": ["t_56"],
+"tokens": ["w57"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/28/14056_Bankruptcy_for_U.S._automaker_GM_becomes_almost_certain_after_bondholder_offers_fail_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["op_stellen"],
+"sentence": "4",
+"size": "1.75",
+"time": "20090601"
+},
+{
+"actors": {
+"fn/Cause": ["dbp:United_States"],
+"fn/Means": ["ne:met_een_aandeel_van_20_procent"],
+"fn/Recipient": ["dbp:Canada"],
+"fn/Theme": ["dbp:Fiat_Automobiles"]
+},
+"classes": {
+"eso": ["StartingAnActivity"],
+"fn": [
+"Activity_start",
+"Process_start",
+"Setting_fire",
+"Getting",
+"Becoming"
+]
+},
+"climax": 14,
+"event": "ev12",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml#ev12",
+"labels": ["starten"],
+"mentions": [{
+"char": [
+"385",
+"390"
+],
+"sentence": ["4"],
+"terms": ["t_63"],
+"tokens": ["w64"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["starten"],
+"sentence": "4",
+"size": "1.75",
+"time": "20090428"
+},
+{
+"actors": {"fn/Part": [
+"dbp:General_Motors",
+"ne:een_bedrag_van_20.000_dollar_en_een_tegoed_van_25.000_dollar"
+]},
+"classes": {"fn": ["Inclusion"]},
+"climax": 11,
+"event": "ev18",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml#ev18",
+"labels": ["omvatten"],
+"mentions": [{
+"char": [
+"440",
+"445"
+],
+"sentence": ["5"],
+"terms": ["t_75"],
+"tokens": ["w76"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["omvatten"],
+"sentence": "5",
+"size": "1.375",
+"time": "20090203"
+},
+{
+"actors": {"fn/Communicator": ["dbp:General_Motors"]},
+"classes": {"fn": [
+"Judgment_direct_address",
+"Experiencer_obj",
+"Attempt_suasion"
+]},
+"climax": 9,
+"event": "ev16",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml#ev16",
+"labels": ["waarschuwen"],
+"mentions": [{
+"char": [
+"455",
+"466"
+],
+"sentence": ["6"],
+"terms": ["t_75"],
+"tokens": ["w76"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["waarschuwen"],
+"sentence": "6",
+"size": "1.125",
+"time": "20050101"
+},
+{
+"actors": {
+"fn/Donor": ["ne:de_romeinse_overheid"],
+"fn/Recipient": ["dbp:United_States"],
+"fn/Theme": ["ne:%24_51_miljoen"]
+},
+"classes": {
+"eso": ["Paying"],
+"fn": [
+"Commerce_pay",
+"Giving"
+]
+},
+"climax": 9,
+"event": "ev10",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2007/9/8/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant_dutch_utf8.txt.xml#ev10",
+"labels": ["betalen"],
+"mentions": [{
+"char": [
+"746",
+"754"
+],
+"sentence": ["6"],
+"terms": ["t_128"],
+"tokens": ["w129"],
+"uri": ["http://www.newsreader-project.eu/data/2007/9/8/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["betalen"],
+"sentence": "6",
+"size": "1.125",
+"time": "20060101"
+},
+{
+"actors": {
+"fn/New_leader": ["ne:zes_leden"],
+"fn/Selector": ["dbp:United_States"]
+},
+"classes": {
+"eso": ["Replacing"],
+"fn": ["Change_of_leadership"]
+},
+"climax": 9,
+"event": "ev2",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml#ev2",
+"labels": ["kiezen"],
+"mentions": [{
+"char": [
+"656",
+"661"
+],
+"sentence": ["6"],
+"terms": ["t_111"],
+"tokens": ["w112"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["kiezen"],
+"sentence": "6",
+"size": "1.125",
+"time": "20090501"
+},
+{
+"actors": {
+"fn/Cause": [
+"dbp:Cerberus",
+"ne:een_consortium_dat_in_april_vorig_jaar_een_meerderheidsbelang_verkreeg"
+],
+"fn/Effect": ["dbp:General_Motors"]
+},
+"classes": {"fn": ["Causation"]},
+"climax": 8,
+"event": "ev1",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2007/5/14/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group_dutch_utf8.txt.xml#ev1",
+"labels": ["leiden"],
+"mentions": [{
+"char": [
+"576",
+"582"
+],
+"sentence": ["7"],
+"terms": ["t_88"],
+"tokens": ["w89"],
+"uri": ["http://www.newsreader-project.eu/data/2007/5/14/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["leiden"],
+"sentence": "7",
+"size": "1.0",
+"time": "20060401"
+},
+{
+"actors": {
+"fn/Containing_object": ["ne:vijf_fabrieken"],
+"fn/Individual1": ["dbp:General_Motors"]
+},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Social_connection",
+"Body_movement",
+"Closure"
+]
+},
+"climax": 8,
+"event": "ev1",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml#ev1",
+"labels": ["sluiten"],
+"mentions": [{
+"char": [
+"776",
+"783"
+],
+"sentence": ["7"],
+"terms": ["t_134"],
+"tokens": ["w135"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["sluiten"],
+"sentence": "7",
+"size": "1.0",
+"time": "20090218"
+},
+{
+"actors": {
+"fn/Perceiver_passive": ["dbp:General_Motors"],
+"fn/Phenomenon": [
+"ne:47.000_werknemers",
+"ne:vijf_fabrieken"
+]
+},
+"classes": {"fn": [
+"Feeling",
+"Perception_experience",
+"Appearance"
+]},
+"climax": 8,
+"event": "ev18",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml#ev18",
+"labels": ["willen"],
+"mentions": [{
+"char": [
+"727",
+"730"
+],
+"sentence": ["7"],
+"terms": ["t_127"],
+"tokens": ["w128"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["willen"],
+"sentence": "7",
+"size": "1.0",
+"time": "20090218"
+},
+{
+"actors": {
+"fn/Agent": ["ne:op_%60%60vier_kernmerken"],
+"fn/Reader": ["dbp:General_Motors"],
+"fn/Text": ["ne:op_%60%60zeer"]
+},
+"classes": {"fn": [
+"Reading",
+"Adjusting",
+"Motion",
+"Place_weight_on"
+]},
+"climax": 7,
+"event": "ev27",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml#ev27",
+"labels": ["richten"],
+"mentions": [
+{
+"char": [
+"2657",
+"2664"
+],
+"sentence": ["16"],
+"terms": ["t_487"],
+"tokens": ["w488"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"2377",
+"2384"
+],
+"sentence": ["15"],
+"terms": ["t_435"],
+"tokens": ["w436"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["richten"],
+"sentence": "15",
+"size": "0.875",
+"time": "20090604"
+},
+{
+"actors": {
+"fn/Goods": [
+"ne:auto_%27_s",
+"ne:minder_auto_%27_s"
+],
+"fn/Place": ["dbp:United_States"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 7,
+"event": "ev10",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml#ev10",
+"labels": ["verkopen"],
+"mentions": [
+{
+"char": [
+"1636",
+"1644"
+],
+"sentence": ["14"],
+"terms": ["t_274"],
+"tokens": ["w275"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"5457",
+"5465"
+],
+"sentence": ["41"],
+"terms": ["t_927"],
+"tokens": ["w928"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"4878",
+"4886"
+],
+"sentence": ["38"],
+"terms": ["t_821"],
+"tokens": ["w822"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["verkopen"],
+"sentence": "14",
+"size": "0.875",
+"time": "20090403"
+},
+{
+"actors": {"fn/Influencing_situation": ["dbp:General_Motors"]},
+"classes": {"fn": [
+"Objective_influence",
+"Impact"
+]},
+"climax": 5,
+"event": "ev5",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml#ev5",
+"labels": ["in_nemen"],
+"mentions": [{
+"char": [
+"1084",
+"1091"
+],
+"sentence": ["10"],
+"terms": ["t_195"],
+"tokens": ["w196"],
+"uri": ["http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["in_nemen"],
+"sentence": "10",
+"size": "0.625",
+"time": "20130115"
+},
+{
+"actors": {"fn/Supporter": ["dbp:General_Motors"]},
+"classes": {"fn": ["Supporting"]},
+"climax": 5,
+"event": "ev18",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml#ev18",
+"labels": ["ondersteunen"],
+"mentions": [{
+"char": [
+"1454",
+"1465"
+],
+"sentence": ["11"],
+"terms": ["t_261"],
+"tokens": ["w262"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["ondersteunen"],
+"sentence": "11",
+"size": "0.625",
+"time": "20090604"
+},
+{
+"actors": {
+"fn/Goods": ["ne:zijn_aandeel_in_het_bedrijf"],
+"fn/Seller": ["dbp:United_States"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 5,
+"event": "ev14",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml#ev14",
+"labels": ["verkopen"],
+"mentions": [
+{
+"char": [
+"3768",
+"3776"
+],
+"sentence": ["22"],
+"terms": ["t_690"],
+"tokens": ["w691"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"3360",
+"3368"
+],
+"sentence": ["20"],
+"terms": ["t_611"],
+"tokens": ["w612"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["verkopen"],
+"sentence": "20",
+"size": "0.625",
+"time": "20090604"
+},
+{
+"actors": {
+"fn/Cause": ["ne:een_verlies_van_%24_1%2c5_miljard"],
+"fn/Undergoer": ["dbp:General_Motors"]
+},
+"classes": {"fn": ["Catastrophe"]},
+"climax": 5,
+"event": "ev8",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml#ev8",
+"labels": ["lijden"],
+"mentions": [{
+"char": [
+"935",
+"939"
+],
+"sentence": ["10"],
+"terms": ["t_159"],
+"tokens": ["w160"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["lijden"],
+"sentence": "10",
+"size": "0.625",
+"time": "20051231"
+},
+{
+"actors": {"fn/Effect": ["dbp:General_Motors"]},
+"classes": {"fn": ["Causation"]},
+"climax": 5,
+"event": "ev7",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml#ev7",
+"labels": ["leiden"],
+"mentions": [{
+"char": [
+"1234",
+"1240"
+],
+"sentence": ["11"],
+"terms": ["t_223"],
+"tokens": ["w224"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["leiden"],
+"sentence": "11",
+"size": "0.625",
+"time": "20170101"
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:General_Motors"],
+"fn/Topic": ["ne:als_%60%60veelomvattend_%2c_responsief_%2c_haalbaar_en_flexibel"]
+},
+"classes": {"fn": [
+"Reporting",
+"Communicate_categorization",
+"Statement"
+]},
+"climax": 5,
+"event": "ev25",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml#ev25",
+"labels": ["beschrijven"],
+"mentions": [{
+"char": [
+"1060",
+"1069"
+],
+"sentence": ["10"],
+"terms": ["t_189"],
+"tokens": ["w190"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["beschrijven"],
+"sentence": "10",
+"size": "0.625",
+"time": "20090301"
+},
+{
+"actors": {
+"fn/Goods": ["ne:zijn_laatste_aandelen_in_het_bedrijf_verkocht_%2c_waarmee_de_staat_zo_%27_n_%24_9_miljard_verliest_van_de_oorspronkelijke_financi%e2%88%9a%c2%b4le_steun_die_in_2008_werd_verleend_en_waarbij_het_een_aandeel_van_61_%25_in_het_bedrijf_kreeg"],
+"fn/Money": ["dbp:United_States"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 4,
+"event": "ev15",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml#ev15",
+"labels": ["verkopen"],
+"mentions": [{
+"char": [
+"1473",
+"1481"
+],
+"sentence": ["13"],
+"terms": ["t_256"],
+"tokens": ["w257"],
+"uri": ["http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["verkopen"],
+"sentence": "13",
+"size": "0.5",
+"time": "20080101"
+},
+{
+"actors": {"fn/Activity": ["dbp:General_Motors"]},
+"classes": {
+"eso": ["StoppingAnActivity"],
+"fn": [
+"Activity_stop",
+"Activity_finish"
+]
+},
+"climax": 4,
+"event": "ev18",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml#ev18",
+"labels": ["af_ronden"],
+"mentions": [{
+"char": [
+"1732",
+"1740"
+],
+"sentence": ["14"],
+"terms": ["t_304"],
+"tokens": ["w305"],
+"uri": ["http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["af_ronden"],
+"sentence": "14",
+"size": "0.5",
+"time": "20101101"
+},
+{
+"actors": {"fn/Influencing_situation": ["dbp:United_States"]},
+"classes": {"fn": [
+"Objective_influence",
+"Impact"
+]},
+"climax": 4,
+"event": "ev1",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2008/12/12/13140_US_automaker_bailout_deal_fails_to_pass_Senate_dutch_utf8.txt.xml#ev1",
+"labels": ["raken"],
+"mentions": [{
+"char": [
+"1260",
+"1265"
+],
+"sentence": ["12"],
+"terms": ["t_217"],
+"tokens": ["w218"],
+"uri": ["http://www.newsreader-project.eu/data/2008/12/12/13140_US_automaker_bailout_deal_fails_to_pass_Senate_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["raken"],
+"sentence": "12",
+"size": "0.5",
+"time": "20081212"
+},
+{
+"actors": {"fn/Phenomenon": ["dbp:General_Motors"]},
+"classes": {"fn": [
+"Feeling",
+"Perception_experience",
+"Appearance"
+]},
+"climax": 4,
+"event": "ev7",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml#ev7",
+"labels": ["willen"],
+"mentions": [{
+"char": [
+"1260",
+"1263"
+],
+"sentence": ["13"],
+"terms": ["t_211"],
+"tokens": ["w212"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["willen"],
+"sentence": "13",
+"size": "0.5",
+"time": "20080101"
+},
+{
+"actors": {
+"fn/Recipient": ["dbp:United_States"],
+"fn/Theme": ["ne:een_afkoopregeling"]
+},
+"classes": {
+"eso": [
+"Placing",
+"Giving"
+],
+"fn": [
+"Supply",
+"Causation"
+]
+},
+"climax": 4,
+"event": "ev14",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/2/3/corrected_13417_Automobile_sales_in_the_United_States_down_sharply_dutch_utf8.txt.xml#ev14",
+"labels": ["aan_bieden"],
+"mentions": [{
+"char": [
+"1111",
+"1120"
+],
+"sentence": ["13"],
+"terms": ["t_194"],
+"tokens": ["w195"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/corrected_13417_Automobile_sales_in_the_United_States_down_sharply_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["aan_bieden"],
+"sentence": "13",
+"size": "0.5",
+"time": "20090101"
+},
+{
+"actors": {
+"fn/Recipient": ["dbp:General_Motors"],
+"pb/A0": ["dbp:Chrysler"],
+"pb/A3": ["dbp:United_States"]
+},
+"classes": {
+"eso": ["Getting"],
+"fn": [
+"Perception_experience",
+"Becoming_aware",
+"Receiving",
+"Grasp",
+"Awareness",
+"Categorization",
+"Perception"
+]
+},
+"climax": 4,
+"event": "ev26",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml#ev26",
+"labels": ["ontvangen"],
+"mentions": [
+{
+"char": [
+"2242",
+"2251"
+],
+"sentence": ["17"],
+"terms": ["t_374"],
+"tokens": ["w375"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"5779",
+"5788"
+],
+"sentence": ["45"],
+"terms": ["t_986"],
+"tokens": ["w987"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["ontvangen"],
+"sentence": "17",
+"size": "0.5",
+"time": "20090501"
+},
+{
+"actors": {
+"fn/Recipient": ["dbp:General_Motors"],
+"fn/Theme": ["ne:de_juiste_beslissing"]
+},
+"classes": {"fn": ["Getting"]},
+"climax": 4,
+"event": "ev5",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/11/5/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel_dutch_utf8.txt.xml#ev5",
+"labels": ["nemen"],
+"mentions": [{
+"char": [
+"1302",
+"1307"
+],
+"sentence": ["14"],
+"terms": ["t_227"],
+"tokens": ["w228"],
+"uri": ["http://www.newsreader-project.eu/data/2009/11/5/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["nemen"],
+"sentence": "14",
+"size": "0.5",
+"time": "20091105"
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:General_Motors"],
+"fn/Evidence": ["ne:het_soort_auto"]
+},
+"classes": {
+"eso": [
+"IntentionalEvent",
+"Working",
+"Creating",
+"BeingEmployed"
+],
+"fn": [
+"Intentionally_create",
+"Work",
+"Working_on",
+"Being_employed",
+"Coming_to_believe"
+]
+},
+"climax": 3,
+"event": "ev40",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml#ev40",
+"labels": ["produceren"],
+"mentions": [{
+"char": [
+"2562",
+"2572"
+],
+"sentence": ["15"],
+"terms": ["t_469"],
+"tokens": ["w470"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["produceren"],
+"sentence": "15",
+"size": "0.375",
+"time": "20090604"
+},
+{
+"actors": {"fn/Act": [
+"dbp:Chrysler",
+"dbp:United_States"
+]},
+"classes": {
+"eso": [
+"IntentionalEvent",
+"Creating"
+],
+"fn": [
+"Causation",
+"Intentionally_create",
+"Intentionally_act"
+]
+},
+"climax": 3,
+"event": "ev23",
+"group": "100:[\"sluiten\"]:ne:1.100_dealers",
+"groupName": "[\"sluiten\"]:ne:1.100_dealers",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml#ev23",
+"labels": ["geven"],
+"mentions": [{
+"char": [
+"2281",
+"2286"
+],
+"sentence": ["17"],
+"terms": ["t_392"],
+"tokens": ["w393"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["geven"],
+"sentence": "17",
+"size": "0.375",
+"time": "20090501"
+},
+{
+"actors": {
+"fn/Agent": ["ne:onze_transformatie"],
+"fn/Entity": ["ne:goede_resultaten"],
+"fn/Theme": [
+"dbp:Ford_Motor_Company",
+"ne:enorme_vooruitgang"
+]
+},
+"classes": {
+"eso": ["HavingInPossession"],
+"fn": [
+"Recording",
+"Possession",
+"Arriving",
+"Getting",
+"Path_shape"
+]
+},
+"climax": 18,
+"event": "ev10",
+"group": "018:[\"boeken\"]",
+"groupName": "[\"boeken\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/2009/11/3/14994_Automobile_manufacturer_Ford_posts_unexpected_profits_dutch_utf8.txt.xml#ev10",
+"labels": ["boeken"],
+"mentions": [
+{
+"char": [
+"745",
+"750"
+],
+"sentence": ["7"],
+"terms": ["t_122"],
+"tokens": ["w123"],
+"uri": ["http://www.newsreader-project.eu/data/2009/11/3/14994_Automobile_manufacturer_Ford_posts_unexpected_profits_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"609",
+"614"
+],
+"sentence": ["6"],
+"terms": ["t_96"],
+"tokens": ["w97"],
+"uri": ["http://www.newsreader-project.eu/data/2009/11/3/14994_Automobile_manufacturer_Ford_posts_unexpected_profits_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["boeken"],
+"sentence": "6",
+"size": "4.5",
+"time": "20090930"
+},
+{
+"actors": {"fn/Means": ["dbp:Ford_Motor_Company"]},
+"classes": {
+"eso": [
+"StartingAnActivity",
+"IntentionalEvent"
+],
+"fn": [
+"Process_start",
+"Activity_start",
+"Setting_fire"
+]
+},
+"climax": 14,
+"event": "ev11",
+"group": "018:[\"boeken\"]",
+"groupName": "[\"boeken\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/2007/9/8/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant_dutch_utf8.txt.xml#ev11",
+"labels": ["openen"],
+"mentions": [{
+"char": [
+"538",
+"545"
+],
+"sentence": ["4"],
+"terms": ["t_94"],
+"tokens": ["w95"],
+"uri": ["http://www.newsreader-project.eu/data/2007/9/8/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["openen"],
+"sentence": "4",
+"size": "1.75",
+"time": "20070907"
+},
+{
+"actors": {"fn/Theme": [
+"dbp:Ford_Motor_Company",
+"dbp:Australia"
+]},
+"classes": {
+"eso": ["HavingInPossession"],
+"fn": [
+"Possession",
+"Storing",
+"Avoiding"
+]
+},
+"climax": 11,
+"event": "ev13",
+"group": "018:[\"boeken\"]",
+"groupName": "[\"boeken\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/2006/5/5/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford_dutch_utf8.txt.xml#ev13",
+"labels": ["behouden"],
+"mentions": [{
+"char": [
+"490",
+"498"
+],
+"sentence": ["5"],
+"terms": ["t_83"],
+"tokens": ["w84"],
+"uri": ["http://www.newsreader-project.eu/data/2006/5/5/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["behouden"],
+"sentence": "5",
+"size": "1.375",
+"time": "20060505"
+},
+{
+"actors": {"fn/Evidence": [
+"dbp:Ford_Motor_Company",
+"ne:zijn_explorer_%2c_waarvan_de_verkoop_met_29_%25_daalde_in_2005"
+]},
+"classes": {
+"eso": [
+"Working",
+"IntentionalEvent",
+"Creating",
+"BeingEmployed"
+],
+"fn": [
+"Intentionally_create",
+"Working_on",
+"Being_employed",
+"Work",
+"Coming_to_believe"
+]
+},
+"climax": 7,
+"event": "ev9",
+"group": "018:[\"boeken\"]",
+"groupName": "[\"boeken\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml#ev9",
+"labels": ["produceren"],
+"mentions": [{
+"char": [
+"984",
+"994"
+],
+"sentence": ["8"],
+"terms": ["t_181"],
+"tokens": ["w182"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["produceren"],
+"sentence": "8",
+"size": "0.875",
+"time": "20050101"
+},
+{
+"actors": {
+"fn/Final_value": [
+"dbp:New_York_Stock_Exchange",
+"ne:met_17_cent_%28_2%2c1_%25"
+],
+"fn/Item": ["dbp:Ford_Motor_Company"]
+},
+"classes": {
+"eso": [
+"Decreasing",
+"Increasing"
+],
+"fn": [
+"Change_position_on_a_scale",
+"Cause_change_of_position_on_a_scale"
+]
+},
+"climax": 6,
+"event": "ev6",
+"group": "018:[\"boeken\"]",
+"groupName": "[\"boeken\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/2006/8/19/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses_dutch_utf8.txt.xml#ev6",
+"labels": ["dalen"],
+"mentions": [{
+"char": [
+"1581",
+"1587"
+],
+"sentence": ["9"],
+"terms": ["t_276"],
+"tokens": ["w277"],
+"uri": ["http://www.newsreader-project.eu/data/2006/8/19/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["dalen"],
+"sentence": "9",
+"size": "0.75",
+"time": "20060819"
+},
+{
+"actors": {"fn/Individual1": ["ne:een_herstructureringsplan_voor_de_overheid_opstellen_%2c_waaronder_fabrieken_moeten_worden_gesloten_en_andere_schuldverlagingsmaatregelen"]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Closure",
+"Body_movement",
+"Social_connection"
+]
+},
+"climax": 14,
+"event": "ev9",
+"group": "014:[\"sluiten\"]",
+"groupName": "[\"sluiten\"]",
+"groupScore": "014",
+"instance": "http://www.newsreader-project.eu/data/2009/5/28/14056_Bankruptcy_for_U.S._automaker_GM_becomes_almost_certain_after_bondholder_offers_fail_dutch_utf8.txt.xml#ev9",
+"labels": ["sluiten"],
+"mentions": [{
+"char": [
+"429",
+"437"
+],
+"sentence": ["4"],
+"terms": ["t_62"],
+"tokens": ["w63"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/28/14056_Bankruptcy_for_U.S._automaker_GM_becomes_almost_certain_after_bondholder_offers_fail_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["sluiten"],
+"sentence": "4",
+"size": "3.5",
+"time": "20090601"
+},
+{
+"actors": {"fn/Theme": [
+"dbp:Fiat_Automobiles",
+"ne:het_gemiddelde_van_de_schattingen_van_twee_investeringsbanken"
+]},
+"classes": {"fn": ["Giving"]},
+"climax": 11,
+"event": "ev13",
+"group": "011:[\"betalen\"]",
+"groupName": "[\"betalen\"]",
+"groupScore": "011",
+"instance": "http://www.newsreader-project.eu/data/2011/5/29/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler_dutch_utf8.txt.xml#ev13",
+"labels": ["betalen"],
+"mentions": [{
+"char": [
+"546",
+"553"
+],
+"sentence": ["5"],
+"terms": ["t_91"],
+"tokens": ["w92"],
+"uri": ["http://www.newsreader-project.eu/data/2011/5/29/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["betalen"],
+"sentence": "5",
+"size": "2.75",
+"time": "20110610"
+},
+{
+"actors": {
+"fn/Employee": [
+"ne:per_gallon",
+"ne:40_mijl",
+"dbp:Chrysler"
+],
+"fn/Employer": ["dbp:Fiat_Automobiles"],
+"fn/Evidence": ["ne:auto_%27_s_in_chrysler-fabrieken_in_de_v._s._produceren"]
+},
+"classes": {
+"eso": [
+"IntentionalEvent",
+"Creating",
+"BeingEmployed",
+"Working"
+],
+"fn": [
+"Coming_to_believe",
+"Being_employed",
+"Work",
+"Intentionally_create",
+"Working_on"
+]
+},
+"climax": 6,
+"event": "ev22",
+"group": "011:[\"betalen\"]",
+"groupName": "[\"betalen\"]",
+"groupScore": "011",
+"instance": "http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml#ev22",
+"labels": ["produceren"],
+"mentions": [
+{
+"char": [
+"2109",
+"2119"
+],
+"sentence": ["17"],
+"terms": ["t_367"],
+"tokens": ["w368"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"2331",
+"2341"
+],
+"sentence": ["17"],
+"terms": ["t_403"],
+"tokens": ["w404"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["produceren"],
+"sentence": "17",
+"size": "0.75",
+"time": "20090501"
+},
+{
+"actors": {"fn/Means": [
+"dbp:Fiat_Automobiles",
+"ne:een_samenwerkingsverband"
+]},
+"classes": {
+"eso": ["StartingAnActivity"],
+"fn": [
+"Activity_start",
+"Setting_fire",
+"Getting",
+"Becoming",
+"Process_start"
+]
+},
+"climax": 4,
+"event": "ev39",
+"group": "011:[\"betalen\"]",
+"groupName": "[\"betalen\"]",
+"groupScore": "011",
+"instance": "http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml#ev39",
+"labels": ["aan_gaan"],
+"mentions": [{
+"char": [
+"1377",
+"1386"
+],
+"sentence": ["12"],
+"terms": ["t_230"],
+"tokens": ["w231"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["aan_gaan"],
+"sentence": "12",
+"size": "0.5",
+"time": "20090403"
+},
+{
+"actors": {"fn/Employer": ["dbp:Chrysler"]},
+"classes": {
+"eso": [
+"LeavingAnOrganization",
+"StoppingAnActivity"
+],
+"fn": [
+"Activity_stop",
+"Quitting"
+]
+},
+"climax": 11,
+"event": "ev14",
+"group": "011:[\"terug_trekken\"]",
+"groupName": "[\"terug_trekken\"]",
+"groupScore": "011",
+"instance": "http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml#ev14",
+"labels": ["terug_trekken"],
+"mentions": [{
+"char": [
+"462",
+"467"
+],
+"sentence": ["5"],
+"terms": ["t_79"],
+"tokens": ["w80"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["terug_trekken"],
+"sentence": "5",
+"size": "2.75",
+"time": "20090501"
+},
+{
+"actors": {"fn/Item": [
+"dbp:Chrysler",
+"dbp:Canada",
+"ne:de_verkoopomzet"
+]},
+"classes": {
+"eso": [
+"Increasing",
+"Decreasing"
+],
+"fn": [
+"Change_position_on_a_scale",
+"Cause_change_of_position_on_a_scale"
+]
+},
+"climax": 6,
+"event": "ev5",
+"group": "011:[\"terug_trekken\"]",
+"groupName": "[\"terug_trekken\"]",
+"groupScore": "011",
+"instance": "http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml#ev5",
+"labels": ["dalen"],
+"mentions": [
+{
+"char": [
+"2036",
+"2042"
+],
+"sentence": ["16"],
+"terms": ["t_337"],
+"tokens": ["w338"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+},
+{
+"char": [
+"3097",
+"3103"
+],
+"sentence": ["22"],
+"terms": ["t_512"],
+"tokens": ["w513"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+}
+],
+"prefLabel": ["dalen"],
+"sentence": "16",
+"size": "0.75",
+"time": "20080301"
+},
+{
+"actors": {
+"fn/Speaker": ["ne:door_de_rechtbank"],
+"fn/Topic": [
+"dbp:Chrysler",
+"ne:failliet"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 4,
+"event": "ev55",
+"group": "011:[\"terug_trekken\"]",
+"groupName": "[\"terug_trekken\"]",
+"groupScore": "011",
+"instance": "http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml#ev55",
+"labels": ["verklaren"],
+"mentions": [{
+"char": [
+"1609",
+"1618"
+],
+"sentence": ["14"],
+"terms": ["t_269"],
+"tokens": ["w270"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["verklaren"],
+"sentence": "14",
+"size": "0.5",
+"time": "20090403"
+},
+{
+"actors": {
+"fn/Jurisdiction": ["ne:het_bedrijf"],
+"fn/Means": [
+"dbp:Chrysler",
+"dbp:Saturn_Corporation"
+]
+},
+"classes": {
+"eso": ["BeingLeader"],
+"fn": ["Leadership"]
+},
+"climax": 3,
+"event": "ev12",
+"group": "011:[\"terug_trekken\"]",
+"groupName": "[\"terug_trekken\"]",
+"groupScore": "011",
+"instance": "http://www.newsreader-project.eu/data/2009/6/5/14111_Penske_Auto_selected_to_buy_General_Motors_dutch_utf8.txt.xml#ev12",
+"labels": ["leiden"],
+"mentions": [{
+"char": [
+"1325",
+"1331"
+],
+"sentence": ["15"],
+"terms": ["t_226"],
+"tokens": ["w227"],
+"uri": ["http://www.newsreader-project.eu/data/2009/6/5/14111_Penske_Auto_selected_to_buy_General_Motors_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["leiden"],
+"sentence": "15",
+"size": "0.375",
+"time": "20090605"
+},
+{
+"actors": {
+"fn/Buyer": ["dbp:Canada"],
+"fn/Goods": ["dbp:Opel"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 8,
+"event": "ev12",
+"group": "008:[\"verkopen\"]",
+"groupName": "[\"verkopen\"]",
+"groupScore": "008",
+"instance": "http://www.newsreader-project.eu/data/2009/11/5/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel_dutch_utf8.txt.xml#ev12",
+"labels": ["verkopen"],
+"mentions": [{
+"char": [
+"537",
+"545"
+],
+"sentence": ["7"],
+"terms": ["t_95"],
+"tokens": ["w96"],
+"uri": ["http://www.newsreader-project.eu/data/2009/11/5/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["verkopen"],
+"sentence": "7",
+"size": "2.0",
+"time": "20091105"
+},
+{
+"actors": {"fn/Experiencer": ["dbp:Canada"]},
+"classes": {"fn": [
+"Trust",
+"Desiring"
+]},
+"climax": 2,
+"event": "ev33",
+"group": "008:[\"verkopen\"]",
+"groupName": "[\"verkopen\"]",
+"groupScore": "008",
+"instance": "http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml#ev33",
+"labels": ["hopen"],
+"mentions": [{
+"char": [
+"3588",
+"3593"
+],
+"sentence": ["25"],
+"terms": ["t_602"],
+"tokens": ["w603"],
+"uri": ["http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["hopen"],
+"sentence": "25",
+"size": "0.25",
+"time": "20090403"
+},
+{
+"actors": {
+"fn/Cause": ["ne:het_bedrijf"],
+"fn/Difference": ["ne:tot_3605"],
+"fn/Item": ["ne:dat_aantal"]
+},
+"classes": {
+"eso": [
+"Increasing",
+"Decreasing"
+],
+"fn": ["Cause_change_of_position_on_a_scale"]
+},
+"climax": 7,
+"event": "ev7",
+"group": "007:[\"terug_brengen\"]",
+"groupName": "[\"terug_brengen\"]",
+"groupScore": "007",
+"instance": "http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml#ev7",
+"labels": ["terug_brengen"],
+"mentions": [{
+"char": [
+"677",
+"689"
+],
+"sentence": ["8"],
+"terms": ["t_113"],
+"tokens": ["w114"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["terug_brengen"],
+"sentence": "8",
+"size": "1.75",
+"time": "20100101"
+},
+{
+"actors": {
+"fn/Goods": ["ne:minder_dan_100_auto_%27_s"],
+"fn/Seller": ["ne:het_bedrijf"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 7,
+"event": "ev10",
+"group": "007:[\"terug_brengen\"]",
+"groupName": "[\"terug_brengen\"]",
+"groupScore": "007",
+"instance": "http://www.newsreader-project.eu/data/2009/5/14/corrected_13999_U.S._automaker_Chrysler_wants_to_eliminate_789_dealerships_dutch_utf8.txt.xml#ev10",
+"labels": ["verkopen"],
+"mentions": [{
+"char": [
+"772",
+"780"
+],
+"sentence": ["8"],
+"terms": ["t_129"],
+"tokens": ["w130"],
+"uri": ["http://www.newsreader-project.eu/data/2009/5/14/corrected_13999_U.S._automaker_Chrysler_wants_to_eliminate_789_dealerships_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["verkopen"],
+"sentence": "8",
+"size": "0.875",
+"time": "20090514"
+},
+{
+"actors": {"fn/Communicator": ["ne:het_bedrijf"]},
+"classes": {"fn": [
+"Attempt_suasion",
+"Judgment_direct_address",
+"Experiencer_obj"
+]},
+"climax": 6,
+"event": "ev20",
+"group": "007:[\"terug_brengen\"]",
+"groupName": "[\"terug_brengen\"]",
+"groupScore": "007",
+"instance": "http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml#ev20",
+"labels": ["waarschuwen"],
+"mentions": [{
+"char": [
+"929",
+"940"
+],
+"sentence": ["9"],
+"terms": ["t_164"],
+"tokens": ["w165"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["waarschuwen"],
+"sentence": "9",
+"size": "0.75",
+"time": "20090301"
+},
+{
+"actors": {"fn/Speaker": ["ne:het_bedrijf"]},
+"classes": {"fn": ["Statement"]},
+"climax": 4,
+"event": "ev2",
+"group": "007:[\"terug_brengen\"]",
+"groupName": "[\"terug_brengen\"]",
+"groupScore": "007",
+"instance": "http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml#ev2",
+"labels": ["aan_kondigen"],
+"mentions": [{
+"char": [
+"1282",
+"1290"
+],
+"sentence": ["12"],
+"terms": ["t_227"],
+"tokens": ["w228"],
+"uri": ["http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["aan_kondigen"],
+"sentence": "12",
+"size": "0.5",
+"time": "20080101"
+},
+{
+"actors": {
+"fn/Goods": ["dbp:Saab_Group"],
+"fn/Seller": ["ne:het_bedrijf"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 4,
+"event": "ev13",
+"group": "007:[\"terug_brengen\"]",
+"groupName": "[\"terug_brengen\"]",
+"groupScore": "007",
+"instance": "http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml#ev13",
+"labels": ["verkopen"],
+"mentions": [{
+"char": [
+"1575",
+"1583"
+],
+"sentence": ["14"],
+"terms": ["t_266"],
+"tokens": ["w267"],
+"uri": ["http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["verkopen"],
+"sentence": "14",
+"size": "0.5",
+"time": "20080101"
+},
+{
+"actors": {"fn/Seller": ["ne:het_bedrijf"]},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 4,
+"event": "ev8",
+"group": "007:[\"terug_brengen\"]",
+"groupName": "[\"terug_brengen\"]",
+"groupScore": "007",
+"instance": "http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml#ev8",
+"labels": ["verkopen"],
+"mentions": [{
+"char": [
+"1548",
+"1556"
+],
+"sentence": ["12"],
+"terms": ["t_256"],
+"tokens": ["w257"],
+"uri": ["http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml"]
+}],
+"prefLabel": ["verkopen"],
+"sentence": "12",
+"size": "0.5",
+"time": "20090203"
+}
+],
+"headline": "corpus_gm",
+"mention_cnt": [100],
+"sources": [
+{
+"text": "Mary Barra benoemd tot CEO van General Motors__10-Dec-13___Vandaag benoemde de grootste autobouwer in de V.S., General Motors, Mary Barra tot nieuwe CEO. __Barra, 51, is de eerste vrouw aan het hoofd van een Amerikaanse autofabrikant. __Ze werkt al 33 jaar voor General Motors en is momenteel internationaal hoofd productontwikkeling. __In haar verklaring zei ze: ``Het huidige GM beschikt over een geweldige portefeuille auto 's en vrachtwagens en doet het financieel ook veel beter dan in onze recente geschiedenis, waarmee het een spannende tijd is. __Ik heb de eer het beste team in deze sector te leiden en zal ons huidige momentum in stand houden.''__Ze vervangt Daniel Akerson, die in 2009 tijdens het faillissement door de overheid als chief executive en chairman werd aangesteld. __Akerson trekt zich op 15 januari terug omdat bij zijn vrouw vergevorderde kanker is vastgesteld. __In een boodschap aan de werknemers zei hij: ``Ik ben zeer tevreden over wat we hebben bereikt, zeer optimistisch over wat in het verschiet ligt en zeer trots General Motors weer zijn plaats zal innemen als Amerikaans vaandeldrager in de internationale autosector.''__Akerson geeft ook zijn rol als voorzitter op, waarin hij wordt vervangen door huidig directeur Theodore Solso. __Het bedrijf kondigde daarnaast aan dat hoofd financiën Daniel Ammann wordt benoemd tot nieuwe president. __Het nieuws komt enkele dagen nadat de Amerikaanse overheid zijn laatste aandelen in het bedrijf verkocht, waarmee de staat zo 'n $ 9 miljard verliest van de oorspronkelijke financiële steun die in 2008 werd verleend en waarbij het een aandeel van 61 % in het bedrijf kreeg. __Het faillissement van General Motors werd een jaar na de benoeming van Akerson afgerond, waarna het bedrijf de aandelenmarkt weer betrad in november 2010. __Het is nog steeds de grootste autofabrikant in de Verenigde Staten en meldde een verkoopcijfer van $ 152 miljard in 2012. __Op dit moment produceert het bedrijf vijftien automerken in 37 landen. __Barra behaalde een Bachelor 's in elektrotechniek aan Kettering University in Flint, Michigan, en was onlangs nummer 35 op de Forbes-lijst van meest invloedrijke vrouwen ter wereld.",
+"uri": "http://www.newsreader-project.eu/data/2013/12/10/18942_Mary_Barra_appointed_as_General_Motors_chief_dutch_utf8.txt.xml"
+},
+{
+"text": "Reddingsplan Amerikaanse autofabrikant geblokkeerd door Senaat__12-Dec-08___Een reddingsplan van 14 miljard dollar voor de drie grote Amerikaanse autofabrikanten, Chrysler, Ford en General Motors, is bij procedurele stemming door de Senaat van de Verenigde Staten afgekeurd. __Het voorstel werd weggestemd nadat gesprekken tussen de twee partijen stil kwamen te liggen omdat de leiders van de Republikeinse Partij er bij de vakbond United Auto Workers (UAW) op aandrongen om de lonen volgend jaar sterk te verlagen, zodat de loonschaal gelijk zou liggen aan die van Japanse autofabrikanten in de Verenigde Staten. __De UAW wilde niet aan deze eisen voldoen. __Bij de telling in de Senaat bleek dat het resultaat van de stemming uitkwam op 52-35, een tekort van acht stemmen ten opzichte van de 60 stemmen die nodig waren om het plan goed te keuren. __Tien Republikeinen, veertig Democraten en twee onafhankelijke senatoren stemden voor het reddingsplan. __Drie Democraten en 31 Republikeinen stemden tegen. __Harry Reid, leider van de meerderheidspartij in de Senaat, zei dat hij ``bijzonder teleurgesteld'' was dat het plan niet was goedgekeurd. __``Ik zie er tegenop om morgen naar Wall Street te kijken. __Dat wordt geen leuke situatie,'' zei Reid. __``Dit raakt miljoenen Amerikanen, niet alleen de arbeiders in de fabrieken maar ook verkopers, dealerschappen en garages, direct in hun portemonnee.''__De Republikeinse Senator Bob Corker was ook ontevreden met het resultaat. __``Er was nog maar zo weinig voor nodig om deze deal te sluiten. __We hadden alle praktische problemen opgelost en dan loopt het spaak bij de laatste horde,'' zei hij. __Een aantal democraten wil nu dat President Bush een deel van het reddingspakket van $ 700 miljard, dat voor Wall Street was bedoeld, gebruikt om de worstelende autosector te helpen. __Beurzen over de hele wereld daalden sterk na het nieuws: Nikkei in Japan verloor 484,68 punten of 5,6 procent en bereikte een niveau van 8253,87 punten. __Aandelen in autobedrijven Toyota, Nissan en Honda daalden allemaal met minstens 10 procent. __De Europese aandelen, bijvoorbeeld in Engeland en Duitsland, hadden ook de lijden want de FTSE-100 index was rond het middaguur met 176,3 punten gedaald tot 4.211.",
+"uri": "http://www.newsreader-project.eu/data/2008/12/12/13140_US_automaker_bailout_deal_fails_to_pass_Senate_dutch_utf8.txt.xml"
+},
+{
+"text": "Witte Huis overweegt reddingsplan autosector__13-Dec-08___Nadat een reddingsplan voor drie grote Amerikaanse autofabrikanten deze week door de Senaat werd weggestemd, zei het Witte Huis dat wordt overwogen een deel van de 700 miljoen dollar, die is gereserveerd om het bankwezen te redden, in te zetten ter ondersteuning van de autofabrikanten. __Volgens het Witte Huis zou het instorten van de autofabrikanten een enorme klap zijn, waardoor de economie zou kunnen instorten. __``Onder normale economische omstandigheden hebben we liever dat de markt het lot van privébedrijven bepaalt. __Gezien de huidige verzwakte conditie van de Amerikaanse economie overwegen we echter andere mogelijkheden waar nodig, waaronder ook het TARP Troubled Assets Relief Program ], om de autofabrikanten uit de moeilijkheden te helpen,'' zegt Dana Perino, de perssecretaris van het Witte Huis. __``Als deze sector instort, heeft dat grote gevolgen voor onze economie en het is onverantwoordelijk om onze economie op dit moment nog verder te verzwakken.''__Eerder deze week vroegen Ford, Chrysler en General Motors (de ``Big Three'') het Congres om 14 miljard dollar om ze van de ondergang te redden. __Alhoewel het Huis van Afgevaardigden de maatregelen goedkeurde, stemde de Senaat met 52-35 tegen. __Dit was deels te wijten aan onenigheid over loonsverlagingen aangezien de Republikeinen eisen dat de lonen voor volgend jaar gelijk worden getrokken met die van Japanse autofabrikanten. __General Motors verklaarde dat het bedrijf ``in reactie op snel verslechterende marktomstandigheden'' 30 % van de productiewerkzaamheden in Noord-Amerika zou stopzetten.",
+"uri": "http://www.newsreader-project.eu/data/2008/12/13/13143_White_House_considering_auto_rescue_plan_dutch_utf8.txt.xml"
+},
+{
+"text": "GM, Chrysler bieden werknemers afkoop en vervroegd pensioen aan__03-Feb-09___General Motors (GM) en Chrysler zijn begonnen hun werknemers een ontslagregeling aan te bieden. __^De autofabrikanten hebben zwaar te lijden onder de recente economische omstandigheden; ze hebben de Amerikaanse staat al om hulp gevraagd.  ^__Er wordt gezegd dat de regeling van GM een bedrag van 20.000 dollar en een tegoed van 25.000 dollar voor een nieuwe auto omvat. __Chrysler biedt een tegoed van 25.000 dollar voor een auto en 50.000 met zorgverzekering en 75.000 dollar zonder. __Beide bieden deze deal aan aan het merendeel van de vakbondsleden die zijn aangesloten bij United Auto Workers (UAW): 62.000 man bij GM, dat eind 2012 31.500 banen wil hebben geschrapt. __De twee bedrijven hebben 13,4 miljard dollar aan staatsleningen ontvangen om te kunnen blijven bestaan maar het Congres eiste dat ze in ruil daarvoor een levensvatbaarheidsplan indienen, waarin wordt aangetoond dat ze aanzienlijke kostenbesparingen realiseren en banen schrappen. __^UAW-leden in Detroit verdienen 28 dollar per uur; nieuwe werknemers zullen ongeveer de helft krijgen.  ^__De ``banenbank'' van het UAW, een systeem waarbij niet werkende werknemers toch worden betaald, is bij beide bedrijven stopgezet. __GM probeert daarnaast een ``debt-for-equity swap'' te realiseren, waardoor 27,5 miljard dollar aan ongedekte schulden wordt omgezet naar 9,2 miljard. __Het bedrijf wil ook een vrachtwagenfabrikant, de onderdelengroep Delco Electronics en automerken Hummer en Saab Automobile verkopen. __De hele autosector lijdt onder de recessie en ook Ford Motor Company heeft een jaarverlies van 14,6 miljard dollar gerapporteerd, alhoewel dit bedrijf niet om staatshulp heeft gevraagd. __Het werkkapitaal van GM en Chrysler was in december uitgeput, wat leidde tot de staatshulp.",
+"uri": "http://www.newsreader-project.eu/data/2009/2/3/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers_dutch_utf8.txt.xml"
+},
+{
+"text": "Autoverkopen in Verenigde Staten sterk gedaald__03-Feb-09__De verkoop van auto 's in de Verenigde Staten is in januari met 35 % gedaald vergeleken met januari vorig jaar, meldden autofabrikanten in hun verkoopcijfers voor deze maand. __Ford Motor Company verkocht afgelopen maand 42 % minder dan vorig jaar. _General Motors meldde een daling van 49 %. _Chrysler deed het van alle nationale autofabrikanten het slechtst met een daling van 55 %. _De verkoop loopt niet alleen terug bij Amerikaanse fabrikanten. _Het Japanse Toyota meldde een daling van 32 % in Amerika vergeleken met vorig jaar, Nissan Motors verloor 30 % en Honda verkocht 28 % minder auto 's. _Subaru en South Korean Hyundai Motor Company behoorden tot de weinige autofabrikanten die een verkoopstijging rapporteerden. _Zij meldden een stijging van respectievelijk acht en veertien procent. _Op jaarbasis is ook de totale omzet sterk aan het dalen. _In de Verenigde Staten werd vorig jaar 13,2 miljoen auto 's verkocht, 18 % minder dan het jaar daarvoor. _GM kondigde aan dat het 22.000 werknemers in de Verenigde Staten een afkoopregeling zal aanbieden om zo de uitgaven te beperken. _Vorige maand kregen GM en Chrysler 17,4 miljard dollar aan staatshulp nadat ze waarschuwden voor een ophanden zijnd faillissement.",
+"uri": "http://www.newsreader-project.eu/data/2009/2/3/corrected_13417_Automobile_sales_in_the_United_States_down_sharply_dutch_utf8.txt.xml"
+},
+{
+"text": "Amerikaanse autofabrikanten GM en Chrysler vragen meer staatshulp__18-Feb-09___Chrysler, de Amerikaanse autofabrikant die door de recessie in zwaar vaarwater is geraakt, heeft de Amerikaanse staat naast de reeds ontvangen 4 miljard dollar om nog eens 5 miljard dollar gevraagd en zei dat het drieduizend werknemers wil ontslaan. __Eind vorig jaar had de fabrikant iets meer dan 54.000 mensen in dienst dus zo 'n zes procent van alle werknemers wordt ontslagen. __Daarnaast stopt Chrysler met de productie van de Chrysler Aspen, PT Cruiser en Durango. __Een andere autofabrikant, General Motors (GM), kondigde aan dat het de staat om een lening van 16,6 miljard dollar vraagt naast de 13,4 miljard die ze al eerder kregen. __GM wil 47.000 werknemers ontslaan en vijf fabrieken sluiten. __GM zegt dat het wel 30 miljard uit de staatskas nodig zou kunnen hebben, wat meer is dan de eerder geschatte 18 miljard dollar. __Het bedrijf waarschuwde dat het in maart waarschijnlijk geen geld meer heeft als niet meer steun wordt gegeven. __Rick Wagoner, de CEO van GM, beschreef het plan van het bedrijf als ``veelomvattend, responsief, haalbaar en flexibel''. __``We hebben nog veel werk te doen maar ik heb er alle vertrouwen in dat dit zal leiden tot een winstgevend General Motors,'' zei hij en voegde daar aan toe dat ``dit plan veel agressiever is omdat dat nodig is.''__GM zei dat het binnen twee jaar winst zal maken en mogelijk alle leningen in 2017 kan afbetalen. __Een derde Amerikaanse fabrikant, Ford Motor Company, verklaarde dat het het jaar kan afmaken zonder staatshulp. __Het Amerikaanse ministerie van financiën bestudeert de overlevingsplannen een aantal weken voordat wordt besloten om de leningen eventueel toe te kennen. __Die beslissing valt eind volgende maand.",
+"uri": "http://www.newsreader-project.eu/data/2009/2/18/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid_dutch_utf8.txt.xml"
+},
+{
+"text": "GM en Chrysler krijgen bij Amerikaanse ultimatums om te herstructureren een Canadese lening__03-Apr-09__General Motors (GM) en Chrysler krijgen van de Canadese staat en de provinciale overheid van Ontario een overbruggingslening maar zullen verder geen hulp meer krijgen van de Canadese of Amerikaanse staat tot ze hun activiteiten herstructureren. _``Dit is helaas een noodzakelijke stap om de Canadese economie te beschermen. _We gaan er hierbij vanuit dat de Verenigde Staten en Canada zich natuurlijk geen catastrofale instorting op de korte termijn kunnen veroorloven,''_zei Stephen Harper, de premier van Canada. _``We kunnen en moeten onze autosector niet simpelweg laten verdwijnen en dat zullen we ook niet doen. _Deze industrie is meer dan welke andere een embleem van de Amerikaanse spirit, een symbool van het succes van Amerika,'' zei Barack Obama, president van de Verenigde Staten. _``Deze bedrijven en deze sector moeten uiteindelijk onafhankelijk kunnen zijn en niet op de staat teren.''_Chrysler krijgt 1 miljard Canadese dollar en komt misschien zelfs in aanmerking voor 4 miljard Canadese dollar. _Als Chrysler binnen 30 dagen met een herstructureringsplan komt, zou het een lening van 6 miljard Amerikaanse dollar kunnen krijgen. _Als onderdeel van dat plan moet binnen 30 dagen om de Amerikaanse overheid gerust te stellen een samenwerkingsverband worden aangegaan met Fiat. _^Fiat is leverancier van kleinere auto 's die minder brandstof verbruiken; deze fusie zal Chrysler helpen levensvatbaar te blijven op de Noord-Amerikaanse markt.  ^_Als Chrysler door de rechtbank failliet wordt verklaard, wordt het zeker verkocht. _Tom LaSorda, president van Chrysler, kondigde aan dat de Canadese activiteiten als onderdeel van het herstructureringsplan zullen worden opgedoekt tenzij de Amerikaanse overheid niet 2,3 miljard Amerikaanse dollar aan steun toezegt en er een nieuw contract met Canadian Auto Workers CAW wordt afgesloten om de totale kosten te verlagen met 19 Canadese dollar per uur. __Na de aankondiging daalde de omzet uit autoverkoop in Canada van Chrysler met 23 % in vergelijking tot maart 2008. _GM heeft tot eind mei om het bedrijf te herstructureren en maximaal 7,5 miljard Canadese dollar aan steun te ontvangen. _In het kader van de herstructurering werd de CEO van General Motors, Rick Wagoner, afgelopen zondag vervangen door Fritz Henderson, de huidige chief operating officer. _Henderson zei dinsdag dat GM een herstructureringsplan heeft ingediend waaronder vijf fabrieken worden gesloten, wat nog kan worden uitgebreid als het bedrijf wil voldoen aan de eisen voor financiële steun. _Hij houdt zich hierbij aan de eisen van de taskforce van Obama voor de autosector om faillissement aan te vragen als GM niet tot een oplossing kan komen met de vakbonden, obligatiehouders en anderen. _GM kondigde recentelijk het ``GM Total Confidence''-programma aan, waaronder consumenten aankoopbescherming krijgen voor het geval ze binnen twee jaar na aankoop hun baan verliezen om economische redenen. _Na de herstructureringsaankondiging van Chrysler in Canada daalde de verkoopomzet met slechts 17,3 % in vergelijking tot 2008, een stijging ten opzichte van een maand eerder. _GM moet een aantal deel van de kosten uit eerdere jaren verlagen, waaronder de pensioenen en medische kosten in verband met de vakbonden. _Een deel van de problemen van GM is de wijten aan de investering in vrachtwagens en SUV 's op een moment dat de brandstofprijzen hoog waren en de consument vraagt om zuinige voertuigen. _Tony Clement, minister van industrie in Canada, hoopt dat de CAW het herstructureringsplan zal ondersteunen en nieuwe afspraken wil maken. _Een onderhandelaar van de United Auto Workers zei: ``Ik denk niet dat de UAW iets zal doen tot ze zien wat de obligatiehouders willen toegeven.''_De regering van Obama kijkt naar faillissementsregelingen voor de autofabrikanten ``als een manier om ze snel te helpen herstructureren en er als sterkere bedrijven uit te komen. _Zo kunnen oude schulden die op ze rusten snel worden afgewikkeld. _Het is moeilijk wat we vragen. _Het vereist moeilijke beslissingen van de bedrijven. _Vakbonden en werknemers die al pijnlijke concessies hebben moeten doen, moeten nog meer opgeven. _En crediteuren moeten inzien dat ze niet kunnen rekenen op eindeloze hulp van de overheid,''_zei Obama. _De exporteurs van auto-onderdelen en software in India hebben al te lijden onder de dalende autoverkopen. _Softwarecontracten met GM en Chrysler leveren leveranciers in India 300 tot 350 miljoen Amerikaanse dollar op. _Bovendien kennen deze twee grote autofabrikanten meestal contracten van 1 miljard dollar toe aan onderdelenleveranciers. _``We maken ons zorgen en houden de ontwikkelingen in de V.S. nauwgezet in de gaten om de gevolgen in te schatten. _Indiase leveranciers merken al dat er minder auto 's worden verkocht in Amerika,'' zei een leverancier van auto-onderdelen in Delhi. _``In de toekomst zal de sector absoluut kleiner zijn maar als onze inspanningen succesvol zijn, is de sector we levensvatbaar en zullen er goede banen voor Canadezen beschikbaar zijn,'' zei Clements. _Betty Sutton, afgevaardigde van Ohio, legde de CARS act op tafel, waaronder een stimulans van 3.000 tot 5.000 dollar wordt geboden aan mensen die hun auto inruilen voor een zuinig exemplaar. _``Dit stimuleert duidelijk de economie, trekt de consument naar de showroom en zorgt dat er weer auto 's worden verkocht. _Wat ik er bijzonder mooi aan vind, is dat het ook op twee manieren goed is voor het milieu,''_zei William Clay Ford Jr., executive chairman van Ford Motor Co.. _Ford Motor Company heeft niet om overheidssteun gevraagd. _Sinds december hebben GM en Chrysler 17,4 miljard Amerikaanse dollar aan overheidsleningen ontvangen.",
+"uri": "http://www.newsreader-project.eu/data/2009/4/3/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata_dutch_utf8.txt.xml"
+},
+{
+"text": "Omzet uit verkoop General Motors daalt met 45 %__01-Apr-09___General Motors Corporation (GM) kondigde woensdag aan dat er in maart 45 % minder auto 's zijn verkocht in de Verenigde Staten. __Topmensen bij enkele autofabrikanten zeiden echter dat er wel enige hoop is dat de autosector zich zal stabiliseren omdat de verkoop weer steeg in de laatste week van maart. __``De markt vertoont kleine tekenen van leven die we moeten opkweken als zaailingen,'' zei Jim Press, de vicepresident en chairman van Chrysler LLC. __``Het is nog te vroeg om van een trend te spreken maar de lente geeft tekenen van hoop.''__Ook andere autofabrikanten zagen hun verkoopcijfers dalen: Chrysler en het Japanse Toyota meldden beide een verlies van 39 % en de omzet van Ford Motor Company daalde met 41 %. __^Naar voorspelling zijn er in maart minder dan negen miljoen auto 's verkocht in de Verenigde Staten; in februari werden 9,12 miljoen auto 's verkocht, het laagste aantal sinds 1981.  ^__``Autofabrikanten doen er alles aan om kopers aan te trekken, zoals te zien is aan de nieuwe programma 's van Ford en GM. __De normale stimuleringsprogramma 's werken gewoon niet in deze economie,'' zegt Jesse Toprak, een analist bij Edmunds. __Ford-aandelen stegen woensdag aan het begin van de dag met 2,3 % tot US$ 2,69 terwijl de aandelen van de Amerikaanse divisie van Toyota met 5,9 % stegen tot $ 67,-. __De aandelen van GM daalden met 1,6 % tot $ 1,92.",
+"uri": "http://www.newsreader-project.eu/data/2009/4/1/13798_General_Motors_automobile_sales_plunge_by_45%_dutch_utf8.txt.xml"
+},
+{
+"text": "Chrysler vraagt faillissement aan, Fiat Group SpA neemt het roer over__01-May-09__De Amerikaanse autofabrikant Chrysler vroeg dinsdag faillissement aan maar er werd een deal met de Europese autofabrikant Fiat gesloten. __Het nieuwe Chrysler zal voor 55 procent eigendom zijn van de United Auto Workers, acht procent van de Amerikaanse staat, twee procent van de Canadese staat en Fiat start met een aandeel van 20 procent. _Robert Nardelli, de CEO van Chrysler, trekt zich terug wanneer het faillissement is afgewikkeld. _^In eerste instantie benoemt het Italiaanse Fiat drie leden voor de raad van bestuur van het nieuwe Chrysler; de Amerikaanse overheid kiest zes leden.  ^_Fiat kan na afbetaling van de Amerikaanse leningen een meerderheidsbelang in het bedrijf nemen. _De beheerders van Chrysler verwachten dat het faillissement een paar maanden in beslag zal nemen. _``We verwachten dat dit een heel kort faillissementsproces van 30 tot 60 dagen zal zijn, waarin het bedrijf normaal blijft functioneren,'' zei een hooggeplaatste overheidsambtenaar.  ``Mensen kunnen gewoon een auto kopen, de garantie blijft geldig en alles moet normaal blijven functioneren.''__De faillisementsaanvraag gaf aan dat Chrysler 20 crediteuren elk meer dan 10 miljoen dollar verschuldigd is. _De deal met Fiat is echter gesloten en rond 2011 zijn naar verwachting de eerste Chrysler-modellen ontworpen door Fiat op straat te zien. _^``Dankzij deze samenwerking heeft Chrysler niet alleen een kans om te overleven maar ook om het wereldwijd goed te doen,'' zei de Amerikaanse president Obama; ``Fiat heeft aangetoond dat het de schone, zuinige auto 's kan bouwen die de toekomst van de sector vertegenwoordigen.'' ^_Erich Merkle, analist voor de autosector, heeft echter zijn twijfels. _``De geschiedenis demonstreert dat samenwerkingen het echt niet zo goed doen, hoe goed ze er ook op papier uitzien,'' zei hij.''_De herstructurering werd geleid door Steve Rattner, voormalig investeringsbankier, en de taskforce voor de autosector van de Amerikaanse overheid. _Obama heeft Fiat drie ultimatums gesteld. _Fiat moet een auto produceren die 40 mijl per gallon kan afleggen terwijl het het nieuwe Chrysler beheert, brandstofzuinige Fiat-technologie aan fabrieken van Chrysler in de Verenigde Staten geven en auto 's in Chrysler-fabrieken in de V.S. produceren en in Europa distribueren.",
+"uri": "http://www.newsreader-project.eu/data/2009/5/1/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company_dutch_utf8.txt.xml"
+},
+{
+"text": "Amerikaans autofabrikant GM rapporteert 6 miljard dollar verlies__07-May-09___De Amerikaanse autofabrikant General Motors meldt in het eerste kwartaal van 2009 een verlies van 6 miljard Amerikaanse dollar door sterk dalende verkopen. __Buiten speciale posten heeft het bedrijf netto $ 5,9 miljard verlies geleden oftewel $ 9,66 per aandeel. __In het eerste kwartaal van vorig jaar leed GM een verlies van $ 381 miljoen, $ 0,67 per aandeel. __De meeste financiële analisten hadden voorspeld dat de autofabrikant $ 6,7 miljard of $ 11,05 per aandeel zou verliezen. __GM meldde ook dat het $ 10,2 miljard had uitgegeven in een poging een faillissement te voorkomen. __De fabrikant heeft meer dan $ 15 miljard aan hulpverlening ontvangen van de overheid. __Het bedrijf heeft tot 1 juni om een herstructureringsplan op te stellen. __Als dit niet gebeurt, moet het faillissementsbescherming aanvragen. __``We richten ons sterk op de kosten van het bedrijf maar als je omzet gaat dalen, kom je in een vicieuze cirkel terecht en kun je je niet herstellen,'' zegt Ray Young, chief financial officer bij GM. __``We denken dat er nog steeds een kans van 60-80 procent is dat GM failliet gaat. __Het kapitaal van GM is nu grotendeels niet investeerbaar maar we geloven steeds meer dat GM veel sterker uit een faillissement kan komen als het Chapter 11-proces niet te lang duurt, vooral gezien de omvang van de gerichte eliminatie van dealers,'' zegt analist Himanshu Patel.",
+"uri": "http://www.newsreader-project.eu/data/2009/5/7/13972_US_automaker_GM_reports_losses_dutch_utf8.txt.xml"
+},
+{
+"text": "Amerikaans autofabrikant Chrysler wil 789 dealerschappen schrappen__14-May-09__Het Amerikaanse autobedrijf Chrysler LLC zegt dat voor begin juni het 789 oftewel een kwart van de 3.200 dealers wil schrappen. _Bij het faillissementsverzoek op donderdag zei het bedrijf dat er teveel dealers met elkaar concurreren en dat het netwerk is verouderd. __Op 3 juni beslist de Amerikaanse rechtbank of dit plan moet worden goedgekeurd. _``Dit is een moeilijke dag voor ons en niemand kan zich hierop voorbereiden,'' zei Jim Press, de Vice Chairman van Chrysler. _Hooggeplaatste managers zeiden dat het bedrijf dealers die het minder goed doen willen kwijtraken en de dealers met de beste verkoopcijfers willen behouden. _Meer dan 50 % van de dealers die het bedrijf wil schrappen, verkopen minder dan 100 auto 's per jaar. _``We begrijpen dat we op korte termijn de omzet wat zullen zien dalen. _Maar op de lange termijn. .. is het dealernetwerk van cruciaal belang en wordt het sterker, krachtiger en levensvatbaarder,'' zegt Press.",
+"uri": "http://www.newsreader-project.eu/data/2009/5/14/corrected_13999_U.S._automaker_Chrysler_wants_to_eliminate_789_dealerships_dutch_utf8.txt.xml"
+},
+{
+"text": "Amerikaans autofabrikant GM gaat 1.100 dealers sluiten__15-May-09__Het Amerikaanse autobedrijf General Motors (GM) kondigde vrijdag aan dat zo 'n 1.100 dealers zullen worden gesloten in een poging een faillissement te voorkomen en de kosten te drukken. _Een dag eerder publiceerde Chrysler, een andere Amerikaanse fabrikant, een lijst van 789 dealers die worden gesloten. _In tegenstelling tot Chrysler zal GM de te sluiten dealerschappen niet aankondigen. _Dealers wiens franchise na oktober volgend jaar niet wordt verlengd, krijgen een persoonlijke kennisgeving van de beslissing. __Op dit moment heeft GM 6246 dealers in de V.S.. _Het bedrijf wil dat aantal voor eind 2010 terugbrengen tot 3605. _GM zegt dat de dealers die worden gesloten ``niet goed presteren en een zeer lage omzet draaien.''_``Het zijn dealers die het in de meeste gevallen al moeilijk hebben, geld verliezen en waarschijnlijk sowieso snel over de kop zullen gaan,'' zei de vicepresident sales, service en marketing van GM tijdens een telefoonconferentie. _``Er zou kunnen worden gezegd dat dit al jaren geleden had moeten worden gedaan maar dit managementteam kon niets anders dan nu de beslissing nemen.''_De te sluiten dealers vertegenwoordigen 18 % van het dealernetwerk van het bedrijf maar slechts 7 % van de omzet van GM in 2008.",
+"uri": "http://www.newsreader-project.eu/data/2009/5/15/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships_dutch_utf8.txt.xml"
+},
+{
+"text": "Faillissement Amerikaans autofabrikant GM bijna zeker na falen aanbod obligatiehouders__28-May-09___Het Amerikaanse autobedrijf General Motors kondigde woensdag aan dat de meeste obligatiehouders de schuld van US$ 27 miljard van het bedrijf niet wilden inruilen voor een aandeel van 10 procent in het aandelenkapitaal. __GM moet voor 1 juni een herstructureringsplan voor de overheid opstellen, waaronder fabrieken moeten worden gesloten en andere schuldverlagingsmaatregelen opgenomen. __De regering van de Amerikaanse President Barack Obama zei dat het bedrijf geen financiële steun meer krijgt tenzij 90 % van de obligatiehouders akkoord gaan met compromissen die de kosten van het bedrijf sterk zullen drukken. __``Het aangeboden bedrag aan obligaties was aanzienlijk minder dan GM nodig heeft om de schuld afdoende te verlagen,'' zei GM in een verklaring. __``Ze zeiden nee. __Zo is het. __Ze hebben het geprobeerd. __Daarom moeten ze een faillissement aanvragen,'' zei een professor aan de Universiteit van Michigan die is gespecialiseerd in faillissementsrecht.",
+"uri": "http://www.newsreader-project.eu/data/2009/5/28/14056_Bankruptcy_for_U.S._automaker_GM_becomes_almost_certain_after_bondholder_offers_fail_dutch_utf8.txt.xml"
+},
+{
+"text": "Amerikaanse fabrikant General Motors vraagt faillissementsbescherming aan__01-Jun-09___Het Amerikaanse autobedrijf General Motors vroeg om 12.00 uur UTC een faillissement en bescherming tegen crediteuren onder Chapter 11 aan bij een faillissementsrechtbank in Manhattan, New York. __Dit was de grootste faillissementsaanvraag van een fabrikant in Amerika, met activa ter waarde van $ 82,29 miljard en een schuld van $ 172,81 miljard en de op drie na grootste faillissementsaanvraag in de recente Amerikaanse geschiedenis na het faillissement van Lehman Brothers ($ 691,06 miljard), Washington Mutual ($ 327,91 miljard) en WorldCom ($ 103,91 miljard).",
+"uri": "http://www.newsreader-project.eu/data/2009/6/1/14082_U.S._manufacturer_General_Motors_seeks_bankruptcy_protection_dutch_utf8.txt.xml"
+},
+{
+"text": "Barack Obama presenteert reddingsplan na faillissementsverklaring GM__01-Jun-09__Na de aankondiging om 12.00 uur UTC door General Motors dat het bedrijf faillissement en crediteurenbescherming onder Chapter 11 had aangevraagd \u201a�� het grootste faillissement van een Amerikaanse fabrikant, presenteerde de president van de Verenigde Staten, Barack Obama, vandaag om 16:00 UTC vanuit het Witte Huis in een televisiespeech een reorganisatieplan.. __Obama beschreef het probleem als een probleem ``dat er al decennia zat aan te komen,'' en rechtvaardigde de voorgestelde reorganisatie van General Motors. _Volgens hem was het de bedoeling niet de ``slechte zakelijke beslissingen uit het verleden voort te zetten,'' en hij zei dat meer geld lenen aan General Motors terwijl de schuldenlast het probleem was juist een slechte beslissing zou zijn geweest. __De Amerikaanse overheid wil in samenwerking met de overheden van Canada en Ontario (die hij naast de overheid van Duitsland bedankte voor haar rol in de verkoop van een bedrijfsaandeel in GM Europe) aandeelhouder worden in General Motors. _De Verenigde Staten zou dan een aandeel van 60 % hebben. _De staat geeft GM US$ 30 miljard naast het geld dat het bedrijf al heeft gekregen. _Ten aanzien van het overheidsaandeel zei hij dat hij weigerde ``General Motors en Chrysler afhankelijk te laten worden van de staat'' en hij hoopte dat het faillissement van Chrysler en General Motors ``snelle, chirurgische faillissementen'' zouden zijn. __Hij verwees naar Chrysler als voorbeeld van wat hij hoopte voor General Motors maar gaf aan dat General Motors ``een complexer bedrijf'' is dan Chrysler. _In antwoord op kritiek van politieke tegenstanders voorafgaand aan de speech, die zeiden dat de federale overheid actief zou deelnemen in de activiteiten van het geherstructureerde bedrijf, zei hij dat hij ``er geen interesse in had'' om GM te beheren en dat de federale overheid zich grotendeels niet zou beroepen op ``zijn rechten als aandeelhouder''. _Hij zei met name dat de overheid zou afzien van zijn recht als aandeelhouder om te bepalen ``wat voor nieuwe auto 's er moeten worden gemaakt.''_Hij verklaarde dat hij verwachtte dat het nieuwe GM ``hoogwaardige, veilige en zuinige auto 's van morgen'' zal maken en beschreef meermalen dat hij hoopte op ``betere'' en ``meer zuinige'' auto 's nadat de merken van GM zijn gestroomlijnd. _Tegen het grote publiek zei hij dat hij ``niet zal pretenderen dat de moeilijke tijden voorbij zijn.''_Hij beschreef de financiële moeilijkheden die bepaalde partijen, waaronder aandeelhouders, gemeenschappen rondom de GM-fabrieken, GM-dealers en anderen, moeten ondergaan als ``offer voor de volgende generatie'', zodat hun kinderen kunnen leven in ``een Amerika dat nog steeds dingen maakt'' en concludeerde dat de V.S. hopelijk ooit de realiteit van het motto (een veelgebruikt verkeerd citaat van wat Charles Erwin Wilson ooit zei in de Amerikaanse Senaat toen hij werd genomineerd voor de positie van Secretary of Defense) dat ``wat goed is voor General Motors, goed is voor de Verenigde Staten van Amerika.''",
+"uri": "http://www.newsreader-project.eu/data/2009/6/1/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy_dutch_utf8.txt.xml"
+},
+{
+"text": "CEO van GM presenteert plan voor ``Nieuw GM'' na faillissement__04-Jun-09__Tijdens een persconferentie in New York op 1 juni om 16.15 uur presenteerde Fritz Henderson, Chief Executive Officer van General Motors, dat eerder vandaag een faillissement en Chapter 11-bescherming tegen crediteuren aanvroeg, een plan voor wat hij een ``Nieuw GM'' noemde. __Hij sprak de pers toe onder \u201a�� safe harbor \u201a��-bepalingen in de Amerikaanse wet en beschreef de gebeurtenissen van vandaag als ``tekenend moment'' in de geschiedenis van General Motors. _Hij sprak het publiek toe en zei: ``Het GM dat u in de steek heeft gelaten, is nu geschiedenis'' en beschreef een ``Nieuw GM'' dat in zijn verwachting uit het faillissementsproces zou verrijzen. _Henderson verklaarde dat hij verwachtte dat het faillissementsproces zo 'n 60 tot 90 dagen zal duren. _Hij benadrukte meermalen dat hij gelooft dat het proces snel zal worden uitgevoerd, waarbij hij zei dat hij verwachtte dat het proces niet alleen een kwestie van noodzaak maar van ``absoluut plankgas'' zou zijn. _Hij benadrukte dat ``GM gewoon zaken blijft doen'' in de faillissementsperiode en producten zal blijven verkopen en ondersteunen en dat op diezelfde dag moties waren ingediend bij de faillissementsrechtbank om dit mogelijk te maken. _Over het faillissementsproces zei hij het volgende: ``We doen dit op de juiste manier. _En we doen dit maar één keer.''_He verklaarde dat het plan voor General Motors werd ondersteund door de vakbonden United Auto Workers en de Canadian Auto Workers, de GM VEBA en een meerderheid van de obligatiehouders van GM. __He zei daarnaast dat GM al $ 1,5 miljoen aan overbruggingshulp had gekregen van de Duitse overheid. _In antwoord op vragen of de Amerikaanse overheid, een meerderheidsaandeelhouder in het nieuwe bedrijf, eisen zou stellen over productontwikkeling en strategie, zoals de verkoop van meer zuinige en groene auto 's, zei hij eerst dat de overheid hem al had gezegd dat ze ``er geen interesse in hebben ons bedrijf te runnen'' en dat hij verwachtte dat dit zijn taak zou blijven. _Ten aanzien van de specifieke hypothese dat het management van GM één soort auto wil maken omdat men denkt dat dat goed is voor het bedrijf en de Amerikaanse overheid een andere auto, zei hij dat ``ik niet denk dat dit gaat gebeuren.''_Hij zei hierover dat hij verwachtte dat het ``Nieuwe GM'' zich zou richten op ``zeer zuinige en groene technologie'' en dat de Amerikaanse milieuwetgeving en de vraag vanuit de klant er logischerwijze toe leiden dat het nieuwe GM het soort auto 's zal produceren dat de Amerikaanse overheid wenst. _Hij verwacht ook dat het ``Nieuwe GM'' zich zal richten op ``vier kernmerken'' en het dealernetwerk overeenkomstig zal inkrimpen. _Hij verklaarde dat GM dealers een ``uitgesteld opzeggingspakket'' zal aanbieden, zodat ze op gecontroleerde en geleidelijke wijze kunnen afstappen van GM-auto 's. _Hij verklaarde dat de faillissementsaanvraag geen betrekking had op de bedrijven van General Motors in Latijns-Amerika, Europa en het Midden-Oosten, en Azië en Oceanië. __Over de winstgevende activiteiten in China zei hij specifiek dat ze ``een cruciaal onderdeel uitmaken van het Nieuwe GM''. _In antwoord op de vraag of het Nieuwe GM auto 's uit China naar de V.S. zal importeren, zei hij dat het kernprincipe van het nieuwe bedrijf, ``We bouwen waar we verkopen'', beide kanten op werkt, zodat GM in China bouwt voor verkoop in China en in de V.S. voor verkoop in de V.S., wat ook de leveringsketen zal verkorten. _Hij wilde niet voorspellen wanneer het Nieuwe GM winstgevend zal zijn en zei dat het belangrijker is het break-even EBIT-punt van het bedrijf te verlagen. _^Hij wilde ook niet speculeren of de Amerikaanse overheid zijn aandeel in het bedrijf zal verkopen en zei dat deze vraag ``beter kan worden gesteld aan het ministerie van financiën''; hij verwacht dat het ``jaren, niet maanden'' zal duren voordat het ministerie vindt dat het ``de belastingbetaler voldoende terugbetaalt.'' ^",
+"uri": "http://www.newsreader-project.eu/data/2009/6/4/corrected_14084_CEO_of_GM_outlines_plan_dutch_utf8.txt.xml"
+},
+{
+"text": "Penske Auto geselecteerd om Saturn van General Motors over te nemen__05-Jun-09___General Motors Corporation (GM), een Amerikaanse autofabrikant die faillissement heeft aangevraagd, kondigde op vrijdag aan dat het Penske Automotive Group (PAG) heeft geselecteerd om Saturn Corporation over te nemen. __Deze transactie zal worden afgerond in oktober. __De deal omvat de rechten op het handelsmerk Saturn, de vijf huidige modellen en het dealernetwerk. __Twee modellen, de Sky en de Astra, worden uit de handel genomen. __GM blijft de Aura sedan, SUV 's, Vue en Outlook nog tenminste twee jaar produceren. __Saturn heeft 350 dealers in de Verenigde Staten. __Deze dealers hebben meer dan 13.000 werknemers en verkopen alleen de Saturn-auto 's. __De Canadese Saturn-dealers maken geen deel uit van het akkoord. __Volgens Penske zullen toekomstige Saturn-modellen zich richten op een laag brandstofverbruik. __Een expert zei dat Saturn hiermee zou teruggaan naar zijn oorsprong als bedrijf dat entry-level auto 's maakt. __PAG praat met enkele internationale autofabrikanten om GM na 2011 te vervangen. __Automotive News meldt dat Renault Samsung Motors uit Korea de meest waarschijnlijke kandidaat is. __Penske wil dat Jill Lajdziak, general manager van Saturn, en Tom LaSorda, voormalig president van Chrysler, het bedrijf gaan leiden zodra het onafhankelijk is van GM. __Serra Automotive in Grand Blanc Township, Genesee County, Michigan, onderhandelt over een aandeel in het nieuwe Saturn onder leiding van Penske.",
+"uri": "http://www.newsreader-project.eu/data/2009/6/5/14111_Penske_Auto_selected_to_buy_General_Motors_dutch_utf8.txt.xml"
+},
+{
+"text": "Autofabrikant Ford rapporteert onverwachte winst__03-Nov-09___Het Amerikaanse autobedrijf Ford meldt dat het in het derde kwartaal een nettowinst van US$ 997 miljoen heeft gemaakt en voorspelt een ``stabiele winst'' rond 2011. __Dit verraste veel analisten, die hadden voorspeld dat het autobedrijf verlies zou lijden. __De winst komt overeen met 26 dollarcent per aandeel, een groot verschil met de 12 dollarcent verlies per aandeel die de meeste economische analisten hadden voorspeld. __``De resultaten voor het derde kwartaal tonen duidelijk aan dat Ford ondanks de langdurige recessie enorme vooruitgang boekt,'' zei Alan Mulally, de chief executive officer van het bedrijf. __``Alhoewel we nog steeds de nodige uitdagingen moeten aangaan, boekt onze transformatie goede resultaten en blijven de onderliggende activiteiten nog steeds sterker worden.''__Mulally voorspelde dat zijn bedrijf alle financiële doelstellingen zou halen of zelfs overschrijden en gaf aan dat er voor het vierde kwartaal zelfs een positief bedrijfsresultaat mogelijk is.",
+"uri": "http://www.newsreader-project.eu/data/2009/11/3/14994_Automobile_manufacturer_Ford_posts_unexpected_profits_dutch_utf8.txt.xml"
+},
+{
+"text": "Autofabrikant GM schrapt 10.000 banen bij Opel__05-Nov-09___Het Amerikaanse autobedrijf General Motors zei dat het 10.000 banen zal schrappen bij de Europese divisie Opel. __Volgens de vicepresident van het bedrijf, John Smith, wil GM de kosten bij Opel met 30 % verlagen. __Smith kondigde het nieuws woensdag aan. __Hij zei niet waar de banen zouden worden geschrapt maar wilde Europese overheden ``zeer binnenkort'' meer informatie over het plan geven. __Een dag voor de aankondiging zei GM dat het niet langer van plan was om Opel te verkopen aan Magna, een Canadees bedrijf in auto-onderdelen. __Politici in Duitsland waren teleurgesteld dat GM de deal met Magna laat varen, omdat de Duitse overheid deze voorstond. __``Het gedrag van GM ten opzichte van Duitsland is compleet onaanvaardbaar,'' zei de Duitse minister van economie Rainer Bruederle. __De premier van de Duitse staat Noordrijn Westfalen merkte op dat ``het gedrag van General Motors het nare gezicht van het turbokapitalisme aantoont. __Dit is totaal onaanvaardbaar.''__De Engelse overheid is echter blij met de beslissing. __``Dit is de beste beslissing voor Brittannië en onze fabrieken,'' zei de algemeen secretaris van de Britse vakbond Unite, Tony Woodley. __``Ik ben zeer blij dat General Motors eindelijk de juiste beslissing neemt, voor henzelf en voor ons,'' zei hij tegen de BBC. __Opel heeft ongeveer 54.000 mensen in dienst, waarvan zo 'n 25.000 in Duitsland.",
+"uri": "http://www.newsreader-project.eu/data/2009/11/5/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel_dutch_utf8.txt.xml"
+},
+{
+"text": "Ford Motors meldt jaarwinst van US$ 2,7 miljard__28-Jan-10___Autofabrikant Ford Motors Co. meldt een winst van US$ 2,7 miljard over het afgelopen jaar, de eerste keer in vier jaar. __Het is een grote verbetering ten opzichte van 2008, toen het bedrijf een verlies van bijna $ 15 miljard moest melden. __In het laatste kwartaal van 2009 maakte Ford volgens het bericht een winst van $ 868 miljoen en het bedrijf verwacht ook dit jaar weer winst te maken. __Het bedrijf verlaagde vorig jaar de kosten tot $ 118,3 miljard, $ 19,8 miljard minder dan het jaar daarvoor. __Eind 2009 had Ford een schuld van $ 34,3 miljard. __In het vierde kwartaal steeg de verkoop van Ford-auto 's in de V.S. met dertien procent in vergelijking tot dezelfde periode in 2008, waarmee het een aandeel van 15,3 % van de automarkt in handen heeft. __Alan Mulally, president en chief executive, gaf zijn commentaar op de winst. __``Alhoewel we nog voor aanzienlijke uitdagingen zullen komen te staan, was 2009 een belangrijk jaar voor Ford en hebben we het bewijs geleverd dat ons One Ford-plan werkt en dat we op het pad naar winstgevende groei lopen,'' waar hij aan toevoegde dat ``de internationale economische omstandigheden herleven, maar ze zijn nog steeds kwetsbaar.''",
+"uri": "http://www.newsreader-project.eu/data/2010/1/28/15652_Ford_Motors_posts_2.7_billion_annual_profit_dutch_utf8.txt.xml"
+},
+{
+"text": "Amerikaanse omzet Ford stijgt en passeert GM__03-Mar-10___Ford Motor Company zei afgelopen dinsdag dat de verkoop in de Verenigde Staten in februari was gestegen met 43 % in vergelijking tot dezelfde periode vorig jaar en het bedrijf meer auto 's heeft verkocht dan rivalen Toyota en General Motors. __Ford zei dat er in totaal 142.285 auto 's werden verkocht, terwijl GM 141.951 auto 's verkocht. __Bovendien zei Ford dat zijn aandeel in de totale Amerikaanse automarkt was gestegen naar 17 % ten opzichte van 14 % het jaar daarvoor. __Dit was beter dan voorspeld door analisten en het aandeel van Ford steeg in de ochtend tot een hoogte die in vijf jaar niet meer was gezien, alhoewel het later op de dag weer daalde. __De omzet van Ford was grotendeels te danken aan een groei van 74 % aan vlootverkopen aan bedrijven. __Verhuurbedrijven alleen al kochten zo 'n 30.000 voertuigen. __Consumenten kochten slechts 28 % meer auto 's van Ford. __De meest geliefde wagens waren de Fusion and Taurus, waarvan de verkoop steeg met respectievelijk 166,5 % en 93,3 %, alhoewel er ook meer SUV 's en pickup trucks werden verkocht. __Beide modellen zijn vorig jaar sterk gereviseerd en volgens analisten is de gestegen omzet met name te danken aan de verbeterde kwaliteit. __Ook andere bedrijven publiceerden vandaag hun cijfers voor februari en ook bij hen steeg de omzet, alhoewel niet zo sterk als bij Ford. __Toyota vormde hierop de enige uitzondering, want zijn omzet daalde met 8,7 % omdat er bepaalde modellen wereldwijd moesten worden teruggehaald, waardoor ook productie van deze modellen tijdelijk stil kwam te liggen. __``De kracht van onze nieuwe producten. .. is voelbaar bij de klant,'' zei Ken Czubay, vice-president sales en marketing bij Ford. __Hij zei echter dat trouwe klanten van Toyota nu geen auto 's van rivalen kopen maar wachten op de resultaten van de terughaling.",
+"uri": "http://www.newsreader-project.eu/data/2010/3/3/15826_Ford_US_auto_sales_spike_dutch_utf8.txt.xml"
+},
+{
+"text": "Fiat wil meerderheidsaandeel in Chrysler__29-May-11__Het Italiaanse Fiat kondigde vrijdag aan dat het van plan is het aandeel van zes procent in autofabrikant Chrysler, dat momenteel in handen is van de Amerikaanse overheid, over te nemen en zo een meerderheidsaandeel van 52 percent in Chrysler te verkrijgen. _Volgens de kennisgeving heeft Fiat het Amerikaanse ministerie van financiën gemeld dat het zijn optie op dit aandeel wil uitoefenen, de overeenkomst zal op 10 juni worden afgerond. __Als er voor die tijd geen prijs is overeengekomen, betaalt Fiat het gemiddelde van de schattingen van twee investeringsbanken. _Fiat kocht in 2009 een aandeel van twintig procent in Chrysler, dat net een faillissement achter de rug had, en heeft dat aandeel sinds die tijd uitgebreid tot 46 procent, wat voor het eind van dit jaar naar verwachting nog zal stijgen tot 57 %. _Volgens analiste Maryann Keller is dit een goede deal voor beide bedrijven omdat ze ``g ] een van beide in staat zijn alleen te concurreren in het internationale milieu waarin ze opereren.''_Analiste Rebecca Lindland zei dat het goed voor de bedrijven zal zijn omdat ``ze niet meer zijn onderworpen aan overheidsbelangen en de negatieve bijsmaak van het reddingsplan.''",
+"uri": "http://www.newsreader-project.eu/data/2011/5/29/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler_dutch_utf8.txt.xml"
+},
+{
+"text": "Ford Motor Company schrapt 30.000 banen tot 2012__23-Jan-06__Ford Motor Company, de op een na grootste autofabrikant in Amerika, is van plan 30.000 banen te schrappen en 14 fabrieken te sluiten in het kader van een herstructureringsplan, dat Ford moet helpen herstellen na een omzetverlies van US$ 1,6 miljard in Noord-Amerika vorig jaar. _Het plan getiteld ``Way Forward'' is bedacht door William Clay Ford Jr., de CEO van Ford en moet voor 2008 een eind maken aan de verliezen van Ford in Noord-Amerika. _Hiertoe worden 30.000 banen oftewel 20 tot 25 procent van de 122.000 werknemers van Ford in Noord-Amerika geschrapt en 14 fabrieken gesloten, waarmee de productiecapaciteit van Ford overeenkomt met de vraag. _Voor het eind van het jaar worden de fabrieken in Atlanta en St. Louis gesloten. _Atlanta maakt de Ford Taurus sedan, die uit de handel wordt genomen. _De fabriek in St. Louis is een van de locaties waar Ford zijn Explorer, waarvan de verkoop met 29 % daalde in 2005, produceert. _Het bedrijf sluit ook de fabriek in Wixom, Michigan, Batavia Transmission in Ohio en Windsor Casting in Ontario, waarvan al eerder na contractonderhandelingen met de vakbond Canadian Auto Workers werd aangekondigd dat de fabriek zou worden gesloten. _In de fabriek in St. Thomas, Ontario wordt één ploegendienst opgeheven. _Deze fabriek maakt de Crown Victoria en Grand Marquis. _Hierover zei Whitey MacDonald, voorzitter van Local 1520, de vakbond Canadian Auto Workers, dat ``er hier een heleboel boosheid heerst, dat lijdt geen twijfel. __Wanneer een fabriek wordt teruggebracht naar één ploegendienst, gaat er een hoop verloren. _^Deze auto heeft miljoenen dollars voor het bedrijf verdiend terwijl zij investeerden in andere producten en locaties; we hebben met het oog op ons verleden recht op een nieuwe investering.'' ^_Het positieve nieuws voor de fabriek is dat Ford nog steeds $ 200 miljoen wil investeren om het uiterlijk van de hier geproduceerde auto 's te verbeteren. _Auto-analist Dennis DesRosier gelooft echter nog steeds dat de fabriek waarschijnlijk zal worden gesloten. _DesRoiser zei dat ``de fabriek in St. Thomas is oud, het product is oud, het is logisch dat de fabriek op die lijst staat. _Dit is misschien maar een tijdelijke oplossing en de fabriek wordt over twee tot drie jaar misschien alsnog gesloten.''_In 2008 worden nog twee fabrieken gesloten en in 2012 nog eens twee. _Nog eens twee fabrieken worden later dit jaar aangekondigd. _Ford ontslaat ook 12 % van de 53 executive officers. _Vanwege het bestaande contract met de vakbond United Auto Workers ontvangen werknemers bij de fabrieken die niet meer draaien hun salaris en bijkomende voordelen totdat Ford een nieuw contract afsluit met de vakbond. _Omdat ze geen overuren kunnen draaien, verdienen ze mogelijk niet wat ze nu krijgen. _President van de UAW Ron Gettelfinger en Vice President Gerald Bantom noemen het plan ``zeer teleurstellend.''_De UAW gaf een verklaring uit waarin staat dat ``de getroffen werknemers op oproepbasis of met een vast contract gaan een onzekere toekomst tegemoet omdat het hoger management niet in staat blijkt het dalende marktaandeel van Ford te redden. _Door de aankondiging hangt er een zwarte wolk over alle werknemers omdat in de toekomst nog meer fabrieken zullen worden gesloten.''",
+"uri": "http://www.newsreader-project.eu/data/2006/1/23/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012_dutch_utf8.txt.xml"
+},
+{
+"text": "GM meldt eerste jaarverlies sinds 1992__27-Jan-06__General Motors Corporation (GM) heeft het eerste verlies sinds 1992 aangekondigd. __GM rapporteerde een verlies van US$ 4,8 miljard in het vierde kwartaal van 2005 en een totaal verlies van $ 8,6 miljard over het hele jaar. __GM gaf donderdagavond toe dat het verlies nog groter kan worden naarmate er pensioenen en kosten voor gezondheidszorg aan duizenden voormalige werknemers worden uitbetaald. __GM waarschuwde dat het bedrag dat vorig jaar werd berekend, een voorlopig cijfer is en nog kan stijgen voordat het in maart formeel wordt gemeld bij de US Securities And Exchanges Commission. __Het verlies was veel groter dan verwacht. __Ford, nummer 2 van de drie grote Amerikaanse autofabrikanten, oversteeg de voorspellingen eerder deze week. __Toyota zal naar verwachting melden dat de winst van $ 11 miljard die vorig jaar werd behaald, is overschreden. __De autodivisie van GM leed in het vierde kwartaal vanwege verliezen in Noord-Amerika een verlies van $ 1,5 miljard. __Dit wordt toegeschreven aan het krimpende marktaandeel van GM, dat is overgenomen door de Japanse fabrikanten Toyota en Nissan. __Ook werd $ 1,3 miljard gestoken in herstructureringskosten. __In het kader van de herstructurering wil GM voor 2008 30.000 banen schrappen en 12 fabrieken sluiten. __Een assistent van Kirk Kerkorian, de grootste individuele investeerder in GM met een aandeel van 9,9 %, heeft het bedrijf gevraagd het jaarlijks dividend van $ 1,1 miljard te halveren, het salaris van hooggeplaatste managers te verlagen en Saab te verkopen.",
+"uri": "http://www.newsreader-project.eu/data/2006/1/27/4000_GM_posts_first_annual_loss_since_1992_dutch_utf8.txt.xml"
+},
+{
+"text": "Australische overheid kondigt $ 52,5 miljoen aan financiële steun voor Ford aan__05-May-06__John Howard, de Australische premier, en Ian MacDonald, federale minister van industrie, kondigden vandaag aan dat de federale overheid Ford Australia een financieel hulppakket van AU$ 52,5 miljoen (US$ 40,4 miljoen) biedt. _Ook de overheid van de staat Victoria zal hulp bieden. _Volgens Howard zal deze financiële injectie de productiefaciliteiten van Ford in Australië ``voor de lange termijn'' behouden. _^AU$ 40 miljoen wordt gebruikt om de nieuwe modellen van de Falcon en Territory te ontwerpen en te produceren; deze auto 's worden in Australië gebouwd.  ^_Ondanks een grote facelift in 2002 en 2005 dateert de carrosserie van de Falcon uit 1998. _De huidige Falcon moet dienst doen tot minstens 2007, wanneer het nieuwe model wordt verwacht. _Tot die tijd zal de Falcon moeten concurreren met de geheel nieuwe Holden Commodore (de grootste concurrent van de Falcon), die in de tweede helft van dit jaar op de markt komt. _De resterende AU$ 12,5 miljoen worden geïnvesteerd in de ontwikkeling van een licht commercieel voertuigplatform, dat elders zal worden gebouwd en in ongeveer 80 landen zal worden verkocht. _Hiertoe wordt volgens Howard een R&D-centrum gebouwd, dat als basis voor de R&D-projecten in deze regio zal dienen. _MacFarlane zei dat de onderzoeksfaciliteit een mooie ontwikkeling is voor Australië en de Australische autosector voor het voetlicht zal zetten. __``Dankzij de steun heeft Ford Australia het grootste R&D-project in de Australische autosector ooit gekregen, wat ook geweldig nieuws is voor lokale werknemers van Ford en Australische onderdelenfabrikanten,'' zei hij. _``Met dit project wordt Ford Australia een centrum voor auto-ontwerp en \u201a��techniek in Asia Pacific, wat ook voordelen met zich mee zal brengen voor de bredere industriële sector,'' ``Deze kans zet Ford Australia en de Australische auto- en onderdelensector op de wereldkaart op het gebied van ontwerp en techniek,''_zei MacFarlane. _Howard stelt dat de projecten 273 nieuwe banen creëren en de toekomst van de ``iconische'' Ford Falcon, die al sinds 1960 in Australië wordt gebouwd, veiligstellen. _In het kader van het financiële pakket wordt geëist dat Ford Australia de Australische onderdelenfabrikanten de kans geeft om onderdelen te leveren voor de voertuigen die in deze twee projecten worden gebouwd.",
+"uri": "http://www.newsreader-project.eu/data/2006/5/5/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford_dutch_utf8.txt.xml"
+},
+{
+"text": "Ford kondigt sluiting productiefaciliteiten aan als reactie op groeiende verliezen__19-Aug-06__Ford kondigt een inkrimping van 21 % (168.000 stuks) in de Amerikaanse en Canadese productie aan, waardoor een deel van de tien fabrieken in het vierde kwartaal worden gesloten. _Deze maatregel volgt op bestaande reorganisatieplannen die in januari werden aangekondigd, waaronder tot 2012 25.000 tot 30.000 arbeidsplaatsen verdwijnen en 14 fabrieken worden gesloten. _Ford is de op twee na grootste autofabrikant ter wereld en de op een na grootste in de V.S.. _De afgelopen jaren werd het bedrijf geconfronteerd met lage winst en een dalend marktaandeel. _In 2005 meldde Ford een verlies van $ 1,6 miljard en onlangs werd een verlies van $ 254 miljoen in het tweede kwartaal gemeld naast een omzetdaling van 34 % over juli in vergelijking tot vorig jaar. _George Pipas, director of sales analysis bij Ford, geeft aan dat dit deze beslissing genomen werd omdat de prijsstijging van brandstof de verkoop van de SUV 's van het bedrijf negatief beïnvloedt en er ook van de geliefde F-series pickup truck steeds minder worden verkocht. __Tot dusver worden waarschijnlijk de volgende fabrieken geraakt: * St. Thomas Assembly in St. Thomas, Ontario, Canada * Chicago, Illinois * Wixom Assembly Plant in Wixom, Michigan, Michigan * Louisville Assembly in Louisville, Kentucky * Michigan Truck Plant in Wayne, Michigan * St. Paul, Minnesota * Kansas City Assembly in Kansas City, Missouri * Norfolk Assembly in Norfolk, Virginia * River Rouge Plant in Dearborn, Michigan.  Het aandeel van Ford daalde met 17 cent (2,1 %) tot $ 8 op de New York Stock Exchange.",
+"uri": "http://www.newsreader-project.eu/data/2006/8/19/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses_dutch_utf8.txt.xml"
+},
+{
+"text": "Ford Taurus nieuw leven ingeblazen__09-Feb-07__CEO Alan Mulally van Ford Motor Company meldde dat het bedrijf de Ford Five Hundred omdoopt tot Taurus voor het modeljaar 2008, waarin naar verwachting een bijgewerkt model wordt geïntroduceerd om de slechte verkoopcijfers op te krikken. _Mulally zegt dat de beslissing van Ford om alle modellen een naam met een F te geven niet handig was en zorgt dat de namen snel worden vergeten. _Daarom wil Mulally veel gerespecteerde naamplaten van Ford in ere herstellen, waaronder de Taurus en mogelijk ook de Falcon in de toekomst. _^De Ford Taurus werd oorspronkelijk uitgebracht in 1986 en was een revolutionaire auto die de regels van de sedan doorbrak; andere Amerikaanse autofabrikanten volgden en er werd een ontwerprevolutie ontketend waardoor de ``vierkante'' auto 's van de zeventiger en tachtiger jaren uit het straatbeeld van Detroit verdwenen.  ^_De Taurus overleefde vier generaties en er werden 7.500.000 exemplaren verkocht. _De Taurus werd in oktober 2006 uit de handel genomen nadat korte tijd de 2007 modellen voor bedrijven werden aangeboden. __``Hoe kan hij verdwijnen?''_vroeg Alan Mulally in die tijd.  ``Het is de best verkopende auto in Amerika.''_Alhoewel de naamsverandering de Five Hundred naar verwachting niet tot een auto zal maken waarvan meer dan 400.000 exemplaren per jaar worden verkocht, zoals de Taurus, zal de omzet naar verwachting wel stijgen en de naamsbekendheid stijgen aangezien de Taurus een bekende naamplaat is.",
+"uri": "http://www.newsreader-project.eu/data/2007/2/9/corrected_7584_Ford_Taurus_to_be_revived_dutch_utf8.txt.xml"
+},
+{
+"text": "DaimlerChrysler wil 13.000 banen schrappen 14-Feb-07 Internationaal autobedrijf DaimlerChrysler kondigde vandaag aan dat in Noord-Amerika 13.000 arbeidsplaatsen zullen verdwijnen . Het is mogelijk dat de verlieslijdende onderdelen worden verkocht . Het bedrijf is ook van plan twee Chrysler-fabrieken te sluiten om de Chrysler-activiteiten winstgevend te maken in 2008 . In de V.S. worden zo 'n 9.000 productieplaatsen geschrapt , in Canada 2.000 productieplaatsen en 2.000 banen in loondienst . `` Het is moeilijk te zeggen of dit genoeg is , maar de aandelen reageren goed , wat nog eens bevestigt dat is een goede beslissing is , die hard nodig is voor Chrysler , '' zei chief investment officer van Solaris Asset Management Tim Ghriskey . Chairman Dieter Zetsche ontkende geruchten dat de bedrijven Daimler-Benz ( Mercedes-Benz ) en Chrysler , die in 1998 fuseerden tot DaimlerChrysler , zouden opsplitsen . `` We sluiten geen enkele optie uit om de beste oplossing te vinden voor zowel de Chrysler Group als DaimlerChrysler . ''",
+"uri": "http://www.newsreader-project.eu/data/60658_DaimlerChrysler_plans_to_cut_13,000_jobs.xml.out.naf"
+},
+{
+"text": "DaimlerChrysler verkoopt Chrysler Group voor $ 7,4 miljard__14-May-07__De DaimlerChrysler Corporation kondigde aan dat de Chrysler Group voor US$ 7,4 miljard wordt verkocht aan Cerberus Capital Management, een beleggingsbedrijf in New York. __De namen worden veranderd in Daimler AG en Chrysler Holding LLC. _DaimlerChrysler heeft 80,1 % van zijn aandeel in Chrysler verkocht en behoudt de resterende 19,9 % voor joint ventures en andere overeenkomsten en samenwerkingsverbanden. _Cerberus neemt miljarden dollars aan pensioen- en medische kosten over bij Chrysler. _Cerberus leidde ook een consortium dat in april vorig jaar een meerderheidsbelang verkreeg in GMAC, de financieringsdivisie van GM, en er wordt gezegd dat het bedrijf wil investeren in het grote auto-onderdelenbedrijf Delphi. _Buzz Hargrove, president van Canadian Auto Workers, zei dat hem was beloofd dat de collectieve arbeidsovereenkomst met Chrysler in stand wordt gehouden en er geen banen worden geschrapt. _De naamsverandering van het Duitse bedrijf DaimlerChrysler naar Daimler AG moet in de herfst van 2007 nog worden goedgekeurd door de aandeelhoudersvergadering.",
+"uri": "http://www.newsreader-project.eu/data/2007/5/14/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group_dutch_utf8.txt.xml"
+},
+{
+"text": "Ford biedt US$ 78 miljoen voor Roemeense autofabriek__08-Sep-07__Ford Motor Company, de Amerikaanse autofabrikant, zal naar verluidt $ 57 miljoen (US$ 78 miljoen) neertellen voor een aandeel van 72,4 procent in de Roemeense assemblagefabriek Automobile Craiova, zei een Roemeense overheidsmedewerker vrijdag. __``Ford Motor Company biedt voor een aandeel van 72,4 procent $ 4,1556 per aandeel of in totaal $ 57 miljoen,'' zei Sebastian Vladescu, hoofd van het bureau onroerende goederen (AVAS) nadat hij het verhoogde aanbod van Ford had geopend. _Vladescu zei dat het contract wellicht wordt getekend op 12 september tijdens de autobeurs in Frankfurt. _De Romeinse overheid kocht de autofabrikant in Craiova eind 2006 terug van Daewoo Motors en betaalde US$ 51 miljoen. _Omdat het Koreaanse bedrijf failliet was gegaan, moest de staat nog eens $ 10 neertellen voor schulden ten gevolge van oude leningen. _Ford is de enige bieder op de fabriek. _Volgens de Washington Post hebben veel fabrikanten van auto-onderdelen zich gevestigd in de nieuwe lidstaat van de Europese Unie, aangetrokken door lage lonen, aantrekkelijke belastingtarieven en de groeiende productie van de Dacia-fabriek van Renault. __De vice president van Dacia, Constantin Stroe, zei dat de door Ford geboden prijs er niet toe doet. _``Het is belangrijk de fabriek zo snel mogelijk weer te laten draaien,'' zei hij. _``Met deze productiefaciliteit wordt Roemenië een belangrijk productiecentrum van auto 's in Europa,'' concludeerde Stroe volgens HotNews.",
+"uri": "http://www.newsreader-project.eu/data/2007/9/8/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant_dutch_utf8.txt.xml"
+}
+],
+"story_cnt": [7],
+"text": "NewsReader timeline",
+"type": "default"
+}}

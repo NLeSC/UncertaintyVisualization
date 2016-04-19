@@ -1,0 +1,2974 @@
+{ "timeline":
+{
+"actor_cnt": [109],
+"event_cnt": [59],
+"events": [
+{
+"actors": {
+"eso/possession-owner_2": ["dbp:Fiat"],
+"fn/Goods": [
+"dbp:Chrysler",
+"ne:una_participaci%e2%88%9a%e2%89%a5n_del_veinte",
+"ne:el_acuerdo"
+],
+"pb/AM": ["dbp:United_States"]
+},
+"classes": {
+"eso": ["Buying"],
+"fn": ["Commerce_buy"]
+},
+"climax": 100,
+"event": "ev7",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt#ev7",
+"labels": ["comprar"],
+"mentions": [
+{
+"char": [
+"12",
+"19"
+],
+"sentence": ["1"],
+"terms": ["t3"],
+"tokens": ["w3"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"]
+},
+{
+"char": [
+"742",
+"748"
+],
+"sentence": ["6"],
+"terms": ["t140"],
+"tokens": ["w140"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"]
+},
+{
+"char": [
+"492",
+"499"
+],
+"sentence": ["4"],
+"terms": ["t88"],
+"tokens": ["w88"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"]
+},
+{
+"char": [
+"132",
+"139"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"]
+}
+],
+"prefLabel": ["comprar"],
+"sentence": "1",
+"size": "25.0",
+"time": "20110527",
+"topics": [
+"Spain",
+"agricultural product",
+"cassava",
+"quantitative restriction",
+"export licence",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:Fiat"],
+"fn/Value": ["dbp:Chrysler"]
+},
+"classes": {"fn": ["Purpose"]},
+"climax": 57,
+"event": "ev22",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt#ev22",
+"labels": ["planear"],
+"mentions": [{
+"char": [
+"5",
+"11"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"]
+}],
+"prefLabel": ["planear"],
+"sentence": "1",
+"size": "7.125",
+"time": "20110529",
+"topics": [
+"agricultural product",
+"quantitative restriction",
+"Spain",
+"cassava",
+"import licence",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Fiat"],
+"fn/Topic": ["ne:la_empresa"]
+},
+"classes": {"fn": [
+"Statement",
+"Chatting"
+]},
+"climax": 57,
+"event": "ev32",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt#ev32",
+"labels": ["dirigir"],
+"mentions": [{
+"char": [
+"46",
+"54"
+],
+"sentence": ["1"],
+"terms": ["t9"],
+"tokens": ["w9"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"]
+}],
+"prefLabel": ["dirigir"],
+"sentence": "1",
+"size": "7.125",
+"time": "20090501",
+"topics": [
+"cassava",
+"Spain",
+"import licence",
+"motor vehicle industry",
+"export licence",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Fiat"],
+"fn/Topic": [
+"dbp:United_States",
+"dbp:Chrysler"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev23",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt#ev23",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"87",
+"94"
+],
+"sentence": ["3"],
+"terms": ["t15"],
+"tokens": ["w15"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20110527",
+"topics": [
+"cassava",
+"quantitative restriction",
+"import licence",
+"agricultural product",
+"Spain",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Means": ["dbp:Chrysler"],
+"fn/Selector": [
+"dbp:Fiat",
+"dbp:United_States"
+]
+},
+"classes": {"fn": [
+"Linguistic_meaning",
+"Appointing"
+]},
+"climax": 19,
+"event": "ev34",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt#ev34",
+"labels": ["designar"],
+"mentions": [
+{
+"char": [
+"606",
+"615"
+],
+"sentence": ["6"],
+"terms": ["t108"],
+"tokens": ["w108"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"]
+},
+{
+"char": [
+"707",
+"716"
+],
+"sentence": ["6"],
+"terms": ["t125"],
+"tokens": ["w125"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"]
+}
+],
+"prefLabel": ["designar"],
+"sentence": "6",
+"size": "2.375",
+"time": "20090501",
+"topics": [
+"import licence",
+"export licence",
+"motor vehicle industry",
+"quantitative restriction",
+"cassava",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Chrysler"],
+"fn/Topic": ["ne:la_quiebra"],
+"pb/AM": ["dbp:Fiat"]
+},
+"classes": {"fn": [
+"Request",
+"Questioning"
+]},
+"climax": 19,
+"event": "ev33",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt#ev33",
+"labels": ["solicitar"],
+"mentions": [{
+"char": [
+"144",
+"152"
+],
+"sentence": ["3"],
+"terms": ["t25"],
+"tokens": ["w25"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"]
+}],
+"prefLabel": ["solicitar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20090430",
+"topics": [
+"import licence",
+"cassava",
+"quantitative restriction",
+"export licence",
+"Spain",
+"motor vehicle industry"
+]
+},
+{
+"actors": {
+"eso/possession-owner_2": ["dbp:Fiat"],
+"fn/Goods": ["ne:la_media_de_las_estimaciones_de_los_dos_bancos_de_inversi%e2%88%9a%e2%89%a5n"]
+},
+"classes": {
+"eso": ["Paying"],
+"fn": ["Commerce_pay"]
+},
+"climax": 11,
+"event": "ev11",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt#ev11",
+"labels": ["pagar"],
+"mentions": [{
+"char": [
+"655",
+"661"
+],
+"sentence": ["5"],
+"terms": ["t122"],
+"tokens": ["w122"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"]
+}],
+"prefLabel": ["pagar"],
+"sentence": "5",
+"size": "1.375",
+"time": "20110101",
+"topics": [
+"import licence",
+"agricultural product",
+"export licence",
+"Spain",
+"cassava",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"eso/possession-owner_1": ["ne:daimlerchrysler"],
+"fn/Goods": [
+"ne:el_80%2c1_%25_de_su_participaci%e2%88%9a%e2%89%a5n_en_chrysler",
+"dbp:Chrysler"
+]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 68,
+"event": "ev7",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt#ev7",
+"labels": ["vender"],
+"mentions": [
+{
+"char": [
+"21",
+"27"
+],
+"sentence": ["1"],
+"terms": ["t4"],
+"tokens": ["w4"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt"]
+},
+{
+"char": [
+"435",
+"442"
+],
+"sentence": ["5"],
+"terms": ["t75"],
+"tokens": ["w75"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt"]
+}
+],
+"prefLabel": ["vender"],
+"sentence": "1",
+"size": "8.5",
+"time": "20070514",
+"topics": [
+"Spain",
+"import licence",
+"tariff quota",
+"quantitative restriction",
+"export licence",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Chrysler"],
+"fn/Topic": ["ne:la_quiebra"]
+},
+"classes": {"fn": [
+"Questioning",
+"Request"
+]},
+"climax": 57,
+"event": "ev31",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt#ev31",
+"labels": ["solicitar"],
+"mentions": [{
+"char": [
+"9",
+"17"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"]
+}],
+"prefLabel": ["solicitar"],
+"sentence": "1",
+"size": "7.125",
+"time": "20090501",
+"topics": [
+"cassava",
+"quantitative restriction",
+"export licence",
+"Spain",
+"import licence",
+"motor vehicle industry"
+]
+},
+{
+"actors": {
+"fn/Message": [
+"dbp:Dollar",
+"dbp:Chrysler"
+],
+"fn/Speaker": ["ne:la_daimlerchrysler_corporation"],
+"fn/Topic": [
+"dbp:Cerberus",
+"ne:la_corporaci%e2%88%9a%e2%89%a5n",
+"dbp:New_York_Stock_Exchange"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev17",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt#ev17",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"121",
+"130"
+],
+"sentence": ["3"],
+"terms": ["t21"],
+"tokens": ["w21"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20070514",
+"topics": [
+"export licence",
+"quantitative restriction",
+"tariff quota",
+"Spain",
+"import licence",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Event": [
+"ne:que_la_quiebra_tarde_un_par_de_meses",
+"ne:que_sea_muy_corto_%2c_un_proceso_de_quiebra_de_30-60_d%e2%88%9a%e2%89%a0as_%2c_en_los_cuales_la_empresa_funcionar%e2%88%9a%c2%b0_con_normalidad"
+],
+"fn/Experiencer": ["dbp:Chrysler"]
+},
+"classes": {"fn": ["Desiring"]},
+"climax": 13,
+"event": "ev35",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt#ev35",
+"labels": ["esperar"],
+"mentions": [
+{
+"char": [
+"897",
+"906"
+],
+"sentence": ["9"],
+"terms": ["t159"],
+"tokens": ["w159"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"]
+},
+{
+"char": [
+"848",
+"855"
+],
+"sentence": ["8"],
+"terms": ["t148"],
+"tokens": ["w148"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"]
+}
+],
+"prefLabel": ["esperar"],
+"sentence": "8",
+"size": "1.625",
+"time": "20090501",
+"topics": [
+"cassava",
+"Spain",
+"export licence",
+"quantitative restriction",
+"import licence",
+"motor vehicle industry"
+]
+},
+{
+"actors": {
+"fn/Containing_object": ["dbp:Chrysler"],
+"pb/AM": ["ne:un_negocio_rentable_para_2008"]
+},
+"classes": {"fn": [
+"Body_movement",
+"Closure"
+]},
+"climax": 11,
+"event": "ev19",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/60658_DaimlerChrysler_plans_to_cur_13,000_jobs.txt#ev19",
+"labels": ["cerrar"],
+"mentions": [{
+"char": [
+"234",
+"240"
+],
+"sentence": ["5"],
+"terms": ["t34"],
+"tokens": ["w34"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/60658_DaimlerChrysler_plans_to_cur_13,000_jobs.txt"]
+}],
+"prefLabel": ["cerrar"],
+"sentence": "5",
+"size": "1.375",
+"time": "20080101",
+"topics": [
+"frozen product",
+"price fixed in advance",
+"export licence",
+"Spain",
+"import licence",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": [
+"ne:30.000_puestos_de_trabajo",
+"ne:un_turno",
+"ne:30.000_puestos_de_trabajo_y_14_plantas"
+],
+"fn/Experiencer": [
+"dbp:Ford_Motor_Company",
+"dbp:Ontario",
+"dbp:United_States"
+],
+"pb/AM": [
+"dbp:Saint_Thomas",
+"_U.S._Virgin_Islands"
+]
+},
+"classes": {
+"eso": [
+"Translocation",
+"QuantityChange"
+],
+"fn": [
+"Cause_harm",
+"Change_direction",
+"Intentional_traversing",
+"Experience_bodily_harm",
+"Cause_change_of_position_on_a_scale",
+"Cutting"
+]
+},
+"climax": 93,
+"event": "ev20",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt#ev20",
+"labels": ["recortar"],
+"mentions": [
+{
+"char": [
+"1265",
+"1274"
+],
+"sentence": ["10"],
+"terms": ["t242"],
+"tokens": ["w242"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+},
+{
+"char": [
+"19",
+"28"
+],
+"sentence": ["1"],
+"terms": ["t4"],
+"tokens": ["w4"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+},
+{
+"char": [
+"509",
+"519"
+],
+"sentence": ["5"],
+"terms": ["t96"],
+"tokens": ["w96"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+},
+{
+"char": [
+"155",
+"164"
+],
+"sentence": ["3"],
+"terms": ["t29"],
+"tokens": ["w29"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+}
+],
+"prefLabel": ["recortar"],
+"sentence": "1",
+"size": "11.625",
+"time": "20050101",
+"topics": [
+"export licence",
+"motor vehicle industry",
+"goatmeat",
+"import licence",
+"quantitative restriction",
+"Spain"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": [
+"ne:las_ventas_totales",
+"ne:su_participaci%e2%88%9a%e2%89%a5n_de_mercado",
+"ne:las_ventas_de_otros_modelos_como_los_todoterrenos_y_las_camionetas_de_carga",
+"ne:a_un_m%e2%88%9a%c2%b0ximo_quinquenal",
+"dbp:United_States",
+"ne:las_ventas_a_consumidores_minoristas"
+],
+"fn/Attribute": [
+"ne:cuyas_ventas",
+"dbp:Ford_Motor_Company"
+],
+"pb/AM": [
+"dbp:Toyota",
+"dbp:General_Motors"
+]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Change_position_on_a_scale",
+"Cause_expansion",
+"Expansion"
+]
+},
+"climax": 72,
+"event": "ev8",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt#ev8",
+"labels": ["aumentar"],
+"mentions": [
+{
+"char": [
+"948",
+"958"
+],
+"sentence": ["9"],
+"terms": ["t181"],
+"tokens": ["w181"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+},
+{
+"char": [
+"346",
+"355"
+],
+"sentence": ["4"],
+"terms": ["t69"],
+"tokens": ["w69"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+},
+{
+"char": [
+"628",
+"637"
+],
+"sentence": ["6"],
+"terms": ["t123"],
+"tokens": ["w123"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+},
+{
+"char": [
+"493",
+"502"
+],
+"sentence": ["5"],
+"terms": ["t94"],
+"tokens": ["w94"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+},
+{
+"char": [
+"1072",
+"1082"
+],
+"sentence": ["10"],
+"terms": ["t206"],
+"tokens": ["w206"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+},
+{
+"char": [
+"161",
+"171"
+],
+"sentence": ["3"],
+"terms": ["t35"],
+"tokens": ["w35"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+},
+{
+"char": [
+"1133",
+"1143"
+],
+"sentence": ["10"],
+"terms": ["t216"],
+"tokens": ["w216"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+}
+],
+"prefLabel": ["aumentar"],
+"sentence": "3",
+"size": "9.0",
+"time": "20100302",
+"topics": [
+"utilised agricultural area",
+"price fixed in advance",
+"Canary Islands",
+"Spain",
+"motor vehicle industry",
+"export licence"
+]
+},
+{
+"actors": {
+"eso/translocation-goal": ["ne:su_m%e2%88%9a%c2%b0ximo"],
+"fn/Agent": ["dbp:United_States"],
+"fn/Attribute": ["dbp:Ford_Motor_Company"],
+"pb/AM": ["dbp:General_Motors"]
+},
+"classes": {
+"eso": [
+"Arriving",
+"QuantityChange"
+],
+"fn": [
+"Path_shape",
+"Change_position_on_a_scale",
+"Arriving",
+"Accomplishment"
+]
+},
+"climax": 57,
+"event": "ev7",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt#ev7",
+"labels": ["alcanzar"],
+"mentions": [{
+"char": [
+"41",
+"49"
+],
+"sentence": ["1"],
+"terms": ["t10"],
+"tokens": ["w10"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"]
+}],
+"prefLabel": ["alcanzar"],
+"sentence": "1",
+"size": "7.125",
+"time": "20100303",
+"topics": [
+"Spain",
+"price fixed in advance",
+"motor vehicle industry",
+"utilised agricultural area",
+"export licence",
+"Canary Islands"
+]
+},
+{
+"actors": {
+"fn/New_leader": [
+"ne:a_mary_barra",
+"ne:akerson_%2c_que_fue_nombrado_tanto_director_ejecutivo_como_presidente_de_la_junta_por_el_gobierno_en_el_2009_durante_la_quiebra_de_la_empresa"
+],
+"fn/Selector": [
+"dbp:United_States",
+"dbp:General_Motors"
+]
+},
+"classes": {"fn": ["Change_of_leadership"]},
+"climax": 26,
+"event": "ev9",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/18942_Mary_Barra_appointed_as_General_Motors_chief.txt#ev9",
+"labels": ["nombrar"],
+"mentions": [
+{
+"char": [
+"757",
+"765"
+],
+"sentence": ["8"],
+"terms": ["t137"],
+"tokens": ["w137"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/18942_Mary_Barra_appointed_as_General_Motors_chief.txt"]
+},
+{
+"char": [
+"152",
+"160"
+],
+"sentence": ["3"],
+"terms": ["t27"],
+"tokens": ["w27"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/18942_Mary_Barra_appointed_as_General_Motors_chief.txt"]
+}
+],
+"prefLabel": ["nombrar"],
+"sentence": "3",
+"size": "3.25",
+"time": "20090101",
+"topics": [
+"import licence",
+"frozen product",
+"quantitative restriction",
+"export licence",
+"Spain",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Author": ["ne:este_punto_%2c"],
+"fn/Information": [
+"ne:a_la_demanda_de_los_consumidores",
+"ne:la_m%e2%88%9a%c2%b0xima_formativa_de_la_empresa_%22_construimos_donde_vendemos_%22"
+],
+"fn/Speaker": ["ne:la_observaci%e2%88%9a%e2%89%a5n_de_que_el_gobierno_federal_ya_le_ha_declarado_que_%22_no_ten%e2%88%9a%e2%89%a0a_un_inter%e2%88%9a%c2%a9s_real_en_dirigir_nuestro_negocio_%22_y_que_esperaba_que_siguiera_siendo_su_trabajo"],
+"fn/Text": [
+"ne:un_paquete_de_%22_vencimiento_a_plazos_%22",
+"ne:que_%22_no_creo_que_eso_llegue_a_ocurrir_%22"
+],
+"fn/Topic": [
+"dbp:General_Motors",
+"ne:tipos_de_veh%e2%88%9a%e2%89%a0culos_que_el_gobierno_estadounidense_fomentar%e2%88%9a%e2%89%a0a",
+"ne:en_%22_tecnolog%e2%88%9a%e2%89%a0a_verde_y_muy_eficiente_en_cuanto_al_consumo_de_combustible_%22",
+"ne:las_cadenas_de_suministros"
+],
+"pb/AM": [
+"dbp:United_States",
+"dbp:China"
+]
+},
+"classes": {"fn": [
+"Reveal_secret",
+"Text_creation",
+"Statement"
+]},
+"climax": 21,
+"event": "ev35",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt#ev35",
+"labels": ["declarar"],
+"mentions": [
+{
+"char": [
+"2473",
+"2482"
+],
+"sentence": ["15"],
+"terms": ["t474"],
+"tokens": ["w474"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"]
+},
+{
+"char": [
+"2945",
+"2954"
+],
+"sentence": ["17"],
+"terms": ["t561"],
+"tokens": ["w561"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"]
+},
+{
+"char": [
+"2392",
+"2399"
+],
+"sentence": ["14"],
+"terms": ["t457"],
+"tokens": ["w457"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"]
+},
+{
+"char": [
+"3333",
+"3342"
+],
+"sentence": ["19"],
+"terms": ["t633"],
+"tokens": ["w633"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"]
+},
+{
+"char": [
+"2058",
+"2067"
+],
+"sentence": ["13"],
+"terms": ["t393"],
+"tokens": ["w393"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"]
+},
+{
+"char": [
+"3489",
+"3498"
+],
+"sentence": ["20"],
+"terms": ["t667"],
+"tokens": ["w667"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"]
+}
+],
+"prefLabel": ["declarar"],
+"sentence": "13",
+"size": "2.625",
+"time": "20090604",
+"topics": [
+"import licence",
+"cassava",
+"export licence",
+"frozen product",
+"quantitative restriction",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Addressee": ["dbp:United_States"],
+"fn/Speaker": ["dbp:Chrysler_(division)"],
+"fn/Topic": ["ne:una_ayuda_adicional_de_5.000_millones_de_%24"]
+},
+"classes": {"fn": [
+"Request",
+"Have_as_requirement",
+"Questioning"
+]},
+"climax": 19,
+"event": "ev22",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt#ev22",
+"labels": ["pedir"],
+"mentions": [{
+"char": [
+"228",
+"234"
+],
+"sentence": ["3"],
+"terms": ["t39"],
+"tokens": ["w39"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt"]
+}],
+"prefLabel": ["pedir"],
+"sentence": "3",
+"size": "2.375",
+"time": "20080101",
+"topics": [
+"export licence",
+"quantitative restriction",
+"Spain",
+"goatmeat",
+"cassava",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": [
+"dbp:United_States",
+"dbp:General_Motors"
+],
+"fn/Topic": ["ne:que_ha_tenido_6.000_millones_de_%24_de_p%e2%88%9a%c2%a9rdidas_en_el_primer_trimestre_del_2009_%2c_as%e2%88%9a%e2%89%a0_como_grandes_ca%e2%88%9a%e2%89%a0das_en_los_ingresos"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev20",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt#ev20",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"172",
+"181"
+],
+"sentence": ["3"],
+"terms": ["t31"],
+"tokens": ["w31"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20090330",
+"topics": [
+"quantitative restriction",
+"agricultural product",
+"Spain",
+"export licence",
+"goatmeat",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Addressee": [
+"dbp:Ford_Motor_Company",
+"dbp:General_Motors",
+"dbp:Dollar",
+"dbp:Chrysler_(division)"
+],
+"fn/Speaker": [
+"dbp:United_States",
+"dbp:United_States_Senate"
+],
+"pb/AM": ["ne:una_votaci%e2%88%9a%e2%89%a5n_procesal"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev29",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13140_US_automaker_bailout_deal_fails_to_pass_Senate.txt#ev29",
+"labels": ["rechazar"],
+"mentions": [{
+"char": [
+"133",
+"142"
+],
+"sentence": ["3"],
+"terms": ["t25"],
+"tokens": ["w25"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13140_US_automaker_bailout_deal_fails_to_pass_Senate.txt"]
+}],
+"prefLabel": ["rechazar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20090101",
+"topics": [
+"tariff quota",
+"agricultural product",
+"export licence",
+"Spain",
+"quantitative restriction",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:General_Motors"],
+"fn/Topic": ["dbp:United_States"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev22",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13798_General_Motors_automobile_sales_plunge_by_45%.txt#ev22",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"112",
+"119"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13798_General_Motors_automobile_sales_plunge_by_45%.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20100301",
+"topics": [
+"price fixed in advance",
+"Spain",
+"export licence",
+"Canary Islands",
+"import licence",
+"motor vehicle industry"
+]
+},
+{
+"actors": {"fn/Ground": ["dbp:United_States"]},
+"classes": {"fn": [
+"Seeking",
+"Scrutiny"
+]},
+"climax": 14,
+"event": "ev21",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers.txt#ev21",
+"labels": ["buscar"],
+"mentions": [{
+"char": [
+"337",
+"343"
+],
+"sentence": ["4"],
+"terms": ["t57"],
+"tokens": ["w57"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers.txt"]
+}],
+"prefLabel": ["buscar"],
+"sentence": "4",
+"size": "1.75",
+"time": "20090203",
+"topics": [
+"agricultural product",
+"import licence",
+"motor vehicle industry",
+"export licence",
+"Spain",
+"price fixed in advance"
+]
+},
+{
+"actors": {
+"fn/Message": [
+"dbp:United_States",
+"ne:el_sindicato_united_auto_workers_%28_uaw_%29"
+],
+"fn/Speaker": ["dbp:Republican_Party_(United_States)"],
+"fn/Topic": ["ne:un_mayor_recorte_de_salario"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 14,
+"event": "ev31",
+"group": "100:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13140_US_automaker_bailout_deal_fails_to_pass_Senate.txt#ev31",
+"labels": ["insistir"],
+"mentions": [{
+"char": [
+"495",
+"506"
+],
+"sentence": ["4"],
+"terms": ["t87"],
+"tokens": ["w87"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13140_US_automaker_bailout_deal_fails_to_pass_Senate.txt"]
+}],
+"prefLabel": ["insistir"],
+"sentence": "4",
+"size": "1.75",
+"time": "20090101",
+"topics": [
+"tariff quota",
+"import licence",
+"agricultural product",
+"export licence",
+"Spain",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": ["ne:10.000_puestos_de_trabajo"],
+"fn/Experiencer": ["dbp:General_Motors"],
+"pb/AM": ["dbp:Opel"]
+},
+"classes": {
+"eso": [
+"Translocation",
+"QuantityChange"
+],
+"fn": [
+"Cause_harm",
+"Change_direction",
+"Cause_change_of_position_on_a_scale",
+"Experience_bodily_harm",
+"Intentional_traversing",
+"Cutting"
+]
+},
+"climax": 76,
+"event": "ev9",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel.txt#ev9",
+"labels": ["recortar"],
+"mentions": [
+{
+"char": [
+"167",
+"175"
+],
+"sentence": ["3"],
+"terms": ["t30"],
+"tokens": ["w30"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel.txt"]
+},
+{
+"char": [
+"27",
+"36"
+],
+"sentence": ["1"],
+"terms": ["t6"],
+"tokens": ["w6"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel.txt"]
+}
+],
+"prefLabel": ["recortar"],
+"sentence": "1",
+"size": "19.0",
+"time": "20091105",
+"topics": [
+"export licence",
+"agricultural product",
+"import licence",
+"quantitative restriction",
+"Spain",
+"motor vehicle industry"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:General_Motors"],
+"fn/Value": ["ne:cerrar_1.100_concesionarios"]
+},
+"classes": {"fn": ["Purpose"]},
+"climax": 57,
+"event": "ev18",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt#ev18",
+"labels": ["planear"],
+"mentions": [{
+"char": [
+"47",
+"53"
+],
+"sentence": ["1"],
+"terms": ["t7"],
+"tokens": ["w7"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt"]
+}],
+"prefLabel": ["planear"],
+"sentence": "1",
+"size": "7.125",
+"time": "20090515",
+"topics": [
+"goatmeat",
+"tariff quota",
+"import licence",
+"export licence",
+"Spain",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Cognizer_agent": ["dbp:General_Motors"],
+"fn/Ground": ["ne:protecci%e2%88%9a%e2%89%a5n_de_quiebra"]
+},
+"classes": {"fn": [
+"Seeking",
+"Scrutiny"
+]},
+"climax": 57,
+"event": "ev3",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14082_U.S._manufacturer_General_Motors_seeks_bankruptcy_protection.txt#ev3",
+"labels": ["buscar"],
+"mentions": [{
+"char": [
+"44",
+"49"
+],
+"sentence": ["1"],
+"terms": ["t6"],
+"tokens": ["w6"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14082_U.S._manufacturer_General_Motors_seeks_bankruptcy_protection.txt"]
+}],
+"prefLabel": ["buscar"],
+"sentence": "1",
+"size": "7.125",
+"time": "20090601",
+"topics": [
+"share",
+"Committee of the Regions",
+"export licence",
+"Yugoslavia",
+"Spain",
+"agricultural statistics"
+]
+},
+{
+"actors": {
+"fn/Cognizer_agent": [
+"dbp:Chrysler_(division)",
+"dbp:General_Motors"
+],
+"fn/Ground": ["ne:m%e2%88%9a%c2%b0s_ayuda_del_gobierno"]
+},
+"classes": {"fn": [
+"Scrutiny",
+"Seeking"
+]},
+"climax": 57,
+"event": "ev21",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt#ev21",
+"labels": ["buscar"],
+"mentions": [{
+"char": [
+"61",
+"67"
+],
+"sentence": ["1"],
+"terms": ["t9"],
+"tokens": ["w9"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt"]
+}],
+"prefLabel": ["buscar"],
+"sentence": "1",
+"size": "7.125",
+"time": "20090218",
+"topics": [
+"export licence",
+"Spain",
+"quantitative restriction",
+"cassava",
+"goatmeat",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:General_Motors"],
+"pb/AM": ["ne:la_quiebra_de_la_compa%e2%88%9a%c2%b1%e2%88%9a%e2%89%a0a_automovil%e2%88%9a%e2%89%a0stica"]
+},
+"classes": {"fn": ["Communicate_categorization"]},
+"climax": 57,
+"event": "ev27",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt#ev27",
+"labels": ["resumir"],
+"mentions": [{
+"char": [
+"28",
+"34"
+],
+"sentence": ["1"],
+"terms": ["t6"],
+"tokens": ["w6"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"]
+}],
+"prefLabel": ["resumir"],
+"sentence": "1",
+"size": "7.125",
+"time": "20090604",
+"topics": [
+"cassava",
+"export licence",
+"import licence",
+"Spain",
+"frozen product",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:General_Motors"],
+"fn/Topic": ["ne:6.000_millones_de_%24_de_p%e2%88%9a%c2%a9rdidas"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 57,
+"event": "ev19",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt#ev19",
+"labels": ["declarar"],
+"mentions": [{
+"char": [
+"42",
+"49"
+],
+"sentence": ["1"],
+"terms": ["t7"],
+"tokens": ["w7"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt"]
+}],
+"prefLabel": ["declarar"],
+"sentence": "1",
+"size": "7.125",
+"time": "20090507",
+"topics": [
+"export licence",
+"import licence",
+"quantitative restriction",
+"goatmeat",
+"Spain",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:General_Motors"],
+"fn/Topic": [
+"ne:que_tiene_planes_para_cerrar_unos_1.100_concesionario_%2c_en_un_esfuerzo_para_evitar_la_quiebra_y_reducir_gastos",
+"ne:los_concesionarios_que_pretende_cerrar"
+],
+"pb/AM": ["dbp:Chrysler_(division)"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 30,
+"event": "ev20",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt#ev20",
+"labels": ["anunciar"],
+"mentions": [
+{
+"char": [
+"165",
+"172"
+],
+"sentence": ["3"],
+"terms": ["t27"],
+"tokens": ["w27"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt"]
+},
+{
+"char": [
+"491",
+"499"
+],
+"sentence": ["5"],
+"terms": ["t88"],
+"tokens": ["w88"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt"]
+}
+],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "3.75",
+"time": "20090515",
+"topics": [
+"Spain",
+"goatmeat",
+"cassava",
+"export licence",
+"tariff quota",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:General_Motors"],
+"fn/Value": [
+"ne:despedir_tres_mil_empleados",
+"ne:despedir_47.000_empleados_y_cerrar_cinco_f%e2%88%9a%c2%b0bricas"
+]
+},
+"classes": {"fn": ["Purpose"]},
+"climax": 27,
+"event": "ev24",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt#ev24",
+"labels": ["planear"],
+"mentions": [
+{
+"char": [
+"367",
+"373"
+],
+"sentence": ["3"],
+"terms": ["t66"],
+"tokens": ["w66"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt"]
+},
+{
+"char": [
+"850",
+"856"
+],
+"sentence": ["7"],
+"terms": ["t160"],
+"tokens": ["w160"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt"]
+}
+],
+"prefLabel": ["planear"],
+"sentence": "3",
+"size": "3.375",
+"time": "20080101",
+"topics": [
+"cassava",
+"import licence",
+"Spain",
+"quantitative restriction",
+"export licence",
+"goatmeat"
+]
+},
+{
+"actors": {
+"fn/Addressee": ["dbp:Coordinated_Universal_Time"],
+"fn/Speaker": ["dbp:General_Motors"],
+"fn/Topic": ["ne:la_quiebra_y_la_protecci%e2%88%9a%e2%89%a5n_11_de_sus_acreedores"],
+"pb/AM": [
+"dbp:Manhattan",
+"dbp:New_York_City"
+]
+},
+"classes": {"fn": [
+"Request",
+"Questioning"
+]},
+"climax": 19,
+"event": "ev4",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14082_U.S._manufacturer_General_Motors_seeks_bankruptcy_protection.txt#ev4",
+"labels": ["solicitar"],
+"mentions": [{
+"char": [
+"155",
+"165"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14082_U.S._manufacturer_General_Motors_seeks_bankruptcy_protection.txt"]
+}],
+"prefLabel": ["solicitar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20090601",
+"topics": [
+"share",
+"agricultural statistics",
+"Committee of the Regions",
+"Yugoslavia",
+"Spain",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Author": ["dbp:General_Motors"],
+"fn/Text": [
+"ne:una_p%e2%88%9a%c2%a9rdida_de_381_millones_de_%24_%2c_o_0%2c67_%24_por_acci%e2%88%9a%e2%89%a5n",
+"ne:que_ha_gastado_10.200_millones_de_%24_en_un_esfuerzo_por_evitar_la_quiebra"
+]
+},
+"classes": {"fn": [
+"Reveal_secret",
+"Text_creation",
+"Statement"
+]},
+"climax": 19,
+"event": "ev21",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt#ev21",
+"labels": ["declarar"],
+"mentions": [
+{
+"char": [
+"480",
+"487"
+],
+"sentence": ["5"],
+"terms": ["t92"],
+"tokens": ["w92"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt"]
+},
+{
+"char": [
+"714",
+"723"
+],
+"sentence": ["7"],
+"terms": ["t137"],
+"tokens": ["w137"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt"]
+}
+],
+"prefLabel": ["declarar"],
+"sentence": "5",
+"size": "2.375",
+"time": "20080330",
+"topics": [
+"goatmeat",
+"Spain",
+"import licence",
+"quantitative restriction",
+"agricultural product",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Author": ["dbp:General_Motors"],
+"fn/Text": ["dbp:Dollar"]
+},
+"classes": {"fn": [
+"Statement",
+"Text_creation",
+"Reveal_secret"
+]},
+"climax": 14,
+"event": "ev18",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/4000_GM_posts_first_annual_loss_since_1992.txt#ev18",
+"labels": ["declarar"],
+"mentions": [{
+"char": [
+"202",
+"211"
+],
+"sentence": ["4"],
+"terms": ["t37"],
+"tokens": ["w37"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/4000_GM_posts_first_annual_loss_since_1992.txt"]
+}],
+"prefLabel": ["declarar"],
+"sentence": "4",
+"size": "1.75",
+"time": "20051231",
+"topics": [
+"motor vehicle industry",
+"Spain",
+"agricultural product",
+"goatmeat",
+"import licence",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Information": ["ne:sus_derechos_de_accionista"],
+"fn/Text": [
+"ne:dictar_%22_que_nuevo_tipo_de_coche_fabricar_%22",
+"ne:%22_coches_del_futuro_%2c_de_gran_calidad_%2c_seguros_y_de_consumo_eficiente_de_combustible_%22"
+],
+"fn/Topic": [
+"dbp:General_Motors",
+"ne:sus_derechos_%22_de_accionista_corporativo"
+],
+"pb/AM": [
+"ne:en_los_negocios_de_la_empresa_reestructurada",
+"ne:el_gobierno_federal"
+]
+},
+"classes": {"fn": [
+"Text_creation",
+"Reveal_secret",
+"Statement"
+]},
+"climax": 14,
+"event": "ev31",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt#ev31",
+"labels": ["declarar"],
+"mentions": [
+{
+"char": [
+"2106",
+"2115"
+],
+"sentence": ["12"],
+"terms": ["t393"],
+"tokens": ["w393"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt"]
+},
+{
+"char": [
+"2233",
+"2242"
+],
+"sentence": ["13"],
+"terms": ["t416"],
+"tokens": ["w416"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt"]
+},
+{
+"char": [
+"1928",
+"1937"
+],
+"sentence": ["11"],
+"terms": ["t360"],
+"tokens": ["w360"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt"]
+}
+],
+"prefLabel": ["declarar"],
+"sentence": "11",
+"size": "1.75",
+"time": "20090601",
+"topics": [
+"export licence",
+"cassava",
+"import licence",
+"frozen product",
+"Spain",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Barack_Obama"],
+"fn/Topic": ["dbp:General_Motors"],
+"pb/AM": [
+"ne:%22_d%e2%88%9a%c2%a9cadas_en_proceso_%22",
+"ne:el_problema_de_la_empresa"
+]
+},
+"classes": {"fn": [
+"Statement",
+"Explaining_the_facts"
+]},
+"climax": 14,
+"event": "ev24",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt#ev24",
+"labels": ["explicar"],
+"mentions": [{
+"char": [
+"559",
+"566"
+],
+"sentence": ["4"],
+"terms": ["t104"],
+"tokens": ["w104"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt"]
+}],
+"prefLabel": ["explicar"],
+"sentence": "4",
+"size": "1.75",
+"time": "20090601",
+"topics": [
+"import licence",
+"frozen product",
+"agricultural product",
+"cassava",
+"Spain",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Arguer": [
+"dbp:Germany",
+"ne:el_comportamiento_de_general_motors"
+],
+"fn/Cognizer": ["dbp:Magma"],
+"fn/Content": ["ne:la_fea_cara_del_turbocapitalismo"],
+"fn/Means": ["dbp:General_Motors"]
+},
+"classes": {"fn": [
+"Reasoning",
+"Evidence"
+]},
+"climax": 12,
+"event": "ev20",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel.txt#ev20",
+"labels": ["mostrar"],
+"mentions": [
+{
+"char": [
+"1051",
+"1058"
+],
+"sentence": ["10"],
+"terms": ["t191"],
+"tokens": ["w191"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel.txt"]
+},
+{
+"char": [
+"697",
+"705"
+],
+"sentence": ["8"],
+"terms": ["t131"],
+"tokens": ["w131"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel.txt"]
+}
+],
+"prefLabel": ["mostrar"],
+"sentence": "8",
+"size": "1.5",
+"time": "20091105",
+"topics": [
+"agricultural product",
+"import licence",
+"export licence",
+"Spain",
+"quantitative restriction",
+"motor vehicle industry"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:General_Motors"],
+"fn/Topic": ["ne:que_la_p%e2%88%9a%c2%a9rdida_podr%e2%88%9a%e2%89%a0a_ser_mayor_m%e2%88%9a%c2%b0s_adelante_%2c_cuando_haya_pagado_las_pensiones_y_los_costes_de_asistencia_m%e2%88%9a%c2%a9dica_de_miles_de_ex_trabajadores"]
+},
+"classes": {"fn": [
+"Reveal_secret",
+"Statement"
+]},
+"climax": 11,
+"event": "ev19",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/4000_GM_posts_first_annual_loss_since_1992.txt#ev19",
+"labels": ["admitir"],
+"mentions": [{
+"char": [
+"334",
+"341"
+],
+"sentence": ["5"],
+"terms": ["t64"],
+"tokens": ["w64"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/4000_GM_posts_first_annual_loss_since_1992.txt"]
+}],
+"prefLabel": ["admitir"],
+"sentence": "5",
+"size": "1.375",
+"time": "20060126",
+"topics": [
+"export licence",
+"Spain",
+"agricultural product",
+"import licence",
+"motor vehicle industry",
+"goatmeat"
+]
+},
+{
+"actors": {
+"fn/Information": ["dbp:General_Motors"],
+"fn/Message": [
+"ne:su_problema",
+"ne:las_malas_decisiones_de_negocio_del_pasado"
+],
+"fn/Text": [
+"ne:dinero",
+"ne:su_prop%e2%88%9a%e2%89%a5sito"
+]
+},
+"classes": {"fn": [
+"Reveal_secret",
+"Statement",
+"Text_creation"
+]},
+"climax": 11,
+"event": "ev25",
+"group": "076:[\"recortar\"]",
+"groupName": "[\"recortar\"]",
+"groupScore": "076",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt#ev25",
+"labels": ["declarar"],
+"mentions": [{
+"char": [
+"635",
+"642"
+],
+"sentence": ["5"],
+"terms": ["t116"],
+"tokens": ["w116"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt"]
+}],
+"prefLabel": ["declarar"],
+"sentence": "5",
+"size": "1.375",
+"time": "20090601",
+"topics": [
+"cassava",
+"agricultural product",
+"Spain",
+"import licence",
+"frozen product",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["ne:daimlerchrysler"],
+"fn/Topic": ["ne:recortar_13.000_empleos"]
+},
+"classes": {"fn": ["Expectation"]},
+"climax": 57,
+"event": "ev16",
+"group": "057:[\"prever\"]",
+"groupName": "[\"prever\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/60658_DaimlerChrysler_plans_to_cur_13,000_jobs.txt#ev16",
+"labels": ["prever"],
+"mentions": [{
+"char": [
+"16",
+"21"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/60658_DaimlerChrysler_plans_to_cur_13,000_jobs.txt"]
+}],
+"prefLabel": ["prever"],
+"sentence": "1",
+"size": "14.25",
+"time": "20070214",
+"topics": [
+"frozen product",
+"import licence",
+"export licence",
+"quantitative restriction",
+"Spain",
+"price fixed in advance"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Ford_Motor_Company"],
+"fn/Topic": ["ne:fuertes_recortes_de_producci%e2%88%9a%e2%89%a5n"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 57,
+"event": "ev16",
+"group": "057:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses.txt#ev16",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"5",
+"12"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "1",
+"size": "14.25",
+"time": "20060819",
+"topics": [
+"goatmeat",
+"Spain",
+"import licence",
+"export licence",
+"quantitative restriction",
+"motor vehicle industry"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Australia"],
+"fn/Topic": ["dbp:Ford_Motor_Company"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 57,
+"event": "ev28",
+"group": "057:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford.txt#ev28",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"25",
+"32"
+],
+"sentence": ["1"],
+"terms": ["t5"],
+"tokens": ["w5"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "1",
+"size": "7.125",
+"time": "20060505",
+"topics": [
+"goatmeat",
+"tariff quota",
+"Spain",
+"Australia",
+"export licence",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Body_part": [
+"dbp:Ohio",
+"dbp:Wixom",
+"_Michigan"
+],
+"fn/Containing_object": [
+"dbp:Michigan",
+"dbp:Ontario",
+"dbp:Atlanta",
+"dbp:St._Louis",
+"_Missouri",
+"ne:14_plantas"
+],
+"pb/AM": ["dbp:Ford_Motor_Company"]
+},
+"classes": {"fn": [
+"Closure",
+"Body_movement"
+]},
+"climax": 33,
+"event": "ev39",
+"group": "057:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt#ev39",
+"labels": ["cerrar"],
+"mentions": [
+{
+"char": [
+"627",
+"635"
+],
+"sentence": ["5"],
+"terms": ["t117"],
+"tokens": ["w117"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+},
+{
+"char": [
+"1137",
+"1143"
+],
+"sentence": ["9"],
+"terms": ["t219"],
+"tokens": ["w219"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+},
+{
+"char": [
+"974",
+"982"
+],
+"sentence": ["9"],
+"terms": ["t188"],
+"tokens": ["w188"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+},
+{
+"char": [
+"730",
+"738"
+],
+"sentence": ["6"],
+"terms": ["t137"],
+"tokens": ["w137"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"]
+}
+],
+"prefLabel": ["cerrar"],
+"sentence": "5",
+"size": "4.125",
+"time": "20060101",
+"topics": [
+"quantitative restriction",
+"goatmeat",
+"export licence",
+"import licence",
+"motor vehicle industry",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Author": [
+"dbp:Ford_Motor_Company",
+"ne:la_empresa_automovil%e2%88%9a%e2%89%a0stica"
+],
+"fn/Text": [
+"dbp:Dollar",
+"ne:una_perdida_de_casi_15.000_millones_de_%24"
+]
+},
+"classes": {"fn": [
+"Statement",
+"Reveal_secret",
+"Text_creation"
+]},
+"climax": 33,
+"event": "ev12",
+"group": "057:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15652_Ford_Motors_posts_2.7_billion_annual_profit.txt#ev12",
+"labels": ["declarar"],
+"mentions": [
+{
+"char": [
+"341",
+"348"
+],
+"sentence": ["4"],
+"terms": ["t61"],
+"tokens": ["w61"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15652_Ford_Motors_posts_2.7_billion_annual_profit.txt"]
+},
+{
+"char": [
+"149",
+"158"
+],
+"sentence": ["3"],
+"terms": ["t29"],
+"tokens": ["w29"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15652_Ford_Motors_posts_2.7_billion_annual_profit.txt"]
+}
+],
+"prefLabel": ["declarar"],
+"sentence": "3",
+"size": "4.125",
+"time": "20080101",
+"topics": [
+"motor vehicle industry",
+"export licence",
+"import licence",
+"cassava",
+"agricultural product",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Author": ["dbp:Ford_Motor_Company"],
+"fn/Information": [
+"ne:las_deslucidas_ventas_del_modelo_saliente",
+"ne:el_modelo"
+],
+"fn/Topic": [
+"dbp:Revolver",
+"dbp:Ford_Taurus"
+]
+},
+"classes": {"fn": [
+"Text_creation",
+"Reveal_secret",
+"Statement"
+]},
+"climax": 19,
+"event": "ev30",
+"group": "057:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt#ev30",
+"labels": ["declarar"],
+"mentions": [{
+"char": [
+"116",
+"125"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt"]
+}],
+"prefLabel": ["declarar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20080101",
+"topics": [
+"livestock",
+"import licence",
+"cassava",
+"quantitative restriction",
+"export licence",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Ford_Motor_Company"],
+"fn/Topic": ["ne:recortes_radicales_del_21_%25_%28_168.000_unidades_%29_en_su_producci%e2%88%9a%e2%89%a5n_estadounidense_y_canadiense"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev17",
+"group": "057:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses.txt#ev17",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"116",
+"123"
+],
+"sentence": ["3"],
+"terms": ["t21"],
+"tokens": ["w21"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20071231",
+"topics": [
+"motor vehicle industry",
+"goatmeat",
+"import licence",
+"export licence",
+"quantitative restriction",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Message": ["dbp:Ford_Motor_Company"],
+"fn/Speaker": [
+"dbp:Ian_MacDonald",
+"dbp:John_Howard",
+"dbp:Australia"
+],
+"fn/Topic": [
+"dbp:Australian_dollar",
+"dbp:Dollar"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 19,
+"event": "ev29",
+"group": "057:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "057",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford.txt#ev29",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"218",
+"227"
+],
+"sentence": ["3"],
+"terms": ["t39"],
+"tokens": ["w39"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20060505",
+"topics": [
+"goatmeat",
+"tariff quota",
+"Spain",
+"Australia",
+"export licence",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["ne:mulally"],
+"fn/Topic": [
+"ne:que_su_empresa_alcanzar%e2%88%9a%c2%b0_e_incluso_sobrepasar%e2%88%9a%c2%b0_sus_objetivos_financieros_%2c_y_sugiere_que_el_cuarto_trimestre_del_a%e2%88%9a%c2%b1o_podr%e2%88%9a%e2%89%a0a_declarar_un_beneficio_operativo",
+"ne:a_la_mayor%e2%88%9a%e2%89%a0a_de_analistas_%2c_que_hab%e2%88%9a%e2%89%a0an_previsto_que_la_empresa_automovil%e2%88%9a%e2%89%a0stica_iba_a_perder_dinero",
+"ne:la_mayor%e2%88%9a%e2%89%a0a_de_los_analistas_econ%e2%88%9a%e2%89%a5micos",
+"ne:que_ser%e2%88%9a%c2%b0_%22_firmemente_rentable_%22_para_el_2011"
+]
+},
+"classes": {"fn": ["Expectation"]},
+"climax": 51,
+"event": "ev11",
+"group": "051:[\"prever\"]",
+"groupName": "[\"prever\"]",
+"groupScore": "051",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt#ev11",
+"labels": ["prever"],
+"mentions": [
+{
+"char": [
+"990",
+"995"
+],
+"sentence": ["8"],
+"terms": ["t167"],
+"tokens": ["w167"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt"]
+},
+{
+"char": [
+"568",
+"576"
+],
+"sentence": ["5"],
+"terms": ["t100"],
+"tokens": ["w100"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt"]
+},
+{
+"char": [
+"245",
+"253"
+],
+"sentence": ["3"],
+"terms": ["t42"],
+"tokens": ["w42"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt"]
+},
+{
+"char": [
+"370",
+"378"
+],
+"sentence": ["4"],
+"terms": ["t65"],
+"tokens": ["w65"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt"]
+}
+],
+"prefLabel": ["prever"],
+"sentence": "3",
+"size": "12.75",
+"time": "20091231",
+"topics": [
+"cassava",
+"frozen product",
+"quantitative restriction",
+"import licence",
+"export licence",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Agent": ["ne:mulally"],
+"fn/Value": ["dbp:Revolver"]
+},
+"classes": {"fn": ["Purpose"]},
+"climax": 11,
+"event": "ev32",
+"group": "051:[\"prever\"]",
+"groupName": "[\"prever\"]",
+"groupScore": "051",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt#ev32",
+"labels": ["planear"],
+"mentions": [{
+"char": [
+"507",
+"513"
+],
+"sentence": ["5"],
+"terms": ["t93"],
+"tokens": ["w93"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt"]
+}],
+"prefLabel": ["planear"],
+"sentence": "5",
+"size": "1.375",
+"time": "19860101",
+"topics": [
+"cassava",
+"import licence",
+"livestock",
+"quantitative restriction",
+"Spain",
+"export licence"
+]
+},
+{
+"actors": {
+"eso/possession-owner_2": ["dbp:Romania"],
+"fn/Goods": ["ne:el_fabricante_de_coches"],
+"fn/Means": ["ne:a_daewoo_motors"],
+"pb/AM": [
+"dbp:Dollar",
+"dbp:Craiova"
+]
+},
+"classes": {
+"eso": ["Buying"],
+"fn": ["Commerce_buy"]
+},
+"climax": 23,
+"event": "ev10",
+"group": "023:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "023",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant.txt#ev10",
+"labels": ["comprar"],
+"mentions": [
+{
+"char": [
+"371",
+"378"
+],
+"sentence": ["4"],
+"terms": ["t72"],
+"tokens": ["w72"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant.txt"]
+},
+{
+"char": [
+"723",
+"729"
+],
+"sentence": ["6"],
+"terms": ["t141"],
+"tokens": ["w141"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant.txt"]
+}
+],
+"prefLabel": ["comprar"],
+"sentence": "4",
+"size": "5.75",
+"time": "20060101",
+"topics": [
+"Spain",
+"agricultural product",
+"quantitative restriction",
+"import licence",
+"export licence",
+"motor vehicle industry"
+]
+},
+{
+"actors": {"fn/Entity": ["dbp:Dollar"]},
+"classes": {"fn": ["Recording"]},
+"climax": 19,
+"event": "ev10",
+"group": "023:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "023",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt#ev10",
+"labels": ["registrar"],
+"mentions": [{
+"char": [
+"155",
+"165"
+],
+"sentence": ["3"],
+"terms": ["t24"],
+"tokens": ["w24"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt"]
+}],
+"prefLabel": ["registrar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20090930",
+"topics": [
+"Spain",
+"quantitative restriction",
+"import licence",
+"export licence",
+"cassava",
+"frozen product"
+]
+},
+{
+"actors": {
+"fn/Means": ["dbp:Dollar"],
+"pb/AM": ["ne:los_fabricantes_de_coches"]
+},
+"classes": {"fn": [
+"Intentionally_affect",
+"Using"
+]},
+"climax": 19,
+"event": "ev19",
+"group": "023:[\"comprar\"]",
+"groupName": "[\"comprar\"]",
+"groupScore": "023",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13143_White_House_considering_auto_rescue_plan.txt#ev19",
+"labels": ["usar"],
+"mentions": [{
+"char": [
+"267",
+"271"
+],
+"sentence": ["3"],
+"terms": ["t45"],
+"tokens": ["w45"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13143_White_House_considering_auto_rescue_plan.txt"]
+}],
+"prefLabel": ["usar"],
+"sentence": "3",
+"size": "2.375",
+"time": "20081213",
+"topics": [
+"quantitative restriction",
+"Spain",
+"agricultural product",
+"import licence",
+"export licence",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Entity": ["dbp:Ford_Taurus"],
+"fn/Name": ["dbp:Revolver"],
+"pb/AM": [
+"ne:las_deslucidas_ventas_del_modelo_saliente",
+"ne:el_modelo"
+]
+},
+"classes": {"fn": [
+"Simple_naming",
+"Being_named",
+"Labeling"
+]},
+"climax": 19,
+"event": "ev31",
+"group": "019:[\"llamar\"]",
+"groupName": "[\"llamar\"]",
+"groupScore": "019",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt#ev31",
+"labels": ["llamar"],
+"mentions": [{
+"char": [
+"154",
+"161"
+],
+"sentence": ["3"],
+"terms": ["t30"],
+"tokens": ["w30"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt"]
+}],
+"prefLabel": ["llamar"],
+"sentence": "3",
+"size": "4.75",
+"time": "20080101",
+"topics": [
+"livestock",
+"Spain",
+"export licence",
+"import licence",
+"cassava",
+"quantitative restriction"
+]
+},
+{
+"actors": {"fn/Process": ["dbp:Revolver"]},
+"classes": {"fn": ["Process_resume"]},
+"climax": 11,
+"event": "ev14",
+"group": "019:[\"llamar\"]",
+"groupName": "[\"llamar\"]",
+"groupScore": "019",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt#ev14",
+"labels": ["retomar"],
+"mentions": [{
+"char": [
+"514",
+"521"
+],
+"sentence": ["5"],
+"terms": ["t94"],
+"tokens": ["w94"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt"]
+}],
+"prefLabel": ["retomar"],
+"sentence": "5",
+"size": "1.375",
+"time": "19860101",
+"topics": [
+"import licence",
+"Spain",
+"export licence",
+"livestock",
+"cassava",
+"quantitative restriction"
+]
+},
+{
+"actors": {"fn/Protagonist": ["ne:que_tiene_planes_para_cerrar_unos_1.100_concesionario_%2c_en_un_esfuerzo_para_evitar_la_quiebra_y_reducir_gastos"]},
+"classes": {"fn": [
+"Thwarting",
+"Avoiding",
+"Preventing",
+"Evading"
+]},
+"climax": 19,
+"event": "ev16",
+"group": "019:[\"evitar\"]",
+"groupName": "[\"evitar\"]",
+"groupScore": "019",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt#ev16",
+"labels": ["evitar"],
+"mentions": [{
+"char": [
+"260",
+"266"
+],
+"sentence": ["3"],
+"terms": ["t43"],
+"tokens": ["w43"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt"]
+}],
+"prefLabel": ["evitar"],
+"sentence": "3",
+"size": "4.75",
+"time": "20090515",
+"topics": [
+"goatmeat",
+"tariff quota",
+"cassava",
+"import licence",
+"export licence",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:Premier_Automotive_Group"],
+"pb/AM": ["dbp:Saturn_Corporation"]
+},
+"classes": {"fn": ["Choosing"]},
+"climax": 19,
+"event": "ev29",
+"group": "019:[\"seleccionar\"]",
+"groupName": "[\"seleccionar\"]",
+"groupScore": "019",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14111_Penske_Auto_selected_to_buy_General_Motors.txt#ev29",
+"labels": ["seleccionar"],
+"mentions": [{
+"char": [
+"286",
+"298"
+],
+"sentence": ["3"],
+"terms": ["t51"],
+"tokens": ["w51"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14111_Penske_Auto_selected_to_buy_General_Motors.txt"]
+}],
+"prefLabel": ["seleccionar"],
+"sentence": "3",
+"size": "4.75",
+"time": "20090605",
+"topics": [
+"export licence",
+"motor vehicle industry",
+"quantitative restriction",
+"agricultural product",
+"import licence",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["ne:la_compra"],
+"fn/Phenomenon": ["dbp:Saturn_Corporation"]
+},
+"classes": {"fn": [
+"Grasp",
+"Categorization",
+"Awareness"
+]},
+"climax": 11,
+"event": "ev30",
+"group": "019:[\"seleccionar\"]",
+"groupName": "[\"seleccionar\"]",
+"groupScore": "019",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14111_Penske_Auto_selected_to_buy_General_Motors.txt#ev30",
+"labels": ["comprender"],
+"mentions": [{
+"char": [
+"396",
+"405"
+],
+"sentence": ["5"],
+"terms": ["t68"],
+"tokens": ["w68"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14111_Penske_Auto_selected_to_buy_General_Motors.txt"]
+}],
+"prefLabel": ["comprender"],
+"sentence": "5",
+"size": "1.375",
+"time": "20091001",
+"topics": [
+"Spain",
+"quantitative restriction",
+"motor vehicle industry",
+"export licence",
+"agricultural product",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Author": ["ne:la_empresa"],
+"fn/Text": ["ne:que_su_red_ten%e2%88%9a%e2%89%a0a_demasiados_concesionarios_compitiendo_entre_s%e2%88%9a%e2%89%a0_y_que_est%e2%88%9a%c2%b0_anticuada"]
+},
+"classes": {"fn": [
+"Statement",
+"Reveal_secret",
+"Text_creation"
+]},
+"climax": 14,
+"event": "ev18",
+"group": "014:[\"declarar\"]",
+"groupName": "[\"declarar\"]",
+"groupScore": "014",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13999_U.S._automaker_Chrysler_wants_to_eliminate_789_dealerships.txt#ev18",
+"labels": ["declarar"],
+"mentions": [{
+"char": [
+"346",
+"353"
+],
+"sentence": ["4"],
+"terms": ["t56"],
+"tokens": ["w56"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13999_U.S._automaker_Chrysler_wants_to_eliminate_789_dealerships.txt"]
+}],
+"prefLabel": ["declarar"],
+"sentence": "4",
+"size": "3.5",
+"time": "20090514",
+"topics": [
+"agricultural product",
+"import licence",
+"quantitative restriction",
+"Spain",
+"export licence",
+"cassava"
+]
+},
+{
+"actors": {"fn/Topic": ["dbp:Daimler_AG"]},
+"classes": {"fn": ["Statement"]},
+"climax": 14,
+"event": "ev18",
+"group": "014:[\"anunciar\"]",
+"groupName": "[\"anunciar\"]",
+"groupScore": "014",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt#ev18",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"324",
+"333"
+],
+"sentence": ["4"],
+"terms": ["t56"],
+"tokens": ["w56"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "4",
+"size": "3.5",
+"time": "20070514",
+"topics": [
+"cassava",
+"quantitative restriction",
+"import licence",
+"tariff quota",
+"Spain",
+"export licence"
+]
+}
+],
+"headline": "corpus_gm",
+"mention_cnt": [95],
+"sources": [
+{
+"text": "Mary Barra nombrada directora de General Motors 10 de diciembre del 2013 General Motors , el mayor fabricante de automóviles de Estados Unidos , hoy ha nombrado a Mary Barra como su nueva directora ejecutiva . Barra , de 51 años , será la primera mujer en dirigir una empresa en la industria automovilística americana . Lleva 33 años trabajando en General Motors , y actualmente es el responsable mundial de desarrollo de producto . En una declaración ha dicho : ^ Con una impresionante cartera de coches y camiones y con el más sólido rendimiento económico de los últimos años , es un momento apasionante en la GM actual . Es un honor liderar el mejor equipo del negocio y mantener nuestro impulso a toda velocidad ^ . Sustituye a Daniel Akerson , que fue nombrado tanto director ejecutivo como presidente de la junta por el gobierno en el 2009 durante la quiebra de la empresa . Akerson , tras el diagnóstico de un cáncer avanzado a su esposa , planea dimitir el 15 de enero . En un mensaje dirigido a sus empleados , ha dicho : ^ Me voy muy satisfecho de lo que hemos conseguido , muy optimista sobre lo que está por venir y muy orgulloso porque estamos devolviendo General Motors a su posición de abanderado americano de la industria automovilística global ^ . Akerson también renunciará a su puesto de presidente de la junta , y será reemplazado por el actual director Theodore Solso . La empresa también ha anunciado que el responsable financiero Daniel Ammann será el nuevo presidente . El nombramiento llega justo unos días después de que el gobierno de los EEUU vendiera sus últimas acciones de la empresa , perdiendo uno 9.000 millones de $ de su rescate inicial del 2008 con el que el 61 % de la empresa pasó a ser de propiedad pública . General Motors se recuperó de su quiebra un año después del nombramiento de Akerson , y volvió a entrar en el mercado de valore en noviembre del 2010 . Sigue siendo el mayor fabricante de coches de los Estados Unidos ; ha publicado unas cifras de ventas de 152.000 millones de $ en el 2012 . Actualmente produce quince marcas de vehículos en 37 países . Barra está licenciada en ingeniería eléctrica por la Universidad Kettering de Flint ( Míchigan ) , y recientemente fue valorada como la 35 . ª mujer más poderosa del mundo .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/18942_Mary_Barra_appointed_as_General_Motors_chief.txt"
+},
+{
+"text": "El rescate de los fabricante de coches estadounidenses no pasa el Senado 12 de diciembre del 2008 El Senado de los Estados Unidos ha rechazado un acuerdo de un paquete de 14.000 millones de US$ para los ^ tres grandes ^ fabricantes de coches estadounidenses -- Chrysler , Ford y General Motors -- , después de no haber pasado una votación procesal . El proyecto de ley ha sido rechazado después de que la discusión bipartita sobre el rescate terminara cuando los lideres del Partido Republicano insistieron que el sindicato United Auto Workers ( UAW ) debía aceptar un mayor recorte de salario el próximo año para poder uniformar sus sueldos con los de las compañías automovilísticas japonesas de Estados Unidos . La UAW ha rechazado cumplir dichas demandas . El voto final del Senado ha sido de 52-35 , 8 menos de los 60 que se necesitan para pasar . Solo diez republicanos se han unido a los cuarenta demócratas y dos independientes votando a favor del proyecto de ley . Tres demócratas votaron en contra junto con treinta y un republicanos . Harry Reid , líder de la mayoría del Senado , ha dicho que está ^ muy decepcionado ^ por que no se ha aprobado el proyecto de ley . ^ Temo mirar el Wall Street mañana . No va a ser un espectáculo agradable ^ , ha dicho Reid . ^ Les va a afectar directamente a millones de americanos , no solo a trabajadores del sector automovilístico , sino a los que venden coches , franquicias de automóviles , gente que trabaja en coches ^ . El senador republicano Bob Corker también estaba descontento con el rechazo . ^ Estábamos a tres palabras de llegar a un acuerdo . Lo habíamos resuelto casi todo , y nos quedaban unas tres palabras para concluir ^ , ha dicho . Ahora , algunos demócratas quieren que el presidente de EEUU Bush reserve una porción del paquete de rescate de 700.000 millones de $ destinado a Wall Street para ayudar la industria automovilística en decadencia . Las bolsas de todo el mundo cayeron de golpe tras la noticia ; el Nikkei japonés perdió 484,68 puntos de media , o 5,6 por ciento , y llegó a los 8253,87 puntos . Las acciones de las empresas automovilísticas Toyota , Nissan y Honda cayeron por lo menos 10 por ciento cada una . Las acciones europeas como las del Reino Unido o Alemania también perdieron ; el índice FTSE 100 de acciones principales cayó 176,3 puntos hasta llegar a los 4.211 al mediodía .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13140_US_automaker_bailout_deal_fails_to_pass_Senate.txt"
+},
+{
+"text": "La Casa Blanca está considerando un plan de rescate del sector automovilístico 13 de diciembre del 2008 Después de que no se aprobara en el senado un plan para rescatar tres grandes empresas automovilísticas americanas , la Casa Blanca ha dicho que está considerando usar parte de los 700.000 millones de US$ reservados para el rescate de la industria bancaria para rescatar los fabricantes de coches . La Casa Blanca ha dicho que el colapso de los fabricantes de coches sería un contratiempo que podría destruir la economía . ^ Bajo circunstancias económicas normales , hubiéramos preferido que los mercados determinaran el destino final de las empresas privadas . Sin embargo , en el actual estado de debilidad de la economía de los EEUU , consideraremos otras opciones si resulta necesario ; incluida la utilización del programa TARP ( Troubled Assets Relief Program ) , para prevenir el colapso de los fabricantes de coches que están llenos de problemas ^ , ha dicho Dana Perino , secretaria de prensa de la Casa Blanca . ^ Un súbito colapso de esta industria tendría un grave impacto en nuestra economía , y , en estos momentos , sería irresponsable debilitar y desestabilizar aún más nuestra economía ^ . Esta semana , los ^ tres grandes ^ fabricantes de coches -- Ford , Chrysler y General Motors -- han solicitado ante el Congreso un fondo de 14.000 millones de $ para prevenir el colapso . Aunque la Casa Blanca aprobaba la medida , el Senado votó en contra con 52 votos a 35 . Parte del fracaso a la hora de aprobar el proyecto de ley se debe al desacuerdo sobre recortes ; los republicanos insistían que para el año que viene se debía llegar a igualar los de los fabricantes de coches japoneses . General Motors declaró que la empresa detendría el 30 % de su fabricación de Norte América ^ en respuesta al rápido empeoramiento de las condiciones de mercado ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13143_White_House_considering_auto_rescue_plan.txt"
+},
+{
+"text": "GM y Chrysler ofrecen bajas incentivadas y jubilaciones anticipadas a sus trabajadores 03 de febrero del 2009 Tanto General Motors ( GM ) como Chrysler han empezado a ofrecer paquetes de despidos a sus plantillas . Los fabricantes de automóviles han sufrido duramente a causa de la reciente recesión económica y se han visto obligados a buscar la ayuda federal del gobierno de los EEUU . Según informes , el paquete de GM incluye un pago en efectivo de 20.000 $ y un vale de 25.000 $ para un vehículo nuevo . Chrysler ofrece un vale de 25.000 $ para un vehículo nuevo más 50.000 $ con asistencia médica o 75.000 $ sin asistencia médica . Ambos ofrecerán el trato a la mayoría de los miembros del sindicato United Auto Workers ( UAW ) ; son 62.000 en GM , que busca reducir 31.500 puestos para el 2012 . Las dos empresas han recibido 13.400 millones de $ en préstamos federales para mantenerse operativos , pero el Congreso les ha pedido que hagan planes de viabilidad para demostrar que están haciendo suficientes recortes de gastos y de concesiones laborales a cambio del dinero . Los trabajadores del UAW de Detroit ganan 28 $ a la hora ; su sus sustitutos ganarán aproximadamente la mitad . En ambas empresas , se le ha puesto fin al ^ banco de trabajos ^ del UAW , un sistema donde los trabajadores sin tareas siguen cobrando . GM también trata de diseñar un trueque de deuda a cambio de acciones , y reducir sus obligaciones de deuda no garantizada de 27.500 millones de $ a 9.200 millones de $ . También trata de vender un fabricante de camiones , el grupo de repuestos de Delco Electronics y las marcas de automóviles Hummer y Saab . Todo el sector de la fabricación del motor ha sufrido a causa de la recesión económica , y Ford Motor Company ha declarado unas pérdidas anuales de 14.600 millones de $ , aunque no ha pedido ayuda federal . GM y Chrysler agotaron sus fondos de operaciones en diciembre , y están a la cabeza del rescate federal .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13415_GM,_Chrysler_offer_buyouts_and_early_retirement_to_workers.txt"
+},
+{
+"text": "Las ventas de automóviles en Estados Unidos caen en picado 03 de febrero del 2009 Las ventas de automóviles en Estados Unidos han caído hasta un 35 % en enero , respecto al mismo mes del año anterior , según las declaraciones de enero de los fabricantes . El mes pasado , las ventas de Ford Motor Company cayeron un 42 % con respecto al año anterior . General Motors declaró un empeoramiento del 49 % . Chrysler ha sido la peor afectada de los fabricantes nacionales , con una caída del 55 % . La disminución de ventas no se ha limitado solo a fabricantes estadounidenses . El fabricante de automóviles japonés Toyota había declarado este año una caída de las ventas de los EEUU del 32 % , Nissan Motors cayó un 30 % y las ventas de Honda cayeron un 28 % . Subaru y la surcoreana Hyundai Motor Company han sido las dos únicas empresas automovilísticas que han declarado un aumento de ventas . Han publicado ganancias del ocho y catorce por ciento , respectivamente . Las ventas anuales también han caído en picado . Las ventas de coches en Estados Unidos de toda la industria han caído un 18 % respecto al año anterior , y se han vendido 13,2 millones de automóviles . GM ha anunciado hoy que va a ofrecer la baja voluntaria a 22.000 empleados de lo EEUU , en un esfuerzo para reducir sus gastos . El mes pasado , GM y Chrysler recibieron del gobierno préstamos por 17.400 millones de US$ tras haber advertido de su inminente quiebra .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13417_Automobile_sales_in_the_United_States_down_sharply.txt"
+},
+{
+"text": "Los fabricantes estadounidenses de automóviles GM y Chrysler buscan más ayuda del gobierno 18 de febrero del 2009 El fabricante estadounidense de automóviles Chrysler , que se ha visto muy afectado por la recesión en curso , ha pedido una ayuda adicional de 5.000 millones de $ al gobierno de los EEUU , además de los 4.000 millones que ya ha recibido , diciendo que planea despedir tres mil empleados . A finales del año pasado , el fabricante de automóviles tenía poco más de 54.000 empleados ; es decir , los despidos serán el seis por ciento de toda su plantilla . Además , Chrysler va a retirar de producción el Chrysler Aspen , el PT Cruiser y el Durango . Otro fabricante de automóviles , General Motors ( GM ) , ha anunciado que busca 16.600 millones de $ de préstamo del gobierno , además de los 13.400 millones de $ que ya ha recibido . GM planea despedir 47.000 empleados y cerrar cinco fábricas . GM dice que puede necesitar hasta 30.000 millones de $ del Departamento del Tesoro de los EEUU , más de su estimación previa de 18.000 millones de $ . La empresa ha advertido que podría quedar sin dinero para marzo , a menos que se le dé más ayudas . Rick Wagoner , director ejecutivo de GM , ha descrito los planes de la empresa como ^ completos , sensible , alcanzables y flexibles ^ . ^ Tenemos mucho trabajo por delante , pero confío en que será beneficioso para General Motors ^ , dijo , y añadió que ^ el plan hoy es significativamente más agresivo , porque tiene que serlo ^ . GM dice que podría dar beneficios en dos años , y puede que pueda pagar sus préstamos para el 2017 . Un tercer fabricante de coches estadounidense , Ford Motor Company , ha dicho que puede superar este año sin ayudas del gobierno . El Departamento del Tesoro de los EEUU va a revisar los planes de supervivencia de los fabricantes de coches durante varias semanas , antes de tomar una decisión sobre si se van ampliar los préstamos o no . Se espera una decisión a finales del mes que viene .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13498_US_automakers_GM_and_Chrysler_seek_more_government_aid.txt"
+},
+{
+"text": "GM y Chrysler reciben préstamos canadienses en medio del ultimátum de reestructuración de los EEUU 03 de abril del 2009 General Motors ( GM ) y Chrysler recibirán préstamos puente del gobierno de Canadá y del gobierno provincial de Ontario aunque ya no recibirán más ni del gobierno de Canadá ni del de los EEUU a menos que la compañías se reinventen a sí mismas . ^ Es un paso lamentable pero necesario , para proteger la economía canadiense . Lo estamos haciendo aceptando que , evidentemente , ni en los Estados Unidos ni en Canadá podemos permitirnos un colapso a corto plazo ^ , dijo Stephen Harper , primer ministro de Canadá . ^ No podemos , no debemos y no vamos a permitir que nuestra industria automovilística simplemente desaparezca . Esta industria es , a diferencia de otras , un símbolo del espíritu americano , un símbolo pasado y futuro del éxito americano ^ , dijo Barack Obama , presidente de Estados Unidos . ^ Estas empresas -- y esta industria -- deben llegar a sostenerse por sí mismas , no a expensas del estado ^ . Chrysler recibirá 1.000 millones de CA$ , y , de hecho , puede llegar a recibir hasta 4.000 millones de CA$ . Si Chrysler consigue un plan de reestructuración en los próximos 30 días , podría optar a un préstamos de 6.000 millones de US$ . El plan de reestructuración de Chrysler debe incluir una colaboración con Fiat antes de 30 días para apaciguar la administración estadounidense . Fiat es un proveedor de pequeños vehículos de combustión eficiente , y la unión ayudará a Chrysler a ser viable en el mercado norteamericano . Una quiebra judicial de Chrysler conllevaría inevitablemente su liquidación . Dentro de los planes de reestructuración de Chrysler , según anunció Tom LaSorda , presidente de Chrysler , las operaciones canadienses fracasarán a menos que se reciban tanto un compromiso de ayuda de 2.300 millones de $ de los EEUU como un nuevo contrato de la canadiense Auto Workers CAW para reducir los coste con todo incluido en 19 CA$ por hora . Como resultado de dicho anuncio , el volumen de ventas de coches de Chrysler en Canadá cayó un 23 % con respecto a marzo del 2008 . GM tiene hasta finales de mayo para reestructurar su empresa para recibir hasta 7.500 millones de CA$ . Dentro de la reestructuración de las compañías , Rick Wagoner , director ejecutivo de General Motors , fue sustituido el pasado domingo por Fritz Henderson , el actual director general de operaciones . El pasado jueves , Henderson declaró que GM ha presentado un plan de reestructuración que cerrará cinco plantas , y puede que más , para cumplir los requisitos de la ayuda financiera . Está completamente de acuerdo con el equipo de trabajo de Obama para pedir la quiebra si GM no puede negociar con sus sindicatos , tenedores de bonos y demás . Recientemente GM adelantó el programa ^ Confianza Total GM ^ para proporcionar protección de compra para los clientes que pierdan su trabajo por motivos económicos en los primeros dos años tras su compra . Como consecuencia del anuncio de reestructuración de Chrysler hecho en Canadá , el volumen de ventas canadienses de vehículos de GM cayeron solo un 17,3 % respecto al 2008 , y aumentaros respecto al mes anterior . GM debe reducir parte de sus costes de legado , que incluyen pensiones y costes de asistencia médica de sindicatos . Parte de los males de GM surgieron de la investigación de camiones de suministro y todoterrenos durante una economía de altos precios de combustible donde los consumidores demandaron vehículos de consumo eficiente de combustible . Tony Clement , ministro de industria de Canadá , espera que la CAW apoye el proceso de reestructuración y que negocie de nuevo su acuerdo . Mientras tanto , un negociador de United Auto Workers dijo que ^ No veo qué puede hacer la UAW hasta ver lo que los tenedores de bonos van a ceder ^ . La administración de Obama está contemplando procedimiento de quiebra para los fabricantes de vehículos , ^ como mecanismo para ayudarles a reestructurarse rápidamente y resurgir con más fuerza . Limpiará rápidamente las viejas deudas que les están hundiendo . Lo que pedimos es difícil . Exige elecciones difíciles a las compañías . Exige a sindicatos y trabajadores que ya han hecho concesiones dolorosas que hagan más todavía . Exige a los acreedores que no pueden mantener sus expectativas de interminables rescates financieros por parte del gobierno ^ , dijo Obama . Los suministradores de componentes de automóvil y los exportadores de software informático de India ya se han visto afectados por el declive de las ventas de automóviles . Los contratos de software de GM y Chrysler proporcionan 300-350 millones de US$ a vendedores de India . Estos dos fabricantes de vehículos principales , además , suelen adjudicar 1.000 millones de US$ a proveedores de repuestos . ^ Estamos preocupados y estamos vigilando de cerca los desarrollos de EEUU para estimar el impacto . La disminución de ventas de coches en EEUU ya ha alcanzado los libros de pedidos de suministradores indios ^ , dijo un proveedor de repuestos de Delhi . ^ En adelante , la industria será indudablemente menor , pero si nuestros esfuerzos llegan a buen término , será viable y proporcionará buenos puestos de trabajo a los canadienses ^ , dijo Clements . Betty Sutton , congresista de Ohio , propuso la acción CARS que proporciona incentivos de 3.000-5 .000 US$ a aquellos que sustituyan su vehículo por uno de consumo eficiente de combustible . ^ Evidentemente , estimula la economía , y hace que los clientes vaya a las salas de exposiciones y que vuelvan a comprar . Pero lo más importante es -- esto es lo que más me gusta de ello -- que realmente ayuda un poco al medio ambiente en dos sentidos ^ , dijo William Clay Ford Jr. , presidente ejecutivo de Ford Motor Co. . Ford Motor Company no ha presentado solicitudes de asistencia . Desde diciembre , GM y Chrysler han recibido 17.400 millones de US$ en préstamos del gobierno .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13774_GM_and_Chrysler_receive_Canadian_loans_amid_US_restructuring_ultimata.txt"
+},
+{
+"text": "Las ventas de automóviles de General Motors caen un 45 % 01 de abril del 2009 General Motors Corporation ( GM ) anunció el miércoles que sus ventas de vehículos en Estados Unidos habían caído un 45 % en marzo . Sin embargo , los ejecutivos de varias empresas de automóviles han dicho que había cierta esperanza de estabilización para la industria automovilística , ya que las ventas de coches se recuperaron la última semana de marzo . ^ El mercado está empezando a dar pequeños signos de vida que hay que alimentar como si fueran crías ^ , ha dicho Jim Press , vicepresidente y presidente del consejo de Chrysler LLC . ^ Es demasiado pronto para ver una tendencia , pero la primavera presenta signos de esperanza ^ . Otros fabricantes de automóviles también vieron cómo caían las ventas de coches : Chrysler y la japonesa Toyota comunicaron pérdidas del 39 % , y las ventas de Ford Motor Company cayeron un 41 % . Se pronostica que las ventas anualizadas de vehículos de la industria automovilística de los EEUU bajarán en marzo a menos de nueve millones , comparado con los 9,12 millones de febrero , que fue la cifra más baja desde 1981 . ^ Los fabricantes de automóviles haciendo todo lo posible para atraer compradores , tal y como muestran los nuevos programas de Ford y GM . Los típicos programas de incentivos ya no tienen eco en la economía actual ^ , Jesse Toprak , analista de Edmunds . El miércoles , las acciones de Ford ganaron un 2,3 % y quedaron en 2,69 US$ en tempranas negociaciones en las bolsas de los EEUU , mientras que las acciones del depósito de los EEUU de Toyota aumentaron un 5,9 % , y quedaron en 67 $ Las acciones de GM cayeron un 1,6 % y quedaron en 1,92 $ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13798_General_Motors_automobile_sales_plunge_by_45%.txt"
+},
+{
+"text": "Chrysler solicita la quiebra , Fiat Group SpA dirigirá la empresa 1 de mayo del 2009 El jueves , la compañía automovilística americana Chrysler solicitó la quiebra , aunque acabó en un acuerdo con el fabricante europeo de coches Fiat . La emergente Chrysler pertenecerá en un 55 % a United Auto Workers , ocho por ciento al gobierno de Estados Unidos , dos por ciento al gobierno de Canadá y Fiat empezaría con una participación del 20 % . El director ejecutivo de Chrysler Robert Nardelli dejará el cargo cuando los procedimientos de quiebra hayan finalizado . Al principio , la empresa italiana , Fiat , designará tres miembros del nuevo consejo de la emergente Chrysler , y el gobierno de Estados Unidos designará seis . Fiat puede hacerse con la mayoría de la propiedad luego de pagar los préstamos americanos . Los administradores de Chrysler esperan que la quiebra tarde un par de meses . ^ Esperamos que sea muy corto , un proceso de quiebra de 30-60 días , en los cuales la empresa funcionará con normalidad ^ , ha dicho un alto cargo ; ^ La gente podrá comprar coches , se atenderán las garantías y todo debería funcionar con normalidad ^ . La solicitud de quiebra indica que Chrysler estaba en deuda con 20 acreedores de una cantidad de más de 10 millones de $ cada uno . Mientras tanto , el trato con Fiat ha salido adelante , y en el 2001 Chrysler debería tener en el mercado coches diseñados por Fiat . ^ Es una colaboración que dará a Chrysler la oportunidad , no solo de sobrevivir , sino de prosperar en la industria automovilística global ^ , dijo el presidente americano Obama ; ^ Fiat ha demostrado que puede construir coches limpios , con un consumo eficiente de combustible , que son el futuro de nuestra industria ^ . Sin embargo , el analista automovilístico Erich Merkle tiene dudas . ^ La historia nos muestra que las alianzas no funcionan tan bien ^ , dice Merkle ; ^ a pesar de lo bien que luzcan sobre el papel ^ . La reestructuración la ha dirigido Steve Rattner , un ex banquero de inversiones , y el cuerpo especial automovilístico del gobierno de los EEUU . Obama ha impuesto tres ultimátums a Fiat . Fiat , cuando dirija el nuevo Chrysler , debe producir un vehículo que hace 40 millas por galón , transferir la tecnología de consumo eficiente de combustible de Fiat a las fábricas de Estados Unidos de Chrysler , y producir coches en las fábricas de Chrysler para distribuirlas en Europa .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13951_Chrysler_files_for_bankruptcy,_Fiat_Group_SpA_to_run_company.txt"
+},
+{
+"text": "El fabricante de coches estadounidense GM declaró 6.000 millones de $ de pérdidas 7 de mayo del 2009 General Motors , la empresa automovilística de los Estados Unidos , ha anunciado que ha tenido 6.000 millones de $ de pérdidas en el primer trimestre del 2009 , así como grandes caídas en los ingresos . Sin incluir elementos especiales , la empresa ha dicho que ha tenido una pérdida neta de 5.900 millones de $ , o 9,66 $ por acción . En el primer trimestre del año pasado , GM declaró una pérdida de 381 millones de $ , o 0,67 $ por acción . La mayoría de los analistas financieros ha pronosticado que las pérdidas del fabricante de coches superarán los 6.700 millones de $ o 11,05 $ por acción . GM también ha declarado que ha gastado 10.200 millones de $ en un esfuerzo por evitar la quiebra . El fabricante ha recibido más de 15.000 millones de $ en dinero de rescate del gobierno federal . La empresa tiene de plazo hasta el 1 de junio para redactar un plan de reestructuración . Si no lo hace , se verá obligado a solicitar protección de quiebra . ^ Nos estamos centrando mucho en los costes del negocio , pero una vez empiezas a perder ingresos , entras en un círculo vicioso del que no te puedes recuperar ^ , ha dicho Ray Young , director de finanzas de GM . ^ Seguimos teniendo un 60-80 por ciento de posibilidades de que quiebre GM . Aunque actualmente no merece la pena invertir en las acciones de GM , cada vez estamos más confiados en que GM puede emerger considerablemente reforzado de la quiebra , siempre y cuando el proceso del Capítulo 11 no se eternice ; especialmente teniendo en cuenta el alcance de los recortes de los distribuidores ^ , ha dicho el analista Himanshu Patel .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/13972_US_automaker_GM_reports_losses.txt"
+},
+{
+"text": "El fabricante de automóviles estadounidense Chrysler quiere eliminar 789 concesionarios 14 de mayo del 2009 El fabricante de automóviles americano Chrysler ha dicho que quiere eliminar 789 , o aproximadamente un cuarto , de sus 3.200 concesionarios para principios de junio . El jueves , en una solicitación del tribunal de quiebras , la empresa declaró que su red tenía demasiados concesionarios compitiendo entre sí y que está anticuada . Se ha concertado una audiencia para el 3 de junio en el tribunal de quiebras de los EEUU , para determinar si se debe aprobar dicho movimiento . ^ Es un día difícil para todos nosotros ; un día para el que ninguno estamos preparados ^ , ha dicho Jim Press , vicepresidente de Chrysler . Los ejecutivos de la compañía han dicho que la empresa trata de eliminar los concesionarios de bajo rendimiento y mantener los que hacen mayores ventas . Más del 50 % de los concesionarios que se van a eliminar no venden ni cien automóviles al año . ^ Admitimos que se perderán algunas ventas a corto plazo . Pero a largo plazo ... la red de concesionarios es clave y será muy fuerte , poderosa , con una viabilidad financiera mucho mejor ^ , ha dicho Press .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_13999_U.S._automaker_Chrysler_wants_to_eliminate_789_dealerships.txt"
+},
+{
+"text": "El fabricante de automóviles estadounidense GM planea cerrar 1.100 concesionarios . 15 de mayo del 2009 El fabricante americano de automóviles General Motors ( GM ) anunció el viernes que tiene planes para cerrar unos 1.100 concesionario , en un esfuerzo para evitar la quiebra y reducir gastos . El paso de GM llega un día después de que Chrysler , otro fabricante de coches estadounidense , publicara una lista de 789 concesionarios que va a cerrar . A diferencia de Chrysler , GM no va a anunciar públicamente los concesionarios que pretende cerrar . En lugar de ello , los concesionarios cuyas franquicias no se van a renovar a partir de octubre del año que viene recibirán una carta privada comunicándoles la decisión . En estos momentos GM tiene 6.246 concesionarios en los EEUU . Pretende reducir dicho número a 3.605 para finales del 2010 . GM ha dicho que los concesionarios que va a cerrar son ^ concesionarios estadounidenses que tienen un rendimiento demasiado bajo y un volumen de ventas muy pequeño ^ . ^ De todas formas , son concesionarios que en la mayoría de los casos están sufriendo , perdiendo dinero y en peligro de quiebra ^ , ha dicho el vicepresidente de ventas , servicios y marketing de GM en una entrevista telefónica . ^ La gente podría decir que este paso había que tomarlo hace años , pero este equipo directivo ha tenido que tomarlo hoy irremediablemente ^ . Los concesionarios que se van a cerrar representan el 18 % de la red de concesionarios de la empresa , pero solo el 7 % de los ingresos de GM del 2008 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14002_U.S._automaker_GM_plans_to_close_1,100_dealerships.txt"
+},
+{
+"text": "La quiebra del fabricante de vehículos estadounidense GM es casi segura tras el fracaso de la oferta de tenedores de bonos 28 de mayo del 2009 La empresa de fabricación de automóviles de Estados Unidos General Motors anunció el miércoles que la mayoría de sus tenedores de bonos no cambiaron la deuda de 27.000 millones de US$ de GM por un diez por ciento de acciones de la empresa . El fabricante de automóviles , que está en un aprieto financiero , tiene de plazo hasta el 1 de junio para terminar un plan de reestructuración del gobierno que incluye cierres de plantas y otras medidas de reducción . La administración del presidente de los EEUU Barack Obama ha dicho que no dará más ayuda financiera a la empresa a menos que el 90 % de los tenedores de bonos de GM acepten compromisos que reduzcan significativamente los costes de la empresa . ^ La principal cantidad de pagarés ofrecidos fue sustancialmente inferior a la cantidad requerida por GM para satisfacer el requisito de reducción de deuda ^ , dijo GM en una declaración . ^ Dijeron que no . Eso es todo . Lo intentaron . Por eso vamos a solicitar la quiebra ^ , dijo un profesor universitario de la Universidad de Míchigan especializado en quiebras .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14056_Bankruptcy_for_U.S._automaker_GM_becomes_almost_certain_after_bondholder_offers_fail.txt"
+},
+{
+"text": "El fabricante estadounidense General Motors busca protección de quiebra 01 de junio del 2009 El fabricante de automóviles estadounidense General Motors ha solicitado la quiebra y la protección 11 de sus acreedores a las 12:00 UTC del lunes , en el tribunal federal de quiebras de Manhattan ( Nueva York ) . Ha sido la mayor solicitud de quiebra de un fabricante estadounidense , y ha declarado 82.290 millones de $ en activos y una deuda de 172.810 millones de $ ; es la cuarta mayor quiebra de la historia reciente de los EEUU , tras las quiebras de Lehman Brothers ( 691.060 millones de $ ) , Washington Mutual ( 327.910 millones de $ ) y WorldCom ( 103.910 millones de $ ) .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14082_U.S._manufacturer_General_Motors_seeks_bankruptcy_protection.txt"
+},
+{
+"text": "Barack Obama presenta un plan de rescate tras la declaración de quiebra de GM 01 de junio del 2009 Tras la declaración que GM ha hecho hoy a las 12:00 UTC donde ha dicho que ha solicitado la quiebra y la protección de capítulo 11 frente a sus acreedores , la mayor quiebra de una empresa de fabricación estadounidense , el presidente de Estados Unidos Barack Obama ha presentado un plan de reorganización en un discurso televisado desde la Casa Blanca a las 16:00 UTC . Describiendo el problema de la empresa como uno que lleva ^ décadas en proceso ^ , Obama explicó las razones de su propuesta de reorganización para General Motors . Declaró que su propósito no era ^ perpetuar ] las malas decisiones de negocio del pasado ^ , y que prestar dinero a General Motors no sería más que eso , ya que su problema es la deuda . Su plan , declaró , es que el gobierno de Estados Unidos se convierta en accionista de General Motors , junto con los gobiernos de Canadá y Ontario ( a los que agradeció el papel que habían jugado junto con el gobierno de Alemania , al que agradeció por su papel en la venta de acciones corporativas de GM en Europa ) . El gobierno de Estados Unidos poseería un 60 % de las acciones . El gobierno inyectará 30.000 millones de US$ de capital a GM , además de los fondos que ya ha recibido . En cuanto a posesión del gobierno , negó que ^ permitirían que General Motors y Chrysler sean tutelados por el estado ^ , y describió la quiebra de Chrysler y la de quiebra de General Motors que había concebido como ^ quiebras rápidas , quirúrgicas ^ . Señaló la quiebra de Chrysler como un ejemplo de lo que concebía para General Motors , pero aclaró que General Motors era una ^ empresa más compleja ^ que Chrysler . En respuesta a las objeciones expresadas por oponentes políticos antes del discurso , según las cuales el gobierno federal participará activamente en los negocios de la empresa reestructurada , ha declarado que no tenía ^ ningún interés ^ en dirigir GM , que que el gobierno federal ^ no ejercería sus derechos ^ de accionista corporativo en casi nada . Particularmente , ha declarado que el gobierno federal no ejercerá sus derechos de accionista para dictar ^ que nuevo tipo de coche fabricar ^ . Ha declarado que espera que la reestructurada GM fabricará ^ coches del futuro , de gran calidad , seguros y de consumo eficiente de combustible ^ , y varias veces ha descrito lo que él espera que sean coches ^ mejores ^ y ^ de consumo más eficiente de combustible ^ después de aerodinamizar las marcas de GM . Dijo para el público en general que ^ No fingiré que los malos tiempos hayan acabado ^ . Describió las dificultades financieras que van a sufrir algunos ( accionistas , comunidades basadas en torno a las plantas de GM , distribuidores de GM y otros ) como ^ un sacrificio por la próxima generación ^ , de forma que sus hijos puedan vivir en ^ una América que todavía fabrica cosas ^ , y concluyó diciendo que algún día Estados Unidos volverá a un tiempo en el que la máxima ^ lo que es bueno para General Motors es bueno para los Estados Unidos de América ^ vuelva a ser cierto ( una cita equivocada muy recurrente de lo que Charles Erwin Wilson aseveró ante el senado de los EEUU cuando lo nominaron para el puesto de secretario de defensa ) .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14083_Barack_Obama_presents_rescue_plan_after_GM_declaration_of_bankruptcy.txt"
+},
+{
+"text": "El director ejecutivo de GM resume los planes para la ^ nueva GM ^ , tras declararse la quiebra de la compañía automovilística 04 de junio del 2009 El 1 de junio a las 16:15 UTC , en una rueda de prensa en Nueva York , Fritz Henderson , director ejecutivo de General Motors , que hoy ha solicitado la quiebra y la protección del capítulo 11 frente a sus acreedores , resumió un plan para lo que él llamó la ^ nueva GM ^ . Hablando a la prensa bajo la disposición de puerto seguro de la ley estadounidense , Henderson ha descrito los hechos de hoy como ^ un momento decisivo ^ en la historia General Motors . Hablando al público , ha dicho que ^ la GM que decepciona es historia ^ , y ha descrito la ^ nueva GM ^ que espera que surja del proceso de quiebra . Henderson ha declarado que imagina que el proceso de quiebra durará unos 60 o 90 días . Ha insistido varias veces que según su punto de vista el proceso se ejecutará rápidamente , diciendo que no esperaba solo un criterio de urgencia sino ^ pura y absoluta velocidad ^ en el proceso . Hizo hincapié en que ^ GM sigue siendo un negocio abierto ^ durante el periodo de quiebra ; continuará vendiendo y proporcionando asistencia de sus productos , y dichos movimientos iniciales se han incluido en tribunal de quiebras para permitirlo . En cuanto al proceso de quiebra , ha dicho que ^ Lo haremos bien . Y lo haremos una vez ^ . Ha dicho que el plan de General Motors tenía el apoyo del sindicato United Auto Workers , del sindicato Canadian Auto Workers , del GM VEBA , y de la mayoría de los tenedores de bonos no garantizados de GM . También ha dicho que GM ya ha recibido 1,5 millones de $ en financiación puente del gobierno de Alemania . En respuesta a las preguntas sobre la posibilidad de que el gobierno federal de los Estados Unidos , un accionista mayoritario de la compañía reestructurada , dicte el futuro desarrollo de producto y estrategia , como la venta de vehículos con consumo de combustible más eficiente , en primer lugar ha hecho la observación de que el gobierno federal ya le ha declarado que ^ no tenía un interés real en dirigir nuestro negocio ^ y que esperaba que siguiera siendo su trabajo . En cuanto al escenario hipotético en el que la dirección de GM deseara hacer un solo tipo de coche porque creyera que es lo mejor para el negocio y el gobierno de los EEUU quisiera hacer un tipo de coche diferente , declaró que ^ No creo que eso llegue a ocurrir ^ . Desarrollando este punto , ha declarado que espera que la ^ nueva GM ^ se centre en ^ tecnología verde y muy eficiente en cuanto al consumo de combustible ^ , y que si ambos trabajaran de acuerdo con las leyes medioambientales estadounidenses y respondiendo a la demanda de los consumidores , el nuevo GM produciría tipos de vehículos que el gobierno estadounidense fomentaría . También espera que la ^ nueva GM ^ se centre en ^ cuatro marcas medulares ^ y ajuste el tamaño de su dirección a ello . Ha declarado que GM ofrecerá un paquete de ^ vencimiento a plazos ^ a los distribuidores , para que puedan cesar gradualmente el comercio de vehículos de GM . Ha afirmado que las coberturas de quiebra no iban a abarcar los negocios de General Motors en Latinoamérica , Europa y Oriente Medio , y Asia y el Pacífico . En cuanto a las rentables aventuras de GM en China , específicamente , ha declarado que eran ^ una parte fundamental de la nueva GM ^ . En respuesta a las preguntas de si la nueva GM iba a importar coches de China a los EEUU , ha declarado que la máxima formativa de la empresa ^ Construimos donde vendemos ^ se aplica en ambas direcciones , por lo que GM construirá en China para vender en China , y construirá en los EEUU para vender en los EEUU , con lo que reducen las cadenas de suministros . Ha rehusado predecir cuándo volverá a tener beneficios la nueva GM , diciendo que la meta era reducir el punto EBIT de equilibrio de pérdidas y ganancias de la empresa . También ha rehusado especular sobre cuándo venderá sus acciones de la empresa el gobierno de los EEUU , diciendo que esa era una cuestión ^ que debía hacerse a la Hacienda de los EEUU ^ , y reconociendo simplemente que él creía que iba a pasar ^ años , no meses ^ antes de que la Hacienda de los EEUU sintiera que iba a proporcionar ^ una ganancia adecuada para los contribuyentes ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_14084_CEO_of_GM_outlines_plan.txt"
+},
+{
+"text": "Penske Auto ha sido seleccionado para comprar la unidad Saturno de General Motors 05 de junio del 2009 General Motors Corporation ( GM ) , un fabricante americano de automóviles que ha solicitado la protección de quiebra , anunció el viernes que Penske Automotive Group ( PAG ) ha sido seleccionado para la compra de Saturn Corporation . La transacción debería completarse en octubre . La compra comprende los derechos a la marca Saturn , sus actuales cinco modelos y su red de concesionarios . Se van a suspender dos modelos , el Sky y el Astra . GM va a continuar fabricando el sedán Aura y los todoterrenos Vue y Outlook durante al menos dos años más . Saturn tiene 350 distribuidores autorizados en los Estados Unidos . En dichos distribuidores autorizados hay más de 13.000 puestos de trabajo y se venden solo automóviles Saturn . Los distribuidores canadienses no están incluidos en el trato . Según Penske , los vehículos Saturn del futuro se centrarán en economizar combustible . Un experto ha señalado que con ello Saturno volvería a sus orígenes de empresa de coches básicos . PAG está negociando con varios fabricantes de coches internacionales para reemplazar GM a partir del 2011 . Automotive News ha declarado que Renault Samsung Motors de Corea es el candidato más probable . Penske quiere que Jill Lajdziak , director general de Saturn , y Tom LaSorda , ex presidente de Chrysler , estén al frente de la empresa cuando sea independiente de GM . Serra Automotive , del municipio Grand Blanc ( condado de Genesee , Míchigan ) está negociando para hacerse con una propiedad parcial en una nueva Saturn liderada por Penske .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14111_Penske_Auto_selected_to_buy_General_Motors.txt"
+},
+{
+"text": "El fabricante de automóviles Ford registra inesperados beneficios 3 de noviembre del 2009 El fabricante estadounidense de automóviles Ford ha dicho que ha registrado un beneficio neto de 997 millones de US$ en el tercer trimestre del año , y ha previsto que será ^ firmemente rentable ^ para el 2011 . Los informes han sorprendido a la mayoría de analistas , que habían previsto que la empresa automovilística iba a perder dinero . Los beneficios de Ford son de 26 céntimos por acción , una gran diferencia respecto a las pérdidas de 12 céntimos por acción que habían previsto la mayoría de los analistas económicos . ^ Los resultados de nuestro tercer trimestre muestran claramente que Ford está haciendo un enorme progreso a pesar del prolongado bajón económico ^ , dijo Alan Mulally , director ejecutivo de la empresa . ^ Aunque todavía nos enfrentamos a una ruta exigente , nuestra transformación está funcionando y nuestro negocio subyacente continúa haciéndose más fuerte ^ . Mulally prevé que su empresa alcanzará e incluso sobrepasará sus objetivos financieros , y sugiere que el cuarto trimestre del año podría declarar un beneficio operativo .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/14994_Automobile_manufacturer_Ford_posts_unexpected_profits.txt"
+},
+{
+"text": "El fabricante de coches GM recortará 10.000 puestos de trabajo en Opel 5 de noviembre del 2009 El fabricante estadounidense de coches General Motors ha dicho que va a recortar 10.000 puestos de trabajo en Opel , su división europea . Según John Smith , vicepresidente de la compañía , la empresa quiere reducir los costes de Opel en un 30 % . Smith anunció la maniobra de la empresa el miércoles . No dijo dónde tendrán lugar los recortes , pero quiere dar detalles del plan a los gobiernos europeos ^ muy pronto ^ . Un día antes de la comunicación , GM dijo que iban a cancelar un acuerdo para vender Opel a Magna , una compañía canadiense de piezas de automóviles . Políticos de Alemania se han mostrado decepcionados con la cancelación de GM en el acuerdo con Magma , el cual aprobaba el gobierno . ^ El comportamiento de GM ] con respecto a Alemania es totalmente inaceptable ^ , ha dicho el ministro de economía Rainier Bruederle . El primer ministro del estado alemán Renania del Norte-Westfalia señaló que ^ El comportamiento de General Motors muestra la fea cara del turbocapitalismo . Es absolutamente inaceptable ^ . Sin embargo , el gobierno del Reino Unido dio la bienvenida a la decisión de la empresa . ^ Es la mejor decisión para los planes del Gran Bretaña y los nuestros ^ , dijo Tony Woodley , secretario general del sindicato británico Unite . ^ Estoy encantado de que General Motors finalmente haya hecho lo correcto para ellos y para nosotros ^ le dijo a BBC . Opel tiene unos 54.000 empleados , unos 25.000 de ellos en Alemania .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15009_Automaker_GM_to_cut_10,000_jobs_at_Opel.txt"
+},
+{
+"text": "Ford Motors declara un beneficio anual de 2.700 millones de US$ 28 de enero del 2010 Ford Motors Co. , la empresa de fabricación de automóviles , ha declarado un beneficio anual de 2.700 millones de US$ en el año pasado , primeras ganancias en cuatro años . Las estadísticas están mejorando desde el 2008 , cuando la empresa automovilística declaró una perdida de casi 15.000 millones de $ . En cuanto al último trimestre del 2009 , Ford dice que ha producido 868 millones de $ de beneficios , y espera que este año siga siendo rentable . La empresa ha recortado sus costes a 118.300 millones de $ el año pasado , 19.800 millones de $ que el año anterior . Ford tenía una deuda de 34.300 millones de $ a finales del 2009 . En el último trimestre , en los EEUU , las ventas de la marca Ford aumentaron un trece por ciento en respecto al mismo periodo en el 2009 , y obtuvieron el 15,3 % del mercado automovilístico del país . El presidente y director ejecutivo de la empresa , Alan Mulally , ha declarado a propósito de los beneficios . ^ Aunque todavía nos enfrentamos a retos significativos , el 2009 ha sido un años crucial para Ford , y la mejor prueba de que nuestro plan One Ford está funcionando y de que estamos avanzando paso a paso en un camino que nos lleva a un desarrollo beneficioso ^ , ha dicho , y añadido que ^ las condiciones económicas globales están resucitando , pero siguen siendo frágiles . ^",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15652_Ford_Motors_posts_2.7_billion_annual_profit.txt"
+},
+{
+"text": "Las ventas de coches de Ford en los EEUU alcanzan su máximo , por encima de GM 03 de marzo del 2010 Ford Motor Company dijo el martes que sus ventas de los EEUU aumentaron un 43 % en febrero comparadas con el mismo período del año anterior , habiendo vendido más que sus rivales Toyota y General Motors . Ford ha dicho que las ventas totales han aumentado hasta 142.285 unidades , comparadas con las 141.951 unidades vendidas por GM . Además , Ford ha dicho que su participación de mercado ha aumentado del 14 % del año pasado a 17 % . El incremento ha sido superior a la previsión de los analistas , y las acciones de Ford han aumentado a un máximo quinquenal , antes de volver a bajar a finales del día . Las ventas de Ford han sufrido una influencia significativa del aumento del 74 % de la venta de flotas de coches a empresas . Sólo las agencias de alquiler de coches han sumado 30.000 unidades vendidas . Las ventas a consumidores minoristas aumentaron solo un 28 % . Los mayores incrementos se deben a las ventas de los dos sedanes , Fusion y Taurus , cuyas ventas aumentaron 166,5 % y 93,3 % respectivamente , aunque también aumentaron las ventas de otros modelos como los todoterrenos y las camionetas de carga . Ambos modelos fueron considerablemente rediseñados el año pasado , y los analistas dicen que los aumentos se deben a la mejora de la calidad de dichos coches . Otras empresas también han presentado hoy las ventas de febrero , y casi todos han presentado aumentos en las ventas , aunque ninguno tanto como Ford . Toyota ha sido la única excepción al aumento de ventas , ya que sus ventas han disminuido un 8,7 % , ya que durante ese mes la empresa se ha enfrentado a una retirada de productos que ha provocado una parada temporal de la producción de algunos modelos . ^ La potencia de nuestros nuevos productos está resonando en nuestros clientes ^ , dijo Ken Czubay , vicepresidente de ventas y marketing de Ford . Sin embargo , cree que los tradicionales clientes de Toyota no han comprado coches de la competencia , sino que están esperando los resultados de la retirada .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/15826_Ford_US_auto_sales_spike.txt"
+},
+{
+"text": "Fiat planea comprar una participación mayoritaria en Chrysler 29 de mayo del 2011 Fiat anunció el viernes que tiene la intención de comprar el seis por ciento del fabricante de automóviles Chrysler que actualmente posee el gobierno de los EEUU , con lo que la empresa italiana tendría en Chrysler una participación mayoritaria del 52 por ciento . Según la declaración de Fiat , la empresa le ha dicho al Departamento del Tesoro de los EEUU que tiene la intención de hacer uso de su derecho a comprar la parte de Chrysler que tiene el gobierno de los EEUU ; el acuerdo se llevaría a término el 10 de junio . Si para entonces no se acuerda un precio , Fiat pagará la media de las estimaciones de los dos bancos de inversión . En el 2009 , Fiat compró una participación del veinte por ciento de Chrysler , que acababa de salir de la quiebra , y desde entonces ha aumentado su propiedad al 46 por ciento y espera aumentarla al 57 % para finales de este año . Según el analista Maryann Keller , el acuerdo es bueno para ambas empresas , ya que ^ ninguna tiene la capacidad de competir sola en el tipo de entorno global al que se enfrentan ^ . El analista Rebecca Lindland dijo que este paso también beneficiará a las compañías porque ^ las va a sacar de estar bajo cualquier asomo de propiedad gubernamental y toda negatividad que conlleva el rescate ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_17634_Fiat_plans_to_buy_majority_stake_in_Chrysler.txt"
+},
+{
+"text": "Ford Motor Company recortará 30.000 puestos de trabajo para el 2012 23 de enero del 2006 La Ford Motor Company , segundo fabricante de coches de América , recortará 30.000 puestos de trabajo y 14 plantas , dentro se su plan de reestructuración para aliviar a Ford tras perder 1.600 millones de US$ en ventas el año pasado en Norteamérica . El plan , llamado ^ Hacia adelante ^ , una idea del director ejecutivo de Ford William Clay Ford Jr. , acabará con las pérdidas de Ford en Norteamérica . Para ello , se recortarán 30.000 puestos de trabajo , es decir el 20-25 % de los 122.000 trabajadores norteamericanos de Ford , y se cerrarán 14 plantas para ajustar la capacidad de producción de Ford a la demanda . A finales de año se cerrarán las plantas de Atlanta y San Luis . Atlanta fabrica el sedán Ford Taurus , que se va a eliminar gradualmente . La planta de San Luis es una de las dos que fabrica el Ford Explorer , cuyas ventas cayeron un 29 % en el 2005 . También se cerrarán la planta de Wixom ( Michigan ) , Batavia Transmission de Ohio y la planta Windsor Casting de Ontario , que según una declaración previa de Ford se iba a cerrar tras las negociaciones de contratos con el sindicato Canadian Auto Workers . En la planta de Saint Thomas ( Ontario ) se recortará un turno . La planta fabrica los coches Crown Victoria y Grand Marquis . En referencia a dicho recorte de turno , Whitey MacDonald , vocal de Local 1520 , sindicato Canadian Auto Workers , dijo que ^ Aquí hay mucha ira , sin duda . En cuanto la planta funcione con un turno , se queda en el limbo . Este coche ha ganado millones de dólares durante años en los que ellos han invertido en otros productos y localizaciones ; con nuestros antecedentes , tenemos derecho a nuevas inversiones ^ . Las buenas noticias para la planta son que Ford se ha comprometido a invertir 200 millones de $ en la planta , para actualizar el aspecto de los dos coches que se fabrican en ella . Sin embargo , según el analista automovilístico Dennis DesRosier , cree que ^ es muy probable ^ que dicha fábrica cierre . DesRosier dijo que ^ La planta de Saint Thomas es vieja , el producto es viejo , no tiene sentido que esté en la lista . Podría ser solo una prórroga a corto plazo , y puede que dentro de dos o tres años se enfrente a un cierre definitivo ^ . Otras dos plantas cerrarán en el 2008 , y otras dos en el 2012 . Este año se darán a conocer otras dos plantas que cerrarán . Además , Ford despedirá al 12 % de sus 53 directores ejecutivos . Debido al contrato que la empresa tiene actualmente con el sindicato United Auto Workers , los trabajadores de las plantas inactivas seguirán recibiendo sus sueldos y beneficios hasta que Ford negocie un nuevo contrato con el sindicato . Sin embargo , los trabajadores no ganarán lo que ganan actualmente , porque no podrán hacer horas extras . Ron Gettelfinger , presidente de la UAW , y Gerald Bantom , vicepresidente , han dicho que el plan ^ es muy decepcionante ^ . El UAW ha publicado una declaración que dice que ^ Los trabajadores por horas y los asalariados afectados se enfrentan a un futuro incierto a causa del fracaso de la dirección para detener la caída de la participación de mercado de Ford . La declaración proyectado otra sombra sobre la totalidad de la plantilla , por la previsión del cierre de otras instalaciones en algún momento futuro ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_3971_Ford_Motor_Company_cutting_30,000_jobs_by_2012.txt"
+},
+{
+"text": "GM publica pérdidas anuales por primera vez desde 1992 27 de enero del 2006 Logotipo de General Motors General Motors Corporation ( GM ) ha publicado pérdidas anuales por primera vez desde 1992 . GM ha declarado haber perdido 4.800 millones de US$ en el cuarto trimestre del 2005 y un total de 8.600 millones de $ en todo el año . GM admitió el jueves por la noche que la pérdida podría ser mayor más adelante , cuando haya pagado las pensiones y los costes de asistencia médica de miles de ex trabajadores . GM advirtió que la cantidad calculada para el año pasado es preliminar y podría ser mayor en la comunicación oficial de marzo a la US Securities and Exchange Commission . La pérdida ha sido mucho mayor que lo previsto por los analistas . Ford , la segunda de los tres grandes fabricantes americanos de coches , ha mejorado las previsiones esta semana . Por el contrario , se espera que Toyota comunique que ha superado el beneficio de 11.000 millones de $ del año pasado . La división de automotor de GM ha perdido 1.500 millones de $ en el último trimestre , a causa de las pérdidas de Norte América . Ello se le ha atribuido a la cada vez menor participación de mercado de GM , que ha sido ganado por los fabricantes japoneses Toyota y Nissan . Otros 1.300 millones de $ se han perdido en gastos de reestructuración . Como parte de la reestructuración , GM planea recortar 30.000 puestos de trabajo y cerrar 12 plantas para el 2008 . Un asistente de Kirk Kerkorian , el mayor inversor individual de GM ( con un 9,9 % ) ha exigido a la empresa que reduzca a la mitad su dividendo anual de 1.100 millones de $ , recorte los sueldos de los ejecutivos y venda Saab .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/4000_GM_posts_first_annual_loss_since_1992.txt"
+},
+{
+"text": "El gobierno de Australia anuncia un paquete de asistencia financiera de 52,5 millones de $ para Ford 05 de mayo del 2006 El primer ministro de Australia John Howard y el ministro de industria federal Ian MacDonald han anunciado hoy que el gobierno federal va a proporcionar a Ford Australia un ^ paquete de asistencia financiera ^ de 52,5 millones de AU$ ( 40,4 millones de US$ ) . El gobierno de estado de Victoria también proporcionará una ayuda . Según el Sr. . Howard , la inyección asegurará las operaciones de fabricación de Ford en Australia ^ a largo plazo ^ . De dicho paquete , 40 millones de AU$ se usarán para el diseño y la fabricación del próximo modelo de los vehículos Falcon y Territory de Ford , que se construirán en Australia . A pesar de haberle hecho un importante lavado de cara en el 2002 y otro en el 2005 , la carrocería del Falcon es del 1998 . El actual Falcon deberá servir a la empresa al menos hasta el 2007 , cuando está previsto el nuevo modelo . Mientras tanto , va a tener que enfrentarse a una dura competencia por parte del totalmente nuevo Holden Commodore ( el principal competidor del Falcon ) , que será lanzado en segundo semestre de este año . Se gastarán otros 12,5 millones de AU$ en el desarrollo de una plataforma de vehículos comerciales ligeros , que se construirá en el extranjero y se comercializará en unos 80 países . El Sr. . Howard ha dicho que el proyecto del ligero comercial supone la construcción de un centro de investigación y desarrollo , que será la base de los proyectos de I+D de la región . El Sr. . MacFarlane ha dicho que la instalación de investigación es interesante para Australia y que pondrá el sector automovilístico de Australia en primer plano . ^ La financiación ha ayudado a Ford Australia a asegurar el mayor proyecto de I+D en automoción jamás llevado a cabo en Australia , cosa que es también interesante para los empleados locales de Ford y los fabricantes de piezas australianos ^ , ha dicho . ^ Con este proyecto , Ford Australia se convertirá en el centro de la excelencia del diseño e ingeniería automovilísticos de la región del Pacífico asiático , y ello derivará beneficios para la industria global ^ , ^ Esta oportunidad pondrá tanto a Ford Australia como a los sectores automovilístico y de componentes australianos en el mapa mundial en lo que a la capacidad de diseño e ingeniería automovilísticos se refiere ^ , ha dicho el Sr. . MacFarlane . El Sr. . Howard ha declarado que el proyecto creará 273 puestos de trabajo y asegurará el futuro del ^ emblemático ^ Ford Falcon , que se ha construido en Australia desde 1960 . El paquete financiero vincula a Ford Australia a dar a la industria australiana de componentes de automoción la oportunidad de proveer componentes de los vehículos fabricados en ambos proyectos .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_4866_Australian_government_announces_52.5_million_financial_assistance_package_for_Ford.txt"
+},
+{
+"text": "Ford anuncia fuertes recortes de producción en respuesta a sus cada vez mayores pérdidas 19 de agosto del 2006 Ford anuncia recortes radicales del 21 % ( 168.000 unidades ) en su producción estadounidense y canadiense , lo que conlleva el cierre parcial de diez de sus plantas en el cuarto trimestre . Esta medida se le añade a los ya existentes planes de cambio radical anunciados en enero , según los cuales para el 2012 se recortarán entre 25.000 y 30.000 puestos de trabajo y se cerrarán 14 plantas . Ford es el tercer mayor fabricante de coches del mundo y el segundo de los EEUU . Sin embargo , en los últimos años ha luchado contra la baja rentabilidad y una cada vez menor participación de mercado . En el 2005 , perdió 1.600 millones de $ , y recientemente ha informado que las pérdidas del segundo trimestre han sido de 254 millones de $ y que las ventas interanuales de julio habían disminuido un 34 % . George Pipas , director de análisis de ventas de Ford , ha señalado que dicha iniciativa ha sido una consecuencia directa del incremento de los precios de la gasolina , que ha tenido un impacto negativo en la venta de las líneas de todoterrenos de la empresa , así como en la de su líder de ventas , los camiones de carga de la serie F. De momento , se cree que estas serán las plantas afectadas : * St. Thomas Assembly de Saint Thomas ( Ontario , Canadá ) * Chicago ( Illinois ) * Wixom Assembly Plant de Wixom ( Michigan , Michigan ) * Louisville Assembly de Louisville ( Kentucky ) * Michigan Truck Plant de Wayne ( Michigan ) * Saint Paul ( Minnesota ) * Kansas City Assembly de Kansas City ( Missouri ) * Norfolk Assembly de Norfolk ( Virginia ) * River Rouge Plant de Dearborn ( Míchigan ) Las acciones de Ford cayeron 17 céntimos ( 2,1 % ) a 8 $ en la bolsa de Nueva York .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_5994_Ford_announces_deep_production_cuts_in_response_to_growing_losses.txt"
+},
+{
+"text": "Se va a resucitar el Ford Taurus 09 de febrero del 2007 El director ejecutivo de Ford Motor Company Alan Mulally ha declarado que el Ford Five Hundred se llamará Taurus en el modelo del 2008 , cuando , según las previsiones , se lance el modelo actualizado para incrementar las deslucidas ventas del modelo saliente . Mulally dice que la decisión de Ford de llamar a todos sus coches con la letra F era una jugada desfavorable , y hacía que los nombres se olvidaran fácilmente . Como consecuencia , Mulally planea retomar muchos nombres de marca respetados , como Taurus , y , probablemente , el Falcon más adelante . El Ford Taurus se comercializó en 1986 , y fue un coche revolucionario que reescribió las reglas para la creación de un sedán e hizo que los otros fabricantes de coches americanos lo imitaran ; trajo una revolución del diseño que libró Detroit de los coches ^ con forma de caja ^ de los 70 y 80 . El Taurus sobrevivió cuatro generaciones y vendió m ´ s de 7.500.000 unidades . El Taurus se dejo de fabricar en octubre del 2006 , tras una breve tirada de los modelos 2007 destinados a clientes de flotas . ^ Cómo puede desaparecer ? ^ Allan Mulally recuerda habérselo preguntado . ^ Es el coche más vendido de América ^ . No se espera que el cambio de nombre convierta el Five Hundred en un éxito de ventas de más de 400.000 unidades al año , pero sí que se espera que sus ventas sean más firmes , y que el coche esté bien reconocido , ya que Taurus es una marca bien reconocida en todo el país .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/7584_Ford_Taurus_to_be_revived.txt"
+},
+{
+"text": "DaimlerChrysler prevé recortar 13.000 empleos 14 de febrero del 2007 La empresa automovilística DaimlerChrysler ha anunciado hoy que recortará 13.000 empleos en Norte América . Podría separarse del negocio deficitario . También prevé cerrar dos plantas de Chrysler en un intento de hacer de Chrysler un negocio rentable para 2008 . Se recortarán unos 9.000 empleos de producción en los Estados Unidos , 2.000 empleos de producción en Canadá y 2.000 empleos asalariados . ^ Es difícil saber si esto será suficiente ... pero el mercado está reaccionando bien , lo que vuelve a confirmar que se trata de una maniobra de restructuración beneficiosa y muy necesaria para Chrysler , ^ dijo el jefe de inversiones de Solaris Asset Management , Tim Ghriskey . Tras las especulaciones de que las compañías Daimler-Benz ( Mercedes-Benz ) y Chrysler , las cuales se unieron en 1998 para formar DaimlerChrysler , se escindirían , el presidente Dieter Zetsche desmintió dichas afirmaciones . ^ No excluimos ninguna vía para buscar la mejor solución tanto para el Grupo Chrysler como para DaimlerChrysler . ^",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/60658_DaimlerChrysler_plans_to_cur_13,000_jobs.txt"
+},
+{
+"text": "DaimlerChrysler va a vender Chrysler Group por 7.400 millones de $ 14 de mayo del 2007 La DaimlerChrysler Corporation ha anunciado que la corporación se va a liquidar el Chrysler Group vendiéndoselo a la empresa Cerberus Capital Management , empresa de capital privado basada en Nueva York , por 7.400 millones de US$ . Han anunciado que los nombres de las empresas pasarán a ser Daimler AG y Chrysler Holding LLC . DaimlerChrysler ha vendido el 80,1 % de su participación en Chrysler , y se ha quedado con el restante 19,9 % , para empresas conjuntas y otros acuerdos y asociaciones . Cerberus ha acordado hacerse cargo de los miles de millones en pensiones y costes de asistencia médica de jubilados de Chrysler . Cerberus también dirige un consorcio que en abril del año pasado adquirió una participación mayoritaria en GMAC , el brazo financiero de GM , y se dice que planea invertir en el gigante de las piezas de coches Delphi . Buzz Hargrove , presidente del Canadian Auto Workers , ha dicho que le han asegurado que el acuerdo colectivo de negociaciones con Chrysler se mantendrá y que no se suprimirán los puestos de trabajo . El cambio de nombre de la empresa alemana DaimlerChrysler a Daimler AG está pendiente de la aprobación de la próxima reunión de accionistas , prevista para el otoño del 2007 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_8424_DaimlerChrysler_to_sell_Chrysler_Group.txt"
+},
+{
+"text": "Ford ofrece 78 millones de US$ por una planta de coches de Rumanía 8 de septiembre del 2007 Ford Motor Company , el fabricante de coches estadounidense , va a pagar supuestamente 57 millones de $ ( 78 millones de US$ ) por el 72,4 % de acciones de la planta de montaje rumana Automobile Craiova , según dijo un funcionario rumano . ^ La oferta de Ford Motor Company para comprar el 72,4 % es de 4,1556 $ por acción o 57 millones de $ en total ^ , dijo Sebastian Vladescu , encargado de la Agencia Estatal de la Propiedad ( AVAS ) , después de abrir la oferta mejorada de Ford . Vladescu añadió que probablemente el contrato se firmará el 12 de septiembre , en la muestra del automóvil de Fráncfort . El gobierno de Rumanía compró a Daewoo Motors el fabricante de coches con base en Craiova a finales del 2006 por 51 millones de US$ . Cuando la empresa coreana quebró , el gobierno tuvo que pagar otros 10 millones de $ por las deudas originadas por préstamos del pasado . Ford ha sido el único en licitar por la compra de la fábrica . Según el Washington Post , muchos fabricantes de piezas de automóviles se han instalado en el nuevo miembro de la Comunidad Europea , atraídos por la barata mano de obra , favorables impuestos y la cada vez mayor producción del la planta de Dacia de Renault . El vicepresidente de Dacia , Constantin Stroe , dijo que el precio de la oferta de Ford no es importante . ^ Lo importante es que la fábrica funcione lo antes posible ^ , añadió . ^ con estas instalaciones de producción , Rumanía será un importante centro de producción de automóviles en Europa ^ , concluyó Stroe , según HotNews .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/GeneralMotors/General_motors_txt/corrected_9552_Ford_offers_78_million_for_Romanian_auto_plant.txt"
+}
+],
+"story_cnt": [11],
+"text": "NewsReader timeline",
+"type": "default"
+}}

@@ -1,0 +1,2554 @@
+{ "timeline":
+{
+"actor_cnt": [74],
+"event_cnt": [55],
+"events": [
+{
+"actors": {
+"eso/possession-owner_1": ["dbp:PlayStation_Store"],
+"fn/Goods": [
+"dbp:ITunes_Store",
+"ne:vender_pel%e2%88%9a%e2%89%a0culas_en_itunes",
+"ne:temas_musicales_digitales"
+]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 100,
+"event": "ev5",
+"group": "100:[\"vender\"]",
+"groupName": "[\"vender\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt#ev5",
+"labels": ["vender"],
+"mentions": [
+{
+"char": [
+"176",
+"181"
+],
+"sentence": ["4"],
+"terms": ["t30"],
+"tokens": ["w30"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt"]
+},
+{
+"char": [
+"259",
+"265"
+],
+"sentence": ["4"],
+"terms": ["t43"],
+"tokens": ["w43"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt"]
+},
+{
+"char": [
+"81",
+"87"
+],
+"sentence": ["3"],
+"terms": ["t15"],
+"tokens": ["w15"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt"]
+},
+{
+"char": [
+"13",
+"19"
+],
+"sentence": ["1"],
+"terms": ["t3"],
+"tokens": ["w3"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt"]
+}
+],
+"prefLabel": ["vender"],
+"sentence": "1",
+"size": "25.0",
+"time": "20060620",
+"topics": [
+"music",
+"import licence",
+"Spain",
+"agricultural product",
+"export licence",
+"information society"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["ne:esta_empresa"],
+"fn/Topic": ["dbp:PlayStation_Store"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 13,
+"event": "ev17",
+"group": "100:[\"vender\"]",
+"groupName": "[\"vender\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/103623_Apples_iTunes_replaces.txt#ev17",
+"labels": ["afirmar"],
+"mentions": [{
+"char": [
+"413",
+"419"
+],
+"sentence": ["4"],
+"terms": ["t77"],
+"tokens": ["w77"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/103623_Apples_iTunes_replaces.txt"]
+}],
+"prefLabel": ["afirmar"],
+"sentence": "4",
+"size": "1.625",
+"time": "20090201",
+"topics": [
+"agricultural product",
+"export licence",
+"quantitative restriction",
+"import licence",
+"storage",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:Apple_Inc."],
+"fn/Value": ["ne:vender_pel%e2%88%9a%e2%89%a0culas_en_itunes"]
+},
+"classes": {"fn": ["Purpose"]},
+"climax": 54,
+"event": "ev16",
+"group": "100:[\"vender\"]",
+"groupName": "[\"vender\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt#ev16",
+"labels": ["planear"],
+"mentions": [{
+"char": [
+"6",
+"12"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt"]
+}],
+"prefLabel": ["planear"],
+"sentence": "1",
+"size": "6.75",
+"time": "20060620",
+"topics": [
+"information society",
+"Spain",
+"export licence",
+"agricultural product",
+"music",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:Apple_Inc."],
+"fn/Topic": ["dbp:ITunes_Store"]
+},
+"classes": {"fn": ["Expectation"]},
+"climax": 18,
+"event": "ev17",
+"group": "100:[\"vender\"]",
+"groupName": "[\"vender\"]",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt#ev17",
+"labels": ["prever"],
+"mentions": [{
+"char": [
+"75",
+"80"
+],
+"sentence": ["3"],
+"terms": ["t14"],
+"tokens": ["w14"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt"]
+}],
+"prefLabel": ["prever"],
+"sentence": "3",
+"size": "2.25",
+"time": "20060620",
+"topics": [
+"export licence",
+"information society",
+"music",
+"Spain",
+"import licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Protagonist": [
+"dbp:Steve_Jobs",
+"dbp:Apple_Inc."
+],
+"pb/AM": ["ne:la_p%e2%88%9a%c2%b0gina_web_de_la_compa%e2%88%9a%c2%b1%e2%88%9a%e2%89%a0a"]
+},
+"classes": {"fn": ["Death"]},
+"climax": 68,
+"event": "ev13",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt#ev13",
+"labels": ["fallecer"],
+"mentions": [
+{
+"char": [
+"148",
+"156"
+],
+"sentence": ["4"],
+"terms": ["t30"],
+"tokens": ["w30"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt"]
+},
+{
+"char": [
+"40",
+"47"
+],
+"sentence": ["1"],
+"terms": ["t9"],
+"tokens": ["w9"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt"]
+}
+],
+"prefLabel": ["fallecer"],
+"sentence": "1",
+"size": "17.0",
+"time": "20111005",
+"topics": [
+"quantitative restriction",
+"import licence",
+"Spain",
+"frozen product",
+"export licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": ["ne:los_precios_de_itunes"],
+"fn/Attribute": ["dbp:Apple_Inc."],
+"pb/AM": [
+"ne:los_precios",
+"dbp:United_Kingdom",
+"dbp:The_Times",
+"dbp:European_Union"
+]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Cause_change_of_position_on_a_scale",
+"Change_position_on_a_scale"
+]
+},
+"climax": 60,
+"event": "ev8",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt#ev8",
+"labels": ["reducir"],
+"mentions": [
+{
+"char": [
+"6",
+"14"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt"]
+},
+{
+"char": [
+"881",
+"890"
+],
+"sentence": ["9"],
+"terms": ["t172"],
+"tokens": ["w172"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt"]
+}
+],
+"prefLabel": ["reducir"],
+"sentence": "1",
+"size": "7.5",
+"time": "20080109",
+"topics": [
+"quantitative restriction",
+"raw material",
+"export licence",
+"import licence",
+"Spain",
+"goatmeat"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:el_iphone_4"]
+},
+"classes": {"fn": [
+"Achieving_first",
+"Becoming_aware"
+]},
+"climax": 54,
+"event": "ev46",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/190356_Apple_unveils_iPhone_4,_iOS_4_at_Worldwide_Developers_Conference_2010.txt#ev46",
+"labels": ["descubrir"],
+"mentions": [{
+"char": [
+"6",
+"14"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/190356_Apple_unveils_iPhone_4,_iOS_4_at_Worldwide_Developers_Conference_2010.txt"]
+}],
+"prefLabel": ["descubrir"],
+"sentence": "1",
+"size": "6.75",
+"time": "20100608",
+"topics": [
+"agricultural product",
+"cassava",
+"Spain",
+"export licence",
+"import licence",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:el_ipod_nano"]
+},
+"classes": {"fn": [
+"Achieving_first",
+"Becoming_aware"
+]},
+"climax": 54,
+"event": "ev30",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/21302_Apple_unveils_iPod_nano.txt#ev30",
+"labels": ["descubrir"],
+"mentions": [{
+"char": [
+"6",
+"14"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/21302_Apple_unveils_iPod_nano.txt"]
+}],
+"prefLabel": ["descubrir"],
+"sentence": "1",
+"size": "6.75",
+"time": "20050907",
+"topics": [
+"import licence",
+"Spain",
+"agricultural product",
+"quantitative restriction",
+"export licence",
+"music"
+]
+},
+{
+"actors": {"fn/Speaker": [
+"dbp:Mac_OS_X_Lion",
+"dbp:Apple_Inc."
+]},
+"classes": {"fn": ["Statement"]},
+"climax": 54,
+"event": "ev49",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt#ev49",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"6",
+"13"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "1",
+"size": "6.75",
+"time": "20110607",
+"topics": [
+"Spain",
+"tariff quota",
+"import licence",
+"export licence",
+"agricultural product",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:Apple_Inc."],
+"fn/Old": ["dbp:Walmart"],
+"pb/AM": ["dbp:United_States"]
+},
+"classes": {"fn": [
+"Take_place_of",
+"Replacing"
+]},
+"climax": 54,
+"event": "ev9",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/103623_Apples_iTunes_replaces.txt#ev9",
+"labels": ["sustituir"],
+"mentions": [{
+"char": [
+"16",
+"25"
+],
+"sentence": ["1"],
+"terms": ["t4"],
+"tokens": ["w4"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/103623_Apples_iTunes_replaces.txt"]
+}],
+"prefLabel": ["sustituir"],
+"sentence": "1",
+"size": "6.75",
+"time": "20080409",
+"topics": [
+"quantitative restriction",
+"import licence",
+"export licence",
+"storage",
+"Spain",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Arguer": ["dbp:Apple_Inc."],
+"fn/Content": ["dbp:Apple_TV"]
+},
+"classes": {"fn": [
+"Reasoning",
+"Evidence"
+]},
+"climax": 54,
+"event": "ev20",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt#ev20",
+"labels": ["presentar"],
+"mentions": [{
+"char": [
+"6",
+"14"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt"]
+}],
+"prefLabel": ["presentar"],
+"sentence": "1",
+"size": "6.75",
+"time": "20070110",
+"topics": [
+"export licence",
+"cassava",
+"agricultural product",
+"import licence",
+"Spain",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:Apple_Inc."],
+"fn/Value": ["ne:otro_evento_especial"]
+},
+"classes": {"fn": ["Purpose"]},
+"climax": 54,
+"event": "ev12",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23468_Apple_plans_another_special_event.txt#ev12",
+"labels": ["planear"],
+"mentions": [{
+"char": [
+"6",
+"12"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23468_Apple_plans_another_special_event.txt"]
+}],
+"prefLabel": ["planear"],
+"sentence": "1",
+"size": "6.75",
+"time": "20051004",
+"topics": [
+"cassava",
+"quantitative restriction",
+"agricultural product",
+"export licence",
+"Spain",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:Apple_Inc."],
+"fn/Topic": ["dbp:Adobe_Integrated_Runtime"]
+},
+"classes": {"fn": [
+"Becoming_aware",
+"Achieving_first"
+]},
+"climax": 54,
+"event": "ev41",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt#ev41",
+"labels": ["descubrir"],
+"mentions": [{
+"char": [
+"6",
+"14"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"]
+}],
+"prefLabel": ["descubrir"],
+"sentence": "1",
+"size": "6.75",
+"time": "20101023",
+"topics": [
+"Spain",
+"quantitative restriction",
+"import licence",
+"air transport",
+"export licence",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": [
+"dbp:OS_X",
+"dbp:Intel"
+]
+},
+"classes": {"fn": ["Reveal_secret"]},
+"climax": 54,
+"event": "ev13",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/30414_Apple_unveils_new_Intel-based_Mac.txt#ev13",
+"labels": ["desvelar"],
+"mentions": [{
+"char": [
+"6",
+"13"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/30414_Apple_unveils_new_Intel-based_Mac.txt"]
+}],
+"prefLabel": ["desvelar"],
+"sentence": "1",
+"size": "6.75",
+"time": "20060111",
+"topics": [
+"import licence",
+"cassava",
+"frozen product",
+"export licence",
+"Thailand",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:una_nueva_gama_de_ipod"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 54,
+"event": "ev22",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/78899_Apple_announces_new_iPod_range.txt#ev22",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"6",
+"13"
+],
+"sentence": ["1"],
+"terms": ["t2"],
+"tokens": ["w2"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/78899_Apple_announces_new_iPod_range.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "1",
+"size": "6.75",
+"time": "20070905",
+"topics": [
+"Spain",
+"quantitative restriction",
+"export licence",
+"cassava",
+"import licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Agent": ["ne:la_disputa_sobre_la_marca"],
+"fn/Cognizer": [
+"dbp:Apple_Inc.",
+"dbp:Apple_Corps"
+]
+},
+"classes": {"fn": [
+"Resolve_problem",
+"Deciding",
+"Coming_to_believe",
+"Choosing",
+"Contingency"
+]},
+"climax": 54,
+"event": "ev19",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/60083_Apple_Inc.,_Apple_Corps_resolve_trademark_dispute.txt#ev19",
+"labels": ["resolver"],
+"mentions": [{
+"char": [
+"25",
+"34"
+],
+"sentence": ["1"],
+"terms": ["t6"],
+"tokens": ["w6"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/60083_Apple_Inc.,_Apple_Corps_resolve_trademark_dispute.txt"]
+}],
+"prefLabel": ["resolver"],
+"sentence": "1",
+"size": "6.75",
+"time": "20070206",
+"topics": [
+"export licence",
+"Spain",
+"fallow",
+"raw material",
+"land use",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["ne:jobs"],
+"fn/Topic": [
+"dbp:Adobe_Integrated_Runtime",
+"dbp:GarageBand",
+"dbp:Apple_Inc.",
+"ne:que_el_lanzamiento_de_%22_lion_%22_en_el_os_x_%2c_previsto_para_el_pr%e2%88%9a%e2%89%a5ximo_verano_%2c_incluir%e2%88%9a%c2%b0_m%e2%88%9a%c2%b0s_soporte_para_la_tecnolog%e2%88%9a%e2%89%a0a_multit%e2%88%9a%c2%b0ctil_y_una_versi%e2%88%9a%e2%89%a5n_de_escritorio_del_app_store_de_la_compa%e2%88%9a%c2%b1%e2%88%9a%e2%89%a0a",
+"dbp:FaceTime",
+"dbp:Mac_OS_X_Lion"
+],
+"pb/AM": [
+"dbp:Macintosh",
+"ne:la_funcionalidad_de_ios"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 26,
+"event": "ev45",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt#ev45",
+"labels": ["anunciar"],
+"mentions": [
+{
+"char": [
+"1526",
+"1533"
+],
+"sentence": ["9"],
+"terms": ["t304"],
+"tokens": ["w304"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"]
+},
+{
+"char": [
+"1196",
+"1203"
+],
+"sentence": ["8"],
+"terms": ["t237"],
+"tokens": ["w237"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"]
+},
+{
+"char": [
+"2104",
+"2111"
+],
+"sentence": ["13"],
+"terms": ["t403"],
+"tokens": ["w403"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"]
+},
+{
+"char": [
+"810",
+"819"
+],
+"sentence": ["6"],
+"terms": ["t163"],
+"tokens": ["w163"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"]
+}
+],
+"prefLabel": ["anunciar"],
+"sentence": "6",
+"size": "3.25",
+"time": "20101023",
+"topics": [
+"quantitative restriction",
+"air transport",
+"export licence",
+"import licence",
+"Spain",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Theme": ["ne:jobs"],
+"pb/A0": [
+"ne:el_mundo",
+"dbp:Apple_Inc.",
+"dbp:Captain_America"
+],
+"pb/A1": [
+"ne:a_un_ser_humano_extraordinario",
+"dbp:Chief_executive_officer",
+"ne:a_un_genio_visionario_y_creativo",
+"ne:a_un_amigo_muy_querido_y_a_un_mentor_que_nos_ha_inspirado"
+]
+},
+"classes": {
+"eso": ["Leaving"],
+"fn": ["Departing"]
+},
+"climax": 23,
+"event": "ev14",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt#ev14",
+"labels": [
+"perder",
+"abandonar"
+],
+"mentions": [
+{
+"char": [
+"1447",
+"1454"
+],
+"sentence": ["14"],
+"terms": ["t297"],
+"tokens": ["w297"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt"]
+},
+{
+"char": [
+"253",
+"261"
+],
+"sentence": ["5"],
+"terms": ["t54"],
+"tokens": ["w54"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt"]
+},
+{
+"char": [
+"1326",
+"1333"
+],
+"sentence": ["13"],
+"terms": ["t274"],
+"tokens": ["w274"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt"]
+},
+{
+"char": [
+"1271",
+"1278"
+],
+"sentence": ["13"],
+"terms": ["t263"],
+"tokens": ["w263"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt"]
+}
+],
+"prefLabel": ["perder"],
+"sentence": "5",
+"size": "2.875",
+"time": "19550101",
+"topics": [
+"import licence",
+"agricultural product",
+"export licence",
+"Spain",
+"quantitative restriction",
+"frozen product"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:el_tel%e2%88%9a%c2%a9fono"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 20,
+"event": "ev22",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt#ev22",
+"labels": ["afirmar"],
+"mentions": [
+{
+"char": [
+"174",
+"180"
+],
+"sentence": ["4"],
+"terms": ["t36"],
+"tokens": ["w36"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt"]
+},
+{
+"char": [
+"867",
+"873"
+],
+"sentence": ["8"],
+"terms": ["t159"],
+"tokens": ["w159"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt"]
+}
+],
+"prefLabel": ["afirmar"],
+"sentence": "4",
+"size": "2.5",
+"time": "20070110",
+"topics": [
+"export licence",
+"cassava",
+"agricultural product",
+"import licence",
+"Spain",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"eso/possession-owner_1": ["dbp:Apple_Inc."],
+"fn/Goods": ["ne:m%e2%88%9a%e2%88%absica"]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 20,
+"event": "ev8",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/40203_Apple_Corps_loses_court_case_against_Apple_Computer.txt#ev8",
+"labels": ["vender"],
+"mentions": [
+{
+"char": [
+"342",
+"350"
+],
+"sentence": ["5"],
+"terms": ["t64"],
+"tokens": ["w64"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/40203_Apple_Corps_loses_court_case_against_Apple_Computer.txt"]
+},
+{
+"char": [
+"523",
+"528"
+],
+"sentence": ["6"],
+"terms": ["t99"],
+"tokens": ["w99"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/40203_Apple_Corps_loses_court_case_against_Apple_Computer.txt"]
+}
+],
+"prefLabel": ["vender"],
+"sentence": "5",
+"size": "2.5",
+"time": "19910101",
+"topics": [
+"import licence",
+"Spain",
+"cassava",
+"agricultural product",
+"quantitative restriction",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Cognizer": [
+"dbp:Steve_Jobs",
+"ne:conference_%28_wwdc_%29"
+],
+"pb/AM": ["dbp:Apple_Inc."]
+},
+"classes": {"fn": [
+"Achieving_first",
+"Becoming_aware"
+]},
+"climax": 18,
+"event": "ev47",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/190356_Apple_unveils_iPhone_4,_iOS_4_at_Worldwide_Developers_Conference_2010.txt#ev47",
+"labels": ["descubrir"],
+"mentions": [{
+"char": [
+"151",
+"160"
+],
+"sentence": ["3"],
+"terms": ["t34"],
+"tokens": ["w34"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/190356_Apple_unveils_iPhone_4,_iOS_4_at_Worldwide_Developers_Conference_2010.txt"]
+}],
+"prefLabel": ["descubrir"],
+"sentence": "3",
+"size": "2.25",
+"time": "20100608",
+"topics": [
+"cassava",
+"Spain",
+"quantitative restriction",
+"export licence",
+"agricultural product",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:otro_evento_especial_que_se_celebrar%e2%88%9a%c2%b0_el_12_de_octubre"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 18,
+"event": "ev13",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23468_Apple_plans_another_special_event.txt#ev13",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"156",
+"165"
+],
+"sentence": ["3"],
+"terms": ["t30"],
+"tokens": ["w30"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23468_Apple_plans_another_special_event.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.25",
+"time": "20051012",
+"topics": [
+"agricultural product",
+"quantitative restriction",
+"Spain",
+"export licence",
+"cassava",
+"import licence"
+]
+},
+{
+"actors": {"fn/Speaker": [
+"dbp:Steve_Jobs",
+"dbp:Apple_Inc."
+]},
+"classes": {"fn": ["Statement"]},
+"climax": 18,
+"event": "ev36",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/238039_Apple_Inc._CEO_Steve_Jobs_on_medical_leave.txt#ev36",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"124",
+"131"
+],
+"sentence": ["3"],
+"terms": ["t27"],
+"tokens": ["w27"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/238039_Apple_Inc._CEO_Steve_Jobs_on_medical_leave.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.25",
+"time": "20110117",
+"topics": [
+"import licence",
+"export policy",
+"export licence",
+"goatmeat",
+"cassava",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Chosen": ["dbp:Chief_executive_officer"],
+"fn/Cognizer": [
+"dbp:Captain_America",
+"dbp:Apple_Inc."
+]
+},
+"classes": {"fn": ["Choosing"]},
+"climax": 18,
+"event": "ev32",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/279494_Apple_executive_Steve_Jobs_resigns.txt#ev32",
+"labels": ["optar"],
+"mentions": [{
+"char": [
+"101",
+"107"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/279494_Apple_executive_Steve_Jobs_resigns.txt"]
+}],
+"prefLabel": ["optar"],
+"sentence": "3",
+"size": "2.25",
+"time": "20110825",
+"topics": [
+"Spain",
+"land use",
+"export licence",
+"fallow",
+"raw material",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": ["dbp:Intel"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 18,
+"event": "ev14",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/30414_Apple_unveils_new_Intel-based_Mac.txt#ev14",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"97",
+"104"
+],
+"sentence": ["3"],
+"terms": ["t20"],
+"tokens": ["w20"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/30414_Apple_unveils_new_Intel-based_Mac.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.25",
+"time": "20060110",
+"topics": [
+"agricultural product",
+"export licence",
+"cassava",
+"Thailand",
+"frozen product",
+"import licence"
+]
+},
+{
+"actors": {
+"eso/translocation-goal": ["ne:en_el_itunes_music_store"],
+"eso/translocation-theme": ["dbp:Apple_Inc."],
+"fn/Theme": ["ne:un_ipod_capaz_de_mostrar_v%e2%88%9a%e2%89%a0deo_%2c_y_una_nueva_secci%e2%88%9a%e2%89%a5n_de_v%e2%88%9a%e2%89%a0deo"]
+},
+"classes": {
+"eso": ["Placing"],
+"fn": ["Placing"]
+},
+"climax": 18,
+"event": "ev9",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23973_Apple_introduces_new_iPod_with_video_playback_capabilities.txt#ev9",
+"labels": ["introducir"],
+"mentions": [{
+"char": [
+"98",
+"107"
+],
+"sentence": ["3"],
+"terms": ["t19"],
+"tokens": ["w19"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23973_Apple_introduces_new_iPod_with_video_playback_capabilities.txt"]
+}],
+"prefLabel": ["introducir"],
+"sentence": "3",
+"size": "2.25",
+"time": "20051012",
+"topics": [
+"quantitative restriction",
+"cassava",
+"Spain",
+"export licence",
+"agricultural product",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": [
+"dbp:The_Beatles",
+"dbp:Apple_Corps"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 18,
+"event": "ev20",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/60083_Apple_Inc.,_Apple_Corps_resolve_trademark_dispute.txt#ev20",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"104",
+"111"
+],
+"sentence": ["3"],
+"terms": ["t22"],
+"tokens": ["w22"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/60083_Apple_Inc.,_Apple_Corps_resolve_trademark_dispute.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.25",
+"time": "20070205",
+"topics": [
+"land use",
+"import licence",
+"Spain",
+"raw material",
+"export licence",
+"fallow"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:su_%e2%88%9a%e2%88%abltima_versi%e2%88%9a%e2%89%a5n_de_su_popular_iphone"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 18,
+"event": "ev15",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/127576_Apple_launches_new,_faster_iPhone.txt#ev15",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"95",
+"104"
+],
+"sentence": ["3"],
+"terms": ["t22"],
+"tokens": ["w22"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/127576_Apple_launches_new,_faster_iPhone.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.25",
+"time": "20090609",
+"topics": [
+"software",
+"quantitative restriction",
+"import licence",
+"Spain",
+"cassava",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:que_regalar%e2%88%9a%c2%b0_una_carcasa_a_los_propietarios_de_su_nuevo_iphone_4_por_la_creciente_preocupaci%e2%88%9a%e2%89%a5n_surgida_en_torno_a_la_ubicaci%e2%88%9a%e2%89%a5n_de_la_antena_del_dispositivo"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 18,
+"event": "ev50",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/195869_Apple_to_give_free_cases,_refunds_to_iPhone_4_owners.txt#ev50",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"103",
+"110"
+],
+"sentence": ["3"],
+"terms": ["t20"],
+"tokens": ["w20"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/195869_Apple_to_give_free_cases,_refunds_to_iPhone_4_owners.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "2.25",
+"time": "20100716",
+"topics": [
+"tariff quota",
+"quantitative restriction",
+"cassava",
+"Spain",
+"import licence",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:Apple_Inc."],
+"fn/Phenomenon": [
+"ne:nuevas_prestaciones",
+"dbp:Mac_OS_X_Lion"
+]
+},
+"classes": {"fn": [
+"Achieving_first",
+"Becoming_aware"
+]},
+"climax": 13,
+"event": "ev50",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt#ev50",
+"labels": ["descubrir"],
+"mentions": [{
+"char": [
+"317",
+"326"
+],
+"sentence": ["4"],
+"terms": ["t64"],
+"tokens": ["w64"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt"]
+}],
+"prefLabel": ["descubrir"],
+"sentence": "4",
+"size": "1.625",
+"time": "20110607",
+"topics": [
+"tariff quota",
+"agricultural product",
+"import licence",
+"quantitative restriction",
+"Spain",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Topic": ["ne:que_el_iphone_es_un_%22_tel%e2%88%9a%c2%a9fono_m%e2%88%9a%e2%89%a5vil_revolucionario_%22"],
+"pb/AM": ["dbp:Apple_Inc."]
+},
+"classes": {"fn": [
+"Certainty",
+"Awareness"
+]},
+"climax": 13,
+"event": "ev21",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt#ev21",
+"labels": ["considerar"],
+"mentions": [{
+"char": [
+"209",
+"218"
+],
+"sentence": ["4"],
+"terms": ["t44"],
+"tokens": ["w44"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt"]
+}],
+"prefLabel": ["considerar"],
+"sentence": "4",
+"size": "1.625",
+"time": "20070110",
+"topics": [
+"Spain",
+"import licence",
+"cassava",
+"quantitative restriction",
+"export licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/State_of_affairs": ["ne:utilizar_la_marca_%22_apple_%22_en_algunos_usos_del_negocio_musical"],
+"pb/A2": ["dbp:Apple_Inc."]
+},
+"classes": {"fn": [
+"Prohibiting",
+"Deny_permission"
+]},
+"climax": 13,
+"event": "ev41",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt#ev41",
+"labels": ["prohibir"],
+"mentions": [{
+"char": [
+"491",
+"499"
+],
+"sentence": ["4"],
+"terms": ["t91"],
+"tokens": ["w91"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt"]
+}],
+"prefLabel": ["prohibir"],
+"sentence": "4",
+"size": "1.625",
+"time": "19910101",
+"topics": [
+"raw material",
+"Spain",
+"information network",
+"import licence",
+"music",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Message": ["ne:el_itunes_music_store_de_apple_computer"],
+"fn/Speaker": ["dbp:Apple_Corps"],
+"fn/Topic": [
+"ne:ambas_compa%e2%88%9a%c2%b1%e2%88%9a%e2%89%a0as",
+"dbp:Apple_Inc.",
+"ne:utilizar_la_marca_%22_apple_%22_en_algunos_usos_del_negocio_musical"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 13,
+"event": "ev39",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt#ev39",
+"labels": ["afirmar"],
+"mentions": [{
+"char": [
+"377",
+"383"
+],
+"sentence": ["4"],
+"terms": ["t70"],
+"tokens": ["w70"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt"]
+}],
+"prefLabel": ["afirmar"],
+"sentence": "4",
+"size": "1.625",
+"time": "19910101",
+"topics": [
+"import licence",
+"music",
+"Spain",
+"information network",
+"raw material",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"pb/AM": ["ne:el_cambio_de_pol%e2%88%9a%e2%89%a0tica"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 13,
+"event": "ev24",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt#ev24",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"268",
+"277"
+],
+"sentence": ["4"],
+"terms": ["t52"],
+"tokens": ["w52"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "4",
+"size": "1.625",
+"time": "20080109",
+"topics": [
+"quantitative restriction",
+"export licence",
+"goatmeat",
+"import licence",
+"raw material",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Cognizer": ["dbp:Steve_Jobs"],
+"fn/Topic": ["ne:que_esto_puede_tener_un_gran_impacto_en_la_industria_cinematogr%e2%88%9a%c2%b0fica_%2c_similar_al_impacto_que_tuvo_el_primer_ipod_en_la_industria_de_la_m%e2%88%9a%e2%88%absica"]
+},
+"classes": {"fn": [
+"Awareness",
+"Opinion"
+]},
+"climax": 13,
+"event": "ev20",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23973_Apple_introduces_new_iPod_with_video_playback_capabilities.txt#ev20",
+"labels": ["creer"],
+"mentions": [{
+"char": [
+"225",
+"229"
+],
+"sentence": ["4"],
+"terms": ["t46"],
+"tokens": ["w46"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23973_Apple_introduces_new_iPod_with_video_playback_capabilities.txt"]
+}],
+"prefLabel": ["creer"],
+"sentence": "4",
+"size": "1.625",
+"time": "20051012",
+"topics": [
+"quantitative restriction",
+"import licence",
+"cassava",
+"agricultural product",
+"export licence",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Steve_Jobs"],
+"fn/Topic": ["ne:el_producto"],
+"pb/AM": [
+"ne:la_velocidad",
+"ne:el_iphone"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 13,
+"event": "ev8",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/107785_Apple_launches_3G_iPhone.txt#ev8",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"183",
+"192"
+],
+"sentence": ["4"],
+"terms": ["t40"],
+"tokens": ["w40"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/107785_Apple_launches_3G_iPhone.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "4",
+"size": "1.625",
+"time": "20080609",
+"topics": [
+"frozen product",
+"cassava",
+"quantitative restriction",
+"export licence",
+"Spain",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Addressee": [
+"ne:que_a_las_personas_que_ya_hab%e2%88%9a%e2%89%a0an_comprado_una_carcasa_se_les_devolver%e2%88%9a%c2%b0_%e2%88%9a%e2%89%a0ntegramente_el_dinero_que_cuesta_el_accesorio",
+"dbp:Apple_Inc."
+],
+"fn/Speaker": ["ne:jobs"],
+"fn/Topic": [
+"ne:una_carcasa_gratuita",
+"ne:un_iphone_4"
+],
+"pb/AM": [
+"ne:la_reparaci%e2%88%9a%e2%89%a5n_del_hardware",
+"ne:los_dispositivos"
+]
+},
+"classes": {"fn": [
+"Telling",
+"Discussion",
+"Communication"
+]},
+"climax": 13,
+"event": "ev52",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/195869_Apple_to_give_free_cases,_refunds_to_iPhone_4_owners.txt#ev52",
+"labels": ["comunicar"],
+"mentions": [
+{
+"char": [
+"872",
+"880"
+],
+"sentence": ["7"],
+"terms": ["t157"],
+"tokens": ["w157"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/195869_Apple_to_give_free_cases,_refunds_to_iPhone_4_owners.txt"]
+},
+{
+"char": [
+"1280",
+"1288"
+],
+"sentence": ["10"],
+"terms": ["t234"],
+"tokens": ["w234"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/195869_Apple_to_give_free_cases,_refunds_to_iPhone_4_owners.txt"]
+}
+],
+"prefLabel": ["comunicar"],
+"sentence": "7",
+"size": "1.625",
+"time": "20100716",
+"topics": [
+"export licence",
+"Spain",
+"cassava",
+"tariff quota",
+"quantitative restriction",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Goods": [
+"dbp:Mac_OS_X_Lion",
+"ne:icloud_y_ios_5"
+],
+"pb/AM": ["dbp:Apple_Inc."]
+},
+"classes": {
+"eso": ["Selling"],
+"fn": ["Commerce_sell"]
+},
+"climax": 11,
+"event": "ev23",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt#ev23",
+"labels": ["poner"],
+"mentions": [
+{
+"char": [
+"1887",
+"1891"
+],
+"sentence": ["14"],
+"terms": ["t339"],
+"tokens": ["w339"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt"]
+},
+{
+"char": [
+"4294",
+"4301"
+],
+"sentence": ["31"],
+"terms": ["t778"],
+"tokens": ["w778"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt"]
+},
+{
+"char": [
+"955",
+"961"
+],
+"sentence": ["9"],
+"terms": ["t170"],
+"tokens": ["w170"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt"]
+}
+],
+"prefLabel": ["poner"],
+"sentence": "9",
+"size": "1.375",
+"time": "20110701",
+"topics": [
+"tariff quota",
+"quantitative restriction",
+"import licence",
+"Spain",
+"export licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"eso/possession-owner_2": [
+"dbp:Apple_Inc.",
+"ne:el_joven_fabricante_de_ordenadores"
+],
+"fn/Goods": ["ne:26%2c5_millones_de_d%e2%88%9a%e2%89%a5lares"]
+},
+"classes": {
+"eso": ["Paying"],
+"fn": ["Commerce_pay"]
+},
+"climax": 11,
+"event": "ev18",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt#ev18",
+"labels": ["pagar"],
+"mentions": [
+{
+"char": [
+"1086",
+"1091"
+],
+"sentence": ["9"],
+"terms": ["t199"],
+"tokens": ["w199"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt"]
+},
+{
+"char": [
+"1427",
+"1431"
+],
+"sentence": ["11"],
+"terms": ["t259"],
+"tokens": ["w259"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt"]
+}
+],
+"prefLabel": ["pagar"],
+"sentence": "9",
+"size": "1.375",
+"time": "19910101",
+"topics": [
+"Spain",
+"raw material",
+"import licence",
+"export licence",
+"information network",
+"music"
+]
+},
+{
+"actors": {
+"fn/Means": ["ne:el_a%e2%88%9a%c2%b1o_financiero"],
+"pb/AM": ["dbp:Apple_Inc."]
+},
+"classes": {"fn": [
+"Activity_start",
+"Setting_fire",
+"Process_start"
+]},
+"climax": 10,
+"event": "ev25",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58772_Apple_Inc._doubled_its_profits.txt#ev25",
+"labels": ["comenzar"],
+"mentions": [{
+"char": [
+"454",
+"463"
+],
+"sentence": ["5"],
+"terms": ["t82"],
+"tokens": ["w82"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58772_Apple_Inc._doubled_its_profits.txt"]
+}],
+"prefLabel": ["comenzar"],
+"sentence": "5",
+"size": "1.25",
+"time": "20070101",
+"topics": [
+"quantitative restriction",
+"export licence",
+"goatmeat",
+"Spain",
+"import licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Addressee": [
+"dbp:Email",
+"dbp:Mac_OS_X_Tiger",
+"dbp:Safari_(web_browser)"
+],
+"fn/Speaker": ["dbp:Apple_Inc."]
+},
+"classes": {"fn": [
+"Telling",
+"Statement"
+]},
+"climax": 10,
+"event": "ev39",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/9549_Reactions_to_Apple.txt#ev39",
+"labels": ["informar"],
+"mentions": [{
+"char": [
+"558",
+"565"
+],
+"sentence": ["5"],
+"terms": ["t108"],
+"tokens": ["w108"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/9549_Reactions_to_Apple.txt"]
+}],
+"prefLabel": ["informar"],
+"sentence": "5",
+"size": "1.25",
+"time": "20050507",
+"topics": [
+"goatmeat",
+"export licence",
+"quantitative restriction",
+"import licence",
+"Spain",
+"tariff quota"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:Apple_Inc."],
+"fn/Topic": ["ne:que_el_iphone_3g_ofrecer%e2%88%9a%c2%b0_acceso_a_internet_al_doble_de_la_velocidad_de_acceso_que_ofrec%e2%88%9a%e2%89%a0an_las_versiones_anteriores"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 10,
+"event": "ev10",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/107785_Apple_launches_3G_iPhone.txt#ev10",
+"labels": ["afirmar"],
+"mentions": [{
+"char": [
+"432",
+"438"
+],
+"sentence": ["5"],
+"terms": ["t85"],
+"tokens": ["w85"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/107785_Apple_launches_3G_iPhone.txt"]
+}],
+"prefLabel": ["afirmar"],
+"sentence": "5",
+"size": "1.25",
+"time": "20080609",
+"topics": [
+"frozen product",
+"Spain",
+"quantitative restriction",
+"import licence",
+"cassava",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Event": ["ne:mucho_tiempo"],
+"pb/AM": ["dbp:Apple_Inc."]
+},
+"classes": {"fn": ["Desiring"]},
+"climax": 10,
+"event": "ev24",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/191597_Apple_swamped_by_iPhone_4_pre-orders.txt#ev24",
+"labels": ["esperar"],
+"mentions": [{
+"char": [
+"394",
+"401"
+],
+"sentence": ["5"],
+"terms": ["t71"],
+"tokens": ["w71"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/191597_Apple_swamped_by_iPhone_4_pre-orders.txt"]
+}],
+"prefLabel": ["esperar"],
+"sentence": "5",
+"size": "1.25",
+"time": "20100616",
+"topics": [
+"Spain",
+"quantitative restriction",
+"export licence",
+"cassava",
+"import licence",
+"goatmeat"
+]
+},
+{
+"actors": {"fn/Event": ["dbp:Apple_Inc."]},
+"classes": {"fn": ["Desiring"]},
+"climax": 10,
+"event": "ev43",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt#ev43",
+"labels": ["desear"],
+"mentions": [{
+"char": [
+"642",
+"647"
+],
+"sentence": ["5"],
+"terms": ["t129"],
+"tokens": ["w129"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"]
+}],
+"prefLabel": ["desear"],
+"sentence": "5",
+"size": "1.25",
+"time": "20101023",
+"topics": [
+"quantitative restriction",
+"export licence",
+"air transport",
+"import licence",
+"Spain",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Topic": ["ne:que_la_compa%e2%88%9a%c2%b1%e2%88%9a%e2%89%a0a_%22_se_ha_inspirado_en_el_trabajo"],
+"pb/AM": ["dbp:Apple_Inc."]
+},
+"classes": {"fn": [
+"Statement",
+"Encoding"
+]},
+"climax": 10,
+"event": "ev42",
+"group": "068:[\"fallecer\"]",
+"groupName": "[\"fallecer\"]",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt#ev42",
+"labels": ["expresar"],
+"mentions": [{
+"char": [
+"547",
+"554"
+],
+"sentence": ["5"],
+"terms": ["t107"],
+"tokens": ["w107"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"]
+}],
+"prefLabel": ["expresar"],
+"sentence": "5",
+"size": "1.25",
+"time": "20110101",
+"topics": [
+"quantitative restriction",
+"import licence",
+"Spain",
+"export licence",
+"air transport",
+"cassava"
+]
+},
+{
+"actors": {"fn/Theme": ["ne:ambas_compa%e2%88%9a%c2%b1%e2%88%9a%e2%89%a0as"]},
+"classes": {"fn": [
+"Avoiding",
+"Cause_to_continue",
+"Storing",
+"Activity_ongoing"
+]},
+"climax": 18,
+"event": "ev32",
+"group": "018:[\"mantener\"]",
+"groupName": "[\"mantener\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt#ev32",
+"labels": ["mantener"],
+"mentions": [{
+"char": [
+"319",
+"330"
+],
+"sentence": ["3"],
+"terms": ["t61"],
+"tokens": ["w61"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt"]
+}],
+"prefLabel": ["mantener"],
+"sentence": "3",
+"size": "4.5",
+"time": "20060101",
+"topics": [
+"Spain",
+"export licence",
+"import licence",
+"raw material",
+"information network",
+"music"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["ne:jobs"],
+"fn/Topic": [
+"ne:que_%22_siempre_he_dicho_que_%2c_si_llegaba_el_d%e2%88%9a%e2%89%a0a_en_que_no_pod%e2%88%9a%e2%89%a0a_seguir_asumiendo_mis_responsabilidades_ni_expectativas_como_ceo_de_apple_%2c_yo_ser%e2%88%9a%e2%89%a0a_el_primero_en_comunic%e2%88%9a%c2%b0roslo",
+"ne:su_deseo_de_permanecer_como_presidente_de_la_junta"
+]
+},
+"classes": {"fn": [
+"Statement",
+"Encoding"
+]},
+"climax": 18,
+"event": "ev33",
+"group": "018:[\"expresar\"]",
+"groupName": "[\"expresar\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/279494_Apple_executive_Steve_Jobs_resigns.txt#ev33",
+"labels": ["expresar"],
+"mentions": [
+{
+"char": [
+"315",
+"322"
+],
+"sentence": ["5"],
+"terms": ["t66"],
+"tokens": ["w66"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/279494_Apple_executive_Steve_Jobs_resigns.txt"]
+},
+{
+"char": [
+"567",
+"576"
+],
+"sentence": ["7"],
+"terms": ["t114"],
+"tokens": ["w114"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/279494_Apple_executive_Steve_Jobs_resigns.txt"]
+}
+],
+"prefLabel": ["expresar"],
+"sentence": "5",
+"size": "4.5",
+"time": "20110825",
+"topics": [
+"raw material",
+"land use",
+"export licence",
+"fallow",
+"import licence",
+"Spain"
+]
+},
+{
+"actors": {"fn/Means": ["dbp:Intel"]},
+"classes": {"fn": [
+"Intentionally_affect",
+"Using"
+]},
+"climax": 18,
+"event": "ev12",
+"group": "018:[\"utilizar\"]",
+"groupName": "[\"utilizar\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/30414_Apple_unveils_new_Intel-based_Mac.txt#ev12",
+"labels": ["utilizar"],
+"mentions": [{
+"char": [
+"144",
+"154"
+],
+"sentence": ["3"],
+"terms": ["t27"],
+"tokens": ["w27"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/30414_Apple_unveils_new_Intel-based_Mac.txt"]
+}],
+"prefLabel": ["utilizar"],
+"sentence": "3",
+"size": "4.5",
+"time": "20060110",
+"topics": [
+"import licence",
+"agricultural product",
+"export licence",
+"cassava",
+"Thailand",
+"frozen product"
+]
+},
+{
+"actors": {
+"fn/Message": [
+"dbp:IBM",
+"dbp:Intel"
+],
+"fn/Speaker": ["dbp:Captain_America"],
+"fn/Topic": [
+"dbp:Mac_OS_X_Leopard",
+"dbp:Microsoft_Windows",
+"dbp:QuickTime",
+"ne:que_la_suscripci%e2%88%9a%e2%89%a5n_autom%e2%88%9a%c2%b0tica_a_los_podcasts_se_integrar%e2%88%9a%e2%89%a0a_perfectamente_en_itunes_y_ipod",
+"dbp:Motorola",
+"dbp:Macintosh"
+],
+"pb/AM": ["ne:un_giro_sorprendente"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 13,
+"event": "ev47",
+"group": "018:[\"utilizar\"]",
+"groupName": "[\"utilizar\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/10450_Apple_Computer_CEO_Steve_Jobs_gives_opening_keynote_to_WWDC_2005.txt#ev47",
+"labels": ["anunciar"],
+"mentions": [
+{
+"char": [
+"1766",
+"1773"
+],
+"sentence": ["19"],
+"terms": ["t331"],
+"tokens": ["w331"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/10450_Apple_Computer_CEO_Steve_Jobs_gives_opening_keynote_to_WWDC_2005.txt"]
+},
+{
+"char": [
+"1242",
+"1249"
+],
+"sentence": ["14"],
+"terms": ["t238"],
+"tokens": ["w238"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/10450_Apple_Computer_CEO_Steve_Jobs_gives_opening_keynote_to_WWDC_2005.txt"]
+},
+{
+"char": [
+"1604",
+"1611"
+],
+"sentence": ["18"],
+"terms": ["t299"],
+"tokens": ["w299"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/10450_Apple_Computer_CEO_Steve_Jobs_gives_opening_keynote_to_WWDC_2005.txt"]
+},
+{
+"char": [
+"1350",
+"1357"
+],
+"sentence": ["15"],
+"terms": ["t255"],
+"tokens": ["w255"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/10450_Apple_Computer_CEO_Steve_Jobs_gives_opening_keynote_to_WWDC_2005.txt"]
+}
+],
+"prefLabel": ["anunciar"],
+"sentence": "14",
+"size": "1.625",
+"time": "20070101",
+"topics": [
+"import licence",
+"tariff quota",
+"export licence",
+"Spain",
+"goatmeat",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:The_Beatles"],
+"fn/Place": ["dbp:Apple_Corps"]
+},
+"classes": {"fn": [
+"Resolve_problem",
+"Choosing",
+"Contingency",
+"Deciding",
+"Coming_to_believe"
+]},
+"climax": 18,
+"event": "ev21",
+"group": "018:[\"resolver\"]",
+"groupName": "[\"resolver\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/60083_Apple_Inc.,_Apple_Corps_resolve_trademark_dispute.txt#ev21",
+"labels": ["resolver"],
+"mentions": [{
+"char": [
+"119",
+"127"
+],
+"sentence": ["3"],
+"terms": ["t25"],
+"tokens": ["w25"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/60083_Apple_Inc.,_Apple_Corps_resolve_trademark_dispute.txt"]
+}],
+"prefLabel": ["resolver"],
+"sentence": "3",
+"size": "4.5",
+"time": "20070205",
+"topics": [
+"land use",
+"raw material",
+"import licence",
+"fallow",
+"export licence",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Activity": ["dbp:ITunes"],
+"fn/Agent": ["dbp:Apple_Corps"]
+},
+"classes": {"fn": ["Activity_ongoing"]},
+"climax": 13,
+"event": "ev15",
+"group": "018:[\"resolver\"]",
+"groupName": "[\"resolver\"]",
+"groupScore": "018",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/40203_Apple_Corps_loses_court_case_against_Apple_Computer.txt#ev15",
+"labels": ["sostener"],
+"mentions": [{
+"char": [
+"191",
+"199"
+],
+"sentence": ["4"],
+"terms": ["t36"],
+"tokens": ["w36"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/40203_Apple_Corps_loses_court_case_against_Apple_Computer.txt"]
+}],
+"prefLabel": ["sostener"],
+"sentence": "4",
+"size": "1.625",
+"time": "19910101",
+"topics": [
+"quantitative restriction",
+"agricultural product",
+"import licence",
+"Spain",
+"export licence",
+"cassava"
+]
+},
+{
+"actors": {"fn/Means": ["ne:utilizar_la_marca_%22_apple_%22_en_algunos_usos_del_negocio_musical"]},
+"classes": {"fn": [
+"Intentionally_affect",
+"Using"
+]},
+"climax": 13,
+"event": "ev33",
+"group": "013:[\"utilizar\"]",
+"groupName": "[\"utilizar\"]",
+"groupScore": "013",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt#ev33",
+"labels": ["utilizar"],
+"mentions": [{
+"char": [
+"517",
+"525"
+],
+"sentence": ["4"],
+"terms": ["t95"],
+"tokens": ["w95"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt"]
+}],
+"prefLabel": ["utilizar"],
+"sentence": "4",
+"size": "3.25",
+"time": "19910101",
+"topics": [
+"export licence",
+"import licence",
+"information network",
+"Spain",
+"music",
+"raw material"
+]
+},
+{
+"actors": {
+"fn/Addressee": [
+"dbp:Chief_executive_officer",
+"ne:que_una_persona_pr%e2%88%9a%e2%89%a5xima_al_entorno_de_jobs_dijo_que_la_salud_de_jobs_sufre_%22_altibajos_%22_debido_a_los_problemas_de_su_sistema_inmunitario_%2c_habituales_en_personas_que_han_sido_sometidas_a_trasplantes_de_h%e2%88%9a%e2%89%a0gado"
+],
+"fn/Speaker": ["dbp:The_New_York_Times"]
+},
+"classes": {"fn": [
+"Statement",
+"Telling"
+]},
+"climax": 13,
+"event": "ev39",
+"group": "013:[\"informar\"]",
+"groupName": "[\"informar\"]",
+"groupScore": "013",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/238039_Apple_Inc._CEO_Steve_Jobs_on_medical_leave.txt#ev39",
+"labels": ["informar"],
+"mentions": [
+{
+"char": [
+"878",
+"885"
+],
+"sentence": ["7"],
+"terms": ["t167"],
+"tokens": ["w167"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/238039_Apple_Inc._CEO_Steve_Jobs_on_medical_leave.txt"]
+},
+{
+"char": [
+"1156",
+"1165"
+],
+"sentence": ["9"],
+"terms": ["t220"],
+"tokens": ["w220"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/238039_Apple_Inc._CEO_Steve_Jobs_on_medical_leave.txt"]
+}
+],
+"prefLabel": ["informar"],
+"sentence": "7",
+"size": "3.25",
+"time": "20040101",
+"topics": [
+"export policy",
+"goatmeat",
+"export licence",
+"import licence",
+"Spain",
+"cassava"
+]
+},
+{
+"actors": {"fn/Child": ["ne:el_cambio_de_pol%e2%88%9a%e2%89%a0tica"]},
+"classes": {"fn": [
+"Manufacturing",
+"Cause_to_start",
+"Birth",
+"Creating",
+"Behind_the_scenes",
+"Intentionally_create"
+]},
+"climax": 13,
+"event": "ev25",
+"group": "013:[\"producir\"]",
+"groupName": "[\"producir\"]",
+"groupScore": "013",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt#ev25",
+"labels": ["producir"],
+"mentions": [{
+"char": [
+"319",
+"328"
+],
+"sentence": ["4"],
+"terms": ["t61"],
+"tokens": ["w61"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt"]
+}],
+"prefLabel": ["producir"],
+"sentence": "4",
+"size": "3.25",
+"time": "20080109",
+"topics": [
+"quantitative restriction",
+"raw material",
+"export licence",
+"goatmeat",
+"Spain",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["ne:la_compa%e2%88%9a%c2%b1%e2%88%9a%e2%89%a0a"],
+"fn/Topic": ["ne:que_posee_la_marca_de_iphone_y_que_%2c_adem%e2%88%9a%c2%b0s_%2c_vende_dispositivos_con_la_misma_marca_a_trav%e2%88%9a%c2%a9s_de_una_de_sus_divisiones"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 10,
+"event": "ev20",
+"group": "010:[\"afirmar\"]",
+"groupName": "[\"afirmar\"]",
+"groupScore": "010",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58383_Cisco_sues_Apple_for_iPhone_trademark.txt#ev20",
+"labels": ["afirmar"],
+"mentions": [{
+"char": [
+"341",
+"347"
+],
+"sentence": ["5"],
+"terms": ["t68"],
+"tokens": ["w68"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58383_Cisco_sues_Apple_for_iPhone_trademark.txt"]
+}],
+"prefLabel": ["afirmar"],
+"sentence": "5",
+"size": "2.5",
+"time": "20070110",
+"topics": [
+"import licence",
+"goatmeat",
+"Spain",
+"quantitative restriction",
+"cassava",
+"export licence"
+]
+}
+],
+"headline": "corpus_apple",
+"mention_cnt": [77],
+"sources": [
+{
+"text": "Apple presenta iPhone SDK , anuncia próxima actualización 6 de marzo de 2008 En un evento multimedia celebrado en la sede central de Cupertino , Apple ha presentado el tan esperado Software Development Kit ( SDK ) para el iPhone así como el iTunes ^ App Store ^ y el iPhone Developer Program correspondientes . Gracias al SDK , otros fabricantes de software podrán crear aplicaciones para el iPhone y distribuirlas en los iTunes Apps Stores . Cualquier miembro del iPhone Developer Program puede añadir gratuitamente aplicaciones al Store y cuesta $ 99 participar en el programa . Los fabricantes de software podrán fijar el precio de las aplicaciones o lanzarlas al mercado gratuitamente . Todas las aplicaciones deben recibir la autorización de Apple antes de introducirlas en el Store . Están prohibidas algunas categorías como ^ porno ^ , usuarios de ancho de banda excesivo y todo contenido malintencionado o ilegal . Podrían permitirse aplicaciones VoIP solo a través de Wi-Fi . Las empresas pueden crear páginas privadas en el Store para distribuir aplicaciones internas . En el evento , varios fabricantes de software que habían podido acceder antes al SDK mostraron sus aplicaciones . Entre estas aplicaciones , destacaron Spore de EA , el sistema de mensajería instantánea AIM de AOL y un cliente de Epocrates , un servicio de referencias de medicamentos . La compañía también anunció la actualización del iPhone 2.0 que se lanzó como beta privada para fabricantes de software y su lanzamiento al mercado está previsto para junio . En la nueva versión , Apple se ha centrado en las prestaciones empresariales con el fin de competir con rivales como la BlackBerry de RIM y Windows Mobile de Microsoft . La actualización ofrece soporte para ActiveSync , para el cual Apple ha obtenido la licencia de la rival Microsoft , WPA2 y soporte de red privada virtual . Los usuarios del iPod Touch también podrán disponer de esta actualización por lo que Steve Jobs ha descrito como un ^ precio simbólico ^ , como ya ha hecho Apple anteriormente con las actualizaciones anteriores de iPod Touch y MacBook Wi-Fi .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/101354_Apple_releases_iPhone_SDK,_announces_upcoming_update.txt"
+},
+{
+"text": "iTunes de Apple sustituye a Wal-Mart como primer vendedor de música de EE.UU . 9 de abril de 2008 Cinco años después de su lanzamiento , el servicio de música descargable iTunes de Apple Computer superó en febrero a Wal-Mart y ha pasado a ser el principal vendedor de música de Estados Unidos , según las cifras publicadas el 3 de abril por NPD Group , firma dedicada a la investigación de mercado . Esta empresa afirmó que se habían descargado más de 4.000 millones de canciones del iTunes Store desde su lanzamiento en 2003 y que , desde febrero , iTunes Store representa el 70 % de todas las ventas de música digital . NPD señaló que , según esas cifras , iTunes Store supera a Best Buy , vendedor minorista de electrónica en Estados Unidos , segundo mayor vendedor de música en 2007 . El informe de 2 de abril de Ars Technica indica que una memo interna de Apple reflejaba que la compañía había superado a Wal-Mart como principal vendedor de música de EE.UU a principios de año . Sus pronósticos mostraban que , a partir de enero de 2008 , iTunes de Apple ocuparía el 19 % del mercado musical estadounidense y Wal-Mart , el 15 % , seguido por Best Buy con un 13 % . El grupo de los cinco principales vendedores lo completaban Amazon.com y Target con un 6 % cada uno .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/103623_Apples_iTunes_replaces.txt"
+},
+{
+"text": "Steve Jobs , CEO de Apple Computer , ofrece el discurso de apertura de la WWDC 2005 6 de junio de 2005 Steve Jobs , cofundador y CEO de Apple Computer , ofreció el lunes su discurso inaugural anual de la World Wide Developers Conference ( WWDC ) celebrada en el Moscone Center de San Francisco ( California ) . Anunció la integración perfecta del podcasting en iTunes , y , para sorpresa de muchos , que los futuros ordenadores Macintosh de Apple incorporarán procesadores Intel . Jobs dio la bienvenida a todos los presentes al evento y anunció que había 3.800 asistentes . En la mayor conferencia de desarrolladores de la última década , hay 500 ingenieros de Apple . Hay más de 500.000 desarrolladores de programas Apple ( apps ) . Jobs destacó que Apple cuenta con 109 establecimientos de venta minorista , con un millón de visitantes a la semana , y se generan más de 500 millones de dólares de ingresos al año . La cuota de mercado de Mac ha subido un 82 % desde hace nueve meses . Jobs habló posteriormente sobre el tan esperado anuncio : el Podcasting . Steve calificó al podcasting como ^ El Mundo de Wayne de la radio ^ . Dijo que era ^ lo más alucinante de la radio ^ , y , ^ emocionante ^ . Hay más de 8.000 podcasts . Steve Jobs anunció que la suscripción automática a los podcasts se integraría perfectamente en iTunes y iPod . También anunció que QuickTime 7 pronto estará disponible para Windows . Posteriormente , Jobs reveló que se han vendido dos millones de copias de Tiger en las seis semanas que ha estado en el mercado . Realizó una demostración con el Wikipedia Dashboard . Steve anunció que Mac OS X Leopard se lanzará al mercado en 2007 , al mismo tiempo que el Longhorn de Microsoft . Dando un giro sorprendente a su discurso , Steve Jobs anunció que los ordenadores Macintosh comenzarán a comercializarse con procesadores Intel , los mismos que se utilizan en las máquinas Windows , finalizando así los once años de relación empresarial con IBM y Motorola . Se dice que esto se debe a la creciente frustración de Apple por la incapacidad de IBM para ofrecer procesadores más rápidos y fríos , aunque conviene recalcar que Intel acaba de añadir la Gestión de Restricciones/Derechos Digitales ( DRM , por sus siglas en inglés ) a sus últimos procesadores . Este ' cambio ' , según dijo , se producirá a principios del año que viene . Jobs dijo que Mac OS X ha tenido ^ una doble vida secreta ^ y que OS X había ^ sido recopilado [ para procesadores Intel ] durante cinco años ^ . Habló sobre la facilidad que experimentarán los desarrolladores al transferir las apps de Mac a los procesadores Intel ( x86 ) . Los programas PowerPC actuales pueden utilizarse en procesadores Intel gracias a una nueva tecnología de Apple . Informó que Apple se ^ está preparando ^ para la transición de PowerPC a Intel .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/10450_Apple_Computer_CEO_Steve_Jobs_gives_opening_keynote_to_WWDC_2005.txt"
+},
+{
+"text": "Apple lanza el iPhone de 3G 9 de junio de 2008 En el día de hoy , Apple Computer ha lanzado una versión de 3G de su dispositivo iPhone . Steve Jobs , Director Ejecutivo de Apple , ha anunciado el producto en una conferencia de desarrolladores en la que ha promocionado el iPhone diciendo que ^ tan solo un año después de lanzar el iPhone , estamos presentando el nuevo iPhone 3G que duplica la velocidad a mitad de precio ^ . Apple afirma que el iPhone 3G ofrecerá acceso a internet al doble de la velocidad de acceso que ofrecían las versiones anteriores . Además , en Estados Unidos se ha bajado el precio del iPhone a $ 199 y , en otros países , los precios serán iguales o inferiores . Los fans de Apple han especulado durante varios meses sobre la presentación de un iPhone de 3G .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/107785_Apple_launches_3G_iPhone.txt"
+},
+{
+"text": "Apple lanza el nuevo iPhone más rápido 9 de junio de 2009 En el día de hoy , Apple Computer ha anunciado su última versión de su popular iPhone , el iPhone 3G S. El nuevo hardware , que se ha presentado en la Worldwide Developers Conference que celebra anualmente la compañía , ha atraído por igual a los medios de comunicación y a los propietarios de iPhone . Entre las nuevas prestaciones del iPhone , destacan una cámara actualizada , que también permite grabar vídeo y sonido , y ^ control de voz ^ , que permite controlar con la voz la mayoría de prestaciones del iPhone . El nuevo teléfono también vendrá precargado con el nuevo software iPhone 3.0 , que estará disponible el 17 de junio , dos días antes del lanzamiento del teléfono . Además del nuevo hardware de iPhone , Apple también mostró algunas prestaciones de su nuevo sistema operativo de escritorio , Snow Leopard , y presentó el nuevo buscador web Safari 4.0 . El iPhone 3G S estará disponible en dos modelos , de 16 GB y 32 GB , por 199 dólares y 299 dólares , respectivamente .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/127576_Apple_launches_new,_faster_iPhone.txt"
+},
+{
+"text": "Apple descubre el iPhone 4 , iOS 4 en la Worldwide Developers Conference 2010 8 de junio de 2010 En el día de ayer , Steve Jobs , CEO de la compañía , descubrió en la Apple Worldwide Developers Conference ( WWDC ) de este año el iPhone 4 y el nuevo sistema operativo iOS 4 para dispositivos móviles de Apple . El anuncio era muy esperado pero no causó una gran sorpresa . En abril , el blog tecnológico Gizmodo obtuvo un prototipo del nuevo teléfono y publicó en la red información detallada sobre el mismo . Durante la presentación del iPhone 4 en la conferencia anual , Jobs comenzó insinuando el incidente diciendo ^ Interrumpidme si ya habéis visto esto ^ . El nuevo iPhone recibió los elogios de Jobs , que dijo que era ^ el mayor paso que hemos dado desde el lanzamiento del iPhone original ^ . Solo tiene 9,3 milímetros de grosor , lo que lo convierte en el ^ smartphone más fino del planeta ^ , y supone una reducción del 24 % con respecto al modelo anterior de Apple , el iPhone 3GS . En cuanto a la estructura , el iPhone 4 luce una nueva carcasa de acero inoxidable que actúa de antena , la cual supuestamente potencia la capacidad de recepción de la señal y posiblemente reduce el número de veces que se corta una llamada . Además , posee una nueva pantalla , conocida como la ^ pantalla retina ^ , que muestra las imágenes con 326 píxeles por pulgada . Durante el discurso de apertura , Jobs también hizo una demostración del funcionamiento del nuevo giroscopio interno del dispositivo . Aunque ahora funciona con el procesador A4 de Apple que es más rápido ( utilizado por primera vez en la tableta iPad ) , iPhone 4 permite hablar durante siete horas con 3G , dos horas más que con 3GS . Además de sus características de diseño , Jobs presumió de la nueva capacidad de videollamada del iPhone 4 . Esta prestación se conoce como FaceTime y se conecta a otros iPhone 4 a través de Wi-Fi . El teléfono dispone de dos cámaras : una delante para las conversaciones por vídeo y otra detrás para sacar fotografías y grabar vídeos . La cámara trasera tiene una resolución de cinco megapíxeles , puede grabar vídeo en alta definición y posee un flash LED . El iPhone 4 funcionará con el último sistema operativo móvil de Apple , el iOS 4 . El sistema iOS 4 , antes llamado ^ iPhone OS ^ , fue introducido por primera vez por Apple en abril e incluye capacidades multitarea . Jobs bautizó el nuevo software como ^ el sistema operativo móvil más avanzado del mundo ^ . iOS será compatible con el nuevo servicio de publicidad móvil de Apple , el iAd , que se lanza el 1 de julio . iPhone 4 estará disponible el 24 de junio en los Estados Unidos , Reino Unido , Francia , Alemania y Japón . Se presenta en dos colores -- negro y blanco -- y con dos capacidades de almacenamiento . La versión de 16GB cuesta 199 dólares y la versión de 32GB se comercializa a 299 dólares . El precio del iPhone 3GS bajará a 99 dólares y el iPhone 3G dejará de fabricarse . iOS estará disponible el 21 de junio como actualización de software gratuita para los usuarios de dispositivos Apple compatibles más antiguos ( incluido el 3GS ) . En EE . UU. , el iPhone 4 solo estará disponible en la red de telefonía móvil AT&amp;T , a pesar de las peticiones para que Apple deje utilizar el iPhone en otras compañías como Verizon . Por lo que respecta a la competencia , el dispositivo móvil BlackBerry sigue siendo el Smartphone más conocido . Apple también está afrontando la seria competencia del sistema operativo Android del gigante web Google , además del webOS de Palm . A principios de este año , se consiguió vender más teléfonos Android que iPhones . Pero los usuarios de iPhone representan más de la mitad de las personas que navegan por internet en un buscador móvil en Estados Unidos . Jobs también recalcó que más de 5.000 millones de aplicaciones iOS , comúnmente conocidas como ^ apps ^ , se han adquirido a través del App Store de Apple . Actualmente , el App Store tiene a la venta unas 225.000 apps diferentes .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/190356_Apple_unveils_iPhone_4,_iOS_4_at_Worldwide_Developers_Conference_2010.txt"
+},
+{
+"text": "Apple abrumada por las reservas de iPhone 4 16 de junio de 2010 El martes empezaron a realizarse reservas del recientemente anunciado iPhone 4 , algo que abrumó a Apple y AT&T . Muchos compradores sufrieron problemas al conectarse a la página web de Apple y al llamar a la línea de atención al cliente . Algunos tuvieron problemas al terminar de realizar su pedido on-line y otros tuvieron que esperar mucho tiempo en los establecimientos de Apple por los problemas de conexión on-line . Algunos clientes informaron que Apple había dejado una grabación en sus líneas telefónicas diciendo a la gente que volviera a llamar más tarde y hubo quienes incluso contaron su experiencia por Twitter . Desde el lanzamiento del iPhone original en 2007 , los servidores web de Apple y AT&T han sufrido problemas en todos los lanzamientos de nuevos dispositivos . Los fallos técnicos de hoy parece que han surgido en el proceso de autorización de la transacción , en el momento en que Apple transmite la información a los servidores de AT&T . Otros minoristas como Best Buy y Radio Shack no parece que tuvieran los mismos problemas . Representantes de varios Apple Stores de Estados Unidos dijeron que los compradores debían volver a intentarlo mañana . Ninguna de las compañías emitió un comunicado oficial sobre los problemas técnicos . El iPhone más reciente , el iPhone 4 , fue presentado por el CEO de Apple , Steve Jobs , en la Worldwide Developer 's Conference 2010 de la compañía hace menos de dos semanas . El lanzamiento en Estados Unidos está previsto para el 24 de junio , con un precio inicial de 199 dólares . Ben Reitzes , de Barclays Capital , calculó que se habrán vendido más de ocho millones de iPhones a finales del actual trimestre financiero , que finaliza el 26 de junio . Las acciones de Apple Inc. subieron 5,41 dólares durante la jornada de ayer en las operaciones bursátiles ordinarias y continúan su tendencia de haber subido un 23 % este año .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/191597_Apple_swamped_by_iPhone_4_pre-orders.txt"
+},
+{
+"text": "Apple regala carcasas y reembolsa el dinero a propietarios del iPhone 4 17 de julio de 2010 Apple Inc. anunció el viernes que regalará una carcasa a los propietarios de su nuevo iPhone 4 por la creciente preocupación surgida en torno a la ubicación de la antena del dispositivo . La antena del iPhone 4 es una tira metálica que envuelve el lateral del dispositivo y ha provocado que se cortaran las llamadas según la forma de sujetar el teléfono . El anuncio se realizó en una excepcional rueda de prensa convocada por Apple el viernes por la mañana . Durante el evento , Steve Jobs , CEO de Apple , procuró abordar los problemas de recepción de señal que habían manifestado los consumidores y los medios de comunicación y que guardaban relación con la ubicación de la antena del teléfono . En lugar de retirar los dispositivos u ofrecer la reparación del hardware , Jobs comunicó ayer que Apple ofrecerá una carcasa gratuita a todo aquel que haya adquirido un iPhone 4 . Las carcasas de goma o ^ bumpers ^ envuelven el lateral del iPhone y se ha descubierto que mitigan los problemas de recepción . Antes de la rueda de prensa , las carcasas de goma de Apple costaban 29 dólares pero , hasta el 30 de septiembre , serán gratuitas para todo propietario de iPhone 4 . Jobs también comunicó que a las personas que ya habían comprado una carcasa se les devolverá íntegramente el dinero que cuesta el accesorio . Y , según dijo Jobs , a los consumidores que siguen insatisfechos con el iPhone 4 , podrán devolver los teléfonos y se les reembolsará el importe de los mismos . Jobs reconoció que ^ un porcentaje muy pequeño de usuarios ^ estaba teniendo problemas con la antena pero rechazó la existencia de un ^ Antennagate ^ , y dijo que todos los teléfonos móviles están plagados de problemas similares y que el problema con el iPhone ^ ha explotado de manera tan desproporcionada que es increíble ^ . Para convencer a los asistentes , mostró vídeos en los que se demuestra que la potencia de la señal cae según cómo se cojan otros smartphones . Según las estadísticas de la compañía , alrededor de uno de cada 200 clientes de iPhone 4 han llamado a AppleCare para quejarse acerca de la antena . La tasa de rendimiento del iPhone 4 es de un tercio con respecto a la tasa de rendimiento del iPhone 3GS . Sin embargo , Jobs admitió que el porcentaje de llamadas que se cortan con el iPhone 4 era ligeramente superior al porcentaje de llamadas que se cortaban con el 3GS . Jobs atribuyó el pequeño aumento a que menos usuarios del iPhone 4 colocan carcasas en sus dispositivos . En respuesta a las críticas de que Apple no había abordado el problema de la recepción con la suficiente rapidez , Jobs dijo que el iPhone 4 solo había estado inactivo 22 días y que la compañía no pudo resolver el problema antes . El evento para la prensa se celebró pocos días después de que Consumer Reports se negara a calificar el último teléfono de Apple como ^ recomendado ^ debido a la ubicación de la antena . El grupo dijo que la decisión que ha tomado Apple de regalar carcasas es un buen primer paso pero no basta para conseguir una calificación superior . Anteriormente , el 24 de junio , Apple informó a los clientes que cogieran el teléfono sin cubrir la antena o que utilizaran una carcasa . Sin embargo , el llamado ^ agarre de la muerte ^ no ha supuesto tal problema con otros teléfonos como con el iPhone 4 , según señala Mike Gikas , de Consumer Reports . El 2 de julio , Apple asoció el problema con un virus de software que llevaba mucho tiempo oculto y que se relacionaba con la fórmula para calcular la intensidad de la señal . La actualización de iOS lanzada el jueves incorpora un método actualizado y más preciso para calcular el número de barras de señal que pueden mostrarse en el móvil pero esto no evita la pérdida de señal que se produce al cubrir la antena .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/195869_Apple_to_give_free_cases,_refunds_to_iPhone_4_owners.txt"
+},
+{
+"text": "Un ejecutivo de Apple abandona la compañía después de los problemas con la antena del iPhone 4 9 de agosto de 2010 Mark Papermaster , anterior ejecutivo de Apple Inc. que se encargaba de supervisar la ingeniería de hardware para el iPhone de la compañía , deja su puesto . Este hecho se produjo después de que Apple recibiera críticas el mes pasado por el lugar en el que se ubica la antena en su modelo de iPhone más reciente , el iPhone 4 . Apple confirmó que Papermaster , de 49 años , había dejado la compañía pero no dijo si lo había decidido él o si le habían obligado a hacerlo . Papermaster no realizó comentarios al respecto . Según The New York Times , que fue el primer medio de comunicación en anunciar la salida de Papermaster , una persona anónima ^ que conoce directamente la situación ^ afirmó que el ex-ejecutivo de Apple había sido apartado de varios problemas con el hardware , algunos de ellos relacionados con el iPod Touch . Cuando el CEO de Apple , Steve Jobs , presentó el iPhone 4 , elogió el diseño de la antena del dispositivo . Sin embargo , muchos consumidores indicaron que , al sujetar el teléfono de determinada manera , la recepción disminuía y , a veces , se cortaban las llamadas . La respuesta de Apple al asunto , bautizado como ^ Antennagate ^ por los medios , fue recomendar que se sujetara el teléfono de otra manera . Posteriormente , descubrieron un fallo en el software que provocaba que , en el dispositivo , se informara erróneamente sobre la intensidad de la señal . En una rueda de prensa celebrada el 16 de julio , Jobs comunicó que todos los compradores del iPhone 4 recibirían una carcasa , o ^ bumper ^ , de regalo para mitigar el problema de la señal . The Wall Street Journal , mencionando a personas que conocían la situación , informó que Papermaster había sido expulsado por su incompatibilidad con la cultura corporativa de Apple . Dichas fuentes afirmaban que Papermaster no estaba acostumbrado al ambiente o política corporativa y que carecía de la creatividad que la compañía desea ver en sus empleados . Además , decían que fue Jobs , y no Papermaster , quien tomó la decisión de seguir desarrollando el iPhone 4 aunque la compañía conocía , ya desde hace un año , los posibles problemas de señal que podrían surgir debido a la ubicación de la antena . El puesto de Papermaster será ocupado por Bob Mansfield , Vicepresidente de Apple para la ingeniería de Macintosh . Mansfield ya participó en el desarrollo del iPhone supervisando la ingeniería del procesador y de la pantalla . Papermaster llevaba en Apple desde noviembre de 2008 , pero un juez federal de los Estados Unidos le prohibió trabajar hasta abril de 2009 . Anteriormente , había ocupado un cargo importante en IBM , donde había trabajado durante 25 años . IBM demandó a Papermaster con la intención de impedir que se incorporara a Apple pero se llegó a un acuerdo después de que declarara que no se habían revelado secretos empresariales de IBM a Apple .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/199629_Apple_executive_leaves_company_after_iPhone_4_antenna_issues.txt"
+},
+{
+"text": "Apple descubre el iPod nano 7 de septiembre de 2005 En el día de hoy , Apple ha presentado su última incorporación a la línea iPod , el iPod nano . El anuncio se ha realizado en un evento musical especial organizado por Apple en el Moscone West Convention Center de San Francisco . El iPod Nano se ofrece en dos colores , blanco y negro , y en dos tamaños , 2GB y 4GB , es capaz de almacenar entre 500 y 1.000 canciones y costará 199 dólares y 249 dólares , respectivamente . El iPod nano es el segundo modelo de la familia iPod que utiliza memoria flash después de presentarse el Shuffle en enero . El iPod nano sustituye al iPod Mini similar de la familia iPod . La capacidad máxima del iPod nano es 2GB menor que la de la última versión del iPod Mini , que ofrecía 6GB por el mismo precio de 249 dólares . Apple también anunció un teléfono móvil compatible con iTunes , el Motorola ROKR E1 , que solo podrá adquirirse en Cingular Wireless en Estados Unidos , y en Virgin en el Reino Unido . El ROKR posee una pantalla a color para ver carátulas de álbum e incorpora altavoces estéreo y auriculares estéreo que también sirven para hablar por teléfono con un micrófono . Los usuarios pueden llenar el teléfono móvil , al azar y automática o manualmente , con listas musicales , libros de audio y podcasts de su biblioteca de iTunes a través de una conexión USB 1.1 . El Motorola ROKR interrumpe la reproducción de música automáticamente cuando los usuarios cogen una llamada y ofrece la posibilidad de escuchar música mientras se escriben mensajes o se hacen fotos . Costará 250 dólares y el contrato incluirá un servicio técnico de dos años . En el evento , también se anunció una nueva versión de iTunes , la versión 5 . Además de su nuevo aspecto , también permite la elección personalizable al azar , la búsqueda optimizada en la Library y el Music Store , y más controles parentales de canciones con letras explícitas en el Music Store de iTunes y control del contenido de los Podcasts .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/21302_Apple_unveils_iPod_nano.txt"
+},
+{
+"text": "Apple descubre los nuevos portátiles MacBook Air y el paquete de software iLife '11 23 de octubre de 2010 En un evento mediático celebrado el miércoles , Apple Inc. presentó su nueva línea de portátiles MacBook Air y la versión 2011 del paquete de software iLife de la compañía . En el evento ^ Back to the Mac ^ , también se ofreció un avance del próximo sistema operativo Mac OS X Lion de Apple , que se lanzará al mercado a mediados de 2011 . Steve Jobs , CEO de Apple , presentó los nuevos productos en el evento de Cupertino ( California ) y expresó que la compañía ^ se ha inspirado en el trabajo [ que ha ] realizado con el iPad , y [ desea ] volver a llevarlo al Mac ^ . Apple planea importar más prestaciones de su sistema operativo móvil iOS al sistema operativo Mac OS X. En el día de hoy , Jobs ha anunciado que el lanzamiento de ^ Lion ^ en el OS X , previsto para el próximo verano , incluirá más soporte para la tecnología multitáctil y una versión de escritorio del App Store de la compañía . Señaló que el App Store estará disponible para el actual OS ^ Snow Leopard ^ de Apple en un plazo de 90 días y que pueden presentarse aplicaciones a partir del próximo mes . Jobs también anunció que habría una versión beta de FaceTime , la aplicación de videollamada IOS de Apple , disponible inmediatamente para los usuarios del OS X. Se añadirán varias aplicaciones nuevas al OS X Lion , conocidas como ^ Mission Control ^ y ^ Launchpad . ^ < g id = ^ 11 ^ > < / g > En su discurso de apertura del miércoles , Jobs anunció el lanzamiento del paquete de software iLife '11 de Apple , que incluye los programas iPhoto , iMovie y GarageBand . iPhoto cuenta con nuevas plantillas de presentación de diapositivas mientras que iMovie ha añadido nuevas capacidades de edición de audio . GarageBand ahora incluye varias lecciones nuevas para tocar el piano y la guitarra . iLife '11 se puso a la venta el miércoles como actualización a 49 dólares y también puede obtenerse gratis con nuevas compras de Mac . En otro de los gestos para llevar la funcionalidad de iOS a los ordenadores Macintosh , Jobs anunció una serie actualizada de pórtatiles MacBook Air , que ya están a la venta . El nuevo MacBook Air funciona con memoria flash en lugar de hacerlo con un disco duro convencional y no posee unidad de CD/DVD , una característica presente en el ordenador-tableta iPad . Además , se ha alargado la vida útil de la batería del portátil , aunque solo tenga 1,73 cm de grosor y pese menos de 1,36 kg . ^ Creemos que es el futuro de los portátiles ^ señaló Jobs . Ahora se ofrecen dos modelos del MacBook Air : una versión de 29,46 cm y un modelo de 33,78 cm . El analista Shawn opina que la compañía ^ ha fijado un precio realmente agresivo ^ , con relación al precio de base de 999 dólares del ordenador . Jobs informó que la compañía había vendido 13,7 millones de Macs el año pasado , lo que se traduce en un total de 22.000 millones de dólares . Durante el último trimestre financiero , las ventas de Mac subieron un 22 % , representando el 24 % de los ingresos totales de Apple . Sin embargo , al MacBook Air original no le fue tan bien . Las ventas y el bombo publicitario en torno al primer Air disminuyeron poco después de su lanzamiento y la línea de productos se vio ensombrecida por la salida al mercado del MacBook Pro de 33,02-cm de Apple . El MacBook Air no había sido sometido a actualizaciones importantes desde 2008 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/214601_Apple_unveils_new_MacBook_Air_laptops.txt"
+},
+{
+"text": "Apple planea otro evento especial 4 de octubre de 2005 A un mes del evento especial de presentación del iPod nano y del teléfono iTunes , Apple Computer ha anunciado hoy otro evento especial que se celebrará el 12 de octubre . Tendrá lugar en el California Theater de San Jose ( California ) . En la invitación , puede leerse ^ Una cosa más ... ^ , la burlona muletilla de Steve Jobs . Las palabras se leían sobre la imagen de unos telones de teatro cerrados . Recientemente , Apple ha logrado derechos para vender vídeos musicales de marcas discográficas . Esto ha aumentado los rumores de un vídeo iPod ( vPod ) en este evento . AppleInsider afirma que hay fuentes que han visto el nuevo iPod . Además de este rumor , AppleInsider informa que ha visto un dispositivo inalámbrico similar al Airport Express de Apple compatible con vídeo . También se han oído otros rumores en torno a este evento , como una gran actualización del iTunes Music Store y un Macintosh con procesador Intel .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23468_Apple_plans_another_special_event.txt"
+},
+{
+"text": "Steve Jobs , CEO de Apple Inc. , de baja por enfermedad 17 de enero de 2011 Steve Jobs , director ejecutivo de Apple Inc. , anunció el lunes en una nota interna que estaría de baja por enfermedad durante un periodo de tiempo indefinido . La noticia causó una fuerte caída de los precios de las acciones de Apple en los mercados extranjeros mientras los mercados estadounidenses estaban cerrados en honor a Martin Luther King . El lunes , se anunciaba por correo electrónico que Jobs , de 55 años , abandonaba , por tercera vez en la última década , su puesto de forma temporal debido a una baja por enfermedad . En 2004 luchó contra un cáncer de páncreas y , a comienzos de 2009 , dejó durante seis meses su vida profesional , revelando más tarde que se había sometido a un trasplante de hígado . Jobs aún no ha mencionado qué le llevó a tomar esta decisión en este tiempo pero informó que seguirá siendo el CEO de la compañía . Dejó al actual director de operaciones , Timothy D. Cook , al cargo de las operaciones diarias , tal y como había hecho en las dos anteriores bajas . Aunque Apple no ha emitido más comunicados oficiales , The New York Times ha informado que una persona próxima al entorno de Jobs dijo que la salud de Jobs sufre ^ altibajos ^ debido a los problemas de su sistema inmunitario , habituales en personas que han sido sometidas a trasplantes de hígado . Dicha persona , que pidió mantenerse en el anonimato , señaló que , en las últimas semanas , la salud de Jobs parecía haberse deteriorado y que está adelgazando . Lewis W. Teperman , médico de la Universidad de Nueva York , indicó que ^ es muy habitual que los pacientes de trasplante sufran problemas que no son graves ^ . En su página web , Apple publicó el texto del mensaje de correo electrónico enviado por Jobs , que dice así : Equipo : Tras solicitarlo , la junta directiva me ha concedido la baja por enfermedad para poder centrarme en mi salud . Seguiré siendo CEO y participaré en las decisiones estratégicas importantes de la compañía . He pedido a Tim Cook que se responsabilice de todas las operaciones diarias de Apple . Confío mucho en que Tim y el resto del equipo pondrán en marcha estupendamente los planes emocionantes que tenemos previstos para 2011 . Quiero tanto a Apple , y deseo volver lo antes posible . Mientras tanto , mi familia y yo agradeceremos profundamente que respetéis nuestra privacidad . Steve",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/238039_Apple_Inc._CEO_Steve_Jobs_on_medical_leave.txt"
+},
+{
+"text": "Apple presenta el nuevo iPod con reproducción de vídeo 13 de octubre de 2005 El miércoles , Apple introdujo un iPod capaz de mostrar vídeo , y una nueva sección de vídeo en el iTunes music store . Steve Jobs , CEO de Apple , cree que esto puede tener un gran impacto en la industria cinematográfica , similar al impacto que tuvo el primer iPod en la industria de la música . El nuevo iPod viene en una edición de 30GB y una edición de 60GB por 299 dólares y 399 dólares , respectivamente . En el iPod de 30GB , se pueden almacenar 75 horas de vídeo con una resolución de 320x240 , y , en el iPod de 60GB , pueden almacenarse 150 horas . A pesar de tener estas prestaciones , la gente afirma que la pantalla es demasiado pequeña . Sin embargo , los propietarios de iPod podrán adquirir un cable S-Video opcional para reproducir vídeo de su iPod en un televisor . Para complementar esta nueva sección de vídeo , Apple y ABC han llegado a un acuerdo para que los episodios de series de televisión como Perdidos y Mujeres Desesperadas estén disponibles el día después de su emisión por 1,99 dólares cada episodio . La sección de vídeo también tiene otros planes que implican a la compañía de animación Pixar , creada por el actual CEO de Apple , Steve Jobs . También se prevé distribuir contenido de Disney , distribuidora de Pixar y propietaria de ABC . Además , habrá vídeos musicales disponibles en la Music Store on-line por 1,99 dólares cada uno .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/23973_Apple_introduces_new_iPod_with_video_playback_capabilities.txt"
+},
+{
+"text": "Apple anuncia el Mac OS X Lion , iOS 5 y iCloud 7 de junio de 2011 En el discurso de apertura de la Worldwide Developers Conference ( WWDC ) organizada por la compañía en el Moscone West center de San Francisco , el CEO de Apple , Steve Jobs , presentó la próxima generación de productos de software de Apple . Apple descubrió Lion , la nueva versión de su sistema operativo Mac OS X para ordenadores de escritorio y portátiles que aporta nuevas prestaciones al software . También realizaron una demostración de iOS 5 , una nueva versión del sistema operativo con el que funcionan los iPhones , iPod Touches y iPads . Además de estos anuncios , Jobs presentó un nuevo servicio iCloud para sincronizar datos entre todos los dispositivos . Los 5.200 desarrolladores participantes pasarán el resto de la semana trabajando en talleres con empleados de Apple . Las versiones para desarrolladores de cada producto están disponibles desde hoy . Mac OS X Lion se pondrá a la venta en julio por 29 dólares a través del Mac App Store on-line disponible en los ordenadores Mac . Según Apple , la actualización aporta más de 250 prestaciones nuevas al OS . El empleado Phil Schiller analizó los nuevos gestos multitáctiles con un gestor de tareas dinámico llamado Mission Control que muestra aplicaciones abiertas . Durante el discurso inaugural , Schiller dijo que ^ el Mac ha dejado atrás al sector PC todos los trimestres durante cinco años consecutivos y , con el OS X Lion , pretendemos ampliar nuestra ventaja ^ . Además , aporta un completo soporte al puerto Mac del popular App Store , aplicaciones a pantalla completa , listas de iconos de apps al estilo iOS conocidas como Launchpad y otras prestaciones similares a iOS como un Mail y Auto Save modernizados , entre otras . El Mac OS X Lion fue anunciado hace unos meses en otro evento Apple y sustituirá al Mac OS X Snow Leopard , que se puso a la venta en 2009 . Poco después , la compañía también presentó lo último de su popular sistema operativo móvil iOS . La quinta versión ( iOS 5 ) introduce unas 200 aplicaciones nuevas , entre las que destaca un modernizado sistema de notificaciones que combina los mensajes y las notificaciones de todas las aplicaciones instaladas en el dispositivo del usuario . Scott Forestall , empleado de Apple , también reveló que los dispositivos iOS ya no necesitarían un ordenador para su configuración , lo que permitirá a los usuarios ' cortar el cordón umbilical ' entre sus dispositivos y los PCs . Las revistas y los periódicos también cuentan con una nueva interfaz de carpetas y la red social Twitter ahora está muy integrada en los dispositivos iOS . También se anunciaron mejoras en el buscador móvil Safari . La búsqueda por pestañas y una prestación Reader introducen una funcionalidad similar al ordenador de escritorio . Por último , este dispositivo incorpora nuevas prestaciones de la cámara , como la posibilidad de hacer fotografías desde la pantalla de bloqueo , e iMessages , una nueva plataforma de mensajería para iPhones y iPads . < g id = ^ 20 ^ > < / g > El CEO Steve Jobs vuelve a la escena para presentar iCloud , la nueva oferta de servicios en la nube de Apple . El servicio se integra con las aplicaciones Lion y iOS y sincroniza datos entre los dispositivos iOS del usuario . Por ejemplo , los eventos del calendario creados en el portátil de un usuario se enviarían a su iPhone a través de iCloud . Se podrá compartir con otras personas los apps , libros , documentos , fotos y más cosas compradas o creadas en un dispositivo . Se pretende lanzar el servicio en otoño de 2011 junto a iOS 5 y estará disponible con 5 gigabytes ( GB ) gratuitos de almacenamiento para 10 dispositivos . A principios de año , Apple inauguró un centro de datos de más de 46.000 metros cuadrados en Carolina del Norte con el fin de facilitar este nuevo servicio . Jobs remató la intervención presentando una nueva prestación de iTunes que refleja a la biblioteca que el usuario tiene en la nube , permitiéndole escuchar y descargar música a los dispositivos autorizados . ^ Vamos a rebajar de categoría al PC para que solo sea un dispositivo . Vamos a trasladar el centro digital , el centro de la vida digital , a la nube ^ , anunció Steve Jobs durante el discurso de apertura . iCloud y iOS 5 se pondrán a la venta en otoño de 2011 . Apple no ha anunciado nuevos productos hardware .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/265977_Apple_announces_Mac_OS_X_Lion,_iOS_5,_and_iCloud.txt"
+},
+{
+"text": "El ejecutivo de Apple , Steve Jobs , dimite 25 de agosto de 2011 Steve Jobs , fundador de Apple , ha optado por dejar su puesto de CEO de la compañía . El ex-Director de Operaciones , Tim Cook , sucederá a Jobs como CEO . Jobs ha presentado su dimisión en una carta dirigida a la junta directiva de Apple en la que expresa que ^ siempre he dicho que , si llegaba el día en que no podía seguir asumiendo mis responsabilidades ni expectativas como CEO de Apple , yo sería el primero en comunicároslo . Desgraciadamente , ese día ha llegado . ^ En la misma carta , Jobs expresaba su deseo de permanecer como presidente de la junta . Steve Jobs ha luchado contra un cáncer de páncreas desde 2004 y se encuentra de baja desde enero de este año . Esta era la tercera baja por enfermedad de Jobs . Apareció brevemente en marzo y junio para presentar el iPad 2 y el iCloud , un servicio de computación on-line en la nube . En su dimisión , Jobs dejó este mensaje de despedida : ^ En Apple , he conocido a algunos de los mejores amigos de mi vida y os agradezco a todos por los muchos años que he podido trabajar con vosotros ^ . < g id = ^ 12 ^ > < / g > Jobs recomendó personalmente a Tim Cook para que ocupara el puesto de CEO y ha sido CEO provisional desde la primera baja médica de Jobs . Antes de incorporarse a Apple , Cook trabajó en IBM y Compaq . Es conocido su deseo de no ser el centro de atención . Gracias a una revisión operativa realizada por Cook , a él se le atribuye el éxito del iPad y del MacBook Air . También ocupó el puesto de Steve Jobs cuando el CEO se sometió a la operación de trasplante de hígado . Recibió 59 millones de dólares por su rendimiento en el puesto . < g id = ^ 19 ^ > < / g > El analista Charles Golvin prevé que la dimisión no empezará a afectar al rendimiento de Apple hasta dentro de año y medio o dos años . Muchos de los productos nuevos ya están siendo desarrollados y Jobs seguirá dirigiendo la compañía desde su puesto de presidente de la junta directiva . Art Levinson , presidente de Genentech y miembro de la junta , añade que ^ Steve seguirá sirviendo a Apple con su conocimiento , creatividad e inspiración únicos ^ . Charles O' Reilly , experto en gestión de la Universidad de Stanford , opina lo contrario : ^ Las grandes compañías rara vez se fortalecen ^ . Richard Doherty atribuye el éxito de Steve Jobs a su habilidad para esperar a presentar un producto hasta que es perfecto . Confiesa que ^ muchos productos podrían haberse puesto a la venta antes pero él quería esperar a que fueran mejores ^ . En este contexto , las acciones de Apple ( AAPL ) cayeron 19,37 dólares USA después de unas horas de operaciones bursátiles , una caída superior al 5 % . Desde la apertura de los mercados , las acciones de Apple subieron a 373,72 dólares , con una caída de solo 2,46 dólares desde el cierre del miércoles .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/279494_Apple_executive_Steve_Jobs_resigns.txt"
+},
+{
+"text": "Steve Jobs , cofundador de Apple Inc. , fallece a los 56 años 6 de octubre de 2011 El cofundador y ex-director ejecutivo de Apple Inc. . Steve Jobs falleció ayer a la edad de 56 años , según informa la página web de la compañía . El 24 de agosto , Jobs abandonó su puesto de CEO . Llevaba luchando contra un cáncer de páncreas desde 2004 . Jobs , que nació en San Francisco el 24 de febrero de 1955 , ha creado la compañía tecnológica más valiosa del mundo , con un valor de mercado de 348.800 millones de dólares USA . Creó Apple en 1976 y , en 1984 , se puso a la venta el primer ordenador personal Macintosh . Un año después , fue despedido de la compañía y fundó NeXT . En 1986 , compró Pixar , que fue adquirida por The Walt Disney Company en 2005 . En 1996 , tras la compra de NeXT por parte de Apple Computer , Jobs volvió a Apple y poco después recuperó su cargo de CEO . En 1998 , Apple presentó el ordenador personal iMac , en 2001 el reproductor de música iPod y , al año siguiente , el sistema operativo Mac OS X. 2007 fue el año del smartphone iPhone , y el ordenador-tableta iPad llegó en 2010 . En la página web de Apple , en cuya página de inicio se muestra una fotografía en blanco y negro y el texto ^ Steve Jobs 1955-2011 ^ , puede leerse : ^ Apple ha perdido a un genio visionario y creativo y el mundo ha perdido a un ser humano extraordinario . Todos los que hemos tenido la suerte de conocer a Steve y trabajar con él hemos perdido a un amigo muy querido y a un mentor que nos ha inspirado . Steve deja a sus espaldas una compañía que solo él podía haber creado y su espíritu siempre será el pilar fundamental de Apple ^ . El Presidente de los Estados Unidos Barack Obama ha expresado que ^ Steve fue uno de los mayores innovadores estadounidenses , con la valentía suficiente para pensar de manera diferente , con la osadía suficiente para creer que podría cambiar el mundo , y con el talento suficiente para hacerlo ^ . El ex-CEO de Microsoft , Bill Gates , reaccionó así en su blog tras el fallecimiento de Jobs : ^ Rara vez el mundo es testigo de alguien que ha influido de manera tan profunda como lo ha hecho Steve , y esa influencia se sentirá durante muchas generaciones futuras . ... Echaré muchísimo de menos a Steve . ^ El actual CEO de Microsoft , Steve Ballmer , también expresó sus condolencias por el fallecimiento de Jobs y lo describió como ^ uno de los fundadores de nuestra industria y un auténtico visionario ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/287096_Apple_Inc._co-founder_Steve_Jobs_dies_aged_56.txt"
+},
+{
+"text": "Apple desvela el nuevo Mac que funciona con Intel 11 de enero de 2006 El martes , Apple Computer anunció la primera generación de productos que utilizarán procesadores Intel . Se dice que el iMac y el nuevo MacBook Pro - un portátil que sustituye al PowerBook -- son hasta cuatro veces más rápidos que sus predecesores ( hasta dos veces más rápidos en el iMac , y cuatro veces más en el MacBook . ) Estas nuevas líneas de ordenadores están destinadas a ser compatibles con la más reciente colección de software Mac conocida como iLife , que ha añadido software de publicación en internet a sus herramientas de gráficos , vídeo y sonido de gama alta .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/30414_Apple_unveils_new_Intel-based_Mac.txt"
+},
+{
+"text": "Apple Corps , de los Beatles , demanda a Apple Computer 28 de marzo de 2006 Esta semana , Apple Corps , de los Beatles , ha presentado una demanda contra el fabricante de ordenadores y electrónica Apple Computer en un tribunal londinense , la tercera demanda de este tipo en torno a una disputa por la marca que llevan manteniendo ambas compañías desde hace años . Apple Corps afirma que el iTunes Music Store de Apple Computer viola un acuerdo al que llegaron ambas compañías en 1991 , que prohibía a Apple Computer utilizar la marca ^ Apple ^ en algunos usos del negocio musical . El juicio se celebrará el miércoles en los Royal Courts of Justice del centro de Londres . El presidente del tribunal , Martin Mann , ha declarado que posee un reproductor de música portátil iPod , que está fabricado por Apple Computer y se comercializa junto con el iTunes Music Store . Anteriormente , Apple Corps ha demandado en dos ocasiones a Apple Computer por el uso del nombre ^ Apple ^ . La primera demanda se resolvió fuera de los tribunales en 1981 . El joven fabricante de ordenadores debía pagar 80.000 dólares y aceptar mantenerse alejado del negocio de la música . A finales de la década de 1980 , Apple Computer añadió prestaciones de grabación de audio a sus ordenadores Macintosh , lo que provocó que Apple Corps volviera a presentar una demanda en 1989 . La demanda se resolvió en 1991 , también extrajudicialmente , y Apple pagó 26,5 millones de dólares . En la resolución , se incluía un acuerdo más específico sobre los límites entre las dos marcas . Apple Computer podía utilizar su nombre para comercializar ^ bienes o servicios ... para reproducir o utilizar de otro modo dicho contenido [ musical ] ^ , pero no podía distribuir música por un medio físico como un CD o un cassette . La última demanda de Apple Corps , presentada en septiembre de 2003 , afirma que la compañía informática había incumplido el acuerdo de 1991 con su iTunes Music Store , que vende música digital que puede descargarse en ordenadores personales . Una declaración de Apple Computer decía así : ^ Apple y Apple Corps interpretan ahora de manera diferente este acuerdo y deberá solicitarse a un tribunal que resuelva esta disputa ^ . Algunos observadores han sugerido que la redacción del acuerdo de 1991 , que no prohibía explícitamente la distribución de música digital , podía beneficiar a Apple Computer . De manera simultánea , se presentó una demanda similar en California , estado al que pertenece Apple Computer , pero , el 21 de septiembre de 2004 , las partes acordaron llevar el caso al tribunal británico . No hay licencia para la descarga digital de las canciones de los Beatles en ningún servicio de música on-line . Apple Corps fue creada por los Beatles en 1968 . Apple Computer fue creada por Steve Jobs y Steve Wozniak en 1976 , y lanzó al mercado el iTunes Music Store en 2003 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37313_Beatles_Apple_Corps.txt"
+},
+{
+"text": "Apple lanza un programa para limitar el volumen del iPod 5 de abril del 2006 Apple ha lanzado una aplicación que limita el volumen producido por sus reproductores portátiles de música iPod . La actualización del software , iPod Software 1.1.1 , funciona en las versiones Nano y Video del iPod . Apple ha lanzado el programa en respuesta a las quejas de que no había tomado las medidas necesarias para prevenir la pérdida de audición de los usuarios del iPod . En enero , en California , se presentó una demanda colectiva contra Apple por pérdidas de oído por uso del iPod . Greg Joswiak , vicepresidente mundial de marketing de Apple para el iPod , ha señalado que este parche está disponible para los que quieren ^ una opción fácil de usar para establecer su límite personal de volumen ^ . Se puede descargar gratis . El software tiene también la opción de usarlo con control parental , para evitar que los niños modifiquen el volumen . Los iPods vendidos en Francia tienen ya el volumen limitado , ya que la legislación prohibe sonidos de más de 100 decibelios ( dB ) . La asociación American Speech Language Hearing Association ha publicado un estudio donde consta que el iPod ( y los reproductores de mp3 ) tiene una potencia de 120 dB , equiparable a un concierto en directo . Un disparo son 140 dB .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/37961_Apple_releases_program_to_limit_iPod_volume.txt"
+},
+{
+"text": "Apple Corps pierde un juicio contra Apple Computer 8 de mayo del 2006 La marca Apple Corps de The Beatles ha perdido su juicio contra Apple Computer hoy en el tribunal superior . Apple Corps sostenía que el iTunes Music Store era una violación del acuerdo alcanzado en 1991 entre las dos partes . Según el acuerdo de 1991 , Apple Computer no vendería música con una manzana por marca . Su señoría Anthony Mann estuvo de acuerdo con la defensa de Apple Computer en que la marca es de iTunes Music Stores no de la música que vende ; ^ Concluyo que el uso del logotipo de apple ... no sugiere una relación relevante con el trabajo creativo ^ . Durante el caso , Apple Corps solo mostró al tribunal cuántas veces aparece el logotipo de Apple Computer durante una descarga típica . La canción comprada durante la demostración fue Le Freak de Chic . Tras el cierre del caso , el director ejecutivo de Apple Computer , Steve Jobs , extendió una invitación a la discográfica : ^ Siempre nos han gustado los Beatles , y esperamos que podamos trabajar juntos para que estén en el iTunes Music Store ^ . Apple Corps ha decidido llevar el caso al tribunal de apelaciones . En nombre de Apple Corps , el director Neil Aspinall ha dicho que ^ con gran respeto por el juez del caso , consideramos que ha llegado a la conclusión equivocada ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/40203_Apple_Corps_loses_court_case_against_Apple_Computer.txt"
+},
+{
+"text": "Apple lanza Macbook 17 de mayo del 2006 Hoy , Apple Computer ha presentado la nueva línea de MacBook , que incluye el Macbook y el Macbook Pro . Es la sucesora de la línea del iBook ; tiene procesadores Intel Core duo y características de host , y cuesta a partir de 1.099 $ . El Macbook tiene una pantalla de 13,3 ^ , y el Pro se puede comprar con una pantalla de 15 ^ o de 17 ^ . Viene en dos colores : el negro ( solo el modelo de 2 GHz ) y el blanco ( modelos de 1,83 y 2 GHz ) . Con este lanzamiento , solo queda un ordenador con procesador PowerPC , que no ha hecho la transición a los chips de Intel : el PowerMac G5 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/40986_Apple_releases_Macbook.txt"
+},
+{
+"text": "Apple planea vender películas en iTunes 20 de junio de 2006 Apple Computer prevé vender largometrajes que podrán descargarse on-line a través del iTunes Music Store . El Store vende actualmente temas musicales digitales y , más recientemente , ha comenzado a vender episodios de series de televisión . Los ejecutivos de Apple están negociando con los estudios cinematográficos para llegar a un acuerdo y fijar las estructuras de precios . Se espera comercializar las películas a un precio de venta al público de unos 9,99 dólares aunque algunos estudios desean fijar un precio superior . Actualmente , iTunes es el mayor vendedor on-line de música digital gracias a su software integrado en la popular línea de productos iPod . Entre las nuevas versiones de iPod , destaca una pantalla a color capaz de mostrar vídeos , de manera que los consumidores podrían ver las películas en sus dispositivos aunque aún no queda claro cuánta gente querrá hacerlo . Steve Jobs , CEO de Apple , también es el mayor accionista individual de Disney , que posee el estudio de animación Pixar . No obstante , podría terminar desempeñando un papel más relevante en la industria cinematográfica si iTunes se convierte en el principal distribuidor on-line . High School Musical ' , película para TV de Disney , ya está disponible en iTunes , lo que sugiere que la infraestructura técnica ya está funcionando .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/43503_Apple_plans_to_sell_movies_on_iTunes.txt"
+},
+{
+"text": "Apple presenta iPhone y Apple TV 10 de enero de 2007 Apple Inc. ha presentado en el día de hoy el tan esperado iPhone en la Macworld Conference de San Francisco . Tal y como afirma Apple en su página web , se considera que el iPhone es un ^ teléfono móvil revolucionario ^ . Parece que el dispositivo funciona con una versión móvil del sistema operativo Mac OSX de Apple . Tiene aproximadamente el mismo tamaño que el iPod de 5ª generación y su pantalla táctil LCD de 3,5 pulgadas sirve para acceder a todas las prestaciones del teléfono , incluido el teclado numérico , así como para realizar llamadas El iPhone reproduce música y películas , muestra imágenes y puede conectarse a una red inalámbrica . Steve Jobs , CEO de Apple , descubrió el dispositivo subiendo al escenario y sacando el iPhone del bolsillo de sus pantalones . Durante su discurso de dos horas , afirmó que ^ hoy Apple va a reinventar el teléfono . Hoy vamos a hacer historia ^ . Hoy Apple también ha presentado su dispositivo Media Center - Apple TV . Competirá directamente con el sistema operativo Media Center de Microsoft . Apple ha adoptado una perspectiva diferente sobre el mercado de los centros multimedia . En lugar de guardar contenido ( como películas , música y fotos ) en el dispositivo , Apple TV se conecta a un ordenador ( Mac y Windows ) mediante una conexión inalámbrica y reproduce todo el contenido guardado en dicho ordenador . Esto permite que los usuarios organicen con mucha mayor facilidad su contenido multimedia .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58207_Apple_introduces_iPhone_and_Apple_TV.txt"
+},
+{
+"text": "Cisco demanda a Apple por la marca iPhone 12 de enero de 2007 El iPhone solo apareció como prototipo y esto ha suscitado polémica . La disputa ha surgido entre el fabricante del iPhone ( que el miércoles se sintió molesto por primera vez ) - Apple Inc. -- y Cisco , líder en sistemas de red y comunicación con sede en San José . La compañía afirma que posee la marca de iPhone y que , además , vende dispositivos con la misma marca a través de una de sus divisiones . Este es el motivo por el que Cisco presentó una demanda contra Apple Inc. para que esta última deje de vender el dispositivo . Cisco sostiene que recibió la marca en 2000 , cuando la compañía se adelantó a Infogear Technology Corp. en 1996 . Mark Chandler , vicepresidente y director jurídico de la compañía , explicó que el entusiasmo en torno al nuevo dispositivo de Apple era indudable pero que no debían usar una marca que pertenece a Cisco . El iPhone desarrollado por Cisco es un dispositivo que permite que los usuarios realicen llamadas a través de VoIP ( Voice over Internet Protocol ) .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58383_Cisco_sues_Apple_for_iPhone_trademark.txt"
+},
+{
+"text": "Apple Inc. ha duplicado sus beneficios 18 de enero de 2007 La compañía informática estadounidense Apple ha logrado aumentar sus beneficios un 78 % en el último trimestre , que finalizó el 30 de diciembre de 2006 . Este dato tiene su explicación en la gran demanda de reproductores de música digital iPod de Apple que ha habido durante el periodo de ventas de Navidades y Año Nuevo . Como resultado de las exitosas ventas navideñas , el año financiero ha comenzado con el aumento duplicado de las ventas de Apple en comparación con los 565 millones de dólares de beneficios recogidos durante el mismo periodo del año pasado . La compañía alcanzó una cifra de récord de mil millones de dólares . Los ingresos anuales globales de la compañía ascendieron a 7.100 millones de dólares en 2006 , partiendo de los 5.800 millones de 2005 . El aumento de los ingresos de la compañía tiene parte de su explicación en el hecho de que los ordenadores portátiles fabricados por Apple también se encuentran entre los más vendidos . Ni siquiera los expertos de Wall Street han difundido tales excelentes resultados para la compañía informática Apple . Los resultados de Apple distaron mucho de las expectativas del mercado . Sus beneficios netos han alcanzado los 1,14 dólares USA por acción mientras que Wall Street esperaba tan solo 77 centavos . Durante el primer trimestre del año financiero , Apple Inc. vendió más de 21 millones de reproductores iPod y unos 1,6 millones de ordenadores . Esto refleja que el crecimiento es del 28 % y el 50 % , respectivamente , comparándolo una vez más con los resultados del año anterior . En cuanto los resultados fueron anunciados en la Bolsa de Nueva York , las acciones de la compañía informática estadounidense subieron un 5 % . Conviene recalcar que el capital social de Apple Inc se triplicó en 2004 , se duplicó en 2005 y aumentó un 16 % en 2006 . El crecimiento constante también se debe a las elevadas ventas de iPods y ordenadores . La semana pasada , la compañía presentó el iPhone .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/58772_Apple_Inc._doubled_its_profits.txt"
+},
+{
+"text": "Apple Inc. y Apple Corps resuelven la disputa sobre la marca 6 de febrero de 2007 El lunes , Apple Inc. anunció que ha resuelto la disputa sobre la marca que ha mantenido durante décadas con la compañía discográfica Apple Corps , de los Beatles . Con este nuevo acuerdo , Apple Inc. será propietaria de todas las marcas Apple y autorizará la comercialización de alguna a Apple Corps . Además , seguirá utilizando su nombre y su logotipo en el servicio de música iTunes . Este nuevo acuerdo sustituye al acuerdo de 1991 firmado entre ambas compañías y que definía el contexto en el que estas podían utilizar la marca Apple . ^ Nos encantan los Beatles y ha sido doloroso estar en desacuerdo con ellos en torno a estas marcas ^ , ha expresado el CEO de Apple Inc. , Steve Jobs . ^ Es estupendo haber solucionado este problema de forma positiva y de manera que no haya posibilidad de futuros desacuerdos ^ . ^ Los próximos años van a ser muy emocionantes para nosotros ^ , confesaba Neil Aspinall , director de Apple Corps . ^ Le deseamos todo el éxito a Apple Inc. y esperamos mantener una pacífica relación de colaboración durante muchos años ^ . No se reveló si el catálogo de música de los Beatles formaba parte del trato .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/60083_Apple_Inc.,_Apple_Corps_resolve_trademark_dispute.txt"
+},
+{
+"text": "Apple anuncia una nueva gama de iPod 5 de septiembre de 2007 Apple ha lanzado varios diseños renovados de su popular gama iPod . Además de iPod Classic , Nano y Shuffle , han presentado el nuevo iPod touch , un reproductor multimedia que ofrece las mismas prestaciones de pantalla táctil que el iPhone . El nuevo diseño del iPod Classic posee un mayor espacio de memoria de hasta 160GB o 40.000 canciones y luce un nuevo diseño íntegramente metálico . El iPod nano ahora es más pequeño y cuadrado , y por primera vez se añade la reproducción de vídeo . El modelo 4GB es más barato que su predecesor y se comercializa por $ 149 / # 99 , pero el 8GB está disponible en cinco colores por $ 199 / # 129 . El iPod Shuffle luce un diseño idéntico al modelo anterior pero ahora está disponible con una nueva gama de cinco colores y al mismo precio de $ 79 / # 49 . El iPod touch también incorpora la tecnología wi-fi , que permite que los usuarios accedan a internet y descarguen música de la tienda de música on-line iTunes , líder del mercado de Apple . Se ha anunciado que Starbucks ofrecería acceso wi-fi gratuito a todos los usuarios del iPod en sus establecimientos . La pantalla , similar a la del iPhone , ofrece acceso a música , vídeo , fotos y el iTunes store . Actualmente , hay dos modelos , de 8GB y 16GB de memoria . Steve Jobs , CEO de Apple , también anunció que el precio del iPhone de Apple , que actualmente se vende únicamente en EE . UU. , bajará 200 dólares y se comercializará a 399 dólares . Describió que la nueva gama de iPod es ' una de las siete maravillas del mundo ' .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/78899_Apple_announces_new_iPod_range.txt"
+},
+{
+"text": "Apple reducirá los precios de iTunes en el Reino Unido 9 de enero de 2008 La Comisión Europea ha obligado a Apple Inc. a bajar en el Reino Unido los precios de los productos multimedia de su iTunes store , la tienda on-line de productos multimedia de Apple . Apple ha anunciado esta mañana que el cambio de política se producirá en los próximos seis meses . Apple es el fabricante del iPod , el reproductor de MP3 más vendido del mundo , y , el 28 de abril de 2003 , lanzó al mercado el iTunes Music Store , una tienda de música on-line . Esta tienda pasó a llamarse iTunes Store en 2006 porque Apple comenzó a vender otros productos multimedia además de música , como las películas . Desde su apertura , la tienda ha vendido más de 3.000 millones de canciones . Actualmente , las canciones se venden a # 0,79 por canción y a # 7,99 por álbum . Cuando se recorten los precios , se reducirán a una media de # 0,74 y # 7,48 para adaptarse a los $ 0,99 y $ 9,99 de la UE , según Times Online . La reducción de precios responde a una investigación llevada a cabo por la Comisión Europea porque Apple cobraba a los clientes del Reino Unido hasta un 10 % más que en otros países de la UE . Según The Register , Apple exigirá que las marcas discográficas bajen sus precios en el Reino Unido debido a este recorte de precios que se han visto obligados a aplicar . La Comisión Europea ha aplaudido el anuncio de Apple y , como respuesta a las noticias , la Comisaria Europea de Competencia Neelie Kroes afirmó que ^ la Comisión está muy a favor de las soluciones que permitan que los consumidores se beneficien de un verdadero Mercado Único para descargar música ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/89284_Apple_to_lower_UK_iTunes_prices.txt"
+},
+{
+"text": "Reacciones en torno al OS X Tiger de Apple 7 de mayo de 2005 En los foros y en los tablones de anuncios de internet , los usuarios y curiosos de Macintosh están murmurando acerca de Tiger , la última versión del Mac OS X , versión 10.4 de Apple Computer . El núcleo de código abierto o base del sistema , ^ Darwin ^ , y todas las prestaciones de la interfaz de usuario Quartz patentada de Apple , el software y las utilidades del sistema han pasado a la siguiente fase de actualización y examen detallado y llevan más de una semana comercializándose . Apple informa que Tiger , el nombre del código de esta versión , incluye más de 200 prestaciones nuevas y nuevas versiones del software de aplicaciones como el cliente de correo electrónico Mail , el navegador web Safari , e iChat , el cliente de mensajería de audio / vídeo / texto con varias personas . Con esta versión , también se han lanzado al mercado prestaciones completamente nuevas : * Spotlight integra la búsqueda en el núcleo del OS y utiliza metadatos en su algoritmo . * Dashboard es un ^ cajón de arena ^ para artilugios , mini-aplicaciones prácticas como una calculadora , notas adhesivas y un diccionario , que pueden utilizarse con un simple golpe de teclado . * Automator , una interfaz de script gráfico que permite que los usuarios que no son programadores puedan automatizar tareas repetitivas . Un usuario del nuevo sistema operativo ha comentado lo siguiente : < g id = ^ 11 ^ > < / g > Los analistas del sector ya han hecho hincapié tanto en los avances como en los fallos de la nueva versión . Muchos de los grandes avances tecnológicos han sido muy elogiados pero , en su opinión , también se espera que Microsoft Longhorn posea muchas de estas ventajas cuando salga al mercado previsiblemente a finales de 2006 . La interoperabilidad , uno de los puntos fuertes originales de Macintosh para funcionar con otros sistemas operativos y otras redes , ha sufrido el ataque de algunos virus , como los problemas con Server Message Block ( SMB ) y Active Directory . Para algunos , otro problema es el hecho de que la VPN de Cisco System no funciona con Tiger . Cisco ha prometido el lanzamiento de una versión compatible antes de finales de mes . El mayor avance tecnológico es Spotlight . Con los metadatos , las búsquedas son rápidas , fáciles y muy rigurosas , y los resultados de la búsqueda pueden utilizarse una y otra vez y se actualizan y cambian automáticamente a medida que utiliza el sistema . Las solicitudes de búsqueda en los datos del usuario pueden guardarse como ^ carpetas inteligentes ^ sin mover archivos en el disco duro , de manera que se pueden recopilar todas la fotos , recibos y páginas web sobre las vacaciones de verano , por ejemplo , mientras se mantienen las cosas ordenadas en el disco duro . Según una reseña de PC World , solo por esto merece la pena pagar los 129 dólares . Aún y todo , incluso los sitios de soporte de Macintosh como Mac News recomiendan esperar a la primera versión ^ menor ^ ( 10.4.1 ) antes del lanzamiento , previsto para finales de mayo . Apple Computer ha seguido un programa de lanzamientos semirregular desde la llegada de Mac OS X , poniéndose a la venta cuatro versiones en cinco años . Ocasionalmente , se ha criticado que este programa de desarrollo constante pretende obligar a los usuarios a gastar constantemente en costosos softwares nuevos pero , a cambio , estos lanzamientos regulares han permitido solucionar rápidamente los ataques de virus y ofrecer tecnología de vanguardia .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/Apple/Apple-txt/9549_Reactions_to_Apple.txt"
+}
+],
+"story_cnt": [10],
+"text": "NewsReader timeline",
+"type": "default"
+}}

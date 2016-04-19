@@ -1,0 +1,2632 @@
+{ "timeline":
+{
+"actor_cnt": [76],
+"event_cnt": [39],
+"events": [
+{
+"actors": {
+"eso/quantity-theme": ["ne:m%e2%88%9a%c2%b0s_del_7_%25"],
+"fn/Source": ["dbp:Standard_&_Poor's"],
+"pb/A1": ["ne:los_mercados_de_todo_el_mundo"]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Body_movement",
+"Motion_directional",
+"Path_shape",
+"Change_position_on_a_scale",
+"Change_posture",
+"Cause_change_of_position_on_a_scale"
+]
+},
+"climax": 100,
+"event": "ev11",
+"group": "100:[\"bajar\"]:ne:los_mercados_de_todo_el_mundo",
+"groupName": "[\"bajar\"]:ne:los_mercados_de_todo_el_mundo",
+"groupScore": "100",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt#ev11",
+"labels": ["bajar"],
+"mentions": [
+{
+"char": [
+"535",
+"541"
+],
+"sentence": ["6"],
+"terms": ["t114"],
+"tokens": ["w114"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"30",
+"35"
+],
+"sentence": ["1"],
+"terms": ["t7"],
+"tokens": ["w7"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+}
+],
+"prefLabel": ["bajar"],
+"sentence": "1",
+"size": "25.0",
+"time": "20081009",
+"topics": [
+"export licence",
+"agricultural product",
+"import licence",
+"goatmeat",
+"Spain",
+"quantitative restriction"
+]
+},
+{
+"actors": {"fn/Agent": ["dbp:Dow_Chemical_Company"]},
+"classes": {"fn": [
+"Body_movement",
+"Closure"
+]},
+"climax": 85,
+"event": "ev25",
+"group": "085:[\"cerrar\"]",
+"groupName": "[\"cerrar\"]",
+"groupScore": "085",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt#ev25",
+"labels": ["cerrar"],
+"mentions": [{
+"char": [
+"32",
+"38"
+],
+"sentence": ["1"],
+"terms": ["t6"],
+"tokens": ["w6"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+}],
+"prefLabel": ["cerrar"],
+"sentence": "1",
+"size": "21.25",
+"time": "20090220",
+"topics": [
+"export licence",
+"cassava",
+"Spain",
+"aid to agriculture",
+"import licence",
+"agricultural product"
+]
+},
+{
+"actors": {"fn/Agent": ["dbp:Dow_Chemical_Company"]},
+"classes": {"fn": [
+"Body_movement",
+"Closure"
+]},
+"climax": 28,
+"event": "ev26",
+"group": "085:[\"cerrar\"]",
+"groupName": "[\"cerrar\"]",
+"groupScore": "085",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt#ev26",
+"labels": ["cerrar"],
+"mentions": [{
+"char": [
+"139",
+"144"
+],
+"sentence": ["3"],
+"terms": ["t28"],
+"tokens": ["w28"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+}],
+"prefLabel": ["cerrar"],
+"sentence": "3",
+"size": "3.5",
+"time": "20090115",
+"topics": [
+"agricultural product",
+"import licence",
+"cassava",
+"Spain",
+"aid to agriculture",
+"export licence"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": ["ne:el_nasdaq"],
+"fn/Difference": ["ne:casi_un_5_%25"],
+"pb/A0": ["dbp:Dow_Chemical_Company"]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Sidereal_appearance",
+"Motion_directional",
+"Change_position_on_a_scale",
+"Dough_rising",
+"Getting_up",
+"Body_movement",
+"Change_posture",
+"Path_shape"
+]
+},
+"climax": 20,
+"event": "ev11",
+"group": "085:[\"cerrar\"]",
+"groupName": "[\"cerrar\"]",
+"groupScore": "085",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt#ev11",
+"labels": ["subir"],
+"mentions": [
+{
+"char": [
+"707",
+"712"
+],
+"sentence": ["7"],
+"terms": ["t132"],
+"tokens": ["w132"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt"]
+},
+{
+"char": [
+"1224",
+"1229"
+],
+"sentence": ["11"],
+"terms": ["t236"],
+"tokens": ["w236"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt"]
+}
+],
+"prefLabel": ["subir"],
+"sentence": "7",
+"size": "2.5",
+"time": "20090101",
+"topics": [
+"import licence",
+"Spain",
+"quantitative restriction",
+"agricultural product",
+"export licence",
+"frozen product"
+]
+},
+{
+"actors": {
+"fn/Source": ["dbp:Standard_&_Poor's"],
+"pb/A0": ["dbp:BM&F_Bovespa"],
+"pb/A1": [
+"dbp:Bear_Stearns",
+"dbp:HBOS",
+"dbp:United_States",
+"dbp:DAX",
+"dbp:Japan",
+"dbp:Dow_Chemical_Company",
+"dbp:United_Kingdom",
+"dbp:FTSE_100_Index",
+"dbp:Citigroup",
+"dbp:Dow_Jones_Industrial_Average",
+"dbp:Russian_Trading_System",
+"dbp:Dow_Jones_Indexes",
+"dbp:Chevron_Corporation",
+"dbp:ExxonMobil",
+"dbp:Australia",
+"dbp:Nikkei_225"
+],
+"pb/AM": [
+"dbp:China",
+"dbp:Coordinated_Universal_Time",
+"dbp:Asia",
+"dbp:Europe",
+"dbp:Economy_of_the_United_States",
+"dbp:Hong_Kong"
+]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Cause_change_of_position_on_a_scale",
+"Body_movement",
+"Change_position_on_a_scale",
+"Change_posture",
+"Path_shape",
+"Motion_directional"
+]
+},
+"climax": 68,
+"event": "drop;bring_down;dip;decrease;fall_down;fall",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://globalwordnet.org/ili/ili-30-00432683-v-and-ili-30-01977701-v-and-ili-30-01973125-v-and-ili-30-01976841-v-and-ili-30-00432061-v-and-ili-30-00151689-v-and-ili-30-01984317-v-and-ili-30-01984119-v",
+"labels": [
+"bajar",
+"caer",
+"descender"
+],
+"mentions": [
+{
+"char": [
+"93",
+"98"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"]
+},
+{
+"char": [
+"2006",
+"2011"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+},
+{
+"char": [
+"287",
+"292"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+},
+{
+"char": [
+"398",
+"402"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13568_US_stock_markets_reach_12-year_lows.txt"]
+},
+{
+"char": [
+"1000",
+"1005"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12914_Global_stock_markets_plunge.txt"]
+},
+{
+"char": [
+"1450",
+"1455"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"535",
+"541"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"1574",
+"1578"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+},
+{
+"char": [
+"1566",
+"1571"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+},
+{
+"char": [
+"705",
+"710"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12658_Stock_markets_worldwide_fall_dramatically.txt"]
+},
+{
+"char": [
+"1771",
+"1776"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+},
+{
+"char": [
+"427",
+"432"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+},
+{
+"char": [
+"1647",
+"1651"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt"]
+},
+{
+"char": [
+"142",
+"151"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt"]
+},
+{
+"char": [
+"1017",
+"1024"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"7",
+"14"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"26",
+"30"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10804_World_stocks_plunge_on_fears_on_US_recession.txt"]
+},
+{
+"char": [
+"667",
+"671"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13532_US_stock_markets_fall_to_lowest_levels_since_1997.txt"]
+},
+{
+"char": [
+"1260",
+"1265"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"318",
+"323"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"398",
+"403"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+},
+{
+"char": [
+"1593",
+"1597"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"1522",
+"1529"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+},
+{
+"char": [
+"95",
+"100"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12914_Global_stock_markets_plunge.txt"]
+},
+{
+"char": [
+"369",
+"373"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13532_US_stock_markets_fall_to_lowest_levels_since_1997.txt"]
+},
+{
+"char": [
+"421",
+"426"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"1443",
+"1450"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt"]
+},
+{
+"char": [
+"1116",
+"1121"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt"]
+},
+{
+"char": [
+"738",
+"745"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"1330",
+"1335"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12809_Worldwide_markets_fall_precipitously.txt"]
+},
+{
+"char": [
+"1165",
+"1169"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13568_US_stock_markets_reach_12-year_lows.txt"]
+},
+{
+"char": [
+"917",
+"922"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"30",
+"35"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"765",
+"770"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13021_Japan_enters_recession.txt"]
+},
+{
+"char": [
+"618",
+"623"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_17376_Japanese_stocks_continue_to_fall_after_earthquake.txt"]
+},
+{
+"char": [
+"1418",
+"1423"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"196",
+"200"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"1118",
+"1124"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+},
+{
+"char": [
+"944",
+"949"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"120",
+"124"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_17376_Japanese_stocks_continue_to_fall_after_earthquake.txt"]
+},
+{
+"char": [
+"390",
+"397"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt"]
+},
+{
+"char": [
+"748",
+"753"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12809_Worldwide_markets_fall_precipitously.txt"]
+},
+{
+"char": [
+"853",
+"857"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"646",
+"651"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt"]
+},
+{
+"char": [
+"1274",
+"1279"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt"]
+},
+{
+"char": [
+"471",
+"476"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+},
+{
+"char": [
+"358",
+"362"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10804_World_stocks_plunge_on_fears_on_US_recession.txt"]
+},
+{
+"char": [
+"910",
+"915"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12914_Global_stock_markets_plunge.txt"]
+},
+{
+"char": [
+"537",
+"542"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+},
+{
+"char": [
+"640",
+"645"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"22",
+"26"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"]
+},
+{
+"char": [
+"552",
+"557"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12809_Worldwide_markets_fall_precipitously.txt"]
+},
+{
+"char": [
+"774",
+"779"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"27",
+"31"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13532_US_stock_markets_fall_to_lowest_levels_since_1997.txt"]
+},
+{
+"char": [
+"542",
+"547"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"]
+},
+{
+"char": [
+"1712",
+"1719"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"139",
+"146"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13568_US_stock_markets_reach_12-year_lows.txt"]
+},
+{
+"char": [
+"51",
+"54"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"1081",
+"1088"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13568_US_stock_markets_reach_12-year_lows.txt"]
+},
+{
+"char": [
+"1560",
+"1567"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt"]
+},
+{
+"char": [
+"627",
+"631"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"1678",
+"1683"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+},
+{
+"char": [
+"727",
+"732"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13532_US_stock_markets_fall_to_lowest_levels_since_1997.txt"]
+},
+{
+"char": [
+"570",
+"575"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12914_Global_stock_markets_plunge.txt"]
+},
+{
+"char": [
+"247",
+"251"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt"]
+},
+{
+"char": [
+"573",
+"578"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"]
+},
+{
+"char": [
+"1090",
+"1095"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"20",
+"24"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12914_Global_stock_markets_plunge.txt"]
+},
+{
+"char": [
+"1230",
+"1235"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"]
+},
+{
+"char": [
+"133",
+"140"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10804_World_stocks_plunge_on_fears_on_US_recession.txt"]
+},
+{
+"char": [
+"547",
+"552"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12658_Stock_markets_worldwide_fall_dramatically.txt"]
+},
+{
+"char": [
+"586",
+"591"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"]
+},
+{
+"char": [
+"150",
+"155"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12658_Stock_markets_worldwide_fall_dramatically.txt"]
+},
+{
+"char": [
+"1486",
+"1493"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"111",
+"116"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12809_Worldwide_markets_fall_precipitously.txt"]
+},
+{
+"char": [
+"1187",
+"1192"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13532_US_stock_markets_fall_to_lowest_levels_since_1997.txt"]
+},
+{
+"char": [
+"657",
+"662"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12914_Global_stock_markets_plunge.txt"]
+},
+{
+"char": [
+"1381",
+"1390"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt"]
+},
+{
+"char": [
+"30",
+"34"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12809_Worldwide_markets_fall_precipitously.txt"]
+},
+{
+"char": [
+"7",
+"10"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt"]
+},
+{
+"char": [
+"97",
+"102"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+},
+{
+"char": [
+"666",
+"671"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"]
+},
+{
+"char": [
+"1146",
+"1151"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"28",
+"32"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12658_Stock_markets_worldwide_fall_dramatically.txt"]
+},
+{
+"char": [
+"21",
+"25"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+},
+{
+"char": [
+"255",
+"260"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"]
+},
+{
+"char": [
+"2123",
+"2128"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13568_US_stock_markets_reach_12-year_lows.txt"]
+}
+],
+"prefLabel": ["caer"],
+"sentence": "7",
+"size": "17.0",
+"time": "20090101"
+},
+{
+"actors": {
+"eso/quantity-theme": [
+"ne:su_valor",
+"dbp:FTSE_100_Index",
+"dbp:BM&F_Bovespa",
+"ne:41%2c25_puntos_%28_21%2c48_%25_%29"
+],
+"fn/Agent": [
+"ne:el_hang_seng_y_el_straits_times_de_singapur",
+"ne:el_nasdaq"
+]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Path_shape",
+"Body_movement",
+"Getting_up",
+"Dough_rising",
+"Change_posture",
+"Motion_directional",
+"Change_position_on_a_scale",
+"Sidereal_appearance"
+]
+},
+"climax": 47,
+"event": "ev29",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt#ev29",
+"labels": ["subir"],
+"mentions": [
+{
+"char": [
+"1379",
+"1385"
+],
+"sentence": ["12"],
+"terms": ["t266"],
+"tokens": ["w266"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+},
+{
+"char": [
+"1209",
+"1215"
+],
+"sentence": ["10"],
+"terms": ["t228"],
+"tokens": ["w228"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+},
+{
+"char": [
+"1131",
+"1137"
+],
+"sentence": ["8"],
+"terms": ["t209"],
+"tokens": ["w209"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+},
+{
+"char": [
+"1705",
+"1711"
+],
+"sentence": ["15"],
+"terms": ["t331"],
+"tokens": ["w331"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+},
+{
+"char": [
+"1620",
+"1626"
+],
+"sentence": ["15"],
+"terms": ["t313"],
+"tokens": ["w313"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+},
+{
+"char": [
+"1164",
+"1170"
+],
+"sentence": ["9"],
+"terms": ["t217"],
+"tokens": ["w217"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"]
+}
+],
+"prefLabel": ["subir"],
+"sentence": "8",
+"size": "5.875",
+"time": "20081013",
+"topics": [
+"Spain",
+"quantitative restriction",
+"import licence",
+"goatmeat",
+"export licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Agent": [
+"dbp:Dow_Jones_Industrial_Average",
+"dbp:United_States"
+],
+"fn/Entity": [
+"ne:una_modesta_ganancia_de_medio_punto_porcentual",
+"ne:ganancias"
+]
+},
+"classes": {"fn": ["Recording"]},
+"climax": 45,
+"event": "ev15",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt#ev15",
+"labels": ["registrar"],
+"mentions": [
+{
+"char": [
+"511",
+"519"
+],
+"sentence": ["5"],
+"terms": ["t93"],
+"tokens": ["w93"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt"]
+},
+{
+"char": [
+"141",
+"152"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt"]
+}
+],
+"prefLabel": ["registrar"],
+"sentence": "3",
+"size": "5.625",
+"time": "20090403",
+"topics": [
+"quantitative restriction",
+"Spain",
+"import licence",
+"frozen product",
+"export licence",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Agent": [
+"ne:m%e2%88%9a%c2%b0s_de_dos_docenas_de_prestamistas_de_alto_riesgo",
+"dbp:Frankfurt",
+"dbp:FTSE_100_Index",
+"dbp:London_Stock_Exchange",
+"dbp:DAX"
+],
+"pb/AM": ["ne:los_impagos_en_dichas_hipotecas"]
+},
+"classes": {"fn": [
+"Closure",
+"Body_movement"
+]},
+"climax": 29,
+"event": "ev33",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt#ev33",
+"labels": ["cerrar"],
+"mentions": [
+{
+"char": [
+"1077",
+"1084"
+],
+"sentence": ["7"],
+"terms": ["t191"],
+"tokens": ["w191"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt"]
+},
+{
+"char": [
+"579",
+"587"
+],
+"sentence": ["5"],
+"terms": ["t108"],
+"tokens": ["w108"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt"]
+}
+],
+"prefLabel": ["cerrar"],
+"sentence": "5",
+"size": "3.625",
+"time": "20070101",
+"topics": [
+"Spain",
+"sheepmeat",
+"quantitative restriction",
+"goat",
+"export licence",
+"goatmeat"
+]
+},
+{
+"actors": {
+"fn/Agent": ["ne:el_gobierno_ruso"],
+"fn/Theme": ["ne:todas_las_bolsas_cerradas"],
+"pb/AM": ["dbp:Russian_Trading_System"]
+},
+"classes": {"fn": [
+"Avoiding",
+"Cause_to_continue",
+"Activity_ongoing",
+"Storing"
+]},
+"climax": 28,
+"event": "ev29",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12665_Russian_markets_to_remain_closed_until_Friday.txt#ev29",
+"labels": ["mantener"],
+"mentions": [{
+"char": [
+"100",
+"109"
+],
+"sentence": ["3"],
+"terms": ["t17"],
+"tokens": ["w17"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12665_Russian_markets_to_remain_closed_until_Friday.txt"]
+}],
+"prefLabel": ["mantener"],
+"sentence": "3",
+"size": "3.5",
+"time": "20080912",
+"topics": [
+"cassava",
+"Spain",
+"export licence",
+"import licence",
+"agricultural product",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Entity": ["dbp:Japan"],
+"pb/AM": ["ne:dos_trimestres_consecutivos_de_crecimiento_negativo"]
+},
+"classes": {"fn": ["Coming_to_be"]},
+"climax": 28,
+"event": "ev5",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13021_Japan_enters_recession.txt#ev5",
+"labels": ["entrar"],
+"mentions": [{
+"char": [
+"108",
+"115"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13021_Japan_enters_recession.txt"]
+}],
+"prefLabel": ["entrar"],
+"sentence": "3",
+"size": "3.5",
+"time": "20090601",
+"topics": [
+"cassava",
+"export licence",
+"import licence",
+"export policy",
+"Spain",
+"agricultural product"
+]
+},
+{
+"actors": {
+"fn/Agent": ["dbp:FTSE_100_Index"],
+"pb/AM": ["ne:la_subida_de_los_precios_de_las_mercanc%e2%88%9a%e2%89%a0as"]
+},
+"classes": {"fn": [
+"Closure",
+"Body_movement"
+]},
+"climax": 28,
+"event": "ev12",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/14818_British_FTSE_index_reaches_one-year_high,_other_European_markets_rise.txt#ev12",
+"labels": ["cerrar"],
+"mentions": [{
+"char": [
+"152",
+"157"
+],
+"sentence": ["3"],
+"terms": ["t30"],
+"tokens": ["w30"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/14818_British_FTSE_index_reaches_one-year_high,_other_European_markets_rise.txt"]
+}],
+"prefLabel": ["cerrar"],
+"sentence": "3",
+"size": "3.5",
+"time": "20080101",
+"topics": [
+"tariff quota",
+"cassava",
+"export licence",
+"import licence",
+"frozen product",
+"Spain"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": ["ne:m%e2%88%9a%c2%b0s_de_416_puntos_al_cierre_de_la_jornada_del_martes_%2c_la_peor_ca%e2%88%9a%e2%89%a0da_registrada_en_un_mismo_d%e2%88%9a%e2%89%a0a"],
+"fn/Protagonist": ["dbp:United_States"],
+"fn/Theme": ["dbp:Dow_Jones_Industrial_Average"],
+"pb/AM": ["ne:los_mercados"]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Motion_directional",
+"Path_shape",
+"Change_posture",
+"Change_position_on_a_scale",
+"Body_movement"
+]
+},
+"climax": 28,
+"event": "ev21",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt#ev21",
+"labels": ["descender"],
+"mentions": [{
+"char": [
+"142",
+"151"
+],
+"sentence": ["3"],
+"terms": ["t27"],
+"tokens": ["w27"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt"]
+}],
+"prefLabel": ["descender"],
+"sentence": "3",
+"size": "3.5",
+"time": "20070911",
+"topics": [
+"agricultural product",
+"import licence",
+"quantitative restriction",
+"Spain",
+"export licence",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["dbp:United_States"],
+"fn/Topic": ["ne:que_ha_perdido_2.240_millones_de_d%e2%88%9a%e2%89%a5lares_estadounidenses_en_el_tercer_trimestre_de_este_a%e2%88%9a%c2%b1o_%2c_debido_especialmente_a_las_mayores_p%e2%88%9a%c2%a9rdidas_en_pr%e2%88%9a%c2%a9stamos"]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 28,
+"event": "ev15",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_14843_Bank_of_America_reports_losses.txt#ev15",
+"labels": ["anunciar"],
+"mentions": [{
+"char": [
+"188",
+"197"
+],
+"sentence": ["3"],
+"terms": ["t34"],
+"tokens": ["w34"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_14843_Bank_of_America_reports_losses.txt"]
+}],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "3.5",
+"time": "20090930",
+"topics": [
+"export licence",
+"goatmeat",
+"Spain",
+"United States",
+"quantitative restriction",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Topic": ["dbp:United_States"],
+"pb/AM": [
+"ne:miles_de_millones_de_d%e2%88%9a%e2%89%a5lares",
+"dbp:Economy_of_the_United_States",
+"dbp:Afghanistan",
+"dbp:Dick_Cheney",
+"dbp:United_States_Department_of_Labor"
+]
+},
+"classes": {
+"eso": ["Translocation"],
+"fn": [
+"Relative_time",
+"Cotheme",
+"Opinion",
+"Awareness"
+]
+},
+"climax": 22,
+"event": "ev13",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12673_Shares_worldwide_surge_due_to_US_government_plan.txt#ev13",
+"labels": [
+"suceder",
+"ocurrir",
+"creer"
+],
+"mentions": [
+{
+"char": [
+"279",
+"289"
+],
+"sentence": ["4"],
+"terms": ["t49"],
+"tokens": ["w49"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12673_Shares_worldwide_surge_due_to_US_government_plan.txt"]
+},
+{
+"char": [
+"1543",
+"1550"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt"]
+},
+{
+"char": [
+"279",
+"289"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12673_Shares_worldwide_surge_due_to_US_government_plan.txt"]
+},
+{
+"char": [
+"2150",
+"2154"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"231",
+"239"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt"]
+}
+],
+"prefLabel": [
+"suceder",
+"ocurrir"
+],
+"sentence": "4",
+"size": "2.75",
+"time": "20080920",
+"topics": [
+"quantitative restriction",
+"export licence",
+"agricultural product",
+"import licence",
+"cassava",
+"Spain"
+]
+},
+{
+"actors": {"fn/Topic": ["dbp:Japan"]},
+"classes": {"fn": [
+"Request",
+"Have_as_requirement",
+"Questioning"
+]},
+"climax": 21,
+"event": "ev22",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt#ev22",
+"labels": ["pedir"],
+"mentions": [{
+"char": [
+"484",
+"489"
+],
+"sentence": ["4"],
+"terms": ["t92"],
+"tokens": ["w92"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+}],
+"prefLabel": ["pedir"],
+"sentence": "4",
+"size": "2.625",
+"time": "20081027",
+"topics": [
+"Hong Kong",
+"export licence",
+"quantitative restriction",
+"Spain",
+"agricultural product",
+"import licence"
+]
+},
+{
+"actors": {"fn/Entity": ["dbp:Japan"]},
+"classes": {"fn": [
+"Coming_to_be",
+"Cause_to_make_progress"
+]},
+"climax": 21,
+"event": "ev11",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt#ev11",
+"labels": ["elaborar"],
+"mentions": [{
+"char": [
+"494",
+"504"
+],
+"sentence": ["4"],
+"terms": ["t94"],
+"tokens": ["w94"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"]
+}],
+"prefLabel": ["elaborar"],
+"sentence": "4",
+"size": "2.625",
+"time": "19821001",
+"topics": [
+"agricultural product",
+"Hong Kong",
+"import licence",
+"quantitative restriction",
+"Spain",
+"export licence"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": ["ne:un_3%2c10_%25_a_las_14%3a58_utc_%2c_una_subida_de_330%2c89"],
+"fn/Attribute": ["dbp:Dow_Jones_Indexes"]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Change_position_on_a_scale",
+"Cause_expansion",
+"Expansion"
+]
+},
+"climax": 14,
+"event": "ev17",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12673_Shares_worldwide_surge_due_to_US_government_plan.txt#ev17",
+"labels": ["crecer"],
+"mentions": [{
+"char": [
+"661",
+"668"
+],
+"sentence": ["6"],
+"terms": ["t122"],
+"tokens": ["w122"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12673_Shares_worldwide_surge_due_to_US_government_plan.txt"]
+}],
+"prefLabel": ["crecer"],
+"sentence": "6",
+"size": "1.75",
+"time": "20080920",
+"topics": [
+"export licence",
+"quantitative restriction",
+"Spain",
+"import licence",
+"cassava",
+"agricultural product"
+]
+},
+{
+"actors": {"fn/Agent": ["dbp:Nikkei_225"]},
+"classes": {"fn": [
+"Closure",
+"Body_movement"
+]},
+"climax": 13,
+"event": "ev32",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt#ev32",
+"labels": ["cerrar"],
+"mentions": [
+{
+"char": [
+"2313",
+"2319"
+],
+"sentence": ["13"],
+"terms": ["t414"],
+"tokens": ["w414"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt"]
+},
+{
+"char": [
+"2201",
+"2206"
+],
+"sentence": ["13"],
+"terms": ["t392"],
+"tokens": ["w392"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt"]
+}
+],
+"prefLabel": ["cerrar"],
+"sentence": "13",
+"size": "1.625",
+"time": "20080918",
+"topics": [
+"export licence",
+"political group",
+"import licence",
+"Spain",
+"goatmeat",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Recipient": ["ne:a_reservas_temporales"],
+"fn/Theme": [
+"dbp:United_States",
+"dbp:Dollar"
+],
+"pb/AM": [
+"ne:una_ampliaci%e2%88%9a%e2%89%a5n_r%e2%88%9a%c2%a9cord_de_83.600_millones_de_%24",
+"dbp:European_Central_Bank"
+]
+},
+"classes": {"fn": [
+"Change_tool",
+"Transfer"
+]},
+"climax": 12,
+"event": "ev21",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt#ev21",
+"labels": ["transferir"],
+"mentions": [{
+"char": [
+"791",
+"801"
+],
+"sentence": ["7"],
+"terms": ["t149"],
+"tokens": ["w149"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+}],
+"prefLabel": ["transferir"],
+"sentence": "7",
+"size": "1.5",
+"time": "20070809",
+"topics": [
+"import licence",
+"export licence",
+"goatmeat",
+"agricultural product",
+"quantitative restriction",
+"Spain"
+]
+},
+{
+"actors": {"fn/Means": ["dbp:Russian_Trading_System"]},
+"classes": {"fn": [
+"Process_start",
+"Activity_start",
+"Setting_fire"
+]},
+"climax": 12,
+"event": "ev16",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt#ev16",
+"labels": ["empezar"],
+"mentions": [{
+"char": [
+"723",
+"731"
+],
+"sentence": ["7"],
+"terms": ["t135"],
+"tokens": ["w135"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt"]
+}],
+"prefLabel": ["empezar"],
+"sentence": "7",
+"size": "1.5",
+"time": "20080917",
+"topics": [
+"agricultural product",
+"Spain",
+"export licence",
+"quantitative restriction",
+"import licence",
+"cassava"
+]
+},
+{
+"actors": {"fn/Entity": [
+"ne:que_nadie_quer%e2%88%9a%e2%89%a0a_hacer_este_acto_legislativo",
+"dbp:United_States",
+"ne:su_dep%e2%88%9a%e2%89%a5sito_bancario",
+"dbp:Federal_Deposit_Insurance_Corporation"
+]},
+"classes": {"fn": [
+"Awareness",
+"Familiarity"
+]},
+"climax": 10,
+"event": "ev41",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt#ev41",
+"labels": ["saber"],
+"mentions": [
+{
+"char": [
+"2177",
+"2182"
+],
+"sentence": ["18"],
+"terms": ["t438"],
+"tokens": ["w438"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+},
+{
+"char": [
+"1519",
+"1524"
+],
+"sentence": ["15"],
+"terms": ["t314"],
+"tokens": ["w314"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"]
+}
+],
+"prefLabel": ["saber"],
+"sentence": "15",
+"size": "1.25",
+"time": "20081007",
+"topics": [
+"Spain",
+"cassava",
+"import licence",
+"frozen product",
+"agricultural product",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Indicated": [
+"ne:el_dow_industrials",
+"ne:r%e2%88%9a%c2%a9cords"
+],
+"fn/Indicator": ["dbp:Alan_Greenspan"],
+"fn/Message": ["ne:cada_vez_m%e2%88%9a%c2%b0s_nerviosa"],
+"fn/Proposition": ["dbp:White_House"],
+"fn/Topic": ["dbp:United_States"]
+},
+"classes": {"fn": [
+"Evidence",
+"Communication",
+"Sign"
+]},
+"climax": 10,
+"event": "ev23",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt#ev23",
+"labels": ["indicar"],
+"mentions": [{
+"char": [
+"944",
+"950"
+],
+"sentence": ["8"],
+"terms": ["t177"],
+"tokens": ["w177"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt"]
+}],
+"prefLabel": ["indicar"],
+"sentence": "8",
+"size": "1.25",
+"time": "20070227",
+"topics": [
+"agricultural product",
+"quantitative restriction",
+"Spain",
+"export licence",
+"cassava",
+"import licence"
+]
+},
+{
+"actors": {
+"eso/quantity-theme": [
+"ne:el_dow_industrials",
+"ne:r%e2%88%9a%c2%a9cords",
+"ne:cada_vez_m%e2%88%9a%c2%b0s_nerviosa",
+"dbp:White_House"
+],
+"fn/Cause": ["dbp:United_States"]
+},
+"classes": {
+"eso": ["QuantityChange"],
+"fn": [
+"Expansion",
+"Cause_expansion"
+]
+},
+"climax": 10,
+"event": "ev16",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt#ev16",
+"labels": ["prolongar"],
+"mentions": [{
+"char": [
+"987",
+"998"
+],
+"sentence": ["8"],
+"terms": ["t186"],
+"tokens": ["w186"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt"]
+}],
+"prefLabel": ["prolongar"],
+"sentence": "8",
+"size": "1.25",
+"time": "20070227",
+"topics": [
+"Spain",
+"export licence",
+"quantitative restriction",
+"agricultural product",
+"import licence",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Speaker": [
+"dbp:European_Central_Bank",
+"dbp:Bank_of_Canada",
+"dbp:Swiss_National_Bank",
+"dbp:Bank_of_Japan",
+"dbp:Bank_of_England",
+"dbp:Federal_Reserve_System",
+"ne:varios_bancos_nacionales"
+],
+"fn/Topic": [
+"ne:un_esfuerzo_conjunto",
+"ne:que_trabajar%e2%88%9a%e2%89%a0an_juntos_para_facilitar_acuerdos_crediticios_rec%e2%88%9a%e2%89%a0procos_a_las_instituciones_que_se_enfrenten_a_una_colisi%e2%88%9a%e2%89%a5n_financiera_provocada_por_el_d%e2%88%9a%e2%89%a5lar_estadounidense"
+],
+"pb/AM": [
+"dbp:Coordinated_Universal_Time",
+"ne:m%e2%88%9a%c2%b0s_dinero"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 49,
+"event": "ev27",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt#ev27",
+"labels": ["anunciar"],
+"mentions": [
+{
+"char": [
+"201",
+"211"
+],
+"sentence": ["3"],
+"terms": ["t31"],
+"tokens": ["w31"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt"]
+},
+{
+"char": [
+"461",
+"471"
+],
+"sentence": ["4"],
+"terms": ["t83"],
+"tokens": ["w83"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt"]
+}
+],
+"prefLabel": ["anunciar"],
+"sentence": "3",
+"size": "6.125",
+"time": "20080918",
+"topics": [
+"import licence",
+"goatmeat",
+"Spain",
+"political group",
+"export licence",
+"quantitative restriction"
+]
+},
+{
+"actors": {
+"fn/Cause": ["dbp:China"],
+"fn/Effect": ["ne:la_ca%e2%88%9a%e2%89%a0da"]
+},
+"classes": {"fn": ["Causation"]},
+"climax": 28,
+"event": "ev29",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt#ev29",
+"labels": ["provocar"],
+"mentions": [{
+"char": [
+"133",
+"142"
+],
+"sentence": ["3"],
+"terms": ["t25"],
+"tokens": ["w25"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt"]
+}],
+"prefLabel": ["provocar"],
+"sentence": "3",
+"size": "3.5",
+"time": "20070101",
+"topics": [
+"goat",
+"quantitative restriction",
+"Spain",
+"sheepmeat",
+"goatmeat",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Topic": ["ne:p%e2%88%9a%c2%a9rdidas_de_entre_tres_y_siete_por_ciento"],
+"pb/AM": [
+"dbp:China",
+"dbp:Germany",
+"dbp:India",
+"dbp:Great_Britain",
+"dbp:France",
+"dbp:Canada"
+]
+},
+"classes": {"fn": ["Statement"]},
+"climax": 17,
+"event": "ev18",
+"group": "068:[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupName": "[\"bajar\",\"caer\",\"descender\"]:dbp:Bear_Stearns",
+"groupScore": "068",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10804_World_stocks_plunge_on_fears_on_US_recession.txt#ev18",
+"labels": ["registrar"],
+"mentions": [{
+"char": [
+"526",
+"537"
+],
+"sentence": ["5"],
+"terms": ["t102"],
+"tokens": ["w102"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10804_World_stocks_plunge_on_fears_on_US_recession.txt"]
+}],
+"prefLabel": ["registrar"],
+"sentence": "5",
+"size": "2.125",
+"time": "20010911",
+"topics": [
+"quantitative restriction",
+"import licence",
+"Spain",
+"Hong Kong",
+"goatmeat",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["ne:los_%e2%88%9a%e2%89%a0ndices_burs%e2%88%9a%c2%b0tiles_de_todo_el_mundo"],
+"pb/AM": [
+"ne:un_esfuerzo_conjunto",
+"ne:varios_bancos_nacionales",
+"ne:m%e2%88%9a%c2%b0s_dinero"
+]
+},
+"classes": {"fn": ["Communication_response"]},
+"climax": 29,
+"event": "ev26",
+"group": "029:[\"reaccionar\"]",
+"groupName": "[\"reaccionar\"]",
+"groupScore": "029",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt#ev26",
+"labels": ["reaccionar"],
+"mentions": [
+{
+"char": [
+"133",
+"145"
+],
+"sentence": ["3"],
+"terms": ["t23"],
+"tokens": ["w23"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt"]
+},
+{
+"char": [
+"133",
+"145"
+],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt"]
+}
+],
+"prefLabel": ["reaccionar"],
+"sentence": "3",
+"size": "7.25",
+"time": "20080918",
+"topics": [
+"quantitative restriction",
+"Spain",
+"political group",
+"import licence",
+"goatmeat",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Cause": ["ne:el_terremoto_masivo_de_magnitud_9%2c0_y_el_tsunami"],
+"fn/Impactee": ["ne:el_pa%e2%88%9a%e2%89%a0s"]
+},
+"classes": {"fn": [
+"Cause_impact",
+"Cause_harm",
+"Impact",
+"Hit_target",
+"Experience_bodily_harm"
+]},
+"climax": 28,
+"event": "ev11",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_17376_Japanese_stocks_continue_to_fall_after_earthquake.txt#ev11",
+"labels": ["azotar"],
+"mentions": [{
+"char": [
+"244",
+"252"
+],
+"sentence": ["3"],
+"terms": ["t44"],
+"tokens": ["w44"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_17376_Japanese_stocks_continue_to_fall_after_earthquake.txt"]
+}],
+"prefLabel": ["azotar"],
+"sentence": "3",
+"size": "7.0",
+"time": "20110310",
+"topics": [
+"export licence",
+"Spain",
+"agricultural product",
+"quantitative restriction",
+"import licence",
+"cassava"
+]
+},
+{
+"actors": {
+"eso/translocation-theme": ["dbp:Bank_of_Japan"],
+"fn/Theme": ["ne:1_bill%e2%88%9a%e2%89%a5n_de_%c2%ac%e2%80%a2"],
+"pb/AM": ["ne:muchas_de_las_empresas_financieras_que_tienen_pr%e2%88%9a%c2%a9stamos_hipotecarios_de_alto_riesgo"]
+},
+"classes": {
+"eso": ["Placing"],
+"fn": [
+"Placing",
+"Filling",
+"Ingest_substance"
+]
+},
+"climax": 23,
+"event": "ev18",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt#ev18",
+"labels": ["inyectar"],
+"mentions": [
+{
+"char": [
+"1235",
+"1242"
+],
+"sentence": ["9"],
+"terms": ["t228"],
+"tokens": ["w228"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+},
+{
+"char": [
+"563",
+"573"
+],
+"sentence": ["6"],
+"terms": ["t111"],
+"tokens": ["w111"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"]
+}
+],
+"prefLabel": ["inyectar"],
+"sentence": "6",
+"size": "2.875",
+"time": "20070810",
+"topics": [
+"goatmeat",
+"Spain",
+"agricultural product",
+"export licence",
+"quantitative restriction",
+"import licence"
+]
+},
+{
+"actors": {"fn/Agent": ["ne:el_mercado"]},
+"classes": {"fn": [
+"Closure",
+"Body_movement"
+]},
+"climax": 22,
+"event": "ev30",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10053_US_stock_markets_tumble.txt#ev30",
+"labels": ["cerrar"],
+"mentions": [
+{
+"char": [
+"439",
+"444"
+],
+"sentence": ["6"],
+"terms": ["t87"],
+"tokens": ["w87"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10053_US_stock_markets_tumble.txt"]
+},
+{
+"char": [
+"1265",
+"1273"
+],
+"sentence": ["10"],
+"terms": ["t238"],
+"tokens": ["w238"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10053_US_stock_markets_tumble.txt"]
+}
+],
+"prefLabel": ["cerrar"],
+"sentence": "6",
+"size": "2.75",
+"time": "20071019",
+"topics": [
+"agricultural product",
+"import licence",
+"quantitative restriction",
+"export licence",
+"cassava",
+"Spain"
+]
+},
+{
+"actors": {"fn/Created_entity": [
+"ne:que_los_mercados_mayores_%22_ralentizaron_%27%27_sus_ejecuciones_cuando_qued%e2%88%9a%e2%89%a5_claro_que_se_estaban_produciendo_errores_inform%e2%88%9a%c2%b0ticos_%3b_como_consecuencia_de_ello_%2c_la_gran_mayor%e2%88%9a%e2%89%a0a_de_las_%e2%88%9a%e2%89%a5rdenes_de_compra_se_retiraron_durante_un_breve_per%e2%88%9a%e2%89%a0odo_de_tiempo_%2c_lo_que_permiti%e2%88%9a%e2%89%a5_que_la_ca%e2%88%9a%e2%89%a0da_libre_se_prolongara_durante_varios_minutos",
+"ne:dilucidar_si_se_hab%e2%88%9a%e2%89%a0an_producido_transacciones_err%e2%88%9a%e2%89%a5neas"
+]},
+"classes": {"fn": [
+"Intentionally_create",
+"Behind_the_scenes",
+"Creating",
+"Manufacturing",
+"Birth",
+"Cause_to_start"
+]},
+"climax": 17,
+"event": "ev52",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt#ev52",
+"labels": ["producir"],
+"mentions": [
+{
+"char": [
+"1115",
+"1126"
+],
+"sentence": ["9"],
+"terms": ["t223"],
+"tokens": ["w223"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt"]
+},
+{
+"char": [
+"1527",
+"1536"
+],
+"sentence": ["11"],
+"terms": ["t296"],
+"tokens": ["w296"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt"]
+}
+],
+"prefLabel": ["producir"],
+"sentence": "9",
+"size": "2.125",
+"time": "20100508",
+"topics": [
+"goatmeat",
+"agricultural product",
+"export licence",
+"Spain",
+"quantitative restriction",
+"import licence"
+]
+},
+{
+"actors": {"fn/Agent": ["ne:los_mercados"]},
+"classes": {"fn": [
+"Body_movement",
+"Closure"
+]},
+"climax": 16,
+"event": "ev27",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt#ev27",
+"labels": ["cerrar"],
+"mentions": [
+{
+"char": [
+"1573",
+"1580"
+],
+"sentence": ["13"],
+"terms": ["t317"],
+"tokens": ["w317"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+},
+{
+"char": [
+"1070",
+"1077"
+],
+"sentence": ["9"],
+"terms": ["t206"],
+"tokens": ["w206"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"]
+}
+],
+"prefLabel": ["cerrar"],
+"sentence": "9",
+"size": "2.0",
+"time": "20081008",
+"topics": [
+"Spain",
+"goatmeat",
+"export licence",
+"quantitative restriction",
+"agricultural product",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Created_entity": ["ne:la_fuerte_y_r%e2%88%9a%c2%b0pida_ca%e2%88%9a%e2%89%a0da"],
+"pb/AM": [
+"ne:una_gran_cantidad_de_acciones",
+"ne:una_orden"
+]
+},
+"classes": {"fn": [
+"Birth",
+"Manufacturing",
+"Cause_to_start",
+"Intentionally_create",
+"Creating",
+"Behind_the_scenes"
+]},
+"climax": 14,
+"event": "ev50",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt#ev50",
+"labels": ["producir"],
+"mentions": [{
+"char": [
+"722",
+"729"
+],
+"sentence": ["6"],
+"terms": ["t153"],
+"tokens": ["w153"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt"]
+}],
+"prefLabel": ["producir"],
+"sentence": "6",
+"size": "1.75",
+"time": "20100507",
+"topics": [
+"quantitative restriction",
+"agricultural product",
+"goatmeat",
+"import licence",
+"Spain",
+"export licence"
+]
+},
+{
+"actors": {
+"fn/Event": ["ne:las_ventas_por_p%e2%88%9a%c2%b0nico"],
+"pb/AM": ["ne:el_mercado"]
+},
+"classes": {"fn": [
+"Experiencer_subj",
+"Experiencer_focus"
+]},
+"climax": 14,
+"event": "ev19",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt#ev19",
+"labels": ["temer"],
+"mentions": [{
+"char": [
+"543",
+"549"
+],
+"sentence": ["6"],
+"terms": ["t97"],
+"tokens": ["w97"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt"]
+}],
+"prefLabel": ["temer"],
+"sentence": "6",
+"size": "1.75",
+"time": "20080917",
+"topics": [
+"export licence",
+"import licence",
+"agricultural product",
+"quantitative restriction",
+"Spain",
+"cassava"
+]
+},
+{
+"actors": {"fn/Process": ["ne:el_mercado"]},
+"classes": {"fn": [
+"Halt",
+"Activity_stop",
+"Process_stop"
+]},
+"climax": 14,
+"event": "ev15",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt#ev15",
+"labels": ["parar"],
+"mentions": [{
+"char": [
+"582",
+"589"
+],
+"sentence": ["6"],
+"terms": ["t105"],
+"tokens": ["w105"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt"]
+}],
+"prefLabel": ["parar"],
+"sentence": "6",
+"size": "1.75",
+"time": "20080917",
+"topics": [
+"import licence",
+"cassava",
+"export licence",
+"agricultural product",
+"quantitative restriction",
+"Spain"
+]
+},
+{
+"actors": {
+"fn/Speaker": ["ne:la_asociaci%e2%88%9a%e2%89%a5n_de_banqueros_hipotecarios"],
+"fn/Topic": ["ne:de_que_los_pagos_tard%e2%88%9a%e2%89%a0os_de_hipotecas_y_las_ejecuciones_hipotecarias_en_las_viviendas_estadounidenses_hab%e2%88%9a%e2%89%a0an_subido_en_el_cuarto_trimestre_hasta_su_nivel_m%e2%88%9a%c2%b0s_alto_en_a%e2%88%9a%c2%b1os"]
+},
+"classes": {"fn": [
+"Telling",
+"Statement"
+]},
+"climax": 14,
+"event": "ev34",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt#ev34",
+"labels": ["informar"],
+"mentions": [{
+"char": [
+"682",
+"689"
+],
+"sentence": ["6"],
+"terms": ["t126"],
+"tokens": ["w126"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt"]
+}],
+"prefLabel": ["informar"],
+"sentence": "6",
+"size": "1.75",
+"time": "20081231",
+"topics": [
+"quantitative restriction",
+"export licence",
+"Spain",
+"goatmeat",
+"goat",
+"sheepmeat"
+]
+},
+{
+"actors": {
+"fn/Message": ["ne:d%e2%88%9a%c2%a9bil"],
+"fn/Proposition": ["ne:el_mercado_laboral"]
+},
+"classes": {"fn": [
+"Communication",
+"Evidence",
+"Sign"
+]},
+"climax": 12,
+"event": "ev24",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt#ev24",
+"labels": ["indicar"],
+"mentions": [{
+"char": [
+"908",
+"917"
+],
+"sentence": ["7"],
+"terms": ["t167"],
+"tokens": ["w167"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt"]
+}],
+"prefLabel": ["indicar"],
+"sentence": "7",
+"size": "1.5",
+"time": "20080904",
+"topics": [
+"agricultural product",
+"export licence",
+"import licence",
+"Spain",
+"quantitative restriction",
+"cassava"
+]
+},
+{
+"actors": {
+"fn/Cognizer": [
+"dbp:Accenture",
+"dbp:Hase"
+],
+"fn/Evaluee": [
+"ne:c%e2%88%9a%e2%89%a5mo_sus_acciones_ca%e2%88%9a%e2%89%a0an_en_picado_desde_42_d%e2%88%9a%e2%89%a5lares_hasta_4_c%e2%88%9a%c2%a9ntimos_%2c_aunque_m%e2%88%9a%c2%b0s_tarde_se_recuperaron_hasta_alcanzar_al_cierre_los_41%2c09_d%e2%88%9a%e2%89%a5lares",
+"ne:el_potencial_de_los_grandes_ordenadores_de_gran_velocidad_para_generar_transacciones_falsas_y_desatar_el_caos_en_el_mercado"
+],
+"fn/Reason": ["ne:de_nuevo"]
+},
+"classes": {"fn": [
+"Regard",
+"Perception_active",
+"Categorization",
+"Grasp",
+"Perception_experience"
+]},
+"climax": 10,
+"event": "ev59",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt#ev59",
+"labels": ["ver"],
+"mentions": [
+{
+"char": [
+"2447",
+"2450"
+],
+"sentence": ["18"],
+"terms": ["t459"],
+"tokens": ["w459"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt"]
+},
+{
+"char": [
+"2099",
+"2102"
+],
+"sentence": ["15"],
+"terms": ["t394"],
+"tokens": ["w394"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt"]
+}
+],
+"prefLabel": ["ver"],
+"sentence": "15",
+"size": "1.25",
+"time": "20110201",
+"topics": [
+"quantitative restriction",
+"agricultural product",
+"Spain",
+"export licence",
+"goatmeat",
+"import licence"
+]
+},
+{
+"actors": {
+"fn/Agent": ["ne:el_dow_industrials"],
+"fn/Entity": ["ne:r%e2%88%9a%c2%a9cords"]
+},
+"classes": {"fn": ["Recording"]},
+"climax": 10,
+"event": "ev24",
+"group": "028:[\"azotar\"]",
+"groupName": "[\"azotar\"]",
+"groupScore": "028",
+"instance": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt#ev24",
+"labels": ["registrar"],
+"mentions": [{
+"char": [
+"1050",
+"1058"
+],
+"sentence": ["8"],
+"terms": ["t195"],
+"tokens": ["w195"],
+"uri": ["http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt"]
+}],
+"prefLabel": ["registrar"],
+"sentence": "8",
+"size": "1.25",
+"time": "20070226",
+"topics": [
+"agricultural product",
+"quantitative restriction",
+"export licence",
+"import licence",
+"cassava",
+"Spain"
+]
+}
+],
+"headline": "corpus_stock",
+"mention_cnt": [147],
+"sources": [
+{
+"text": "Las bolsas estadounidenses caen en el aniversario del ' lunes negro ' 20 de octubre de 2007 Dicen que la historia suele repetirse . El día de hoy fue histórico , cuando hace 20 años el mercado Dow Jones Industrial Average se desplomó en lo que se conoce como ` lunes negro ' . El crac provocó que el mercado se desplomara 508 puntos , perdiendo cerca del 24 % . El viernes , el Dow Jones estuvo cerca de batir ese récord cuando el mercado cerró en -366,94 puntos , casi tres por ciento menos . La pérdida pudo estar motivada por varios factores , siendo uno de ellos la aprobación de una medida por parte del gobierno turco el 18 de octubre para enviar tropas turcas a Irak en un intento de sacar militantes del Partido de los Trabajadores de Kurdistán ( PKK ) . Esto provocó que los precios del petróleo se dispararan hasta el máximo histórico , con el mayor récord por encima de 89,00 $ , que se alcanzó el 18 de octubre . Los temores de que el mercado inmobiliario estadounidense haya estancado también han llevado a Caterpillar Inc. , que fabrica y vende equipos de construcción , a alertar de que el estancamiento provocaría una caída de beneficios y un duro golpe para la economía americana . El viernes , sus acciones perdieron cerca del seis por ciento , y cerraron en 73,57 $ . Inversores y expertos de los mercados están trastornados por las pérdidas , y califican la situación de amenazante . `` Es bastante amenazante . Una empresa como Caterpillar debería ser el paradigma del crecimiento global y de los beneficios de la debilidad del dólar . Hace plantearse esta pregunta : ¿ tan fuerte es realmente el crecimiento global ? ¿ Ha llegado a su fin el furor de las ganancias de la debilidad del dólar ^ ? dijo Bill Strazzullo , jefe de estrategia en Bell Curve Trading . Otros creen que las pérdidas fueron una manera de responder emocionalmente a los acontecimientos del ` lunes negro ' . `` Algunos informes de las ganancias fueron un tanto decepcionantes , pero no tan malos . Creo que estamos respondiendo emocionalmente al 20º aniversario del desplome de la bolsa de octubre de 1987 . Me gustaría reír a menos que ofenda ^ , dijo Andy Brooks , jefe de compraventa en T Rowe Price . El NASDAQ también ha tenido grandes pérdidas y ha cerrado con 74,15 puntos menos o -2,64 % , en 2.725,16 . El S&P 500 también ha recibido un duro golpe , pues ha perdido 39,45 puntos , o -2,56 , y ha cerrado en 1.500,63 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10053_US_stock_markets_tumble.txt"
+},
+{
+"text": "Las existencias mundiales caen en picado por miedo a una recesión en EEUU 21 de enero de 2008 El lunes , los precios de las acciones cayeron significativamente en Europa y Asia por miedo a problemas económicos en los Estados Unidos , lo que provocó las mayores pérdidas experimentadas en un mismo día de los últimos años . En Hong Kong , el índice Hang Seng cayó un 5,5 por ciento , su mayor caída desde los ataques terroristas del 11 de septiembre de 2001 . En India , China , Gran Bretaña , Francia , Alemania y Canadá , se registraron pérdidas de entre tres y siete por ciento . Aunque haya muchos factores que vinculan las economías nacionales , los analistas achacan las recientes pérdidas al miedo a una recesión en los Estados Unidos . Los Estados Unidos son el principal mercado de exportación para muchas empresas extranjeras . Inversores extranjeros también han comprado muchas participaciones en compañías estadounidenses . A finales de 2007 , cuando las empresas americanas de préstamo hipotecario empezaron a informar de numerosos préstamos morosos , las pérdidas se expandieron a otras instituciones financieras , lo que provocó un endurecimiento de los mercados de crédito y una preocupación en torno a los altos niveles de endeudamiento de los americanos . La semana pasada , el presidente Bush propuso un plan de estímulo de 145.000 millones de dólares para alentar el gasto de los consumidores . Pero los analistas dicen que es posible que la medida no sirva para evitar la recesión , que se define como un gran declive en la economía de una nación durante un período de al menos seis meses . Los mercados estadounidenses cierran el lunes con motivo del Día de Martin Luther King Jr. , fiesta nacional , pero la compraventa de existencias de futuros indica que se prevén mayores pérdidas cuando los mercados vuelvan a abrir el martes .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/10804_World_stocks_plunge_on_fears_on_US_recession.txt"
+},
+{
+"text": "El Dow cae 340 puntos en un clima de desempleo y de noticias sobre índices de venta minorista 4 de septiembre de 2008 El Dow Jones Industrial Average , un índice bursátil acostumbrado a medir los resultados de los mercados de valores americanos , cayó 344,65 al término de la jornada del jueves . Se desconoce la razón exacta de la caída , pero diferentes agencias de noticias apuntan a diferentes causas . El New York Times cita un incremento en las cifras del desempleo publicadas el jueves por el Departamento de Trabajo de EEUU , así como una caída en la venta minorista publicada por grandes empresas . Según Associated Press , el número de personas que acreditan una prestación semanal de desempleo subió la semana pasada en 15.000 , hasta llegar a 444.000 , lo cual , según el New York Times , está cerca de la cifra más alta alcanzada en cinco años . `` Las cifras de empleo de esta mañana continúan indicando que el mercado laboral permanece débil en el mejor de los casos , y parece que se seguirá perdiendo empleo en lo que queda de año ^ , dijo Joseph Brusuelas , economista jefe en Merk Investments , en una declaración al New York Times . Una de las grandes empresas que registraron ganancias en ventas fue Wal-Mart , con un incremento del 3 por ciento , que resultó en una pérdida de un centavo en su stock . El socio minorista Target registró pérdidas en ventas . Las acciones de las compañías energéticas ExxonMobil y Chevron cayeron un 1,5 y un 3 por ciento , respectivamente . Los otros dos principales índices bursátiles americanos también cayeron . El S&P 500 cayó un 2,99 por ciento , mientras que el índice Nasdaq Composite cayó un 3,20 por ciento . La caída de 344,65 puntos del Dow dejó el índice en 11.188,23 , un descenso del 2,99 por ciento desde el cierre de la jornada del miércoles . Según el New York Times , esa ha sido la mayor caída desde junio de este año , pero el esperado anuncio del viernes de los datos de desempleo de agosto podría provocar una subida del índice . Tanto el New York Times como Associated Press informan de que el número de empleos en el sector servicios subió en agosto , según las investigaciones realizadas por el Instituto para la Gestión del Abastecimiento . Este es el primer aumento en el número de empleos en varios meses . CNNMoney.com apunta a un incremento en el precio de los bonos de Hacienda como reacción a los datos que salieron el miércoles de que la economía americana seguiría siendo lenta en 2009 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12587_Dow_falls_340_points_amid_unemployment_and_retail_sales_rates_news.txt"
+},
+{
+"text": "Las bolsas de todo el mundo caen drásticamente 17 de septiembre de 2008 Hoy , las bolsas de todo el mundo , especialmente las de Estados Unidos , han caído drásticamente . Esto es debido a los acontecimientos que se están sucediendo en el mundo financiero , incluyendo el rescate financiero de la aseguradora AIG por parte de la Reserva Federal de EEUU . El principal índice de Reino Unido , el FTSE 100 , se ha devaluado un 2,36 % , que equivale a 118,40 puntos , por debajo de la barrera de los 5.000 , hasta llegar a 4.907,20 . El Dow Jones ha caído un 2,62 % a las 16:08 UTC , una ligera subida desde hace unas horas . El Dow Jones tiene actualmente un valor de 10.769,00 puntos . El índice Nasdaq ha caído un 3,16 % hasta 2.138,14 , mientras que el Dax estaba a las 16:08 UTC un 1,75 % más abajo que al principio del día . El índice japonés Nikkei ha sido uno de los pocos que han subido su valor durante el día . Terminó subiendo un 1,2 % , aunque antes el índice había perdido mucho valor cuando ayer alcanzó su récord negativo . Darren Winder , un analista de mercado de Cazenove , dijo `` No creo que nadie tenga alguna o mucha confianza en la dirección que tomará el mercado dentro de unos pocos días ^ . Muchas de las actividades de hoy en el mercado tenían relación con la compra el martes de American International Group ( AIG ) en un préstamo de 85.000 millones de dólares estadounidenses , a cambio de una participación del 79,9 % en la empresa . El hecho de que AIG cuente con miles de divisiones que realizan actividades en todo el mundo le deja al margen de los recientes problemas con otros bancos . AIG se construyó en los últimos años a través de adquisiciones y fusiones de muchas compañías de todo el mundo , lo que ofrecía a los accionistas de AIG una base diversa de ingresos , lo que le permitía aumentar beneficios de manera continua . Además , los mercados también han tenido dificultades en la última semana tras la negativa de la Reserva Federal a adquirir Lehman Brothers , lo que ha obligado a la empresa a declararse en quiebra el lunes después de que Bank of America ( BoA ) y Barclays PLC se retiraran de las negociaciones el fin de semana .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12658_Stock_markets_worldwide_fall_dramatically.txt"
+},
+{
+"text": "Las bolsas rusas en suspenso en medio de la agitación del mercado 17 de septiembre de 2008 La compraventa en las principales bolsas de Rusia ha sido suspendida por segundo día consecutivo debido a la incesante agitación en los mercados financieros de todo el mundo . La suspensión ha tenido lugar debido a una orden del Servicio Federal para los Mercados Financieros del gobierno ruso , que exigía la suspensión . `` El dinero tardó demasiado en entrar en el sistema ^ , dijo el analista de Uralsib Chris Weafer al comentar esta decisión . `` Temían las ventas por pánico , así que pararon el mercado ^ . Antes de la suspensión , la bolsa RTS ha caído un 6,39 por ciento en solo dos horas , mientras que el índice MICEX ha empezado el día con una subida , antes de volver a caer . Este ha sido el peor día en el mercado ruso desde la crisis financiera del país en 1998 . Varios mercados financieros han seguido perdiendo valor . El principal índice británico , el FTSE 100 , se ha devaluado un 2,36 % , que equivale a 118,40 puntos , por debajo de la barrera de los 5.000 , hasta llegar a 4.907,20 . El Dow Jones ha caído un 2,62 % a las 16:08 UTC , una ligera subida desde hace unas horas . El Dow Jones tiene actualmente un valor de 10.769,00 puntos . El índice NASDAQ ha caído un -3,16 % hasta 2.138,14 , mientras que el Dax estaba a las 16:08 UTC un 1,75 % más abajo que al principio del día . El gobierno ruso también ha anunciado una inyección de 44.000 millones de dólares en la economía rusa . La inyección de efectivo se realizará a través de VTB , Sberbank y Gazprombank , que son bancos estatales .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12660_Russian_stock_markets_suspended_amid_market_turmoil.txt"
+},
+{
+"text": "Los mercados rusos permanecerán cerrados hasta el viernes 18 de septiembre de 2008 El gobierno ruso mantendrá todas las bolsas cerradas hasta el viernes , incluyendo los índices MICEX y RTS . Con su peor crisis financiera desde 1989 , el gobierno está luchando por frenar la crisis económica y restablecer la confianza de los consumidores . El presidente Dmitry Medvedev habló en la televisión nacional para tranquilizar al público . `` No hay tarea más importante para las autoridades rusas que alcanzar la estabilidad de nuestro sistema financiero en las circunstancias actuales . Esa es nuestra principal prioridad ^ , dijo Medvedev . `` Debería darse al mercado todo el apoyo necesario ^ . El ministro de Finanzas Alexei Kudrin anunció que se inyectarían 500.000 millones de rublos ( 19.700 millones de dólares estadounidenses ) en las bolsas cuando abrieran el viernes . La mitad de dicha cuantía procedería del presupuesto federal . Además , el Banco Central respondió ofreciéndose a prestar 60.000 millones de rublos adicionales ( 2.630 millones de dólares estadounidenses ) a los 1,13 billones de rublos ( 44.600 millones de dólares estadounidenses ) que ofreció ayer a Sberbank , VTB Group y Gazprombank . El Banco Central está animando a los principales bancos nacionales a facilitar el dinero a pequeños prestamistas . El presidente del Banco Central Sergei Ignatiev también anunció el miércoles que se eliminarían los requisitos de reserva obligatorios para los bancos , con lo que se liberarían 300.000 millones de rublos adicionales . `` Esperamos que los bancos no gasten estos fondos en dar créditos a largo plazo o en otro tipo de créditos a clientes ^ , dijo , `` sino en mantener el necesario volumen de su liquidez y en realizar liquidaciones ^ . Como consecuencia de la invasión por parte de Rusia de su vecina Georgia , los mercados vieron que los inversores retiraron cerca de 36.000 millones de dólares estadounidenses desde principios de agosto . La caída de los precios del petróleo y del gas están agravando aún más las dificultades económicas , ya que habían fortalecido la economía rusa durante varios años . Como ayuda , a partir del 1 de octubre los reguladores bajarán el impuesto de exportación sobre el petróleo , con lo que las petroleras rusas ahorrarán cerca de 5.500 millones de dólares estadounidenses .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12665_Russian_markets_to_remain_closed_until_Friday.txt"
+},
+{
+"text": "Los mercados repuntan al inyectar efectivo el banco central mundial 18 de septiembre de 2008 Los índices bursátiles de todo el mundo reaccionaron favorablemente después de que varios bancos nacionales anunciaran un esfuerzo conjunto para inyectar más dinero en los mercados . A las 8:00 UTC , el Banco de Canadá , el Banco de Inglaterra , el Banco Central Europeo ( BCE ) , la Reserva Federal de los Estados Unidos , el Banco de Japón y el Banco Nacional Suizo anunciaron conjuntamente que trabajarían juntos para facilitar acuerdos crediticios recíprocos a las instituciones que se enfrenten a una colisión financiera provocada por el dólar estadounidense . Los acuerdos crediticios , también conocidos como `` líneas swap ^ , se utilizarán para contribuir a la financiación a corto plazo de pequeños grupos de préstamos . Por un total de 180.000 millones de dólares estadounidenses , la Reserva Federal acordó incrementar las líneas swap que tiene con el Banco Central Europeo de 55.000 millones a 110.000 millones de dólares estadounidenses , y las que tiene con el Banco Nacional Suizo , de 12.000 millones a 27.000 millones de dólares estadounidenses . Además , abrió nuevas líneas swap con el Banco de Japón por 60.000 millones de dólares estadounidenses , por 40.000 millones con el Banco de Inglaterra , y por 10.000 millones con el Banco de Canadá . Estas líneas swap estarán disponibles hasta el 30 de enero de 2009 . En su rueda de prensa , la Reserva Federal afirmó `` Estas medidas , junto con otras acciones que han tomado distintos bancos centrales en los últimos días , están diseñadas para mejorar las condiciones de liquidez en los mercados financieros globales . Los bancos centrales siguen trabajando codo con codo , y darán los pasos adecuados para hacer frente a las continuas presiones ^ . En las bolsas americanas , en los primeros 90 minutos , el Dow Jones subió cerca de 200 puntos , el NASDAQ subió cerca de nueve puntos , y el S&P 500 subió cerca de 15 puntos . En los mercados europeos , en la mitad de la jornada , el FTSE 100 de Reino Unido subió 25 puntos , el DAX superó los 54 puntos , y el CAC 40 subió cerca de 15 puntos . Mientras tanto , el índice japonés Nikkei cerró en 11.489,30 puntos , su peor registro en tres años , y el Hang Seng bajó hasta 16.283,72 puntos antes de cerrar en 17.849,97 puntos . Los mercados rusos siguieron cerrados por tercer día por orden del gobierno ruso . Rusia anunció que inyectaría a sus propios mercados 19.700 millones de dólares estadounidenses adicionales . La mitad de dicha cuantía procedería del presupuesto federal . Los índices rusos reabrirán el viernes por la mañana .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12667_Markets_rally_as_world_central_banks_infuse_cash.txt"
+},
+{
+"text": "Las acciones de todo el mundo suben repentinamente como consecuencia del plan del gobierno estadounidense 20 de septiembre de 2008 Hoy , las bolsas de todo el mundo , especialmente las de Reino Unido , han subido drásticamente . Esto es debido a los acontecimientos que se están sucediendo en el mundo financiero , incluyendo el anuncio del gobierno de los Estados Unidos de que va a comprar miles de millones de dólares en préstamos dudosos de los bancos estadounidenses . El principal índice británico , el FTSE 100 , se ha revaluado un 8,04 % , que equivale a 392,50 puntos , por encima de la barrera de los 5.000 , hasta llegar a 5.272,50 . El Dow Jones ha crecido un 3,10 % a las 14:58 UTC , una subida de 330,89 . El Dow Jones tiene actualmente un valor de 11.350,58 puntos . El índice NASDAQ ha subido un 2,53 % hasta 2.248,63 , mientras que el Dax estaba a las 14:58 UTC un 5,06 % más arriba que al principio del día . La Hacienda estadounidense ha descrito el plan de rescate del gobierno en una rueda de prensa dada hace unas horas . Dijo `` El Departamento de Hacienda de EEUU ha anunciado hoy el establecimiento de un programa temporal de garantía para la industria de los fondos comunes de inversión . Para el próximo año , la Hacienda estadounidense asegurará las participaciones de cualquier fondo común de inversiones que opte a ello y ofrecido públicamente -- tanto minorista como institucional -- y que pague la cuota para participar en el programa ^ . Henry Paulson , el secretario de la Hacienda estadounidense , ha explicado las razones del gobierno para presentar su plan . Ha dicho que el gobierno iba a comprar los créditos dudosos `` para restablecer la confianza en nuestros mercados y en nuestras instituciones financieras , para que puedan impulsar un crecimiento continuo y la prosperidad , tenemos que abordar el problema que hay detrás ^ . El presidente George W. Bush , hablando en una conferencia de prensa junto a Paulson , ha dicho `` este es un momento crucial para la economía americana ^ . El plan del gobierno está autorizado por la Ley de Reserva de Oro de 1934 , que permite a la Hacienda `` comerciar con el oro , con el cambio de divisas y con otros instrumentos de crédito y valores ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12673_Shares_worldwide_surge_due_to_US_government_plan.txt"
+},
+{
+"text": "Los mercados de todo el mundo caen estrepitosamente 6 de octubre de 2008 Hoy , las bolsas de todo el mundo han caído drásticamente . Esto ha sido consecuencia de los acontecimientos que se han sucedido en el mundo financiero , incluyendo el rescate por parte del gobierno estadounidense del sector financiero con 700.000 millones de dólares . A las 14:48 UTC , el principal índice británico , el FTSE 100 , se ha devaluado un 6,50 % ( 118,40 puntos ) , hasta un punto aún más bajo de la barrera de los 5.000 , hasta llegar a 4.656,60 . El Dow Jones ha caído un 3,76 % a las 16:08 UTC , una ligera subida desde hace unas horas . El Dow Jones tiene actualmente un valor de 9.936,94 puntos , por debajo de la barrera de diez mil . El índice Nasdaq ha caído 100,12 puntos hasta 1.847,27 , mientras que el DAX estaba a las 16:08 UTC un 6,62 % más abajo que al principio del día . Hoy , el índice Dow Jones ha sido uno de los que peor se han comportado , ya que ninguna de sus empresas subió el precio de sus acciones . Lo mismo le ha sucedido al índice CAC 40 . El índice Merval es otro de los que se han comportado mal hoy . Se ha devaluado un 10,12 % , mientras que el índice afiliado Merval 25 ha bajado casi otro tanto , un 10,03 % . Uno de los índices que peor se ha comportado hoy ha sido el índice brasileño Bovespa . Hoy ya ha caído un 14,45 % , a pesar de que todavía no se ha llegado a la mitad de la jornada .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12809_Worldwide_markets_fall_precipitously.txt"
+},
+{
+"text": "Siguen cayendo las bolsas de todo el mundo 07 de octubre del 2008 Las bolsas de todo el mundo siguen cayendo dramáticamente . Ello se debe a los sucesos que se están desarrollando en el mundo financiero , incluido el rescate de 700.000 millones de $ del gobierno estadounidense para el sector financiero . A las 18:00 UTC , el FTSE 100 , principal índice del Reino Unido , ha sido uno de los pocos en aumentar el valor . Ha subido un 0,16 % ( 16,03 puntos ) , pero se ha mantenido por debajo de la marca de los 5.000 , a 4.605,22 . Sin embargo , a algunas acciones de este índice les ha ido muy mal ; por ejemplo , las acciones de HBOS han caído un inverosímil 41,54 % y han terminado el día en 94 puntos . El índice Dow Jones ha seguido cayendo , y a las 18:00 UTC , había caído 260,77 puntos o 2,62 % ; ha llegado hasta 9.694 . ,73 , y se ha mantenido por debajo de 10.000 . Al Banco de América le ha ido peor : ha caído 17,38 % . También ha caído dramáticamente el índice Nasdaq , un 2,95 % ( 54.97 puntos ) , y ha quedado en 1.807,99 puntos . YRC Worldwide , Inc. ha sido el que más ha caído en este índice , con una pérdida del 27,30 % , que ha provocado la reducción del precio de las acciones a 5,13 . Dana Perino , portavoz de la Casa Blanca , ha hablado hoy sobre las recientes caídas de las bolsas que hemos descrito más arriba . ^ Una de las cosas que puede hacer el presidente es recordarles lo que puede hacer este paquete de rescate . Una de las cosas más importantes que va a hacer es asegurar que todos sepan que su depósito bancario está a salvo , asegurado por el FDIC , y el acto legislativo ha permitido un incremento temporal de 100.000 $ a 250.000 $ . De esa forma se asegura a la gente que sus cuentas bancarias están seguras , y ése es un mensaje importante ^ , ha declarado , tratando de tranquilizar a los ciudadanos . ^ Pero hay que recordar que con este paquete de rescate hemos pedido a los americanos que hagan algo realmente grande y que comprometan mucho dinero para ayudar a prevenir que la congelación de créditos afecte a todos los que están más abajo en la cadena alimenticia . En ese sentido , sí , el presidente cree que es importante que sepan de boca del presidente de Estados Unidos que entiende que nadie quería hacer este acto legislativo , y , sin embargo , era lo que había que hacer . Ahora que lo hemos hecho , lo más importante es que el Tesoro sea lo más diligente posible para ser eficiente y efectivo , para asegurase de que el plan hará lo que se supone que tiene que hacer y para descongelar los mercados de créditos ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12814_Stock_markets_worldwide_continue_to_fall.txt"
+},
+{
+"text": "Los mercados de todo el mundo bajan ; el Dow Jones cae por debajo de los 9.000 9 de octubre de 2008 Las bolsas de todo el mundo han caído drásticamente esta semana preocupadas por que las recientes acciones de los gobiernos no prevengan una recesión global . La peor caída la ha sufrido el Dow Jones ( DJIA ) , que ha caído 678 puntos , o más del 7,3 % , por debajo de los 9.000 , y ha cerrado en 8.579,19 . El índice ha caído más de 2.000 puntos en los últimos nueve días , y ha alcanzado su nivel más bajo desde 2003 . El S&P 500 ha bajado más del 7 % . Los mercados estadounidenses han abierto en el lado positivo , pero con malas noticias llegadas desde diferentes áreas , como la duda sobre si la factura del rescate bancario de 700.000 millones de dólares estadounidenses emitida por la Cámara de Representantes de los Estados Unidos y el Senado sería efectiva . Las preocupaciones sobre la inexistencia de compraventa en el mercado crediticio han sido una de las principales causas de la caída . Este ha sido el séptimo día consecutivo en el que los mercados han cerrado en números negativos muy acentuados . Uno de los valores que más ha caído ha sido el de General Motors , que ha perdido más del 33 % de su valor . En el Reino Unido , el FTSE 100 ha caído desde 145 , que ha sido el registro más alto del día , hasta 52,9 puntos menos , que ha sido el registro más bajo de los últimos 4 años . El que más ha caído ha sido Barclays , que ha caído un 13,1 % . Los únicos índices principales del mundo que han ganado algo han sido el Hang Seng de Hong Kong , que ha cerrado en 511,51 puntos , o un 3,31 % más , y el RTS ruso , que se ha recuperado parcialmente de la caída de ayer con un incremento del 10,91 % . `` Los mercados siguen siendo escépticos con respecto a la coordinación internacional para hacer frente a los problemas del sistema financiero ^ , han explicado los economistas de Barclays Capital , y han vaticinado que los valores seguirán siendo volátiles . Los inversores están a la espera del resultado de diversas reuniones que tendrán lugar este fin de semana . Los ministros de Finanzas del G7 se reunirán en Washington , y el Fondo Monetario Internacional y el Banco Mundial organizarán sus reuniones de otoño .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12832_Markets_down_across_the_world.txt"
+},
+{
+"text": "Los mercados globales caen en picado . 24 de octubre de 2008 Las bolsas de todo el mundo han caído drásticamente , y algunas de ellas han registrado la mayor caída en su historia . Los mercados asiáticos han registrado la mayor liquidación . El Nikkei ha caído un 9,62 % , y ha alcanzado el registro más bajo en 20 años . Japón también ha vivido un colapso de una aseguradora de mediano tamaño , Yamato Life Insurance Company , que se ha declarado en quiebra . El Hang Seng , que fue uno de los pocos mercados que ayer cerró en positivo , ha caído un 7,19 % . Australia ha caído un 8,4 % , y Corea del Sur ha sufrido una caída del 9 % . En Europa , los mercados han caído en la apertura ; el FTSE ha perdido un 11 % . Solo han podido recuperarse ligeramente , y todos los mercados europeos han perdido más del 5 % . La liquidación europea se ha debido más a las caídas asiáticas que a ninguna noticia específica . Los bancos e instituciones financieras de Europa han sido los que más han vendido . Asimismo , las empresas relacionadas con el petróleo han registrado grandes caídas , ya que se prevé un descenso en el consumo del petróleo . Los mercados estadounidenses han abierto más débiles . El Dow Jones Industrial Average ha caído por debajo de los 8.000 antes de recuperarse ligeramente . El presidente George W. Bush ha pronunciado un discurso sobre la economía , y ha dicho que los mercados `` se están guiando por la incertidumbre y el miedo ^ . El petróleo ha registrado pérdidas de más de 6 dólares estadounidenses en la compraventa , y el precio actual del barril de petróleo está por debajo de los 80 $ . Para el petróleo , este es el registro más bajo del año . También se ha difundido la noticia de que la OPEP hará una reunión de emergencia el 18 de noviembre para tratar la bajada que está sufriendo el precio del petróleo . Las organizaciones benéficas como Cats Protection han dicho hoy que han perdido muchos de sus fondos en los bancos en crisis . Cats Protection tenía un total de 11,2 millones de dólares en ahorros en el banco Kaupthing , que ahora está en crisis . El Consejo Nacional Británico de Organizaciones Voluntarias dijo que 60 de sus 6.500 miembros han perdido dinero debido al colapso de los bancos .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12835_Global_markets_plunge.txt"
+},
+{
+"text": "Dow Jones recupera cientos de puntos , antes de perderlos en minutos 10 de octubre de 2008 Después de una gran caída al principio del día , el Dow Jones Industrial Average ha recuperado cientos de puntos , con lo que ha vuelto a superar los 250 puntos , antes de caer hasta 100 en pocos minutos . Tras bajar hasta 100 , subió 12 y después bajó tres . Después de haber bajado tres , continuó con altibajos , con subidas ligeras y bajadas por debajo de cero . A continuación , el mercado bajó hasta sesenta , antes de recuperarse ligeramente hasta -36 . Después , ese mercado rondó durante pocos minutos entre -30 y -60 , antes de recuperarse ligeramente hasta -11 , y luego volvió a bajar hasta -82 . El índice cayó hasta 8.579,19 , su nivel más bajo en cinco años , cayendo 679 puntos en un día . Este porcentaje ( 7,3 % ) es la undécima mayor caída porcentual en la historia del índice . Luego continuó creciendo , y el índice superó los 150 puntos en un punto al principio del día . Peter Cardillo , economista jefe de mercados en Avalon Partners , comentó la situación financiera actual de EEUU . `` Lo que hemos visto aquí ha sido un gran ajuste de márgenes que ha continuado alimentándose de sí mismo , por lo que podía suceder lo contrario . Pero se necesita un catalizador ^ , dijo . ^ Ahora estoy más convencido que nunca de que este mercado ha hecho un suelo . La capitulación se ha alcanzado cuando hemos traspasado los 8.000 ^ , continuó . `` No significa que no podamos retroceder y volver a ese nivel ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12843_Dow_Jones_recovers_hundreds_of_points,_before_losing_them_in_minutes.txt"
+},
+{
+"text": "Los mercados globales recuperan valor 13 de octubre de 2008 Los mercados de todo el mundo han recuperado valor como consecuencia de los esfuerzos realizados por los gobiernos para aliviar el efecto de la crisis financiera actual , que recientemente ha ocasionado un descenso masivo en el valor de las bolsas . El domingo , los quince países del Eurogrupo -- es decir , los países que utilizan el euro como moneda oficial -- han acordado un plan conjunto para hacer frente a la crisis , que consistiría en apoyar a las instituciones financieras y garantizar los préstamos entre bancos . La reunión del Eurogrupo ha sido la última de las muchas que han tenido lugar a lo largo del fin de semana . Los países del G7 se reunieron en Washington en el mismo momento en que el Fondo Monetario Internacional y el Banco Mundial estaban teniendo sus reuniones de otoño . El índice Dow Jones Industrial Average es uno de los índices que hoy se han comportado especialmente bien , y ha cerrado con una subida del 11,08 % , muy por encima de los 9.000 puntos . General Motors es el que mejor se ha comportado en ese índice , ya que su valor ha subido un 31,49 % . El Nasdaq ha subido un 11,81 % . El valor del FTSE 100 ha subido hoy un 8,26 % , y ha vuelto a llevar al índice por encima de la barrera de los cuatro mil . TUI Travel es la empresa que mejor se ha comportado en ese índice . Ha subido 41,25 puntos ( 21,48 % ) , y sus acciones han alcanzado un nuevo precio de 233,25 . Sin embargo , algunas acciones del FTSE han seguido cayendo drásticamente . El valor de HBOS ha caído hoy un 31,48 % . El índice brasileño Bovespa ha subido hoy un 14,66 % , mientras que el Hang Seng y el Straits Times de Singapur han subido un 10,24 % y un 6,57 % , respectivamente . Los mercados de valores de Tokio , Buenos Aires y Toronto han estado cerrados por festivos nacionales .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12862_Global_markets_surge_in_value.txt"
+},
+{
+"text": "Las bolsas globales caen en picado 24 de octubre de 2008 Hoy , las bolsas de todo el mundo han caído drásticamente . Esto es debido a los acontecimientos que se están sucediendo en el mundo financiero y a las declaraciones que han hecho al respecto diversos políticos británicos , incluyendo el primer ministro Gordon Brown . El índice británico FTSE 100 ha sido uno de los índices que hoy han sufrido grandes caídas . Ha caído un 5,00 % , y ha quedado por debajo de la barrera de los cuatro mil , en 3.883,36 puntos . Dos de los principales índices estadounidenses han caído más del dos por ciento . Para las 17:30 UTC , El Dow Jones Industrial Average ha caído 252,01 puntos ( 2,90 % ) hasta 8.439,24 , mientras que el índice Nasdaq Composite ha experimentado una caída del 2,30 % . Hoy , los mercados sudamericanos se han comportado especialmente mal . Para las 17:30 UTC , el índice argentino MERVAL había caído casi un seis por ciento hasta 906,160 puntos , mientras que el brasileño Bovespa ha caído un 6,89 % ( 2.328,45 puntos ) hasta un valor de 31.490,04 . David Buik , de BGC Partners , ha hablado sobre las caídas de hoy . `` Es una masacre ^ , ha dicho . `` La confianza se ha destruido . Tenemos que actuar ahora mismo . Es una catástrofe que hayamos llegado a la recesión , pero tenemos que aprender a vivir con ella , y eso significa salvar los mercados ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_12914_Global_stock_markets_plunge.txt"
+},
+{
+"text": "Las bolsas asiáticas caen ; Nikkei en su nivel más bajo desde 1982 . 27 de octubre de 2008 El lunes , las bolsas asiáticas reanudaron su tendencia a la baja , y el índice bursátil de Japón Nikkei cayó hasta niveles nunca vistos desde octubre de 1982 , ya que las primeras medidas del gobierno japonés para parar la crisis del crédito y de los valores no han sido suficientes para los accionistas . El primer ministro japonés , Taro Aso , habló con los funcionarios del gobierno y les pidió que elaboraran nuevos planes provisionales para salvar Japón de más perjuicios ocasionados por la recesión mundial . Ese día , el Nikkei bajó un 6,4 por ciento , o 468,18 puntos , y cerró en 7.162,90 . El dólar estadounidense subió frente al yen tras seis días consecutivos de pérdidas , operando a 92,27 yenes por dólar . El viernes , el valor de cambio del yen bajó hasta 90,89 , el peor dato de la divisa desde agosto de 1995 . El índice Hang Seng de Hong Kong estuvo en caída libre durante la mayor parte del día , y acabó bajando un 12,7 por ciento , o 1.602,54 puntos , hasta 11.015,84 . Antes del repunte de última hora , el índice estaba operando por debajo de los 11.000 puntos , cosa que no había ocurrido desde 2004 . El índice Shanghai Composite perdió un 6,3 por ciento , o 116,27 puntos , y cerró el día en 1.723,35 . El año pasado , el índice de Shanghai , que es el más valorado en la China continental , perdió cerca de tres cuartas partes de su valor . Otros mercados asiáticos cayeron drásticamente por el miedo provocado por Japón y China . El índice Straits Times de Singapur , que cayó un 8,3 por ciento el viernes , no se ha abierto hoy por festivo . Las acciones indias del índice Sensex de Mumbai cayeron un diez por ciento , por debajo del nivel decisivo de los 8.000 puntos alcanzado unas horas antes , antes de mejorar hacia una bajada más modesta del dos por ciento . Las pérdidas de reservas de Australia también fueron marginalmente más bajas , llevando al All Ordinaries de Sídney a sus niveles más bajos desde otoño de 2004 , a 3.768 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/12930_Asian_stock_markets_slide.txt"
+},
+{
+"text": "Japón entra en recesión 18 de noviembre de 2008 Japón , que representa el 7 % de la producción mundial , ha entrado en recesión tras registrar dos trimestres consecutivos de crecimiento negativo . La economía japonesa se ha retraído un 0,9 % entre abril y junio , y un 0,1 % más desde septiembre . Kaoru Yosano , el ministro japonés de política fiscal , ha dicho `` Por el momento continuará la tendencia a la baja en la economía , ya que el crecimiento global se ralentiza . Tenemos que tener en cuenta que las condiciones económicas pueden empeorar más mientras la crisis financiera de EEUU y Europa se agudice , las preocupaciones por la desaceleración económica aumenten y los mercados de valores y de divisas oscilen mucho ^ . El índice bursátil Nikkei 225 ha caído un 40 % desde el principio de año , y ha perdido un cuarto de su valor durante este mes . Tras anunciar la noticia , el índice se hundió , luego subió , y cerró en el 0,7 % . Las empresas japonesas pierden grandes sumas cada vez que el valor del yen se dispara . Al ver el yen relativamente estable durante la agitación financiera , el valor frente al dólar estadounidense ha subido significativamente . Masamichi Adachi , economista de JPMorgan Chase , dijo `` Solo va a ir a peor . Japón puede estar entrando en su recesión más profunda en una década , ya que la crisis financiera global frena la demanda ^ . Japón no ha estado en recesión desde 2001 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13021_Japan_enters_recession.txt"
+},
+{
+"text": "El Dow Jones Industrial Average cierra en su nivel más bajo en seis años 20 de febrero de 2009 El jueves , el Dow Jones Industrial Average cerró en su nivel más bajo en más de seis años . Perdió un 1,16 % , u 89,68 puntos , lo que le ha llevado al nivel de 7.465,95 . En un punto , había marcado la peor tendencia bajista en un mismo día : 7.447,55 . Fue el cierre más bajo del índice desde el 9 de octubre de 2002 . El Dow ha caído casi un quince por ciento desde el comienzo de este año . Otros dos índices estadounidenses también han caído hoy : el Standard & Poor 's 500 ( S&P ) ha caído 9,48 puntos , o un 1,20 por ciento , hasta los 778,94 puntos . El Nasdaq Composite ha perdido un 1,71 % , o 25,15 puntos , y ha cerrado en 1.442,82 puntos . El jueves , el S&P experimentó su cuarta pérdida consecutiva , su racha más larga de pérdidas desde el pasado octubre . Ha perdido casi un catorce por ciento desde el comienzo de 2009 . Dan Cook , el analista senior de mercados en IG Markets , ha dicho que es preocupante el descenso del Dow , ya que sin ese nivel de apoyo los inversores pueden temer que los mercados caigan aún más . `` Es como si estuviéramos caminando a través de un estanque helado . Si ese hielo empieza a romperse un poco , seremos muy cautelosos ^ , ha dicho . Otros analistas , en cambio , señalan que pese a las malas noticias la bolsa no ha descendido tan rápido como en octubre y noviembre , y el volumen ha sido bajo , lo que sugiere una falta de convicción . `` No existe ese pánico que había en noviembre ^ , ha dicho Paul Nolte , director de inversiones en Hinsdale Associates . Entre los que han perdido hoy en la bolsa están Citigroup , que ha caído un 13,8 % , hasta 2,51 dólares estadounidenses por acción , y Bank of America , que ha caído un 14 % , hasta 3,93 $ . En otros mercados , el índice británico FTSE ha crecido un 0,3 % , y el DAX alemán ha subido un quinto de punto porcentual .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13514_Dow_Jones_Industrial_Average_closes_at_lowest_level_in_six_years.txt"
+},
+{
+"text": "Las bolsas estadounidenses caen a los niveles más bajos desde 1997 24 de febrero de 2009 El lunes , tres de los principales índices bursátiles estadounidenses cerraron en sus niveles más bajos en más de una década , debido a la cada vez menor confianza de los inversores y a los temores de que el gobierno va a nacionalizar los bancos . El Dow Jones Industrial Average cayó un 3,41 % , o 251,4 puntos , y cerró la jornada en 7.114,3 , su nivel más bajo desde octubre de 1997 . El índice Standard and Poor 's 500 perdió 26 puntos , o un 3,5 % , hasta alcanzar el nivel de 743,33 , su nivel más bajo desde abril de 1997 . El índice Russel 2000 de las pequeñas empresas cayó un cuatro por ciento . Los tres índices bursátiles han caído durante los últimos seis días . El índice Nasdaq Composite perdió 53,5 puntos , o un 3,71 % , y ha cerrado en 1.387,7 puntos . No obstante , el índice quedó por encima de su marca negativa de 1.316,12 del 20 de noviembre de 2008 . Pese a los temores sobre los bancos , hoy las acciones bancarias han subido . Las acciones de Bank of America han subido un 3,2 % , mientras que Citigroup ha ganado un 9,7 % . Sin embargo , las acciones de ambos bancos han caído más del 68 % en lo que va de año . `` La gente está tirando la toalla a diestro y siniestro . Lo que más veo aquí es un pesimismo increíble ; el gobierno lo está haciendo fatal para calmar los temores ^ , ha dicho Keith Springer , de Capital Financial Advisory Services . `` Muchos inversores ya no pueden contemplar más riesgos bursátiles en sus carteras de valores . El sentimiento en el mercado es muy débil y negativo ^ , ha dicho Fritz Meyer , el estratega senior de mercado en Invesco AIM .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13532_US_stock_markets_fall_to_lowest_levels_since_1997.txt"
+},
+{
+"text": "Las bolsas estadounidenses alcanzan los niveles más bajos de los últimos 12 años 5 de marzo de 2009 El jueves , las bolsas estadounidenses bajaron a los niveles más bajos en doce años , en medio de la pérdida de confianza en el sector financiero y las preocupaciones sobre si el productor estadounidense de automóviles General Motors será capaz de seguir operando . El Dow Jones Industrial Average bajó un 4,08 % , o 280,52 puntos , en el momento del cierre , y alcanzó el nivel de 6.595,32 , un nuevo tope negativo en 12 años . El Nasdaq Composite perdió 54,15 puntos , o un 4 % , hasta 1.299,59 , mientras que el Standard & Poor 's 500 descendió 30,27 puntos , o un 4,25 % , y cerró en 682,60 . Cada acción en el Dow Jones , excepto Wal-Mart , perdió terreno o permaneció invariable , y todas las acciones en el índice S&P 500 perdieron terreno . Las acciones de General Motors perdieron un 15,5 % después de que la empresa automovilística anunciara que sus auditores tenían `` serias dudas ^ sobre si sería capaz de continuar operando . Las acciones de las empresas financieras bajaron más de un nueve por ciento ; Bank of America perdió un 11,7 % , y Citigroup cayó un 9,7 % . `` Lo más preocupante es que todavía no hemos alcanzado el punto culminante ^ , dijo Bill Groeneveld , jefe de compraventa en vFinance Investments . `` Las divisiones de gestión de activos están recibiendo llamadas para liquidar todo , y no hemos visto en absoluto que los principales agentes hayan vuelto ^ . `` Esta es una de las peores tendencias bajistas de los últimos 100 años ; empezó con la crisis del crédito y los préstamos de alto riesgo ] , pero es como un incendio forestal que se ha expandido por el claro y que ha prendido otras partes : las empresas de coches , piezas de coches y seguros se han visto azotados con dureza . La crisis del crédito está desintegrando un sector tras otro porque los bancos no dan préstamos ^ , dijo David Dreman , jefe de inversiones en Dreman Value Management . Hoy , los mercados europeos también han estado más bajos ; el índice FTSE de Londres ha perdido un 3,2 % , y el índice alemán DAX ha caído un cinco por ciento .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/13568_US_stock_markets_reach_12-year_lows.txt"
+},
+{
+"text": "La mejor semana para las bolsas estadounidenses desde noviembre 13 de marzo de 2009 Wall Street ha tenido su mejor cierre desde noviembre de 2008 , tras una subida de cuatro días . Esta ha sido la mejor ganancia semanal de los índices bursátiles en cerca de cinco meses . Los principales indicadores del NYSE han obtenido una ganancia de alrededor del 10 por ciento . Esto se ha debido básicamente a que las acciones bancarias se han recuperado y los temores sobre la economía se han calmado . El Dow Jones Industrial Average ( INDU ) ha terminado en 7.223,98 , una subida de 54 puntos desde el 12 de marzo de 2009 . El índice S&P 500 ha terminado en 756,55 con una ganancia de 6 puntos , y el NASDAQ Composite también ha obtenido una ganancia de 5,40 puntos , para terminar la jornada en 1.431,50 . La subida empezó esta semana tras la noticia de Citigroup Inc. sobre la gestión de los beneficios en los dos primeros meses del año . La noticia ha calmado los temores de que las principales instituciones financieras del país colapsaran tras el colapso de Lehman Brothers en septiembre . Ha habido más buenas noticias desde Bank of America Corp. y JPMorgan Chase & Co. , que han anunciado que han tenido beneficios este año . Hoy ha sido un día revuelto en el sector financiero . Drugmakers ha tenido algunas ganancias , así como General Motors y Berkshire Hathaway , que han contribuido a la subida de los índices . El valor del dólar estadounidense ha caído frente a otras divisas del mundo , pero los precios del oro han subido .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13611_US_stock_markets_have_their_best_week_since_November.txt"
+},
+{
+"text": "Los valores estadounidenses registran ganancias por cuarta semana consecutiva 4 de abril de 2009 El viernes , los índices bursátiles de EEUU registraron ganancias , lo que ha llevado a una racha positiva de cuatro semanas . Eso ha ocurrido a pesar del informe publicado el mismo día por el Departamento de Trabajo de EEUU , que dijo que la economía estadounidense perdió 663.000 empleos en marzo , con lo que la tasa de desempleo alcanzó el 8,5 % , la tasa más alta desde 1983 . El Dow Jones Industrial Average registró una modesta ganancia de medio punto porcentual , o 39 puntos , y terminó la jornada en 8.017 . El índice lleva desde febrero sin cerrar por encima de los 8.000 . La última vez que el Dow subió durante cuatro semanas consecutivas fue entre septiembre y octubre de 2007 , cuando el índice bursátil alcanzó el mejor registro de su historia por encima de los 14.000 . Esta es la mejor racha del índice desde 1993 . El S&P 500 general ganó ocho puntos , o un uno por ciento , al cierre de la jornada . El Nasdaq Composite obtuvo las mayores ganancias de los tres índices , un 1,2 % más , hasta alcanzar los 1.622 . Tanto el S&P como el Dow ganaron más del 3 % a lo largo de la semana , mientras que el Nasdaq subió casi un 5 % . En otros mercados , tanto el índice alemán DAX como el Nikkei 225 japonés permanecieron invariables , mientras que el FTSE 100 británico descendió un 2,3 % .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_13816_US_stocks_log_gains_for_fourth_week_in_a_row.txt"
+},
+{
+"text": "Las bolsas de todo el mundo suben con las esperanzas puestas en la recuperación de la economía estadounidense 21 de agosto de 2009 El viernes subieron los índices bursátiles de todo el mundo , después de que Ben Bernanke , director de la banca estadounidense , dijera que la economía de EEUU estaba empezando a recuperarse de la recesión . En una conferencia en Wyoming , el director de la banca dijo `` las expectativas de volver a crecer a corto plazo parecen buenas ^ . Sin embargo , añadió `` es probable que la recuperación económica sea relativamente lenta al principio , y el desempleo solo descenderá gradualmente desde niveles altos ^ . El Dow Jones Industrial Average ganó 155,91 puntos , o un 1,67 % , y terminó la jornada en 9.505,96 . El Nasdaq alcanzó los 2.020,90 puntos tras ganar un 1,59 % . Mientras tanto , el índice Standard & Poor 's 500 alcanzó el nivel más alto de los últimos diez meses , llegando al nivel de 1.026,13 al cierre de la jornada , un 1,9 % más . El índice británico FTSE subió alrededor del dos por ciento , y cerró en 4.851 . El índice francés CAC ganó un 3,1 % , y el DAX alemán , un 2,8 % . `` Bernanke fue un poco más optimista de lo que la mayoría de la gente esperaba . Está diciendo que la economía global está empezando a emerger de la recesión y que el miedo a un colapso financiero ha disminuido significativamente ^ , dijo Jacob Oubina , el estratega de divisas en Forex.com . `` Creo que el mercado está considerando esos titulares como extremadamente positivos para el pronóstico ^ . Jean-Claude Trichet , el presidente del Banco Central Europeo , advirtió de que podría ser prematuro hablar de una recuperación total . `` Me siento un tanto preocupado cuando veo que al observar brotes verdes aquí y allí ya estamos diciendo ` bueno , al fin y al cabo , estamos cerca de volver a la normalidad ' ^ , dijo .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_14486_Stock_markets_worldwide_rise_on_hopes_of_US_economic_recovery.txt"
+},
+{
+"text": "El índice británico FTSE , en lo más alto desde hace un año ; otros mercados europeos suben 12 de octubre de 2009 El índice bursátil británico FTSE 100 cerró el lunes en su nivel más alto del último año , tras conocerse la subida de los precios de las mercancías . El índice bursátil subió 48,3 puntos , o un 0,9 % , y terminó el día en el nivel de 5.210,17 , una cifra que no se alcanzaba desde septiembre del año pasado . Los mejores resultados fueron para la aseguradora Old Mutual , que alcanzó la mejor cifra de los últimos dieciséis meses tras ganar un 4,6 % . Algunos analistas económicos piensan que el índice FTSE podría seguir subiendo en lo que queda de semana . David Jones , jefe de estrategia de mercado en IG Index , dijo `` el siguiente objetivo de FTSE que los negociantes están persiguiendo a corto plazo es de 5.350 , alcanzado en septiembre del año pasado , y , a juzgar por el sentimiento , no sería una sorpresa alcanzar esa cifra esta semana ^ . Otros mercados europeos también registraron ganancias el lunes . El índice alemán DAX ganó 71,35 puntos , hasta llegar al nivel de 5.783,23 , mientras que el CAC 40 francés subió 46,19 puntos , hasta 3.845,8 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/14818_British_FTSE_index_reaches_one-year_high,_other_European_markets_rise.txt"
+},
+{
+"text": "Bank of America presenta pérdidas de más de 2.200 millones de dólares estadounidenses 16 de octubre de 2009 Bank of America Corporation , el segundo mayor banco de los Estados Unidos , ha anunciado que ha perdido 2.240 millones de dólares estadounidenses en el tercer trimestre de este año , debido especialmente a las mayores pérdidas en préstamos . Según el banco , las pérdidas son de 26 céntimos por acción , peor de lo que la mayoría de analistas económicos había vaticinado . En el mismo periodo del año anterior , Bank of America había ganado 704 millones de dólares , o quince céntimos por acción . Ken Lewis , director ejecutivo del banco , dijo en una declaración ^ ... ] los costes de los créditos siguen siendo altos , y ese es el mayor reto financiero que tenemos por delante . No obstante , estamos animados por los signos positivos precoces , como la bajada de la morosidad en nuestros números de tarjetas de crédito ^ . Lewis dijo que las pérdidas derivadas de los préstamos probablemente continuarían aumentando . En una teleconferencia con analistas , dijo `` en base al ] escenario económico , se espera que los resultados del cuarto trimestre continúen siendo desafiantes al finalizar el año ^ .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_14843_Bank_of_America_reports_losses.txt"
+},
+{
+"text": "La Bolsa de Estados Unidos cae un 9 % , y luego se recupera 07 de mayo del 2010 El mercado bursátil de Estados Unidos vivió ayer un día inusualmente turbulento , ya que el índice industrial Dow Jones ( DJIA ) perdió casi mil puntos en media hora , si bien luego se recuperó y al final del día consiguió que la pérdida fuera menor . Fue la peor caída del DJIA desde 1987 : sufrió primero una caída del 9 % ( 998,50 puntos ) ; luego se recuperó un poco y finalmente cerró con una pérdida del 3,30 % ( 347,80 puntos ) hasta llegar al nivel de 10.520 . El índice Nasdaq cayó 82,65 puntos ( 3,44 % ) , y el índice Standard & Poor 500 , un 3,24 % ( 37,75 puntos ) . De acuerdo con algunos informes , la fuerte y rápida caída se produjo como consecuencia del error cometido por un inversor al teclear una orden para vender una gran cantidad de acciones . Esto causó que el precio de las acciones bajara y disparó la orden de venta en el mercado . ( Al día siguiente ya se había descartado esta teoría . ) Otros informes sugieren que los mercados mayores ^ ralentizaron '' sus ejecuciones cuando quedó claro que se estaban produciendo errores informáticos ; como consecuencia de ello , la gran mayoría de las órdenes de compra se retiraron durante un breve período de tiempo , lo que permitió que la caída libre se prolongara durante varios minutos . Las acciones de la compañía Procter & Gamble cayeron casi un 37 % durante la venta , alrededor de 75 minutos antes del cierre . Se inició una investigación para dilucidar si se habían producido transacciones erróneas . Jennifer Chelune , portavoz de Procter & Gamble , se refirió así al incidente : `` No sabemos qué es lo que lo causó . Sabemos que se trató de una transacción electrónica ... ] y lo estamos analizando , junto con Nasdaq y el resto de los valores electrónicos más importantes . '' La agencia de noticias Reuters informa de que las elevadas pérdidas provocaron que los valores de participación perdieran un billón de dólares . Algunas acciones sufrieron cambios extremos , aunque de corta duración ; por ejemplo , la consultoría Accenture vio cómo sus acciones caían en picado desde 42 dólares hasta 4 céntimos , aunque más tarde se recuperaron hasta alcanzar al cierre los 41,09 dólares . Por su parte , el precio del petróleo cayó también hasta límites que no se habían alcanzado desde febrero . El crudo de referencia cayó entre 2,86 y 77,11 dólares en Nueva York . `` Hase ha dejado ver de nuevo el potencial de los grandes ordenadores de gran velocidad para generar transacciones falsas y desatar el caos en el mercado . ` La batalla de los algoritmos -- que la Comisión de Bolsas y Valores no comprende y están muy lejos de ser transparentes para ella -- debe analizarse cuidadosamente y situarse cuanto antes en un marco regulador adecuado . ^ Kaufman , junto con el senador por Virginia Mark Warne , instó al Congreso a que investigara la causa de la venta masiva . Nasdaq , por su parte , señala que todas las transacciones realizadas a las 2:40 PM , o alrededor de esa hora , a un precio 60 % más alto o más bajo que el precio anterior deben ser canceladas . Puntualiza además que ha coordinado dicha decisión con el resto de los valores . Charlie Smith , responsable de inversiones de Fort Pitt Capital Group : `` Creo que las máquinas se hicieron con el control . La interacción humana es reducida . Sabemos que la transacción automática es algo que se te puede ir de las manos , y creo que eso es lo que ha ocurrido hoy . '' En lo últimos tres días , el DJIA ha perdido 631 puntos ( 5,7 % ) , sobre todo debido a la preocupación suscitada por la economía de Grecia , debilitada y abrumada por la deuda . Peter Boockvar , un estratega de participación de Miller Tabak , señaló lo siguiente : `` El mercado se está dando cuenta de que Grecia va a sufrir una depresión durante los dos próximos años . Europa es un socio comercial muy importante para nosotros , y esto pone en peligro los datos relativos al crecimiento global . ''",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/16208_US_stocks_see_9%_drop_before_making_recovery.txt"
+},
+{
+"text": "Los valores japoneses siguen cayendo tras el terremoto 18 de marzo de 2011 El famoso índice bursátil japonés Nikkei 225 cayó un 1,4 % más el jueves durante la agitación financiera después de que el terremoto masivo de magnitud 9,0 y el tsunami azotaran el país hace una semana . En las últimas cinco jornadas bursátiles , los valores han bajado un catorce por ciento en total ; hoy , han bajado hasta el cinco por ciento , o 454 puntos , pero se han recuperado , y han cerrado en 8.962 puntos . Los valores estadounidenses también han reaccionado negativamente ante el cataclismo ; el índice Standard & Poor 's 500 ha caído un 1,95 % , mientras que el Dow Jones Industrial Average ha perdido un 2,04 % . El FTSE británico , en cambio , ha ganado un 0,77 % , pero después de haber perdido mucho ayer . Mientras tanto , el yen japonés ha alcanzado su nivel más alto frente al dólar estadounidense desde el fin de la Segunda Guerra Mundial ; ha marcado el máximo en 76,25 por dólar antes de terminar el día en 79,14 .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_17376_Japanese_stocks_continue_to_fall_after_earthquake.txt"
+},
+{
+"text": "Las acciones estadounidenses caen en picado por la liquidación global 27 de febrero de 2007 El mayor índice bursátil de EEUU , el Dow Jones , descendió más de 416 puntos al cierre de la jornada del martes , la peor caída registrada en un mismo día desde que se reabrieron los mercados tras los ataques terroristas del 11 de septiembre . La caída sucedió a una liquidación del 9 % en los mercados chinos . Otros índices bursátiles , como el Nasdaq y el S&P 500 , bajaron 96 puntos y 50 puntos , respectivamente . Fue la séptima mayor bajada registrada en un mismo día en la historia de EEUU . Los analistas achacaron la bajada a numerosos factores : ( 1 ) los mercados de valores estadounidenses y chinos estuvieron al alza demasiado tiempo y debían someterse a una corrección significante ; ( 2 ) la inflación y los precios de los bonos y de las acciones habían subido demasiado ; ( 3 ) EEUU apuntaban a una recesión económica . Alan Greenspan indicó el lunes que la economía de EEUU no prolongaría su reciente crecimiento , donde el Dow Industrials registró récords a diario , y la Casa Blanca señaló el martes que revisaría a la baja su previsión de crecimiento en el cuarto trimestre de 2006 para GDP hasta una tasa anual de alrededor de 2,3 por ciento desde una previsión inicial del 3,5 por ciento , y estaba cada vez más nerviosa porque la cifra pudiera ser aún más baja . Hacia las 3 p.m. EST , Reuters informó de que la Bolsa de Nueva York había implementado restricciones tradicionales en bolsa para frenar la liquidación . La bajada ocurrió el mismo día en que fracasó en Afganistán una trama para asesinar al vicepresidente de EEUU Richard Cheney .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7734_U.S._stocks_plummet_amid_global_sell-off.txt"
+},
+{
+"text": "Los prestamistas de alto riesgo siembran el miedo en los mercados globales 13 de marzo de 2007 Solo dos semanas después de que China provocara la caída en los mercados globales , los crecientes temores sobre los prestamistas de hipotecas de alto riesgo en los Estados Unidos están sembrando el miedo en los mercados de valores de todo el mundo . Los tres mayores índices bursátiles de EEUU cayeron cada uno un dos por ciento del precio de cierre del lunes , y registraron la segunda mayor pérdida de 2007 . Los índices FTSE 100 de Londres , CAC 40 de París y DAX 30 de Frankfurt cerraron cada uno con una bajada mayor del 1 por ciento . Como la Asociación de Banqueros Hipotecarios informó de que los pagos tardíos de hipotecas y las ejecuciones hipotecarias en las viviendas estadounidenses habían subido en el cuarto trimestre hasta su nivel más alto en años , los inversores están preocupados de que no solo podrían estar expuestos los bancos estadounidenses , sino también los bancos multinacionales de todo el mundo . Más de dos docenas de prestamistas de alto riesgo han cerrado o vendido operaciones , ya que los impagos en dichas hipotecas han subido . `` La morosidad y los impagos han empezado a dispararse ^ , dijo Nicolas Retsinas , director de Estudios Inmobiliarios en la Universidad de Harvard . `` Muchos de estos prestamistas empezaron a dar préstamos y perdieron la pista de algunas reglas básicas ^ . New Century Financial Corporation , el segundo mayor prestamista de alto riesgo de EEUU , ha revelado recientemente que sus acreedores ya habían dejado de dar fondos , y , además , ha sido objeto de una investigación de la Comisión de Bolsa y Valores . La Bolsa de Nueva York ha dicho que quitará a New Century de la lista de compañías que cotizan en Bolsa . Accredited Home Loan Lending , otro de los principales especialistas en hipotecas de alto riesgo , dijo que estaba buscando capital fresco y exenciones en sus contratos de préstamos . Los prestamistas de alto riesgo proporcionan hipotecas a la gente que no reúne las condiciones para obtener préstamos de prestamistas convencionales , debido especialmente a su historial crediticio . Luego , los prestamistas reúnen dichas hipotecas como aval para los préstamos que obtienen de otras empresas financieras , como GMAC . Esas empresas pueden luego reempaquetar dichos préstamos y venderlos como títulos garantizados por hipotecas . Dichos títulos pueden acabar en manos de los principales bancos multinacionales , como Citibank , HSBC y Commerzbank . Cada nivel de préstamo asume un nivel de riesgo financiero , pero pueden surgir problemas cuando se sobrepasa la tolerancia del riesgo . Si demasiados propietarios de viviendas dejan de pagar sus hipotecas , el prestamista de alto riesgo puede terminar por no pagar . Si dejan de pagar demasiados prestamistas de alto riesgo , como se teme que pueda estar ocurriendo ahora , los impagos pueden subir en cascada . Aunque nadie prevé grandes quiebras bancarias en este punto , se teme que sus beneficios puedan verse afectados .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_7869_Sub-prime_lenders_send_jitters_through_global_markets.txt"
+},
+{
+"text": "Los mercados desbaratados por la crisis de los créditos 10 de agosto del 2007 Hoy las bolsas han caído por una liquidación en masa derivada de la crisis de hipotecas de alto riesgo de Estados Unidos . El Promedio Industrial Dow Jones se ha recuperado al final del día , después de haber caído más de 250 puntos , y ha acabado el día con unos 31 puntos menos . El índice FTSE 100 del Reino Unido ha caído 232,90 puntos y ha quedado en 6.038,30 ; el Nikkei 225 de Japón ha caído 406,51 puntos y ha quedado en 16.764,09 . Los bancos centrales de todo el mundo están inyectando fondos en sus sistemas bancarios para añadir liquidez , por miedo a que muchas de las empresas financieras que tienen préstamos hipotecarios de alto riesgo se hagan insolventes . Ayer , la Reserva Federal de los EEUU transfirió 24.000 millones de US$ a reservas temporales , después de que el Banco Central Europeo autorizara a sus bancos una ampliación récord de 83.600 millones de $ , la mayor inyección de dinero jamás hecha . El viernes , el Sistema de Reserva Federal se involucró en un acuerdo de 38.000 millones de $ de recompra de títulos con respaldo hipotecario , y calmó las preocupaciones de los accionistas . También el viernes , el Banco de Japón inyectó 1 billón de �\u2022 al sistema financiero japonés . La Reserva Federal se ha reunido esta semana , pero ha decidido mantener su objetivo de un índice del 5,25 % , aunque el viernes el índice de los fondos federales rondaba el 6 % , lo que indica una caída de liquidez . La inestable semana empezó el viernes pasado , cuando Bear Stearns cayó como consecuencia de la completa pérdida de sus dos principales fondos de cobertura de un valor de más de 1.500 millones de $ . Los fondos de cobertura se habían expuesto peligrosamente al masivo fallo de las hipotecas de alto riesgo , y la empresa anunció que era imposible devolverles el dinero a los inversores . Washington Mutual y Contrywide Financial , ambas muy grandes prestamistas nacionales de los EEUU , vieron cómo caían sus acciones . Countrywide Financial ha hecho una declaración esta semana , en la que decía que estarán obligados a retener una mayor proporción de la hipoteca . American Home Mortgage Investment Corp , otro gran prestamista , ha solicitado la quiebra recientemente . El mercado nacional estadounidense lleva empeorando más de dos años , desde que la Reserva Federal aumentara 17 veces los tipos de interés . Ahora , los prestamistas están en un aprieto con millones de personas que no pueden devolver sus préstamos después de haber contratado hipotecas de interés variable , intereses tentadores , hipotecas con pagos de solo interés o intereses concatenados . Jim Cramer , de Mad Money del CNBC , comentó que nada menos que siete millones de personas perderán sus hogares a causa de malas hipotecas . El viernes pasado , Cramer lanzó una diatriba en Street Signs del CNBC , diciendo que ^ el Sistema de Reserva Federal estaba dormido ^ , y les hizo un llamamiento para que bajaran los índices de inmediato . Los mercados asiáticos y europeos están cada vez más involucrados en la crisis de las hipotecas de alto riesgo de los EEUU . Deutsche Bank de Alemania ha perdido casi 3.500 millones de $ en valores de acciones , lo que ha obligado al gobierno a organizar un rescate . El mayor banco de Francia , BNP Paribas SA , ha detenido los reintegros de tres grandes fondos de inversión que estaban dañados a causa de las hipotecas de alto riesgo .",
+"uri": "http://www.newsreader-project.eu/data/Annotation-Spanish/StockMarket/StockMarket_ES/corrected_9220_Markets_dragged_down_by_credit_crisis.txt"
+}
+],
+"story_cnt": [5],
+"text": "NewsReader timeline",
+"type": "default"
+}}

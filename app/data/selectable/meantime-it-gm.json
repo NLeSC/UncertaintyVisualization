@@ -1,0 +1,3908 @@
+{ "timeline":
+{
+"actor_cnt": [145],
+"event_cnt": [139],
+"events": [
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:una_perdita_di_381_milioni_di_dollari"]
+},
+"climax": 0,
+"event": "ev10",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3568-textpro.txt.txp#ev10",
+"labels": ["riportare"],
+"mentions": [{
+"char": [
+"452",
+"461"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3568-textpro.txt.txp"]
+}],
+"prefLabel": ["riportare"],
+"sentence": "452",
+"size": "1.0",
+"time": "20080330"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:l%27_istanza_di_tutela_giudiziaria_dal_fallimento"]
+},
+"climax": 0,
+"event": "ev4",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/24695-textpro.txt.txp#ev4",
+"labels": ["presentire presentare"],
+"mentions": [{
+"char": [
+"42",
+"50"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/24695-textpro.txt.txp"]
+}],
+"prefLabel": ["presentire presentare"],
+"sentence": "42",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:l%27_avvio_della_procedura_fallimentare"]
+},
+"climax": 0,
+"event": "ev5",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/24695-textpro.txt.txp#ev5",
+"labels": ["chiedere"],
+"mentions": [{
+"char": [
+"170",
+"177"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/24695-textpro.txt.txp"]
+}],
+"prefLabel": ["chiedere"],
+"sentence": "170",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev41",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp#ev41",
+"labels": ["entrata"],
+"mentions": [{
+"char": [
+"1532",
+"1539"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+}],
+"prefLabel": ["entrata"],
+"sentence": "1532",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:la_prima_perdita_annuale"]
+},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp#ev6",
+"labels": ["riportare"],
+"mentions": [{
+"char": [
+"3",
+"10"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"]
+}],
+"prefLabel": ["riportare"],
+"sentence": "3",
+"size": "1.0",
+"time": "19920101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:la_sua_prima_perdita_annuale_dal_1992"]
+},
+"climax": 0,
+"event": "ev7",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp#ev7",
+"labels": ["presentare"],
+"mentions": [{
+"char": [
+"100",
+"110"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"]
+}],
+"prefLabel": ["presentare"],
+"sentence": "100",
+"size": "1.0",
+"time": "19920101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": [
+"ne:%22_il_giusto_ritorno",
+"ne:un_pacchetto_di_%22_cessazione_differita_%22"
+],
+"pb/A2": ["ne:loro_la_dismissione_del_rapporto_commerciale"]
+},
+"climax": 0,
+"event": "ev5",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev5",
+"labels": ["offrire"],
+"mentions": [
+{
+"char": [
+"4685",
+"4692"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+},
+{
+"char": [
+"3163",
+"3170"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}
+],
+"prefLabel": ["offrire"],
+"sentence": "3163",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:General_Motors",
+"dbp:Henderson_Island_(Pitcairn_Islands)"
+],
+"pb/A1": ["ne:gli_eventi_di_oggi"],
+"pb/A2": ["ne:alla_stampa_ai_sensi_delle_disposizioni_di_approdo_sicuro_previste_dalla_legge_degli_stati"]
+},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev6",
+"labels": ["descrivere"],
+"mentions": [
+{
+"char": [
+"750",
+"759"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+},
+{
+"char": [
+"568",
+"577"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}
+],
+"prefLabel": ["descrivere"],
+"sentence": "568",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": [
+"ne:che_era_stato_nominato_amministratore_delegato_e_presidente_dal_governo_nel_2009_%2c_durante_il_fallimento_della_societ%e2%88%9a%e2%80%a0",
+"ne:maria_barra"
+],
+"pb/A1": [
+"dbp:General_Motors",
+"ne:arriva_pochi_giorni_dopo",
+"ne:di_akerson"
+]
+},
+"climax": 0,
+"event": "ev3",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp#ev3",
+"labels": [
+"nomina",
+"nominare"
+],
+"mentions": [
+{
+"char": [
+"1501",
+"1507"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+},
+{
+"char": [
+"1856",
+"1862"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+},
+{
+"char": [
+"146",
+"154"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+},
+{
+"char": [
+"778",
+"786"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+}
+],
+"prefLabel": ["nominare"],
+"sentence": "146",
+"size": "1.0",
+"time": "20131210"
+},
+{
+"actors": {
+"pb/A1": ["ne:mary_barra"],
+"pb/A2": ["dbp:General_Motors"]
+},
+"climax": 0,
+"event": "ev7",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp#ev7",
+"labels": ["nominare"],
+"mentions": [{
+"char": [
+"11",
+"19"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+}],
+"prefLabel": ["nominare"],
+"sentence": "11",
+"size": "1.0",
+"time": "20131210"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev7",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp#ev7",
+"labels": ["rendere"],
+"mentions": [{
+"char": [
+"115",
+"119"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp"]
+}],
+"prefLabel": ["rendere"],
+"sentence": "115",
+"size": "1.0",
+"time": "20090301"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["dbp:General_Motors"]
+},
+"climax": 0,
+"event": "ev4",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp#ev4",
+"labels": ["scendere"],
+"mentions": [
+{
+"char": [
+"1695",
+"1700"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp"]
+},
+{
+"char": [
+"942",
+"947"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp"]
+}
+],
+"prefLabel": ["scendere"],
+"sentence": "942",
+"size": "1.0",
+"time": "19810101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:rispetto_alle_141.951_unit%e2%88%9a%e2%80%a0_vendute"]
+},
+"climax": 0,
+"event": "ev12",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev12",
+"labels": ["vendere"],
+"mentions": [{
+"char": [
+"445",
+"452"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["vendere"],
+"sentence": "445",
+"size": "1.0",
+"time": "20090330"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:importo"],
+"pb/A2": ["ne:il_requisito_di_riduzione_del_debito"]
+},
+"climax": 0,
+"event": "ev24",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/581-textpro.txt.txp#ev24",
+"labels": ["richiedere"],
+"mentions": [{
+"char": [
+"1030",
+"1039"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/581-textpro.txt.txp"]
+}],
+"prefLabel": ["richiedere"],
+"sentence": "1030",
+"size": "1.0",
+"time": "20090528"
+},
+{
+"actors": {
+"pb/A0": ["ne:un_accordo_in_merito_ai_compromessi_finalizzati"],
+"pb/A2": ["dbp:General_Motors"]
+},
+"climax": 0,
+"event": "ev19",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/581-textpro.txt.txp#ev19",
+"labels": ["raggiungere"],
+"mentions": [{
+"char": [
+"814",
+"823"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/581-textpro.txt.txp"]
+}],
+"prefLabel": ["raggiungere"],
+"sentence": "814",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev38",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3568-textpro.txt.txp#ev38",
+"labels": ["patrimonio"],
+"mentions": [{
+"char": [
+"1420",
+"1430"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3568-textpro.txt.txp"]
+}],
+"prefLabel": ["patrimonio"],
+"sentence": "1420",
+"size": "1.0",
+"time": "20090507"
+},
+{
+"actors": {"pb/A0": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev35",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/3568-textpro.txt.txp#ev35",
+"labels": ["affermare"],
+"mentions": [{
+"char": [
+"1267",
+"1276"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/3568-textpro.txt.txp"]
+}],
+"prefLabel": ["affermare"],
+"sentence": "1267",
+"size": "1.0",
+"time": "20090507"
+},
+{
+"actors": {"pb/A0": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev70",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev70",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"3499",
+"3500"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "3499",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {"pb/A1": [
+"dbp:General_Motors",
+"ne:di_chrysler",
+"dbp:Canada",
+"ne:delle_societ%e2%88%9a%e2%80%a0"
+]},
+"climax": 0,
+"event": "ev3",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev3",
+"labels": ["ristrutturazione"],
+"mentions": [
+{
+"char": [
+"2581",
+"2597"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"1463",
+"1479"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"1327",
+"1343"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"4116",
+"4132"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"3473",
+"3489"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"1886",
+"1902"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"2798",
+"2814"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}
+],
+"prefLabel": ["ristrutturazione"],
+"sentence": "1327",
+"size": "1.0",
+"time": "20090405"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev42",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev42",
+"labels": ["intravedere"],
+"mentions": [{
+"char": [
+"1734",
+"1743"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}],
+"prefLabel": ["intravedere"],
+"sentence": "1734",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {"pb/A0": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev44",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev44",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"1804",
+"1805"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "1804",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev43",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev43",
+"labels": ["precisare"],
+"mentions": [{
+"char": [
+"1765",
+"1775"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}],
+"prefLabel": ["precisare"],
+"sentence": "1765",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {"pb/A2": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev69",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev69",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"3473",
+"3474"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "3473",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {
+"pb/A1": ["ne:piano"],
+"pb/A2": ["dbp:General_Motors"]
+},
+"climax": 0,
+"event": "ev23",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev23",
+"labels": ["proporre"],
+"mentions": [{
+"char": [
+"684",
+"692"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}],
+"prefLabel": ["proporre"],
+"sentence": "684",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:1%2c5_miliardi_di_dollari"]
+},
+"climax": 0,
+"event": "ev23",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp#ev23",
+"labels": ["perdere"],
+"mentions": [{
+"char": [
+"1072",
+"1077"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"]
+}],
+"prefLabel": ["perdere"],
+"sentence": "1072",
+"size": "1.0",
+"time": "20060330"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:di_sapersi"]
+},
+"climax": 0,
+"event": "ev34",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev34",
+"labels": ["dimostrare"],
+"mentions": [{
+"char": [
+"361",
+"371"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}],
+"prefLabel": ["dimostrare"],
+"sentence": "361",
+"size": "1.0",
+"time": "20090403"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:di_tagliare_30.000_posti_di_lavoro"]
+},
+"climax": 0,
+"event": "ev30",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp#ev30",
+"labels": ["prevedere"],
+"mentions": [{
+"char": [
+"1441",
+"1448"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"]
+}],
+"prefLabel": ["prevedere"],
+"sentence": "1441",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_attuale_direttore_generale"],
+"pb/A1": [
+"dbp:General_Motors",
+"ne:da_fritz_henderson"
+],
+"pb/A2": ["ne:delle_societ%e2%88%9a%e2%80%a0"]
+},
+"climax": 0,
+"event": "ev68",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev68",
+"labels": ["sostituire"],
+"mentions": [{
+"char": [
+"2680",
+"2690"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}],
+"prefLabel": ["sostituire"],
+"sentence": "2680",
+"size": "1.0",
+"time": "20090405"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:la_cosa_giusta"]
+},
+"climax": 0,
+"event": "ev32",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp#ev32",
+"labels": ["fare"],
+"mentions": [{
+"char": [
+"1573",
+"1578"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"]
+}],
+"prefLabel": ["fare"],
+"sentence": "1573",
+"size": "1.0",
+"time": "20091105"
+},
+{
+"actors": {
+"pb/A1": ["dbp:General_Motors"],
+"pb/A2": ["ne:per_14_miliardi_di_dollari"]
+},
+"climax": 0,
+"event": "ev32",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/16014-textpro.txt.txp#ev32",
+"labels": ["invocare"],
+"mentions": [{
+"char": [
+"1313",
+"1321"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/16014-textpro.txt.txp"]
+}],
+"prefLabel": ["invocare"],
+"sentence": "1313",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:un_arresto_del_30_%25"]
+},
+"climax": 0,
+"event": "ev45",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/16014-textpro.txt.txp#ev45",
+"labels": ["annunciare"],
+"mentions": [{
+"char": [
+"1821",
+"1831"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/16014-textpro.txt.txp"]
+}],
+"prefLabel": ["annunciare"],
+"sentence": "1821",
+"size": "1.0",
+"time": "20091213"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": [
+"ne:eventualit%e2%88%9a%e2%80%a0",
+"ne:a_concludere_trattative_con_i_relativi_sindacati"
+]
+},
+"climax": 0,
+"event": "ev75",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev75",
+"labels": ["riuscire"],
+"mentions": [{
+"char": [
+"3111",
+"3117"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}],
+"prefLabel": ["riuscire"],
+"sentence": "3111",
+"size": "1.0",
+"time": "20090403"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev25",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev25",
+"labels": ["sostituire"],
+"mentions": [{
+"char": [
+"1227",
+"1237"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["sostituire"],
+"sentence": "1227",
+"size": "1.0",
+"time": "20110101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": [
+"dbp:Opel",
+"ne:10.000_posti_di_lavoro"
+]
+},
+"climax": 0,
+"event": "ev4",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp#ev4",
+"labels": ["comunicare"],
+"mentions": [
+{
+"char": [
+"592",
+"602"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"]
+},
+{
+"char": [
+"143",
+"153"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"]
+}
+],
+"prefLabel": ["comunicare"],
+"sentence": "143",
+"size": "1.0",
+"time": "20091105"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:10.000_posti_di_lavoro"],
+"pb/A2": ["dbp:Opel"]
+},
+"climax": 0,
+"event": "ev2",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp#ev2",
+"labels": ["tagliare"],
+"mentions": [
+{
+"char": [
+"171",
+"179"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"]
+},
+{
+"char": [
+"32",
+"38"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"]
+}
+],
+"prefLabel": ["tagliare"],
+"sentence": "32",
+"size": "1.0",
+"time": "20091105"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:6.246_rivenditori"],
+"pb/A2": ["dbp:United_States"]
+},
+"climax": 0,
+"event": "ev20",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp#ev20",
+"labels": ["contare"],
+"mentions": [{
+"char": [
+"751",
+"756"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+}],
+"prefLabel": ["contare"],
+"sentence": "751",
+"size": "1.0",
+"time": "20100101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": [
+"ne:i_dettagli_del_piano",
+"ne:la_brutta_faccia_del_capitalismo_sfrenato"
+]
+},
+"climax": 0,
+"event": "ev5",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp#ev5",
+"labels": [
+"mostrare",
+"presentare"
+],
+"mentions": [
+{
+"char": [
+"482",
+"492"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"]
+},
+{
+"char": [
+"1164",
+"1170"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"]
+}
+],
+"prefLabel": ["presentare"],
+"sentence": "482",
+"size": "1.0",
+"time": "20091105"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev32",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp#ev32",
+"labels": ["commercializzazione"],
+"mentions": [{
+"char": [
+"1182",
+"1201"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+}],
+"prefLabel": ["commercializzazione"],
+"sentence": "1182",
+"size": "1.0",
+"time": "20090515"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev12",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp#ev12",
+"labels": ["mossa"],
+"mentions": [{
+"char": [
+"311",
+"316"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+}],
+"prefLabel": ["mossa"],
+"sentence": "311",
+"size": "1.0",
+"time": "20090516"
+},
+{
+"actors": {"pb/A0": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev13",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp#ev13",
+"labels": ["arrivare"],
+"mentions": [{
+"char": [
+"323",
+"329"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+}],
+"prefLabel": ["arrivare"],
+"sentence": "323",
+"size": "1.0",
+"time": "20090516"
+},
+{
+"actors": {
+"pb/A1": [
+"ne:piuttosto_consiste_nell%27_abbassare_il_punto_di_pareggio_del_risultato_operativo",
+"ne:previsioni"
+],
+"pb/A2": ["dbp:General_Motors"]
+},
+"climax": 0,
+"event": "ev92",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev92",
+"labels": ["fornire"],
+"mentions": [{
+"char": [
+"4085",
+"4092"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["fornire"],
+"sentence": "4085",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": ["ne:il_principio_costituente_fondamentale_della_societ%e2%88%9a%e2%80%a0_%3a"],
+"pb/A1": [
+"dbp:United_States",
+"ne:le_direzioni",
+"ne:le_catene_di_approvvigionamento",
+"dbp:China",
+"ne:la_produzione",
+"dbp:General_Motors"
+]
+},
+"climax": 0,
+"event": "ev86",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev86",
+"labels": ["costruire"],
+"mentions": [{
+"char": [
+"3811",
+"3821"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["costruire"],
+"sentence": "3811",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A1": ["dbp:General_Motors"],
+"pb/A2": ["dbp:Latin_America"]
+},
+"climax": 0,
+"event": "ev81",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev81",
+"labels": ["riguardare"],
+"mentions": [{
+"char": [
+"3384",
+"3392"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["riguardare"],
+"sentence": "3384",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:il_supporto_dei_sindacati_united_auto_workers"]
+},
+"climax": 0,
+"event": "ev50",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev50",
+"labels": ["incontrare"],
+"mentions": [{
+"char": [
+"1487",
+"1497"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["incontrare"],
+"sentence": "1487",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": ["ne:da_parte_del_governo_tedesco"],
+"pb/A1": ["ne:un_finanziamento"],
+"pb/A2": ["dbp:General_Motors"]
+},
+"climax": 0,
+"event": "ev53",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev53",
+"labels": ["ricevere"],
+"mentions": [{
+"char": [
+"1686",
+"1694"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["ricevere"],
+"sentence": "1686",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {"pb/A0": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev47",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev47",
+"labels": ["rimanere"],
+"mentions": [{
+"char": [
+"1094",
+"1100"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["rimanere"],
+"sentence": "1094",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {"pb/A0": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev64",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev64",
+"labels": ["intendere"],
+"mentions": [{
+"char": [
+"2406",
+"2413"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["intendere"],
+"sentence": "2406",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:il_pagamento_di_20"]
+},
+"climax": 0,
+"event": "ev16",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp#ev16",
+"labels": ["prevedere"],
+"mentions": [{
+"char": [
+"448",
+"455"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp"]
+}],
+"prefLabel": ["prevedere"],
+"sentence": "448",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:un_calo_del_49_%25"]
+},
+"climax": 0,
+"event": "ev9",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp#ev9",
+"labels": ["riportare"],
+"mentions": [{
+"char": [
+"402",
+"411"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+}],
+"prefLabel": ["riportare"],
+"sentence": "402",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {"pb/A0": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev46",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp#ev46",
+"labels": ["recuperare"],
+"mentions": [{
+"char": [
+"1814",
+"1824"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+}],
+"prefLabel": ["recuperare"],
+"sentence": "1814",
+"size": "1.0",
+"time": "20101101"
+},
+{
+"actors": {
+"pb/A0": ["ne:grande_orgoglio_per_l%27_opera_di_restauro"],
+"pb/A1": ["ne:portabandiera"],
+"pb/A2": [
+"dbp:General_Motors",
+"dbp:United_States"
+]
+},
+"climax": 0,
+"event": "ev34",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp#ev34",
+"labels": ["aspettare"],
+"mentions": [{
+"char": [
+"1153",
+"1160"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+}],
+"prefLabel": ["aspettare"],
+"sentence": "1153",
+"size": "1.0",
+"time": "20131210"
+},
+{
+"actors": {
+"pb/A0": ["ne:che_vi_ha_deluso_ormai"],
+"pb/A1": ["dbp:General_Motors"]
+},
+"climax": 0,
+"event": "ev39",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev39",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"734",
+"735"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "734",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev28",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev28",
+"labels": [
+"programma",
+"piano"
+],
+"mentions": [
+{
+"char": [
+"24",
+"33"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+},
+{
+"char": [
+"1456",
+"1461"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}
+],
+"prefLabel": ["programma"],
+"sentence": "24",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": [
+"ne:alle_16%3a15_utc",
+"dbp:New_York_City"
+]
+},
+"climax": 0,
+"event": "ev13",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev13",
+"labels": ["delineare"],
+"mentions": [
+{
+"char": [
+"13",
+"20"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+},
+{
+"char": [
+"380",
+"389"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}
+],
+"prefLabel": ["delineare"],
+"sentence": "13",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev12",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev12",
+"labels": ["ritorno"],
+"mentions": [
+{
+"char": [
+"4705",
+"4712"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+},
+{
+"char": [
+"4111",
+"4118"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}
+],
+"prefLabel": ["ritorno"],
+"sentence": "4111",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev11",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev11",
+"labels": ["storia"],
+"mentions": [
+{
+"char": [
+"632",
+"638"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+},
+{
+"char": [
+"736",
+"742"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}
+],
+"prefLabel": ["storia"],
+"sentence": "632",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev10",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp#ev10",
+"labels": ["essere stare"],
+"mentions": [{
+"char": [
+"308",
+"313"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"]
+}],
+"prefLabel": ["essere stare"],
+"sentence": "308",
+"size": "1.0",
+"time": "20131210"
+},
+{
+"actors": {
+"pb/A0": ["dbp:General_Motors"],
+"pb/A1": ["ne:di_chiudere_1.100_concessionarie"]
+},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp#ev6",
+"labels": ["prevedere"],
+"mentions": [{
+"char": [
+"40",
+"47"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+}],
+"prefLabel": ["prevedere"],
+"sentence": "40",
+"size": "1.0",
+"time": "20090515"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev4",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp#ev4",
+"labels": ["comunicare"],
+"mentions": [
+{
+"char": [
+"513",
+"524"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+},
+{
+"char": [
+"157",
+"167"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"]
+}
+],
+"prefLabel": ["comunicare"],
+"sentence": "157",
+"size": "1.0",
+"time": "20090515"
+},
+{
+"actors": {"pb/A1": ["dbp:General_Motors"]},
+"climax": 0,
+"event": "ev5",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/581-textpro.txt.txp#ev5",
+"labels": ["diventare"],
+"mentions": [{
+"char": [
+"57",
+"64"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/581-textpro.txt.txp"]
+}],
+"prefLabel": ["diventare"],
+"sentence": "57",
+"size": "1.0",
+"time": "20090528"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:General_Motors",
+"ne:il_disegno_di_legge"
+],
+"pb/A1": ["dbp:Italian_Republican_Party"],
+"pb/A2": ["dbp:United_States"]
+},
+"climax": 0,
+"event": "ev7",
+"group": "000:[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupName": "[\"riportare\"]:ne:una_perdita_di_381_milioni_di_dollari",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/19839-textpro.txt.txp#ev7",
+"labels": ["respingere"],
+"mentions": [
+{
+"char": [
+"384",
+"392"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19839-textpro.txt.txp"]
+},
+{
+"char": [
+"262",
+"270"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/19839-textpro.txt.txp"]
+}
+],
+"prefLabel": ["respingere"],
+"sentence": "262",
+"size": "1.0",
+"time": "20091212"
+},
+{
+"actors": {"pb/A2": [
+"dbp:United_States",
+"ne:che_la_perdita_potrebbe_aumentare_ulteriormente_%2c_per_via_del_pagamento_di_pensioni_e_spese_sanitarie_a_migliaia_di_ex_lavoratori"
+]},
+"climax": 0,
+"event": "ev4",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp#ev4",
+"labels": ["aumentare"],
+"mentions": [
+{
+"char": [
+"569",
+"578"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"]
+},
+{
+"char": [
+"365",
+"374"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"]
+}
+],
+"prefLabel": ["aumentare"],
+"sentence": "365",
+"size": "1.0",
+"time": "20050301"
+},
+{
+"actors": {"pb/A1": [
+"dbp:United_States",
+"dbp:China"
+]},
+"climax": 0,
+"event": "ev7",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev7",
+"labels": ["vendita"],
+"mentions": [
+{
+"char": [
+"3990",
+"3997"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+},
+{
+"char": [
+"3925",
+"3932"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}
+],
+"prefLabel": ["vendita"],
+"sentence": "3925",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {"pb/A1": ["dbp:United_States"]},
+"climax": 0,
+"event": "ev9",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30459-textpro.txt.txp#ev9",
+"labels": ["dipartimento"],
+"mentions": [{
+"char": [
+"390",
+"402"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30459-textpro.txt.txp"]
+}],
+"prefLabel": ["dipartimento"],
+"sentence": "390",
+"size": "1.0",
+"time": "20110610"
+},
+{
+"actors": {"pb/A1": ["dbp:United_States"]},
+"climax": 0,
+"event": "ev12",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/24695-textpro.txt.txp#ev12",
+"labels": ["storia"],
+"mentions": [{
+"char": [
+"602",
+"608"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/24695-textpro.txt.txp"]
+}],
+"prefLabel": ["storia"],
+"sentence": "602",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {
+"pb/A0": ["ne:il_sei"],
+"pb/A1": ["dbp:United_States"]
+},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30459-textpro.txt.txp#ev6",
+"labels": ["detenere"],
+"mentions": [{
+"char": [
+"197",
+"205"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30459-textpro.txt.txp"]
+}],
+"prefLabel": ["detenere"],
+"sentence": "197",
+"size": "1.0",
+"time": "20110529"
+},
+{
+"actors": {
+"pb/A0": ["ne:del_marchio_ford"],
+"pb/A2": [
+"dbp:United_States",
+"ne:una_quota_del_mercato_automobilistico_del_paese_pari_al_15%2c3_%25"
+]
+},
+"climax": 0,
+"event": "ev16",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp#ev16",
+"labels": ["aumentare"],
+"mentions": [{
+"char": [
+"815",
+"824"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp"]
+}],
+"prefLabel": ["aumentare"],
+"sentence": "815",
+"size": "1.0",
+"time": "20100330"
+},
+{
+"actors": {"pb/A2": ["dbp:United_States"]},
+"climax": 0,
+"event": "ev64",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev64",
+"labels": ["vivere"],
+"mentions": [{
+"char": [
+"3110",
+"3116"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}],
+"prefLabel": ["vivere"],
+"sentence": "3110",
+"size": "1.0",
+"time": "20090601"
+},
+{
+"actors": {
+"pb/A0": ["ne:che_i_tempi_duri_siano_finiti"],
+"pb/A1": ["dbp:United_States"]
+},
+"climax": 0,
+"event": "ev11",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp#ev11",
+"labels": [
+"concludere",
+"finire"
+],
+"mentions": [
+{
+"char": [
+"3162",
+"3173"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+},
+{
+"char": [
+"2826",
+"2832"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"]
+}
+],
+"prefLabel": ["finire"],
+"sentence": "2826",
+"size": "1.0",
+"time": "20090602"
+},
+{
+"actors": {"pb/A1": ["dbp:United_States"]},
+"climax": 0,
+"event": "ev43",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev43",
+"labels": ["successo"],
+"mentions": [{
+"char": [
+"896",
+"904"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}],
+"prefLabel": ["successo"],
+"sentence": "896",
+"size": "1.0",
+"time": "20090403"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Saturn_Corporation"],
+"pb/A1": ["ne:di_350_rivenditori"],
+"pb/A2": ["dbp:United_States"]
+},
+"climax": 0,
+"event": "ev16",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev16",
+"labels": ["disporre"],
+"mentions": [{
+"char": [
+"703",
+"710"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["disporre"],
+"sentence": "703",
+"size": "1.0",
+"time": "20090605"
+},
+{
+"actors": {"pb/A1": [
+"dbp:United_States",
+"ne:l%27_intenzione_di_utilizzare_la_sua_opzione_per_l%27_acquisto_della_quota_di_chrysler_detenuta_dal_governo_degli_stati"
+]},
+"climax": 0,
+"event": "ev13",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30459-textpro.txt.txp#ev13",
+"labels": ["detenere"],
+"mentions": [{
+"char": [
+"515",
+"523"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30459-textpro.txt.txp"]
+}],
+"prefLabel": ["detenere"],
+"sentence": "515",
+"size": "1.0",
+"time": "20110610"
+},
+{
+"actors": {"pb/A1": ["dbp:United_States"]},
+"climax": 0,
+"event": "ev89",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev89",
+"labels": ["destinare"],
+"mentions": [{
+"char": [
+"3975",
+"3984"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["destinare"],
+"sentence": "3975",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A1": ["ne:a_produrre_le_tipologie_di_veicoli_incoraggiate_dal_governo_degli_stati"],
+"pb/A2": ["dbp:United_States"]
+},
+"climax": 0,
+"event": "ev75",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev75",
+"labels": ["incoraggiare"],
+"mentions": [{
+"char": [
+"2962",
+"2974"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["incoraggiare"],
+"sentence": "2962",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {"pb/A1": [
+"dbp:United_States",
+"dbp:Ford_Motor_Company",
+"ne:in_forte_calo",
+"ne:le_vendite_di_automobili_negli_stati"
+]},
+"climax": 0,
+"event": "ev1",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp#ev1",
+"labels": ["vendita"],
+"mentions": [
+{
+"char": [
+"284",
+"291"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+},
+{
+"char": [
+"3",
+"10"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+},
+{
+"char": [
+"1046",
+"1053"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+},
+{
+"char": [
+"920",
+"927"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+},
+{
+"char": [
+"533",
+"540"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+},
+{
+"char": [
+"78",
+"85"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+}
+],
+"prefLabel": ["vendita"],
+"sentence": "3",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {
+"pb/A1": ["ne:alla_stampa_ai_sensi_delle_disposizioni_di_approdo_sicuro_previste_dalla_legge_degli_stati"],
+"pb/A2": ["dbp:United_States"]
+},
+"climax": 0,
+"event": "ev35",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp#ev35",
+"labels": ["prevedere"],
+"mentions": [{
+"char": [
+"514",
+"522"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"]
+}],
+"prefLabel": ["prevedere"],
+"sentence": "514",
+"size": "1.0",
+"time": "20090604"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:Ford_Motor_Company",
+"dbp:United_States"
+],
+"pb/A1": ["ne:di_poter"]
+},
+"climax": 0,
+"event": "ev7",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp#ev7",
+"labels": ["dichiarare"],
+"mentions": [
+{
+"char": [
+"1806",
+"1816"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp"]
+},
+{
+"char": [
+"1495",
+"1505"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp"]
+}
+],
+"prefLabel": ["dichiarare"],
+"sentence": "1495",
+"size": "1.0",
+"time": "20090101"
+},
+{
+"actors": {"pb/A1": ["dbp:United_States"]},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"aumentare\"]",
+"groupName": "[\"aumentare\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev6",
+"labels": ["vendita"],
+"mentions": [{
+"char": [
+"365",
+"372"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}],
+"prefLabel": ["vendita"],
+"sentence": "365",
+"size": "1.0",
+"time": "20050101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": [
+"ne:profondi_tagli",
+"ne:tagli_radicali_del_21_%25"
+]
+},
+"climax": 0,
+"event": "ev2",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp#ev2",
+"labels": ["annunciare"],
+"mentions": [
+{
+"char": [
+"105",
+"115"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"]
+},
+{
+"char": [
+"5",
+"13"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"]
+}
+],
+"prefLabel": ["annunciare"],
+"sentence": "5",
+"size": "1.0",
+"time": "20060330"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev1",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp#ev1",
+"labels": ["vendita"],
+"mentions": [
+{
+"char": [
+"973",
+"980"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"]
+},
+{
+"char": [
+"1146",
+"1153"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"]
+}
+],
+"prefLabel": ["vendita"],
+"sentence": "973",
+"size": "1.0",
+"time": "20050101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A2": ["ne:del_74_%25"]
+},
+"climax": 0,
+"event": "ev21",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev21",
+"labels": ["influenzare"],
+"mentions": [{
+"char": [
+"848",
+"859"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["influenzare"],
+"sentence": "848",
+"size": "1.0",
+"time": "20100303"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:tale"]
+},
+"climax": 0,
+"event": "ev46",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp#ev46",
+"labels": ["porre"],
+"mentions": [{
+"char": [
+"2307",
+"2312"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp"]
+}],
+"prefLabel": ["porre"],
+"sentence": "2307",
+"size": "1.0",
+"time": "20060505"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev39",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev39",
+"labels": ["marketing"],
+"mentions": [{
+"char": [
+"2065",
+"2074"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["marketing"],
+"sentence": "2065",
+"size": "1.0",
+"time": "20100303"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": [
+"ne:un_massimo_storico",
+"ne:che_non_si_verificava_da_cinque_anni_all%27_apertura_dei_mercati_%2c_per_poi_diminuire_nel_corso_della_giornata"
+]
+},
+"climax": 0,
+"event": "ev17",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev17",
+"labels": ["raggiungere"],
+"mentions": [{
+"char": [
+"678",
+"687"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["raggiungere"],
+"sentence": "678",
+"size": "1.0",
+"time": "20100303"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev16",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev16",
+"labels": ["azione"],
+"mentions": [{
+"char": [
+"657",
+"663"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["azione"],
+"sentence": "657",
+"size": "1.0",
+"time": "20100303"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["dbp:Project"],
+"pb/AM-LOC": ["dbp:Australia"]
+},
+"climax": 0,
+"event": "ev15",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp#ev15",
+"labels": [
+"vedere",
+"realizzare"
+],
+"mentions": [
+{
+"char": [
+"789",
+"799"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp"]
+},
+{
+"char": [
+"2112",
+"2117"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp"]
+}
+],
+"prefLabel": ["realizzare"],
+"sentence": "789",
+"size": "1.0",
+"time": "20060505"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:un_debito_di_34%2c3_miliardi_di_dollari"]
+},
+"climax": 0,
+"event": "ev13",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp#ev13",
+"labels": ["accusare"],
+"mentions": [{
+"char": [
+"690",
+"698"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp"]
+}],
+"prefLabel": ["accusare"],
+"sentence": "690",
+"size": "1.0",
+"time": "20090101"
+},
+{
+"actors": {
+"pb/A0": ["ne:il_2009"],
+"pb/A1": ["dbp:Ford_Motor_Company"]
+},
+"climax": 0,
+"event": "ev22",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp#ev22",
+"labels": ["essere stare"],
+"mentions": [{
+"char": [
+"1157",
+"1162"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp"]
+}],
+"prefLabel": ["essere stare"],
+"sentence": "1157",
+"size": "1.0",
+"time": "20090101"
+},
+{
+"actors": {
+"pb/A0": [
+"dbp:Ford_Motor_Company",
+"dbp:Betty_Sutton"
+],
+"pb/A1": [
+"ne:il_%e2%80%9a%c3%84%c3%a3%e2%80%9a%c3%84%c3%a3programma_%22_gm_fiducia_totale_%22",
+"dbp:Raman_spectroscopy",
+"ne:richieste"
+],
+"pb/A2": ["ne:aiuti_finanziari"]
+},
+"climax": 0,
+"event": "ev2",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev2",
+"labels": ["presentare"],
+"mentions": [
+{
+"char": [
+"5902",
+"5912"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"6448",
+"6458"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"3225",
+"3235"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}
+],
+"prefLabel": ["presentare"],
+"sentence": "3225",
+"size": "1.0",
+"time": "20090303"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev20",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp#ev20",
+"labels": ["superare"],
+"mentions": [{
+"char": [
+"856",
+"864"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"]
+}],
+"prefLabel": ["superare"],
+"sentence": "856",
+"size": "1.0",
+"time": "20060101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": [
+"ne:st",
+"dbp:W._I._Thomas",
+"ne:thomas_assembly"
+]
+},
+"climax": 0,
+"event": "ev26",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp#ev26",
+"labels": ["scendere"],
+"mentions": [{
+"char": [
+"1691",
+"1696"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"]
+}],
+"prefLabel": ["scendere"],
+"sentence": "1691",
+"size": "1.0",
+"time": "20060819"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev21",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp#ev21",
+"labels": ["analisi"],
+"mentions": [{
+"char": [
+"959",
+"966"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"]
+}],
+"prefLabel": ["analisi"],
+"sentence": "959",
+"size": "1.0",
+"time": "20060630"
+},
+{
+"actors": {"pb/A0": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev14",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp#ev14",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"511",
+"512"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "511",
+"size": "1.0",
+"time": "20120101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:i_nuovi_programmi_lanciati"]
+},
+"climax": 0,
+"event": "ev31",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp#ev31",
+"labels": ["lanciare"],
+"mentions": [{
+"char": [
+"1293",
+"1301"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp"]
+}],
+"prefLabel": ["lanciare"],
+"sentence": "1293",
+"size": "1.0",
+"time": "20090401"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:78_milioni_di_euro"]
+},
+"climax": 0,
+"event": "ev5",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp#ev5",
+"labels": ["offrire"],
+"mentions": [{
+"char": [
+"5",
+"10"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp"]
+}],
+"prefLabel": ["offrire"],
+"sentence": "5",
+"size": "1.0",
+"time": "20070908"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": [
+"ne:57_milioni_di_euro",
+"ne:un_funzionario_romeno_venerd%e2%88%9a%c2%a8",
+"dbp:Craiova"
+]
+},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp#ev6",
+"labels": ["riferire"],
+"mentions": [{
+"char": [
+"151",
+"159"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp"]
+}],
+"prefLabel": ["riferire"],
+"sentence": "151",
+"size": "1.0",
+"time": "20070908"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:a_viaggiare"]
+},
+"climax": 0,
+"event": "ev1",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20922-textpro.txt.txp#ev1",
+"labels": ["tornare"],
+"mentions": [{
+"char": [
+"12",
+"17"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20922-textpro.txt.txp"]
+}],
+"prefLabel": ["tornare"],
+"sentence": "12",
+"size": "1.0",
+"time": "20070209"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": [
+"ne:rispetto_alle_141.951_unit%e2%88%9a%e2%80%a0_vendute",
+"ne:che_le_vendite_complessive_sono_salite_a_142.285_unit%e2%88%9a%e2%80%a0"
+]
+},
+"climax": 0,
+"event": "ev9",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev9",
+"labels": ["riferire"],
+"mentions": [{
+"char": [
+"351",
+"359"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["riferire"],
+"sentence": "351",
+"size": "1.0",
+"time": "20090330"
+},
+{
+"actors": {"pb/A0": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev6",
+"labels": ["comunicare"],
+"mentions": [{
+"char": [
+"115",
+"125"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["comunicare"],
+"sentence": "115",
+"size": "1.0",
+"time": "20100201"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev4",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev4",
+"labels": ["impennata"],
+"mentions": [{
+"char": [
+"0",
+"9"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}],
+"prefLabel": ["impennata"],
+"sentence": "0",
+"size": "1.0",
+"time": "20100303"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Ford_Motor_Company",
+"ne:al_dettaglio_ai_consumatori",
+"ne:di_flotte_alle_imprese",
+"ne:di_due_berline",
+"ne:anche_le_vendite_di_altri_modelli"
+]},
+"climax": 0,
+"event": "ev1",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp#ev1",
+"labels": ["vendita"],
+"mentions": [
+{
+"char": [
+"1280",
+"1287"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"1033",
+"1040"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"821",
+"828"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"908",
+"915"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"16",
+"23"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"2055",
+"2062"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"1546",
+"1553"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"367",
+"374"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"164",
+"171"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+},
+{
+"char": [
+"1148",
+"1155"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"]
+}
+],
+"prefLabel": ["vendita"],
+"sentence": "16",
+"size": "1.0",
+"time": "20100201"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:un_profitto_annuale_di_2%2c7_miliardi_di_dollari"]
+},
+"climax": 0,
+"event": "ev2",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp#ev2",
+"labels": ["annunciare"],
+"mentions": [{
+"char": [
+"12",
+"20"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp"]
+}],
+"prefLabel": ["annunciare"],
+"sentence": "12",
+"size": "1.0",
+"time": "20100128"
+},
+{
+"actors": {"pb/A0": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev7",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp#ev7",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"330",
+"334"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "330",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:a_26_centesimi_per_azione"]
+},
+"climax": 0,
+"event": "ev10",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/26795-textpro.txt.txp#ev10",
+"labels": ["equivalere"],
+"mentions": [{
+"char": [
+"479",
+"490"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/26795-textpro.txt.txp"]
+}],
+"prefLabel": ["equivalere"],
+"sentence": "479",
+"size": "1.0",
+"time": "20090330"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A2": [
+"ne:una_rivoluzione_del_design_che",
+"ne:le_altre_case_automobilistiche_americane_a_seguirne_l%27_esempio_%2c"
+]
+},
+"climax": 0,
+"event": "ev17",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/20922-textpro.txt.txp#ev17",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"643",
+"645"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/20922-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "643",
+"size": "1.0",
+"time": "19860101"
+},
+{
+"actors": {
+"pb/A0": [
+"ne:altri_due_stabilimenti",
+"dbp:Joe_Louis",
+"ne:14_stabilimenti"
+],
+"pb/A1": ["ne:122.000_dipendenti_nordamericani"],
+"pb/A2": [
+"dbp:Ford_Motor_Company",
+"dbp:St._Joseph",
+"_Missouri"
+]
+},
+"climax": 0,
+"event": "ev10",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev10",
+"labels": ["chiudere"],
+"mentions": [
+{
+"char": [
+"938",
+"944"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+},
+{
+"char": [
+"778",
+"784"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+},
+{
+"char": [
+"2699",
+"2710"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}
+],
+"prefLabel": ["chiudere"],
+"sentence": "778",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": ["ne:tagli_per_30.000_posti_di_lavoro"]
+},
+"climax": 0,
+"event": "ev16",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev16",
+"labels": ["prevedere"],
+"mentions": [{
+"char": [
+"19",
+"26"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}],
+"prefLabel": ["prevedere"],
+"sentence": "19",
+"size": "1.0",
+"time": "20120101"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev26",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev26",
+"labels": ["perdita"],
+"mentions": [{
+"char": [
+"546",
+"553"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}],
+"prefLabel": ["perdita"],
+"sentence": "546",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {"pb/A2": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev23",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev23",
+"labels": ["nascere"],
+"mentions": [{
+"char": [
+"438",
+"443"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}],
+"prefLabel": ["nascere"],
+"sentence": "438",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": [
+"ne:con_il_sindacato_canadian_auto_workers",
+"ne:la_cui_chiusura"
+]
+},
+"climax": 0,
+"event": "ev37",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev37",
+"labels": ["preannunciare"],
+"mentions": [{
+"char": [
+"1312",
+"1325"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}],
+"prefLabel": ["preannunciare"],
+"sentence": "1312",
+"size": "1.0",
+"time": "20050101"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev31",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev31",
+"labels": ["capacit√\u2020"],
+"mentions": [{
+"char": [
+"802",
+"810"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}],
+"prefLabel": ["capacit√\u2020"],
+"sentence": "802",
+"size": "1.0",
+"time": "20080101"
+},
+{
+"actors": {"pb/A1": ["dbp:Ford_Motor_Company"]},
+"climax": 0,
+"event": "ev30",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp#ev30",
+"labels": ["portare"],
+"mentions": [{
+"char": [
+"791",
+"798"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"]
+}],
+"prefLabel": ["portare"],
+"sentence": "791",
+"size": "1.0",
+"time": "20060123"
+},
+{
+"actors": {
+"pb/A1": ["ne:l%27_offerta"],
+"pb/A2": ["dbp:Ford_Motor_Company"]
+},
+"climax": 0,
+"event": "ev11",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp#ev11",
+"labels": ["migliorare"],
+"mentions": [{
+"char": [
+"600",
+"610"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp"]
+}],
+"prefLabel": ["migliorare"],
+"sentence": "600",
+"size": "1.0",
+"time": "20070912"
+},
+{
+"actors": {
+"pb/A0": ["dbp:Ford_Motor_Company"],
+"pb/A1": [
+"ne:l%27_unico_offerente",
+"ne:per_l%27_acquisto_della_fabbrica"
+]
+},
+"climax": 0,
+"event": "ev20",
+"group": "000:[\"annunciare\"]:ne:profondi_tagli",
+"groupName": "[\"annunciare\"]:ne:profondi_tagli",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp#ev20",
+"labels": ["essere stare"],
+"mentions": [{
+"char": [
+"1048",
+"1053"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp"]
+}],
+"prefLabel": ["essere stare"],
+"sentence": "1048",
+"size": "1.0",
+"time": "20070908"
+},
+{
+"actors": {"pb/A1": ["dbp:Australia"]},
+"climax": 0,
+"event": "ev33",
+"group": "000:[\"essere stare\"]:dbp:Australia",
+"groupName": "[\"essere stare\"]:dbp:Australia",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp#ev33",
+"labels": ["essere stare"],
+"mentions": [{
+"char": [
+"1688",
+"1693"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp"]
+}],
+"prefLabel": ["essere stare"],
+"sentence": "1688",
+"size": "1.0",
+"time": "20060505"
+},
+{
+"actors": {"pb/A1": ["dbp:Australia"]},
+"climax": 0,
+"event": "ev38",
+"group": "000:[\"essere stare\"]:dbp:Australia",
+"groupName": "[\"essere stare\"]:dbp:Australia",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp#ev38",
+"labels": ["intraprendere"],
+"mentions": [{
+"char": [
+"1942",
+"1952"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp"]
+}],
+"prefLabel": ["intraprendere"],
+"sentence": "1942",
+"size": "1.0",
+"time": "20060505"
+},
+{
+"actors": {
+"pb/A1": ["ne:il_futuro"],
+"pb/A2": ["dbp:Australia"]
+},
+"climax": 0,
+"event": "ev51",
+"group": "000:[\"essere stare\"]:dbp:Australia",
+"groupName": "[\"essere stare\"]:dbp:Australia",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp#ev51",
+"labels": ["produrre"],
+"mentions": [{
+"char": [
+"2650",
+"2658"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp"]
+}],
+"prefLabel": ["produrre"],
+"sentence": "2650",
+"size": "1.0",
+"time": "19600101"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": [
+"ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"ne:fallimento_%2c",
+"ne:ha_dichiarato_il_presidente_americano_obama"
+]
+},
+"climax": 0,
+"event": "ev5",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12303-textpro.txt.txp#ev5",
+"labels": ["dichiarare"],
+"mentions": [
+{
+"char": [
+"1724",
+"1734"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12303-textpro.txt.txp"]
+},
+{
+"char": [
+"9",
+"17"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12303-textpro.txt.txp"]
+}
+],
+"prefLabel": ["dichiarare"],
+"sentence": "9",
+"size": "1.0",
+"time": "20110101"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": [
+"ne:prestiti",
+"ne:prestiti_canadesi"
+],
+"pb/A2": ["dbp:Canada"]
+},
+"climax": 0,
+"event": "ev5",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev5",
+"labels": ["ricevere"],
+"mentions": [
+{
+"char": [
+"142",
+"153"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"14",
+"22"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}
+],
+"prefLabel": ["ricevere"],
+"sentence": "14",
+"size": "1.0",
+"time": "20090403"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": [
+"ne:di_ricevere_prestiti_per_un_massimo_di_7%2c5_miliardi_di_dollari_canadesi",
+"ne:1_miliardo_di_dollari_canadesi",
+"ne:risulta",
+"ne:17%2c4_miliardi_di_dollari_in_prestiti_governativi"
+]
+},
+"climax": 0,
+"event": "ev6",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev6",
+"labels": ["ricevere"],
+"mentions": [
+{
+"char": [
+"6536",
+"6544"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"2493",
+"2501"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"1147",
+"1155"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}
+],
+"prefLabel": ["ricevere"],
+"sentence": "1147",
+"size": "1.0",
+"time": "20090403"
+},
+{
+"actors": {"pb/A0": ["ne:chrysler"]},
+"climax": 0,
+"event": "ev31",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp#ev31",
+"labels": [
+"fare",
+"rendere"
+],
+"mentions": [
+{
+"char": [
+"5156",
+"5163"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+},
+{
+"char": [
+"4258",
+"4262"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"]
+}
+],
+"prefLabel": ["fare"],
+"sentence": "4258",
+"size": "1.0",
+"time": "20090403"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": ["ne:prestiti"]
+},
+"climax": 0,
+"event": "ev27",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp#ev27",
+"labels": ["ricevere"],
+"mentions": [{
+"char": [
+"1413",
+"1421"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+}],
+"prefLabel": ["ricevere"],
+"sentence": "1413",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {"pb/A0": ["ne:chrysler"]},
+"climax": 0,
+"event": "ev11",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp#ev11",
+"labels": ["essere stare"],
+"mentions": [{
+"char": [
+"443",
+"448"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"]
+}],
+"prefLabel": ["essere stare"],
+"sentence": "443",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": [
+"ne:a_proporre_pacchetti_di_buonuscita_ai_propri_lavoratori",
+"ne:un_buono_da_25.000_dollari_per_un_veicolo"
+]
+},
+"climax": 0,
+"event": "ev2",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp#ev2",
+"labels": ["proporre"],
+"mentions": [
+{
+"char": [
+"562",
+"569"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp"]
+},
+{
+"char": [
+"154",
+"162"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp"]
+}
+],
+"prefLabel": ["proporre"],
+"sentence": "154",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": ["ne:pensionamenti_anticipati_ai_lavoratori"]
+},
+"climax": 0,
+"event": "ev1",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp#ev1",
+"labels": ["proporre"],
+"mentions": [{
+"char": [
+"14",
+"24"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp"]
+}],
+"prefLabel": ["proporre"],
+"sentence": "14",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": ["ne:entrambe"]
+},
+"climax": 0,
+"event": "ev44",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp#ev44",
+"labels": ["trovare"],
+"mentions": [{
+"char": [
+"2072",
+"2079"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp"]
+}],
+"prefLabel": ["trovare"],
+"sentence": "2072",
+"size": "1.0",
+"time": "20081201"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": ["ne:la_produzione_dei_modelli_chrysler_aspen_%2c"]
+},
+"climax": 0,
+"event": "ev18",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp#ev18",
+"labels": ["tagliare"],
+"mentions": [{
+"char": [
+"600",
+"608"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp"]
+}],
+"prefLabel": ["tagliare"],
+"sentence": "600",
+"size": "1.0",
+"time": "20090218"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": [
+"ne:a_proporre_pacchetti_di_buonuscita_ai_propri_lavoratori",
+"ne:entrambe_iniziato"
+]
+},
+"climax": 0,
+"event": "ev10",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp#ev10",
+"labels": ["avere"],
+"mentions": [{
+"char": [
+"128",
+"133"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp"]
+}],
+"prefLabel": ["avere"],
+"sentence": "128",
+"size": "1.0",
+"time": "20090203"
+},
+{
+"actors": {
+"pb/A0": ["ne:chrysler"],
+"pb/A1": ["ne:ulteriori_aiuti_governativi"]
+},
+"climax": 0,
+"event": "ev3",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp#ev3",
+"labels": ["chiedere"],
+"mentions": [{
+"char": [
+"52",
+"60"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp"]
+}],
+"prefLabel": ["chiedere"],
+"sentence": "52",
+"size": "1.0",
+"time": "20090218"
+},
+{
+"actors": {
+"pb/A1": ["ne:la_propria_tecnologia_di_efficienza"],
+"pb/A2": ["ne:chrysler"]
+},
+"climax": 0,
+"event": "ev53",
+"group": "000:[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupName": "[\"dichiarare\"]:ne:richiede_la_direzione_della_societ%e2%88%9a%e2%80%a0",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/12303-textpro.txt.txp#ev53",
+"labels": ["portare"],
+"mentions": [{
+"char": [
+"2431",
+"2438"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/12303-textpro.txt.txp"]
+}],
+"prefLabel": ["portare"],
+"sentence": "2431",
+"size": "1.0",
+"time": "20090501"
+},
+{
+"actors": {"pb/A0": ["dbp:Saturn_Corporation"]},
+"climax": 0,
+"event": "ev19",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev19",
+"labels": ["comprendere"],
+"mentions": [{
+"char": [
+"897",
+"905"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["comprendere"],
+"sentence": "897",
+"size": "1.0",
+"time": "20090605"
+},
+{
+"actors": {
+"pb/A0": ["ne:l%27_acquisto"],
+"pb/A1": [
+"dbp:Saturn_Corporation",
+"ne:i_suoi_cinque_modelli_attuali"
+]
+},
+"climax": 0,
+"event": "ev12",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev12",
+"labels": ["comprendere"],
+"mentions": [{
+"char": [
+"412",
+"421"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["comprendere"],
+"sentence": "412",
+"size": "1.0",
+"time": "20081001"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Saturn_Corporation",
+"ne:secondo_penske",
+"ne:sul_risparmio_in_termini_di_consumo"
+]},
+"climax": 0,
+"event": "ev21",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev21",
+"labels": ["concentrare"],
+"mentions": [{
+"char": [
+"967",
+"981"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["concentrare"],
+"sentence": "967",
+"size": "1.0",
+"time": "20090605"
+},
+{
+"actors": {"pb/A1": ["dbp:Saturn_Corporation"]},
+"climax": 0,
+"event": "ev23",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev23",
+"labels": ["riportare"],
+"mentions": [{
+"char": [
+"1068",
+"1080"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["riportare"],
+"sentence": "1068",
+"size": "1.0",
+"time": "20110101"
+},
+{
+"actors": {
+"pb/A0": ["ne:un_esperto"],
+"pb/A1": ["dbp:Saturn_Corporation"]
+},
+"climax": 0,
+"event": "ev22",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev22",
+"labels": ["suggerire"],
+"mentions": [{
+"char": [
+"1046",
+"1056"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["suggerire"],
+"sentence": "1046",
+"size": "1.0",
+"time": "20110101"
+},
+{
+"actors": {"pb/A2": ["dbp:Saturn_Corporation"]},
+"climax": 0,
+"event": "ev32",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev32",
+"labels": ["essere"],
+"mentions": [{
+"char": [
+"1590",
+"1591"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["essere"],
+"sentence": "1590",
+"size": "1.0",
+"time": "20090605"
+},
+{
+"actors": {"pb/A1": ["dbp:Saturn_Corporation"]},
+"climax": 0,
+"event": "ev33",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev33",
+"labels": ["ottenere"],
+"mentions": [{
+"char": [
+"1610",
+"1618"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["ottenere"],
+"sentence": "1610",
+"size": "1.0",
+"time": "20090605"
+},
+{
+"actors": {"pb/A1": [
+"dbp:Saturn_Corporation",
+"ne:penske_auto"
+]},
+"climax": 0,
+"event": "ev4",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev4",
+"labels": ["selezionare"],
+"mentions": [{
+"char": [
+"12",
+"23"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}],
+"prefLabel": ["selezionare"],
+"sentence": "12",
+"size": "1.0",
+"time": "20090605"
+},
+{
+"actors": {"pb/A1": ["dbp:Saturn_Corporation"]},
+"climax": 0,
+"event": "ev1",
+"group": "000:[\"comprendere\"]",
+"groupName": "[\"comprendere\"]",
+"groupScore": "000",
+"instance": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp#ev1",
+"labels": ["acquisto"],
+"mentions": [
+{
+"char": [
+"31",
+"39"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+},
+{
+"char": [
+"403",
+"411"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+},
+{
+"char": [
+"301",
+"309"
+],
+"uri": ["http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"]
+}
+],
+"prefLabel": ["acquisto"],
+"sentence": "31",
+"size": "1.0",
+"time": "20090605"
+}
+],
+"headline": "corpus_gm",
+"mention_cnt": [193],
+"sources": [
+{
+"text": "Mary Barra nominata a capo della General Motors_10 dicembre 2013_General Motors, il principale produttore di automobili degli Stati Uniti, ha nominato oggi Maria Barra nuovo amministratore delegato._Barra, 51 anni, sar√\u2020 la prima donna a guidare una societ√\u2020 nel settore automobilistico americano._√à stata con General Motors per 33 anni e attualmente √® responsabile globale per lo sviluppo del prodotto._Ha rilasciato una dichiarazione:_^Con un portafoglio incredibile di auto e camion e la performance finanziaria migliore della nostra storia recente, questo per GM rappresenta un momento emozionante._Sono onorata di guidare la migliore squadra nel settore e di mantenere lo slancio a tutta velocit√\u2020^._La nuova CEO sostituisce Daniel Akerson, che era stato nominato amministratore delegato e presidente dal governo nel 2009, durante il fallimento della societ√\u2020._Akerson aveva programmato di dimettersi il 15 gennaio, in seguito alla diagnosi di cancro avanzato della moglie._In un messaggio rivolto ai dipendenti, ha dichiarato:_^Lascio con grande soddisfazione ci√≤ che abbiamo realizzato, grande ottimismo su ci√≤ che ci aspetta e grande orgoglio per l'opera di restauro in General Motors come portabandiera dell'America nel settore dell'auto a livello mondiale^._Akerson lascer√\u2020 anche l'incarico di amministratore, che verr√\u2020 ricoperto dall'attuale direttore Theodore Solso._La societ√\u2020 inoltre ha comunicato il responsabile delle finanze Daniel Ammann._La nomina arriva pochi giorni dopo la vendita delle ultime azioni detenute dal governo degli Stati Uniti nella societ√\u2020, con una perdita di circa 9 miliardi di dollari rispetto al piano di salvataggio iniziale del 2008, che prevedeva il passaggio del 61% della societ√\u2020 sotto propriet√\u2020 statale._General Motors ha recuperato dal fallimento un anno dopo la nomina di Akerson, con il rientro in borsa a novembre 2010._Resta il pi√π grande produttore di automobili degli Stati Uniti, con vendite registrate per 152 miliardi di dollari nel 2012._Attualmente produce quindici marchi di veicoli in 37 paesi._Barra ha conseguito una laurea in ingegneria elettrotecnica presso la Kettering University a Flint, Michigan, e di recente √® stata inserita al 35¬∞ posto da Forbes tra le donne pi√π potenti del mondo.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/12112-textpro.txt.txp"
+},
+{
+"text": "Piano di salvataggio per la produzione automobilistica statunitense bocciato in Senato_12 dicembre 2008_Il piano di salvataggio da 14 miliardi di dollari per le ^tre grandi^ case automobilistiche degli Stati Uniti (Chrysler, Ford e General Motors) √® stato respinto dal Senato degli Stati Uniti, dopo il mancato superamento di un voto procedurale._Il disegno di legge √® stato respinto in seguito all'interruzione delle trattative bipartisan sul piano di salvataggio, quando i leader del Partito repubblicano hanno insistito per far accettare al sindacato United Auto Workers (UAW) l'incremento dei tagli salariali per il prossimo anno, al fine di adeguare la retribuzione a quella percepita nelle aziende automobilistiche giapponesi presenti negli Stati Uniti._L'UAW non ha accettato le richieste._Lo scrutinio finale della votazione al Senato si √® concluso con 52-35, con otto voti mancanti ai 60 necessari per l'approvazione._Solo dieci repubblicani si sono uniti ai quaranta democratici e a due indipendenti per votare a favore del disegno di legge._Tre democratici e trentuno repubblicani hanno votato contro._Il leader della maggioranza al Senato Harry Reid ha ammesso di essere rimasto ^terribilmente deluso^ dalla mancata approvazione del disegno di legge._^Ho paura di guardare Wall Street domani._Non sar√\u2020 una vista piacevole^, ha osservato Reid._^Milioni di americani, non solo i lavoratori del settore auto, ma le persone che vendono automobili, le concessionarie auto, le persone che lavorano sulle vetture ne risentiranno in modo diretto.^__Anche il senatore repubblicano Bob Corker si √® detto insoddisfatto del respingimento._^Eravamo a circa tre parole da un accordo._Avevamo risolto tutte le questioni sostanziali e per tre parole, o quasi, non possiamo giungere a una conclusione^, ha commentato._Alcuni democratici ora chiedono al presidente americano Bush di accantonare una parte del piano di salvataggio da 700  miliardi di dollari stanziati per Wall Street per aiutare l'industria automobilistica nazionale._La notizia ha provocato un drastico crollo dei mercati azionari di tutto il mondo, con l'indice giapponese Nikkei che ha perso in media 484,68 punti o il 5,6 per cento, toccando quota 8.253,87 punti._Le azioni delle aziende automobilistiche Toyota, Nissan e Honda sono calate tutte non meno del 10 per cento ciascuna._Anche le borse europee, tra cui Regno Unito e Germania, hanno perso terreno, con l'indice FTSE 100 delle azioni principali che cala di 176,3 punti, atterrando a 4.211 a mezzogiorno.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/19839-textpro.txt.txp"
+},
+{
+"text": "La Casa Bianca  valuta il piano di salvataggio dell'auto_13 dicembre 2008_Dopo la mancata approvazione al Senato del piano per salvare tre grandi societ√\u2020 automobilistiche questa settimana, la Casa Bianca ha dichiarato di stare valutando il possibile utilizzo di parte dei 700 miliardi di dollari stanziati per salvare il settore bancario destinandoli alle case automobilistiche._La Casa Bianca sostiene che il crollo delle case automobilistiche costituirebbe una terribile battuta d'arresto, capace di distruggere l'economia._^In condizioni economiche normali, preferiamo che siano i mercati a determinare la sorte delle imprese private._Tuttavia, visto lo stato attuale di indebolimento dell'economia statunitense, prenderemo in considerazione altre opzioni, se necessario, compreso l'uso del programma TARP [Troubled Assets Relief Program], per evitare il crollo delle case automobilistiche in difficolt√\u2020^ ha dichiarato Dana Perino, addetto stampa della Casa Bianca._^Un crollo precipitoso di questo settore avrebbe un impatto grave sulla nostra economia e sarebbe irresponsabile indebolire e destabilizzare ulteriormente la nostra economia in questo momento.^_All'inizio di questa settimana, le ^tre grandi^ case automobilistiche (Ford, Chrysler e General Motors) avevano invocato l'aiuto del Congresso per la concessione di fondi per 14 miliardi di dollari, al fine di evitare il collasso._Nonostante l'approvazione delle misure alla Camera, il Senato ha respinto la proposta con un risultato di voto 52 a 35._Uno dei motivi del respingimento del disegno di legge verte sui disaccordi in merito ai tagli sui costi del lavoro, che i repubblicani insistevano per portare a pari con quelli delle case automobilistiche giapponesi entro il prossimo anno._General Motors ha annunciato un arresto del 30% della propria produzione in Nord America ^in risposta al rapido deterioramento delle condizioni di mercato^.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/16014-textpro.txt.txp"
+},
+{
+"text": "GM e Chrysler propongono buonuscite e pensionamenti anticipati ai lavoratori_3 febbraio 2009_General Motors (GM) e Chrysler hanno entrambe iniziato a proporre pacchetti di buonuscita ai propri lavoratori._Le case automobilistiche sono state duramente colpite dalla recente crisi economica e sono state costrette a richiedere aiuti federali da parte del governo degli Stati Uniti._I rapporti riferiscono che il pacchetto di buonuscita di GM prevede il pagamento di 20 mila dollari in contanti e un buono da 25.000 dollari per un nuovo veicolo._Chrysler propone un buono da 25.000 dollari per un veicolo e 50.000 dollari con assistenza sanitaria, oppure 75 mila dollari senza assistenza._Entrambe presenteranno la proposta alla maggior parte dei membri del sindacato United Auto Workers (UAW), 62.000 presso GM, che sta cercando di tagliare 31.500 posti di lavoro entro il 2012._Le due societ√\u2020 hanno ricevuto 13,4 miliardi di dollari in prestiti federali per restare in funzione, ma il Congresso ha richiesto loro misure per produrre piani di sostenibilit√\u2020 a dimostrazione dei significativi tagli dei costi effettuati e delle concessioni di lavoro realizzate in cambio del denaro._I lavoratori UAW a Detroit guadagnano 28 dollari l'ora; i loro sostituti guadagneranno circa la met√\u2020._La ^Banca del lavoro^ di UAW, un sistema che consente di erogare i salari ai lavoratori  che hanno perso il lavoro, ha subito una battuta di arresto presso entrambe le aziende._GM, in aggiunta, sta tentando di progettare un sistema di capitalizzazione del debito per la riduzione delle passivit√\u2020 da 27,5 miliardi di dollari di debito non garantito a 9,2 miliardi di dollari._Inoltre ha messo in vendita un'azienda produttrice di autocarri, il gruppo di componenti Delco Electronics e i marchi di veicoli Hummer e Saab Automobile._L'intero settore dei costruttori di motori ha risentito della crisi economica: Ford Motor Company stima una perdita annuale di 14,6  miliardi di dollari, anche se non √® ricorsa ad aiuti federali._GM e Chrysler si sono trovate entrambe a corto di fondi operativi nel mese di dicembre, motivo per cui √® intervenuto il piano di salvataggio federale.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/1414-textpro.txt.txp"
+},
+{
+"text": "Le vendite di automobili negli Stati Uniti in forte calo_3 febbraio 2009_Le vendite di automobili negli Stati Uniti sono calate del 35% nel mese di gennaio, rispetto allo stesso mese dell'anno precedente, secondo i rapporti sulle vendite di gennaio forniti dai produttori._Le vendite di Ford Motor Company nel mese scorso sono calate del 42% rispetto all'anno precedente._General Motors ha riportato un calo del 49%._Chrysler √® stata la pi√π colpita tra i produttori nazionali, con un crollo del 55%._Il calo delle vendite non ha colpito solo i produttori americani._La casa automobilistica giapponese Toyota ha registrato un calo del 32% nelle vendite degli Stati Uniti rispetto all'anno precedente, Nissan Motors del 30% e le vendite di Honda sono diminuite del 28%._Subaru e South Korean Hyundai Motor Company sono due delle poche case automobilistiche che hanno riportato un aumento delle vendite._I guadagni registrati ammontano all'otto e al quattordici per cento, rispettivamente._Anche su base annua, le vendite complessive hanno subito un crollo._Il settore di vendita delle automobili degli Stati Uniti √® sceso del 18% lo scorso anno, con 13,2 milioni di automobili vendute._GM oggi ha annunciato che offrir√\u2020 buonuscite su base volontaria per 22.000 dipendenti negli Stati Uniti, nel tentativo di ridurre le proprie spese._Il mese scorso, GM e Chrysler hanno ricevuto prestiti per un valore di 17,4  miliardi di dollari dal governo, dopo l'annuncio di imminente fallimento.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/21449-textpro.txt.txp"
+},
+{
+"text": "Le case automobilistiche statunitensi GM e Chrysler chiedono ulteriori aiuti governativi_18 febbraio 2009_La casa automobilistica statunitense Chrysler, gravemente colpita dalla recessione in atto, ha chiesto al governo degli Stati Uniti ulteriori aiuti per 5 miliardi di dollari, oltre ai quattro miliardi gi√\u2020 ricevuti, con la previsione di licenziamento di tremila dipendenti ._Alla fine dello scorso anno, la casa automobilistica contava poco pi√π di 54.000 dipendenti, pertanto i licenziamenti rappresentano circa il sei per cento della sua forza lavoro complessiva._Inoltre, Chrysler taglier√\u2020 la produzione dei modelli Chrysler Aspen, PT Cruiser e Durango._General Motors (GM), un'altra casa automobilistica, ha annunciato l'intenzione di richiedere prestiti al governo per 16,6 miliardi di dollari, in aggiunta ai 13,4 miliardi di dollari gi√\u2020 percepiti._GM prevede di licenziare 47.000 dipendenti e di chiudere cinque stabilimenti._GM avrebbe bisogno di 30 miliardi di dollari dal Dipartimento del Tesoro degli Stati Uniti, con un incremento rispetto alla precedente stima di 18 miliardi di dollari._La societ√\u2020 ha minacciato la possibilit√\u2020 di fallimento entro marzo in caso di mancata ricezione degli aiuti._Rick Wagoner, amministratore delegato di GM, ha descritto il piano di impresa come ^completo, rapido, realizzabile e flessibile^._^Abbiamo un sacco di lavoro da fare, ma sono fiducioso che si tradurr√\u2020 in una General Motors redditizia^, ha dichiarato, aggiungendo che ^il piano attuale √® molto pi√π aggressivo perch√© cos√¨ deve essere^._GM prevedere un risultato in termini di utile entro due anni e potrebbe essere in grado di rimborsare tutti i prestiti entro il 2017._Una terza casa automobilistica degli Stati Uniti, Ford Motor Company, ha dichiarato di poter sopravvivere quest'anno senza alcun aiuto governativo._Il Dipartimento del Tesoro degli Stati Uniti esaminer√\u2020 i piani di sopravvivenza dei costruttori di automobili per diverse settimane prima di prendere una decisione sull'eventuale estensione dei prestiti._La decisione √® prevista per la fine del prossimo mese.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/21891-textpro.txt.txp"
+},
+{
+"text": "GM e Chrysler ricevono prestiti canadesi tra gli ultimatum degli USA per la ristrutturazione_3 aprile 2009_General Motors (GM) e Chrysler riceveranno prestiti a breve termine da parte del governo del Canada e dal governo provinciale dell'Ontario, ma non sono previsti ulteriori aiuti da parte dei governi canadesi o statunitensi a meno che le aziende non dimostrino di sapersi reinventare._^√à un passo deplorevole, ma necessario per proteggere l'economia canadese._Abbiamo accordato l'aiuto sul presupposto che n√© gli Stati Uniti n√© il Canada possono permettersi un collasso catastrofico a breve termine, ovviamente^,_spiega Stephen Harper, Primo Ministro del Canada._^Non possiamo, non dobbiamo e non vogliamo lasciare svanire cos√¨ la nostra industria automobilistica._Questo settore rappresenta, come nessun altro, l'emblema dello spirito americano; un simbolo del successo dell'America, nel passato e nel futuro^ dichiara Barack Obama, Presidente degli Stati Uniti._^Queste aziende, e questo settore in generale, devono essere indipendenti, in definitiva, non agire come succursali statali.^_Chrysler ricever√\u2020 1 miliardo di dollari canadesi, risulta infatti idonea a percepire finanziamenti fino a 4 miliardi di dollari canadesi._Se Chrysler ha successo con il proprio piano di ristrutturazione nei prossimi 30 giorni, avrebbe diritto a beneficiare di prestiti per 6 miliardi di dollari._Una parte del piano di ristrutturazione di Chrysler deve comprendere una partnership con Fiat entro 30 giorni, per soddisfare l'amministrazione statunitense._Fiat √® una societ√\u2020 fornitrice di veicoli di piccole dimensioni e a basso consumo e la fusione giover√\u2020 a Chrysler, con un posizionamento pi√π redditizio sul mercato nordamericano._Un tribunale fallimentare imporrebbe inevitabilmente la vendita di Chrysler._Come parte dei piani di ristrutturazione di Chrysler, Tom LaSorda, presidente di Chrysler, ha annunciato che le operazioni canadesi potrebbero non sortire effetti senza gli aiuti da 2,3 miliardi di dollari da parte degli Stati Uniti e un nuovo contratto per i lavoratori del settore, rappresentati dal Canadian Auto Workers CAW, per ridurre i costi complessivi della manodopera a 19 dollari canadesi l'ora._In seguito a tale annuncio, il volume delle vendite di auto di Chrysler in Canada √® sceso del 23% rispetto a marzo del 2008._GM ha tempo fino alla fine di maggio per ristrutturare la propria azienda, al fine di ricevere prestiti per un massimo di 7,5 miliardi di dollari canadesi._Nel contesto di ristrutturazione delle societ√\u2020, l'amministratore delegato di General Motors Rick Wagoner √® stato sostituito domenica da Fritz Henderson, l'attuale direttore generale._Henderson ha annunciato marted√¨ un piano di ristrutturazione per GM che prevede la chiusura di cinque stabilimenti, ulteriormente estendibile se necessario per soddisfare i requisiti per gli aiuti finanziari._Il nuovo CEO concorda integralmente con le task force dell'auto istituite da Obama, sul chiedere il fallimento nell'eventualit√\u2020 in cui GM non riesca a concludere trattative con i relativi sindacati, obbligazionisti e terzi interessati._GM di recente ha presentato il \u201aÄã\u201aÄãprogramma ^GM Fiducia totale^, che offre una tutela ai clienti che acquistano un veicolo e perdono il proprio posto di lavoro per motivi economici entro i primi due anni dalla data di acquisto._Come risultato della proposta di ristrutturazione di Chrysler in Canada, il volume delle vendite di veicoli canadesi di GM √® sceso solo del 17,3% rispetto al 2008, registrando una risalita rispetto al mese precedente._GM deve ridurre alcuni dei suoi costi pregressi, che comprendono le pensioni e il sistema di assistenza sanitaria._Parte dei problemi di GM √® scaturita dalla decisione di investire nella fornitura di camion e SUV in un periodo economico in cui i prezzi della benzina erano elevati, quando i consumatori chiedevano veicoli a basso consumo di carburante._Tony Clement, Ministro dell'Industria del Canada, spera che il CAW supporti il processo di ristrutturazione e rinegozi l'accordo._Invece, un negoziatore degli United Auto Workers ha dichiarato ^Non vedo in che modo il UAW possa fare alcunch√© finch√© non vede a che cosa gli obbligazionisti siano disposti a rinunciare^.__L'amministrazione Obama si sta muovendo verso procedure fallimentari per le case automobilistiche, ^come meccanismo per aiutarle a ristrutturarsi in modo rapido e a riemergere pi√π forti._Tale metodo consente di eliminare rapidamente i debiti pregressi che le appesantiscono._Quello che chiediamo √® difficile._Richiede alle societ√\u2020 di compiere scelte difficili._Richieder√\u2020 ulteriori sacrifici a sindacati e lavoratori, che gi√\u2020 hanno compiuto concessioni dolorose._Richieder√\u2020 ai creditori di riconoscere che non possono andare avanti all'infinito con la prospettiva di salvataggi governativi^,_ha proclamato Obama._I fornitori di ricambi auto e gli esportatori di software IT in India sono gi√\u2020 stati colpiti dal calo delle vendite di automobili._I contratti software di GM e Chrysler rendono dai 300 ai 350 milioni di dollari all'anno ai fornitori indiani._In aggiunta, queste due grandi case automobilistiche di solito offrono contratti da 1 miliardo di dollari ai fornitori di ricambi auto._^Siamo preoccupati e osserviamo da vicino gli sviluppi negli Stati Uniti per valutare l'impatto._Il calo delle vendite di automobili negli Stati Uniti ha gi√\u2020 colpito gli ordinativi dei fornitori indiani^, ha affermato un fornitore di ricambi auto di Delhi._^Con il passare del tempo, il settore ne uscir√\u2020 senza dubbio ridimensionato, ma se i nostri sforzi avranno successo sar√\u2020 redditizio e garantir√\u2020 posti di lavoro solidi per i canadesi^ ha commentato Clements._Betty Sutton, membro del Congresso per l'Ohio, ha presentato il CARS act, che offre un incentivo dai 3.000 $ ai 5.000 $ a coloro che rottamano il proprio veicolo per un auto pi√π efficiente in termini di consumo di carburante._^Tale iniziativa stimola in modo efficace l'economia, riporta il consumatore negli autosaloni e lo incoraggia a riprendere gli acquisti._Ma soprattutto, e questo √® l'aspetto che preferisco, aiuta davvero un bel po' l'ambiente, sotto due aspetti^,_ha spiegato William Clay Ford Jr., presidente esecutivo di Ford Motor Co._La Ford Motor Company non ha presentato richieste per ottenere aiuti finanziari._Da dicembre, GM e Chrysler hanno ricevuto 17,4  miliardi di dollari in prestiti governativi.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/7407-textpro.txt.txp"
+},
+{
+"text": "Crollo del 45% nelle vendite di automobili di General Motors_1 aprile 2009_General Motors Corporation (GM) ha reso note mercoled√¨ le stime di un calo del 45% sulle vendite di automobili negli Stati Uniti per il mese di marzo._I dirigenti di diverse aziende automobilistiche, tuttavia, hanno intravisto qualche speranza di stabilizzazione per l'industria automobilistica, visto il rimbalzo delle vendite di automobili nell'ultima settimana di marzo._^Il mercato sta cominciando a mostrare piccoli segnali di vita che hanno bisogno di essere nutriti come piantine,^ ha spiegato il vice presidente e presidente di Chrysler LLC Jim Press._^√à troppo presto per cogliere una tendenza, ma la primavera mostra segnali di speranza.^_Anche altre case automobilistiche hanno subito cali nelle vendite dei veicoli:_Chrysler e la giapponese Toyota hanno riportato un calo del 39%, mentre le vendite di Ford Motor Company sono scese del 41%._Il fatturato annuo previsto per le vendite nel settore automobilistico degli Stati Uniti √® sceso sotto i nove milioni a marzo, rispetto ai 9,12 milioni di febbraio, il valore pi√π basso registrato dal 1981._^I produttori di auto stanno tirando ogni leva nel tentativo di attirare acquirenti, come testimoniano i nuovi programmi lanciati da Ford e GM._I soliti programmi di incentivazione non hanno alcun effetto nell'economia di oggi^ sostiene Jesse Toprak, un analista di Edmunds._Le azioni Ford hanno guadagnato il 2,3%, toccando quota 2,69 $ nei primi scambi dei mercati azionari statunitensi mercoled√¨, mentre le azioni statunitensi di Toyota sono salite a 67 $, con un incremento del 5,9%._Le azioni di GM sono scese fino a quota 1,92 $, con un calo dell'1,6%.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/223-textpro.txt.txp"
+},
+{
+"text": "La casa automobilistica statunitense GM riporta perdite per 6 miliardi di dollari_7 maggio 2009_General Motors, societ√\u2020 automobilistica statunitense, ha annunciato perdite per 6 miliardi di dollari nel primo trimestre del 2009, in termini di drastici cali di fatturato._Escludendo le voci particolari, la societ√\u2020 ha dichiarato una perdita netta di 5,9  miliardi di dollari o 9,66 $ per azione._Nel primo trimestre dello scorso anno, GM aveva riportato una perdita di 381 milioni di dollari o 0,67 $ per azione._La maggior parte degli analisti finanziari aveva stimato le perdite della casa automobilistica per oltre 6,7 miliardi di dollari o 11,05 $ per azione._GM inoltre ha riferito di aver speso 10,2 miliardi di dollari nel tentativo di evitare il fallimento._La societ√\u2020 ha ricevuto oltre 15 miliardi di dollari di aiuti economici da parte del governo federale._√à stata fissata al 1 giugno la data di scadenza per l'elaborazione di un piano di ristrutturazione._Se non adempie al compito per tale data, sar√\u2020 costretta a presentare istanza di tutela per fallimento._^Ci stiamo concentrando molto sul fronte dei costi del business, ma quando si inizia a perdere ricavi si entra in un circolo vizioso da cui non √® possibile recuperare^ ha affermato Ray Young, il direttore finanziario di GM._^Continuiamo a vedere una probabilit√\u2020 del 60/80 per cento di fallimento per GM._Nonostante il patrimonio netto di GM oggi sia in larga parte non investibile, siamo sempre pi√π convinti che GM possa riemergere notevolmente fortificata da un fallimento, a condizione che la procedura di cui al Chapter 11 non richieda tempi eccessivi, in particolare data la portata dei tagli mirati ai rivenditori^, ha spiegato l'analista Himanshu Patel.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/3568-textpro.txt.txp"
+},
+{
+"text": "La casa automobilistica statunitense Chrysler vuole eliminare 789 concessionarie_14 maggio 2009_La societ√\u2020 produttrice di automobili statunitense Chrysler LLC  ha dichiarato la propria intenzione di eliminare 789, circa un quarto, dei suoi 3.200 concessionari dai primi di giugno._In un'istanza presentata gioved√¨ al tribunale fallimentare, la societ√\u2020 ha dichiarato che la propria rete ha troppi concessionari in competizione tra loro e risulta obsoleta._L'udienza √® stata fissata al 3 giugno presso il Tribunale fallimentare degli Stati Uniti per stabilire l'eventuale approvazione della proposta._^Questo √® un giorno difficile per noi e non √® un giorno per cui ci si possa preparare^ ha affermato Jim Press, vice presidente di Chrysler._I dirigenti della societ√\u2020 hanno spiegato che la societ√\u2020 sta cercando di eliminare i concessionari con prestazioni scarse e mantenere quelli che concludono vendite migliori._Oltre il 50% delle concessionarie in procinto di essere eliminate vende meno di un centinaio di automobili all'anno._^Sappiamo che nel breve termine assisteremo a qualche perdita nelle vendite._Ma nel lungo termine...la rete di concessionari √® fondamentale e intendiamo renderla molto forte, potente, con una sostenibilit√\u2020 finanziaria migliore^ ha rivelato Press.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/23489-textpro.txt.txp"
+},
+{
+"text": "La casa automobilistica statunitense GM prevede di chiudere 1.100 concessionarie_15 maggio 2009_La casa automobilistica americana General Motors (GM) ha comunicato venerd√¨ il programma per la chiusura di circa 1.100 delle sue concessionarie, nel tentativo di evitare il fallimento e ridurre le spese._La mossa di GM arriva un giorno dopo Chrysler, un'altra casa automobilistica statunitense, che ha pubblicato un elenco di 789 concessionarie in procinto di chiusura._A differenza di Chrylser, GM non comunicher√\u2020 pubblicamente le concessionarie che intende chiudere._Invece, i concessionari il cui franchising non verr√\u2020 rinnovato dopo l'ottobre del prossimo anno apprenderanno la decisione con una lettera riservata._Al momento, GM conta 6.246 rivenditori negli Stati Uniti_Il suo obiettivo √® ridurre il numero a 3.605 entro la fine del 2010._GM ha dichiarato che avrebbe chiuso le concessionarie statunitensi ^insoddisfacenti e con volumi di vendita irrisori.^_^Sono concessionarie che nella maggior parte dei casi causano danni, perdono soldi, rischiano di fallire in ogni caso^ ha annunciato il vice presidente per le vendite, la manutenzione e la commercializzazione di GM in una conferenza telefonica._^Le persone potrebbero obiettare che tale mossa avrebbe dovuto essere intrapresa anni fa, ma il gruppo dirigente non ha avuto altra scelta che attuarla oggi.^_I concessionari che devono essere chiusi rappresentano il 18% della rete di distribuzione della societ√\u2020, ma solo il 7% delle entrate di GM del 2008.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/30980-textpro.txt.txp"
+},
+{
+"text": "La bancarotta della casa automobilistica statunitense GM diventa quasi inevitabile, dopo il fallimento delle offerte degli obbligazionisti_28 maggio 2009_La casa automobilistica statunitense General Motors ha annunciato mercoled√¨ che la maggior parte dei suoi obbligazionisti ha rifiutato di scambiare il debito di GM pari a 27 miliardi di dollari con una quota del dieci per cento di azioni della societ√\u2020._La casa automobilistica, in difficolt√\u2020 finanziarie, ha come scadenza il 1 giugno per completare un piano di ristrutturazione governativa che comprende chiusure di impianti e altre misure di riduzione del debito._L'amministrazione del presidente americano Barack Obama ha rifiutato la concessione di ulteriori aiuti finanziari per la societ√\u2020, a meno che il 90% degli obbligazionisti di GM avesse raggiunto un accordo in merito ai compromessi finalizzati a ridurre significativamente i costi dell'impresa._^Il valore nominale delle obbligazioni sottoscritte √® risultato sostanzialmente inferiore all'importo richiesto da GM per soddisfare il requisito di riduzione del debito^ ha dichiarato GM in un comunicato._^Hanno detto di no._Questo √® tutto._Ci hanno provato._√à per questo che stanno andando a presentare istanza di fallimento^, ha spiegato un professore universitario presso l'Universit√\u2020 del Michigan specializzato in fallimenti.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/581-textpro.txt.txp"
+},
+{
+"text": "Il produttore statunitense General Motors presenta l'istanza di tutela giudiziaria dal fallimento_1 giugno 2009_La casa automobilistica statunitense General Motors ha chiesto l'avvio della procedura fallimentare e di tutela giudiziaria dai creditori prevista dal Chapter 11 luned√¨ alle 12:00 UTC, presso un tribunale fallimentare federale di Manhattan, New York._Si tratta della pi√π grande istanza di fallimento per una societ√\u2020 di produzione statunitense, con un patrimonio dichiarato di 82,29 miliardi di dollari e un debito di 172,81 miliardi di dollari, la quarta pi√π grande nella recente storia degli Stati Uniti, dopo i fallimenti di Lehman Brothers (691,06 miliardi di dollari), Washington Mutual (327,91 miliardi di dollari), e WorldCom (103,91 miliardi di dollari).",
+"uri": "http://www.newsreader-project.eu/data/wikinews/24695-textpro.txt.txp"
+},
+{
+"text": "Barack Obama presenta piano di salvataggio dopo la dichiarazione di fallimento di GM_1 giugno 2009_In un discorso televisivo dalla Casa Bianca alle 16:00 UTC di oggi, il Presidente degli Stati Uniti Barack Obama ha presentato un piano di riorganizzazione a seguito dell'annuncio, avvenuto alle ore 12:00 UTC, da parte di General Motors riguardo all'istanza di fallimento presentata e alla richiesta di tutela dai creditori prevista dal Chapter 11, il pi√π grande fallimento di una societ√\u2020 di produzione statunitense._Nel descrivere il problema della societ√\u2020 come un guaio ^che si preparava da decenni^, Obama ha spiegato le ragioni alla base del piano di riorganizzazione proposto per General Motors._Il suo intento √® non ^perpetuare le decisioni sbagliate del passato^, quindi prestare denaro a General Motors quando il suo problema era il debito, avrebbe significato fare esattamente questo._Il suo piano, ha dichiarato, √® rendere il governo degli Stati Uniti azionista di General Motors, in collaborazione con i governi del Canada e dell'Ontario (che ha ringraziato per il supporto, insieme al governo tedesco, per il suo ruolo nella vendita di una partecipazione societaria in GM Europe)._Il governo degli Stati Uniti deterrebbe una quota del 60%._Il governo offrir√\u2020 a GM un'infusione di capitale da 30 miliardi di dollari, in aggiunta ai fondi gi√\u2020 erogati._Riguardo alla propriet√\u2020 da parte del governo, il presidente USA ha dichiarato che non lascer√\u2020 che ^General Motors e Chrysler diventino reparti dello stato^, descrivendo la propria visione dei fallimenti di Chrysler e di General Motors come ^rapidi e chirurgici^._Ha indicato il fallimento di Chrysler come un esempio di quanto intravede per General Motors, precisando tuttavia che General Motors √® una ^societ√\u2020 pi√π complessa^ di Chrysler._Per rispondere alle critiche espresse dagli avversari politici, prima del discorso, in merito al fatto che il governo federale avrebbe partecipato attivamente agli affari della societ√\u2020 ristrutturata, ha dichiarato di non avere ^alcun interesse^ nella gestione di GM e che il governo federale si sarebbe ^astenuto dall'esercitare i propri diritti^ in quanto azionista aziendale che detiene la quota principale._In particolare, ha garantito che il governo federale non avrebbe esercitato i propri diritti di azionista per dettare ^quale nuovo tipo di macchina produrre.^_Le sue aspettative per la GM ristrutturata vertono sulle ^auto di domani, di alta qualit√\u2020, sicure ed efficienti in termini di consumo^ e ha descritto pi√π volte ci√≤ che ha anticipato come automobili ^migliori^ ed ^efficienti in termini di consumo di carburante^, in seguito a una razionalizzazione dei marchi di GM._Ha detto al pubblico: ^Non sto fingendo che i tempi duri siano finiti^._Ha descritto le difficolt√\u2020 finanziarie che alcuni, gli azionisti, l'indotto costituito intorno agli stabilimenti GM, i rivenditori di GM e altri, avrebbero affrontato come un ^sacrificio per la prossima generazione^ da parte loro, in modo che i loro figli possano vivere in ^un'America che produce ancora cose^, concludendo che un giorno gli Stati Uniti potrebbero tornare ai tempi in cui aveva fondamento la massima (una distorsione, ampiamente ripetuta, della testimonianza di Charles Erwin Wilson davanti al Senato degli Stati Uniti, in occasione della nomina per l'incarico a Segretario della Difesa): ^Ci√≤ che √® bene per General Motors √® bene per gli Stati Uniti d'America.^",
+"uri": "http://www.newsreader-project.eu/data/wikinews/21194-textpro.txt.txp"
+},
+{
+"text": "Il CEO di GM delinea il programma per la^Nuova GM^ dopo il fallimento dichiarato dalla casa automobilistica_4 giugno 2009_In una conferenza stampa a New York, alle 16:15 UTC, il 1 giugno, Fritz Henderson, l'amministratore delegato di General Motors che ha presentato istanza di fallimento e richiesta di tutela dai creditori prevista dal Chapter 11 in data odierna, ha delineato un piano per quella che ha definito come ^Nuova GM^._Parlando alla stampa ai sensi delle disposizioni di approdo sicuro previste dalla legge degli Stati Uniti, Henderson ha descritto gli eventi di oggi come un ^momento decisivo^ nella storia di General Motors._Rivolgendosi al pubblico ha dichiarato che ^La GM che vi ha deluso ormai √® storia^ e ha descritto la^Nuova GM^ che spera emerga dal processo di fallimento._Henderson presume che il processo di fallimento impieghi tra i 60 e 90 giorni._Pi√π volte ha sottolineato la propria visione in merito alla velocit√\u2020 del processo, dettata non soltanto da un senso di urgenza, ma da ^velocit√\u2020 pura e semplice^._Ha precisato che ^GM rimane operativa^ durante la procedura di fallimento, proseguendo con le vendite dei propri prodotti e il relativo supporto, al cui scopo sono state presentate mozioni speciali presso il tribunale fallimentare._Per quanto riguarda il processo di bancarotta, ha dichiarato: ^Lo faremo nel modo giusto._E lo faremo una volta sola^._Ha riferito che il piano per la General Motors ha incontrato il supporto dei sindacati United Auto Workers, Canadian Auto Workers e GM VEBA, nonch√© della maggioranza degli obbligazionisti non garantiti di GM._Ha comunicato inoltre che GM ha gi√\u2020 ricevuto un finanziamento a breve termine da 1,5 milioni di euro da parte del governo tedesco._In risposta alle domande riguardo alla possibile influenza del governo federale degli Stati Uniti, azionista di maggioranza della societ√\u2020 ristrutturata, nel dettare il futuro sviluppo dei prodotti e la strategia, come ad esempio la vendita di veicoli pi√π efficienti in termini di consumo ed ecologici, in primo luogo ha citato la dichiarazione gi√\u2020 rilasciata sul tema dal governo federale, di non nutrire ^alcun interesse effettivo nella gestione di tale business^ e infine ha concluso dicendo che si aspettava che questo fosse ancora il suo lavoro._Dell'ipotetico scenario specifico, in cui il management di GM intende produrre un determinato tipo di veicolo, perch√© lo ritiene appropriato per il proprio business mentre il governo degli Stati Uniti ne richiede un altro, ha risposto ^Non penso che succeder√\u2020^._Approfondendo questo argomento, vorrebbe che la ^Nuova GM^ si concentrasse sulla ^tecnologia verde altamente efficiente in termini di consumo^ e che operasse in conformit√\u2020 con le leggi ambientali statunitensi, oltre che in risposta alla domanda dei clienti; tutto ci√≤ porterebbe in modo naturale la Nuova GM a produrre le tipologie di veicoli incoraggiate dal governo degli Stati Uniti._La ^Nuova GM^ dovrebbe inoltre concentrarsi su quattro marchi ^principali^, su cui ridimensionare la propria rete di concessionari._A tal fine, GM offrir√\u2020 un pacchetto di ^cessazione differita^ ai concessionari, per consentire loro la dismissione del rapporto commerciale con i veicoli GM in modo gestito e graduale._L'istanza di fallimento, ha precisato, non riguarda le imprese General Motors in America Latina, Europa e Medio Oriente, Asia e Pacifico._Riguardo alle possibili iniziative redditizie di GM in Cina, in particolare, ha dichiarato che rappresentano ^una componente critica per la Nuova GM^._In risposta alle domande se la Nuova GM avrebbe importato automobili dalla Cina agli Stati Uniti, ha ribadito che il principio costituente fondamentale della societ√\u2020: ^Costruiamo dove vendiamo^ si applica in entrambe le direzioni, con la produzione di GM in Cina finalizzata alle vendite in Cina e la produzione negli Stati Uniti destinata alle vendite negli Stati Uniti, allo scopo di accorciare le catene di approvvigionamento._Non ha fornito previsioni per il ritorno alla redditivit√\u2020 economica della nuova GM, sostenendo che l'obiettivo piuttosto consiste nell'abbassare il punto di pareggio  del risultato operativo (EBIT) per la societ√\u2020._Ha rifiutato inoltre di fare ipotesi sul momento in cui il governo degli Stati Uniti avrebbe venduto la propria partecipazione nella societ√\u2020, rispondendo che sarebbe pi√π opportuno rivolgere la domanda ^al Dipartimento del tesoro degli Stati Uniti^, e limitandosi a dire che le previsioni sono dell'ordine di ^anni, non mesi^, quando il Dipartimento del tesoro riterr√\u2020 opportuno offrire ^il giusto ritorno ai contribuenti.^",
+"uri": "http://www.newsreader-project.eu/data/wikinews/6994-textpro.txt.txp"
+},
+{
+"text": "Penske Auto selezionata per l'acquisto di Saturn, unit√\u2020 di General Motors_5 giugno 2009_General Motors Corporation (GM), una casa automobilistica americana che ha presentato istanza di tutela per fallimento, ha annunciato venerd√¨ che Penske Automotive Group (PAG) √® stato selezionata per l'acquisto di Saturn Corporation._La transazione dovrebbe essere completata nel mese di ottobre._L'acquisto comprende i diritti per il marchio Saturn, i suoi cinque modelli attuali e la relativa rete di concessionari._La produzione di due modelli, Sky e Astra, verr√\u2020 sospesa._GM potrebbe continuare la produzione della berlina Aura, i SUV, Vue e Outlook per almeno altri due anni._Saturn dispone di 350 rivenditori in tutti gli Stati Uniti._I concessionari impiegano pi√π di 13.000 dipendenti e vendono esclusivamente automobili Saturn._I rivenditori canadesi di Saturn non sono compresi nel contratto._Secondo Penske, i futuri veicoli Saturn si concentreranno sul risparmio in termini di consumo di carburante._Un esperto suggerisce che questo riporterebbe Saturn alle proprie radici di societ√\u2020 automobilistica di livello base._PAG √® in trattative con diverse case automobilistiche internazionali per sostituire GM dopo il 2011._Automotive News indica la coreana Renault Samsung Motors come candidato pi√π probabile._Penske ha chiamato Jill Lajdziak, direttore generale di Saturn, e Tom LaSorda, ex presidente di Chrysler, per dirigere l'azienda, quando sar√\u2020 indipendente da GM._Serra Automotive di Grand Blanc Township, contea di Genesee, Michigan, √® in trattative per ottenere una quota parziale sulla nuova Saturn diretta da Penske.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/17268-textpro.txt.txp"
+},
+{
+"text": "La casa automobilistica Ford pubblica profitti inaspettati_3 novembre 2009_La casa automobilistica statunitense Ford ha dichiarato di aver registrato un utile netto di 997 milioni di dollari nel terzo trimestre di quest'anno, con la previsione di ritorno a uno stato ^solidamente redditizio^ entro il 2011._Le relazioni hanno sorpreso la maggior parte degli analisti, che prevedevano perdite economiche significative per la societ√\u2020 automobilistica._I profitti di Ford equivalgono a 26 centesimi per azione, una grande differenza rispetto alla perdita di 12 centesimi per azione che era stata prevista dalla maggior parte degli analisti economici._^I nostri risultati del terzo trimestre dimostrano chiaramente che Ford sta facendo enormi progressi, nonostante la crisi economica prolungata^ ha ribadito l'amministratore delegato della societ√\u2020 Alan Mulally._^Ci resta ancora da percorrere una strada difficile ma la trasformazione da noi adottata sta funzionando e la nostra attivit√\u2020 di base si rafforza di giorno in giorno.^_Mulally ritiene che la societ√\u2020 soddisfer√\u2020 o addirittura superer√\u2020 tutti i propri obiettivi finanziari e ha indicato che nel quarto trimestre di quest'anno si potrebbe assistere a un utile operativo.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/26795-textpro.txt.txp"
+},
+{
+"text": "La produttrice di automobili GM taglia 10.000 posti di lavoro in Opel_5 novembre 2009_La casa automobilistica statunitense General Motors ha comunicato l'intenzione di tagliare 10.000 posti di lavoro nella propria divisione europea Opel._Secondo il vice presidente della societ√\u2020 John Smith, la societ√\u2020 intende ridurre i costi di Opel del 30%._Smith ha divulgato la mossa della societ√\u2020 mercoled√¨._Non ha specificato dove esattamente saranno apportati i tagli, ma intende presentare i dettagli del piano ai governi europei ^molto presto^._Un giorno prima dell'annuncio, GM ha comunicato l'annullamento di un accordo per vendere Opel a Magna, una societ√\u2020 di componenti automobilistici canadese._Il mondo politico in Germania ha espresso il proprio disappunto per la cancellazione dell'accordo Magna da parte di GM, operazione che il governo del Paese aveva favorito._^_Il comportamento di GM nei confronti della Germania √® assolutamente inaccettabile^ ha dichiarato il ministro dell'Economia tedesco Rainer Bruederle._Il premier dello  stato federale tedesco del Nord Reno-Westfalia ha ribadito che ^il comportamento di General Motors mostra la brutta faccia del capitalismo sfrenato._Questo √® assolutamente inaccettabile^._Il governo del Regno Unito, tuttavia, ha accolto con favore la decisione della societ√\u2020._^√à la decisione migliore per la Gran Bretagna e per i nostri stabilimenti^ ha affermato il segretario generale del sindacato britannico Unite Tony Woodley._^Apprendo con grande piacere che General Motors ha finalmente fatto la cosa giusta per loro e per noi^ ha commentato alla BBC._I dipendenti Opel sono 54.000, circa 25.000 dei quali in Germania.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/19832-textpro.txt.txp"
+},
+{
+"text": "Ford Motors annuncia un profitto annuale di 2,7 miliardi di dollari_28 gennaio 2010_Ford Motors Co., la societ√\u2020 di produzione di automobili, ha registrato un utile annuale per l'ultimo anno di 2,7 miliardi di dollari, il primo guadagno da quattro anni._Le statistiche mostrano un miglioramento rispetto al 2008, quando la casa automobilistica ha registrato una perdita di quasi 15 miliardi di dollari._Nell'ultimo trimestre del 2009, Ford riporta un utile di 868 milioni di dollari e prevede di chiudere l'anno in attivo._La societ√\u2020 aveva operato tagli nei costi per 118,3  miliardi di dollari l'anno scorso, 19,8 miliardi di dollari rispetto all'anno precedente._Ford accusava un debito di 34,3 miliardi di dollari alla fine del 2009._Nel quarto trimestre, le vendite del marchio Ford sono aumentate del tredici per cento rispetto allo stesso periodo nel 2008 negli Stati Uniti, conquistando una quota del mercato automobilistico del paese pari al 15,3%._Il presidente e amministratore delegato della societ√\u2020, Alan Mulally, ha commentato i profitti._^Siamo davanti a sfide significative ancora da affrontare, ma il 2009 √® stato un anno fondamentale per Ford e rappresenta la dimostrazione pi√π efficace del funzionamento del nostro piano One Ford, nonch√© la costruzione di un percorso verso la crescita redditizia^ ha dichiarato, aggiungendo che ^le condizioni economiche globali si stanno rivitalizzando ma restano fragili^.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/13878-textpro.txt.txp"
+},
+{
+"text": "Impennata delle vendite di automobili di Ford negli Stati Uniti, superata GM_3 marzo 2010_Ford Motor Company ha comunicato marted√¨ un aumento del 43% delle sue vendite negli Stati Uniti nel mese di febbraio rispetto allo stesso periodo dello scorso anno, in quanto la casa automobilistica ha superato le rivali Toyota e General Motors._Ford ha riferito che le vendite complessive sono salite a 142.285 unit√\u2020, rispetto alle 141.951 unit√\u2020 vendute da GM._Inoltre, la sua quota sul mercato complessivo delle auto degli Stati Uniti auto √® aumentata al 17%, dal 14% di un anno fa._L'aumento si √® rivelato migliore delle previsioni degli analisti e le azioni di Ford hanno raggiunto un massimo storico che non si verificava da cinque anni all'apertura dei mercati, per poi diminuire nel corso della giornata._Le vendite di Ford sono state influenzate significativamente dall'aumento del 74% nelle vendite di flotte alle imprese._Le compagnie di noleggio auto da sole hanno rappresentato circa 30.000 unit√\u2020 vendute._Le vendite al dettaglio ai consumatori sono aumentate solo del 28%._Gli incrementi sono stati favoriti grazie alle vendite di due berline, Fusion e Taurus, aumentate del 166,5% e del 93,3% rispettivamente, sebbene siano incrementate anche le vendite di altri modelli come SUV e pick-up._Entrambi i modelli sono stati ridisegnati in modo radicale lo scorso anno e gli analisti hanno ricondotto gli aumenti al miglioramento della qualit√\u2020 di tali vetture._Altre aziende oggi hanno pubblicato i volumi delle vendite del mese di febbraio, quasi tutti in attivo, anche se nessuno paragonabile a quelli di Ford._Toyota rappresenta l'unica eccezione per i ricavi sulle vendite, con un calo dell'8,7%, per via del richiamo complessivo che la societ√\u2020 ha dovuto affrontare nel corso del mese, a causa del quale ha dovuto interrompere momentaneamente la produzione di alcuni modelli._^La forza dei nostri nuovi prodotti... √® l'armonia con i bisogni dei clienti^ ha commentato Ken Czubay, vice presidente di vendite e marketing di Ford._Tuttavia, ritiene che la clientela tradizionale di Toyota non stia comprando auto della concorrenza, ma sia piuttosto in attesa dei risultati dei richiami.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/23458-textpro.txt.txp"
+},
+{
+"text": "Fiat prevede di acquistare la quota di maggioranza in Chrysler_29 maggio 2011_Fiat ha annunciato venerd√¨ che intende acquistare il sei per cento della casa automobilistica Chrysler, attualmente detenuta dal governo degli Stati Uniti, che darebbe alla societ√\u2020 italiana una quota di maggioranza del 52 per cento su Chrysler._Secondo l'annuncio di Fiat, la societ√\u2020 ha comunicato al dipartimento del Tesoro degli Stati Uniti l'intenzione di utilizzare la sua opzione per l'acquisto della quota di Chrysler detenuta dal governo degli Stati Uniti, accordo che sar√\u2020 ultimato entro il 10 giugno._Se il prezzo non verr√\u2020 concordato per tale data, Fiat pagher√\u2020 secondo la media delle stime elaborate da parte di due banche d'investimento._Nel 2009, Fiat ha acquisito una quota del venti per cento di Chrysler, appena uscita dal fallimento; da allora ha aumentato la propria partecipazione, portandola al 46 per cento, e prevede di arrivare al 57% entro la fine di quest'anno._Secondo l'analista Maryann Keller, l'accordo sarebbe un bene per entrambe le societ√\u2020, poich√© ^nessuna delle due ha la capacit√\u2020 di competere da sola nel tipo di ambiente globale che si trovano ad affrontare^._L'analista Rebecca Lindland ha dichiarato che l'iniziativa inoltre andr√\u2020 a vantaggio delle imprese rendendole ^libere da eventuali imposizioni statali e da tutti gli aspetti negativi correlati con il piano di salvataggio^.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/30459-textpro.txt.txp"
+},
+{
+"text": "Ford Motor Company prevede tagli per 30.000 posti di lavoro entro il 2012_23 gennaio 2006_Ford Motor Company, il secondo principale produttore di automobili in America, taglier√\u2020 30.000 posti di lavoro e 14 stabilimenti nell'ambito di un piano di ristrutturazione per risollevare Ford dalla perdita di 1,6 miliardi di dollari, riscontrata lo scorso anno nelle vendite del Nord America._Il progetto, denominato ^La via giusta^, nasce da un'idea dell'amministratore delegato di Ford, William Clay Ford Jr., per porre un argine alle perdite nordamericane di Ford del 2008._Per raggiungere tale obiettivo, 30.000 posti di lavoro, che rappresentano dal 20 al 25 per cento dei 122.000 dipendenti nordamericani di Ford, saranno tagliati e 14 stabilimenti verranno chiusi, per portare la capacit√\u2020 produttiva di Ford in linea con la domanda._Entro la fine di quest'anno, gli stabilimenti di Atlanta e St. Louis verranno chiusi._Atlanta produce la berlina Ford Taurus, in graduale ritiro dal mercato._Lo stabilimento di St. Louis √® uno dei due impianti che produce il Ford Explorer, la cui vendita ha visto un calo del 29% nel 2005._Verranno chiusi inoltre gli stabilimenti Wixom nel Michigan, Batavia Transmission in Ohio, Casting Windsor in Ontario, la cui chiusura era gi√\u2020 stata preannunciata da Ford in seguito a trattative contrattuali con il sindacato Canadian Auto Workers._Lo stabilimento di St. Thomas, in Ontario, subir√\u2020 un taglio di un turno._Lo stabilimento produce le automobili Crown Victoria e Grand Marquis._Riguardo a tale taglio di turno, Whitey MacDonald, presidente di Local 1520, sindacato canadese dei lavoratori nel settore auto, ha dichiarato: ^Qui c'√® moltissima rabbia oggi, non vi √® alcun dubbio._Ogni volta che uno stabilimento si riduce a un solo turno, entra in un limbo._Questa vettura ha reso all'azienda milioni di dollari nel corso degli anni, che sono stati investiti in altri prodotti e luoghi; abbiamo diritto a qualche nuovo investimento, data la nostra comprovata esperienza^._Le notizie positive per lo stabilimento vertono sull'impegno ancora in atto per Ford di investire 200 milioni dollari nell'impianto, al fine di rinnovare l'aspetto esteriore delle due vetture ivi prodotte._Viceversa, secondo l'analista di Automotive Dennis DesRosier vi sono ancora probabilit√\u2020  di chiusura per l'impianto._DesRoiser ha dichiarato: ^Lo stabilimento St. Thomas √® obsoleto, il prodotto antiquato, ha senso che sia stato inserito in quell'elenco._Pu√≤ darsi che vi sia una tregua di breve durata, ma la chiusura definitiva dovrebbe verificarsi entro due o tre anni^._Altri due stabilimenti chiuderanno nel 2008, altri due nel 2012._Gli altri due stabilimenti da chiudere saranno annunciati entro la fine dell'anno._Inoltre, Ford licenzier√\u2020 il 12% dei suoi 53 alti dirigenti._Grazie all'attuale contratto tra la societ√\u2020 e il sindacato United Auto Workers, i lavoratori impiegati presso gli impianti fermi continueranno a percepire stipendio e indennit√\u2020 fino alla negoziazione di un nuovo contratto con il sindacato da parte di Ford._Tuttavia, i lavoratori non potranno guadagnare quello che percepiscono oggi perch√© non potranno fruire degli straordinari.__Il presidente di UAW Ron Gettelfinger e il vice Presidente Gerald Bantom hanno definito il piano ^estremamente deludente^._L'UAW ha rilasciato una dichiarazione che cita: ^I lavoratori interessati, con contratto dipendente o a ore, si trovano ad affrontare un futuro incerto per colpa del senior management, che non √® riuscito ad arrestare lo scivolone della quota di mercato di Ford._La comunicazione inoltre ha prodotto una nube che incombe su tutta la forza lavoro per via dei prossimi annunci attesi in merito alla prevista chiusura di ulteriori stabilimenti in un momento futuro^.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/11900-textpro.txt.txp"
+},
+{
+"text": "GM riporta la prima perdita annuale dal 1992_27 gennaio 2006_General Motors Corporation (GM) ha presentato la sua prima perdita annuale dal 1992._GM ha registrato una perdita di 4,8 miliardi di dollari nel quarto trimestre del 2005 e una perdita complessiva di 8,6 miliardi di dollari per l'intero anno._GM ha ammesso gioved√¨ notte che la perdita potrebbe aumentare ulteriormente, per via del pagamento di pensioni e spese sanitarie a migliaia di ex lavoratori._GM ha dichiarato che l'importo calcolato per l'anno precedente √® solo preliminare e potrebbe aumentare prima della comunicazione ufficiale alla Securities and Exchange Commission degli Stati Uniti nel mese di marzo._La perdita √® risultata di gran lunga superiore rispetto alle previsioni degli analisti._Ford, la seconda delle tre grandi case automobilistiche americane, ha superato le previsioni all'inizio della settimana._Diversamente, le previsioni per Toyota segnalano un superamento dell'utile dello scorso anno di 11 miliardi di dollari._La divisione automobilistica di GM ha perso 1,5 miliardi di dollari nel quarto trimestre, soprattutto perdite in Nord America._La motivazione √® stata ricondotta alla contrazione della quota di mercato di GM, che √® stata acquisita dai costruttori giapponesi Toyota e Nissan._Un'altra somma da 1,3 miliardi dollari √® stata spesa in oneri di ristrutturazione._Nell'ambito della ristrutturazione, GM prevede di tagliare 30.000 posti di lavoro e chiudere 12 stabilimenti entro il 2008._Un assistente di Kirk Kerkorian, il principale investitore privato di GM  (con una quota del 9,9%), ha invitato la societ√\u2020 a dimezzare il proprio dividendo annuale di 1,1  miliardi di dollari, tagliare le retribuzioni dei dirigenti e vendere Saab.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/15691-textpro.txt.txp"
+},
+{
+"text": "Il governo australiano annuncia un pacchetto di misure di assistenza finanziaria da 52,5 milioni di dollari per Ford_5 maggio 2006_Il primo ministro australiano John Howard e il ministro federale dell'industria Ian MacDonald oggi hanno annunciato che il governo federale fornir√\u2020 a Ford Australia 52,5 milioni di dollari australiani (40,4 milioni di dollari statunitensi) come ^pacchetto di assistenza finanziaria^._Ulteriori aiuti saranno forniti anche dal governo dello stato di Victoria._Secondo Howard, l'iniezione garantir√\u2020 le operazioni di produzione di Ford in Australia ^a lungo termine^._Del pacchetto, 40 milioni di dollari australiani saranno impiegati per la progettazione e la produzione del prossimo modello dei veicoli Ford Falcon e Territory, che saranno realizzati in Australia._Nonostante l'importante restyling attuato nel 2002 e il successivo nel 2005, la scocca del Falcon risale al 1998._L'attuale Falcon dovr√\u2020 durare alla societ√\u2020 almeno fino al 2007, quando √® prevista l'uscita del nuovo modello._Nel frattempo, dovr√\u2020 affrontare la concorrenza agguerrita della Holden Commodore, nuova di zecca (principale concorrente del Falcon), che uscir√\u2020 nella seconda met√\u2020 di quest'anno._I restanti 12,5 milioni di dollari australiani saranno spesi per lo sviluppo di una piattaforma per veicoli commerciali leggeri, che sar√\u2020 costruita all'estero e commercializzata in circa 80 Paesi._Howard ha dichiarato che il progetto commerciale leggero comporterebbe la costruzione di un centro di ricerca e sviluppo, che diventer√\u2020 la base per progetti di R&amp;S nella regione._MacFarlane ha commentato che la struttura di ricerca sarebbe stata emozionante per l'Australia e che avrebbe posto sotto i riflettori il settore automobilistico australiano._^Il finanziamento ha aiutato Ford in Australia ad assicurarsi il pi√π grande progetto di ricerca e sviluppo in ambito automobilistico mai intrapreso in Australia, ed √® una notizia altrettanto emozionante per i dipendenti locali Ford e i produttori australiani di componenti^, ha ribadito._^Il progetto vedr√\u2020 Ford Australia diventare un centro di design automobilistico e un'eccellenza ingegneristica nella regione Asia-Pacifico, che porter√\u2020 benefici a tutto il settore.^_^Tale opportunit√\u2020 porr√\u2020 sia Ford Australia sia i settori australiani automobilistici e di componenti sulla mappa del mondo per quanto riguarda le nostre capacit√\u2020 di progettazione e di ingegneria automobilistica^,_ha dichiarato MacFarlane._Howard ritiene che i progetti creeranno 273 posti di lavoro e garantiranno il futuro dell' ^iconica^ Ford Falcon, prodotta in Australia dal 1960._Il pacchetto finanziario √® subordinato alla concessione da parte di Ford Australia della possibilit√\u2020 di fornire i componenti per la realizzazione dei veicoli dei due progetti all'industria australiana di componenti automobilistici.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/6281-textpro.txt.txp"
+},
+{
+"text": "Ford annuncia profondi tagli alla produzione in risposta alle crescenti perdite_19 agosto 2006_Ford ha annunciato tagli radicali del 21% (168.000 unit√\u2020) per la propria produzione statunitense e canadese, con la conseguente chiusura parziale di dieci dei suoi stabilimenti nel corso del quarto trimestre._La decisione si aggiunge all'onda di provvedimenti esistenti annunciati nel mese di gennaio, con il taglio di 25.000 - 30.000 posti di lavoro e la chiusura di 14 stabilimenti entro il 2012._Ford √® la terza principale casa automobilistica del mondo e la seconda degli Stati Uniti._Tuttavia negli ultimi anni si trova a fronteggiare una scarsa redditivit√\u2020 e una riduzione delle proprie quote di mercato._Nel 2005 ha perso 1,6 miliardi di dollari e di recente la societ√\u2020 ha registrato una perdita di 254 milioni di dollari nel secondo trimestre e un calo del 34% su base annua nelle vendite del mese di luglio._George Pipas, direttore di analisi delle vendite di Ford, individua nell'aumento dei prezzi della benzina la causa dell'impatto negativo sulle vendite delle linee SUV della societ√\u2020, nonch√© del suo leader delle vendite, la serie di camion F pickup, causa diretta dell'iniziativa intrapresa._Finora √® prevista la chiusura dei seguenti stabilimenti:_*St._Thomas Assembly di St. Thomas, Ontario, Canada_*Chicago, Illinois_*Wixom Assembly Plant di Wixom, Michigan, Michigan_*Louisville Assembly di Louisville, Kentucky_*Michigan Truck Plant di Wayne, Michigan_*St._Paul, Minnesota_*Kansas City Assembly di Kansas City, Missouri_*Norfolk Assembly di Norfolk, Virginia_*River Rouge Plant di Dearborn, Michigan_Le azioni di Ford sono scese di 17 centesimi (2,1%), toccando quota 8 $ alla Borsa di New York.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/30084-textpro.txt.txp"
+},
+{
+"text": "Ford Taurus torna a viaggiare_9 febbraio 2007_Il CEO di Ford Motor Company Alan Mulally ha annunciato che Ford rinominer√\u2020 la Ford Five Hundred in Taurus per la serie 2008 del modello, che richiede un rinnovamento radicale per migliorare le vendite poco brillanti del modello uscente._Mulally ritiene che la decisione di Ford di chiamare tutte le sue automobili con la lettera F sia stata una mossa poco brillante, che rende i loro nomi facilmente dimenticabili._Come risultato, Mulally intende far rivivere molte celebri targhe Ford, tra cui Taurus e forse in futuro Falcon._La Ford Taurus, prodotta per la prima volta nel 1986, fu una vettura rivoluzionaria che ha riscritto le regole per la creazione delle berline, incitando le altre case automobilistiche americane a seguirne l'esempio, provocando una rivoluzione del design che ha liberato definitivamente Detroit dalle vetture ^squadrate^ degli anni '70 e '80._La Taurus √® sopravvissuta per quattro generazioni, vendendo oltre 7.500.000 unit√\u2020._La produzione √® stata interrotta nel mese di ottobre 2006, dopo una breve richiesta di modelli del 2007 da destinare come auto aziendali._^Come si pu√≤ lasciarla andare via?^_Alan Mulally domanda, ricordando: ^√à l'auto pi√π venduta d'America^._Bench√© non ci si aspetti che il cambiamento di nome trasformi la Five Hundred in un kolossal da 400.000 unit√\u2020 in pi√π all'anno, come Taurus, si prevede una maggiore solidit√\u2020 delle vendite e una maggiore notoriet√\u2020 per la vettura, dato che Taurus √® un nome che il Paese conosce bene.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/20922-textpro.txt.txp"
+},
+{
+"text": "DaimlerChrysler prevede tagli per 13.000 posti di lavoro_14 febbraio 2007_L'azienda automobilistica internazionale DaimlerChrysler ha annunciato l'intenzione di tagliare 13.000 posti di lavoro in Nord America._La mossa potrebbe avere a che fare con l'attivit√\u2020 economica in perdita._Si prevedono inoltre tagli per due stabilimenti Chrysler, nel tentativo di rendere l'attivit√\u2020 economica di Chrysler redditizia entro il 2008._Saranno tagliati circa 9.000 posti di lavoro in produzione negli Stati Uniti, 2.000 posti di lavoro in produzione in Canada e 2.000 impiegati._^√à difficile dire se sia sufficiente... ma la borsa sta reagendo bene, a ulteriore dimostrazione dell'opportunit√\u2020 e dell'estrema necessit√\u2020 di tale decisione per Chrysler^, ha dichiarato il direttore capo degli investimenti Tim Ghriskey, presso il Solaris Asset Management._Il presidente Dieter Zetsche ha smentito le congetture secondo le quali sarebbe in vista una divisione tra le societ√\u2020 Daimler-Benz (Mercedes-Benz) e Chrysler, fuse insieme nel 1998 per dare origine a DaimlerChrysler._^Non escludiamo alcuna possibilit√\u2020, per trovare la soluzione migliore per il Gruppo Chrysler e per DaimlerChrysler.^",
+"uri": "http://www.newsreader-project.eu/data/wikinews/26295-textpro.txt.txp"
+},
+{
+"text": "DaimlerChrysler vende Chrysler Group per 7,4 miliardi di dollari_14 aprile 2007_DaimlerChrysler Corporation ha annunciato l'intenzione di cedere il Gruppo Chrysler a Cerberus Capital Management, societ√\u2020 di private equity con sede a New York,  per 7,4  miliardi di dollari._Le societ√\u2020 cambieranno le proprie denominazioni in Daimler AG e Chrysler Holding LLC._DaimlerChrysler ha venduto l'80,1% della partecipazione detenuta in Chrysler, mantenendo l'altro 19,9%, per joint venture e altri accordi e partnership._Cerberus ha accettato di assumersi i costi, dell'ordine di miliardi di dollari, di Chrysler per pensioni e assistenza sanitaria._Cerberus inoltre  √® a capo di un consorzio che nel mese di aprile dello scorso anno ha acquisito la quota di maggioranza di GMAC, il braccio finanziario di GM, e voci riferiscono che prevede di investire nel gigante dei ricambi auto Delphi._Buzz Hargrove, il presidente di Canadian Auto Workers, dichiara di aver ricevuto rassicurazioni in merito al mantenimento del contratto collettivo con Chrysler e al fatto che non sarebbero stati tagliati posti di lavoro._Il cambio di denominazione della societ√\u2020 tedesca DaimlerChrysler in Daimler AG √® in attesa dell'approvazione degli azionisti in occasione della prossima assemblea, prevista per l'autunno 2007.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/15455-textpro.txt.txp"
+},
+{
+"text": "Ford offre 78 milioni di euro per l'impianto automobilistico romeno_8 settembre 2007_Ford Motor Company, la casa automobilistica statunitense, ha riferito che pagher√\u2020 57 milioni di euro (78 milioni di dollari) per una quota del 72,4 per cento dell'impianto di assemblaggio romeno Automobile Craiova, lo ha dichiarato un funzionario romeno venerd√¨._^L'offerta di Ford Motor Company per una quota del 72,4 per cento ammonta a 4,1556 \u201aÇ¨ per azione o 57 milioni di euro in totale^ ha detto Sebastian Vladescu, capo dell'Agenzia del demanio nazionale (AVAS), dopo aver aperto l'offerta migliorata di Ford._Vladescu ha aggiunto che il contratto potr√\u2020 essere firmato il 12 settembre, durante il salone dell'auto di Francoforte._Il governo romeno ha riacquistato la casa automobilistica con sede a Craiova da Daewoo Motors, alla fine del 2006 per 51 milioni di dollari._Poich√© l'azienda coreana era in bancarotta, il governo ha dovuto pagare altri 10 milioni di dollari per i debiti derivanti da prestiti precedenti._Ford √® stato l'unico offerente per l'acquisto della fabbrica._Secondo il Washington Post, molti produttori di componenti automobilistici hanno investito nel nuovo Paese membro dell'Unione Europea, attratti da manodopera a basso costo, aliquote fiscali favorevoli e la crescente produzione dello stabilimento Dacia di Renault._Il vice presidente di Dacia Constantin Stroe ha dichiarato che il prezzo offerto da Ford non √® importante._^L'importante √® che la fabbrica torni a lavorare il pi√π presto possibile^, ha spiegato._^Con questo impianto di produzione, la Romania diventer√\u2020 un centro importante per la produzione di auto in Europa^, ha concluso Stroe, come riportato da HotNews.",
+"uri": "http://www.newsreader-project.eu/data/wikinews/12960-textpro.txt.txp"
+}
+],
+"story_cnt": [6],
+"text": "NewsReader timeline",
+"type": "default"
+}}
