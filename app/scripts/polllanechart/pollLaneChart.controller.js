@@ -274,16 +274,19 @@
       // dc.override(customBubbleChart, 'onClick', onClickOverride);
       customBubbleChart.render();
 
-      Messagebus.subscribe('pollFilterEvent', function(event, filterData) {
+      Messagebus.subscribe('newFilterEvent', function(event, filterData) {
         var minDate;
         var maxDate;
 
-        filterData[0].filters().forEach(function(f) {
-          if (f.filterType === 'RangedTwoDimensionalFilter') {
-            minDate = f[0][0];
-            maxDate = f[1][0];
-          }
-        });
+        if (filterData.filters) {
+          filterData[0].filters().forEach(function(f) {
+            if (f.filterType === 'RangedTwoDimensionalFilter') {
+              minDate = f[0][0];
+              maxDate = f[1][0];
+            }
+          });
+        }
+
 
         if (minDate && maxDate) {
           customBubbleChart.x(d3.time.scale().domain([minDate, maxDate]));

@@ -121,7 +121,27 @@
       .dimension(laneTimeDimension)
         .group(filteredLaneClimaxGroup)
 
-      .filterHandler(HelperFunctions.customDefaultFilterHandler.bind(customBubbleChart))
+      .filterHandler(function(dimension, filters) {
+        Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+        dimension.filter(null);
+        if (filters.length === 0) {
+          dimension.filter(null);
+        } else {
+          dimension.filterFunction(function(d) {
+            for (var i = 0; i < filters.length; i++) {
+              var filter = filters[i];
+              if (filter.isFiltered && filter.isFiltered(d)) {
+                return true;
+              } else if (filter <= d && filter >= d) {
+                return true;
+              }
+            }
+            return false;
+          });
+        }
+        return filters;
+      }.bind(customBubbleChart))
 
       //The time this chart takes to do its animations.
       .transitionDuration(1500)

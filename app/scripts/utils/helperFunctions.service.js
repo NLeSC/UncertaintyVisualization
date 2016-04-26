@@ -42,6 +42,25 @@
       return uniqueActors;
     };
 
+    this.determineUniqueSources = function(data) {
+      var concatenatedSources = [];
+
+      var keys = Object.keys(data.mentions);
+      if (keys.length === 0) {
+        concatenatedSources.push('none');
+      } else {
+        keys.forEach(function(key) {
+          var mention = data.mentions[key];
+          if (mention.perspective) {
+            concatenatedSources.push(mention.perspective.source);
+          }          
+        });
+      }
+      var uniqueSources = arrayUnique(concatenatedSources);
+
+      return uniqueSources;
+    };
+
     this.filterFunction = function(dimension, filters) {
       dimension.filter(null);
       if (filters.length === 0) {

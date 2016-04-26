@@ -97,7 +97,27 @@
       .dimension(groupDimension)
         .group(filteredGroups)
 
-      .filterHandler(HelperFunctions.customDefaultFilterHandler.bind(groupRowChart))
+      .filterHandler(function(dimension, filters) {
+        Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+        dimension.filter(null);
+        if (filters.length === 0) {
+          dimension.filter(null);
+        } else {
+          dimension.filterFunction(function(d) {
+            for (var i = 0; i < filters.length; i++) {
+              var filter = filters[i];
+              if (filter.isFiltered && filter.isFiltered(d)) {
+                return true;
+              } else if (filter <= d && filter >= d) {
+                return true;
+              }
+            }
+            return false;
+          });
+        }
+        return filters;
+      }.bind(groupRowChart))
 
       //Order by key string (reverse, so we had to invent some shenanigans)
       //This is done explicitly to match the laneChart ordering.

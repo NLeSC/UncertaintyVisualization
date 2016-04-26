@@ -13,6 +13,30 @@
       return result;
     };
 
+    var sourceToHtml = function(d) {
+      var result = [];
+      var raw = d.mentions;
+      raw.forEach(function(mention) {
+        var source;
+        if (mention.perspective) {
+          source = mention.perspective.source;
+        } else {
+          source = '';
+        }
+
+        if (source) {
+          result.push({
+            source: source
+          });
+        }
+      });
+      var html = '';
+      result.forEach(function(phrase) {
+        html += phrase.source + '</br>';
+      });
+      return html;
+    };
+
     var mentionToHtml = function(d, sources) {
       var result = [];
       var raw = d.mentions;
@@ -52,7 +76,7 @@
 
       //These parameters should make for fairly unique events
       var idDimension = NdxService.buildDimension(function(d) {
-        return [d.group, d.time, d.labels];
+        return [d.instance];
       });
 
       // use odd page size to show the effect better
@@ -89,44 +113,48 @@
         .group(function() {
           return '';
         })
+        .showGroups(false)
         .size(Infinity)
         .sortBy(function(d) {
           return d.time;
         })
         .order(d3.ascending)
-        .columns([{
-          label: 'GroupName',
-          format: function(d) {
-            return d.groupName;
-          }
-        }, {
-          label: 'Time',
+        .columns([
+        // {
+        //   label: 'GroupName',
+        //   format: function(d) {
+        //     return d.groupName;
+        //   }
+        // },
+        {
+          label: '<div class=col_0>Time</div>',
           format: function(d) {
             var time = d3.time.format('%Y%m%d').parse(d.time);
-            return time.getDay() + '/' + time.getMonth() + '/' + time.getFullYear();
+            return '<div class=col_0>' +time.getDay() + '/' + time.getMonth() + '/' + time.getFullYear() + '</div>';
           }
         }, {
-          label: 'Climax Score',
+          label: '<div class=col_1>Source</div>',
           format: function(d) {
-            return d.climax;
+            return '<div class=col_1>' +sourceToHtml(d) + '</div>';
           }
         }, {
-          label: 'Mentions',
+          label: '<div class=col_2>Mentions</div>',
           format: function(d) {
-            return mentionToHtml(d, sources);
+            return '<div class=col_2>' +mentionToHtml(d, sources) + '</div>';
           }
-        }, {
-          label: 'Labels',
-          format: function(d) {
-            var result = '';
-            if (d.labels) {
-              d.labels.forEach(function(l) {
-                result += l + '</br>';
-              });
-            }           
-
-            return result;
-          }
+        // }
+        // , {
+        //   label: 'Labels',
+        //   format: function(d) {
+        //     var result = '';
+        //     if (d.labels) {
+        //       d.labels.forEach(function(l) {
+        //         result += l + '</br>';
+        //       });
+        //     }
+        //
+        //     return result;
+        //   }
         }]);
 
       this.tableUpdate();

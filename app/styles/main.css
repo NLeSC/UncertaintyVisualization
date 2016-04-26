@@ -115,7 +115,7 @@ g.node.selected {
   background-image: url("../images/VUlogo.png");
   height: 100px;
   width: 100%;
-  background-size: 67% auto;
+  background-size: 60% auto;
   background-repeat: no-repeat;
   background-position-x: 50px;
 }
@@ -140,4 +140,25 @@ g.node.selected {
 
 .dc-data-table {
     font-size: 10px;
+}
+
+table{
+    width: 200px;
+}
+
+th, td {
+  overflow: hidden;
+  white-space:nowrap;
+}
+
+.col_0 {
+  width: 35px;
+}
+
+.col_1 {
+  width: 125px;
+}
+
+.col_2 {
+    width: 200px;
 }

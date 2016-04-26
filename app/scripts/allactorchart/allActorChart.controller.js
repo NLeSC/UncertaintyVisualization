@@ -96,7 +96,7 @@
       .x(d3.scale.linear())
         .elasticX(true)
 
-      .filterHandler( //customDefaultFilterHandler.bind(allActorChart))
+      .filterHandler(
         function(dimension, filters) {
           Messagebus.publish('newFilterEvent', [this, filters, dimension]);
 
