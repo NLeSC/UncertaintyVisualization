@@ -47,23 +47,23 @@
       ///The group includes a value which tells us how important the group is
       //in the overall storyline. For this graph, we filter out the groups with
       //an importance value <= 1%
-      function filterGroupsOnImportance(sourceGroup) {
-        return {
-          all: function() {
-            return sourceGroup.all().filter(function(d) {
-              var groupNum = parseInt(d.key.split(':')[0]);
-              return groupNum > 1;
-            });
-          },
-          top: function(n) {
-            return sourceGroup.top(Infinity).filter(function(d) {
-              var groupNum = parseInt(d.key.split(':')[0]);
-              return groupNum > 1;
-            }).slice(0, n);
-          }
-        };
-      }
-      var filteredGroups = filterGroupsOnImportance(climaxSumPerGroup);
+      // function filterGroupsOnImportance(sourceGroup) {
+      //   return {
+      //     all: function() {
+      //       return sourceGroup.all().filter(function(d) {
+      //         var groupNum = parseInt(d.key.split(':')[0]);
+      //         return groupNum > 1;
+      //       });
+      //     },
+      //     top: function(n) {
+      //       return sourceGroup.top(Infinity).filter(function(d) {
+      //         var groupNum = parseInt(d.key.split(':')[0]);
+      //         return groupNum > 1;
+      //       }).slice(0, n);
+      //     }
+      //   };
+      // }
+      // var filteredGroups = filterGroupsOnImportance(climaxSumPerGroup);
 
       //Set up the
       groupRowChart
@@ -95,7 +95,7 @@
 
       //Bind data
       .dimension(groupDimension)
-        .group(filteredGroups)
+        .group(climaxSumPerGroup)
 
       .filterHandler(function(dimension, filters) {
         Messagebus.publish('newFilterEvent', [this, filters, dimension]);

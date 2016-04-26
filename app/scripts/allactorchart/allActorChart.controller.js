@@ -69,6 +69,9 @@
 
         return newObject;
       };
+      allActorsClimaxSum.order = function(p) {
+        return p;
+      };
 
       //Set up the
       allActorChart
@@ -77,9 +80,9 @@
         .height(400)
         .margins({
           top: 10,
-          right: 0,
-          bottom: 20,
-          left: 0
+          right: 2,
+          bottom: 0,
+          left: 2
         })
 
       //Bind data
@@ -94,7 +97,12 @@
 
       //The x Axis
       .x(d3.scale.linear())
-        .elasticX(true)
+      .data(function(d) {
+        return d.top(20);
+      })
+
+      .gap(1)
+      .elasticX(true)
 
       .filterHandler(
         function(dimension, filters) {

@@ -3,13 +3,34 @@
 
   function PerspectiveLaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
-      var customBubbleChart = dc.bubbleChart('#'+$element[0].children[0].attributes.id.value);
+      var customBubbleChart = dc.customBubbleChart('#'+$element[0].children[0].attributes.id.value);
 
       //The dimension for the customBubbleChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
       var laneTimeDimension = NdxService.buildDimension(function(d) {
         var time = d3.time.format('%Y%m%d').parse(d.time);
-        return [time, d.mentions.length];
+
+        var sourceResult = 0;
+        var keys = Object.keys(d.mentions);
+        keys.forEach(function(key) {
+          var mention = d.mentions[key];
+          if (mention.perspective) {
+            var source = mention.perspective.source;
+            var split = source.split(':');
+            if (split[0] === 'cite') {
+              sourceResult += 1;
+            }
+          }
+        });
+
+        var result = 'mixed attribution';
+        if (sourceResult / keys.length === 1) {
+          result = 'citations only';
+        } else if (sourceResult / keys.length === 0) {
+          result = 'authors only';
+        }
+
+        return [time, result];
       });
 
       //The group for the customBubbleChart. Weneed the climax score to size
@@ -100,11 +121,10 @@
         .height(400)
         .margins({
           top: 10,
-          right: 10,
+          right: 0,
           bottom: 20,
-          left: 20
+          left: 100
         })
-      .clipPadding(10)
 
       //Bind data
       .dimension(laneTimeDimension)
@@ -139,31 +159,27 @@
       // .xAxisLabel('time')
       .x(d3.time.scale())
         .elasticX(true)
-        .renderHorizontalGridLines(true)
-        // .xAxisPadding(10)
         .keyAccessor(function(p) {
           //The time of this event
           return p.key[0];
         })
 
       //y Axis
-      .yAxisLabel('Number of Mentions')
-      // .y(ordinalGroupScale = d3.scale.ordinal().domain((function() {
-      //     //Because we use an ordinal scale here, we have to tell the chart
-      //     //which values to expect.
-      //     var domain = laneClimaxGroup.all().map(function(d) {
-      //       //The group of this event
-      //       return (d.key[1]);
-      //     });
-      //     return domain;
-      //   })()).copy())
-      .elasticY(true)
-      .valueAccessor(function(p) {
-        //The group of this event
-        return p.key[1];
-      })
+      // .yAxisLabel('group')
+      .y(ordinalGroupScale = d3.scale.ordinal().domain((function() {
+          //Because we use an ordinal scale here, we have to tell the chart
+          //which values to expect.
+          var domain = laneClimaxGroup.all().map(function(d) {
+            //The group of this event
+            return (d.key[1]);
+          });
+          return domain;
+        })()).copy())
+        .valueAccessor(function(p) {
+          //The group of this event
+          return p.key[1];
+        })
 
-      .legend(dc.legend().x(800).y(10).itemHeight(13).gap(5))
 
       //Radius of the bubble
       .r(d3.scale.linear().domain(
@@ -271,10 +287,10 @@
       });
 
       //A hack to make the bubbleChart accept ordinal values on the y Axis
-      // dc.override(customBubbleChart, '_prepareYAxis', function(g) {
-      //   this.__prepareYAxis(g);
-      //   this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
-      // });
+      dc.override(customBubbleChart, '_prepareYAxis', function(g) {
+        this.__prepareYAxis(g);
+        this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
+      });
 
 
       // dc.override(customBubbleChart, 'onClick', onClickOverride);

@@ -37,26 +37,6 @@
           //Climax score summed for all events with the same time(day) and group(number).
           p.climax = p.climax + v.climax;
 
-          var keys = Object.keys(v.actors);
-          keys.forEach(function(key) {
-            var keysActors = v.actors[key];
-            keysActors.forEach(function(keysActor) {
-              var actorLabel = key + ' : ' + keysActor;
-              p.actors[actorLabel] = (p.actors[actorLabel] || 0) + v.climax;
-            });
-          });
-
-          //Sum event values over all events fitting this time and group.
-          p.events[v.event] = (p.events[v.event] || 0) + v.climax;
-
-          //Sum label values over all events fitting this time and group.
-          if (v.labels) {
-            v.labels.forEach(function(l) {
-              p.labels[l] = (p.labels[l] || 0) + 1;
-            });
-          } else {
-            p.labels.none = (p.labels.none || 0) + 1;
-          }
 
           return p;
         },
@@ -65,25 +45,6 @@
         function(p, v) {
           p.climax = p.climax - v.climax;
 
-          var keys = Object.keys(v.actors);
-          keys.forEach(function(key) {
-            var keysActors = v.actors[key];
-            keysActors.forEach(function(keysActor) {
-              var actorLabel = key + ' : ' + keysActor;
-              p.actors[actorLabel] = (p.actors[actorLabel] || 0) - v.climax;
-            });
-          });
-
-          p.events[v.event] = (p.events[v.event] || 0) - v.climax;
-
-          //Sum label values over all events fitting this time and group.
-          if (v.labels) {
-            v.labels.forEach(function(l) {
-              p.labels[l] = (p.labels[l] || 0) - 1;
-            });
-          } else {
-            p.labels.none = (p.labels.none || 0) - 1;
-          }
 
           return p;
         },
@@ -189,59 +150,59 @@
         })
 
       //Labels printed just above the bubbles
-      .renderLabel(true)
-        .minRadiusWithLabel(0)
-        .label(function(p) {
-          var mostImportantLabel;
-          var climaxScoreOfMostImportantLabel = -1;
-          //Get the most important label (highest climax score)
-          var labels = Object.keys(p.value.labels);
-          labels.forEach(function(l) {
-            if (p.value.labels[l] > climaxScoreOfMostImportantLabel) {
-              mostImportantLabel = l;
-              climaxScoreOfMostImportantLabel = p.value.labels[l];
-            }
-          });
-          return mostImportantLabel.toString(); //p.key;
-        })
+      .renderLabel(false)
+      //   .minRadiusWithLabel(0)
+      //   .label(function(p) {
+      //     var mostImportantLabel;
+      //     var climaxScoreOfMostImportantLabel = -1;
+      //     //Get the most important label (highest climax score)
+      //     var labels = Object.keys(p.value.labels);
+      //     labels.forEach(function(l) {
+      //       if (p.value.labels[l] > climaxScoreOfMostImportantLabel) {
+      //         mostImportantLabel = l;
+      //         climaxScoreOfMostImportantLabel = p.value.labels[l];
+      //       }
+      //     });
+      //     return mostImportantLabel.toString(); //p.key;
+      //   })
 
       //Information on hover
-      .renderTitle(true)
-        .title(function(p) {
-          var formattedTime = p.key[1].getDay() + '/' + p.key[1].getMonth() + '/' + p.key[1].getFullYear();
-
-          //Get the events
-          var events = Object.keys(p.value.events);
-          var eventString = '';
-          events.forEach(function(e) {
-            eventString += p.value.events[e] + ' : ' + e.toString() + '\n';
-          });
-
-          //Get the actors
-          var actors = Object.keys(p.value.actors);
-          var actorString = '';
-          actors.forEach(function(a) {
-            actorString += p.value.actors[a] + ' : ' + a.toString() + '\n';
-          });
-
-          //List all individual labels and their climax scores
-          var labels = Object.keys(p.value.labels);
-          var labelString = '';
-          labels.forEach(function(l) {
-            labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
-          });
-
-          var titleString =
-            '\n-----Labels-----\n' +
-            labelString +
-            '\n-----Actors-----\n' +
-            actorString +
-            '\n-----Time-------\n' +
-            formattedTime +
-            '\n-----Group------\n' +
-            p.key[0];
-          return titleString;
-        });
+      .renderTitle(false)
+      //   .title(function(p) {
+      //     var formattedTime = p.key[1].getDay() + '/' + p.key[1].getMonth() + '/' + p.key[1].getFullYear();
+      //
+      //     //Get the events
+      //     var events = Object.keys(p.value.events);
+      //     var eventString = '';
+      //     events.forEach(function(e) {
+      //       eventString += p.value.events[e] + ' : ' + e.toString() + '\n';
+      //     });
+      //
+      //     //Get the actors
+      //     var actors = Object.keys(p.value.actors);
+      //     var actorString = '';
+      //     actors.forEach(function(a) {
+      //       actorString += p.value.actors[a] + ' : ' + a.toString() + '\n';
+      //     });
+      //
+      //     //List all individual labels and their climax scores
+      //     var labels = Object.keys(p.value.labels);
+      //     var labelString = '';
+      //     labels.forEach(function(l) {
+      //       labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
+      //     });
+      //
+      //     var titleString =
+      //       '\n-----Labels-----\n' +
+      //       labelString +
+      //       '\n-----Actors-----\n' +
+      //       actorString +
+      //       '\n-----Time-------\n' +
+      //       formattedTime +
+      //       '\n-----Group------\n' +
+      //       p.key[0];
+      //     return titleString;
+      //   });
 
       //A hack to make the customBubbleChart filter out 0-value bubbles while determining the x-axis range
       dc.override(customBubbleChart, 'xAxisMin', function() {
