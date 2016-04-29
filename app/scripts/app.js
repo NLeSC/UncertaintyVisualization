@@ -40,6 +40,7 @@
       'uncertApp.serieschart',
       'uncertApp.datatable',
 
+      'uncertApp.pollchart',
       'uncertApp.pollrowchart',
       'uncertApp.polllanechart',
 
@@ -68,6 +69,8 @@
   angular.module('uncertApp.lanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
   angular.module('uncertApp.serieschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.datatable', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+
+  angular.module('uncertApp.pollchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
 
   angular.module('uncertApp.pollrowchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.polllanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);

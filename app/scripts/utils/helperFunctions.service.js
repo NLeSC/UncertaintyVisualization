@@ -117,7 +117,7 @@
 
             sources.forEach(function(source) {
               var splitSource = source.split(':');
-              if (splitSource[0] === 'cite') {
+              if (splitSource[0] === 'author') {
                 concatenatedAuthors.push(splitSource[1]);
               }
             });

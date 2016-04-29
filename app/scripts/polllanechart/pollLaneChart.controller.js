@@ -58,27 +58,6 @@
           };
         }
       );
-
-      //The group includes a value which tells us how important the group is
-      //in the overall storyline. For this graph, we filter out the groups with
-      //an importance value <= 1%
-      function filterOnGroupImportance(sourceGroup) {
-        return {
-          all: function() {
-            return sourceGroup.all().filter(function(d) {
-              var groupNum = parseInt(d.key[0].split(':')[0]);
-              return groupNum > 1;
-            });
-          },
-          top: function(n) {
-            return sourceGroup.top(Infinity).filter(function(d) {
-              var groupNum = parseInt(d.key[0].split(':')[0]);
-              return groupNum > 1;
-            }).slice(0, n);
-          }
-        };
-      }
-      var filteredLaneClimaxGroup = filterOnGroupImportance(laneClimaxGroup);
       var ordinalGroupScale;
 
       //Set up the
@@ -90,12 +69,12 @@
           top: 10,
           right: 0,
           bottom: 20,
-          left: 0
+          left: 200
         })
 
       //Bind data
       .dimension(laneTimeDimension)
-      .group(filteredLaneClimaxGroup)
+      .group(laneClimaxGroup)
 
       //The time this chart takes to do its animations.
       .transitionDuration(1500)
@@ -115,7 +94,7 @@
       .y(ordinalGroupScale = d3.scale.ordinal().domain((function() {
           //Because we use an ordinal scale here, we have to tell the chart
           //which values to expect.
-          var domain = filteredLaneClimaxGroup.all().map(function(d) {
+          var domain = laneClimaxGroup.all().map(function(d) {
             //The group of this event
             return (d.key[0]);
           });

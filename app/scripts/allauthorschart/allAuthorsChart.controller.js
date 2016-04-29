@@ -23,7 +23,7 @@
               p[splitSource[1]] = (p[splitSource[1]] || 0) + 1;
             }
           });
-        })
+        });
         return p;
       }
 
@@ -38,7 +38,7 @@
               p[splitSource[1]] = (p[splitSource[1]] || 0) - 1;
             }
           });
-        })
+        });
         return p;
       }
 

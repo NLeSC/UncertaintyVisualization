@@ -8,7 +8,9 @@
       var timeDimension = NdxService.buildDimension(function(d) {
         var group = d.group;
         var time = d3.time.format('%Y%m%d').parse(d.time);
-        return [group, time];
+        var climax = +d.climax;
+        var event = d.event;
+        return [group, time, climax, event];
       });
 
       //Sum the climax scores of every event that adheres to the 'bin' of the

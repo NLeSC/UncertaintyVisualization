@@ -18,8 +18,8 @@
       var raw = d.mentions;
       raw.forEach(function(mention) {
         var source;
-        if (mention.perspective) {
-          source = mention.perspective.source;
+        if (mention.perspective[0]) {
+          source = mention.perspective[0].source;
         } else {
           source = '';
         }
