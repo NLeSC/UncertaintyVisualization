@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function BreadcrumbsController($scope, Messagebus) {
+  function BreadcrumbsController($scope, dc, Messagebus) {
     var me = this;
     me.charts = {};
     me.filters = [];
@@ -15,6 +15,15 @@
       });
       Messagebus.publish('filterThis', {chart: me.charts[clickElement.chartID], filters:filter.filter});
     };
+
+    Messagebus.subscribe('filterThis', function(event, value) {
+      var chart = value.chart;
+      var filter = value.filters;
+      dc.events.trigger(function() {
+        chart.filter(filter);
+        chart.redrawGroup();
+      });
+    });
 
     Messagebus.subscribe('clearFilters', function() {
       me.charts = {};

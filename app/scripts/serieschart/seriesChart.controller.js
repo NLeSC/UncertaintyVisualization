@@ -8,8 +8,7 @@
       var timeDimension = NdxService.buildDimension(function(d) {
         var group = d.group;
         var time = d3.time.format('%Y%m%d').parse(d.time);
-        var climax = d.climax;
-        return [group, time, climax];
+        return [group, time];
       });
 
       //Sum the climax scores of every event that adheres to the 'bin' of the
@@ -87,7 +86,6 @@
       //horizontally _and_ vertically
       .filterHandler(function(dimension, filter) {
         Messagebus.publish('newFilterEvent', [this, filter, dimension]);
-        // Messagebus.publish('pollFilterEvent', [this, filter, dimension]);
 
         dimension.filterFunction(function(d) {
           var result = true;
@@ -102,9 +100,9 @@
           });
           return result;
         });
+
         return filter; // set the actual filter value to the new value
       }.bind(customSeriesChart));
-
 
       customSeriesChart.render();
     };

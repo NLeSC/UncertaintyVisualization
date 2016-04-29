@@ -47,15 +47,6 @@
       return txt;
     }.bind(this);
 
-    Messagebus.subscribe('filterThis', function(event, value) {
-      var chart = value.chart;
-      var filter = value.filters;
-      dc.events.trigger(function() {
-        chart.filter(filter);
-        chart.redrawGroup();
-      });
-    });
-
     this.initializeChart = function() {
       var subwayChart = dc.subwayChart('#'+$element[0].children[0].attributes.id.value);
 

@@ -52,13 +52,60 @@
         keys.forEach(function(key) {
           var mention = data.mentions[key];
           if (mention.perspective) {
-            concatenatedSources.push(mention.perspective.source);
-          }          
+            var source = mention.perspective.source;
+            concatenatedSources.push(source);
+          }
         });
       }
       var uniqueSources = arrayUnique(concatenatedSources);
 
       return uniqueSources;
+    };
+
+    this.determineUniqueCitationSources = function(data) {
+      var concatenatedCitationSources = [];
+
+      var keys = Object.keys(data.mentions);
+      if (keys.length === 0) {
+        concatenatedCitationSources.push('none');
+      } else {
+        keys.forEach(function(key) {
+          var mention = data.mentions[key];
+          if (mention.perspective) {
+            var source = mention.perspective.source;
+            var splitSource = source.split(':');
+            if (splitSource[0] === 'cite') {
+              concatenatedCitationSources.push(splitSource[1]);
+            }
+          }
+        });
+      }
+      var uniqueCitationSources = arrayUnique(concatenatedCitationSources);
+
+      return uniqueCitationSources;
+    };
+
+    this.determineUniqueAuthors = function(data) {
+      var concatenatedAuthors = [];
+
+      var keys = Object.keys(data.mentions);
+      if (keys.length === 0) {
+        concatenatedAuthors.push('none');
+      } else {
+        keys.forEach(function(key) {
+          var mention = data.mentions[key];
+          if (mention.perspective) {
+            var source = mention.perspective.source;
+            var splitSource = source.split(':');
+            if (splitSource[0] === 'author') {
+              concatenatedAuthors.push(splitSource[1]);
+            }
+          }
+        });
+      }
+      var uniqueAuthors = arrayUnique(concatenatedAuthors);
+
+      return uniqueAuthors;
     };
 
     this.filterFunction = function(dimension, filters) {

@@ -42,6 +42,9 @@
 
       'uncertApp.pollrowchart',
       'uncertApp.polllanechart',
+
+      'uncertApp.allcitationschart',
+      'uncertApp.allauthorschart',
       'uncertApp.perspectivelanechart'
     ])
     .config(function($compileProvider) {
@@ -69,10 +72,12 @@
   angular.module('uncertApp.pollrowchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.polllanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
 
+  angular.module('uncertApp.allcitationschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.allauthorschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.perspectivelanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
 
   angular.module('uncertApp.core', ['uncertApp.utils', 'toastr', 'uncertApp.ndx']);
   angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);
   // angular.module('uncertApp.punchcard', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
-  angular.module('uncertApp.breadcrumbs', ['uncertApp.core','uncertApp.utils']);
+  angular.module('uncertApp.breadcrumbs', ['uncertApp.core', 'uncertApp.dc', 'uncertApp.utils']);
 })();

@@ -10,27 +10,27 @@
       var laneTimeDimension = NdxService.buildDimension(function(d) {
         var time = d3.time.format('%Y%m%d').parse(d.time);
 
-        var sourceResult = 0;
-        var keys = Object.keys(d.mentions);
-        keys.forEach(function(key) {
-          var mention = d.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            var split = source.split(':');
-            if (split[0] === 'cite') {
-              sourceResult += 1;
-            }
-          }
-        });
+        // var sourceResult = 0;
+        // var keys = Object.keys(d.mentions);
+        // keys.forEach(function(key) {
+        //   var mention = d.mentions[key];
+        //   if (mention.perspective) {
+        //     var source = mention.perspective.source;
+        //     var split = source.split(':');
+        //     if (split[0] === 'cite') {
+        //       sourceResult += 1;
+        //     }
+        //   }
+        // });
+        //
+        // var result = 'mixed attribution';
+        // if (sourceResult / keys.length === 1) {
+        //   result = 'citations only';
+        // } else if (sourceResult / keys.length === 0) {
+        //   result = 'authors only';
+        // }
 
-        var result = 'mixed attribution';
-        if (sourceResult / keys.length === 1) {
-          result = 'citations only';
-        } else if (sourceResult / keys.length === 0) {
-          result = 'authors only';
-        }
-
-        return [time, result];
+        return [time, HelperFunctions.determineUniqueSources(d)];
       });
 
       //The group for the customBubbleChart. Weneed the climax score to size
@@ -118,7 +118,7 @@
       customBubbleChart
       //Sizes in pixels
         .width(parseInt($element[0].getClientRects()[1].width, 10))
-        .height(400)
+        .height(800)
         .margins({
           top: 10,
           right: 0,

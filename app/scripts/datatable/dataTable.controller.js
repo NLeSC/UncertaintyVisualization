@@ -130,17 +130,17 @@
           label: '<div class=col_0>Time</div>',
           format: function(d) {
             var time = d3.time.format('%Y%m%d').parse(d.time);
-            return '<div class=col_0>' +time.getDay() + '/' + time.getMonth() + '/' + time.getFullYear() + '</div>';
+            return '<div class=col_0>' + time.getDate() + '/' + (time.getMonth()+1) + '/' + time.getFullYear() + '</div>';
           }
         }, {
           label: '<div class=col_1>Source</div>',
           format: function(d) {
-            return '<div class=col_1>' +sourceToHtml(d) + '</div>';
+            return '<div class=col_1>' + sourceToHtml(d) + '</div>';
           }
         }, {
           label: '<div class=col_2>Mentions</div>',
           format: function(d) {
-            return '<div class=col_2>' +mentionToHtml(d, sources) + '</div>';
+            return '<div class=col_2>' + mentionToHtml(d, sources) + '</div>';
           }
         // }
         // , {
