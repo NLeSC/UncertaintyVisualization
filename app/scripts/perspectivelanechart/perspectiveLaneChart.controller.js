@@ -3,7 +3,7 @@
 
   function PerspectiveLaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
-      var customBubbleChart = dc.customBubbleChart('#'+$element[0].children[0].attributes.id.value);
+      var customBubbleChart = dc.dyndomBubbleChart('#'+$element[0].children[0].attributes.id.value);
 
       //The dimension for the customBubbleChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
@@ -92,27 +92,14 @@
         }
       );
 
-      //The group includes a value which tells us how important the group is
-      //in the overall storyline. For this graph, we filter out the groups with
-      //an importance value <= 1%
-      // function filterOnGroupImportance(sourceGroup) {
-      //   return {
-      //     all: function() {
-      //       return sourceGroup.all().filter(function(d) {
-      //         var groupNum = parseInt(d.key[0].split(':')[0]);
-      //         return groupNum > 1;
-      //       });
-      //     },
-      //     top: function(n) {
-      //       return sourceGroup.top(Infinity).filter(function(d) {
-      //         var groupNum = parseInt(d.key[0].split(':')[0]);
-      //         return groupNum > 1;
-      //       }).slice(0, n);
-      //     }
-      //   };
-      // }
-      // var filteredLaneClimaxGroup = filterOnGroupImportance(laneClimaxGroup);
-      var ordinalGroupScale;
+      var uniqueSources = [];
+      laneClimaxGroup.all().map(function(d) {
+        d.key[1].forEach(function(key) {
+          if (uniqueSources.indexOf(key) < 0) {
+            uniqueSources.push(key);
+          }
+        });
+      });
 
       //Set up the
       customBubbleChart
@@ -166,17 +153,12 @@
 
       //y Axis
       // .yAxisLabel('group')
-      .y(ordinalGroupScale = d3.scale.ordinal().domain((function() {
-          //Because we use an ordinal scale here, we have to tell the chart
-          //which values to expect.
-          var domain = laneClimaxGroup.all().map(function(d) {
-            //The group of this event
-            return (d.key[1]);
-          });
-          return domain;
-        })()).copy())
+      .y(d3.scale.ordinal()
+          .domain((function() {
+            return uniqueSources;
+          })())
+        )
         .valueAccessor(function(p) {
-          //The group of this event
           return p.key[1];
         })
 
