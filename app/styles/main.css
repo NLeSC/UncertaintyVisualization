@@ -69,6 +69,11 @@ div.dc-chart {
     fill: white;
 }
 
+.dc-chart .bubble {
+    stroke: black;
+    stroke-width: 1px;
+}
+
 #subwayChart .bubble-text {
     color: red;
     font-size: 12px;

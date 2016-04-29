@@ -16,13 +16,13 @@
         var keys = Object.keys(v.mentions);
         keys.forEach(function(key) {
           var mention = v.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            var splitSource = source.split(':');
+
+          mention.perspective.forEach(function(perspective) {
+            var splitSource = perspective.source.split(':');
             if (splitSource[0] === 'author') {
               p[splitSource[1]] = (p[splitSource[1]] || 0) + 1;
             }
-          }
+          });
         })
         return p;
       }
@@ -31,13 +31,13 @@
         var keys = Object.keys(v.mentions);
         keys.forEach(function(key) {
           var mention = v.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            var splitSource = source.split(':');
+
+          mention.perspective.forEach(function(perspective) {
+            var splitSource = perspective.source.split(':');
             if (splitSource[0] === 'author') {
-              p[splitSource[1]] = (p[splitSource[1]] || 0) + 1;
+              p[splitSource[1]] = (p[splitSource[1]] || 0) - 1;
             }
-          }
+          });
         })
         return p;
       }
@@ -112,17 +112,17 @@
           if (filters.length === 0) {
             dimension.filter(null);
           } else {
-            dimension.filter(function(d) {
-              var result = true;
-              if (allAuthorsChart.filters() !== null) {
-                var currentFilters = allAuthorsChart.filters();
-                currentFilters.forEach(function(f) {
-                  if (d.indexOf(f) < 0) {
-                    result = false;
-                  }
-                });
+            dimension.filterFunction(function(d) {
+              for (var i = 0; i < filters.length; i++) {
+                var filter = filters[i];
+
+                if (filter.isFiltered && filter.isFiltered(d)) {
+                  return true;
+                } else if (d === filter || d.indexOf(filter) >= 0) {
+                  return true;
+                }
               }
-              return result;
+              return false;
             });
           }
           return filters;

@@ -16,13 +16,13 @@
         var keys = Object.keys(v.mentions);
         keys.forEach(function(key) {
           var mention = v.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            var splitSource = source.split(':');
+
+          mention.perspective.forEach(function(perspective) {
+            var splitSource = perspective.source.split(':');
             if (splitSource[0] === 'cite') {
               p[splitSource[1]] = (p[splitSource[1]] || 0) + 1;
             }
-          }
+          });
         })
         return p;
       }
@@ -31,13 +31,13 @@
         var keys = Object.keys(v.mentions);
         keys.forEach(function(key) {
           var mention = v.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            var splitSource = source.split(':');
+
+          mention.perspective.forEach(function(perspective) {
+            var splitSource = perspective.source.split(':');
             if (splitSource[0] === 'cite') {
-              p[splitSource[1]] = (p[splitSource[1]] || 0) + 1;
+              p[splitSource[1]] = (p[splitSource[1]] || 0) - 1;
             }
-          }
+          });
         })
         return p;
       }
@@ -105,7 +105,7 @@
       .elasticX(true)
 
       .filterHandler(
-        function(dimension, filters) {          
+        function(dimension, filters) {
           Messagebus.publish('newFilterEvent', [this, filters, dimension]);
 
           dimension.filter(null);
@@ -117,7 +117,7 @@
                 var filter = filters[i];
                 if (filter.isFiltered && filter.isFiltered(d)) {
                   return true;
-                } else if (filter <= d && filter >= d) {
+                } else if (d === filter || d.indexOf(filter) >= 0) {
                   return true;
                 }
               }

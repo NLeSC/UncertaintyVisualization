@@ -10,26 +10,6 @@
       var laneTimeDimension = NdxService.buildDimension(function(d) {
         var time = d3.time.format('%Y%m%d').parse(d.time);
 
-        // var sourceResult = 0;
-        // var keys = Object.keys(d.mentions);
-        // keys.forEach(function(key) {
-        //   var mention = d.mentions[key];
-        //   if (mention.perspective) {
-        //     var source = mention.perspective.source;
-        //     var split = source.split(':');
-        //     if (split[0] === 'cite') {
-        //       sourceResult += 1;
-        //     }
-        //   }
-        // });
-        //
-        // var result = 'mixed attribution';
-        // if (sourceResult / keys.length === 1) {
-        //   result = 'citations only';
-        // } else if (sourceResult / keys.length === 0) {
-        //   result = 'authors only';
-        // }
-
         return [time, HelperFunctions.determineUniqueSources(d)];
       });
 
@@ -42,26 +22,38 @@
           var keys = Object.keys(v.mentions);
           keys.forEach(function(key) {
             var mention = v.mentions[key];
-            if (mention.perspective) {
-              var source = mention.perspective.source;
-              var attribution = mention.perspective.attribution;
 
-              p.sources.push(source);
-              p.attribution[source] = attribution;
-            }
+            mention.perspective.forEach(function(perspective) {
+              var attribution = perspective.attribution;
+              var source = perspective.source;
+              p.source = source;
+
+              // var splitSource = perspective.source.split(':');
+              // if (splitSource[0] === 'cite') {
+                p.perspectives = (p.perspectives || 0) + 1;
+
+                var belief = (attribution.belief === 'confirm')? 1 : -1;
+                p.belief[source] = (p.belief[source] || 0) + belief;
+
+                var certainty = (attribution.certainty === 'confirm')? 1 : -1;
+                p.certainty[source] = (p.certainty[source] || 0) + certainty;
+
+                var possibility = (attribution.possibility === 'confirm')? 1 : -1;
+                p.possibility[source] = (p.possibility[source] || 0) + possibility;
+
+                var sentiment = 0;
+                if (attribution.sentiment === 'positive') {
+                  sentiment += 1;
+                } else if (attribution.sentiment === 'negative') {
+                  sentiment -= 1;
+                }
+                p.sentiment[source] = (p.sentiment[source] || 0) + sentiment;
+
+                var when = (attribution.when === 'confirm')? 1 : -1;
+                p.when[source] = (p.when[source] || 0) + when;
+              // }
+            });
           });
-
-          // //Sum event values over all events fitting this time and group.
-          // p.events[v.event] = (p.events[v.event] || 0) + v.climax;
-          //
-          // //Sum label values over all events fitting this time and group.
-          // if (v.labels) {
-          //   v.labels.forEach(function(l) {
-          //     p.labels[l] = (p.labels[l] || 0) + 1;
-          //   });
-          // } else {
-          //   p.labels.none = (p.labels.none || 0) + 1;
-          // }
 
           return p;
         },
@@ -71,13 +63,37 @@
           var keys = Object.keys(v.mentions);
           keys.forEach(function(key) {
             var mention = v.mentions[key];
-            if (mention.perspective) {
-              var source = mention.perspective.source;
-              var attribution = mention.perspective.attribution;
 
-              p.sources.pop(source);
-              p.attribution[source] = attribution;
-            }
+            mention.perspective.forEach(function(perspective) {
+              var attribution = perspective.attribution;
+              var source = perspective.source;
+              p.source = source;
+
+              // var splitSource = perspective.source.split(':');
+              // if (splitSource[0] === 'cite') {
+                p.perspectives = (p.perspectives || 0) - 1;
+
+                var belief = (attribution.belief === 'confirm')? 1 : -1;
+                p.belief[source] = (p.belief[source] || 0) - belief;
+
+                var certainty = (attribution.certainty === 'certain')? 1 : -1;
+                p.certainty[source] = (p.certainty[source] || 0) - certainty;
+
+                var possibility = (attribution.possibility === 'likely')? 1 : -1;
+                p.possibility[source] = (p.possibility[source] || 0) - possibility;
+
+                var sentiment = 0;
+                if (attribution.sentiment === 'positive') {
+                  sentiment += 1;
+                } else if (attribution.sentiment === 'negative') {
+                  sentiment -= 1;
+                }
+                p.sentiment[source] = (p.sentiment[source] || 0) - sentiment;
+
+                var when = (attribution.when === 'now')? 1 : -1;
+                p.when[source] = (p.when[source] || 0) - when;
+              // }
+            });
           });
 
           return p;
@@ -85,9 +101,13 @@
         //Set up the inital data structure.
         function() {
           return {
-            sources: [],
-            // source: {},
-            attribution: {}
+            perspectives: 0,
+            source: '',
+            belief: {},
+            certainty: {},
+            possibility: {},
+            sentiment: {},
+            when: {}
           };
         }
       );
@@ -129,8 +149,10 @@
               var filter = filters[i];
               if (filter.isFiltered && filter.isFiltered(d)) {
                 return true;
-              } else if (filter <= d && filter >= d) {
-                return true;
+              } else if (filter[0] <= d[0] && filter[0] >= d[0]) {
+                if (d[1].indexOf(filter[1]) >= 0) {
+                  return true;  
+                }
               }
             }
             return false;
@@ -146,6 +168,7 @@
       // .xAxisLabel('time')
       .x(d3.time.scale())
         .elasticX(true)
+        .xAxisPadding(100)
         .keyAccessor(function(p) {
           //The time of this event
           return p.key[0];
@@ -166,10 +189,10 @@
       //Radius of the bubble
       .r(d3.scale.linear().domain(
           [0, d3.max(customBubbleChart.data(), function(e) {
-            return e.value.sources.length;
+            return e.value.perspectives;
           })]))
         .radiusValueAccessor(function(p) {
-          return p.value.sources.length;
+          return p.value.perspectives;
         })
         .minRadius(2)
         .maxBubbleRelativeSize(0.015)
@@ -180,28 +203,10 @@
         .colorDomain(
           [0, 1])
         .colorAccessor(function(p) {
-          var confirmation = 0;
-          var denial = 0;
-          var uncertain = 0;
-          var entries = Object.keys(p.value.attribution).length;
-
-          Object.keys(p.value.attribution).forEach(function(key) {
-            if (p.value.attribution[key].indexOf('Confirm') > 0) {
-              confirmation += 1;
-            } else if (p.value.attribution[key].indexOf('Denial') > 0) {
-              denial += 1;
-            } else {
-              uncertain += 1;
-            }
-          });
-
-          var result = 0;
-          if (entries === 0) {
-            result =  0;
-          } else {
-            result = 0.5 + 0.5*(confirmation / entries) - 0.5*(denial / entries);
+          if (p.value.perspectives > 0) {
+            return (0.5*p.value.sentiment[p.value.source]) / p.value.perspectives + 0.5;
           }
-          return result;
+          return 0;
         })
 
       //Labels printed just above the bubbles

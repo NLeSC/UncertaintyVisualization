@@ -40,6 +40,19 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
     this.y = y;
   }
 
+  var unknot = function(chartData) {
+    var newData = [];
+    chartData.forEach(function(datapoint) {
+      datapoint.key[1].forEach(function(singleKey) {
+        newData.push({
+          key: [datapoint.key[0], singleKey],
+          value: datapoint.value
+        })
+      });
+    });
+    return newData;
+  }
+
   var determineNodes = function(chartData) {
     var nodes = {};
 
@@ -72,11 +85,9 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
     var newDomain = [];
     keys.forEach(function(key) {
       nodes[key].forEach(function(node) {
-        node.y.forEach(function(lineName) {
-          if (newDomain.indexOf(lineName) < 0) {
-            newDomain.push(lineName);
-          }
-        });
+        if (newDomain.indexOf(node.y) < 0) {
+          newDomain.push(node.y);
+        }
       });
     });
 
@@ -102,7 +113,9 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
   };
 
   _chart.plotData = function() {
-    var nodes = determineNodes(_chart.data());
+    var chartData = unknot(_chart.data());
+
+    var nodes = determineNodes(chartData);
     var domain = fiddleWithDomain(nodes);
     _chart.y().domain(domain);
 
@@ -117,7 +130,7 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
     renderLanes(gridLineG);
 
     var bubbleG = _chart.chartBodyG().selectAll('g.' + _chart.BUBBLE_NODE_CLASS)
-      .data(_chart.data(), function(d) {
+      .data(chartData, function(d) {
         return d.key;
       });
 

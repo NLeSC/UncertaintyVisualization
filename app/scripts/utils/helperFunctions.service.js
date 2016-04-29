@@ -51,10 +51,17 @@
       } else {
         keys.forEach(function(key) {
           var mention = data.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            concatenatedSources.push(source);
-          }
+
+          mention.perspective.forEach(function(perspective) {
+            var sources = perspective.source;
+            if( typeof sources === 'string' ) {
+              sources = [ sources ];
+            }
+
+            sources.forEach(function(source) {
+              concatenatedSources.push(source);
+            });
+          });
         });
       }
       var uniqueSources = arrayUnique(concatenatedSources);
@@ -71,13 +78,20 @@
       } else {
         keys.forEach(function(key) {
           var mention = data.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            var splitSource = source.split(':');
-            if (splitSource[0] === 'cite') {
-              concatenatedCitationSources.push(splitSource[1]);
+
+          mention.perspective.forEach(function(perspective) {
+            var sources = perspective.source;
+            if( typeof sources === 'string' ) {
+              sources = [ sources ];
             }
-          }
+
+            sources.forEach(function(source) {
+              var splitSource = source.split(':');
+              if (splitSource[0] === 'cite') {
+                concatenatedCitationSources.push(splitSource[1]);
+              }
+            });
+          });
         });
       }
       var uniqueCitationSources = arrayUnique(concatenatedCitationSources);
@@ -94,13 +108,20 @@
       } else {
         keys.forEach(function(key) {
           var mention = data.mentions[key];
-          if (mention.perspective) {
-            var source = mention.perspective.source;
-            var splitSource = source.split(':');
-            if (splitSource[0] === 'author') {
-              concatenatedAuthors.push(splitSource[1]);
+
+          mention.perspective.forEach(function(perspective) {
+            var sources = perspective.source;
+            if( typeof sources === 'string' ) {
+              sources = [ sources ];
             }
-          }
+
+            sources.forEach(function(source) {
+              var splitSource = source.split(':');
+              if (splitSource[0] === 'cite') {
+                concatenatedAuthors.push(splitSource[1]);
+              }
+            });
+          });
         });
       }
       var uniqueAuthors = arrayUnique(concatenatedAuthors);
