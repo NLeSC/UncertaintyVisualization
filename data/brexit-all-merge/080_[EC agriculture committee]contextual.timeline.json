@@ -1,0 +1,2687 @@
+{ "timeline":
+{
+"actor_cnt": [24],
+"event_cnt": [13],
+"events": [
+{
+"actors": {"actor:": [
+"dbp:Great_Yarmouth",
+"dbp:UK_Independence_Party",
+"dbp:Liberal_Democrats",
+"dbp:Boston",
+"dbp:East_Worthing_and_Shoreham_(UK_Parliament_constituency)",
+"dbp:Nigel_Farage",
+"dbp:Skegness",
+"dbp:South_Thanet_(UK_Parliament_constituency)",
+"dbp:Shoreham_Airport"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Intentionally_create",
+"Building",
+"Manufacturing",
+"Creating"
+],
+"ili": [
+"i30456",
+"i30462",
+"i26434"
+]
+},
+"climax": 62,
+"event": "ev46",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0#ev46",
+"labels": ["publish"],
+"mentions": [
+{
+"char": [
+"2397",
+"2406"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" on 13 per cent and the Lib Dems on 2 per cent. \nThe eurosceptic party has published a list of 12 seats it intends to target in the general election, including"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"481",
+"490"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "cite:ConservativeHome"
+}],
+"snippet": [" access to welfare benefits and free NHS treatment in its election manifesto published on Monday morning.\nCalling for a \u201cnew deal on immigration\u201d, the influential"],
+"snippet_char": [
+77,
+86
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+}
+],
+"prefLabel": ["publish"],
+"sentence": "481",
+"time": "20140901",
+"topics": [
+"http://eurovoc.europa.eu/214142",
+"http://eurovoc.europa.eu/218761",
+"http://eurovoc.europa.eu/211776",
+"http://eurovoc.europa.eu/209702",
+"http://eurovoc.europa.eu/214110",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Conservative_Party_(UK)",
+"dbp:Great_Yarmouth",
+"dbp:South_Thanet_(UK_Parliament_constituency)",
+"dbp:Boston",
+"dbp:Skegness",
+"dbp:UK_Independence_Party",
+"dbp:Shoreham_Airport",
+"dbp:Liberal_Democrats",
+"dbp:East_Worthing_and_Shoreham_(UK_Parliament_constituency)",
+"dbp:Nigel_Farage"
+]},
+"classes": {
+"eso": ["Translocation"],
+"fn": ["Cotheme"],
+"ili": [
+"i32040",
+"i31747"
+]
+},
+"climax": 80,
+"event": "ev106",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0#ev106",
+"labels": [
+"trail",
+"list",
+"intend",
+"include"
+],
+"mentions": [
+{
+"char": [
+"2291",
+"2299"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" which is expected in October. The survey found Ukip on 64 per cent, the Tories trailing on 20 per cent, Labour on 13 per cent and the Lib Dems on 2 per cent. \nThe"],
+"snippet_char": [
+80,
+88
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"2409",
+"2413"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" cent and the Lib Dems on 2 per cent. \nThe eurosceptic party has published a list of 12 seats it intends to target in the general election, including South Thanet,"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"2429",
+"2436"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" on 2 per cent. \nThe eurosceptic party has published a list of 12 seats it intends to target in the general election, including South Thanet, where Ukip leader"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"2472",
+"2481"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" published a list of 12 seats it intends to target in the general election, including South Thanet, where Ukip leader Nigel Farage will stand, plus Great Yarmouth,"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"1645",
+"1654"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" no-confidence in the prime minister\u2019s ability to negotiate concessions on issues including immigration following the 2015 general election. \nLast week, Tory MP Douglas"],
+"snippet_char": [
+82,
+91
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+}
+],
+"period": ["20131001"],
+"prefLabel": ["trail"],
+"sentence": "2291",
+"time": "20131001",
+"topics": [
+"http://eurovoc.europa.eu/209702",
+"http://eurovoc.europa.eu/214110",
+"http://eurovoc.europa.eu/211776",
+"http://eurovoc.europa.eu/214142",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/218761"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Clacton-on-Sea",
+"dbp:Douglas_Carswell"
+]},
+"classes": {"ili": ["i36375"]},
+"climax": 79,
+"event": "ev102",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0#ev102",
+"labels": ["by-election"],
+"mentions": [{
+"char": [
+"2168",
+"2179"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" the Mail on Sunday yesterday predicted a landslide victory for Ukip in the by-election for Mr Carswell\u2019s Clacton seat, which is expected in October. The survey found"],
+"snippet_char": [
+76,
+87
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+}],
+"prefLabel": ["by-election"],
+"sentence": "2168",
+"time": "20131001",
+"topics": [
+"http://eurovoc.europa.eu/209702",
+"http://eurovoc.europa.eu/211776",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/214142",
+"http://eurovoc.europa.eu/214110",
+"http://eurovoc.europa.eu/218761"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Clacton-on-Sea",
+"dbp:Douglas_Carswell",
+"dbp:UK_Independence_Party"
+]},
+"classes": {
+"fn": ["Predicting"],
+"ili": [
+"i26202",
+"i25984"
+]
+},
+"climax": 79,
+"event": "ev99",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0#ev99",
+"labels": [
+"predict",
+"expect",
+"victory",
+"seat"
+],
+"mentions": [
+{
+"char": [
+"2122",
+"2131"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" coming to Britain from within the EU.\nA poll for the Mail on Sunday yesterday predicted a landslide victory for Ukip in the by-election for Mr Carswell\u2019s Clacton seat,"],
+"snippet_char": [
+79,
+88
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"2221",
+"2229"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" victory for Ukip in the by-election for Mr Carswell\u2019s Clacton seat, which is expected in October. The survey found Ukip on 64 per cent, the Tories trailing on 20"],
+"snippet_char": [
+78,
+86
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"2144",
+"2151"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" within the EU.\nA poll for the Mail on Sunday yesterday predicted a landslide victory for Ukip in the by-election for Mr Carswell\u2019s Clacton seat, which is expected"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"2206",
+"2210"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Claer_Barrett"
+}],
+"snippet": [" a landslide victory for Ukip in the by-election for Mr Carswell\u2019s Clacton seat, which is expected in October. The survey found Ukip on 64 per cent, the Tories"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/1e6c5b96-31a3-11e4-b377-00144feabdc0"]
+}
+],
+"period": ["20140831"],
+"prefLabel": ["predict"],
+"sentence": "2122",
+"time": "20140831",
+"topics": [
+"http://eurovoc.europa.eu/218761",
+"http://eurovoc.europa.eu/209702",
+"http://eurovoc.europa.eu/214142",
+"http://eurovoc.europa.eu/214110",
+"http://eurovoc.europa.eu/211776",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Premiership_of_David_Cameron",
+"dbp:Nigel_Farage",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Motion",
+"Request",
+"Have_as_requirement"
+],
+"ili": [
+"i25472",
+"i34813",
+"i74447"
+]
+},
+"climax": 65,
+"event": "ev43",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0#ev43",
+"labels": [
+"demand",
+"reawaken"
+],
+"mentions": [
+{
+"char": [
+"557",
+"564"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" winning a parliamentary by-election for Ukip in his Clacton seat has reawakened demands from Tory eurosceptics for Mr Cameron to toughen up his line on Europe or seek"],
+"snippet_char": [
+81,
+88
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"546",
+"556"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" Carswell winning a parliamentary by-election for Ukip in his Clacton seat has reawakened demands from Tory eurosceptics for Mr Cameron to toughen up his line on Europe"],
+"snippet_char": [
+79,
+89
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+}
+],
+"period": ["20140825"],
+"prefLabel": ["demand"],
+"sentence": "557",
+"time": "20140825",
+"topics": [
+"http://eurovoc.europa.eu/218761",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/210443",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/209261",
+"http://eurovoc.europa.eu/217500"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Nigel_Farage",
+"dbp:UK_Independence_Party",
+"dbp:Angela_Merkel",
+"dbp:Der_Spiegel"
+]},
+"classes": {
+"fn": [
+"Response",
+"Communication_response"
+],
+"ili": ["i25289"]
+},
+"climax": 72,
+"event": "ev101",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/da16f51c-6287-11e4-aa14-00144feabdc0#ev101",
+"labels": ["respond"],
+"mentions": [
+{
+"char": [
+"1896",
+"1905"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jeevan_Vasagar"]
+}
+],
+"snippet": [" themselves within three months of arrival.\nNigel Farage, the Ukip leader, responded gleefully to the reports of Ms Merkel\u2019s warning on Sunday, suggesting this"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/da16f51c-6287-11e4-aa14-00144feabdc0"]
+},
+{
+"char": [
+"2820",
+"2830"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jeevan_Vasagar"]
+}
+],
+"snippet": [" does not deviate from the basic principle of freedom of movement in Europe.\u201d\nResponding to the Der Spiegel report, Ms Merkel\u2019s spokesman Steffen Seibert said: \u201cEverything"],
+"snippet_char": [
+78,
+88
+],
+"uri": ["http://www.ft.com/thing/da16f51c-6287-11e4-aa14-00144feabdc0"]
+}
+],
+"prefLabel": ["respond"],
+"sentence": "1896",
+"time": "20141102",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/214142",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210360"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Nigel_Farage",
+"dbp:UK_Independence_Party",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Cause_to_be_wet"],
+"ili": [
+"i23685",
+"i22810"
+]
+},
+"climax": 79,
+"event": "ev96",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0#ev96",
+"labels": ["dampen"],
+"mentions": [
+{
+"char": [
+"2165",
+"2171"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" and the expenses scandals involving former Ukip MEPs has done little to dampen his attacks.\nA new Ipsos/Mori poll for the Evening Standard found backing for"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0"]
+},
+{
+"char": [
+"2076",
+"2081"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Nigel_Farage"
+}],
+"snippet": [" European parliament payroll \u2013 having previously criticised other parties for doing the same \u2013 and the expenses scandals involving former Ukip MEPs has done little"],
+"snippet_char": [
+80,
+85
+],
+"uri": ["http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0"]
+},
+{
+"char": [
+"2150",
+"2154"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" doing the same \u2013 and the expenses scandals involving former Ukip MEPs has done little to dampen his attacks.\nA new Ipsos/Mori poll for the Evening Standard"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0"]
+}
+],
+"period": ["20140410"],
+"prefLabel": ["dampen"],
+"sentence": "2165",
+"time": "20140410",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210494",
+"http://eurovoc.europa.eu/209284"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Nick_Clegg",
+"dbp:European_Union",
+"dbp:Nigel_Farage"
+]},
+"classes": {
+"fn": [
+"Test_the_test",
+"Have_as_translation_equivalent",
+"Translating",
+"Categorization",
+"Be_translation_equivalent"
+],
+"ili": [
+"i35443",
+"i26395"
+]
+},
+"climax": 65,
+"event": "ev49",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0#ev49",
+"labels": [
+"translate",
+"suggest"
+],
+"mentions": [
+{
+"char": [
+"576",
+"586"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" two broadcast debates on Europe with Nick Clegg, deputy prime minister, has translated into a surge in support for the eurosceptic party.\nMr Cameron feared his week"],
+"snippet_char": [
+78,
+88
+],
+"uri": ["http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0"]
+},
+{
+"char": [
+"463",
+"471"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" secretary\u2019s expenses to bolster his anti-establishment campaign. \nA new poll suggests that Mr Farage\u2019s victory in two broadcast debates on Europe with Nick Clegg,"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0"]
+}
+],
+"period": ["20030101"],
+"prefLabel": ["translate"],
+"sentence": "576",
+"time": "20030101",
+"topics": [
+"http://eurovoc.europa.eu/210494",
+"http://eurovoc.europa.eu/209284",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210491"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:UK_Independence_Party"
+]},
+"classes": {
+"eso": ["Placing"],
+"fn": [
+"Placing",
+"Causation"
+],
+"ili": [
+"i29195",
+"i29197"
+]
+},
+"climax": 69,
+"event": "ev81",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0#ev81",
+"labels": ["put"],
+"mentions": [
+{
+"char": [
+"1979",
+"1982"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Nigel_Farage"
+}],
+"snippet": [" of \u201cthe political class looking after its own\u201d. \nMr Farage\u2019s decision to put his wife on the European parliament payroll \u2013 having previously criticised other"],
+"snippet_char": [
+76,
+79
+],
+"uri": ["http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0"]
+},
+{
+"char": [
+"1465",
+"1468"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Premiership_of_David_Cameron"
+}],
+"snippet": [" at Manchester airport, claiming his party\u2019s plan to reform Europe and to put the result to a referendum was in the national interest.\n\u201cLooking at the other"],
+"snippet_char": [
+76,
+79
+],
+"uri": ["http://www.ft.com/thing/8c0eb5a8-c0b6-11e3-8578-00144feabdc0"]
+}
+],
+"prefLabel": ["put"],
+"sentence": "1465",
+"time": "20140409",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/209284",
+"http://eurovoc.europa.eu/210494",
+"http://eurovoc.europa.eu/210491",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Douglas_Carswell",
+"dbp:Philip_Hollobone",
+"dbp:Mark_Reckless",
+"dbp:Philip_Davies"
+]},
+"classes": {
+"fn": [
+"Finish_competition",
+"Competition"
+],
+"ili": [
+"i25975",
+"i26951"
+]
+},
+"climax": 77,
+"event": "ev83",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0#ev83",
+"labels": [
+"contest",
+"hold",
+"decide"
+],
+"mentions": [
+{
+"char": [
+"1839",
+"1846"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" Tory MPs\u201d who feared they could lose their seats.\nIn 2010 Ukip decided not to contest four seats held by fervent eurosceptics: Philip Davies, Philip Hollobone, Mark"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"1858",
+"1862"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" they could lose their seats.\nIn 2010 Ukip decided not to contest four seats held by fervent eurosceptics: Philip Davies, Philip Hollobone, Mark Reckless and"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"1824",
+"1831"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" very nervous Tory MPs\u201d who feared they could lose their seats.\nIn 2010 Ukip decided not to contest four seats held by fervent eurosceptics: Philip Davies, Philip"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+}
+],
+"period": ["20100101"],
+"prefLabel": ["contest"],
+"sentence": "1839",
+"time": "20100101",
+"topics": [
+"http://eurovoc.europa.eu/210443",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/218761",
+"http://eurovoc.europa.eu/209261"
+]
+},
+{
+"actors": {"actor:": [
+"en:MikeRake",
+"dbp:Central_Bureau_of_Investigation",
+"dbp:United_Kingdom",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": ["Motion"],
+"ili": [
+"i25978",
+"i25815",
+"i25814",
+"i25977"
+]
+},
+"climax": 75,
+"event": "ev56",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c#ev56",
+"labels": [
+"warn",
+"speak"
+],
+"mentions": [
+{
+"char": [
+"1451",
+"1458"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" British business to speak out early in favour of membership of a reformed EU, warning that no one had set out a credible alternative. \nHowever, Sajid Javid, the"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+},
+{
+"char": [
+"1393",
+"1398"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:MikeRake"
+}],
+"snippet": [" employers\u2019 organisation and chairman of BT, has called on British business to speak out early in favour of membership of a reformed EU, warning that no one had"],
+"snippet_char": [
+79,
+84
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+},
+{
+"char": [
+"52",
+"57"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": ["Only 7 per cent of UK companies would be willing to speak out in favour of the country staying in the EU even though two-thirds believe"],
+"snippet_char": [
+52,
+57
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+},
+{
+"char": [
+"1181",
+"1186"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" view over Britain leaving the EU, one-third said they would not be willing to speak out publicly on the issue, and 61 per cent said they did not know whether they"],
+"snippet_char": [
+79,
+84
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+}
+],
+"period": ["20150101"],
+"prefLabel": ["warn"],
+"sentence": "1451",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/218761",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209702",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/210633"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Sajid_Javid",
+"dbp:European_Union",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["JoiningAnOrganization"],
+"fn": [
+"Becoming_a_member",
+"Possession"
+],
+"ili": [
+"i110154",
+"i81246",
+"i34076"
+]
+},
+"climax": 68,
+"event": "ev61",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c#ev61",
+"labels": [
+"membership",
+"view"
+],
+"mentions": [
+{
+"char": [
+"1712",
+"1722"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Sajid_Javid"
+}],
+"snippet": [" hamper the prime minister\u2019s efforts to renegotiate the terms of Britain\u2019s membership.\nChristopher Rodrigues, a former chief executive of Visa International and"],
+"snippet_char": [
+75,
+85
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+},
+{
+"char": [
+"1422",
+"1432"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:MikeRake"
+}],
+"snippet": [" chairman of BT, has called on British business to speak out early in favour of membership of a reformed EU, warning that no one had set out a credible alternative. \nHowever,"],
+"snippet_char": [
+80,
+90
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+},
+{
+"char": [
+"1103",
+"1107"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" cent believed a Brexit would be positive.\nBut despite this generally negative view over Britain leaving the EU, one-third said they would not be willing to speak"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+},
+{
+"char": [
+"1901",
+"1905"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:ChristopherRodrigues"
+}],
+"snippet": [" VisitBritain, the national tourism agency, said he sympathised with Mr Javid\u2019s view. \u201cDon\u2019t throw your negotiating freedoms out of the door before you start,\u201d"],
+"snippet_char": [
+80,
+84
+],
+"uri": ["http://www.ft.com/thing/9bb67f78-23f6-11e5-bd83-71cb60e8f08c"]
+}
+],
+"period": ["20150101"],
+"prefLabel": ["membership"],
+"sentence": "1422",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/218761",
+"http://eurovoc.europa.eu/210633",
+"http://eurovoc.europa.eu/209702",
+"http://eurovoc.europa.eu/210765"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:UK_Independence_Party",
+"dbp:Douglas_Carswell"
+]},
+"classes": {"ili": [
+"i27281",
+"i29957"
+]},
+"climax": 55,
+"event": "ev23",
+"group": "080:[EC agriculture committee]",
+"groupName": "[EC agriculture committee]",
+"groupScore": "080",
+"instance": "http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0#ev23",
+"labels": [
+"trigger",
+"fear"
+],
+"mentions": [
+{
+"char": [
+"216",
+"223"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" that the defection of Douglas Carswell to the UK Independence party could trigger a wave of disunity.\nThe prime minister will address Tory MPs on Tuesday evening"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"1775",
+"1781"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" renewed talk of a pact reflected \u201cchatter from very nervous Tory MPs\u201d who feared they could lose their seats.\nIn 2010 Ukip decided not to contest four seats"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+},
+{
+"char": [
+"136",
+"141"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" the 2015 general election with another round of infighting on Europe, amid fears that the defection of Douglas Carswell to the UK Independence party could trigger"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/14518220-31e0-11e4-b377-00144feabdc0"]
+}
+],
+"period": ["20140101"],
+"prefLabel": ["trigger"],
+"sentence": "216",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/218761",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/209261",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210443"
+]
+}
+],
+"headline": "brexit3",
+"mention_cnt": [37],
+"polls": [
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20140515"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Opinium;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:43:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov/The Times"]
+}],
+"prefLabel": ["38:43:18"],
+"time": "20160201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:38:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:38:22"],
+"time": "20140808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:40:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes"]
+}],
+"prefLabel": ["46:40:14"],
+"time": "20160208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:42:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Survation;BMG Research;ICM"]
+}],
+"prefLabel": ["43:42:14"],
+"time": "20151115"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:45:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes"]
+}],
+"prefLabel": ["35:45:19"],
+"time": "20141122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes;Survation;YouGov"]
+}],
+"prefLabel": ["38:41:20"],
+"time": "20140622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:51:9"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:51:9"],
+"time": "20121122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["44:45:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["44:45:11"],
+"time": "20130601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140522"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130801"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;ICM"]
+}],
+"prefLabel": ["42:39:18"],
+"time": "20151108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["32:53:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["32:53:15"],
+"time": "20130808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20140322"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;YouGov;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20151101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:43:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["33:43:24"],
+"time": "20140108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "13",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:56:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium/Observer"]
+}],
+"prefLabel": ["30:56:14"],
+"time": "20121115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Pew Research Center;Populus;Opinium"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150408"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["38:41:21"],
+"time": "20130215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:48:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;Survation"]
+}],
+"prefLabel": ["34:48:17"],
+"time": "20141101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:43:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["36:43:21"],
+"time": "20130408"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["54:37:10"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["54:37:10"],
+"time": "20140508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ORB;ICM;YouGov"]
+}],
+"prefLabel": ["43:41:14"],
+"time": "20151022"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:46:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["39:46:15"],
+"time": "20140501"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20150608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:43:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["37:43:20"],
+"time": "20131208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:34:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["43:34:21"],
+"time": "20150601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20131008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:42:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["37:42:20"],
+"time": "20141022"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140308"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:40:19"],
+"time": "20141115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ICM"]
+}],
+"prefLabel": ["42:39:19"],
+"time": "20151122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:38:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;GQRR;Ipsos MORI;ICM"]
+}],
+"prefLabel": ["45:38:16"],
+"time": "20151015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["47:38:15"],
+"time": "20150815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:36:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["45:36:19"],
+"time": "20150222"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Panelbase;ICM"]
+}],
+"prefLabel": ["43:41:15"],
+"time": "20160108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:37:20"],
+"time": "20150122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;Panelbase;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20150322"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:38:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:38:21"],
+"time": "20140708"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:40:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["47:40:13"],
+"time": "20150515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:32:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["49:32:18"],
+"time": "20150422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "13",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["60:33:6"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Ipsos MORI"]
+}],
+"prefLabel": ["60:33:6"],
+"time": "20150615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:41:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS BMRB"]
+}],
+"prefLabel": ["30:41:22"],
+"time": "20130201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:39:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:39:17"],
+"time": "20151001"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;ICM/The Guardian;YouGov/The Sun"]
+}],
+"prefLabel": ["34:44:20"],
+"time": "20130508"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:44:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["41:44:15"],
+"time": "20150215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:36:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;TNS-BMRB"]
+}],
+"prefLabel": ["40:36:23"],
+"time": "20150115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:37:19"],
+"time": "20150722"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "10",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["56:36:8"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["56:36:8"],
+"time": "20141008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:46:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Times"]
+}],
+"prefLabel": ["35:46:20"],
+"time": "20130501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20111208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "5",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:35:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:35:20"],
+"time": "20150415"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "8",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:50:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation/Mail on Sunday;YouGov/The Sun"]
+}],
+"prefLabel": ["33:50:16"],
+"time": "20130101"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20150622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:33:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes;YouGov"]
+}],
+"prefLabel": ["49:33:17"],
+"time": "20150522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:46:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:46:19"],
+"time": "20130701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20130708"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:42:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/Sunday Times"]
+}],
+"prefLabel": ["36:42:21"],
+"time": "20130108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:40:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["43:40:17"],
+"time": "20150908"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:40:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB"]
+}],
+"prefLabel": ["37:40:23"],
+"time": "20150108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:39:25"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:39:25"],
+"time": "20140208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:40:19"],
+"time": "20140822"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:40:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["38:40:22"],
+"time": "20150915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["31:46:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;ComRes/Sunday Mirror/Independent;ICM/The Telegraph"]
+}],
+"prefLabel": ["31:46:21"],
+"time": "20130515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:39:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;Ipsos MORI;BMG Research;ComRes;ICM"]
+}],
+"prefLabel": ["45:39:15"],
+"time": "20160122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;Survation"]
+}],
+"prefLabel": ["39:41:18"],
+"time": "20151201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["52:36:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI;ICM;ComRes"]
+}],
+"prefLabel": ["52:36:11"],
+"time": "20151208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;YouGov;BMG Research;ICM;ComRes"]
+}],
+"prefLabel": ["42:41:15"],
+"time": "20160222"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:44:20"],
+"time": "20130922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["35:32:32"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;YouGov/Sunday Times"]
+}],
+"prefLabel": ["35:32:32"],
+"time": "20130115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:38:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:38:19"],
+"time": "20140922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "6",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:34:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["46:34:20"],
+"time": "20130815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20141201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;ICM;YouGov"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "7",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:31:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:31:24"],
+"time": "20130622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;Opinium;Ipsos MORI;TNS"]
+}],
+"prefLabel": ["43:37:19"],
+"time": "20160215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:42:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:42:17"],
+"time": "20151215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:42:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;ICM;Survation"]
+}],
+"prefLabel": ["44:42:13"],
+"time": "20160115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["39:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:37:18"],
+"time": "20160301"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20130522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:47:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["33:47:19"],
+"time": "20100908"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["50:33:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;YouGov"]
+}],
+"prefLabel": ["50:33:15"],
+"time": "20150501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:42:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes"]
+}],
+"prefLabel": ["40:42:18"],
+"time": "20140601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20130915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Financial Times/Harris;Survation/Mail on Sunday;YouGov/Sunday Times;Populus/The Times"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20130122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:37:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["40:37:22"],
+"time": "20140401"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "11",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:52:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:52:19"],
+"time": "20110808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141215"
+}
+],
+"story_cnt": [1],
+"text": "FT-Brexit",
+"type": "default"
+}}

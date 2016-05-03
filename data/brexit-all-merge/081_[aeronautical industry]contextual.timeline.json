@@ -1,0 +1,2556 @@
+{ "timeline":
+{
+"actor_cnt": [11],
+"event_cnt": [11],
+"events": [
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:Germany",
+"dbp:France"
+]},
+"classes": {
+"fn": [
+"Finish_competition",
+"Competition"
+],
+"ili": [
+"i26951",
+"i92599"
+]
+},
+"climax": 76,
+"event": "ev93",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/99e022ce-dfaa-11e5-b072-006d8d362ba3#ev93",
+"labels": ["competitor"],
+"mentions": [{
+"char": [
+"1541",
+"1552"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" \u201cA lot of our members are very nervous\u2009...\u2009There will be French and German competitors who will want to make life pretty difficult for [UK] exporters.\u201d\nTerry Scuoler,"],
+"snippet_char": [
+76,
+87
+],
+"uri": ["http://www.ft.com/thing/99e022ce-dfaa-11e5-b072-006d8d362ba3"]
+}],
+"prefLabel": ["competitor"],
+"sentence": "1541",
+"time": "20160303",
+"topics": [
+"http://eurovoc.europa.eu/217039",
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Airbus",
+"dbp:France",
+"dbp:United_Kingdom"
+]},
+"classes": {"ili": [
+"i113103",
+"i68096",
+"i67795"
+]},
+"climax": 65,
+"event": "ev49",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b#ev49",
+"labels": [
+"possibility",
+"operation",
+"staff"
+],
+"mentions": [
+{
+"char": [
+"586",
+"597"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" senior Airbus executives wrote to staff explaining its concerns about the possibility of barriers being erected between its operations in the UK and in France, where"],
+"snippet_char": [
+75,
+86
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"636",
+"646"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" explaining its concerns about the possibility of barriers being erected between its operations in the UK and in France, where it makes most of its fuselages.\n\u201cOur business"],
+"snippet_char": [
+85,
+95
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"936",
+"946"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" not believe leaving will increase the competitiveness of our British-based operations.\u201d\nThe executives \u2014 who include Tom Williams, the company\u2019s chief operating"],
+"snippet_char": [
+76,
+86
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"546",
+"551"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" Motor Cars, which is owned by BMW.\nSeven senior Airbus executives wrote to staff explaining its concerns about the possibility of barriers being erected between"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"337",
+"342"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" in north Wales, has become only the second big British business to warn its staff about the risks of leaving the EU. It follows last month\u2019s intervention by"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+}
+],
+"period": ["20160301"],
+"prefLabel": ["possibility"],
+"sentence": "586",
+"time": "20160301",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221611"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:France",
+"dbp:United_Kingdom",
+"dbp:Spain",
+"dbp:Germany",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Locative_relation"],
+"ili": [
+"i81998",
+"i29055",
+"i35215",
+"i81783",
+"i29056",
+"i110005"
+]
+},
+"climax": 81,
+"event": "ev101",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/35d9330a-fefb-11e4-94c8-00144feabdc0#ev101",
+"labels": [
+"border",
+"help"
+],
+"mentions": [
+{
+"char": [
+"2544",
+"2551"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Peggy_Hollinger"
+}],
+"snippet": [" something from outside into it. The EU helps us to reduce bureaucracy across the borders of our four manufacturing nations [France, Germany, Spain and the UK].\u201d\nMr"],
+"snippet_char": [
+82,
+89
+],
+"uri": ["http://www.ft.com/thing/35d9330a-fefb-11e4-94c8-00144feabdc0"]
+},
+{
+"char": [
+"2908",
+"2914"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Peggy_Hollinger"
+}],
+"snippet": [" important that any reform preserved the mobility of labour and capital that had helped create a successful aerospace industry in the UK and in Europe. \u201cWe have succeeded"],
+"snippet_char": [
+81,
+87
+],
+"uri": ["http://www.ft.com/thing/35d9330a-fefb-11e4-94c8-00144feabdc0"]
+},
+{
+"char": [
+"2502",
+"2507"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Peggy_Hollinger"
+}],
+"snippet": [" business inside the EU than it is sending something from outside into it. The EU helps us to reduce bureaucracy across the borders of our four manufacturing nations"],
+"snippet_char": [
+82,
+87
+],
+"uri": ["http://www.ft.com/thing/35d9330a-fefb-11e4-94c8-00144feabdc0"]
+}
+],
+"period": ["20150520"],
+"prefLabel": ["border"],
+"sentence": "2544",
+"time": "20150520",
+"topics": [
+"http://eurovoc.europa.eu/221611",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216645",
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216684"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Broughton",
+"_Flintshire",
+"dbp:United_Kingdom",
+"dbp:Airbus"
+]},
+"classes": {
+"fn": ["Leadership"],
+"ili": [
+"i35084",
+"i31347",
+"i27338",
+"i33943"
+]
+},
+"climax": 77,
+"event": "ev89",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b#ev89",
+"labels": [
+"run",
+"poll",
+"summary",
+"visit"
+],
+"mentions": [
+{
+"char": [
+"1848",
+"1852"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" visit the FT\u2019s Brexit poll tracker page\n-------------------------\nAirbus runs a number of sites in the UK in addition to Broughton. The wings manufactured in"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"1764",
+"1771"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Referendum: How people would vote\nFor a more detailed summary of opinion polling visit the FT\u2019s Brexit poll tracker page\n-------------------------\nAirbus runs"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"1745",
+"1752"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" employment.\n-------------------------\nUK\u2019s EU Referendum: How people would vote\nFor a more detailed summary of opinion polling visit the FT\u2019s Brexit poll tracker page\n-------------------------\nAirbus"],
+"snippet_char": [
+103,
+110
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"1772",
+"1777"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Referendum: How people would vote\nFor a more detailed summary of opinion polling visit the FT\u2019s Brexit poll tracker page\n-------------------------\nAirbus runs a number"],
+"snippet_char": [
+84,
+89
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+}
+],
+"period": ["20160404"],
+"prefLabel": ["run"],
+"sentence": "1848",
+"time": "20160404",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/221611",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210607"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Germany",
+"dbp:Airbus",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Building",
+"Creating"
+],
+"ili": [
+"i40195",
+"i29643",
+"i30008"
+]
+},
+"climax": 80,
+"event": "ev92",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/cdda5104-81e6-11e3-a600-00144feab7de#ev92",
+"labels": [
+"construction",
+"try"
+],
+"mentions": [
+{
+"char": [
+"2381",
+"2393"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Andrew_Parker"
+}],
+"snippet": [" group\u2019s passenger jets.\nSome analysts say Germany has tried to take Airbus\u2019 wing construction from the UK because it is high value work.\nMr Southwell refused to speculate"],
+"snippet_char": [
+82,
+94
+],
+"uri": ["http://www.ft.com/thing/cdda5104-81e6-11e3-a600-00144feab7de"]
+},
+{
+"char": [
+"2354",
+"2359"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "author:Andrew_Parker"
+}],
+"snippet": [" wings are made for the group\u2019s passenger jets.\nSome analysts say Germany has tried to take Airbus\u2019 wing construction from the UK because it is high value work.\nMr"],
+"snippet_char": [
+78,
+83
+],
+"uri": ["http://www.ft.com/thing/cdda5104-81e6-11e3-a600-00144feab7de"]
+}
+],
+"period": ["20140121"],
+"prefLabel": ["construction"],
+"sentence": "2381",
+"time": "20140121",
+"topics": [
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/211853",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/221611",
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:Airbus"
+]},
+"classes": {"ili": ["i92217"]},
+"climax": 59,
+"event": "ev32",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/cdda5104-81e6-11e3-a600-00144feab7de#ev32",
+"labels": ["president"],
+"mentions": [{
+"char": [
+"301",
+"310"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Andrew_Parker"
+}],
+"snippet": [" giant favours continued British membership of the EU, and Robin Southwell, president of Airbus group UK, is due to use a company event in London to extol the benefits"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/cdda5104-81e6-11e3-a600-00144feab7de"]
+}],
+"prefLabel": ["president"],
+"sentence": "301",
+"time": "20140128",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211853",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/221611",
+"http://eurovoc.europa.eu/216685"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:Broughton",
+"_Flintshire"
+]},
+"classes": {"ili": [
+"i37324",
+"i106298",
+"i109165",
+"i49832"
+]},
+"climax": 78,
+"event": "ev94",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b#ev94",
+"labels": [
+"addition",
+"number",
+"site"
+],
+"mentions": [
+{
+"char": [
+"1884",
+"1892"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" page\n-------------------------\nAirbus runs a number of sites in the UK in addition to Broughton. The wings manufactured in north Wales are shipped or flown to its"],
+"snippet_char": [
+80,
+88
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"1855",
+"1861"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" FT\u2019s Brexit poll tracker page\n-------------------------\nAirbus runs a number of sites in the UK in addition to Broughton. The wings manufactured in north Wales"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"1865",
+"1870"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Brexit poll tracker page\n-------------------------\nAirbus runs a number of sites in the UK in addition to Broughton. The wings manufactured in north Wales are shipped"],
+"snippet_char": [
+81,
+86
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+}
+],
+"period": ["20160404"],
+"prefLabel": ["addition"],
+"sentence": "1884",
+"time": "20160404",
+"topics": [
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/221611"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Wales",
+"dbp:Broughton",
+"_Flintshire",
+"dbp:France"
+]},
+"classes": {"ili": [
+"i36358",
+"i46774"
+]},
+"climax": 55,
+"event": "ev37",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b#ev37",
+"labels": [
+"wing",
+"make"
+],
+"mentions": [
+{
+"char": [
+"214",
+"219"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" threatens its company\u2019s investment plans in the country.\nThe company, which makes wings for almost all its aircraft at Broughton in north Wales, has become only the"],
+"snippet_char": [
+83,
+88
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"681",
+"686"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" barriers being erected between its operations in the UK and in France, where it makes most of its fuselages.\n\u201cOur business model is entirely based on our ability"],
+"snippet_char": [
+81,
+86
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"2091",
+"2095"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" or the US, where they are attached to the fuselages, which are mainly made on the continent.\nOne person close to the company said the supply lines between"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"208",
+"213"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" threatens its company\u2019s investment plans in the country.\nThe company, which makes wings for almost all its aircraft at Broughton in north Wales, has become only"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+}
+],
+"period": ["20160301"],
+"prefLabel": ["wing"],
+"sentence": "214",
+"time": "20160301",
+"topics": [
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/221611",
+"http://eurovoc.europa.eu/210765"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Palace_of_Westminster",
+"dbp:Nazi_Germany"
+]},
+"classes": {
+"fn": ["Locative_relation"],
+"ili": [
+"i29056",
+"i29055",
+"i29664",
+"i35215"
+]
+},
+"climax": 74,
+"event": "ev95",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0#ev95",
+"labels": [
+"border",
+"speak"
+],
+"mentions": [
+{
+"char": [
+"1376",
+"1385"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" session of the houses of parliament in Westminster last February was warm, bordering on sycophantic, with politicians of all parties grinning fixedly as they hung"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0"]
+},
+{
+"char": [
+"1284",
+"1289"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" promised his country\u2019s electorate. The German chancellor\u2019s reception when she spoke to a joint session of the houses of parliament in Westminster last February"],
+"snippet_char": [
+79,
+84
+],
+"uri": ["http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0"]
+},
+{
+"char": [
+"3052",
+"3060"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" brickbats of the Keynesian chorus for their pains. (The fact that they were speaking together in the Keynes room at King\u2019s College, Cambridge, was a pleasant irony.)"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0"]
+}
+],
+"period": ["20140201"],
+"prefLabel": ["border"],
+"sentence": "1376",
+"time": "20140201",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/210117",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/209284"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:Airbus",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Motion",
+"Text_creation",
+"Statement",
+"Choosing"
+],
+"ili": [
+"i25432",
+"i26226",
+"i26632",
+"i26659",
+"i26486",
+"i25092",
+"i25115"
+]
+},
+"climax": 61,
+"event": "ev62",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b#ev62",
+"labels": ["say"],
+"mentions": [
+{
+"char": [
+"2427",
+"2431"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" that can get in the way of business and add to the costs,\u201d the person said.\nVote Leave said: \u201cAirbus shouldn\u2019t try to frighten its employees with empty threats."],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"2574",
+"2580"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Airbus"
+}],
+"snippet": [" empty threats. Airbus told us we should join the euro and now they are saying we should stay in the EU at all costs. They were wrong then and they are wrong "],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"2444",
+"2448"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" the way of business and add to the costs,\u201d the person said.\nVote Leave said: \u201cAirbus shouldn\u2019t try to frighten its employees with empty threats. Airbus told"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"2146",
+"2150"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" which are mainly made on the continent.\nOne person close to the company said the supply lines between the UK and the rest of Europe could be disrupted by Britain"],
+"snippet_char": [
+78,
+82
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+},
+{
+"char": [
+"1081",
+"1085"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" chief operating officer, and Paul Kahn, the president of Airbus Group UK \u2014 said Airbus would not end its activities in the UK in the event of a vote to leave"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/a433d6f6-fa69-11e5-b3f6-11d5706b613b"]
+}
+],
+"prefLabel": ["say"],
+"sentence": "1081",
+"time": "20160404",
+"topics": [
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/221611"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Airbus",
+"dbp:European_Union",
+"dbp:United_Kingdom"
+]},
+"classes": {"ili": [
+"i89834",
+"i80058"
+]},
+"climax": 69,
+"event": "ev98",
+"group": "081:[aeronautical industry]",
+"groupName": "[aeronautical industry]",
+"groupScore": "081",
+"instance": "http://www.ft.com/thing/99e022ce-dfaa-11e5-b072-006d8d362ba3#ev98",
+"labels": ["executive"],
+"mentions": [
+{
+"char": [
+"2775",
+"2784"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" potentially swing that decision more favourably to them?\u201d\nPaul Kahn, the UK chief executive of Airbus, the European aerospace group, believes that leaving the EU would"],
+"snippet_char": [
+83,
+92
+],
+"uri": ["http://www.ft.com/thing/99e022ce-dfaa-11e5-b072-006d8d362ba3"]
+},
+{
+"char": [
+"4848",
+"4857"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" already extreme.\u201d\nSuch worries are echoed by bigger groups. Graham Cash, chief executive of BAM, a Dutch-owned property construction company, says he and his subcontractors"],
+"snippet_char": [
+80,
+89
+],
+"uri": ["http://www.ft.com/thing/99e022ce-dfaa-11e5-b072-006d8d362ba3"]
+},
+{
+"char": [
+"1639",
+"1648"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" want to make life pretty difficult for [UK] exporters.\u201d\nTerry Scuoler, chief executive of EEF, the manufacturers\u2019 organisation, voices concern about \u201can enormous"],
+"snippet_char": [
+78,
+87
+],
+"uri": ["http://www.ft.com/thing/99e022ce-dfaa-11e5-b072-006d8d362ba3"]
+}
+],
+"prefLabel": ["executive"],
+"sentence": "1639",
+"time": "20160303",
+"topics": [
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/217039",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216685"
+]
+}
+],
+"headline": "brexit3",
+"mention_cnt": [34],
+"polls": [
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20140515"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Opinium;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:43:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov/The Times"]
+}],
+"prefLabel": ["38:43:18"],
+"time": "20160201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:38:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:38:22"],
+"time": "20140808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:40:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes"]
+}],
+"prefLabel": ["46:40:14"],
+"time": "20160208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:42:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Survation;BMG Research;ICM"]
+}],
+"prefLabel": ["43:42:14"],
+"time": "20151115"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:45:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes"]
+}],
+"prefLabel": ["35:45:19"],
+"time": "20141122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes;Survation;YouGov"]
+}],
+"prefLabel": ["38:41:20"],
+"time": "20140622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:51:9"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:51:9"],
+"time": "20121122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["44:45:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["44:45:11"],
+"time": "20130601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140522"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130801"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;ICM"]
+}],
+"prefLabel": ["42:39:18"],
+"time": "20151108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["32:53:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["32:53:15"],
+"time": "20130808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20140322"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;YouGov;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20151101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:43:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["33:43:24"],
+"time": "20140108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "13",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:56:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium/Observer"]
+}],
+"prefLabel": ["30:56:14"],
+"time": "20121115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Pew Research Center;Populus;Opinium"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150408"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["38:41:21"],
+"time": "20130215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:48:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;Survation"]
+}],
+"prefLabel": ["34:48:17"],
+"time": "20141101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:43:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["36:43:21"],
+"time": "20130408"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["54:37:10"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["54:37:10"],
+"time": "20140508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ORB;ICM;YouGov"]
+}],
+"prefLabel": ["43:41:14"],
+"time": "20151022"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:46:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["39:46:15"],
+"time": "20140501"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20150608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:43:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["37:43:20"],
+"time": "20131208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:34:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["43:34:21"],
+"time": "20150601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20131008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:42:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["37:42:20"],
+"time": "20141022"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140308"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:40:19"],
+"time": "20141115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ICM"]
+}],
+"prefLabel": ["42:39:19"],
+"time": "20151122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:38:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;GQRR;Ipsos MORI;ICM"]
+}],
+"prefLabel": ["45:38:16"],
+"time": "20151015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["47:38:15"],
+"time": "20150815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:36:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["45:36:19"],
+"time": "20150222"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Panelbase;ICM"]
+}],
+"prefLabel": ["43:41:15"],
+"time": "20160108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:37:20"],
+"time": "20150122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;Panelbase;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20150322"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:38:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:38:21"],
+"time": "20140708"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:40:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["47:40:13"],
+"time": "20150515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:32:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["49:32:18"],
+"time": "20150422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "13",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["60:33:6"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Ipsos MORI"]
+}],
+"prefLabel": ["60:33:6"],
+"time": "20150615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:41:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS BMRB"]
+}],
+"prefLabel": ["30:41:22"],
+"time": "20130201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:39:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:39:17"],
+"time": "20151001"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;ICM/The Guardian;YouGov/The Sun"]
+}],
+"prefLabel": ["34:44:20"],
+"time": "20130508"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:44:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["41:44:15"],
+"time": "20150215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:36:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;TNS-BMRB"]
+}],
+"prefLabel": ["40:36:23"],
+"time": "20150115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:37:19"],
+"time": "20150722"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "10",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["56:36:8"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["56:36:8"],
+"time": "20141008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:46:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Times"]
+}],
+"prefLabel": ["35:46:20"],
+"time": "20130501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20111208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "5",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:35:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:35:20"],
+"time": "20150415"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "8",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:50:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation/Mail on Sunday;YouGov/The Sun"]
+}],
+"prefLabel": ["33:50:16"],
+"time": "20130101"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20150622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:33:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes;YouGov"]
+}],
+"prefLabel": ["49:33:17"],
+"time": "20150522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:46:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:46:19"],
+"time": "20130701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20130708"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:42:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/Sunday Times"]
+}],
+"prefLabel": ["36:42:21"],
+"time": "20130108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:40:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["43:40:17"],
+"time": "20150908"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:40:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB"]
+}],
+"prefLabel": ["37:40:23"],
+"time": "20150108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:39:25"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:39:25"],
+"time": "20140208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:40:19"],
+"time": "20140822"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:40:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["38:40:22"],
+"time": "20150915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["31:46:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;ComRes/Sunday Mirror/Independent;ICM/The Telegraph"]
+}],
+"prefLabel": ["31:46:21"],
+"time": "20130515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:39:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;Ipsos MORI;BMG Research;ComRes;ICM"]
+}],
+"prefLabel": ["45:39:15"],
+"time": "20160122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;Survation"]
+}],
+"prefLabel": ["39:41:18"],
+"time": "20151201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["52:36:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI;ICM;ComRes"]
+}],
+"prefLabel": ["52:36:11"],
+"time": "20151208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;YouGov;BMG Research;ICM;ComRes"]
+}],
+"prefLabel": ["42:41:15"],
+"time": "20160222"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:44:20"],
+"time": "20130922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["35:32:32"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;YouGov/Sunday Times"]
+}],
+"prefLabel": ["35:32:32"],
+"time": "20130115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:38:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:38:19"],
+"time": "20140922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "6",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:34:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["46:34:20"],
+"time": "20130815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20141201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;ICM;YouGov"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "7",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:31:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:31:24"],
+"time": "20130622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;Opinium;Ipsos MORI;TNS"]
+}],
+"prefLabel": ["43:37:19"],
+"time": "20160215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:42:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:42:17"],
+"time": "20151215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:42:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;ICM;Survation"]
+}],
+"prefLabel": ["44:42:13"],
+"time": "20160115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["39:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:37:18"],
+"time": "20160301"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20130522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:47:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["33:47:19"],
+"time": "20100908"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["50:33:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;YouGov"]
+}],
+"prefLabel": ["50:33:15"],
+"time": "20150501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:42:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes"]
+}],
+"prefLabel": ["40:42:18"],
+"time": "20140601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20130915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Financial Times/Harris;Survation/Mail on Sunday;YouGov/Sunday Times;Populus/The Times"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20130122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:37:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["40:37:22"],
+"time": "20140401"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "11",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:52:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:52:19"],
+"time": "20110808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141215"
+}
+],
+"story_cnt": [1],
+"text": "FT-Brexit",
+"type": "default"
+}}
