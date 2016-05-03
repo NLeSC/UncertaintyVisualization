@@ -1,0 +1,3215 @@
+{ "timeline":
+{
+"actor_cnt": [18],
+"event_cnt": [19],
+"events": [
+{
+"actors": {"actor:": [
+"dbp:Poland",
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {"ili": [
+"i26345",
+"i35441"
+]},
+"climax": 44,
+"event": "ev29",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/8f28ddce-fae3-11e3-8959-00144feab7de#ev29",
+"labels": ["sum"],
+"mentions": [{
+"char": [
+"73",
+"79"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": ["David Cameron\u2019s problem in finding allies in Europe has been graphically summed up by Poland\u2019s foreign minister, who claimed in a secretly taped conversation"],
+"snippet_char": [
+73,
+79
+],
+"uri": ["http://www.ft.com/thing/8f28ddce-fae3-11e3-8959-00144feab7de"]
+}],
+"prefLabel": ["sum"],
+"sentence": "73",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/210833",
+"http://eurovoc.europa.eu/221979",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:David_Cameron",
+"dbp:European_Union",
+"dbp:Poland"
+]},
+"classes": {
+"fn": [
+"Experiencer_subj",
+"Experiencer_focus"
+],
+"ili": [
+"i30611",
+"i30870",
+"i30612"
+]
+},
+"climax": 86,
+"event": "ev137",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/75f9ffb6-7a0c-11e3-a3e6-00144feabdc0#ev137",
+"labels": [
+"love",
+"grow"
+],
+"mentions": [
+{
+"char": [
+"4325",
+"4330"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Daniel_Kawczynski"
+}],
+"snippet": [" Atcham\n-------------------------------------------\nLetters in response to this article:\nWhy Poland loves the EU, and is growing tired of Cameron / From Mr Pawel Swieboda\nPast behaviour"],
+"snippet_char": [
+103,
+108
+],
+"uri": ["http://www.ft.com/thing/75f9ffb6-7a0c-11e3-a3e6-00144feabdc0"]
+},
+{
+"char": [
+"4346",
+"4353"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Daniel_Kawczynski"
+}],
+"snippet": [" Atcham\n-------------------------------------------\nLetters in response to this article:\nWhy Poland loves the EU, and is growing tired of Cameron / From Mr Pawel Swieboda\nPast behaviour has nothing to do with"],
+"snippet_char": [
+124,
+131
+],
+"uri": ["http://www.ft.com/thing/75f9ffb6-7a0c-11e3-a3e6-00144feabdc0"]
+}
+],
+"period": ["20140112"],
+"prefLabel": ["love"],
+"sentence": "4325",
+"time": "20140112",
+"topics": [
+"http://eurovoc.europa.eu/210854",
+"http://eurovoc.europa.eu/210833",
+"http://eurovoc.europa.eu/221979",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222042"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:People's_Republic_of_Poland",
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {
+"fn": [
+"Reasoning",
+"Evidence"
+],
+"ili": [
+"i25049",
+"i34841",
+"i26656"
+]
+},
+"climax": 76,
+"event": "ev87",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/8a6771a8-c9c5-11e5-a8ef-ea66e967dd44#ev87",
+"labels": ["prove"],
+"mentions": [{
+"char": [
+"1551",
+"1557"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:BeataSzydlo"
+}],
+"snippet": [" an effect. Beata Szydlo, Poland\u2019s prime minister, said the Cameron visit \u201cproves that Poland is an important country of the EU, whose approval is sought for"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/8a6771a8-c9c5-11e5-a8ef-ea66e967dd44"]
+}],
+"prefLabel": ["prove"],
+"sentence": "1551",
+"time": "20160202",
+"topics": [
+"http://eurovoc.europa.eu/210833",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221979",
+"http://eurovoc.europa.eu/217295"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:British_Empire",
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {
+"fn": ["Grant_permission"],
+"ili": [
+"i25088",
+"i41754",
+"i25700"
+]
+},
+"climax": 41,
+"event": "ev31",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/7210239c-b567-11e5-8358-9a82b43f6b2f#ev31",
+"labels": [
+"approval",
+"receive",
+"reform"
+],
+"mentions": [
+{
+"char": [
+"55",
+"63"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Andrew_Byrne"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": ["David Cameron\u2019s EU reform proposals received qualified approval from an unusual quarter on Thursday as Viktor Orban, Hungarian prime minister,"],
+"snippet_char": [
+55,
+63
+],
+"uri": ["http://www.ft.com/thing/7210239c-b567-11e5-8358-9a82b43f6b2f"]
+},
+{
+"char": [
+"36",
+"44"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Andrew_Byrne"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": ["David Cameron\u2019s EU reform proposals received qualified approval from an unusual quarter on Thursday as Viktor Orban, Hungarian"],
+"snippet_char": [
+36,
+44
+],
+"uri": ["http://www.ft.com/thing/7210239c-b567-11e5-8358-9a82b43f6b2f"]
+},
+{
+"char": [
+"3418",
+"3426"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Andrew_Byrne"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" emphasised that Hungarians working in Britain contributed more in taxes than they received in benefits and repeated his call on Mr Cameron not to describe Hungarians"],
+"snippet_char": [
+83,
+91
+],
+"uri": ["http://www.ft.com/thing/7210239c-b567-11e5-8358-9a82b43f6b2f"]
+},
+{
+"char": [
+"614",
+"620"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Premiership_of_David_Cameron"
+}],
+"snippet": [" eastern European countries, Mr Orban\u2019s support for Mr Cameron\u2019s proposals to reform British welfare entitlements for EU workers could be crucial, particularly"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/7210239c-b567-11e5-8358-9a82b43f6b2f"]
+},
+{
+"char": [
+"19",
+"25"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": ["David Cameron\u2019s EU reform proposals received qualified approval from an unusual quarter on Thursday as"],
+"snippet_char": [
+19,
+25
+],
+"uri": ["http://www.ft.com/thing/7210239c-b567-11e5-8358-9a82b43f6b2f"]
+}
+],
+"period": ["20160107"],
+"prefLabel": ["approval"],
+"sentence": "55",
+"time": "20160107",
+"topics": [
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/222022",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/223000"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:David_Cameron",
+"dbp:European_Union",
+"dbp:Greece",
+"dbp:British_Empire"
+]},
+"classes": {
+"fn": [
+"Opinion",
+"Awareness"
+],
+"ili": [
+"i24904",
+"i24893",
+"i25161"
+]
+},
+"climax": 78,
+"event": "ev258",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0#ev258",
+"labels": [
+"think",
+"deal-breaker",
+"fear"
+],
+"mentions": [
+{
+"char": [
+"6431",
+"6436"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" stands alone \nin demanding curbs to the rights of workers. Other EU leaders think this overturns a pillar of the European project: treating workers equally in"],
+"snippet_char": [
+79,
+84
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"9986",
+"9993"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:VladimirSpidla"
+}],
+"snippet": [" ignored the ruling of the social security co-ordination committee.\n\u201cI thought that the British upheld rules \u2014 here they completely broke them,\u201d says Vladimir Spidla,"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"7858",
+"7863"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" mentions the magic four years\u201d. Other politicians who have met Mr Cameron think he knows \u201che will need to back down\u201d and risk a domestic backlash.\nBritish officials"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"7708",
+"7713"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" want to avoid. Short of a political cataclysm over Greece, EU officials think a cosmetic benefits fix is all that will be possible \u2014 \u201canything that mentions"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"915",
+"927"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" corridors of Whitehall.\nFor in that speech was what officials fear is a possible deal-breaker for Mr Cameron\u2019s \u201cnew settlement\u201d with Europe. His idea: cut EU migration to"],
+"snippet_char": [
+82,
+94
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"3543",
+"3548"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" domestic politics, but Britain\u2019s engagement with the world. \nImmigration fears were a crucial factor in the decision to hold an EU referendum, a political"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"896",
+"900"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" Bucharest to the corridors of Whitehall.\nFor in that speech was what officials fear is a possible deal-breaker for Mr Cameron\u2019s \u201cnew settlement\u201d with Europe. His"],
+"snippet_char": [
+80,
+84
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"5303",
+"5308"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" first parliamentary seat in October. Its campaigns played heavily on voters\u2019 fears about immigration.\nMr Cameron attempted to allay the mounting Conservative panic"],
+"snippet_char": [
+79,
+84
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+},
+{
+"char": [
+"1944",
+"1949"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" greeted by a chorus of scepticism about his proposed welfare reforms, amid fears they could infringe the EU\u2019s founding principle of free movementand possibly"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/3ccd20ac-1357-11e5-bd3c-00144feabdc0"]
+}
+],
+"period": ["20150618"],
+"prefLabel": ["think"],
+"sentence": "6431",
+"time": "20150618",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/214855",
+"http://eurovoc.europa.eu/214894",
+"http://eurovoc.europa.eu/217295",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222042"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:British_Empire",
+"dbp:Nazi_Germany",
+"dbp:French_Third_Republic",
+"dbp:Kingdom_of_Italy"
+]},
+"classes": {
+"fn": ["Impact"],
+"ili": [
+"i22407",
+"i75256",
+"i97576"
+]
+},
+"climax": 83,
+"event": "ev120",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/69b25512-bdf0-11e5-9fdb-87b8d15baec2#ev120",
+"labels": ["impact"],
+"mentions": [{
+"char": [
+"3096",
+"3102"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Philip_Stephens"
+}],
+"snippet": [" supply, climate change, economic management or financial regulation, have an impact on Britain\u2019s national interest. The in-out choice is one between being a maker"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/69b25512-bdf0-11e5-9fdb-87b8d15baec2"]
+}],
+"prefLabel": ["impact"],
+"sentence": "3096",
+"time": "20160121",
+"topics": [
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/211846",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211794",
+"http://eurovoc.europa.eu/211768"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:French_Third_Republic",
+"dbp:Nazi_Germany",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Statement"],
+"ili": [
+"i26632",
+"i71833"
+]
+},
+"climax": 63,
+"event": "ev60",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/7eac4946-ffd1-11e5-ac98-3c15a1aa2e62#ev60",
+"labels": [
+"statement",
+"issue",
+"government"
+],
+"mentions": [
+{
+"char": [
+"455",
+"464"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" market plunge across Europe. The French and German governments issue a joint statement saying that it is imperative that the EU now make decisive steps towards political"],
+"snippet_char": [
+78,
+87
+],
+"uri": ["http://www.ft.com/thing/7eac4946-ffd1-11e5-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"441",
+"446"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" by a stock market plunge across Europe. The French and German governments issue a joint statement saying that it is imperative that the EU now make decisive"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/7eac4946-ffd1-11e5-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"429",
+"440"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" is compounded by a stock market plunge across Europe. The French and German governments issue a joint statement saying that it is imperative that the EU now make decisive"],
+"snippet_char": [
+77,
+88
+],
+"uri": ["http://www.ft.com/thing/7eac4946-ffd1-11e5-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"849",
+"859"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" referendum on Scottish independence.\nIn the days that follow, the Conservative government is consumed by infighting. It becomes clear that the prime minister\u2019s authority"],
+"snippet_char": [
+80,
+90
+],
+"uri": ["http://www.ft.com/thing/7eac4946-ffd1-11e5-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"579",
+"589"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" EU now make decisive steps towards political union and promise an \u201ceconomic government\u201d for Europe. \nIn Edinburgh, Nicola Sturgeon, Scotland\u2019s first minister, points"],
+"snippet_char": [
+77,
+87
+],
+"uri": ["http://www.ft.com/thing/7eac4946-ffd1-11e5-ac98-3c15a1aa2e62"]
+}
+],
+"period": ["20160411"],
+"prefLabel": ["statement"],
+"sentence": "455",
+"time": "20160411",
+"topics": [
+"http://eurovoc.europa.eu/211776",
+"http://eurovoc.europa.eu/221975",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/214110",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:French_Third_Republic",
+"dbp:Nazi_Germany",
+"dbp:Berlin_Wall"
+]},
+"classes": {
+"fn": [
+"Cause_change",
+"Undergo_change"
+],
+"ili": [
+"i22389",
+"i24497",
+"i22325",
+"i22376",
+"i24493"
+]
+},
+"climax": 85,
+"event": "ev139",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/50646880-5fd8-11e2-8d8d-00144feab49a#ev139",
+"labels": [
+"change",
+"fall"
+],
+"mentions": [
+{
+"char": [
+"3832",
+"3839"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Simon_May"
+}],
+"snippet": [" Wall, the resurgence of Germany and the deepening weakness of France have changed everything. We are heading for a federal Europe, whether or not the euro ends"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/50646880-5fd8-11e2-8d8d-00144feab49a"]
+},
+{
+"char": [
+"3739",
+"3743"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Simon_May"
+}],
+"snippet": [" parties, the CBI employers\u2019 body and now the US, will not go on working. The fall of the Berlin Wall, the resurgence of Germany and the deepening weakness of"],
+"snippet_char": [
+78,
+82
+],
+"uri": ["http://www.ft.com/thing/50646880-5fd8-11e2-8d8d-00144feab49a"]
+}
+],
+"period": ["20130116"],
+"prefLabel": ["change"],
+"sentence": "3832",
+"time": "20130116",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/211846",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211768"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:French_Third_Republic",
+"dbp:Netherlands",
+"dbp:Nazi_Germany"
+]},
+"classes": {
+"fn": ["Evidence"],
+"ili": [
+"i34848",
+"i25248",
+"i26375"
+]
+},
+"climax": 83,
+"event": "ev202",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/8710df70-d49d-11e5-8887-98e7feb46f27#ev202",
+"labels": ["mean"],
+"mentions": [
+{
+"char": [
+"5125",
+"5130"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+}
+],
+"snippet": [" Greece on a daily basis. Aided by social media, that newfound connectivity has meant political trends now hop borders at frightening speed. The very idea of national"],
+"snippet_char": [
+80,
+85
+],
+"uri": ["http://www.ft.com/thing/8710df70-d49d-11e5-8887-98e7feb46f27"]
+},
+{
+"char": [
+"7556",
+"7561"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Carl_Bildt"
+}],
+"snippet": [" that rising anti-immigrant sentiment in Germany, France and the Netherlands means \u201cthe core Europe is not as stable as it used to be\u201d, a view shared by some"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/8710df70-d49d-11e5-8887-98e7feb46f27"]
+}
+],
+"prefLabel": ["mean"],
+"sentence": "5125",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:Peter_Mandelson",
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": ["Giving"],
+"ili": [
+"i33436",
+"i32898",
+"i27512",
+"i32755",
+"i30405",
+"i32758",
+"i32757",
+"i33278",
+"i33549",
+"i33319"
+]
+},
+"climax": 42,
+"event": "ev11",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/15b66002-870e-11e5-90de-f44762bf9896#ev11",
+"labels": ["give"],
+"mentions": [{
+"char": [
+"63",
+"68"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": ["David Cameron\u2019s four-point plan to reform the EU will is to be given a cautious welcome on Tuesday by Peter Mandelson, Britain\u2019s former trade commissioner,"],
+"snippet_char": [
+63,
+68
+],
+"uri": ["http://www.ft.com/thing/15b66002-870e-11e5-90de-f44762bf9896"]
+}],
+"prefLabel": ["give"],
+"sentence": "63",
+"time": "20151117",
+"topics": [
+"http://eurovoc.europa.eu/217671",
+"http://eurovoc.europa.eu/214855",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210377",
+"http://eurovoc.europa.eu/217295"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Brussels",
+"dbp:United_Kingdom",
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {
+"fn": [
+"Perception_active",
+"Scrutiny"
+],
+"ili": [
+"i32522",
+"i32408"
+]
+},
+"climax": 78,
+"event": "ev97",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/2bde403a-9f1d-11e5-85ae-8fa46274f224#ev97",
+"labels": ["look"],
+"mentions": [{
+"char": [
+"1873",
+"1880"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Henry_Foy"
+}],
+"snippet": [" has said he is willing to listen to other compromise proposals.\nBrussels is looking at options for Britain to restrict EU immigration through a so-called emergency"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/2bde403a-9f1d-11e5-85ae-8fa46274f224"]
+}],
+"prefLabel": ["look"],
+"sentence": "1873",
+"time": "20151210",
+"topics": [
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/214855",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/214510",
+"http://eurovoc.europa.eu/217295",
+"http://eurovoc.europa.eu/221979"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:David_Cameron",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Experiencer_focus",
+"Similarity",
+"Experiencer_subj"
+],
+"ili": [
+"i30620",
+"i30849",
+"i30622",
+"i34992"
+]
+},
+"climax": 82,
+"event": "ev112",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/e539afc6-f71e-11e4-99aa-00144feab7de#ev112",
+"labels": ["like"],
+"mentions": [{
+"char": [
+"2819",
+"2823"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Henry_Foy"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" succeeds.\nMr Davis wants Britain to be able to \u201copt out\u201d of any EU rules it does not like \u2014 a demand unlikely to be agreed by Mr Cameron\u2019s negotiating partners.\nAnd"],
+"snippet_char": [
+86,
+90
+],
+"uri": ["http://www.ft.com/thing/e539afc6-f71e-11e4-99aa-00144feab7de"]
+}],
+"prefLabel": ["like"],
+"sentence": "2819",
+"time": "20150510",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/214855",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/223000",
+"http://eurovoc.europa.eu/217295"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {"ili": ["i34396"]},
+"climax": 40,
+"event": "ev37",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/e539afc6-f71e-11e4-99aa-00144feab7de#ev37",
+"labels": ["meddle"],
+"mentions": [{
+"char": [
+"48",
+"56"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Henry_Foy"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": ["Eastern Europe is warning David Cameron against meddling with \u201csacrosanct\u201d migrant worker rights, as the newly re-elected prime minister"],
+"snippet_char": [
+48,
+56
+],
+"uri": ["http://www.ft.com/thing/e539afc6-f71e-11e4-99aa-00144feab7de"]
+}],
+"prefLabel": ["meddle"],
+"sentence": "48",
+"time": "20150511",
+"topics": [
+"http://eurovoc.europa.eu/223000",
+"http://eurovoc.europa.eu/214855",
+"http://eurovoc.europa.eu/217295",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {
+"fn": ["Discussion"],
+"ili": ["i25503"]
+},
+"climax": 71,
+"event": "ev72",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/36b974b4-27ec-11e5-8db8-c033edba8a6e#ev72",
+"labels": ["negotiate"],
+"mentions": [
+{
+"char": [
+"1414",
+"1425"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" a more robust negotiating stance.\nMr Cameron has been careful not set out negotiating demands that he may not be able to secure, fearing it could be used by supporters"],
+"snippet_char": [
+75,
+86
+],
+"uri": ["http://www.ft.com/thing/36b974b4-27ec-11e5-8db8-c033edba8a6e"]
+},
+{
+"char": [
+"3425",
+"3436"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FrancesOGrady"
+}],
+"snippet": [" O\u2019Grady, head of the Trades Union Congress, said: \u201cDavid Cameron\u2019s latest EU negotiating demand says more about the internal politics of the Conservative Party than"],
+"snippet_char": [
+78,
+89
+],
+"uri": ["http://www.ft.com/thing/36b974b4-27ec-11e5-8db8-c033edba8a6e"]
+}
+],
+"prefLabel": ["negotiate"],
+"sentence": "1414",
+"time": "20150711",
+"topics": [
+"http://eurovoc.europa.eu/211084",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/217368",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/217295",
+"http://eurovoc.europa.eu/214855"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Romance-speaking_Europe",
+"dbp:David_Cameron",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Opinion",
+"Awareness"
+],
+"ili": [
+"i25161",
+"i24893",
+"i24904"
+]
+},
+"climax": 82,
+"event": "ev128",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/2bde403a-9f1d-11e5-85ae-8fa46274f224#ev128",
+"labels": [
+"think",
+"power",
+"give"
+],
+"mentions": [
+{
+"char": [
+"2783",
+"2790"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Warsaw"
+}],
+"snippet": [" talks in Romania to try to strike a deal on benefit reform, said he still thought a deal was possible. \n \u201cIf we can get these reforms... we will be better off"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/2bde403a-9f1d-11e5-85ae-8fa46274f224"]
+},
+{
+"char": [
+"2643",
+"2648"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Warsaw"
+}],
+"snippet": [" his other demands such as making the bloc more competitive and giving more power to national governments. \n Mr Cameron, who had held similar talks in Romania"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/2bde403a-9f1d-11e5-85ae-8fa46274f224"]
+},
+{
+"char": [
+"2631",
+"2637"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Warsaw"
+}],
+"snippet": [" Cameron on his other demands such as making the bloc more competitive and giving more power to national governments. \n Mr Cameron, who had held similar talks"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/2bde403a-9f1d-11e5-85ae-8fa46274f224"]
+}
+],
+"period": ["20150101"],
+"prefLabel": ["think"],
+"sentence": "2783",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/214510",
+"http://eurovoc.europa.eu/217295",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221979",
+"http://eurovoc.europa.eu/214855",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Financial_Times",
+"dbp:Tusk"
+]},
+"classes": {
+"fn": [
+"Undergo_change",
+"Cause_change"
+],
+"ili": [
+"i24497",
+"i22325",
+"i97569",
+"i22376",
+"i109756",
+"i75036",
+"i22389"
+]
+},
+"climax": 77,
+"event": "ev94",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead#ev94",
+"labels": [
+"change",
+"fear",
+"revise"
+],
+"mentions": [
+{
+"char": [
+"1867",
+"1874"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" Wednesday night and obtained by the Financial Times, shows limited drafting changes to the original proposal issued by Mr Tusk.\nThe main concerns for London will"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"1733",
+"1738"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" a tour of five European capitals next week to muster support and allay the fears of sceptics. \nA revised negotiating text, issued on Wednesday night and obtained"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"1755",
+"1762"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" European capitals next week to muster support and allay the fears of sceptics. \nA revised negotiating text, issued on Wednesday night and obtained by the Financial Times,"],
+"snippet_char": [
+83,
+90
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"3283",
+"3290"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" demanding UK measures are toughened and broadened so they can also benefit.\nThe revised Tusk text makes clear that only countries that did not apply transitional controls"],
+"snippet_char": [
+81,
+88
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+}
+],
+"period": ["20160101"],
+"prefLabel": ["change"],
+"sentence": "1867",
+"time": "20160101",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/223000",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Tusk",
+"dbp:Financial_Times"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": [
+"Creating",
+"Emanating",
+"Supply"
+],
+"ili": [
+"i26434",
+"i26901",
+"i24368",
+"i34116"
+]
+},
+"climax": 70,
+"event": "ev97",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead#ev97",
+"labels": ["issue"],
+"mentions": [
+{
+"char": [
+"1900",
+"1906"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" the Financial Times, shows limited drafting changes to the original proposal issued by Mr Tusk.\nThe main concerns for London will be amendments to safeguards for"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"1781",
+"1787"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" muster support and allay the fears of sceptics. \nA revised negotiating text, issued on Wednesday night and obtained by the Financial Times, shows limited drafting"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+}
+],
+"prefLabel": ["issue"],
+"sentence": "1781",
+"time": "20160203",
+"topics": [
+"http://eurovoc.europa.eu/223000",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/209933"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Luxembourg",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Undergo_change",
+"Cause_change"
+],
+"ili": [
+"i75036",
+"i109756",
+"i22389",
+"i24497",
+"i22376",
+"i22325"
+]
+},
+"climax": 68,
+"event": "ev82",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/c6168638-fe17-11e3-b4f1-00144feab7de#ev82",
+"labels": ["change"],
+"mentions": [
+{
+"char": [
+"4763",
+"4769"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Viktor_Orbán"
+}],
+"snippet": [" similar argument, saying Mr Juncker\u2019s selection amounted to \u201ccreeping treaty change\u201d. But Mr Hollande disputed the contention. \n\u201cWe did respect the treaty,\u201d Mr"],
+"snippet_char": [
+79,
+85
+],
+"uri": ["http://www.ft.com/thing/c6168638-fe17-11e3-b4f1-00144feab7de"]
+},
+{
+"char": [
+"4551",
+"4559"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" candidate ahead of last month\u2019s EU parliament elections, was tantamount to changing EU treaties through the back door, since existing treaties leave the prerogative"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/c6168638-fe17-11e3-b4f1-00144feab7de"]
+},
+{
+"char": [
+"1068",
+"1074"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" would \u201chave to work together\u201d and \u201cput rhetoric aside\u201d. That was a marked change of tone for a prime minister who had warned of \u201cconsequences\u201d if the veteran"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/c6168638-fe17-11e3-b4f1-00144feab7de"]
+}
+],
+"prefLabel": ["change"],
+"sentence": "1068",
+"time": "20140501",
+"topics": [
+"http://eurovoc.europa.eu/216883",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/209933"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Luxembourg",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": ["Motion"],
+"ili": [
+"i25815",
+"i25977",
+"i25814",
+"i25978"
+]
+},
+"climax": 61,
+"event": "ev62",
+"group": "086:[Central and Eastern European Countries]",
+"groupName": "[Central and Eastern European Countries]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/c6168638-fe17-11e3-b4f1-00144feab7de#ev62",
+"labels": ["warn"],
+"mentions": [
+{
+"char": [
+"1112",
+"1118"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" rhetoric aside\u201d. That was a marked change of tone for a prime minister who had warned of \u201cconsequences\u201d if the veteran dealmaker, a former prime minister of Luxembourg,"],
+"snippet_char": [
+81,
+87
+],
+"uri": ["http://www.ft.com/thing/c6168638-fe17-11e3-b4f1-00144feab7de"]
+},
+{
+"char": [
+"545",
+"551"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "cite:Premiership_of_David_Cameron"
+}],
+"snippet": [" Cameron told fellow leaders the decision was \u201ca sad moment\u201d for Europe and warned in a news conference that Europe had taken \u201cone big step backwards today with"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/c6168638-fe17-11e3-b4f1-00144feab7de"]
+}
+],
+"prefLabel": ["warn"],
+"sentence": "545",
+"time": "20140628",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/216883",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/216992"
+]
+}
+],
+"headline": "brexit3",
+"mention_cnt": [48],
+"polls": [
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20140515"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Opinium;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:43:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov/The Times"]
+}],
+"prefLabel": ["38:43:18"],
+"time": "20160201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:38:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:38:22"],
+"time": "20140808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:40:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes"]
+}],
+"prefLabel": ["46:40:14"],
+"time": "20160208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:42:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Survation;BMG Research;ICM"]
+}],
+"prefLabel": ["43:42:14"],
+"time": "20151115"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:45:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes"]
+}],
+"prefLabel": ["35:45:19"],
+"time": "20141122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes;Survation;YouGov"]
+}],
+"prefLabel": ["38:41:20"],
+"time": "20140622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:51:9"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:51:9"],
+"time": "20121122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["44:45:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["44:45:11"],
+"time": "20130601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140522"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130801"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;ICM"]
+}],
+"prefLabel": ["42:39:18"],
+"time": "20151108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["32:53:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["32:53:15"],
+"time": "20130808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20140322"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;YouGov;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20151101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:43:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["33:43:24"],
+"time": "20140108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "13",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:56:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium/Observer"]
+}],
+"prefLabel": ["30:56:14"],
+"time": "20121115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Pew Research Center;Populus;Opinium"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150408"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["38:41:21"],
+"time": "20130215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:48:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;Survation"]
+}],
+"prefLabel": ["34:48:17"],
+"time": "20141101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:43:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["36:43:21"],
+"time": "20130408"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["54:37:10"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["54:37:10"],
+"time": "20140508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ORB;ICM;YouGov"]
+}],
+"prefLabel": ["43:41:14"],
+"time": "20151022"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:46:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["39:46:15"],
+"time": "20140501"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20150608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:43:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["37:43:20"],
+"time": "20131208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:34:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["43:34:21"],
+"time": "20150601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20131008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:42:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["37:42:20"],
+"time": "20141022"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140308"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:40:19"],
+"time": "20141115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ICM"]
+}],
+"prefLabel": ["42:39:19"],
+"time": "20151122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:38:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;GQRR;Ipsos MORI;ICM"]
+}],
+"prefLabel": ["45:38:16"],
+"time": "20151015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["47:38:15"],
+"time": "20150815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:36:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["45:36:19"],
+"time": "20150222"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Panelbase;ICM"]
+}],
+"prefLabel": ["43:41:15"],
+"time": "20160108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:37:20"],
+"time": "20150122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;Panelbase;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20150322"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:38:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:38:21"],
+"time": "20140708"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:40:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["47:40:13"],
+"time": "20150515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:32:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["49:32:18"],
+"time": "20150422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "13",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["60:33:6"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Ipsos MORI"]
+}],
+"prefLabel": ["60:33:6"],
+"time": "20150615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:41:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS BMRB"]
+}],
+"prefLabel": ["30:41:22"],
+"time": "20130201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:39:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:39:17"],
+"time": "20151001"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;ICM/The Guardian;YouGov/The Sun"]
+}],
+"prefLabel": ["34:44:20"],
+"time": "20130508"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:44:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["41:44:15"],
+"time": "20150215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:36:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;TNS-BMRB"]
+}],
+"prefLabel": ["40:36:23"],
+"time": "20150115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:37:19"],
+"time": "20150722"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "10",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["56:36:8"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["56:36:8"],
+"time": "20141008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:46:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Times"]
+}],
+"prefLabel": ["35:46:20"],
+"time": "20130501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20111208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "5",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:35:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:35:20"],
+"time": "20150415"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "8",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:50:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation/Mail on Sunday;YouGov/The Sun"]
+}],
+"prefLabel": ["33:50:16"],
+"time": "20130101"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20150622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:33:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes;YouGov"]
+}],
+"prefLabel": ["49:33:17"],
+"time": "20150522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:46:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:46:19"],
+"time": "20130701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20130708"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:42:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/Sunday Times"]
+}],
+"prefLabel": ["36:42:21"],
+"time": "20130108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:40:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["43:40:17"],
+"time": "20150908"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:40:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB"]
+}],
+"prefLabel": ["37:40:23"],
+"time": "20150108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:39:25"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:39:25"],
+"time": "20140208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:40:19"],
+"time": "20140822"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:40:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["38:40:22"],
+"time": "20150915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["31:46:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;ComRes/Sunday Mirror/Independent;ICM/The Telegraph"]
+}],
+"prefLabel": ["31:46:21"],
+"time": "20130515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:39:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;Ipsos MORI;BMG Research;ComRes;ICM"]
+}],
+"prefLabel": ["45:39:15"],
+"time": "20160122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;Survation"]
+}],
+"prefLabel": ["39:41:18"],
+"time": "20151201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["52:36:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI;ICM;ComRes"]
+}],
+"prefLabel": ["52:36:11"],
+"time": "20151208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;YouGov;BMG Research;ICM;ComRes"]
+}],
+"prefLabel": ["42:41:15"],
+"time": "20160222"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:44:20"],
+"time": "20130922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["35:32:32"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;YouGov/Sunday Times"]
+}],
+"prefLabel": ["35:32:32"],
+"time": "20130115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:38:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:38:19"],
+"time": "20140922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "6",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:34:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["46:34:20"],
+"time": "20130815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20141201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;ICM;YouGov"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "7",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:31:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:31:24"],
+"time": "20130622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;Opinium;Ipsos MORI;TNS"]
+}],
+"prefLabel": ["43:37:19"],
+"time": "20160215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:42:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:42:17"],
+"time": "20151215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:42:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;ICM;Survation"]
+}],
+"prefLabel": ["44:42:13"],
+"time": "20160115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["39:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:37:18"],
+"time": "20160301"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20130522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:47:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["33:47:19"],
+"time": "20100908"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["50:33:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;YouGov"]
+}],
+"prefLabel": ["50:33:15"],
+"time": "20150501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:42:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes"]
+}],
+"prefLabel": ["40:42:18"],
+"time": "20140601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20130915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Financial Times/Harris;Survation/Mail on Sunday;YouGov/Sunday Times;Populus/The Times"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20130122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:37:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["40:37:22"],
+"time": "20140401"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "11",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:52:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:52:19"],
+"time": "20110808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141215"
+}
+],
+"story_cnt": [1],
+"text": "FT-Brexit",
+"type": "default"
+}}

@@ -1,0 +1,3625 @@
+{ "timeline":
+{
+"actor_cnt": [23],
+"event_cnt": [19],
+"events": [
+{
+"actors": {"actor:": [
+"dbp:Conservative_Party_(UK)",
+"dbp:Luxembourg",
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton",
+"en:DowningSt"
+]},
+"classes": {"ili": [
+"i28220",
+"i23519",
+"i112825",
+"i63762"
+]},
+"climax": 86,
+"event": "ev147",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0#ev147",
+"labels": [
+"level",
+"salary",
+"agree",
+"nomination",
+"claim",
+"experience"
+],
+"mentions": [
+{
+"char": [
+"4054",
+"4059"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" Stowell\u2019s salary by £23,000 to just over £100,000 to bring it up to Lord Hill\u2019s level"],
+"snippet_char": [
+81,
+85
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3984",
+"3990"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" Cameron\u2019s \u201cLadies Day\u201d, the Conservative party agreed to top up Lady Stowell\u2019s salary by £23,000 to just over £100,000 to bring it up to Lord Hill\u2019s level"],
+"snippet_char": [
+80,
+86
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3952",
+"3958"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" predecessor.\nFearing reports of sexism on Mr Cameron\u2019s \u201cLadies Day\u201d, the Conservative party agreed to top up Lady Stowell\u2019s salary by £23,000 to just over £100,000 to bring it"],
+"snippet_char": [
+93,
+99
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"2866",
+"2876"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" nations.\u201d\nBut the former Luxembourg prime minister appeared nonplussed by Lord Hill\u2019s nomination. \u201cLike everyone else we had to look on Google to find out who he is,\u201d said"],
+"snippet_char": [
+87,
+97
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3002",
+"3008"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" find out who he is,\u201d said an aide to Mr Juncker.\nHowever the prime minister claims Lord Hill\u2019s long experience as a political operator in Downing St and the upper"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3026",
+"3036"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" an aide to Mr Juncker.\nHowever the prime minister claims Lord Hill\u2019s long experience as a political operator in Downing St and the upper house combined with his"],
+"snippet_char": [
+75,
+85
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3122",
+"3132"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" political operator in Downing St and the upper house combined with his business experience \u2013 he set up his own lobbying company - \u2013 make him the ideal choice.\nThe prime"],
+"snippet_char": [
+81,
+91
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+}
+],
+"period": ["20140715"],
+"prefLabel": ["level"],
+"sentence": "4054",
+"time": "20140715",
+"topics": [
+"http://eurovoc.europa.eu/211929",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/218801"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton",
+"dbp:William_Hague",
+"dbp:Philip_Hammond",
+"dbp:David_Cameron"
+]},
+"classes": {
+"eso": ["Replacing"],
+"fn": [
+"Replacing",
+"Take_place_of"
+],
+"ili": [
+"i33025",
+"i28227",
+"i33773",
+"i22522"
+]
+},
+"climax": 59,
+"event": "ev42",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0#ev42",
+"labels": ["replace"],
+"mentions": [
+{
+"char": [
+"3738",
+"3746"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" Baroness Warsi, Foreign Office minister, are entitled to attend. Lady Stowell replaces Lord Hill, but it emerged she would no longer have full cabinet status and"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"341",
+"348"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" 2017 in-out referendum, Mr Cameron promoted Philip Hammond, a eurosceptic, to replace William Hague as foreign secretary. He also nominated Jonathan Hill, a former"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+}
+],
+"prefLabel": ["replace"],
+"sentence": "341",
+"time": "20140716",
+"topics": [
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/211929",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/218807"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Communicate_categorization"],
+"ili": [
+"i29642",
+"i26520",
+"i26422"
+]
+},
+"climax": 83,
+"event": "ev128",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0#ev128",
+"labels": ["describe"],
+"mentions": [{
+"char": [
+"3138",
+"3148"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:John_Aglionby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" new EU commissioner, on Thursday called for calm in the surcharge debate, describing it as a \u201ctechnical matter [that\u2019s] become hugely political\u201d.\n\u201cI think the sensible"],
+"snippet_char": [
+75,
+85
+],
+"uri": ["http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0"]
+}],
+"prefLabel": ["describe"],
+"sentence": "3138",
+"time": "20141106",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222044",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/218801"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Commission",
+"dbp:Jean-Claude_Juncker",
+"dbp:United_Kingdom",
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton",
+"dbp:European_Union",
+"dbp:Conservative_Party_(UK)"
+]},
+"classes": {
+"eso": ["Transportation"],
+"fn": ["Bringing"],
+"ili": [
+"i28923",
+"i28895",
+"i32134",
+"i28899"
+]
+},
+"climax": 76,
+"event": "ev119",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0#ev119",
+"labels": [
+"bring",
+"give"
+],
+"mentions": [
+{
+"char": [
+"4027",
+"4032"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" agreed to top up Lady Stowell\u2019s salary by £23,000 to just over £100,000 to bring it up to Lord Hill\u2019s level"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"2760",
+"2765"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" states, adding: \u201cI don\u2019t want a United States of Europe ... I don\u2019t want to bring down European nations.\u201d\nBut the former Luxembourg prime minister appeared nonplussed"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"620",
+"625"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Wednesday to carve up the EU\u2019s top jobs.\nMr Cameron hopes Lord Hill will be given the plum internal market, trade or competition job by Jean-Claude Juncker,"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"2602",
+"2606"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "future"
+},
+"source": "cite:Jean-Claude_Juncker"
+}],
+"snippet": [" mindset\u201d and anticipating success.\nMr Juncker said on Tuesday he wanted to give Britain \u201ca fair deal\u201d and would look at ideas to repatriate powers to member"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+}
+],
+"period": ["20140722"],
+"prefLabel": ["bring"],
+"sentence": "2760",
+"time": "20140722",
+"topics": [
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/211929"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton",
+"dbp:Michel_Barnier",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["IntentionalEvent"],
+"fn": [
+"Intentionally_create",
+"Attempt"
+],
+"ili": [
+"i39540",
+"i29994",
+"i34354"
+]
+},
+"climax": 76,
+"event": "ev74",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba#ev74",
+"labels": [
+"attempt",
+"project"
+],
+"mentions": [
+{
+"char": [
+"1679",
+"1687"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Patrick_Jenkins"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Caroline_Binham"]
+}
+],
+"snippet": [" delaying the January 2017 start date for Mifid II by a year.\nLord Hill\u2019s attempts to soften the regulatory regime of his predecessor, Michel Barnier, tally with"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba"]
+},
+{
+"char": [
+"939",
+"946"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Patrick_Jenkins"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Caroline_Binham"]
+}
+],
+"snippet": [" extraordinary position for the City of London to find itself in.\u201d\nLord Hill\u2019s biggest project is to oversee the creation of a \u201ccapital markets union\u201d: an ambitious package"],
+"snippet_char": [
+87,
+94
+],
+"uri": ["http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba"]
+}
+],
+"period": ["20151127"],
+"prefLabel": ["attempt"],
+"sentence": "1679",
+"time": "20151127",
+"topics": [
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton",
+"dbp:David_Cameron"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Cause_change",
+"Intentionally_create"
+],
+"ili": ["i25216"]
+},
+"climax": 79,
+"event": "ev86",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/ee66a6ba-197c-11e4-9745-00144feabdc0#ev86",
+"labels": [
+"reshape",
+"brief",
+"secure",
+"effort",
+"help"
+],
+"mentions": [
+{
+"char": [
+"2097",
+"2105"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" Britain.\nSome officials say it could help David Cameron in his efforts to secure a reshaped single market brief for Lord Hill, his nominee as European commissioner. It"],
+"snippet_char": [
+84,
+92
+],
+"uri": ["http://www.ft.com/thing/ee66a6ba-197c-11e4-9745-00144feabdc0"]
+},
+{
+"char": [
+"2120",
+"2125"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" could help David Cameron in his efforts to secure a reshaped single market brief for Lord Hill, his nominee as European commissioner. It is widely accepted"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/ee66a6ba-197c-11e4-9745-00144feabdc0"]
+},
+{
+"char": [
+"2088",
+"2094"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" Britain.\nSome officials say it could help David Cameron in his efforts to secure a reshaped single market brief for Lord Hill, his nominee as European commissioner."],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/ee66a6ba-197c-11e4-9745-00144feabdc0"]
+},
+{
+"char": [
+"2077",
+"2084"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" benefits for Britain.\nSome officials say it could help David Cameron in his efforts to secure a reshaped single market brief for Lord Hill, his nominee as European"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/ee66a6ba-197c-11e4-9745-00144feabdc0"]
+},
+{
+"char": [
+"2051",
+"2055"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" market directorate could have benefits for Britain.\nSome officials say it could help David Cameron in his efforts to secure a reshaped single market brief for Lord"],
+"snippet_char": [
+81,
+85
+],
+"uri": ["http://www.ft.com/thing/ee66a6ba-197c-11e4-9745-00144feabdc0"]
+}
+],
+"period": ["20140803"],
+"prefLabel": ["reshape"],
+"sentence": "2097",
+"time": "20140803",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222046",
+"http://eurovoc.europa.eu/211106",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/212128",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Michel_Barnier",
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Place_weight_on"],
+"ili": [
+"i25358",
+"i32560",
+"i25312"
+]
+},
+"climax": 77,
+"event": "ev75",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba#ev75",
+"labels": ["focus"],
+"mentions": [{
+"char": [
+"1858",
+"1863"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Patrick_Jenkins"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Caroline_Binham"]
+}
+],
+"snippet": [" approach to bank regulation in the UK and internationally as policymakers focus instead on encouraging economic growth.\nThe commissioner said it was important"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba"]
+}],
+"prefLabel": ["focus"],
+"sentence": "1858",
+"time": "20170101",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/218801"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Charles_Hill",
+"_Baron_Hill_of_Luton"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": ["Motion"],
+"ili": [
+"i34764",
+"i30954",
+"i30898"
+]
+},
+"climax": 83,
+"event": "ev115",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/6b488b3c-6386-11e4-8216-00144feabdc0#ev115",
+"mentions": [{
+"char": [
+"3105",
+"3109"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+}
+],
+"snippet": [" that much of this was set at a global level rather than by the EU. \nLord Hill went on to criticise those who promoted a view of \u201cBritish exceptionalism\u201d, as if"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/6b488b3c-6386-11e4-8216-00144feabdc0"]
+}],
+"prefLabel": ["go"],
+"sentence": "3105",
+"time": "20141103",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/211106",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Premiership_of_David_Cameron",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Increasing"],
+"fn": [
+"Statement",
+"Cause_change_of_position_on_a_scale"
+],
+"ili": [
+"i26710",
+"i22623"
+]
+},
+"climax": 75,
+"event": "ev103",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0#ev103",
+"labels": ["add"],
+"mentions": [
+{
+"char": [
+"2448",
+"2453"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:John_Aglionby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" overhaul of the treaties or total treaty change is quite meagre,\u201d he said, but added that he thought Mr Cameron\u2019s attempt to exclude Britain from the EU\u2019s commitment"],
+"snippet_char": [
+80,
+85
+],
+"uri": ["http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0"]
+},
+{
+"char": [
+"3343",
+"3348"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:John_Aglionby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" down, look at the facts and find a practical solution,\u201d he told the BBC. He added that he thought EU finance ministers, who are meeting on Friday to discuss"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0"]
+}
+],
+"prefLabel": ["add"],
+"sentence": "2448",
+"time": "20141107",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222044",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/222072"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Premiership_of_David_Cameron",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": [
+"Colonization",
+"Choosing"
+],
+"ili": [
+"i25519",
+"i23792",
+"i24431",
+"i31687",
+"i29049",
+"i23799",
+"i31672",
+"i25515",
+"i25202",
+"i25512",
+"i25666",
+"i31680",
+"i24538"
+]
+},
+"climax": 81,
+"event": "ev105",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0#ev105",
+"labels": [
+"settle",
+"attempt"
+],
+"mentions": [
+{
+"char": [
+"2575",
+"2582"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:John_Aglionby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" exclude Britain from the EU\u2019s commitment to \u201cever-closer union\u201d could be \u201ceasily settled\u201d.\nThe Finnish prime minister expressed sympathy with Mr Cameron after he was"],
+"snippet_char": [
+82,
+89
+],
+"uri": ["http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0"]
+},
+{
+"char": [
+"94",
+"101"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:John_Aglionby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" been warned by two of his closest allies that they would oppose any British attempt to restrict Europe\u2019s rules on free movement of workers, in a further blow to"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0"]
+},
+{
+"char": [
+"2483",
+"2490"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:John_Aglionby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" treaty change is quite meagre,\u201d he said, but added that he thought Mr Cameron\u2019s attempt to exclude Britain from the EU\u2019s commitment to \u201cever-closer union\u201d could be"],
+"snippet_char": [
+81,
+88
+],
+"uri": ["http://www.ft.com/thing/240c29a4-64f8-11e4-ab2d-00144feabdc0"]
+}
+],
+"period": ["20141106"],
+"prefLabel": ["settle"],
+"sentence": "2575",
+"time": "20141106",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/222044",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Esther_McVey",
+"dbp:Sayeeda_Warsi",
+"_Baroness_Warsi"
+]},
+"classes": {
+"fn": ["Attending"],
+"ili": ["i34736"]
+},
+"climax": 77,
+"event": "ev137",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0#ev137",
+"labels": [
+"attend",
+"entitle"
+],
+"mentions": [
+{
+"char": [
+"3411",
+"3417"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" Tory female ministers had risen from 20 to 23.\nOf eight women entitled to attend the cabinet, five are full members: Theresa May, home secretary; Theresa Villiers,"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3717",
+"3723"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" employment minister, Baroness Warsi, Foreign Office minister, are entitled to attend. Lady Stowell replaces Lord Hill, but it emerged she would no longer have full"],
+"snippet_char": [
+79,
+85
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3399",
+"3407"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" total number of Tory female ministers had risen from 20 to 23.\nOf eight women entitled to attend the cabinet, five are full members: Theresa May, home secretary;"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"3705",
+"3713"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" Truss.\nEsther McVey, employment minister, Baroness Warsi, Foreign Office minister, are entitled to attend. Lady Stowell replaces Lord Hill, but it emerged she would no longer"],
+"snippet_char": [
+88,
+96
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+}
+],
+"period": ["20140715"],
+"prefLabel": ["attend"],
+"sentence": "3411",
+"time": "20140715",
+"topics": [
+"http://eurovoc.europa.eu/211929",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/218801"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Lynton_Crosby",
+"dbp:David_Cameron",
+"dbp:Michael_Gove"
+]},
+"classes": {"ili": ["i66153"]},
+"climax": 77,
+"event": "ev91",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0#ev91",
+"labels": [
+"hand",
+"detect"
+],
+"mentions": [
+{
+"char": [
+"1867",
+"1871"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" Morgan, Treasury minister, becomes education secretary.  Some detected the hand of Lynton Crosby, Mr Cameron\u2019s election chief, in Mr Gove\u2019s move, the promotion"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"1854",
+"1862"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" secretary and Nicky Morgan, Treasury minister, becomes education secretary.  Some detected the hand of Lynton Crosby, Mr Cameron\u2019s election chief, in Mr Gove\u2019s move,"],
+"snippet_char": [
+83,
+91
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+}
+],
+"period": ["20140715"],
+"prefLabel": ["hand"],
+"sentence": "1867",
+"time": "20140715",
+"topics": [
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/211929",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/218801"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Michel_Barnier",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Leadership"],
+"ili": [
+"i79516",
+"i34271",
+"i67894"
+]
+},
+"climax": 77,
+"event": "ev76",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba#ev76",
+"labels": [
+"regime",
+"soften"
+],
+"mentions": [
+{
+"char": [
+"1713",
+"1719"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Patrick_Jenkins"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Caroline_Binham"]
+}
+],
+"snippet": [" date for Mifid II by a year.\nLord Hill\u2019s attempts to soften the regulatory regime of his predecessor, Michel Barnier, tally with a more emollient approach to"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba"]
+},
+{
+"char": [
+"1691",
+"1697"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Patrick_Jenkins"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Caroline_Binham"]
+}
+],
+"snippet": [" the January 2017 start date for Mifid II by a year.\nLord Hill\u2019s attempts to soften the regulatory regime of his predecessor, Michel Barnier, tally with a more"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba"]
+}
+],
+"period": ["20151127"],
+"prefLabel": ["regime"],
+"sentence": "1713",
+"time": "20151127",
+"topics": [
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Michel_Barnier",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Translocation"],
+"fn": [
+"Cotheme",
+"Relative_time"
+],
+"ili": [
+"i92199",
+"i35118",
+"i31735"
+]
+},
+"climax": 77,
+"event": "ev78",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba#ev78",
+"labels": ["predecessor"],
+"mentions": [{
+"char": [
+"1727",
+"1738"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Patrick_Jenkins"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Caroline_Binham"]
+}
+],
+"snippet": [" II by a year.\nLord Hill\u2019s attempts to soften the regulatory regime of his predecessor, Michel Barnier, tally with a more emollient approach to bank regulation in"],
+"snippet_char": [
+76,
+87
+],
+"uri": ["http://www.ft.com/thing/bda4e522-9519-11e5-ac15-0f7f7945adba"]
+}],
+"prefLabel": ["predecessor"],
+"sentence": "1727",
+"time": "20170101",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216970"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:House_of_Commons_of_the_United_Kingdom",
+"dbp:European_Union",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Increasing"],
+"fn": ["Cause_to_make_progress"],
+"ili": [
+"i22749",
+"i22752"
+]
+},
+"climax": 66,
+"event": "ev63",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/8fefd614-9ffb-11e4-aa89-00144feab7de#ev63",
+"labels": ["improve"],
+"mentions": [
+{
+"char": [
+"2052",
+"2059"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Labour_Party_(UK)"
+}],
+"snippet": [" European leaders and consider establishing a special Commons committee to improve parliament\u2019s scrutiny of EU related issues"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/8fefd614-9ffb-11e4-aa89-00144feab7de"]
+},
+{
+"char": [
+"1521",
+"1530"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" foreign secretary, was instrumental in trying to reverse that trend, including improving foreign language training for British diplomats.\nIn 2013 Mr Hague reopened the"],
+"snippet_char": [
+81,
+90
+],
+"uri": ["http://www.ft.com/thing/8fefd614-9ffb-11e4-aa89-00144feab7de"]
+},
+{
+"char": [
+"1852",
+"1859"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" can succeed in reforming the EU without threatening to leave but needs to improve its diplomatic efforts to win the arguments.\nLabour would organise a series"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/8fefd614-9ffb-11e4-aa89-00144feab7de"]
+}
+],
+"prefLabel": ["improve"],
+"sentence": "1521",
+"time": "20130101",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210394"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Decreasing"],
+"fn": ["Change_position_on_a_scale"],
+"ili": [
+"i107460",
+"i112795",
+"i22743",
+"i32927",
+"i107456"
+]
+},
+"climax": 57,
+"event": "ev29",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/8fefd614-9ffb-11e4-aa89-00144feab7de#ev29",
+"labels": ["decline"],
+"mentions": [
+{
+"char": [
+"1242",
+"1249"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" executive.\nMr Alexander\u2019s view is strongly contested by the Conservatives, who say the decline in British influence set in under the last Labour government, which presided"],
+"snippet_char": [
+88,
+95
+],
+"uri": ["http://www.ft.com/thing/8fefd614-9ffb-11e4-aa89-00144feab7de"]
+},
+{
+"char": [
+"322",
+"329"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Douglas_Alexander"
+}],
+"snippet": [" Tuesday that David Cameron\u2019s government has presided over \u201cthe most significant decline in British influence in Europe for a generation\u201d.\nMr Alexander will make the"],
+"snippet_char": [
+81,
+88
+],
+"uri": ["http://www.ft.com/thing/8fefd614-9ffb-11e4-aa89-00144feab7de"]
+}
+],
+"prefLabel": ["decline"],
+"sentence": "322",
+"time": "20150127",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210394",
+"http://eurovoc.europa.eu/217189"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:David_Cameron",
+"dbp:European_Union",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Experiencer_obj"],
+"ili": [
+"i75432",
+"i38702",
+"i66801",
+"i30590",
+"i30562"
+]
+},
+"climax": 74,
+"event": "ev73",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/d3d2531c-d1fc-11e2-9336-00144feab7de#ev73",
+"labels": [
+"trouble",
+"renegotiate"
+],
+"mentions": [
+{
+"char": [
+"1273",
+"1280"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "cite:Conservatism"
+}],
+"snippet": [" leave the EU.\u201d\nSome senior Conservatives fear that Mr Cameron is storing up trouble for himself with his party by promising to renegotiate Britain\u2019s relationship"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/d3d2531c-d1fc-11e2-9336-00144feab7de"]
+},
+{
+"char": [
+"1324",
+"1335"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "cite:Conservatism"
+}],
+"snippet": [" Mr Cameron is storing up trouble for himself with his party by promising to renegotiate Britain\u2019s relationship with the EU given that meaningful repatriation of powers"],
+"snippet_char": [
+77,
+88
+],
+"uri": ["http://www.ft.com/thing/d3d2531c-d1fc-11e2-9336-00144feab7de"]
+}
+],
+"period": ["20120701"],
+"prefLabel": ["trouble"],
+"sentence": "1273",
+"time": "20120701",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210536",
+"http://eurovoc.europa.eu/218801",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/218934",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Nick_Clegg",
+"dbp:Windsor_Castle",
+"dbp:Michael_Gove",
+"dbp:Euroscepticism"
+]},
+"classes": {
+"fn": ["Attending"],
+"ili": ["i34736"]
+},
+"climax": 69,
+"event": "ev45",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/43da62e8-e5e7-11e5-bc31-138df2ae9ee6#ev45",
+"labels": [
+"attend",
+"lunch"
+],
+"mentions": [
+{
+"char": [
+"833",
+"841"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sebastian_Payne"
+}],
+"snippet": [" eyes appear to be on Michael Gove, the Eurosceptic justice secretary, who attended a lunch at Windsor Castle with Mr Clegg in 2011 according to official Court"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/43da62e8-e5e7-11e5-bc31-138df2ae9ee6"]
+},
+{
+"char": [
+"844",
+"849"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sebastian_Payne"
+}],
+"snippet": [" appear to be on Michael Gove, the Eurosceptic justice secretary, who attended a lunch at Windsor Castle with Mr Clegg in 2011 according to official Court Circular"],
+"snippet_char": [
+81,
+86
+],
+"uri": ["http://www.ft.com/thing/43da62e8-e5e7-11e5-bc31-138df2ae9ee6"]
+}
+],
+"period": ["20110101"],
+"prefLabel": ["attend"],
+"sentence": "833",
+"time": "20110101",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/219802",
+"http://eurovoc.europa.eu/217051",
+"http://eurovoc.europa.eu/209990",
+"http://eurovoc.europa.eu/213880",
+"http://eurovoc.europa.eu/213874"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Jean-Claude_Juncker",
+"dbp:European_Commission",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Statement"],
+"ili": [
+"i25055",
+"i34102",
+"i22830",
+"i26642"
+]
+},
+"climax": 68,
+"event": "ev53",
+"group": "086:[agrarian reform]",
+"groupName": "[agrarian reform]",
+"groupScore": "086",
+"instance": "http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0#ev53",
+"labels": [
+"confirm",
+"competition"
+],
+"mentions": [
+{
+"char": [
+"755",
+"764"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Jean-Claude Juncker, whose nomination as European Commission president was confirmed by MEPs on Tuesday despite earlier British opposition.\nAside from the big personnel"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+},
+{
+"char": [
+"661",
+"672"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" jobs.\nMr Cameron hopes Lord Hill will be given the plum internal market, trade or competition job by Jean-Claude Juncker, whose nomination as European Commission president"],
+"snippet_char": [
+83,
+94
+],
+"uri": ["http://www.ft.com/thing/d661b9ba-0c1b-11e4-9080-00144feabdc0"]
+}
+],
+"period": ["20140722"],
+"prefLabel": ["confirm"],
+"sentence": "755",
+"time": "20140722",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211104",
+"http://eurovoc.europa.eu/211929",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/218807",
+"http://eurovoc.europa.eu/218801"
+]
+}
+],
+"headline": "brexit3",
+"mention_cnt": [48],
+"polls": [
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20140515"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Opinium;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:43:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov/The Times"]
+}],
+"prefLabel": ["38:43:18"],
+"time": "20160201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:38:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:38:22"],
+"time": "20140808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:40:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes"]
+}],
+"prefLabel": ["46:40:14"],
+"time": "20160208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:42:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Survation;BMG Research;ICM"]
+}],
+"prefLabel": ["43:42:14"],
+"time": "20151115"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:45:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes"]
+}],
+"prefLabel": ["35:45:19"],
+"time": "20141122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes;Survation;YouGov"]
+}],
+"prefLabel": ["38:41:20"],
+"time": "20140622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:51:9"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:51:9"],
+"time": "20121122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["44:45:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["44:45:11"],
+"time": "20130601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140522"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130801"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;ICM"]
+}],
+"prefLabel": ["42:39:18"],
+"time": "20151108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["32:53:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["32:53:15"],
+"time": "20130808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20140322"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;YouGov;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20151101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:43:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["33:43:24"],
+"time": "20140108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "13",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:56:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium/Observer"]
+}],
+"prefLabel": ["30:56:14"],
+"time": "20121115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Pew Research Center;Populus;Opinium"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150408"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["38:41:21"],
+"time": "20130215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:48:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;Survation"]
+}],
+"prefLabel": ["34:48:17"],
+"time": "20141101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:43:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["36:43:21"],
+"time": "20130408"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["54:37:10"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["54:37:10"],
+"time": "20140508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ORB;ICM;YouGov"]
+}],
+"prefLabel": ["43:41:14"],
+"time": "20151022"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:46:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["39:46:15"],
+"time": "20140501"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20150608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:43:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["37:43:20"],
+"time": "20131208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:34:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["43:34:21"],
+"time": "20150601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20131008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:42:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["37:42:20"],
+"time": "20141022"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140308"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:40:19"],
+"time": "20141115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ICM"]
+}],
+"prefLabel": ["42:39:19"],
+"time": "20151122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:38:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;GQRR;Ipsos MORI;ICM"]
+}],
+"prefLabel": ["45:38:16"],
+"time": "20151015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["47:38:15"],
+"time": "20150815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:36:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["45:36:19"],
+"time": "20150222"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Panelbase;ICM"]
+}],
+"prefLabel": ["43:41:15"],
+"time": "20160108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:37:20"],
+"time": "20150122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;Panelbase;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20150322"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:38:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:38:21"],
+"time": "20140708"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:40:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["47:40:13"],
+"time": "20150515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:32:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["49:32:18"],
+"time": "20150422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "13",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["60:33:6"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Ipsos MORI"]
+}],
+"prefLabel": ["60:33:6"],
+"time": "20150615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:41:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS BMRB"]
+}],
+"prefLabel": ["30:41:22"],
+"time": "20130201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:39:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:39:17"],
+"time": "20151001"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;ICM/The Guardian;YouGov/The Sun"]
+}],
+"prefLabel": ["34:44:20"],
+"time": "20130508"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:44:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["41:44:15"],
+"time": "20150215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:36:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;TNS-BMRB"]
+}],
+"prefLabel": ["40:36:23"],
+"time": "20150115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:37:19"],
+"time": "20150722"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "10",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["56:36:8"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["56:36:8"],
+"time": "20141008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:46:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Times"]
+}],
+"prefLabel": ["35:46:20"],
+"time": "20130501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20111208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "5",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:35:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:35:20"],
+"time": "20150415"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "8",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:50:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation/Mail on Sunday;YouGov/The Sun"]
+}],
+"prefLabel": ["33:50:16"],
+"time": "20130101"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20150622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:33:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes;YouGov"]
+}],
+"prefLabel": ["49:33:17"],
+"time": "20150522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:46:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:46:19"],
+"time": "20130701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20130708"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:42:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/Sunday Times"]
+}],
+"prefLabel": ["36:42:21"],
+"time": "20130108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:40:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["43:40:17"],
+"time": "20150908"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:40:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB"]
+}],
+"prefLabel": ["37:40:23"],
+"time": "20150108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:39:25"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:39:25"],
+"time": "20140208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:40:19"],
+"time": "20140822"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:40:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["38:40:22"],
+"time": "20150915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["31:46:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;ComRes/Sunday Mirror/Independent;ICM/The Telegraph"]
+}],
+"prefLabel": ["31:46:21"],
+"time": "20130515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:39:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;Ipsos MORI;BMG Research;ComRes;ICM"]
+}],
+"prefLabel": ["45:39:15"],
+"time": "20160122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;Survation"]
+}],
+"prefLabel": ["39:41:18"],
+"time": "20151201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["52:36:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI;ICM;ComRes"]
+}],
+"prefLabel": ["52:36:11"],
+"time": "20151208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;YouGov;BMG Research;ICM;ComRes"]
+}],
+"prefLabel": ["42:41:15"],
+"time": "20160222"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:44:20"],
+"time": "20130922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["35:32:32"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;YouGov/Sunday Times"]
+}],
+"prefLabel": ["35:32:32"],
+"time": "20130115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:38:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:38:19"],
+"time": "20140922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "6",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:34:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["46:34:20"],
+"time": "20130815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20141201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;ICM;YouGov"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "7",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:31:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:31:24"],
+"time": "20130622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;Opinium;Ipsos MORI;TNS"]
+}],
+"prefLabel": ["43:37:19"],
+"time": "20160215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:42:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:42:17"],
+"time": "20151215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:42:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;ICM;Survation"]
+}],
+"prefLabel": ["44:42:13"],
+"time": "20160115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["39:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:37:18"],
+"time": "20160301"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20130522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:47:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["33:47:19"],
+"time": "20100908"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["50:33:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;YouGov"]
+}],
+"prefLabel": ["50:33:15"],
+"time": "20150501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:42:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes"]
+}],
+"prefLabel": ["40:42:18"],
+"time": "20140601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20130915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Financial Times/Harris;Survation/Mail on Sunday;YouGov/Sunday Times;Populus/The Times"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20130122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:37:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["40:37:22"],
+"time": "20140401"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "11",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:52:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:52:19"],
+"time": "20110808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141215"
+}
+],
+"story_cnt": [1],
+"text": "FT-Brexit",
+"type": "default"
+}}

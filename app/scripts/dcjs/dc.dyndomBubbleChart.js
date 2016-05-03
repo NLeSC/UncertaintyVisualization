@@ -27,6 +27,16 @@
 dc.dyndomBubbleChart = function(parent, chartGroup) {
   var _chart = dc.customBubbleMixin(dc.coordinateGridMixin({}));
 
+  var triangleSymbol = d3.svg.symbol().type('triangle-up')
+    .size(function (d) {
+      return _chart.bubbleR(d)*20;
+    });
+
+  var circleSymbol = d3.svg.symbol().type('circle')
+    .size(function (d) {
+      return _chart.bubbleR(d)*20;
+    });
+
   var _elasticRadius = false;
 
   _chart.transitionDuration(750);
@@ -47,11 +57,11 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
         newData.push({
           key: [datapoint.key[0], singleKey],
           value: datapoint.value
-        })
+        });
       });
     });
     return newData;
-  }
+  };
 
   var determineNodes = function(chartData) {
     var nodes = {};
@@ -110,6 +120,22 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
     }
     _elasticRadius = elasticRadius;
     return _chart;
+  };
+
+  _chart.fadeDeselectedArea = function () {
+      if (_chart.hasFilter()) {
+          _chart.selectAll('g.' + 'dyndom_node').each(function (d) {
+              if (_chart.isSelectedNode(d)) {
+                  _chart.highlightSelected(this);
+              } else {
+                  _chart.fadeDeselected(this);
+              }
+          });
+      } else {
+          _chart.selectAll('g.' + 'dyndom_node').each(function () {
+              _chart.resetHighlight(this);
+          });
+      }
   };
 
   _chart.plotData = function() {
@@ -192,6 +218,17 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
     var bubbleGEnter = bubbleG.enter().append('g');
 
     bubbleGEnter
+      // .attr('class', 'dyndom_node')
+      //
+      // .append('path')
+      // .attr('class', 'symbol')
+      // .attr('class', function(d, i) {
+      //     return 'dyndom_node' + ' _' + i;
+      //   })
+      // .attr('fill', _chart.getColor)
+      // .attr('transform', bubbleLocator)
+      // .on('click', _chart.onClick);
+
       .attr('class', _chart.BUBBLE_NODE_CLASS)
       .attr('transform', bubbleLocator)
       .append('circle').attr('class', function(d, i) {
@@ -215,6 +252,21 @@ dc.dyndomBubbleChart = function(parent, chartGroup) {
   }
 
   function updateNodes(bubbleG) {
+    // dc.transition(bubbleG, _chart.transitionDuration())
+    //   .selectAll('path')
+    //   .attr('opacity', function(d) {
+    //     return (_chart.bubbleR(d) > 0) ? 1 : 0;
+    //   })
+    //   .attr('fill', _chart.getColor)
+    //   .attr('transform', bubbleLocator)
+    //   .attr('d', function (d) {
+    //     if (d.value.when[d.value.source] > 0) {
+    //       return triangleSymbol(d);
+    //     }
+    //     return circleSymbol(d);
+    //   });
+
+
     dc.transition(bubbleG, _chart.transitionDuration())
       .attr('transform', bubbleLocator)
       .selectAll('circle.' + _chart.BUBBLE_CLASS)

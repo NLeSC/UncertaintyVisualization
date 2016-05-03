@@ -1,0 +1,7254 @@
+{ "timeline":
+{
+"actor_cnt": [59],
+"event_cnt": [43],
+"events": [
+{
+"actors": {"actor:": [
+"dbp:French_Development_Agency",
+"dbp:Czechoslovakia",
+"dbp:David_Cameron",
+"dbp:European_Union",
+"dbp:Poland"
+]},
+"classes": {
+"fn": ["Desiring"],
+"ili": [
+"i67903",
+"i30852"
+]
+},
+"climax": 75,
+"event": "ev86",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/b85e295e-e816-11e3-9cb3-00144feabdc0#ev86",
+"labels": [
+"agenda",
+"have"
+],
+"mentions": [
+{
+"char": [
+"1441",
+"1447"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:French_Development_Agency"
+}],
+"snippet": [" himself to be manipulated in this way.\n\u201cWe have agreement on David Cameron\u2019s agenda for Europe. We support his views on a more decentralised EU,\u201d Mr Lucke added."],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/b85e295e-e816-11e3-9cb3-00144feabdc0"]
+},
+{
+"char": [
+"948",
+"951"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Bernd_Lucke"
+}],
+"snippet": [" UK delegation could be outvoted. The AfD has seven seats.\nMr Lucke said he had the support of the Polish and Czech ECR members and acknowledged that Mr Cameron"],
+"snippet_char": [
+76,
+79
+],
+"uri": ["http://www.ft.com/thing/b85e295e-e816-11e3-9cb3-00144feabdc0"]
+},
+{
+"char": [
+"1407",
+"1411"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" British prime minister would allow himself to be manipulated in this way.\n\u201cWe have agreement on David Cameron\u2019s agenda for Europe. We support his views on a more"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/b85e295e-e816-11e3-9cb3-00144feabdc0"]
+},
+{
+"char": [
+"1628",
+"1632"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" guys to support his views in Germany. The CDU doesn\u2019t support his ideas. We have the same policies as David Cameron. I think he is being used.\u201d\n Mr Cameron"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/b85e295e-e816-11e3-9cb3-00144feabdc0"]
+},
+{
+"char": [
+"914",
+"917"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" half the 46-strong ECR, meaning the UK delegation could be outvoted. The AfD has seven seats.\nMr Lucke said he had the support of the Polish and Czech ECR members"],
+"snippet_char": [
+78,
+81
+],
+"uri": ["http://www.ft.com/thing/b85e295e-e816-11e3-9cb3-00144feabdc0"]
+}
+],
+"period": ["20140530"],
+"prefLabel": ["agenda"],
+"sentence": "1441",
+"time": "20140530",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/222026"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:David_Cameron"
+]},
+"classes": {
+"fn": ["Experiencer_obj"],
+"ili": [
+"i30577",
+"i25341",
+"i29391",
+"i30586"
+]
+},
+"climax": 90,
+"event": "ev193",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0#ev193",
+"labels": ["impress"],
+"mentions": [{
+"char": [
+"6234",
+"6243"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" the man for that.\nEnrico Letta, \nformer Italian prime minister\nPros: He impressed David Cameron and other European leaders with his reformist credentials during"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+}],
+"prefLabel": ["impress"],
+"sentence": "6234",
+"time": "20140328",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/210369"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Jacques_Delors",
+"dbp:European_Union"
+]},
+"classes": {"ili": ["i86477"]},
+"climax": 89,
+"event": "ev188",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0#ev188",
+"labels": [
+"bogeyman",
+"enforcer"
+],
+"mentions": [
+{
+"char": [
+"5785",
+"5793"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" effective administrator.\nCons: He was the chief enforcer of one-time Tory bogeyman Jacques Delors, former European Commission president.\nMartin Schulz, German president"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"5759",
+"5767"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" trade zeal. Hard-headed and effective administrator.\nCons: He was the chief enforcer of one-time Tory bogeyman Jacques Delors, former European Commission president.\nMartin"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+}
+],
+"period": ["20140328"],
+"prefLabel": ["bogeyman"],
+"sentence": "5785",
+"time": "20140328",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210369"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Mark_Rutte",
+"dbp:Germany",
+"dbp:Angela_Merkel",
+"dbp:Premiership_of_David_Cameron",
+"dbp:Netherlands",
+"dbp:Liberal_Party_(UK)",
+"dbp:London",
+"dbp:Denmark",
+"dbp:Belgium",
+"dbp:Luxembourg",
+"dbp:Government_of_Ireland"
+]},
+"classes": {
+"eso": ["IntentionalEvent"],
+"fn": [
+"Taking_sides",
+"Supporting"
+],
+"ili": [
+"i25064",
+"i41756",
+"i33992",
+"i34473",
+"i27707",
+"i41740"
+]
+},
+"climax": 63,
+"event": "ev78",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de#ev78",
+"labels": [
+"support",
+"minister"
+],
+"mentions": [
+{
+"char": [
+"3125",
+"3132"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" move to Brussels in 2015.\nMeanwhile Mr Cameron will also seek Ms Merkel\u2019s support for a UK commissioner to take on a key economic role in the next commission,"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"4811",
+"4818"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" blocked his run for the European Commission in 2004. But Mr Verhofstadt has the support of Mr Cameron\u2019s ally Mark Rutte, the Dutch Liberal prime minister, and is a"],
+"snippet_char": [
+82,
+89
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"1721",
+"1730"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" delicate task will be to let his guest know that neither candidate could be supported by London \u2013 although he has no veto \u2013 and to steer Ms Merkel towards a more"],
+"snippet_char": [
+77,
+86
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"1026",
+"1036"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" be somewhat stifled, since German chancellor Ms Merkel\u2019s party is publicly supporting the candidacy of Jean-Claude Juncker, the centre-right former Luxembourg prime"],
+"snippet_char": [
+76,
+86
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"4021",
+"4029"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" Merkel\u2019s CDU party is backing Jean-Claude Juncker, former Luxembourg prime minister, as the centre-right\u2019s lead candidate in May\u2019s European elections. Mr Juncker"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"3384",
+"3392"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" including Andrew Mitchell, former Tory chief whip, Michael Fallon, energy minister, or even a business leader such as John Cridland, head of the CBI, the employers\u2019"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"4876",
+"4884"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" has the support of Mr Cameron\u2019s ally Mark Rutte, the Dutch Liberal prime minister, and is a formidable campaigner.\nACCEPTABLE TO CAMERON\nHELLE THORNING-SCHMIDT\nNeil"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"5307",
+"5315"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" past but likes her own role as Queen of Europe.\nENDA KENNY\nThe Irish prime minister led his country out of its bailout and would be a symbol of European recovery."],
+"snippet_char": [
+78,
+86
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"1290",
+"1299"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" fears that Mr Juncker \u2013 a former chairman of the group of eurozone finance ministers \u2013 would strengthen the institutions of the single currency area at the expense"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"5779",
+"5787"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:George_Osborne"
+}],
+"snippet": [" before her term expires in 2016 to return to Brussels. The former finance minister is highly regarded in London \u2013 particularly by UK chancellor George Osborne."],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"1116",
+"1124"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" candidacy of Jean-Claude Juncker, the centre-right former Luxembourg prime minister, who would be totally unacceptable to Downing St.\nOn top of being a federalist,"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"3706",
+"3714"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" to 5-1 in a matter of hours. \nNick Clegg, the Liberal Democrat deputy prime minister \u2013 who can veto Mr Cameron\u2019s choice \u2013 is understood to be happy with the idea"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"4638",
+"4646"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" too much of a federalist.\nGUY VERHOFSTADT\nThe Liberal former Belgian prime minister is seen in London as the ultimate believer in a United States of Europe; Tony"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"4158",
+"4167"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" European elections. Mr Juncker formerly headed the eurogroup of eurozone finance ministers and Mr Cameron fears he would try to push Europe down a federalist path.\nMARTIN"],
+"snippet_char": [
+83,
+92
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"5022",
+"5030"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" THORNING-SCHMIDT\nNeil Kinnock\u2019s daughter-in-law may be the socialist prime minister of Denmark, but her Nordic attitude to free trade, liberal reforms and her scepticism"],
+"snippet_char": [
+78,
+86
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+}
+],
+"period": ["20130501"],
+"prefLabel": ["support"],
+"sentence": "1026",
+"time": "20130501",
+"topics": [
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/209284",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/212826"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Netherlands",
+"dbp:Mark_Rutte",
+"dbp:Liberal_Party_(UK)",
+"dbp:Premiership_of_David_Cameron"
+]},
+"classes": {
+"eso": ["Collaboration"],
+"ili": [
+"i88161",
+"i80782",
+"i33881"
+]
+},
+"climax": 87,
+"event": "ev157",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de#ev157",
+"labels": [
+"ally",
+"have"
+],
+"mentions": [
+{
+"char": [
+"4835",
+"4839"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" European Commission in 2004. But Mr Verhofstadt has the support of Mr Cameron\u2019s ally Mark Rutte, the Dutch Liberal prime minister, and is a formidable campaigner.\nACCEPTABLE"],
+"snippet_char": [
+82,
+86
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"1755",
+"1758"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" guest know that neither candidate could be supported by London \u2013 although he has no veto \u2013 and to steer Ms Merkel towards a more mutually acceptable candidate.\n\u201cThis"],
+"snippet_char": [
+78,
+81
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"785",
+"791"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" struggle to achieve any significant \u201crepatriation\u201d of powers from Brussels, having a new European Commission that \u201cgets it\u201d will be an important part of his pitch"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"4803",
+"4806"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" Blair blocked his run for the European Commission in 2004. But Mr Verhofstadt has the support of Mr Cameron\u2019s ally Mark Rutte, the Dutch Liberal prime minister,"],
+"snippet_char": [
+80,
+83
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+}
+],
+"period": ["20040101"],
+"prefLabel": ["ally"],
+"sentence": "4835",
+"time": "20040101",
+"topics": [
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/209284",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217500"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Neil_Kinnock",
+"dbp:Labour_Party_(UK)",
+"dbp:Nick_Clegg",
+"dbp:Denmark",
+"dbp:Italy",
+"dbp:United_Kingdom",
+"dbp:Conservative_Party_(UK)"
+]},
+"classes": {
+"fn": ["Complaining"],
+"ili": [
+"i34441",
+"i89344"
+]
+},
+"climax": 44,
+"event": "ev67",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0#ev67",
+"labels": ["minister"],
+"mentions": [
+{
+"char": [
+"5063",
+"5071"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" re-election in Denmark next year and does not want to be seen as a prime minister who quits early. If European Socialists demand the top job in Brussels in May,"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"222",
+"230"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" said. \u201cIt\u2019s just whether Morgen Schmorgen is health minister or is education minister.\u201d\nBut now Mr Cameron is taking a much closer interest in political developments"],
+"snippet_char": [
+78,
+86
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"4136",
+"4144"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" Europe in Bruges. She is also a close friend of Nick Clegg, UK deputy prime minister, from his Brussels days.\nChris Heaton-Harris, a former Tory MEP who now sits"],
+"snippet_char": [
+78,
+86
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"197",
+"205"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" series Borgen. \u201cGod no,\u201d he said. \u201cIt\u2019s just whether Morgen Schmorgen is health minister or is education minister.\u201d\nBut now Mr Cameron is taking a much closer interest"],
+"snippet_char": [
+81,
+89
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"703",
+"711"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" jobs in Brussels when they are carved up this year.\nFor the British prime minister it is essential that the next European Commission is run by a reform-minded,"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"4586",
+"4594"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" She ended 10 years of centre-right rule in Denmark when she became prime minister in 2011,  a rare centre-left victory in an age of European austerity.\nHer battle"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"1559",
+"1567"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" Aberavon this week, his wife was discussing ways to help the Conservative prime minister resolve his European dilemma.\nThe meeting in The Hague was described by Danish"],
+"snippet_char": [
+82,
+90
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"1270",
+"1278"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" anathema to Mr Cameron but there is one exception: the 47-year-old Danish prime minister, who just happens to be the daughter-in-law of Neil Kinnock, the former Labour"],
+"snippet_char": [
+82,
+90
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"6216",
+"6224"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" states. Mr Schulz is not the man for that.\nEnrico Letta, \nformer Italian prime minister\nPros: He impressed David Cameron and other European leaders with his reformist"],
+"snippet_char": [
+82,
+90
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+}
+],
+"prefLabel": ["minister"],
+"sentence": "197",
+"time": "20110101",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/210369",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/221905"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Nick_Clegg",
+"dbp:United_Kingdom"
+]},
+"classes": {"ili": ["i90098"]},
+"climax": 86,
+"event": "ev154",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0#ev154",
+"labels": ["friend"],
+"mentions": [{
+"char": [
+"4098",
+"4104"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" former MEP and attended the College of Europe in Bruges. She is also a close friend of Nick Clegg, UK deputy prime minister, from his Brussels days.\nChris Heaton-Harris,"],
+"snippet_char": [
+79,
+85
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+}],
+"prefLabel": ["friend"],
+"sentence": "4098",
+"time": "20140328",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/212826",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/217500"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Parliament",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Intentionally_create",
+"Subjective_influence"
+],
+"ili": [
+"i36238",
+"i64266",
+"i25212"
+]
+},
+"climax": 85,
+"event": "ev153",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev153",
+"labels": [
+"influence",
+"increase"
+],
+"mentions": [
+{
+"char": [
+"3794",
+"3803"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" 2009.\nMr Cameron\u2019s choice of a candidate could be constrained by the increasing influence of the European Parliament, which might relish the chance to veto a British"],
+"snippet_char": [
+81,
+90
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"3783",
+"3793"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" shake-up in 2009.\nMr Cameron\u2019s choice of a candidate could be constrained by the increasing influence of the European Parliament, which might relish the chance to veto"],
+"snippet_char": [
+82,
+92
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20090101"],
+"prefLabel": ["influence"],
+"sentence": "3794",
+"time": "20090101",
+"topics": [
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/217201"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:David_Cameron",
+"dbp:European_Parliament",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Hindering"],
+"ili": [
+"i28183",
+"i23817"
+]
+},
+"climax": 85,
+"event": "ev152",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev152",
+"labels": ["constrain"],
+"mentions": [{
+"char": [
+"3764",
+"3775"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" last commission shake-up in 2009.\nMr Cameron\u2019s choice of a candidate could be constrained by the increasing influence of the European Parliament, which might relish"],
+"snippet_char": [
+79,
+90
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}],
+"prefLabel": ["constrain"],
+"sentence": "3764",
+"time": "20120901",
+"topics": [
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/210369"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:David_Cameron",
+"dbp:Brussels",
+"dbp:European_Union",
+"dbp:Downing_Street",
+"dbp:Mitchell_County",
+"_North_Carolina",
+"dbp:Chequers"
+]},
+"classes": {"ili": [
+"i25973",
+"i25566"
+]},
+"climax": 67,
+"event": "ev63",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev63",
+"labels": [
+"dispute",
+"discuss"
+],
+"mentions": [
+{
+"char": [
+"695",
+"703"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" Claims that Mr Mitchell called Downing Street police \u201cplebs\u201d are strongly disputed.\nThe prime minister and Mr Mitchell, who is highly rated in Number 10, discussed"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1403",
+"1412"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" summer ministerial reshuffle \u2013 but do not deny that a Brussels posting was discussed.\n\u201cIt\u2019s still a long way off,\u201d said one government official. \u201cTo say that someone"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"775",
+"784"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" disputed.\nThe prime minister and Mr Mitchell, who is highly rated in Number 10, discussed his future career prospects at Chequers in February and the pair followed this"],
+"snippet_char": [
+81,
+90
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"288",
+"297"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" scandals to be offered a new political life in Brussels.\nHe and Mr Cameron have discussed aiming for the EU trade job when the Brussels merry-go-round spins next year"],
+"snippet_char": [
+81,
+90
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20130201"],
+"prefLabel": ["dispute"],
+"sentence": "695",
+"time": "20130201",
+"topics": [
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/210920"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:Mitchell_County",
+"_North_Carolina",
+"dbp:David_Cameron",
+"dbp:Margaret_Thatcher"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Arriving",
+"Manufacturing",
+"Creating",
+"Self_motion",
+"Building",
+"Intentionally_create",
+"Cause_change",
+"Cooking_creation"
+],
+"ili": [
+"i35419",
+"i29854",
+"i34780",
+"i34493",
+"i30008",
+"i30518",
+"i22361",
+"i35418",
+"i29865",
+"i30054"
+]
+},
+"climax": 57,
+"event": "ev54",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev54",
+"labels": ["make"],
+"mentions": [
+{
+"char": [
+"4424",
+"4430"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Brussels a year later.\nBoth Mr Cameron and Mr Mitchell know the danger of making any apparent deals over future European jobs \u2013 not least because political"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1219",
+"1223"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" officials and friends of Mr Mitchell point out that no job offer has been made \u2013 indeed, the former chief whip and international development secretary could"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"422",
+"426"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" merry-go-round spins next year \u2013 in an echo of previous European appointments made by prime ministers suffering pangs of guilt.\nMr Mitchell resigned in October"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2812",
+"2816"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" sold to a European bidder.\nLady Thatcher was sad to see him go, and later made amends by sending him to Brussels as a competition commissioner. He later went"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"prefLabel": ["make"],
+"sentence": "422",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/210920"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Mitchell_County",
+"_North_Carolina",
+"dbp:Leon_Brittan",
+"dbp:United_Kingdom",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["LeavingAnOrganization"],
+"fn": ["Quitting"],
+"ili": [
+"i33602",
+"i33668"
+]
+},
+"climax": 60,
+"event": "ev57",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev57",
+"labels": [
+"resign",
+"become"
+],
+"mentions": [
+{
+"char": [
+"484",
+"492"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" appointments made by prime ministers suffering pangs of guilt.\nMr Mitchell resigned in October after becoming embroiled in the \u201cPlebgate\u201d scandal. But Mr Cameron"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1842",
+"1848"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" political life was revived as EU trade commissioner after he was forced to resign in 2001 over claims that he helped the Indian businessman Srichand Hinduja"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2532",
+"2540"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" hand \u2013 in her case, Leon Brittan, the former industry secretary.\nLord Brittan resigned in the 1986 Westland helicopters affair over the leaking of a letter damaging"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"82",
+"88"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Mitchell has been sounded out by David Cameron on whether he would like to become Britain\u2019s next EU commissioner.\nThe former chief whip is the latest in a line"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"510",
+"518"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" ministers suffering pangs of guilt.\nMr Mitchell resigned in October after becoming embroiled in the \u201cPlebgate\u201d scandal. But Mr Cameron now feels considerable"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20121001"],
+"prefLabel": ["resign"],
+"sentence": "484",
+"time": "20121001",
+"topics": [
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/210920"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:India",
+"dbp:Downing_Street",
+"dbp:Mitchell_County",
+"_North_Carolina"
+]},
+"classes": {
+"fn": ["Statement"],
+"ili": [
+"i71864",
+"i25477",
+"i71868"
+]
+},
+"climax": 63,
+"event": "ev62",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev62",
+"labels": ["claim"],
+"mentions": [
+{
+"char": [
+"621",
+"627"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" scandal. But Mr Cameron now feels considerable remorse about the episode. Claims that Mr Mitchell called Downing Street police \u201cplebs\u201d are strongly disputed.\nThe"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1862",
+"1868"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" revived as EU trade commissioner after he was forced to resign in 2001 over claims that he helped the Indian businessman Srichand Hinduja to obtain a British"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"prefLabel": ["claim"],
+"sentence": "621",
+"time": "20010101",
+"topics": [
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/212826"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Mitchell_County",
+"_North_Carolina"
+]},
+"classes": {
+"fn": ["Cause_to_make_progress"],
+"ili": [
+"i22869",
+"i22871"
+]
+},
+"climax": 85,
+"event": "ev159",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev159",
+"labels": ["enhance"],
+"mentions": [{
+"char": [
+"4004",
+"4012"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" eurosceptic.\nWhile usually considered to be on the right of the Tory party, Mr Mitchell enhanced his international credentials as a strong advocate for foreign aid when he"],
+"snippet_char": [
+89,
+97
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}],
+"prefLabel": ["enhance"],
+"sentence": "4004",
+"time": "20120901",
+"topics": [
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217189"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Liberal_Party_(UK)",
+"dbp:Premiership_of_David_Cameron"
+]},
+"classes": {"ili": ["i36507"]},
+"climax": 73,
+"event": "ev96",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de#ev96",
+"labels": ["veto"],
+"mentions": [
+{
+"char": [
+"1762",
+"1766"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" know that neither candidate could be supported by London \u2013 although he has no veto \u2013 and to steer Ms Merkel towards a more mutually acceptable candidate.\n\u201cThis"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"3725",
+"3729"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" of hours. \nNick Clegg, the Liberal Democrat deputy prime minister \u2013 who can veto Mr Cameron\u2019s choice \u2013 is understood to be happy with the idea of either Mr"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+}
+],
+"prefLabel": ["veto"],
+"sentence": "1762",
+"time": "20130501",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/209284",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/210360",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Liberal_Party_(UK)",
+"dbp:Nick_Clegg",
+"dbp:Premiership_of_David_Cameron"
+]},
+"classes": {
+"fn": [
+"Categorization",
+"Awareness",
+"Grasp"
+],
+"ili": [
+"i24720",
+"i24734",
+"i24731",
+"i24710",
+"i24733"
+]
+},
+"climax": 85,
+"event": "ev145",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de#ev145",
+"labels": ["understand"],
+"mentions": [{
+"char": [
+"3755",
+"3765"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" Liberal Democrat deputy prime minister \u2013 who can veto Mr Cameron\u2019s choice \u2013 is understood to be happy with the idea of either Mr Lansley or Mr Mitchell getting the post."],
+"snippet_char": [
+80,
+90
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+}],
+"prefLabel": ["understand"],
+"sentence": "3755",
+"time": "20140225",
+"topics": [
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/212826",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/209284"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Margaret_Thatcher",
+"dbp:European_Union",
+"dbp:Jacques_Delors"
+]},
+"classes": {
+"eso": ["Injuring"],
+"fn": [
+"Cause_harm",
+"Experiencer_obj",
+"Cause_to_experience"
+],
+"ili": [
+"i30745",
+"i30744"
+]
+},
+"climax": 83,
+"event": "ev141",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0#ev141",
+"labels": [
+"torment",
+"know"
+],
+"mentions": [
+{
+"char": [
+"3274",
+"3283"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" Jacques Delors\u2019s \u201cExocet\u201d: the enforcer for a European Commission president who tormented Margaret Thatcher. Enrico Letta, the former Italian premier, is another candidate"],
+"snippet_char": [
+82,
+91
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+},
+{
+"char": [
+"3185",
+"3190"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" Organisation, is tough and respected but not exactly popular in Tory circles. He was known as Jacques Delors\u2019s \u201cExocet\u201d: the enforcer for a European Commission president"],
+"snippet_char": [
+87,
+92
+],
+"uri": ["http://www.ft.com/thing/a99685f4-b677-11e3-b230-00144feabdc0"]
+}
+],
+"period": ["20140328"],
+"prefLabel": ["torment"],
+"sentence": "3274",
+"time": "20140328",
+"topics": [
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210369",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/212826"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Confederation_of_British_Industry",
+"dbp:John_Cridland",
+"dbp:European_Union"
+]},
+"classes": {"ili": [
+"i81151",
+"i87225"
+]},
+"climax": 74,
+"event": "ev106",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de#ev106",
+"labels": ["leader"],
+"mentions": [
+{
+"char": [
+"2163",
+"2170"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" want to commit firmly to any candidate at this stage, not least because EU leaders are obliged to take note of the results of May\u2019s European elections when choosing"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"3413",
+"3419"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" former Tory chief whip, Michael Fallon, energy minister, or even a business leader such as John Cridland, head of the CBI, the employers\u2019 organisation.\nBut Ladbrokes"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+}
+],
+"prefLabel": ["leader"],
+"sentence": "2163",
+"time": "20130501",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/209284",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210360"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Confederation_of_British_Industry",
+"dbp:Conservative_Party_(UK)",
+"dbp:John_Cridland",
+"dbp:United_Kingdom",
+"dbp:Andrew_Mitchell",
+"dbp:Michael_Fallon"
+]},
+"classes": {
+"eso": ["HavingAValue"],
+"fn": ["Amounting_to"],
+"ili": [
+"i34893",
+"i26340",
+"i63904"
+]
+},
+"climax": 83,
+"event": "ev132",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de#ev132",
+"labels": [
+"number",
+"moot",
+"include"
+],
+"mentions": [
+{
+"char": [
+"3264",
+"3270"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" the next commission, possibly in the area of trade or the single market.\nA number of British candidates have been mooted including Andrew Mitchell, former Tory"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"3303",
+"3309"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" area of trade or the single market.\nA number of British candidates have been mooted including Andrew Mitchell, former Tory chief whip, Michael Fallon, energy minister,"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"3310",
+"3319"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" trade or the single market.\nA number of British candidates have been mooted including Andrew Mitchell, former Tory chief whip, Michael Fallon, energy minister, or"],
+"snippet_char": [
+77,
+86
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+}
+],
+"period": ["20140225"],
+"prefLabel": ["number"],
+"sentence": "3264",
+"time": "20140225",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/209284",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/217500"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:European_Union"
+]},
+"classes": {"ili": ["i67535"]},
+"climax": 82,
+"event": "ev131",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev131",
+"labels": [
+"idea",
+"run"
+],
+"mentions": [
+{
+"char": [
+"2949",
+"2953"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" commissioner. He later went on to take the trade post.\nMr Cameron also likes the idea of a Briton running EU trade policy, which would include the job of trying"],
+"snippet_char": [
+82,
+86
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2966",
+"2973"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" went on to take the trade post.\nMr Cameron also likes the idea of a Briton running EU trade policy, which would include the job of trying to stitch together a"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20130329"],
+"prefLabel": ["idea"],
+"sentence": "2949",
+"time": "20130329",
+"topics": [
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/217201"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:European_Union"
+]},
+"classes": {"ili": [
+"i71461",
+"i67855"
+]},
+"climax": 64,
+"event": "ev72",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev72",
+"labels": ["policy"],
+"mentions": [
+{
+"char": [
+"999",
+"1005"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" current commissioner, Lady Ashton, ends her five-year stint as EU foreign policy chief next year. Nick Clegg and George Osborne are among others touted \u2013 usually"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"3451",
+"3457"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" climate,\u201d said one EU diplomat.\nThe appointment of Lady Ashton as EU foreign policy chief is seen by one ally of Mr Osborne as \u201cone of the greatest foreign policy"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2983",
+"2989"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" the trade post.\nMr Cameron also likes the idea of a Briton running EU trade policy, which would include the job of trying to stitch together a US-Europe free"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"3530",
+"3536"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" policy chief is seen by one ally of Mr Osborne as \u201cone of the greatest foreign policy mistakes of recent years\u201d. The chancellor believes that the former prime minister"],
+"snippet_char": [
+80,
+86
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"prefLabel": ["policy"],
+"sentence": "999",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217201"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Michael_Heseltine",
+"dbp:European_Union",
+"dbp:Leon_Brittan",
+"dbp:Somerset"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": ["Fluidic_motion"],
+"ili": [
+"i24371",
+"i26292"
+]
+},
+"climax": 81,
+"event": "ev118",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev118",
+"labels": [
+"leak",
+"letter",
+"damage"
+],
+"mentions": [
+{
+"char": [
+"2590",
+"2597"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" secretary.\nLord Brittan resigned in the 1986 Westland helicopters affair over the leaking of a letter damaging to Michael Heseltine, the prime minister\u2019s nemesis, who"],
+"snippet_char": [
+83,
+90
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2603",
+"2609"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" Brittan resigned in the 1986 Westland helicopters affair over the leaking of a letter damaging to Michael Heseltine, the prime minister\u2019s nemesis, who was pressing"],
+"snippet_char": [
+80,
+86
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2610",
+"2618"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" resigned in the 1986 Westland helicopters affair over the leaking of a letter damaging to Michael Heseltine, the prime minister\u2019s nemesis, who was pressing the case"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20130329"],
+"prefLabel": ["leak"],
+"sentence": "2590",
+"time": "20130329",
+"topics": [
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/217189"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Germany",
+"dbp:European_Parliament",
+"dbp:European_Union",
+"dbp:European_Conservatives_and_Reformists",
+"dbp:Calvinism",
+"dbp:David_Cameron",
+"dbp:Allison_Cameron",
+"dbp:Conservatism"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Reshaping",
+"Coming_to_be",
+"Creating",
+"Manipulate_into_shape"
+],
+"ili": [
+"i30030",
+"i33966",
+"i34780",
+"i22428",
+"i34792"
+]
+},
+"climax": 45,
+"event": "ev36",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/9bb3a518-f17b-11e3-a2da-00144feabdc0#ev36",
+"labels": ["form"],
+"mentions": [
+{
+"char": [
+"133",
+"137"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+}
+],
+"snippet": [" to come under renewed strain on Thursday, with the Conservatives poised to form an alliance with her opponents, the anti-euro Alternative für Deutschland party.\nThe"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/9bb3a518-f17b-11e3-a2da-00144feabdc0"]
+},
+{
+"char": [
+"795",
+"801"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+}
+],
+"snippet": [" economy, and sees as a centrepiece of his efforts to reform the EU.\nMr Cameron formed the European Conservatives and Reformists (ECR) group in the European Parliament"],
+"snippet_char": [
+80,
+86
+],
+"uri": ["http://www.ft.com/thing/9bb3a518-f17b-11e3-a2da-00144feabdc0"]
+},
+{
+"char": [
+"317",
+"321"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+}
+],
+"snippet": [" views the populist AfD as a political enemy and has urged Mr Cameron not to form a pact with the party in the newly elected European Parliament.\nMr Cameron"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/9bb3a518-f17b-11e3-a2da-00144feabdc0"]
+}
+],
+"prefLabel": ["form"],
+"sentence": "133",
+"time": "20090101",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/222026",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/209671",
+"http://eurovoc.europa.eu/210581"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:Germany",
+"dbp:Allison_Cameron",
+"dbp:Angela_Merkel"
+]},
+"classes": {
+"eso": ["Getting"],
+"fn": ["Win_game"],
+"ili": [
+"i27092",
+"i33174"
+]
+},
+"climax": 69,
+"event": "ev97",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/ee6d8cf8-fac6-11e2-87b9-00144feabdc0#ev97",
+"labels": ["win"],
+"mentions": [
+{
+"char": [
+"2216",
+"2220"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" to deliver the freeze in the EU budget demanded by Tory MPs.\nIf Ms Merkel wins this year\u2019s German elections she will continue to be a key figure, but has"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/ee6d8cf8-fac6-11e2-87b9-00144feabdc0"]
+},
+{
+"char": [
+"2360",
+"2363"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:European_Union"
+}],
+"snippet": [" figure, but has made clear she will not unpick the EU treaty to help Mr Cameron win his proposed referendum.\nMr Cameron also faces hostility from France in his"],
+"snippet_char": [
+81,
+84
+],
+"uri": ["http://www.ft.com/thing/ee6d8cf8-fac6-11e2-87b9-00144feabdc0"]
+},
+{
+"char": [
+"2625",
+"2628"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:François_Hollande"
+}],
+"snippet": [" French president, has told Mr Cameron privately that he will not help him win his proposed European reforms ahead of a referendum.\nReflecting this impasse,"],
+"snippet_char": [
+75,
+78
+],
+"uri": ["http://www.ft.com/thing/ee6d8cf8-fac6-11e2-87b9-00144feabdc0"]
+}
+],
+"prefLabel": ["win"],
+"sentence": "2216",
+"time": "20130101",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Sweden",
+"dbp:Austria",
+"dbp:Germany",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["IntentionalEvent"],
+"fn": [
+"Attempt",
+"Cure"
+],
+"ili": [
+"i39540",
+"i34354"
+]
+},
+"climax": 73,
+"event": "ev103",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/aeee9dfe-6e84-11e5-aca9-d87542bf8673#ev103",
+"labels": ["effort"],
+"mentions": [
+{
+"char": [
+"2282",
+"2289"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" frustration at the UK\u2019s unwillingness to participate more fully in Berlin-led efforts to spread the burden of the migration crisis from the countries taking the"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/aeee9dfe-6e84-11e5-aca9-d87542bf8673"]
+},
+{
+"char": [
+"2779",
+"2785"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" own, and the British prime minister has recently broadened his diplomatic effort to the 26 other European leaders.\nHowever, the two leaders retain considerable"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/aeee9dfe-6e84-11e5-aca9-d87542bf8673"]
+}
+],
+"prefLabel": ["effort"],
+"sentence": "2282",
+"time": "20151002",
+"topics": [
+"http://eurovoc.europa.eu/209284",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/210360",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/217500"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:Germany",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Eventive_cognizer_affecting",
+"Suasion"
+],
+"ili": ["i25542"]
+},
+"climax": 62,
+"event": "ev47",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/5a2f90ea-d183-11e5-986a-62c79fcbcead#ev47",
+"labels": ["convince"],
+"mentions": [{
+"char": [
+"408",
+"417"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Stefan_Wagstyl"
+}],
+"snippet": [" on a reform package at next week\u2019s EU summit. She said on Friday: \u201cWe are convinced that from the German perspective, Great Britain remaining in the European Union"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/5a2f90ea-d183-11e5-986a-62c79fcbcead"]
+}],
+"prefLabel": ["convince"],
+"sentence": "408",
+"time": "20160212",
+"topics": [
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/222026",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/217500"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Germany",
+"dbp:European_Union"
+]},
+"classes": {"ili": [
+"i92217",
+"i92216"
+]},
+"climax": 54,
+"event": "ev56",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de#ev56",
+"labels": ["president"],
+"mentions": [
+{
+"char": [
+"4276",
+"4285"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" to push Europe down a federalist path.\nMARTIN SCHULZ\nThe German socialist president of the European parliament is the PES socialist group\u2019s lead candidate in the"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"5446",
+"5455"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" of European recovery. He says he does not want to be European Commission president, but David Cameron would be glad if he changed his mind. The reform-minded, free"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"1603",
+"1612"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" Ms Merkel may struggle to oppose the candidacy of Martin Schulz, the German president of the parliament.\nMr Cameron\u2019s delicate task will be to let his guest know"],
+"snippet_char": [
+77,
+86
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"292",
+"301"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" Barroso after 2015?\nFor Mr Cameron the choice of the next European Commission president is of paramount importance; he wants a candidate who embodies his vision of"],
+"snippet_char": [
+79,
+88
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+},
+{
+"char": [
+"2011",
+"2020"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" them to discuss the kind of qualities they are looking for in a commission president,\u201d said one British official.\nNeither Mr Cameron nor Ms Merkel will want to"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/55376cda-9e44-11e3-95fe-00144feab7de"]
+}
+],
+"prefLabel": ["president"],
+"sentence": "292",
+"time": "20130501",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/209284"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Germany",
+"dbp:European_Union"
+]},
+"classes": {"ili": ["i74322"]},
+"climax": 81,
+"event": "ev111",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/4f6cb6ce-9b20-11e3-b0d0-00144feab7de#ev111",
+"labels": [
+"bid",
+"ally"
+],
+"mentions": [
+{
+"char": [
+"2497",
+"2500"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Stefan_Wagstyl"
+}],
+"snippet": [" state-led approach, notably France.\nBritain sees Berlin as a possible ally in its bid to change some of the EU\u2019s key treaties because Germany has also spoken of"],
+"snippet_char": [
+83,
+86
+],
+"uri": ["http://www.ft.com/thing/4f6cb6ce-9b20-11e3-b0d0-00144feab7de"]
+},
+{
+"char": [
+"2485",
+"2489"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Stefan_Wagstyl"
+}],
+"snippet": [" favour a state-led approach, notably France.\nBritain sees Berlin as a possible ally in its bid to change some of the EU\u2019s key treaties because Germany has also"],
+"snippet_char": [
+80,
+84
+],
+"uri": ["http://www.ft.com/thing/4f6cb6ce-9b20-11e3-b0d0-00144feab7de"]
+}
+],
+"period": ["20140223"],
+"prefLabel": ["bid"],
+"sentence": "2497",
+"time": "20140223",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/209284",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:Nazi_Germany",
+"dbp:French_Third_Republic"
+]},
+"classes": {
+"eso": ["Arriving"],
+"fn": ["Arriving"],
+"ili": [
+"i31821",
+"i30342"
+]
+},
+"climax": 81,
+"event": "ev107",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40#ev107",
+"labels": [
+"enter",
+"government",
+"race",
+"world",
+"want"
+],
+"mentions": [
+{
+"char": [
+"2508",
+"2513"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" a sale of the Tata Steel plant in Port Talbot, but we also do not want to enter a world of constant subsidies, where we will probably lose a race with the French"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"2607",
+"2618"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" subsidies, where we will probably lose a race with the French and German governments if everyone was given a free rein. \nAnd finally, you either want cheaper prices"],
+"snippet_char": [
+75,
+86
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"2575",
+"2579"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" want to enter a world of constant subsidies, where we will probably lose a race with the French and German governments if everyone was given a free rein. \nAnd"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"2516",
+"2521"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" of the Tata Steel plant in Port Talbot, but we also do not want to enter a world of constant subsidies, where we will probably lose a race with the French and"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"2795",
+"2799"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" businesses, which Leave campaigners claim would happen outside the EU, or you want new tariffs and subsidies. Again, it cannot be both. It is simple economics:"],
+"snippet_char": [
+80,
+84
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"2500",
+"2504"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" support a sale of the Tata Steel plant in Port Talbot, but we also do not want to enter a world of constant subsidies, where we will probably lose a race with"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"2679",
+"2683"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" German governments if everyone was given a free rein. \nAnd finally, you either want cheaper prices for consumers and businesses, which Leave campaigners claim would"],
+"snippet_char": [
+81,
+85
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"3744",
+"3748"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" clear answer for Britain in the global economy.\nI would advise those who want us to leave the EU to get their story straight. It is acceptable to adopt a"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+}
+],
+"period": ["20160406"],
+"prefLabel": ["enter"],
+"sentence": "2508",
+"time": "20160406",
+"topics": [
+"http://eurovoc.europa.eu/211011",
+"http://eurovoc.europa.eu/210997",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/211008",
+"http://eurovoc.europa.eu/221499"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Germany",
+"dbp:Angela_Merkel"
+]},
+"climax": 78,
+"event": "ev79",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/bab02114-7d6b-11e3-a48f-00144feabdc0#ev79",
+"mentions": [{
+"char": [
+"1899",
+"1900"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" people looking for work can\u2019t find it. Look at welfare.\n\u201cAs [German chancellor] Angela Merkel has pointed out, Europe accounts for just over 7 per cent of"],
+"snippet_char": [
+79,
+80
+],
+"uri": ["http://www.ft.com/thing/bab02114-7d6b-11e3-a48f-00144feabdc0"]
+}],
+"prefLabel": ["]"],
+"sentence": "1899",
+"time": "20140115",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210802",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/222042"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Angela_Merkel",
+"dbp:Germany"
+]},
+"classes": {
+"eso": ["BeingLeader"],
+"fn": [
+"Leadership",
+"Adducing"
+],
+"ili": [
+"i26230",
+"i31378"
+]
+},
+"climax": 78,
+"event": "ev80",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/bab02114-7d6b-11e3-a48f-00144feabdc0#ev80",
+"labels": ["point"],
+"mentions": [{
+"char": [
+"1919",
+"1926"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" can\u2019t find it. Look at welfare.\n\u201cAs [German chancellor] Angela Merkel has pointed out, Europe accounts for just over 7 per cent of the world\u2019s population, 25"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/bab02114-7d6b-11e3-a48f-00144feabdc0"]
+}],
+"prefLabel": ["point"],
+"sentence": "1919",
+"time": "20140115",
+"topics": [
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210802"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Donald_Tusk",
+"dbp:European_Council"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": ["Motion"],
+"ili": [
+"i25977",
+"i25814",
+"i25815",
+"i25978"
+]
+},
+"climax": 74,
+"event": "ev75",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/41978582-d46d-11e5-969e-9d801cf5e15b#ev75",
+"labels": ["warn"],
+"mentions": [{
+"char": [
+"1386",
+"1392"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" back Brexit. Donald Tusk, the European Council president brokering the deal, warned leaders on Monday that the break-up risk \u201cwas real\u201d. \u201cHandle with care,\u201d he"],
+"snippet_char": [
+79,
+85
+],
+"uri": ["http://www.ft.com/thing/41978582-d46d-11e5-969e-9d801cf5e15b"]
+}],
+"prefLabel": ["warn"],
+"sentence": "1386",
+"time": "20160215",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/211846",
+"http://eurovoc.europa.eu/212128",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/209933"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:London",
+"en:BeataSzydlo",
+"dbp:Syria_(Roman_province)",
+"dbp:Germany",
+"dbp:Poland",
+"dbp:Angela_Merkel",
+"dbp:Donald_Tusk",
+"dbp:European_Council"
+]},
+"classes": {"ili": ["i81504"]},
+"climax": 79,
+"event": "ev75",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/19018b4e-cbe0-11e5-be0b-b7ece4e953a0#ev75",
+"labels": [
+"series",
+"president",
+"include",
+"follow"
+],
+"mentions": [
+{
+"char": [
+"2070",
+"2076"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" ahead of a crunch meeting on the proposals later in February.\nIt follows a series of talks on Thursday with leaders including European Council president Donald"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/19018b4e-cbe0-11e5-be0b-b7ece4e953a0"]
+},
+{
+"char": [
+"2138",
+"2147"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" follows a series of talks on Thursday with leaders including European Council president Donald Tusk, Chancellor Angela Merkel of Germany and Polish Prime Minister"],
+"snippet_char": [
+79,
+88
+],
+"uri": ["http://www.ft.com/thing/19018b4e-cbe0-11e5-be0b-b7ece4e953a0"]
+},
+{
+"char": [
+"2111",
+"2120"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" proposals later in February.\nIt follows a series of talks on Thursday with leaders including European Council president Donald Tusk, Chancellor Angela Merkel of Germany"],
+"snippet_char": [
+84,
+93
+],
+"uri": ["http://www.ft.com/thing/19018b4e-cbe0-11e5-be0b-b7ece4e953a0"]
+},
+{
+"char": [
+"2060",
+"2067"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" and Denmark ahead of a crunch meeting on the proposals later in February.\nIt follows a series of talks on Thursday with leaders including European Council president"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/19018b4e-cbe0-11e5-be0b-b7ece4e953a0"]
+}
+],
+"period": ["20160204"],
+"prefLabel": ["series"],
+"sentence": "2070",
+"time": "20160204",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221979"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Spain",
+"dbp:Mariano_Rajoy",
+"dbp:Angela_Merkel",
+"dbp:Germany",
+"dbp:Luxembourg",
+"dbp:European_Council",
+"dbp:Brussels",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Merging"],
+"fn": [
+"Attaching",
+"Cause_to_amalgamate",
+"Becoming_a_member"
+],
+"ili": [
+"i28129",
+"i33902",
+"i28152",
+"i34784"
+]
+},
+"climax": 72,
+"event": "ev66",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/28353b66-e1c1-11e3-915b-00144feabdc0#ev66",
+"labels": [
+"join",
+"include"
+],
+"mentions": [
+{
+"char": [
+"1144",
+"1148"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" including Mariano Rajoy of Spain and Angela Merkel, Germany\u2019s chancellor, who will join the Luxembourger for a campaign event in Germany on Friday.\nBut Mr Cameron"],
+"snippet_char": [
+84,
+88
+],
+"uri": ["http://www.ft.com/thing/28353b66-e1c1-11e3-915b-00144feabdc0"]
+},
+{
+"char": [
+"1692",
+"1701"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" discuss the crisis in Ukraine.\nThe allocation of the top jobs in Brussels, including the posts of European Council president and the EU\u2019s foreign affairs chief,"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/28353b66-e1c1-11e3-915b-00144feabdc0"]
+},
+{
+"char": [
+"1061",
+"1070"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Richard_Milne"]
+}
+],
+"snippet": [" 59-year-old Mr Juncker has the support of numerous centre-right prime ministers including Mariano Rajoy of Spain and Angela Merkel, Germany\u2019s chancellor, who will join"],
+"snippet_char": [
+81,
+90
+],
+"uri": ["http://www.ft.com/thing/28353b66-e1c1-11e3-915b-00144feabdc0"]
+}
+],
+"period": ["20140523"],
+"prefLabel": ["join"],
+"sentence": "1144",
+"time": "20140523",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210491",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:France",
+"dbp:Nazi_Germany"
+]},
+"classes": {
+"fn": ["Leadership"],
+"ili": [
+"i79516",
+"i34271"
+]
+},
+"climax": 77,
+"event": "ev84",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/528b21aa-c138-11e2-b93b-00144feab7de#ev84",
+"labels": [
+"government",
+"get"
+],
+"mentions": [
+{
+"char": [
+"1742",
+"1753"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" actually plummeting. Meanwhile, the divisions between the French and German governments \u2013 and between northern and southern Europe \u2013 are getting ever wider. There"],
+"snippet_char": [
+77,
+88
+],
+"uri": ["http://www.ft.com/thing/528b21aa-c138-11e2-b93b-00144feab7de"]
+},
+{
+"char": [
+"1803",
+"1810"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" French and German governments \u2013 and between northern and southern Europe \u2013 are getting ever wider. There also remains a sizeable group of countries that, like Britain,"],
+"snippet_char": [
+80,
+87
+],
+"uri": ["http://www.ft.com/thing/528b21aa-c138-11e2-b93b-00144feab7de"]
+},
+{
+"char": [
+"2935",
+"2938"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" However, both have decided that they need access to the EU single market and, to get it, have had to accept the market\u2019s rules, either wholesale like Norway, or"],
+"snippet_char": [
+82,
+85
+],
+"uri": ["http://www.ft.com/thing/528b21aa-c138-11e2-b93b-00144feab7de"]
+}
+],
+"period": ["20130520"],
+"prefLabel": ["government"],
+"sentence": "1742",
+"time": "20130520",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/213189",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/211846"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Mitchell",
+"_South_Dakota",
+"dbp:Downing_Street"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Cure",
+"Intentionally_create"
+],
+"ili": [
+"i34458",
+"i34456"
+]
+},
+"climax": 74,
+"event": "ev76",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev76",
+"labels": [
+"rehabilitate",
+"point",
+"down",
+"official"
+],
+"mentions": [
+{
+"char": [
+"1309",
+"1322"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" the former chief whip and international development secretary could yet be rehabilitated in a summer ministerial reshuffle \u2013 but do not deny that a Brussels posting"],
+"snippet_char": [
+76,
+89
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1182",
+"1187"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" as possible successors.\nDowning Street officials and friends of Mr Mitchell point out that no job offer has been made \u2013 indeed, the former chief whip and international"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1130",
+"1137"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" are among others touted \u2013 usually by their enemies \u2013 as possible successors.\nDowning Street officials and friends of Mr Mitchell point out that no job offer has"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1145",
+"1154"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" touted \u2013 usually by their enemies \u2013 as possible successors.\nDowning Street officials and friends of Mr Mitchell point out that no job offer has been made \u2013 indeed,"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1463",
+"1471"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" Brussels posting was discussed.\n\u201cIt\u2019s still a long way off,\u201d said one government official. \u201cTo say that someone has been promised a job is wrong.\u201d\nMr Cameron would not"],
+"snippet_char": [
+82,
+90
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20130329"],
+"prefLabel": ["rehabilitate"],
+"sentence": "1309",
+"time": "20130329",
+"topics": [
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217201"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Mitchell",
+"_South_Dakota"
+]},
+"classes": {"ili": ["i90098"]},
+"climax": 68,
+"event": "ev79",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev79",
+"labels": ["friend"],
+"mentions": [
+{
+"char": [
+"2077",
+"2083"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" wrongdoing and Tony Blair was racked with guilt that he had unfairly ousted his friend. Alastair Campbell, his spin doctor, had urged prompt action to avoid a protracted"],
+"snippet_char": [
+81,
+87
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1159",
+"1166"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" usually by their enemies \u2013 as possible successors.\nDowning Street officials and friends of Mr Mitchell point out that no job offer has been made \u2013 indeed, the former"],
+"snippet_char": [
+81,
+88
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"prefLabel": ["friend"],
+"sentence": "1159",
+"time": "20010101",
+"topics": [
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/217189"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"en:LadyAshton",
+"dbp:United_Kingdom"
+]},
+"classes": {"ili": [
+"i116728",
+"i46026"
+]},
+"climax": 71,
+"event": "ev71",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev71",
+"labels": [
+"stint",
+"end"
+],
+"mentions": [
+{
+"char": [
+"979",
+"984"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" days later.\nBritain\u2019s current commissioner, Lady Ashton, ends her five-year stint as EU foreign policy chief next year. Nick Clegg and George Osborne are among"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1713",
+"1718"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" basic salary is almost \u20ac240,000 a year \u2013 to a colleague whose cabinet career ended in unfortunate circumstances.\nPeter Mandelson\u2019s political life was revived"],
+"snippet_char": [
+78,
+83
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"960",
+"964"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" discussion a few days later.\nBritain\u2019s current commissioner, Lady Ashton, ends her five-year stint as EU foreign policy chief next year. Nick Clegg and George"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20140101"],
+"prefLabel": ["stint"],
+"sentence": "979",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/210369",
+"http://eurovoc.europa.eu/210920"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Germany",
+"dbp:France"
+]},
+"classes": {"ili": [
+"i35256",
+"i33207"
+]},
+"climax": 40,
+"event": "ev10",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/7a3aa472-e0f6-3b24-afdb-1aae98562eea#ev10",
+"labels": ["share"],
+"mentions": [{
+"char": [
+"49",
+"55"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Katie_Martin"
+}],
+"snippet": ["The UK is an \u201cimportant partner\u201d to Germany that shares its free-market principles \u201cunlike France\u201d, according to the influential German"],
+"snippet_char": [
+49,
+55
+],
+"uri": ["http://www.ft.com/thing/7a3aa472-e0f6-3b24-afdb-1aae98562eea"]
+}],
+"prefLabel": ["share"],
+"sentence": "49",
+"time": "20160307",
+"topics": [
+"http://eurovoc.europa.eu/222046",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209926",
+"http://eurovoc.europa.eu/222026"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:France",
+"dbp:Germany"
+]},
+"classes": {
+"fn": ["Leadership"],
+"ili": [
+"i34271",
+"i79516",
+"i41300"
+]
+},
+"climax": 62,
+"event": "ev38",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/de4c74b6-97a6-11e2-b7ef-00144feabdc0#ev38",
+"labels": ["government"],
+"mentions": [{
+"char": [
+"419",
+"430"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" from Brussels.\nBut after high-level discussions between the French and German governments, they have decided not to assist the British review. The exercise, launched"],
+"snippet_char": [
+79,
+90
+],
+"uri": ["http://www.ft.com/thing/de4c74b6-97a6-11e2-b7ef-00144feabdc0"]
+}],
+"prefLabel": ["government"],
+"sentence": "419",
+"time": "20120701",
+"topics": [
+"http://www.newsreader-project.eu/ontologies/topic/French+Overseas+Departments",
+"http://eurovoc.europa.eu/210490",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/222046",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"en:LadyAshton",
+"dbp:Brussels",
+"dbp:Gordon_Brown",
+"dbp:Margaret_Thatcher",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": [
+"Giving",
+"Offering"
+],
+"ili": [
+"i33214",
+"i74305",
+"i33216",
+"i34739"
+]
+},
+"climax": 52,
+"event": "ev48",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0#ev48",
+"labels": [
+"offer",
+"job"
+],
+"mentions": [
+{
+"char": [
+"1574",
+"1579"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" been promised a job is wrong.\u201d\nMr Cameron would not be the first premier to offer a ticket on the Brussels gravy train \u2013 a commissioner\u2019s basic salary is almost"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"223",
+"230"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" the latest in a line of ministers who have lost their jobs in scandals to be offered a new political life in Brussels.\nHe and Mr Cameron have discussed aiming for"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"4654",
+"4661"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" Labour ministers \u2013 Geoff Hoon and Patricia Hewitt \u2013 thought they had been offered a Brussels job by Mr Brown only for it to go to Lady Ashton instead. In early"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2378",
+"2383"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" pivotal role in Gordon Brown\u2019s administration.\nMargaret Thatcher also used the offer of a Brussels post to reward a minister she felt had been dealt a bad hand"],
+"snippet_char": [
+80,
+85
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1204",
+"1209"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" successors.\nDowning Street officials and friends of Mr Mitchell point out that no job offer has been made \u2013 indeed, the former chief whip and international development"],
+"snippet_char": [
+87,
+92
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2254",
+"2257"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" Labour peer returned from Brussels in 2008, after four years in the trade job, with his reputation restored, to play a pivotal role in Gordon Brown\u2019s administration.\nMargaret"],
+"snippet_char": [
+75,
+78
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"4673",
+"4676"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" Geoff Hoon and Patricia Hewitt \u2013 thought they had been offered a Brussels job by Mr Brown only for it to go to Lady Ashton instead. In early 2010, both Mr"],
+"snippet_char": [
+75,
+78
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"322",
+"325"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" life in Brussels.\nHe and Mr Cameron have discussed aiming for the EU trade job when the Brussels merry-go-round spins next year \u2013 in an echo of previous European"],
+"snippet_char": [
+76,
+79
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"3200",
+"3203"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" option being discussed is for Britain to try to go for the EU internal market job \u2013 if responsibility for financial services were first carved out into a separate"],
+"snippet_char": [
+79,
+82
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"3015",
+"3018"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" likes the idea of a Briton running EU trade policy, which would include the job of trying to stitch together a US-Europe free trade agreement and deals with"],
+"snippet_char": [
+77,
+80
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"4471",
+"4475"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:David_Cameron"
+}],
+"snippet": [" Mitchell know the danger of making any apparent deals over future European jobs \u2013 not least because political circumstances can change rapidly, leading to"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1200",
+"1203"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" successors.\nDowning Street officials and friends of Mr Mitchell point out that no job offer has been made \u2013 indeed, the former chief whip and international development"],
+"snippet_char": [
+83,
+86
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"4195",
+"4198"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:Mitchell_County,_North_Carolina"
+}],
+"snippet": [" until September.\nMr Mitchell has not yet decided whether he would take the job if offered, but is sounding out allies. If he returns to the cabinet in this"],
+"snippet_char": [
+76,
+79
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"200",
+"204"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" former chief whip is the latest in a line of ministers who have lost their jobs in scandals to be offered a new political life in Brussels.\nHe and Mr Cameron"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1514",
+"1517"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" off,\u201d said one government official. \u201cTo say that someone has been promised a job is wrong.\u201d\nMr Cameron would not be the first premier to offer a ticket on the"],
+"snippet_char": [
+78,
+81
+],
+"uri": ["http://www.ft.com/thing/c06756ae-96d5-11e2-8950-00144feabdc0"]
+}
+],
+"period": ["20080101"],
+"prefLabel": ["offer"],
+"sentence": "223",
+"time": "20080101",
+"topics": [
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/217229",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/210369"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Parliament",
+"dbp:Germany",
+"dbp:Conservative_Party_(UK)",
+"dbp:Christian_Democratic_Union_(Germany)"
+]},
+"classes": {
+"eso": ["Arriving"],
+"fn": ["Arriving"],
+"ili": [
+"i30342",
+"i31821"
+]
+},
+"climax": 48,
+"event": "ev34",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0#ev34",
+"labels": [
+"enter",
+"alliance"
+],
+"mentions": [
+{
+"char": [
+"107",
+"114"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" Angela Merkel were dealt a blow on Thursday after the British Conservatives entered an alliance in the European Parliament with her political opponents, the anti-euro"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0"]
+},
+{
+"char": [
+"2847",
+"2855"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" decision with a swipe at critics in the mainstream German conservative CDU/CSU alliance who have tried to isolate the AfD: \u201cOur successful acceptance is also a success"],
+"snippet_char": [
+80,
+88
+],
+"uri": ["http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0"]
+},
+{
+"char": [
+"118",
+"126"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" Merkel were dealt a blow on Thursday after the British Conservatives entered an alliance in the European Parliament with her political opponents, the anti-euro Alternative"],
+"snippet_char": [
+81,
+89
+],
+"uri": ["http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0"]
+}
+],
+"period": ["20140612"],
+"prefLabel": ["enter"],
+"sentence": "107",
+"time": "20140612",
+"topics": [
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/209523",
+"http://eurovoc.europa.eu/210360"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Brussels",
+"dbp:European_Union",
+"dbp:British_Empire"
+]},
+"classes": {
+"fn": ["Evidence"],
+"ili": [
+"i25765",
+"i67486"
+]
+},
+"climax": 48,
+"event": "ev45",
+"group": "090:[trade agreement]",
+"groupName": "[trade agreement]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40#ev45",
+"labels": [
+"evidence",
+"argue"
+],
+"mentions": [
+{
+"char": [
+"107",
+"115"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": [" no time in arguing that the crisis gripping the steel industry\n is further evidence that Britain should leave the EU \u2014 just as they did while terrorist attacks"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+},
+{
+"char": [
+"42",
+"49"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ian_Livingston"
+}],
+"snippet": ["Brexit campaigners have wasted no time in arguing that the crisis gripping the steel industry\n is further evidence that Britain"],
+"snippet_char": [
+42,
+49
+],
+"uri": ["http://www.ft.com/thing/a5397612-fb47-11e5-8f41-df5bda8beb40"]
+}
+],
+"period": ["20160406"],
+"prefLabel": ["evidence"],
+"sentence": "107",
+"time": "20160406",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/211011",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/211008",
+"http://eurovoc.europa.eu/221499",
+"http://eurovoc.europa.eu/210997"
+]
+}
+],
+"headline": "brexit3",
+"mention_cnt": [144],
+"polls": [
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20140515"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Opinium;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:43:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov/The Times"]
+}],
+"prefLabel": ["38:43:18"],
+"time": "20160201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:38:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:38:22"],
+"time": "20140808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:40:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes"]
+}],
+"prefLabel": ["46:40:14"],
+"time": "20160208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:42:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Survation;BMG Research;ICM"]
+}],
+"prefLabel": ["43:42:14"],
+"time": "20151115"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:45:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes"]
+}],
+"prefLabel": ["35:45:19"],
+"time": "20141122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes;Survation;YouGov"]
+}],
+"prefLabel": ["38:41:20"],
+"time": "20140622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:51:9"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:51:9"],
+"time": "20121122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["44:45:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["44:45:11"],
+"time": "20130601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140522"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130801"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;ICM"]
+}],
+"prefLabel": ["42:39:18"],
+"time": "20151108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["32:53:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["32:53:15"],
+"time": "20130808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20140322"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;YouGov;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20151101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:43:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["33:43:24"],
+"time": "20140108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "13",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:56:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium/Observer"]
+}],
+"prefLabel": ["30:56:14"],
+"time": "20121115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Pew Research Center;Populus;Opinium"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150408"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["38:41:21"],
+"time": "20130215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:48:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;Survation"]
+}],
+"prefLabel": ["34:48:17"],
+"time": "20141101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:43:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["36:43:21"],
+"time": "20130408"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["54:37:10"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["54:37:10"],
+"time": "20140508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ORB;ICM;YouGov"]
+}],
+"prefLabel": ["43:41:14"],
+"time": "20151022"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:46:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["39:46:15"],
+"time": "20140501"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20150608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:43:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["37:43:20"],
+"time": "20131208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:34:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["43:34:21"],
+"time": "20150601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20131008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:42:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["37:42:20"],
+"time": "20141022"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140308"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:40:19"],
+"time": "20141115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ICM"]
+}],
+"prefLabel": ["42:39:19"],
+"time": "20151122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:38:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;GQRR;Ipsos MORI;ICM"]
+}],
+"prefLabel": ["45:38:16"],
+"time": "20151015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["47:38:15"],
+"time": "20150815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:36:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["45:36:19"],
+"time": "20150222"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Panelbase;ICM"]
+}],
+"prefLabel": ["43:41:15"],
+"time": "20160108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:37:20"],
+"time": "20150122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;Panelbase;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20150322"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:38:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:38:21"],
+"time": "20140708"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:40:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["47:40:13"],
+"time": "20150515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:32:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["49:32:18"],
+"time": "20150422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "13",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["60:33:6"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Ipsos MORI"]
+}],
+"prefLabel": ["60:33:6"],
+"time": "20150615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:41:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS BMRB"]
+}],
+"prefLabel": ["30:41:22"],
+"time": "20130201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:39:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:39:17"],
+"time": "20151001"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;ICM/The Guardian;YouGov/The Sun"]
+}],
+"prefLabel": ["34:44:20"],
+"time": "20130508"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:44:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["41:44:15"],
+"time": "20150215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:36:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;TNS-BMRB"]
+}],
+"prefLabel": ["40:36:23"],
+"time": "20150115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:37:19"],
+"time": "20150722"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "10",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["56:36:8"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["56:36:8"],
+"time": "20141008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:46:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Times"]
+}],
+"prefLabel": ["35:46:20"],
+"time": "20130501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20111208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "5",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:35:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:35:20"],
+"time": "20150415"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "8",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:50:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation/Mail on Sunday;YouGov/The Sun"]
+}],
+"prefLabel": ["33:50:16"],
+"time": "20130101"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20150622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:33:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes;YouGov"]
+}],
+"prefLabel": ["49:33:17"],
+"time": "20150522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:46:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:46:19"],
+"time": "20130701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20130708"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:42:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/Sunday Times"]
+}],
+"prefLabel": ["36:42:21"],
+"time": "20130108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:40:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["43:40:17"],
+"time": "20150908"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:40:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB"]
+}],
+"prefLabel": ["37:40:23"],
+"time": "20150108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:39:25"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:39:25"],
+"time": "20140208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:40:19"],
+"time": "20140822"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:40:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["38:40:22"],
+"time": "20150915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["31:46:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;ComRes/Sunday Mirror/Independent;ICM/The Telegraph"]
+}],
+"prefLabel": ["31:46:21"],
+"time": "20130515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:39:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;Ipsos MORI;BMG Research;ComRes;ICM"]
+}],
+"prefLabel": ["45:39:15"],
+"time": "20160122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;Survation"]
+}],
+"prefLabel": ["39:41:18"],
+"time": "20151201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["52:36:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI;ICM;ComRes"]
+}],
+"prefLabel": ["52:36:11"],
+"time": "20151208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;YouGov;BMG Research;ICM;ComRes"]
+}],
+"prefLabel": ["42:41:15"],
+"time": "20160222"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:44:20"],
+"time": "20130922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["35:32:32"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;YouGov/Sunday Times"]
+}],
+"prefLabel": ["35:32:32"],
+"time": "20130115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:38:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:38:19"],
+"time": "20140922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "6",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:34:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["46:34:20"],
+"time": "20130815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20141201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;ICM;YouGov"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "7",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:31:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:31:24"],
+"time": "20130622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;Opinium;Ipsos MORI;TNS"]
+}],
+"prefLabel": ["43:37:19"],
+"time": "20160215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:42:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:42:17"],
+"time": "20151215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:42:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;ICM;Survation"]
+}],
+"prefLabel": ["44:42:13"],
+"time": "20160115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["39:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:37:18"],
+"time": "20160301"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20130522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:47:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["33:47:19"],
+"time": "20100908"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["50:33:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;YouGov"]
+}],
+"prefLabel": ["50:33:15"],
+"time": "20150501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:42:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes"]
+}],
+"prefLabel": ["40:42:18"],
+"time": "20140601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20130915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Financial Times/Harris;Survation/Mail on Sunday;YouGov/Sunday Times;Populus/The Times"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20130122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:37:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["40:37:22"],
+"time": "20140401"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "11",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:52:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:52:19"],
+"time": "20110808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141215"
+}
+],
+"story_cnt": [1],
+"text": "FT-Brexit",
+"type": "default"
+}}

@@ -2,8 +2,10 @@
   'use strict';
 
   function PerspectiveLaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+    this.perspectiveOption = 'sentiment';
+
     this.initializeChart = function() {
-      var customBubbleChart = dc.dyndomBubbleChart('#'+$element[0].children[0].attributes.id.value);
+      this.customBubbleChart = dc.dyndomBubbleChart('#'+$element[0].children[0].attributes.id.value);
 
       //The dimension for the customBubbleChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
@@ -22,36 +24,55 @@
           var keys = Object.keys(v.mentions);
           keys.forEach(function(key) {
             var mention = v.mentions[key];
+            p.climax = (p.climax || 0) + v.climax;
 
             mention.perspective.forEach(function(perspective) {
               var attribution = perspective.attribution;
               var source = perspective.source;
-              p.source = source;
 
-              // var splitSource = perspective.source.split(':');
-              // if (splitSource[0] === 'cite') {
-                p.perspectives = (p.perspectives || 0) + 1;
+              p.sources[source] = (p.sources[source] || 0) + 1;
 
-                var belief = (attribution.belief === 'confirm')? 1 : -1;
-                p.belief[source] = (p.belief[source] || 0) + belief;
+              p.perspectives = (p.perspectives || 0) + 1;
 
-                var certainty = (attribution.certainty === 'confirm')? 1 : -1;
-                p.certainty[source] = (p.certainty[source] || 0) + certainty;
+              var belief = 0;
+              if (attribution.belief === 'confirm') {
+                belief += 1;
+              } else if (attribution.belief === 'deny') {
+                belief -= 1;
+              }
+              p.belief[source] = (p.belief[source] || 0) + belief;
 
-                var possibility = (attribution.possibility === 'confirm')? 1 : -1;
-                p.possibility[source] = (p.possibility[source] || 0) + possibility;
+              var certainty = 0;
+              if (attribution.certainty === 'certain') {
+                certainty += 1;
+              } else if (attribution.certainty === 'uncertain') {
+                certainty -= 1;
+              }
+              p.certainty[source] = (p.certainty[source] || 0) + certainty;
 
-                var sentiment = 0;
-                if (attribution.sentiment === 'positive') {
-                  sentiment += 1;
-                } else if (attribution.sentiment === 'negative') {
-                  sentiment -= 1;
-                }
-                p.sentiment[source] = (p.sentiment[source] || 0) + sentiment;
+              var possibility = 0;
+              if (attribution.possibility === 'likely') {
+                possibility += 1;
+              } else if (attribution.possibility === 'unlikely') {
+                possibility -= 1;
+              }
+              p.possibility[source] = (p.possibility[source] || 0) + possibility;
 
-                var when = (attribution.when === 'confirm')? 1 : -1;
-                p.when[source] = (p.when[source] || 0) + when;
-              // }
+              var sentiment = 0;
+              if (attribution.sentiment === 'positive') {
+                sentiment += 1;
+              } else if (attribution.sentiment === 'negative') {
+                sentiment -= 1;
+              }
+              p.sentiment[source] = (p.sentiment[source] || 0) + sentiment;
+
+              var when = 0;
+              if (attribution.when === 'future') {
+                when += 1;
+              } else if (attribution.when === 'past') {
+                when -= 1;
+              }
+              p.when[source] = (p.when[source] || 0) + when;
             });
           });
 
@@ -63,36 +84,55 @@
           var keys = Object.keys(v.mentions);
           keys.forEach(function(key) {
             var mention = v.mentions[key];
+            p.climax = (p.climax || 0) - v.climax;
 
             mention.perspective.forEach(function(perspective) {
               var attribution = perspective.attribution;
               var source = perspective.source;
-              p.source = source;
 
-              // var splitSource = perspective.source.split(':');
-              // if (splitSource[0] === 'cite') {
-                p.perspectives = (p.perspectives || 0) - 1;
+              p.sources[source] = (p.sources[source] || 0) - 1;
 
-                var belief = (attribution.belief === 'confirm')? 1 : -1;
-                p.belief[source] = (p.belief[source] || 0) - belief;
+              p.perspectives = (p.perspectives || 0) - 1;
 
-                var certainty = (attribution.certainty === 'certain')? 1 : -1;
-                p.certainty[source] = (p.certainty[source] || 0) - certainty;
+              var belief = 0;
+              if (attribution.belief === 'confirm') {
+                belief += 1;
+              } else if (attribution.belief === 'deny') {
+                belief -= 1;
+              }
+              p.belief[source] = (p.belief[source] || 0) - belief;
 
-                var possibility = (attribution.possibility === 'likely')? 1 : -1;
-                p.possibility[source] = (p.possibility[source] || 0) - possibility;
+              var certainty = 0;
+              if (attribution.certainty === 'certain') {
+                certainty += 1;
+              } else if (attribution.certainty === 'uncertain') {
+                certainty -= 1;
+              }
+              p.certainty[source] = (p.certainty[source] || 0) - certainty;
 
-                var sentiment = 0;
-                if (attribution.sentiment === 'positive') {
-                  sentiment += 1;
-                } else if (attribution.sentiment === 'negative') {
-                  sentiment -= 1;
-                }
-                p.sentiment[source] = (p.sentiment[source] || 0) - sentiment;
+              var possibility = 0;
+              if (attribution.possibility === 'likely') {
+                possibility += 1;
+              } else if (attribution.possibility === 'unlikely') {
+                possibility -= 1;
+              }
+              p.possibility[source] = (p.possibility[source] || 0) - possibility;
 
-                var when = (attribution.when === 'now')? 1 : -1;
-                p.when[source] = (p.when[source] || 0) - when;
-              // }
+              var sentiment = 0;
+              if (attribution.sentiment === 'positive') {
+                sentiment += 1;
+              } else if (attribution.sentiment === 'negative') {
+                sentiment -= 1;
+              }
+              p.sentiment[source] = (p.sentiment[source] || 0) - sentiment;
+
+              var when = 0;
+              if (attribution.when === 'future') {
+                when += 1;
+              } else if (attribution.when === 'past') {
+                when -= 1;
+              }
+              p.when[source] = (p.when[source] || 0) - when;
             });
           });
 
@@ -102,7 +142,8 @@
         function() {
           return {
             perspectives: 0,
-            source: '',
+            climax: 0,
+            sources: {},
             belief: {},
             certainty: {},
             possibility: {},
@@ -122,7 +163,7 @@
       });
 
       //Set up the
-      customBubbleChart
+      this.customBubbleChart
       //Sizes in pixels
         .width(parseInt($element[0].getClientRects()[1].width, 10))
         .height(800)
@@ -151,7 +192,7 @@
                 return true;
               } else if (filter[0] <= d[0] && filter[0] >= d[0]) {
                 if (d[1].indexOf(filter[1]) >= 0) {
-                  return true;  
+                  return true;
                 }
               }
             }
@@ -159,7 +200,7 @@
           });
         }
         return filters;
-      }.bind(customBubbleChart))
+      }.bind(this.customBubbleChart))
 
       //The time this chart takes to do its animations.
       .transitionDuration(1500)
@@ -188,104 +229,149 @@
 
       //Radius of the bubble
       .r(d3.scale.linear().domain(
-          [0, d3.max(customBubbleChart.data(), function(e) {
-            return e.value.perspectives;
+          [0, d3.max(this.customBubbleChart.data(), function(e) {
+            return e.value.climax;
           })]))
         .radiusValueAccessor(function(p) {
-          return p.value.perspectives;
+          return p.value.climax;
         })
         .minRadius(2)
         .maxBubbleRelativeSize(0.015)
 
       //Everything related to coloring the bubbles
-      .colors(colorbrewer.RdYlGn[9])
-        // We currently color the bubble using the same values as the radius
+      .colors(colorbrewer.RdBu[9])
         .colorDomain(
           [0, 1])
         .colorAccessor(function(p) {
           if (p.value.perspectives > 0) {
-            return (0.5*p.value.sentiment[p.value.source]) / p.value.perspectives + 0.5;
+            return (0.5*p.value[this.perspectiveOption][p.key[1]]) / p.value.perspectives + 0.5;
           }
           return 0;
-        })
+        }.bind(this))
 
       //Labels printed just above the bubbles
-      .renderLabel(false);
+      .renderLabel(false)
         // .minRadiusWithLabel(0)
         // .label(function(p) {
         //   return '';
         // })
+      .legend(dc.legend().x(400).y(10).itemHeight(13).gap(5))
 
       //Information on hover
-      // .renderTitle(true)
-      //   .title(function(p) {
-      //     var formattedTime = p.key[1].getDay() + '/' + p.key[1].getMonth() + '/' + p.key[1].getFullYear();
-      //
-      //     //Get the events
-      //     var events = Object.keys(p.value.events);
-      //     var eventString = '';
-      //     events.forEach(function(e) {
-      //       eventString += p.value.events[e] + ' : ' + e.toString() + '\n';
-      //     });
-      //
-      //     //Get the actors
-      //     var actors = Object.keys(p.value.actors);
-      //     var actorString = '';
-      //     actors.forEach(function(a) {
-      //       actorString += p.value.actors[a] + ' : ' + a.toString() + '\n';
-      //     });
-      //
-      //     //List all individual labels and their climax scores
-      //     var labels = Object.keys(p.value.labels);
-      //     var labelString = '';
-      //     labels.forEach(function(l) {
-      //       labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
-      //     });
-      //
-      //     var titleString =
-      //       '\n-----Labels-----\n' +
-      //       labelString +
-      //       '\n-----Actors-----\n' +
-      //       actorString +
-      //       '\n-----Time-------\n' +
-      //       formattedTime +
-      //       '\n-----Group------\n' +
-      //       p.key[0];
-      //     return titleString;
-      //   });
+      .renderTitle(true)
+        .title(function(p) {
+          var formattedTime = p.key[0].getDate() + '/' + (p.key[0].getMonth()+1) + '/' + p.key[0].getFullYear() + '\n';
+          var formattedKey = p.key[1] + ' in ' + p.value.sources[p.key[1]]+ ' articles.\n';
+
+          //Get the events
+          var sources = Object.keys(p.value.sources);
+          var sourcesString = '';
+          sources.forEach(function(s) {
+            if (s !== p.key[1]) {
+              sourcesString += s + ' : ' + p.value.sources[s] + '\n';
+            }
+          });
+
+          var belief = p.value.belief[p.key[1]];
+          var beliefString = 'confirm';
+          if (belief < 0) {
+            beliefString = 'deny';
+          }
+
+          var certainty = p.value.certainty[p.key[1]];
+          var certaintyString = 'certain';
+          if (certainty < 0) {
+            certaintyString = 'uncertain';
+          }
+
+          var possibility = p.value.possibility[p.key[1]];
+          var possibilityString = 'likely';
+          if (possibility < 0) {
+            possibilityString = 'unlikely';
+          }
+
+          var sentiment = p.value.sentiment[p.key[1]];
+          var sentimentString = 'neutral';
+          if (sentiment < 0) {
+            sentimentString = 'negative';
+          } else if (sentiment > 0) {
+            sentimentString = 'positive';
+          }
+
+          var when = p.value.when[p.key[1]];
+          var whenString = 'now';
+          if (when < 0) {
+            whenString = 'past';
+          } else if (when > 0) {
+            whenString = 'future';
+          }
+
+
+          // //Get the actors
+          // var actors = Object.keys(p.value.actors);
+          // var actorString = '';
+          // actors.forEach(function(a) {
+          //   actorString += p.value.actors[a] + ' : ' + a.toString() + '\n';
+          // });
+          //
+          // //List all individual labels and their climax scores
+          // var labels = Object.keys(p.value.labels);
+          // var labelString = '';
+          // labels.forEach(function(l) {
+          //   labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
+          // });
+
+          var titleString =
+            formattedTime + '\n' +
+            formattedKey + '\n' +
+            '\n---- Other Sources for this event ----\n' +
+            sourcesString +
+            '\n----- Perspective on this event ------\n' +
+            'belief     : ' + beliefString + '\n' +
+            'certainty  : ' + certaintyString + '\n' +
+            'possibility: ' + possibilityString + '\n' +
+            'sentiment  : ' + sentimentString + '\n' +
+            'when       : ' + whenString + '\n';
+          return titleString;
+        }.bind(this));
 
       //A hack to make the customBubbleChart filter out 0-value bubbles while determining the x-axis range
-      dc.override(customBubbleChart, 'xAxisMin', function() {
-        var min = d3.min(customBubbleChart.data(), function(e) {
-          if (customBubbleChart.radiusValueAccessor()(e) > 0) {
-            return customBubbleChart.keyAccessor()(e);
+      dc.override(this.customBubbleChart, 'xAxisMin', function() {
+        var min = d3.min(this.customBubbleChart.data(), function(e) {
+          if (this.customBubbleChart.radiusValueAccessor()(e) > 0) {
+            return this.customBubbleChart.keyAccessor()(e);
           }
-        });
-        return dc.utils.subtract(min, customBubbleChart.xAxisPadding());
-      });
+        }.bind(this));
+        return dc.utils.subtract(min, this.customBubbleChart.xAxisPadding());
+      }.bind(this));
 
-      dc.override(customBubbleChart, 'xAxisMax', function() {
-        var max = d3.max(customBubbleChart.data(), function(e) {
-          if (customBubbleChart.radiusValueAccessor()(e) > 0) {
-            return customBubbleChart.keyAccessor()(e);
+      dc.override(this.customBubbleChart, 'xAxisMax', function() {
+        var max = d3.max(this.customBubbleChart.data(), function(e) {
+          if (this.customBubbleChart.radiusValueAccessor()(e) > 0) {
+            return this.customBubbleChart.keyAccessor()(e);
           }
-        });
-        return dc.utils.add(max, customBubbleChart.xAxisPadding());
-      });
+        }.bind(this));
+        return dc.utils.add(max, this.customBubbleChart.xAxisPadding());
+      }.bind(this));
 
       //A hack to make the bubbleChart accept ordinal values on the y Axis
-      dc.override(customBubbleChart, '_prepareYAxis', function(g) {
-        this.__prepareYAxis(g);
-        this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
-      });
+      dc.override(this.customBubbleChart, '_prepareYAxis', function(g) {
+        this.customBubbleChart.__prepareYAxis(g);
+        this.customBubbleChart.y().rangeBands([this.customBubbleChart.yAxisHeight(), 0], 0, 1);
+      }.bind(this));
 
 
       // dc.override(customBubbleChart, 'onClick', onClickOverride);
-      customBubbleChart.render();
-    };
+      this.customBubbleChart.render();
+    }.bind(this);
 
     Messagebus.subscribe('crossfilter ready', function() {
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('newPerspectiveOption', function(event, value) {
+      this.perspectiveOption = value;
+      this.customBubbleChart.redraw();
     }.bind(this));
   }
 
