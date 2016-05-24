@@ -165,6 +165,14 @@
     //   return this.symbolScale;
     // };
 
+    this.setActorColors = function(actorColors) {
+      this.actorColors = actorColors;
+    };
+
+    this.getActorColors = function() {
+      return this.actorColors;
+    };
+
     this.setGroupColors = function(groupColors) {
       this.groupColors = groupColors;
     };

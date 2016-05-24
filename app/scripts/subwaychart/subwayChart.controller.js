@@ -174,6 +174,12 @@
         .minRadius(5)
         .maxBubbleRelativeSize(0.015)
 
+      //Use the color scheme of the groupRowChart
+      .colors(HelperFunctions.getActorColors())
+      .colorAccessor(function(d) {
+        return d;
+      })
+
       //Labels printed just above the bubbles
       .renderLabel(true)
         .minRadiusWithLabel(0)

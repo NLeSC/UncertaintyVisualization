@@ -130,6 +130,9 @@
 
       .xAxis().tickValues([]);
 
+      //Set the actor colors in the helperfunctions so we can re-use this color scheme
+      HelperFunctions.setActorColors(allActorChart.colors());
+
       allActorChart.render();
     };
 
