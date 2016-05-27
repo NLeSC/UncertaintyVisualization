@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PerspectiveLaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PerspectiveLaneChartController($window, $element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
     this.perspectiveOption = 'sentiment';
 
     this.initializeChart = function() {
@@ -165,7 +165,7 @@
       //Set up the
       this.customBubbleChart
       //Sizes in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
+        .width($window.innerWidth * (8/12) * (10/12) - 32 - 8)//parseInt($element[0].getClientRects()[1].width, 10))
         .height(800)
         .margins({
           top: 10,

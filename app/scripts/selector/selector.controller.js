@@ -15,21 +15,28 @@
         c1 = 'black';
         c2 = 'white';
       }
-      var myEl = angular.element( document.querySelector( '#inventory-button' ) );
+      var myEl = angular.element( document.querySelector( '#storylines-button' ) );
       myEl.removeClass(c2);
       myEl.addClass(c1);
-      var myEl2 = angular.element( document.querySelector( '#wrangler-button' ) );
+      var myEl2 = angular.element( document.querySelector( '#relations-button' ) );
       myEl2.removeClass(c1);
       myEl2.addClass(c2);
+      var myEl2 = angular.element( document.querySelector( '#perspectives-button' ) );
+      myEl2.removeClass(c1);
+      myEl2.addClass(c2);
+
+      if (newTab === 2) {
+        Messagebus.publish('changingToWrangler');
+      }
     };
 
     $scope.isSet = function(tabNum){
       return $scope.tab === tabNum;
     };
 
-    Messagebus.subscribe('changingToWrangler',function(event) {
-      $scope.setTab(2)
-    }.bind(this));
+    // Messagebus.subscribe('changingToWrangler',function(event) {
+    //   $scope.setTab(2)
+    // }.bind(this));
 
   }
   angular.module('uncertApp.selector')

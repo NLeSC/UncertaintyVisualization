@@ -75,7 +75,7 @@
           left: 0
         })
         .width(parseInt($element[0].getClientRects()[1].width, 10))
-        .height(400)
+        .height(1000)
 
       //A smaller-than-default gap between bars
       .gap(2)

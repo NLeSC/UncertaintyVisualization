@@ -22,7 +22,12 @@
 
 <body ng-app="uncertApp">
 
-  <div class="mdl-grid">
+  <div id="rig-window">
+    <div id="progress-bar"></div>
+    <rig-selector></rig-selector>
+  </div>
+
+  <!-- <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--4-col">
       <div class="logo-vu"></div>
     </div>
@@ -38,12 +43,6 @@
   <breadcrumbs-directive></breadcrumbs-directive>
 
   <div class="mdl-grid myChart">
-    <!-- <div class="mdl-cell mdl-cell--4-col">
-      <poll-row-chart-directive></poll-row-chart-directive>
-    </div>
-    <div class="mdl-cell mdl-cell--8-col">
-      <poll-lane-chart-directive></poll-lane-chart-directive>
-    </div> -->
     <div class="mdl-cell mdl-cell--12-col">
       <poll-chart-directive></poll-chart-directive>
     </div>
@@ -99,7 +98,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
@@ -148,6 +147,13 @@
 
   <script src="scripts/selector/selector.controller.js"></script>
   <script src="scripts/selector/selector.directive.js"></script>
+
+  <script src="scripts/viewstorylines/view.storylines.controller.js"></script>
+  <script src="scripts/viewstorylines/view.storylines.directive.js"></script>
+  <script src="scripts/viewrelations/view.relations.controller.js"></script>
+  <script src="scripts/viewrelations/view.relations.directive.js"></script>
+  <script src="scripts/viewperspectives/view.perspectives.controller.js"></script>
+  <script src="scripts/viewperspectives/view.perspectives.directive.js"></script>
 
   <script src="scripts/allactorchart/allActorChart.controller.js"></script>
   <script src="scripts/allactorchart/allActorChart.directive.js"></script>

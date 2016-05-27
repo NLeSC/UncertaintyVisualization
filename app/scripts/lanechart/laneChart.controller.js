@@ -109,7 +109,7 @@
       customBubbleChart
       //Sizes in pixels
         .width(parseInt($element[0].getClientRects()[1].width, 10))
-        .height(400)
+        .height(1000)
         .margins({
           top: 10,
           right: 0,

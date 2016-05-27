@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function AllActorChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function AllActorChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       //A rowChart that shows us the importance of the all actors
       var allActorChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
@@ -76,8 +76,8 @@
       //Set up the
       allActorChart
       //Size in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
-        .height(400)
+        .width($window.innerWidth * (8/12) * (2/12) - 32)//parseInt($element[0].getClientRects()[1].width, 10))
+        .height(1000)
         .margins({
           top: 10,
           right: 2,
@@ -98,7 +98,7 @@
       //The x Axis
       .x(d3.scale.linear())
       .data(function(d) {
-        return d.top(20);
+        return d.top(50);
       })
 
       .gap(1)
@@ -136,9 +136,13 @@
       allActorChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    Messagebus.subscribe('changingToWrangler',function(event) {
       this.initializeChart();
     }.bind(this));
+
+    // Messagebus.subscribe('crossfilter ready', function() {
+    //   this.initializeChart();
+    // }.bind(this));
   }
 
   angular.module('uncertApp.allactorchart').controller('AllActorChartController', AllActorChartController);

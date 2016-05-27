@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function AllCitationsChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function AllCitationsChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       //A rowChart that shows us the importance of the all Citations
       var allCitationsChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
@@ -76,7 +76,7 @@
       //Set up the
       allCitationsChart
       //Size in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
+        .width($window.innerWidth * (8/12) * (2/12) - 32)//parseInt($element[0].getClientRects()[1].width, 10))
         .height(400)
         .margins({
           top: 10,

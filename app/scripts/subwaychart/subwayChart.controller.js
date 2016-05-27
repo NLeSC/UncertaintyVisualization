@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function SubwayChartController($scope, $element, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
+  function SubwayChartController($scope, $window, $element, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
     var mentionToTxt = function(d) {
       var raw = d.mentions;
 
@@ -94,8 +94,8 @@
       //Set up the
       subwayChart
       //Sizes in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
-        .height(400)
+        .width($window.innerWidth * (8/12) * (10/12) - 32 - 8)//parseInt($element[0].getClientRects()[1].width, 10))
+        .height(1000)
         .margins({
           top: 10,
           right: 0,
