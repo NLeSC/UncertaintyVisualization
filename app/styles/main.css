@@ -163,7 +163,7 @@ g.node.selected {
 }
 
 table{
-    width: 200px;
+    width: 600px;
 }
 
 th, td {
@@ -172,15 +172,15 @@ th, td {
 }
 
 .col_0 {
-  width: 35px;
+  width: 30px;
 }
 
 .col_1 {
-  width: 125px;
+  width: 100px;
 }
 
 .col_2 {
-    width: 200px;
+    width: 370px;
 }
 
 .radio-parent {
@@ -189,4 +189,10 @@ th, td {
 
 .radio-child {
     margin: auto;
+}
+
+p {
+    font-size: 10px;
+    margin: 0 0 10px;
+    line-height: 1px;
 }

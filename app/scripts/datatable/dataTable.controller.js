@@ -21,7 +21,7 @@
       });
       var html = '';
       result.forEach(function(phrase) {
-        html += phrase.source + '</br>';
+        html += '<p>' + phrase.source + '</p><p></br></p>';
       });
       return html;
     };
@@ -35,7 +35,7 @@
         var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
 
 
-        html += pre + '<span class=\'highlighted-mention\'>' + word + '</span>' + post + '</br>';
+        html += '<p>' + pre + '<span class=\'highlighted-mention\'>' + word + '</span></p><p>' + post + '</p>';
       }.bind(this));
       return html;
     };

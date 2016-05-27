@@ -30,6 +30,7 @@
       'ngSanitize',
       'ngTouch',
       'ui.bootstrap',
+      'uncertApp.selector',
       'uncertApp.fileLoading',
       // 'uncertApp.punchcard',
       'uncertApp.breadcrumbs',
@@ -62,6 +63,7 @@
   angular.module('uncertApp.templates', []);
   angular.module('uncertApp.utils', ['uncertApp.templates']);
 
+  angular.module('uncertApp.selector', ['uncertApp.utils']);
   angular.module('uncertApp.ndx', ['uncertApp.crossfilter','uncertApp.utils']);
   angular.module('uncertApp.allactorchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.subwaychart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);

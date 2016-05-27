@@ -394,8 +394,6 @@ dc.subwayChart = function (parent, chartGroup) {
               }
               currentSegment = currentSegment.nextSegment;
             }
-          } else if (!d.source.visible && d.target.visible) {
-            console.log('update source not visible: ' + d.source);
           }
         })
         .attr('stroke-opacity', function (d) {
