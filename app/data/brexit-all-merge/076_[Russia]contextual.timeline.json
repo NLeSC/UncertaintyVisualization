@@ -4,8 +4,8 @@
 "event_cnt": [1],
 "events": [{
 "actors": {"actor:": [
-"dbp:10_Downing_Street",
-"dbp:Conservative_Party_(UK)"
+"dbp:Conservative_Party_(UK)",
+"dbp:10_Downing_Street"
 ]},
 "classes": {
 "fn": ["Success_or_failure"],
@@ -108,7 +108,7 @@
 "http://eurovoc.europa.eu/222799"
 ]
 }],
-"headline": "brexit3",
+"headline": "brexit4-ne",
 "mention_cnt": [2],
 "polls": [
 {

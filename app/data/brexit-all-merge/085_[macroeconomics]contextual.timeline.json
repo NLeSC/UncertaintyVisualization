@@ -1,7 +1,7 @@
 { "timeline":
 {
-"actor_cnt": [4],
-"event_cnt": [5],
+"actor_cnt": [11],
+"event_cnt": [9],
 "events": [
 {
 "actors": {"actor:": [
@@ -9,27 +9,87 @@
 "dbp:British_Empire"
 ]},
 "classes": {
-"eso": ["Placing"],
-"fn": [
-"Placing",
-"Causation"
-],
+"fn": ["Judgment"],
 "ili": [
-"i29197",
-"i26493"
+"i33017",
+"i64140",
+"i25180"
 ]
 },
-"climax": 78,
-"event": "ev85",
+"climax": 85,
+"event": "ev133",
 "group": "085:[macroeconomics]",
 "groupName": "[macroeconomics]",
 "groupScore": "085",
-"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev85",
-"labels": ["put"],
+"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev133",
+"labels": ["importance"],
 "mentions": [{
 "char": [
-"1982",
-"1986"
+"3786",
+"3796"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "author:Chris_Giles"
+}],
+"snippet": [" financial market volatility.\u201d\nAlthough Vote Leave campaigners have downplayed the importance of the EU single market for Britain\u2019s prosperity, the fund also thinks otherwise."],
+"snippet_char": [
+84,
+94
+],
+"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
+}],
+"prefLabel": ["importance"],
+"sentence": "3786",
+"time": "20160412",
+"topics": [
+"http://eurovoc.europa.eu/212199",
+"http://eurovoc.europa.eu/212418",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213197",
+"http://eurovoc.europa.eu/211124",
+"http://eurovoc.europa.eu/223342"
+]
+},
+{
+"actors": {"actor:": [
+"ne:from_the_bloc",
+"dbp:British_Empire",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Leaving"],
+"fn": [
+"Quitting",
+"Departing",
+"Setting_out"
+],
+"ili": [
+"i33672",
+"i31809",
+"i30954",
+"i75403",
+"i35634"
+]
+},
+"climax": 53,
+"event": "ev36",
+"group": "085:[macroeconomics]",
+"groupName": "[macroeconomics]",
+"groupScore": "085",
+"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev36",
+"labels": ["departure"],
+"mentions": [
+{
+"char": [
+"2149",
+"2158"
 ],
 "perspective": [{
 "attribution": {
@@ -41,27 +101,116 @@
 },
 "source": "author:Chris_Giles"
 }],
-"snippet": [" 0.3 percentage points off Britain\u2019s forecast growth in 2016, which it now puts at only 1.9 per cent.\nThe fund envisages that a vote in June to leave the EU"],
+"snippet": [" reduce global growth, which would also hit Britain. Citing Britain\u2019s potential departure from the EU as one of the main global risks, it added that, \u201cmaterialisation"],
 "snippet_char": [
-76,
-80
+81,
+90
+],
+"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"188",
+"197"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" votes to leave the EU in its June 23 \nreferendum.\nThe fund said a British departure from the bloc threatened to impose \u201csevere\u201d damage on the UK and the world"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
+}
+],
+"prefLabel": ["departure"],
+"sentence": "188",
+"time": "20160623",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223342",
+"http://eurovoc.europa.eu/212418",
+"http://eurovoc.europa.eu/213197",
+"http://eurovoc.europa.eu/212199",
+"http://eurovoc.europa.eu/211124"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:British_Empire",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Perception_experience",
+"Perception_active",
+"Appearance"
+],
+"ili": [
+"i67117",
+"i32719",
+"i66947",
+"i32725",
+"i32713",
+"i27597",
+"i76146",
+"i32726"
+]
+},
+"climax": 71,
+"event": "ev63",
+"group": "085:[macroeconomics]",
+"groupName": "[macroeconomics]",
+"groupScore": "085",
+"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev63",
+"labels": ["taste"],
+"mentions": [{
+"char": [
+"962",
+"967"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:George_Osborne"
+}],
+"snippet": [" possibility\u201d.\n\u201cThe IMF has given us the clearest independent warning of the taste of bad things to come if Britain leaves the EU,\u201d said George Osborne, the UK"],
+"snippet_char": [
+77,
+82
 ],
 "uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
 }],
-"prefLabel": ["put"],
-"sentence": "1982",
-"time": "20160101",
+"prefLabel": ["taste"],
+"sentence": "962",
+"time": "20150623",
 "topics": [
-"http://eurovoc.europa.eu/211124",
-"http://eurovoc.europa.eu/212199",
-"http://eurovoc.europa.eu/223342",
 "http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211124",
 "http://eurovoc.europa.eu/213197",
+"http://eurovoc.europa.eu/223342",
+"http://eurovoc.europa.eu/212199",
 "http://eurovoc.europa.eu/212418"
 ]
 },
 {
 "actors": {"actor:": [
+"ne:the_referendum",
+"ne:the_fund",
+"ne:in_june",
 "dbp:European_Union",
 "dbp:British_Empire"
 ]},
@@ -92,9 +241,9 @@
 "certainty": "certain",
 "possibility": "likely",
 "sentiment": "neutral",
-"when": "now"
+"when": "future"
 },
-"source": "author:Chris_Giles"
+"source": "cite:FT-Brexit"
 }],
 "snippet": [" forecast growth in 2016, which it now puts at only 1.9 per cent.\nThe fund envisages that a vote in June to leave the EU would reduce global growth, which would"],
 "snippet_char": [
@@ -138,7 +287,7 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Chris_Giles"
+"source": "cite:FT-Brexit"
 }],
 "snippet": [" bloc threatened to impose \u201csevere\u201d damage on the UK and the world economy, citing the referendum as one of the main risks to world economic stability.\nAlthough"],
 "snippet_char": [
@@ -163,41 +312,33 @@
 },
 {
 "actors": {"actor:": [
+"ne:in_june",
 "dbp:European_Union",
 "dbp:British_Empire",
-"dbp:International_Monetary_Fund",
-"dbp:Government_of_the_United_Kingdom"
+"ne:the_fund"
 ]},
 "classes": {
-"eso": ["Leaving"],
+"eso": ["Placing"],
 "fn": [
-"Quitting",
-"Departing",
-"Setting_out"
+"Placing",
+"Causation"
 ],
 "ili": [
-"i33672",
-"i31809",
-"i30954",
-"i75403",
-"i35634"
+"i29197",
+"i26493"
 ]
 },
-"climax": 53,
-"event": "ev36",
+"climax": 78,
+"event": "ev85",
 "group": "085:[macroeconomics]",
 "groupName": "[macroeconomics]",
 "groupScore": "085",
-"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev36",
-"labels": [
-"departure",
-"warn"
-],
-"mentions": [
-{
+"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev85",
+"labels": ["put"],
+"mentions": [{
 "char": [
-"2149",
-"2158"
+"1982",
+"1986"
 ],
 "perspective": [{
 "attribution": {
@@ -205,258 +346,117 @@
 "certainty": "certain",
 "possibility": "likely",
 "sentiment": "neutral",
-"when": "now"
+"when": "future"
 },
-"source": "author:Chris_Giles"
+"source": "cite:FT-Brexit"
 }],
-"snippet": [" reduce global growth, which would also hit Britain. Citing Britain\u2019s potential departure from the EU as one of the main global risks, it added that, \u201cmaterialisation"],
-"snippet_char": [
-81,
-90
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-},
-{
-"char": [
-"188",
-"197"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Chris_Giles"
-}],
-"snippet": [" votes to leave the EU in its June 23 \nreferendum.\nThe fund said a British departure from the bloc threatened to impose \u201csevere\u201d damage on the UK and the world"],
-"snippet_char": [
-75,
-84
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-},
-{
-"char": [
-"36",
-"42"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "negative",
-"when": "now"
-},
-"source": "author:Chris_Giles"
-}],
-"snippet": ["The International Monetary Fund has warned that Britain\u2019s economy will suffer, as will other countries, if the UK votes"],
-"snippet_char": [
-36,
-42
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-}
-],
-"period": ["20160623"],
-"prefLabel": ["departure"],
-"sentence": "188",
-"time": "20160623",
-"topics": [
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/223342",
-"http://eurovoc.europa.eu/212418",
-"http://eurovoc.europa.eu/213197",
-"http://eurovoc.europa.eu/212199",
-"http://eurovoc.europa.eu/211124"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:International_Monetary_Fund",
-"dbp:British_Empire",
-"dbp:European_Union"
-]},
-"classes": {
-"fn": [
-"Perception_experience",
-"Perception_active",
-"Appearance"
-],
-"ili": [
-"i67117",
-"i32719",
-"i66947",
-"i32725",
-"i32713",
-"i27597",
-"i76146",
-"i32726"
-]
-},
-"climax": 71,
-"event": "ev63",
-"group": "085:[macroeconomics]",
-"groupName": "[macroeconomics]",
-"groupScore": "085",
-"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev63",
-"labels": [
-"taste",
-"give",
-"warning"
-],
-"mentions": [
-{
-"char": [
-"962",
-"967"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:George_Osborne"
-}],
-"snippet": [" possibility\u201d.\n\u201cThe IMF has given us the clearest independent warning of the taste of bad things to come if Britain leaves the EU,\u201d said George Osborne, the UK"],
-"snippet_char": [
-77,
-82
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-},
-{
-"char": [
-"913",
-"918"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:George_Osborne"
-}],
-"snippet": [" described a vote on June 23 to leave the EU as a \u201creal possibility\u201d.\n\u201cThe IMF has given us the clearest independent warning of the taste of bad things to come if Britain"],
-"snippet_char": [
-83,
-88
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-},
-{
-"char": [
-"4281",
-"4285"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Chris_Giles"
-}],
-"snippet": [" warnings of global risks and policy errors countries are making. Rarely does it give such a stark warning to an individual country, however.\nBritain had to \u201cgo cap"],
-"snippet_char": [
-82,
-86
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-},
-{
-"char": [
-"947",
-"954"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:George_Osborne"
-}],
-"snippet": [" EU as a \u201creal possibility\u201d.\n\u201cThe IMF has given us the clearest independent warning of the taste of bad things to come if Britain leaves the EU,\u201d said George Osborne,"],
+"snippet": [" 0.3 percentage points off Britain\u2019s forecast growth in 2016, which it now puts at only 1.9 per cent.\nThe fund envisages that a vote in June to leave the EU"],
 "snippet_char": [
 76,
-83
+80
 ],
 "uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-},
-{
-"char": [
-"4299",
-"4306"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Chris_Giles"
 }],
-"snippet": [" and policy errors countries are making. Rarely does it give such a stark warning to an individual country, however.\nBritain had to \u201cgo cap in hand\u201d to the IMF"],
-"snippet_char": [
-75,
-82
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-},
-{
-"char": [
-"4201",
-"4209"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Chris_Giles"
-}],
-"snippet": [" specialisation,\u201d it says.\nOne of the main purposes of the IMF is to provide early warnings of global risks and policy errors countries are making. Rarely does it give"],
-"snippet_char": [
-84,
-92
-],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
-}
-],
-"period": ["20150623"],
-"prefLabel": ["taste"],
-"sentence": "962",
-"time": "20150623",
+"prefLabel": ["put"],
+"sentence": "1982",
+"time": "20160101",
 "topics": [
-"http://eurovoc.europa.eu/221975",
 "http://eurovoc.europa.eu/211124",
-"http://eurovoc.europa.eu/213197",
-"http://eurovoc.europa.eu/223342",
 "http://eurovoc.europa.eu/212199",
+"http://eurovoc.europa.eu/223342",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213197",
 "http://eurovoc.europa.eu/212418"
 ]
 },
 {
 "actors": {"actor:": [
+"dbp:Government_of_China",
+"ne:to_shift_demand_from_exports_to_domestic_consumption"
+]},
+"classes": {
+"eso": ["BeingInExistence"],
+"fn": [
+"Existence",
+"Commitment"
+],
+"ili": [
+"i25981",
+"i35141"
+]
+},
+"climax": 76,
+"event": "ev89",
+"group": "085:[macroeconomics]",
+"groupName": "[macroeconomics]",
+"groupScore": "085",
+"instance": "http://www.ft.com/thing/dac4c21a-c45f-11e5-b3b1-7b2481276e45#ev89",
+"labels": [
+"threaten",
+"undermine"
+],
+"mentions": [
+{
+"char": [
+"1640",
+"1651"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Chris_Giles"
+}],
+"snippet": [" escaped from China in 2015, putting downward pressure on the renminbi and threatening to undermine Beijing\u2019s efforts to shift demand from exports to domestic consumption."],
+"snippet_char": [
+75,
+86
+],
+"uri": ["http://www.ft.com/thing/dac4c21a-c45f-11e5-b3b1-7b2481276e45"]
+},
+{
+"char": [
+"1655",
+"1664"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Chris_Giles"
+}],
+"snippet": [" China in 2015, putting downward pressure on the renminbi and threatening to undermine Beijing\u2019s efforts to shift demand from exports to domestic consumption. The"],
+"snippet_char": [
+77,
+86
+],
+"uri": ["http://www.ft.com/thing/dac4c21a-c45f-11e5-b3b1-7b2481276e45"]
+}
+],
+"period": ["20150101"],
+"prefLabel": ["threaten"],
+"sentence": "1640",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212811",
+"http://eurovoc.europa.eu/222858",
+"http://eurovoc.europa.eu/217005",
+"http://eurovoc.europa.eu/217045"
+]
+},
+{
+"actors": {"actor:": [
+"ne:powers",
 "dbp:European_Union",
 "dbp:British_Empire"
 ]},
@@ -464,25 +464,26 @@
 "fn": ["Judgment"],
 "ili": [
 "i33017",
-"i64140",
-"i25180"
+"i25180",
+"i64140"
 ]
 },
-"climax": 85,
-"event": "ev133",
+"climax": 60,
+"event": "ev49",
 "group": "085:[macroeconomics]",
 "groupName": "[macroeconomics]",
 "groupScore": "085",
-"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev133",
+"instance": "http://www.ft.com/thing/450811b2-eff5-11e4-ab73-00144feab7de#ev49",
 "labels": [
 "importance",
-"downplay"
+"give",
+"return"
 ],
 "mentions": [
 {
 "char": [
-"3786",
-"3796"
+"335",
+"345"
 ],
 "perspective": [{
 "attribution": {
@@ -492,19 +493,19 @@
 "sentiment": "positive",
 "when": "now"
 },
-"source": "author:Chris_Giles"
+"source": "author:Wolfgang_M?nchau"
 }],
-"snippet": [" financial market volatility.\u201d\nAlthough Vote Leave campaigners have downplayed the importance of the EU single market for Britain\u2019s prosperity, the fund also thinks otherwise."],
+"snippet": [" Yet British voters do not return these attentions. Astonishingly, given the importance of this Thursday\u2019s elections for Britain\u2019s future in the EU, Europe has played"],
 "snippet_char": [
-84,
-94
+77,
+87
 ],
-"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
+"uri": ["http://www.ft.com/thing/450811b2-eff5-11e4-ab73-00144feab7de"]
 },
 {
 "char": [
-"3771",
-"3781"
+"325",
+"330"
 ],
 "perspective": [{
 "attribution": {
@@ -514,32 +515,214 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Chris_Giles"
+"source": "author:Wolfgang_M?nchau"
 }],
-"snippet": [" increasing financial market volatility.\u201d\nAlthough Vote Leave campaigners have downplayed the importance of the EU single market for Britain\u2019s prosperity, the fund also"],
+"snippet": [" eurozone. Yet British voters do not return these attentions. Astonishingly, given the importance of this Thursday\u2019s elections for Britain\u2019s future in the EU,"],
 "snippet_char": [
-80,
-90
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/450811b2-eff5-11e4-ab73-00144feab7de"]
+},
+{
+"char": [
+"2655",
+"2664"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Wolfgang_M?nchau"
+}],
+"snippet": [" with social democrats and socialists in continental Europe, is support for returning certain EU powers to national parliaments. \nSo what happens if Labour wins?"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/450811b2-eff5-11e4-ab73-00144feab7de"]
+},
+{
+"char": [
+"285",
+"291"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Wolfgang_M?nchau"
+}],
+"snippet": [" ahead of a sudden Greek exit from the eurozone. Yet British voters do not return these attentions. Astonishingly, given the importance of this Thursday\u2019s elections"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/450811b2-eff5-11e4-ab73-00144feab7de"]
+}
+],
+"period": ["20150430"],
+"prefLabel": ["importance"],
+"sentence": "335",
+"time": "20150430",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/214398",
+"http://eurovoc.europa.eu/212449",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/217432"
+]
+},
+{
+"actors": {"actor:": [
+"ne:world",
+"dbp:Government_of_the_United_Kingdom",
+"ne:from_the_bloc",
+"dbp:British_Empire"
+]},
+"classes": {
+"eso": ["BeingInExistence"],
+"fn": [
+"Existence",
+"Commitment"
+],
+"ili": [
+"i35141",
+"i25981",
+"i25983"
+]
+},
+"climax": 55,
+"event": "ev37",
+"group": "085:[macroeconomics]",
+"groupName": "[macroeconomics]",
+"groupScore": "085",
+"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev37",
+"labels": ["threaten"],
+"mentions": [{
+"char": [
+"212",
+"222"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" in its June 23 \nreferendum.\nThe fund said a British departure from the bloc threatened to impose \u201csevere\u201d damage on the UK and the world economy, citing the referendum"],
+"snippet_char": [
+77,
+87
+],
+"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
+}],
+"prefLabel": ["threaten"],
+"sentence": "212",
+"time": "20160623",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223342",
+"http://eurovoc.europa.eu/211124",
+"http://eurovoc.europa.eu/213197",
+"http://eurovoc.europa.eu/212199",
+"http://eurovoc.europa.eu/212418"
+]
+},
+{
+"actors": {"actor:": [
+"ne:world",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"eso": ["Damaging"],
+"fn": ["Damaging"],
+"ili": [
+"i23012",
+"i75709"
+]
+},
+"climax": 54,
+"event": "ev39",
+"group": "085:[macroeconomics]",
+"groupName": "[macroeconomics]",
+"groupScore": "085",
+"instance": "http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62#ev39",
+"labels": ["damage"],
+"mentions": [
+{
+"char": [
+"242",
+"248"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" fund said a British departure from the bloc threatened to impose \u201csevere\u201d damage on the UK and the world economy, citing the referendum as one of the main risks"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"771",
+"777"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Maurice_Obstfeld"
+}],
+"snippet": [" uncertainty for investors, [and] a Brexit could do severe regional and global damage by disrupting established trading relationships\u201d.\nHe described a vote on June"],
+"snippet_char": [
+79,
+85
 ],
 "uri": ["http://www.ft.com/thing/ad066f38-008f-11e6-ac98-3c15a1aa2e62"]
 }
 ],
-"period": ["20160412"],
-"prefLabel": ["importance"],
-"sentence": "3786",
-"time": "20160412",
+"prefLabel": ["damage"],
+"sentence": "242",
+"time": "20160601",
 "topics": [
-"http://eurovoc.europa.eu/212199",
-"http://eurovoc.europa.eu/212418",
-"http://eurovoc.europa.eu/221975",
 "http://eurovoc.europa.eu/213197",
+"http://eurovoc.europa.eu/223342",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212199",
 "http://eurovoc.europa.eu/211124",
-"http://eurovoc.europa.eu/223342"
+"http://eurovoc.europa.eu/212418"
 ]
 }
 ],
-"headline": "brexit3",
-"mention_cnt": [15],
+"headline": "brexit4-ne",
+"mention_cnt": [17],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

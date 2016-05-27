@@ -1,7 +1,7 @@
 { "timeline":
 {
-"actor_cnt": [5],
-"event_cnt": [3],
+"actor_cnt": [3],
+"event_cnt": [2],
 "events": [
 {
 "actors": {"actor:": [
@@ -148,96 +148,10 @@
 "http://eurovoc.europa.eu/216992",
 "http://eurovoc.europa.eu/216970"
 ]
-},
-{
-"actors": {"actor:": [
-"dbp:Jean_Monnet",
-"dbp:European_Union"
-]},
-"classes": {
-"fn": [
-"Certainty",
-"Awareness"
-],
-"ili": [
-"i25306",
-"i25161",
-"i88524",
-"i88521"
-]
-},
-"climax": 79,
-"event": "ev109",
-"group": "082:[free-trade agreement]",
-"groupName": "[free-trade agreement]",
-"groupScore": "082",
-"instance": "http://www.ft.com/thing/952d184a-5e61-11e2-a771-00144feab49a#ev109",
-"labels": [
-"believer",
-"cry"
-],
-"mentions": [
-{
-"char": [
-"2261",
-"2270"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Douglas_Carswell"
-}],
-"snippet": [" to trade with the wider world.\n\u201cA new deal can\u2019t be done!\u201d cry the diehard believers in Jean Monnet\u2019s grand projet for European unity. \u201cIf we aren\u2019t full members,"],
-"snippet_char": [
-76,
-85
-],
-"uri": ["http://www.ft.com/thing/952d184a-5e61-11e2-a771-00144feab49a"]
-},
-{
-"char": [
-"2245",
-"2248"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Douglas_Carswell"
-}],
-"snippet": [" hinder our ability to trade with the wider world.\n\u201cA new deal can\u2019t be done!\u201d cry the diehard believers in Jean Monnet\u2019s grand projet for European unity. \u201cIf"],
-"snippet_char": [
-79,
-82
-],
-"uri": ["http://www.ft.com/thing/952d184a-5e61-11e2-a771-00144feab49a"]
 }
 ],
-"period": ["20130114"],
-"prefLabel": ["believer"],
-"sentence": "2261",
-"time": "20130114",
-"topics": [
-"http://eurovoc.europa.eu/212840",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/211008",
-"http://eurovoc.europa.eu/212826",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216992"
-]
-}
-],
-"headline": "brexit3",
-"mention_cnt": [5],
+"headline": "brexit4-ne",
+"mention_cnt": [3],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

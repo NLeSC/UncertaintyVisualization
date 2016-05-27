@@ -2,17 +2,6 @@
   'use strict';
 
   function DataTableController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
-    var sources = {};
-    var findMine = function(sources, uri) {
-      var result;
-      sources.forEach(function(source) {
-        if (source.uri.localeCompare(uri) === 0) {
-          result = source;
-        }
-      });
-      return result;
-    };
-
     var sourceToHtml = function(d) {
       var result = [];
       var raw = d.mentions;
@@ -37,37 +26,17 @@
       return html;
     };
 
-    var mentionToHtml = function(d, sources) {
-      var result = [];
+    var mentionToHtml = function(d) {
       var raw = d.mentions;
-      raw.forEach(function(mention) {
-        var uri = mention.uri[0];
-        if (mention.uri[1] !== undefined) {
-          console.log('unparsed mention here');
-        }
-        var charStart = parseInt(mention.char[0]);
-        var charEnd = parseInt(mention.char[1]);
-
-        var found = findMine(sources, uri);
-
-        // var meta = raw[i+1].split('=');
-        // var sentence = meta[meta.length-1];
-        if (found) {
-          result.push({
-            charStart: charStart,
-            charEnd: charEnd,
-            text: found.text
-          });
-        }
-      });
       var html = '';
-      result.forEach(function(phrase) {
-        var pre = phrase.text.substring(phrase.charStart - 30, phrase.charStart);
-        var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
-        var post = phrase.text.substring(phrase.charEnd, phrase.charEnd + 30);
+      raw.forEach(function(mention) {
+        var pre = mention.snippet[0].substring(0, mention.snippet_char[0]);
+        var word = mention.snippet[0].substring(mention.snippet_char[0],mention.snippet_char[1]);
+        var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
+
 
         html += pre + '<span class=\'highlighted-mention\'>' + word + '</span>' + post + '</br>';
-      });
+      }.bind(this));
       return html;
     };
 
@@ -140,7 +109,7 @@
         }, {
           label: '<div class=col_2>Mentions</div>',
           format: function(d) {
-            return '<div class=col_2>' + mentionToHtml(d, sources) + '</div>';
+            return '<div class=col_2>' + mentionToHtml(d) + '</div>';
           }
         // }
         // , {
@@ -162,7 +131,6 @@
     };
 
     Messagebus.subscribe('crossfilter ready', function() {
-      sources = NdxService.getData().timeline.sources;
       this.initializeChart();
     }.bind(this));
   }

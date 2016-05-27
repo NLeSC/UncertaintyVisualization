@@ -1,14 +1,12 @@
 { "timeline":
 {
-"actor_cnt": [8],
-"event_cnt": [3],
+"actor_cnt": [4],
+"event_cnt": [2],
 "events": [
 {
 "actors": {"actor:": [
 "dbp:UK_Independence_Party",
-"dbp:Nigel_Farage",
-"dbp:Nigel_Lawson",
-"en:VoteLeave"
+"dbp:Nigel_Farage"
 ]},
 "classes": {
 "fn": ["Rite"],
@@ -24,12 +22,8 @@
 "groupName": "[scientific cooperation]",
 "groupScore": "079",
 "instance": "http://www.ft.com/thing/7852d156-e7b1-11e5-bc31-138df2ae9ee6#ev91",
-"labels": [
-"blessing",
-"chair"
-],
-"mentions": [
-{
+"labels": ["blessing"],
+"mentions": [{
 "char": [
 "2096",
 "2104"
@@ -50,31 +44,7 @@
 87
 ],
 "uri": ["http://www.ft.com/thing/7852d156-e7b1-11e5-bc31-138df2ae9ee6"]
-},
-{
-"char": [
-"1988",
-"1995"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Andrew_Ward"
 }],
-"snippet": [" groups vying for leadership of the leave campaign. The others are Vote Leave, chaired by Lord Nigel Lawson, with the backing of more than 100 Tory MPs, and Grassroots"],
-"snippet_char": [
-79,
-86
-],
-"uri": ["http://www.ft.com/thing/7852d156-e7b1-11e5-bc31-138df2ae9ee6"]
-}
-],
-"period": ["20160313"],
 "prefLabel": ["blessing"],
 "sentence": "2096",
 "time": "20160313",
@@ -127,7 +97,7 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Andrew_Ward"
+"source": "cite:FT-Brexit"
 }],
 "snippet": [" allies had not \u201csufficiently articulated the bright future\u201d that the UK could have outside the EU.\nThey were instead being drawn into a negative battle with the"],
 "snippet_char": [
@@ -170,88 +140,10 @@
 "http://eurovoc.europa.eu/210633",
 "http://eurovoc.europa.eu/221975"
 ]
-},
-{
-"actors": {"actor:": [
-"dbp:The_Sunday_Times",
-"dbp:Andrew_W._Mellon"
-]},
-"classes": {"ili": [
-"i106975",
-"i97594"
-]},
-"climax": 69,
-"event": "ev53",
-"group": "079:[scientific cooperation]",
-"groupName": "[scientific cooperation]",
-"groupScore": "079",
-"instance": "http://www.ft.com/thing/7852d156-e7b1-11e5-bc31-138df2ae9ee6#ev53",
-"labels": [
-"fortune",
-"estimate"
-],
-"mentions": [
-{
-"char": [
-"827",
-"834"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Andrew_Ward"
-}],
-"snippet": [" wealth was estimated at £850m in last year\u2019s Sunday Times rich list, made his fortune in mining and property but is also a big investor in biotech companies.\nHis"],
-"snippet_char": [
-79,
-86
-],
-"uri": ["http://www.ft.com/thing/7852d156-e7b1-11e5-bc31-138df2ae9ee6"]
-},
-{
-"char": [
-"760",
-"769"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Andrew_Ward"
-}],
-"snippet": [" chance of a Leave vote at about one-in-three.\nMr Mellon, whose wealth was estimated at £850m in last year\u2019s Sunday Times rich list, made his fortune in mining"],
-"snippet_char": [
-75,
-84
-],
-"uri": ["http://www.ft.com/thing/7852d156-e7b1-11e5-bc31-138df2ae9ee6"]
 }
 ],
-"period": ["20150101"],
-"prefLabel": ["fortune"],
-"sentence": "827",
-"time": "20150101",
-"topics": [
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/217547",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/210633",
-"http://eurovoc.europa.eu/221983",
-"http://eurovoc.europa.eu/209996"
-]
-}
-],
-"headline": "brexit3",
-"mention_cnt": [6],
+"headline": "brexit4-ne",
+"mention_cnt": [3],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

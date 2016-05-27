@@ -1,9 +1,8 @@
 { "timeline":
 {
-"actor_cnt": [4],
-"event_cnt": [2],
-"events": [
-{
+"actor_cnt": [2],
+"event_cnt": [1],
+"events": [{
 "actors": {"actor:": [
 "dbp:United_Kingdom",
 "dbp:Brussels"
@@ -106,93 +105,9 @@
 "http://eurovoc.europa.eu/216962",
 "http://eurovoc.europa.eu/223006"
 ]
-},
-{
-"actors": {"actor:": [
-"dbp:Saddam_Hussein",
-"dbp:George_Galloway"
-]},
-"classes": {
-"eso": ["Creating"],
-"fn": ["Intentionally_create"],
-"ili": [
-"i29951",
-"i26122",
-"i22650"
-]
-},
-"climax": 65,
-"event": "ev46",
-"group": "075:[public administration]",
-"groupName": "[public administration]",
-"groupScore": "075",
-"instance": "http://www.ft.com/thing/bcf6df22-d754-11e5-8887-98e7feb46f27#ev46",
-"labels": [
-"introduce",
-"fame"
-],
-"mentions": [
-{
-"char": [
-"560",
-"569"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Henry_Mance"
 }],
-"snippet": [" responsibility. \nThat left Nigel Farage, UK Independence party leader, having to introduce Mr Galloway, famed for his relationship with Saddam Hussein, as \u201ca towering"],
-"snippet_char": [
-82,
-91
-],
-"uri": ["http://www.ft.com/thing/bcf6df22-d754-11e5-8887-98e7feb46f27"]
-},
-{
-"char": [
-"583",
-"588"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Henry_Mance"
-}],
-"snippet": [" Nigel Farage, UK Independence party leader, having to introduce Mr Galloway, famed for his relationship with Saddam Hussein, as \u201ca towering figure\u201d.\nTwo members"],
-"snippet_char": [
-78,
-83
-],
-"uri": ["http://www.ft.com/thing/bcf6df22-d754-11e5-8887-98e7feb46f27"]
-}
-],
-"period": ["20160219"],
-"prefLabel": ["introduce"],
-"sentence": "560",
-"time": "20160219",
-"topics": [
-"http://eurovoc.europa.eu/222026",
-"http://eurovoc.europa.eu/209582",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216962",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/209593"
-]
-}
-],
-"headline": "brexit3",
-"mention_cnt": [5],
+"headline": "brexit4-ne",
+"mention_cnt": [3],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

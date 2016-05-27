@@ -2,48 +2,18 @@
   'use strict';
 
   function SubwayChartController($scope, $element, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
-    this.sources = {};
-    var findMine = function(sources, uri) {
-      var result;
-      sources.forEach(function(source) {
-        if (source.uri.localeCompare(uri) === 0) {
-          result = source;
-        }
-      });
-      return result;
-    };
-
-    var mentionToTxt = function(d, sources) {
-      var result = [];
+    var mentionToTxt = function(d) {
       var raw = d.mentions;
-      raw.forEach(function(mention) {
-        var uri = mention.uri[0];
-        if (mention.uri[1] !== undefined) {
-          console.log('unparsed mention here');
-        }
-        var charStart = parseInt(mention.char[0]);
-        var charEnd = parseInt(mention.char[1]);
 
-        var found = findMine(this.sources, uri);
-
-        // var meta = raw[i+1].split('=');
-        // var sentence = meta[meta.length-1];
-        if (found) {
-          result.push({
-            charStart: charStart,
-            charEnd: charEnd,
-            text: found.text
-          });
-        }
-      }.bind(this));
       var txt = '';
-      result.forEach(function(phrase) {
-        var pre = phrase.text.substring(phrase.charStart - 30, phrase.charStart);
-        var word = phrase.text.substring(phrase.charStart, phrase.charEnd);
-        var post = phrase.text.substring(phrase.charEnd, phrase.charEnd + 30);
+      raw.forEach(function(mention) {
+        var pre = mention.snippet[0].substring(0, mention.snippet_char[0]);
+        var word = mention.snippet[0].substring(mention.snippet_char[0],mention.snippet_char[1]);
+        var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
 
         txt += pre + word + post + '\n';
-      });
+      }.bind(this));
+
       return txt;
     }.bind(this);
 

@@ -1,90 +1,10 @@
 { "timeline":
 {
-"actor_cnt": [5],
-"event_cnt": [3],
-"events": [
-{
+"actor_cnt": [3],
+"event_cnt": [1],
+"events": [{
 "actors": {"actor:": [
-"dbp:United_Kingdom",
-"dbp:Central_African_Republic",
-"dbp:France",
-"dbp:European_Union",
-"dbp:Government_of_the_United_Kingdom"
-]},
-"classes": {
-"fn": ["Taking_sides"],
-"ili": [
-"i35199",
-"i27180"
-]
-},
-"climax": 50,
-"event": "ev33",
-"group": "079:[military intervention]",
-"groupName": "[military intervention]",
-"groupScore": "079",
-"instance": "http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0#ev33",
-"labels": ["resist"],
-"mentions": [
-{
-"char": [
-"788",
-"797"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Carola_Hoyos"
-}],
-"snippet": [" which will for the first time in five years deal with defence. \nBritain is resisting the attempt to create a European defence fund, something floated by France"],
-"snippet_char": [
-76,
-85
-],
-"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
-},
-{
-"char": [
-"162",
-"171"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Carola_Hoyos"
-}],
-"snippet": [" EU a greater role in defence, something the UK prime minister is doggedly resisting.\nMr Cameron travels to Brussels on Thursday for two days of talks with other"],
-"snippet_char": [
-75,
-84
-],
-"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
-}
-],
-"prefLabel": ["resist"],
-"sentence": "162",
-"time": "20131219",
-"topics": [
-"http://eurovoc.europa.eu/210252",
-"http://eurovoc.europa.eu/210241",
-"http://eurovoc.europa.eu/210076",
-"http://eurovoc.europa.eu/210301",
-"http://eurovoc.europa.eu/210286",
-"http://eurovoc.europa.eu/209990"
-]
-},
-{
-"actors": {"actor:": [
+"ne:defence",
 "dbp:European_Union",
 "dbp:Government_of_the_United_Kingdom"
 ]},
@@ -104,8 +24,7 @@
 "instance": "http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0#ev107",
 "labels": [
 "lobby",
-"relief",
-"give"
+"relief"
 ],
 "mentions": [
 {
@@ -151,28 +70,6 @@
 87
 ],
 "uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
-},
-{
-"char": [
-"79",
-"83"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Carola_Hoyos"
-}],
-"snippet": ["d Cameron is heading for a battle with European leaders over an attempt to give the EU a greater role in defence, something the UK prime minister is doggedly"],
-"snippet_char": [
-75,
-79
-],
-"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
 }
 ],
 "period": ["20131218"],
@@ -187,143 +84,9 @@
 "http://eurovoc.europa.eu/210241",
 "http://eurovoc.europa.eu/209990"
 ]
-},
-{
-"actors": {"actor:": [
-"dbp:European_Union",
-"dbp:Government_of_the_United_Kingdom",
-"dbp:Central_African_Republic",
-"dbp:United_Kingdom",
-"dbp:France"
-]},
-"classes": {
-"eso": ["IntentionalEvent"],
-"fn": [
-"Attempt",
-"Intentionally_create"
-],
-"ili": [
-"i39540",
-"i34354",
-"i29994"
-]
-},
-"climax": 42,
-"event": "ev30",
-"group": "079:[military intervention]",
-"groupName": "[military intervention]",
-"groupScore": "079",
-"instance": "http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0#ev30",
-"labels": [
-"attempt",
-"battle"
-],
-"mentions": [
-{
-"char": [
-"1800",
-"1807"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:Government_of_the_United_Kingdom"
 }],
-"snippet": [" buying its own drones.\nSimilarly, the UK wants to make certain there is no attempt to pool unused air-to-air refuelling aircraft, which the British currently"],
-"snippet_char": [
-76,
-83
-],
-"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
-},
-{
-"char": [
-"802",
-"809"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Carola_Hoyos"
-}],
-"snippet": [" the first time in five years deal with defence. \nBritain is resisting the attempt to create a European defence fund, something floated by France to help pay"],
-"snippet_char": [
-75,
-82
-],
-"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
-},
-{
-"char": [
-"68",
-"75"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Carola_Hoyos"
-}],
-"snippet": ["David Cameron is heading for a battle with European leaders over an attempt to give the EU a greater role in defence, something the UK prime minister is"],
-"snippet_char": [
-68,
-75
-],
-"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
-},
-{
-"char": [
-"31",
-"37"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Carola_Hoyos"
-}],
-"snippet": ["David Cameron is heading for a battle with European leaders over an attempt to give the EU a greater role in defence,"],
-"snippet_char": [
-31,
-37
-],
-"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
-}
-],
-"period": ["20131212"],
-"prefLabel": ["attempt"],
-"sentence": "68",
-"time": "20131212",
-"topics": [
-"http://eurovoc.europa.eu/209990",
-"http://eurovoc.europa.eu/210241",
-"http://eurovoc.europa.eu/210286",
-"http://eurovoc.europa.eu/210252",
-"http://eurovoc.europa.eu/210301",
-"http://eurovoc.europa.eu/210076"
-]
-}
-],
-"headline": "brexit3",
-"mention_cnt": [9],
+"headline": "brexit4-ne",
+"mention_cnt": [2],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},
