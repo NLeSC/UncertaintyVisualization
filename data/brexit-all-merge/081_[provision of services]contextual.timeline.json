@@ -1,12 +1,12 @@
 { "timeline":
 {
-"actor_cnt": [2],
-"event_cnt": [2],
-"events": [
-{
+"actor_cnt": [3],
+"event_cnt": [1],
+"events": [{
 "actors": {"actor:": [
 "dbp:London_Heathrow_Airport",
-"dbp:European_Union"
+"dbp:European_Union",
+"ne:the_conservative_government"
 ]},
 "classes": {
 "eso": ["Placing"],
@@ -24,8 +24,7 @@
 "instance": "http://www.ft.com/thing/905d6d40-ddd1-11e5-b072-006d8d362ba3#ev100",
 "labels": [
 "shelve",
-"expand",
-"decision"
+"expand"
 ],
 "mentions": [
 {
@@ -63,55 +62,11 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Jamie_Smyth"
+"source": "cite:FT-Brexit"
 }],
 "snippet": [" Conservative government shelved a politically sensitive decision on whether to expand Heathrow, an issue that has now been put off until after the EU referendum"],
 "snippet_char": [
 80,
-86
-],
-"uri": ["http://www.ft.com/thing/905d6d40-ddd1-11e5-b072-006d8d362ba3"]
-},
-{
-"char": [
-"2630",
-"2638"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Jamie_Smyth"
-}],
-"snippet": [" expansion.\nIn December, the Conservative government shelved a politically sensitive decision on whether to expand Heathrow, an issue that has now been put off until after"],
-"snippet_char": [
-85,
-93
-],
-"uri": ["http://www.ft.com/thing/905d6d40-ddd1-11e5-b072-006d8d362ba3"]
-},
-{
-"char": [
-"1443",
-"1451"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "positive",
-"when": "future"
-},
-"source": "cite:James_Joyce"
-}],
-"snippet": [" \u201ckangaroo route\u201d to the city.\nMr Joyce also called on London to take a final decision to build a third runway at Heathrow, a move he said would boost connecting"],
-"snippet_char": [
-78,
 86
 ],
 "uri": ["http://www.ft.com/thing/905d6d40-ddd1-11e5-b072-006d8d362ba3"]
@@ -129,68 +84,9 @@
 "http://eurovoc.europa.eu/218184",
 "http://eurovoc.europa.eu/213012"
 ]
-},
-{
-"actors": {"actor:": [
-"dbp:European_Union",
-"dbp:London_Heathrow_Airport"
-]},
-"classes": {
-"eso": ["HavingInPossession"],
-"fn": [
-"Possession",
-"Inclusion"
-],
-"ili": [
-"i32775",
-"i34708",
-"i32770"
-]
-},
-"climax": 75,
-"event": "ev60",
-"group": "081:[provision of services]",
-"groupName": "[provision of services]",
-"groupScore": "081",
-"instance": "http://www.ft.com/thing/4dc9de9e-da04-11e5-a72f-1e7744c66818#ev60",
-"labels": ["have"],
-"mentions": [{
-"char": [
-"1411",
-"1413"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Tanya_Powley"
 }],
-"snippet": [" expand with a third runway. \u201cWhen we think about things like expansion there\u2019s an even stronger case for Heathrow if we were to leave the EU because we\u2019d"],
-"snippet_char": [
-77,
-79
-],
-"uri": ["http://www.ft.com/thing/4dc9de9e-da04-11e5-a72f-1e7744c66818"]
-}],
-"prefLabel": ["have"],
-"sentence": "1411",
-"time": "20160223",
-"topics": [
-"http://eurovoc.europa.eu/213012",
-"http://eurovoc.europa.eu/218188",
-"http://eurovoc.europa.eu/212460",
-"http://eurovoc.europa.eu/218184",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216992"
-]
-}
-],
-"headline": "brexit3",
-"mention_cnt": [5],
+"headline": "brexit4-ne",
+"mention_cnt": [2],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

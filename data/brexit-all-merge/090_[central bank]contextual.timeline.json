@@ -1,0 +1,8719 @@
+{ "timeline":
+{
+"actor_cnt": [122],
+"event_cnt": [73],
+"events": [
+{
+"actors": {"actor:": [
+"dbp:JPMorgan_Chase",
+"dbp:European_Union",
+"ne:for_example",
+"ne:money",
+"dbp:Goldman_Sachs",
+"dbp:Morgan_Stanley"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": ["Giving"],
+"ili": ["i33048"]
+},
+"climax": 90,
+"event": "ev216",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/dd447b72-d196-11e5-831d-09f7778e7377#ev216",
+"labels": [
+"donate",
+"disclosure"
+],
+"mentions": [
+{
+"char": [
+"5954",
+"5961"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Joshua_Chaffin"
+}],
+"snippet": [" choosing to leave. The recent disclosure, for example, that Goldman Sachs had donated money to the \u201cins\u201d was not a cause for despair, she said, but one of celebration:"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/dd447b72-d196-11e5-831d-09f7778e7377"]
+},
+{
+"char": [
+"5906",
+"5916"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Joshua_Chaffin"
+}],
+"snippet": [" about the \u201cin\u201d camp it will push them towards choosing to leave. The recent disclosure, for example, that Goldman Sachs had donated money to the \u201cins\u201d was not a cause"],
+"snippet_char": [
+77,
+87
+],
+"uri": ["http://www.ft.com/thing/dd447b72-d196-11e5-831d-09f7778e7377"]
+},
+{
+"char": [
+"3663",
+"3670"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Martin_Arnold"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Emma_Dunkley"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Shotter"]
+}
+],
+"snippet": [" awkward position. Goldman Sachs, JPMorgan Chase and Morgan Stanley have donated money to the \u201cStronger in Europe\u201d campaign. But Bank of America backed away from"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/d2d06810-025e-11e6-af1d-c47326021344"]
+}
+],
+"period": [
+"20160212",
+"20160414"
+],
+"prefLabel": ["donate"],
+"sentence": "5954",
+"time": "20160212",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216144",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/222026"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:City_of_London",
+"dbp:European_Union",
+"dbp:London"
+]},
+"classes": {
+"eso": ["Translocation"],
+"fn": [
+"Desiring",
+"Self_motion"
+],
+"ili": [
+"i30859",
+"i30784",
+"i25236"
+]
+},
+"climax": 87,
+"event": "ev168",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/570790ac-d94e-11e5-98fd-06d75973fe09#ev168",
+"labels": ["hope"],
+"mentions": [{
+"char": [
+"4646",
+"4652"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "author:Patrick_Jenkins"
+}],
+"snippet": [" the City and its place in Europe \u2014 including the mayor of London \u2014 should be hoping for an In vote.\npatrick.jenkins@ft.co"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/570790ac-d94e-11e5-98fd-06d75973fe09"]
+}],
+"prefLabel": ["hope"],
+"sentence": "4646",
+"time": "20160222",
+"topics": [
+"http://eurovoc.europa.eu/216639",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/213253",
+"http://eurovoc.europa.eu/210356"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:City_of_London",
+"ne:financial",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Experiencer_obj"],
+"ili": ["i34516"]
+},
+"climax": 84,
+"event": "ev134",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/4b5df80a-c26a-11e4-ad89-00144feab7de#ev134",
+"labels": [
+"antagonise",
+"victory"
+],
+"mentions": [
+{
+"char": [
+"3471",
+"3483"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" prove more effective than trying to wrench away euro-denominated activity. Antagonising the City, still Europe\u2019s pre-eminent financial centre, is a dubious way of"],
+"snippet_char": [
+76,
+88
+],
+"uri": ["http://www.ft.com/thing/4b5df80a-c26a-11e4-ad89-00144feab7de"]
+},
+{
+"char": [
+"1538",
+"1545"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" UK, forcing the ECB to annul the policy. In London this is rightly seen as a victory for the City, the single market and Britain\u2019s particular model of EU membership."],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/4b5df80a-c26a-11e4-ad89-00144feab7de"]
+}
+],
+"period": ["20150304"],
+"prefLabel": ["antagonise"],
+"sentence": "3471",
+"time": "20150304",
+"topics": [
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/213251",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213253",
+"http://eurovoc.europa.eu/213180"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Government_of_the_United_Kingdom",
+"dbp:Bank_of_England",
+"ne:the_single_market",
+"ne:financial"
+]},
+"classes": {
+"fn": ["Objective_influence"],
+"ili": [
+"i22407",
+"i30577"
+]
+},
+"climax": 87,
+"event": "ev182",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c43d7072-7816-11e5-a95a-27d368e1ddf7#ev182",
+"labels": [
+"affect",
+"retain"
+],
+"mentions": [
+{
+"char": [
+"4873",
+"4879"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Carney_(band)"
+}],
+"snippet": [" to meet the needs of deeper integration in the eurozone, do not adversely affect the Bank of England\u2019s ability to ensure the stability of the UK financial sector"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/c43d7072-7816-11e5-a95a-27d368e1ddf7"]
+},
+{
+"char": [
+"2961",
+"2967"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ferdinando_Giugliano"
+}],
+"snippet": [" imperative that UK authorities, including the Bank of England, continue to retain the flexibility to impose the high standards necessary to manage the world\u2019s leading"],
+"snippet_char": [
+80,
+86
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+}
+],
+"period": ["20151021"],
+"prefLabel": ["affect"],
+"sentence": "4873",
+"time": "20151021",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/212128",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213274",
+"http://eurovoc.europa.eu/213253",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"ne:contingency",
+"dbp:HM_Treasury",
+"ne:committee"
+]},
+"classes": {
+"fn": ["Hear"],
+"ili": [
+"i25907",
+"i41672",
+"i113118"
+]
+},
+"climax": 87,
+"event": "ev177",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09#ev177",
+"labels": [
+"hearing",
+"give"
+],
+"mentions": [
+{
+"char": [
+"4722",
+"4729"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Nick_Sobotka"
+}],
+"snippet": [" somewhat elastic definition of \u201ccontingency planning\u201d at a Treasury committee hearing earlier this month.\nAlthough he said ministers had not requested a Brexit plan"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09"]
+},
+{
+"char": [
+"4637",
+"4641"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+}
+],
+"snippet": [" also intervened in the Scottish debate to denounce a proposed currency union, gave a somewhat elastic definition of \u201ccontingency planning\u201d at a Treasury committee"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09"]
+}
+],
+"period": ["20151001"],
+"prefLabel": ["hearing"],
+"sentence": "4722",
+"time": "20151001",
+"topics": [
+"http://eurovoc.europa.eu/222119",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/213241",
+"http://eurovoc.europa.eu/210356"
+]
+},
+{
+"actors": {"actor:": [
+"ne:contingency",
+"ne:committee",
+"dbp:HM_Treasury"
+]},
+"classes": {
+"fn": ["Purpose"],
+"ili": [
+"i41397",
+"i25232"
+]
+},
+"climax": 69,
+"event": "ev77",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09#ev77",
+"labels": ["planning"],
+"mentions": [
+{
+"char": [
+"949",
+"957"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" key moment. He told MPs this week that the BoE is \u201cengaged in contingency planning for the referendum as you would expect\u201d. \nMr Cameron said on Tuesday: \u201cWhat"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09"]
+},
+{
+"char": [
+"4688",
+"4696"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Nick_Sobotka"
+}],
+"snippet": [" proposed currency union, gave a somewhat elastic definition of \u201ccontingency planning\u201d at a Treasury committee hearing earlier this month.\nAlthough he said ministers"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09"]
+}
+],
+"prefLabel": ["planning"],
+"sentence": "949",
+"time": "20160101",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/213241",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222119",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Labour_Party_(UK)",
+"dbp:Brussels",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Assessing"],
+"ili": [
+"i26451",
+"i90808",
+"i25074",
+"i25082"
+]
+},
+"climax": 80,
+"event": "ev102",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/1c958d9c-d3f0-11e5-8887-98e7feb46f27#ev102",
+"labels": ["judge"],
+"mentions": [{
+"char": [
+"2271",
+"2276"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sebastian_Payne"
+}],
+"snippet": [" Conservative party would open up a new line of attack for Labour. Euro-pragmatists judge Labour in its current state to be a far greater danger to Britain\u2019s future"],
+"snippet_char": [
+84,
+89
+],
+"uri": ["http://www.ft.com/thing/1c958d9c-d3f0-11e5-8887-98e7feb46f27"]
+}],
+"prefLabel": ["judge"],
+"sentence": "2271",
+"time": "20160215",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/217201",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Brussels",
+"dbp:Conservative_Party_(UK)",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Self_motion",
+"Motion"
+],
+"ili": [
+"i30899",
+"i31234",
+"i29298",
+"i31241",
+"i31080"
+]
+},
+"climax": 53,
+"event": "ev48",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d1e1a370-6d94-11e4-bf80-00144feabdc0#ev48",
+"labels": [
+"float",
+"range"
+],
+"mentions": [
+{
+"char": [
+"180",
+"187"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Kiran_Stacey"
+}],
+"snippet": [" countries, Sir John Major has suggested, the latest in a range of options floated by senior Conservatives for renegotiating the UK\u2019s relationship with Brussels.\nHe"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/d1e1a370-6d94-11e4-bf80-00144feabdc0"]
+},
+{
+"char": [
+"163",
+"168"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Kiran_Stacey"
+}],
+"snippet": [" struggling European countries, Sir John Major has suggested, the latest in a range of options floated by senior Conservatives for renegotiating the UK\u2019s relationship"],
+"snippet_char": [
+78,
+83
+],
+"uri": ["http://www.ft.com/thing/d1e1a370-6d94-11e4-bf80-00144feabdc0"]
+}
+],
+"period": ["20141116"],
+"prefLabel": ["float"],
+"sentence": "180",
+"time": "20141116",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/217500"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:Brussels"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Intentionally_create",
+"Experiencer_obj"
+],
+"ili": ["i30709"]
+},
+"climax": 86,
+"event": "ev161",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/15f6a7da-64fe-11e4-ab2d-00144feabdc0#ev161",
+"labels": [
+"enrage",
+"give"
+],
+"mentions": [
+{
+"char": [
+"4128",
+"4135"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" paid out improperly, giving ammunition to British eurosceptics who have been enraged by the demand for more funds from Brussels.\nOn Wednesday, the EU said the \u201cerror"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/15f6a7da-64fe-11e4-ab2d-00144feabdc0"]
+},
+{
+"char": [
+"4072",
+"4078"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" auditors said almost \u20ac7bn of last year\u2019s EU budget was paid out improperly, giving ammunition to British eurosceptics who have been enraged by the demand for"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/15f6a7da-64fe-11e4-ab2d-00144feabdc0"]
+},
+{
+"char": [
+"587",
+"592"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Christian_Oliver"]
+}
+],
+"snippet": [" ministers of Finland and Sweden added their voices to the private warning given to Mr Cameron by Angela Merkel, German chancellor, that Europe\u2019s rules on the"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/15f6a7da-64fe-11e4-ab2d-00144feabdc0"]
+}
+],
+"period": ["20130101"],
+"prefLabel": ["enrage"],
+"sentence": "4128",
+"time": "20130101",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211106"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:Brussels"
+]},
+"classes": {
+"eso": [
+"Motion",
+"HavingInPossession"
+],
+"fn": [
+"Possession",
+"Desiring",
+"Motion"
+],
+"ili": [
+"i25251",
+"i34834",
+"i27561",
+"i30852",
+"i28269"
+]
+},
+"climax": 64,
+"event": "ev38",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/0eee0c4e-a38f-11e2-8f9c-00144feabdc0#ev38",
+"labels": [
+"want",
+"have"
+],
+"mentions": [
+{
+"char": [
+"510",
+"514"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+}
+],
+"snippet": [" warming again to the idea of treaty change has encouraged British officials, who want the opportunity to renegotiate the UK\u2019s powers in Brussels.\nAny plan to make"],
+"snippet_char": [
+82,
+86
+],
+"uri": ["http://www.ft.com/thing/0eee0c4e-a38f-11e2-8f9c-00144feabdc0"]
+},
+{
+"char": [
+"472",
+"475"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Peter_Spiegel"]
+}
+],
+"snippet": [" treaties.\nThe hint that Germany is warming again to the idea of treaty change has encouraged British officials, who want the opportunity to renegotiate the UK\u2019s"],
+"snippet_char": [
+79,
+82
+],
+"uri": ["http://www.ft.com/thing/0eee0c4e-a38f-11e2-8f9c-00144feabdc0"]
+}
+],
+"period": ["20130412"],
+"prefLabel": ["want"],
+"sentence": "510",
+"time": "20130412",
+"topics": [
+"http://eurovoc.europa.eu/222046",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216260",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/210765"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Brussels",
+"dbp:United_Kingdom",
+"ne:the_vote",
+"ne:in_its_favour"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Bail_decision",
+"Intentionally_create",
+"Attaching"
+],
+"ili": [
+"i23020",
+"i27393",
+"i26335",
+"i29974",
+"i30054",
+"i28393"
+]
+},
+"climax": 82,
+"event": "ev108",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/b8be13a8-0d06-11e5-b850-00144feabdc0#ev108",
+"labels": ["fix"],
+"mentions": [{
+"char": [
+"2924",
+"2927"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Owen_Paterson"
+}],
+"snippet": [" said: \u201cThe British state in cahoots with the Brussels machine will be able to fix the vote in its favour.\u201d Writing in the Mail on Sunday newspaper, he said this"],
+"snippet_char": [
+80,
+83
+],
+"uri": ["http://www.ft.com/thing/b8be13a8-0d06-11e5-b850-00144feabdc0"]
+}],
+"prefLabel": ["fix"],
+"sentence": "2924",
+"time": "20150614",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213025",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/212933",
+"http://eurovoc.europa.eu/211106"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:Brussels",
+"dbp:United_Kingdom",
+"ne:prime"
+]},
+"classes": {
+"eso": [
+"IntentionalEvent",
+"StoppingAnActivity"
+],
+"fn": [
+"Process_end",
+"Activity_stop",
+"Activity_finish"
+],
+"ili": [
+"i25278",
+"i24913",
+"i26683",
+"i34725"
+]
+},
+"climax": 63,
+"event": "ev48",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/b168d094-bfb1-11e5-9fdb-87b8d15baec2#ev48",
+"labels": ["conclude"],
+"mentions": [{
+"char": [
+"468",
+"476"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Ben_McLannahan"]
+}
+],
+"snippet": [" will be a boost to David Cameron. The prime minister hopes to successfully conclude his negotiations of a new EU deal for Britain in Brussels next month, kicking"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/b168d094-bfb1-11e5-9fdb-87b8d15baec2"]
+}],
+"prefLabel": ["conclude"],
+"sentence": "468",
+"time": "20150601",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212933",
+"http://eurovoc.europa.eu/211106",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"ne:to_join_the_euro",
+"dbp:Government_of_the_United_Kingdom",
+"ne:in_place"
+]},
+"classes": {
+"eso": ["Merging"],
+"fn": [
+"Attaching",
+"Cause_to_amalgamate",
+"Becoming_a_member"
+],
+"ili": [
+"i28129",
+"i28152",
+"i34784",
+"i33902"
+]
+},
+"climax": 86,
+"event": "ev145",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7#ev145",
+"labels": [
+"join",
+"choose",
+"provision"
+],
+"mentions": [
+{
+"char": [
+"4380",
+"4384"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" have to be provisions in place for those countries that choose not to join the euro, such as the UK.\nThis is a further area the government will look at during"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+},
+{
+"char": [
+"4366",
+"4372"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" believes there have to be provisions in place for those countries that choose not to join the euro, such as the UK.\nThis is a further area the government will"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+},
+{
+"char": [
+"4321",
+"4331"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" eurozone may need to integrate further, he believes there have to be provisions in place for those countries that choose not to join the euro, such as the UK.\nThis"],
+"snippet_char": [
+76,
+86
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+}
+],
+"period": ["20151021"],
+"prefLabel": ["join"],
+"sentence": "4380",
+"time": "20151021",
+"topics": [
+"http://eurovoc.europa.eu/213274",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213253"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Somalia",
+"ne:diplomatic",
+"ne:military",
+"dbp:Politics_of_Iran",
+"dbp:European_Union",
+"ne:foreign_policy"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Intentionally_create",
+"Cause_to_start",
+"Creating"
+],
+"ili": [
+"i29942",
+"i30508",
+"i29865",
+"i29849"
+]
+},
+"climax": 86,
+"event": "ev150",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/91ac6432-cbf5-11e5-a8ef-ea66e967dd44#ev150",
+"labels": [
+"create",
+"order"
+],
+"mentions": [
+{
+"char": [
+"4287",
+"4294"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Radek_Sikorski"
+}],
+"snippet": [" so long ago a Briton, Catherine Ashton, the former EU foreign policy chief, created Europe\u2019s diplomatic service, ordered a military strike on Somali pirates, initiated"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/91ac6432-cbf5-11e5-a8ef-ea66e967dd44"]
+},
+{
+"char": [
+"4324",
+"4331"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "author:Radek_Sikorski"
+}],
+"snippet": [" Ashton, the former EU foreign policy chief, created Europe\u2019s diplomatic service, ordered a military strike on Somali pirates, initiated talks with Iran and mediated"],
+"snippet_char": [
+82,
+89
+],
+"uri": ["http://www.ft.com/thing/91ac6432-cbf5-11e5-a8ef-ea66e967dd44"]
+},
+{
+"char": [
+"3712",
+"3717"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Radek_Sikorski"
+}],
+"snippet": [" that it is important to look at Norway, which has to abide by EU rules in order to have access to the single market, while having no influence on their formulation."],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/91ac6432-cbf5-11e5-a8ef-ea66e967dd44"]
+}
+],
+"period": ["20160205"],
+"prefLabel": ["create"],
+"sentence": "4287",
+"time": "20160205",
+"topics": [
+"http://eurovoc.europa.eu/211846",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210920",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"ne:inflation",
+"ne:interest",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Predicting"],
+"ili": [
+"i68069",
+"i69092",
+"i25984"
+]
+},
+"climax": 86,
+"event": "ev165",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09#ev165",
+"labels": [
+"outlook",
+"forecast"
+],
+"mentions": [
+{
+"char": [
+"4202",
+"4209"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" the public domain.\n\u201cIt\u2019s the biggest risk to the forecasts so obviously the outlook for the currency, interest rates, trade and inflation is planned on the basis"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09"]
+},
+{
+"char": [
+"4175",
+"4184"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" its research on Brexit into the public domain.\n\u201cIt\u2019s the biggest risk to the forecasts so obviously the outlook for the currency, interest rates, trade and inflation"],
+"snippet_char": [
+78,
+87
+],
+"uri": ["http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09"]
+}
+],
+"period": ["20160224"],
+"prefLabel": ["outlook"],
+"sentence": "4202",
+"time": "20160224",
+"topics": [
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213241",
+"http://eurovoc.europa.eu/222119"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Sweden",
+"ne:transitional_controls",
+"ne:a_single_rule_book",
+"dbp:European_Union",
+"ne:on_migration",
+"dbp:Weimar_Republic",
+"ne:eurozone",
+"dbp:France"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Imposing_obligation",
+"Motion",
+"Have_as_requirement"
+],
+"ili": [
+"i34813",
+"i25457",
+"i27561",
+"i25475"
+]
+},
+"climax": 85,
+"event": "ev145",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead#ev145",
+"labels": [
+"require",
+"permit"
+],
+"mentions": [
+{
+"char": [
+"3696",
+"3703"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "cite:United_Kingdom"
+}],
+"snippet": [" have raised concerns about Britain\u2019s insistence that eurozone integration may require more instances where a single rule book is not applied to all EU banks \u2014 in"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"3435",
+"3444"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" transitional controls on migration after the EU\u2019s big eastern enlargement would be permitted to use a so-called \u201cemergency brake\u201d on migrant benefits, effectively narrowing"],
+"snippet_char": [
+84,
+93
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+}
+],
+"period": ["20160210"],
+"prefLabel": ["require"],
+"sentence": "3696",
+"time": "20160210",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/223000",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"ne:business",
+"ne:to_do_so",
+"dbp:United_States_dollar"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Imposing_obligation",
+"Motion",
+"Have_as_requirement"
+],
+"ili": [
+"i25457",
+"i34813",
+"i27561",
+"i25475"
+]
+},
+"climax": 85,
+"event": "ev146",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2#ev146",
+"labels": ["require"],
+"mentions": [
+{
+"char": [
+"3930",
+"3938"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" level.\nThe campaign will publish a full list of donors when it is legally required to do so. That date has not yet been set but it will probably be in March or"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2"]
+},
+{
+"char": [
+"2911",
+"2913"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" other parts of the country. Access to the single EU market and passports to do business right across it, are a crucial part of their business. \nOne senior"],
+"snippet_char": [
+77,
+79
+],
+"uri": ["http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2"]
+},
+{
+"char": [
+"3942",
+"3944"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" campaign will publish a full list of donors when it is legally required to do so. That date has not yet been set but it will probably be in March or April."],
+"snippet_char": [
+77,
+79
+],
+"uri": ["http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2"]
+}
+],
+"period": ["20150401"],
+"prefLabel": ["require"],
+"sentence": "3930",
+"time": "20150401",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/211106",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213417"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Bulgaria_(ship)",
+"dbp:Romance-speaking_Europe",
+"ne:labour",
+"ne:labour_controls_on_these_countries"
+]},
+"classes": {
+"eso": ["Stealing"],
+"fn": [
+"Theft",
+"Cause_to_end"
+],
+"ili": [
+"i31575",
+"i33118",
+"i25674",
+"i24459",
+"i31598",
+"i28998",
+"i33119",
+"i26513",
+"i29622",
+"i24492",
+"i31600"
+]
+},
+"climax": 85,
+"event": "ev148",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/09c7f42c-c947-11e2-9d2a-00144feab7de#ev148",
+"labels": [
+"lift",
+"control",
+"fear",
+"increase",
+"number",
+"follow"
+],
+"mentions": [
+{
+"char": [
+"4022",
+"4028"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:James_Fontanella-Khan"
+}],
+"snippet": [" more migrants will come after labour controls from Romania and Bulgaria are lifted early next year. Abuses have included applying for university courses and fake"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/09c7f42c-c947-11e2-9d2a-00144feab7de"]
+},
+{
+"char": [
+"3983",
+"3991"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:James_Fontanella-Khan"
+}],
+"snippet": [" intensified across Europe with fears that more migrants will come after labour controls from Romania and Bulgaria are lifted early next year. Abuses have included"],
+"snippet_char": [
+80,
+88
+],
+"uri": ["http://www.ft.com/thing/09c7f42c-c947-11e2-9d2a-00144feab7de"]
+},
+{
+"char": [
+"3935",
+"3940"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:James_Fontanella-Khan"
+}],
+"snippet": [" of more generous social welfare systems, has intensified across Europe with fears that more migrants will come after labour controls from Romania and Bulgaria"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/09c7f42c-c947-11e2-9d2a-00144feab7de"]
+},
+{
+"char": [
+"1697",
+"1705"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+}
+],
+"snippet": [" accessible to EU nationals living in the UK has intensified following fears of an increase in numbers of migrants from Romania and Bulgaria when labour controls on these"],
+"snippet_char": [
+83,
+91
+],
+"uri": ["http://www.ft.com/thing/8cf287a8-8749-11e2-bde6-00144feabdc0"]
+},
+{
+"char": [
+"1709",
+"1716"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+}
+],
+"snippet": [" nationals living in the UK has intensified following fears of an increase in numbers of migrants from Romania and Bulgaria when labour controls on these countries"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/8cf287a8-8749-11e2-bde6-00144feabdc0"]
+},
+{
+"char": [
+"1675",
+"1684"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+}
+],
+"snippet": [" benefits should be accessible to EU nationals living in the UK has intensified following fears of an increase in numbers of migrants from Romania and Bulgaria when"],
+"snippet_char": [
+80,
+89
+],
+"uri": ["http://www.ft.com/thing/8cf287a8-8749-11e2-bde6-00144feabdc0"]
+},
+{
+"char": [
+"1685",
+"1690"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+}
+],
+"snippet": [" should be accessible to EU nationals living in the UK has intensified following fears of an increase in numbers of migrants from Romania and Bulgaria when labour"],
+"snippet_char": [
+81,
+86
+],
+"uri": ["http://www.ft.com/thing/8cf287a8-8749-11e2-bde6-00144feabdc0"]
+}
+],
+"period": ["20140101"],
+"prefLabel": ["lift"],
+"sentence": "4022",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/210781",
+"http://eurovoc.europa.eu/214855",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/214894",
+"http://eurovoc.europa.eu/211776",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216200",
+"http://eurovoc.europa.eu/222026"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Romance-speaking_Europe",
+"dbp:Bulgaria_(ship)"
+]},
+"classes": {
+"eso": ["Arriving"],
+"fn": ["Arriving"],
+"ili": [
+"i107185",
+"i31821",
+"i36655",
+"i30342",
+"i74320",
+"i70631",
+"i53438"
+]
+},
+"climax": 70,
+"event": "ev82",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/53c0c376-3d9e-11e3-9928-00144feab7de#ev82",
+"labels": ["entry"],
+"mentions": [{
+"char": [
+"924",
+"929"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Janan_Ganesh"
+}],
+"snippet": [" the continent as part of the bargain. A similar number want to restrict the entry of Romanians and Bulgarians, even if it means breaking European law. Mr Cameron"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/53c0c376-3d9e-11e3-9928-00144feab7de"]
+}],
+"prefLabel": ["entry"],
+"sentence": "924",
+"time": "20131028",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/211776",
+"http://eurovoc.europa.eu/211846"
+]
+},
+{
+"actors": {"actor:": [
+"ne:a_new_treaty",
+"dbp:Brussels",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Have_as_requirement",
+"Imposing_obligation",
+"Motion"
+],
+"ili": [
+"i25457",
+"i27561",
+"i25475",
+"i34813"
+]
+},
+"climax": 84,
+"event": "ev134",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/cb179a1c-b279-11e3-8038-00144feabdc0#ev134",
+"labels": [
+"require",
+"transfer"
+],
+"mentions": [
+{
+"char": [
+"3517",
+"3525"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "future"
+},
+"source": "cite:Labour_Party_(UK)"
+}],
+"snippet": [" if there was a significant transfer of powers from the UK to Brussels that required a new treaty. \nChuka Umunna, shadow business secretary, said on Sunday that"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/cb179a1c-b279-11e3-8038-00144feabdc0"]
+},
+{
+"char": [
+"3469",
+"3477"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "future"
+},
+"source": "cite:Labour_Party_(UK)"
+}],
+"snippet": [" both said that they would only agree a referendum if there was a significant transfer of powers from the UK to Brussels that required a new treaty. \nChuka Umunna,"],
+"snippet_char": [
+78,
+86
+],
+"uri": ["http://www.ft.com/thing/cb179a1c-b279-11e3-8038-00144feabdc0"]
+}
+],
+"period": ["20170101"],
+"prefLabel": ["require"],
+"sentence": "3517",
+"time": "20170101",
+"topics": [
+"http://eurovoc.europa.eu/217368",
+"http://eurovoc.europa.eu/214142",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/211822",
+"http://eurovoc.europa.eu/211776",
+"http://eurovoc.europa.eu/214110"
+]
+},
+{
+"actors": {"actor:": [
+"ne:bonus",
+"dbp:Government_of_the_United_Kingdom",
+"ne:playing",
+"dbp:European_Union",
+"ne:maximum"
+]},
+"classes": {
+"eso": ["Placing"],
+"fn": [
+"Possession",
+"Activity_ongoing",
+"Statement"
+],
+"ili": [
+"i27540",
+"i35066",
+"i33135"
+]
+},
+"climax": 84,
+"event": "ev162",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/ca8376d2-ca5c-11e5-be0b-b7ece4e953a0#ev162",
+"labels": [
+"maintain",
+"help"
+],
+"mentions": [
+{
+"char": [
+"3656",
+"3664"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Brussels"
+}],
+"snippet": [" set higher capital standards for banks, claiming a maximum limit helped maintain an EU level playing field. This riled London, which was planning its own so-called"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/ca8376d2-ca5c-11e5-be0b-b7ece4e953a0"]
+},
+{
+"char": [
+"2938",
+"2944"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" \u201cfinancial stability\u201d is a matter for the Bank of England. This could have helped thwart a bonus ban in the UK, because its proponents argued it was a pan-EU financial"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/ca8376d2-ca5c-11e5-be0b-b7ece4e953a0"]
+},
+{
+"char": [
+"2822",
+"2828"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" by member states, and defeated in court.Ê\nWould the new safeguards have helped? Significantly the draft suggests \u201cfinancial stability\u201d is a matter for the Bank"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/ca8376d2-ca5c-11e5-be0b-b7ece4e953a0"]
+},
+{
+"char": [
+"3649",
+"3655"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Brussels"
+}],
+"snippet": [" ability to set higher capital standards for banks, claiming a maximum limit helped maintain an EU level playing field. This riled London, which was planning its"],
+"snippet_char": [
+80,
+86
+],
+"uri": ["http://www.ft.com/thing/ca8376d2-ca5c-11e5-be0b-b7ece4e953a0"]
+},
+{
+"char": [
+"1323",
+"1329"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" way to answer that question is to see whether the new safeguards would have helped in past policy battles.\n1. The ECB location policy for clearing houses \u2014 Possibly\nNo"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/ca8376d2-ca5c-11e5-be0b-b7ece4e953a0"]
+}
+],
+"period": ["20110101"],
+"prefLabel": ["maintain"],
+"sentence": "3656",
+"time": "20110101",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213256",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213274"
+]
+},
+{
+"actors": {"actor:": [
+"ne:labour",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": [
+"IntentionalEvent",
+"Merging"
+],
+"fn": ["Confronting_problem"],
+"ili": [
+"i26985",
+"i26920",
+"i25726",
+"i28016",
+"i28012"
+]
+},
+"climax": 82,
+"event": "ev124",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/5249cbd0-7657-11e4-9761-00144feabdc0#ev124",
+"labels": ["face"],
+"mentions": [{
+"char": [
+"2959",
+"2964"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Patrick_Jenkins"
+}],
+"snippet": [" exodus would intensify the skills and labour shortage that Britain already faces.\u201d\nMany in the business community are trying to take a pro-European stance early"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/5249cbd0-7657-11e4-9761-00144feabdc0"]
+}],
+"prefLabel": ["face"],
+"sentence": "2959",
+"time": "20141201",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"ne:labour",
+"ne:buoyant",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Merging"],
+"fn": [
+"Attaching",
+"Cause_to_amalgamate",
+"Becoming_a_member"
+],
+"ili": [
+"i34784",
+"i28129",
+"i28152",
+"i33902"
+]
+},
+"climax": 84,
+"event": "ev141",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/f45eb40c-68de-11e4-af00-00144feabdc0#ev141",
+"labels": ["join"],
+"mentions": [{
+"char": [
+"3490",
+"3494"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Downing_Street"
+}],
+"snippet": [" notably due to an influx of workers from other EU countries travelling to join Britain\u2019s buoyant labour market.\nLiam Fox, the former Tory defence secretary,"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/f45eb40c-68de-11e4-af00-00144feabdc0"]
+}],
+"prefLabel": ["join"],
+"sentence": "3490",
+"time": "20140501",
+"topics": [
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/214142",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"ne:trade"
+]},
+"classes": {
+"eso": ["BeingInExistence"],
+"fn": ["Existence"],
+"ili": [
+"i34708",
+"i34758"
+]
+},
+"climax": 82,
+"event": "ev115",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/a5667fd8-6e9b-11e5-8171-ba1968cf791a#ev115",
+"labels": [
+"exist",
+"range"
+],
+"mentions": [
+{
+"char": [
+"2755",
+"2763"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" that he wants fixed before Britain\u2019s referendum. They range from boosting existing EU policy initiatives \u2014 such as leaner regulation and a transatlantic trade"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/a5667fd8-6e9b-11e5-8171-ba1968cf791a"]
+},
+{
+"char": [
+"2735",
+"2740"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" outlined four themes that he wants fixed before Britain\u2019s referendum. They range from boosting existing EU policy initiatives \u2014 such as leaner regulation and"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/a5667fd8-6e9b-11e5-8171-ba1968cf791a"]
+}
+],
+"period": ["20151011"],
+"prefLabel": ["exist"],
+"sentence": "2755",
+"time": "20151011",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"ne:trade",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Compatibility",
+"Agree_or_refuse_to_act",
+"Make_agreement_on_action",
+"Be_in_agreement_on_assessment"
+],
+"ili": [
+"i34952",
+"i72068",
+"i110356",
+"i25696",
+"i61822",
+"i25516"
+]
+},
+"climax": 81,
+"event": "ev114",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/9601cc6a-8df3-11e5-a549-b89a1dfede9b#ev114",
+"labels": ["agreement"],
+"mentions": [{
+"char": [
+"2719",
+"2728"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Stuart_Rose"
+}],
+"snippet": [" weaken our control over our economic affairs.\nWe could bet the bank on a trade agreement with the EU, but there is no evidence that we would achieve anything other than"],
+"snippet_char": [
+81,
+90
+],
+"uri": ["http://www.ft.com/thing/9601cc6a-8df3-11e5-a549-b89a1dfede9b"]
+}],
+"prefLabel": ["agreement"],
+"sentence": "2719",
+"time": "20151118",
+"topics": [
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"ne:the_project",
+"ne:trade",
+"dbp:British_Empire",
+"dbp:Parliament_of_the_United_Kingdom",
+"ne:potential_allies",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": [
+"Getting",
+"Replacing"
+],
+"fn": [
+"Getting",
+"Change_of_leadership",
+"Adopt_selection"
+],
+"ili": [
+"i33665",
+"i33472",
+"i24769",
+"i33473"
+]
+},
+"climax": 64,
+"event": "ev50",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/2046513e-0f6e-11e5-b968-00144feabdc0#ev50",
+"labels": ["adopt"],
+"mentions": [
+{
+"char": [
+"500",
+"505"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Nazi_Germany"
+}],
+"snippet": [" change that are unachievable.\nThe Germans fear that British ministers may adopt the blunt, win-or-lose negotiating style that prevails in Westminster but not"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/2046513e-0f6e-11e5-b968-00144feabdc0"]
+},
+{
+"char": [
+"3812",
+"3814"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" energy costs.\n\u201cIf we were outside the EU, I would probably still be able to do the project but it would delay things and create barriers,\u201d he says. \nJames"],
+"snippet_char": [
+78,
+80
+],
+"uri": ["http://www.ft.com/thing/d895e046-b123-11e4-9331-00144feab7de"]
+},
+{
+"char": [
+"6849",
+"6853"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" of Silver Cross, a British pram maker. \u201cHow many trade deals has the EU done in the past 20 years?\u201d\nMr Elliott of Business for Britain says: \u201cWhen you negotiate"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/d895e046-b123-11e4-9331-00144feab7de"]
+},
+{
+"char": [
+"6682",
+"6686"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Alan_Halsall"
+}],
+"snippet": [" outweighed the benefits of being in the EU.\n\u201cThere will be more free trade deals done across the world if Britain is in charge of [its own] deals,\u201d says Alan Halsall,"],
+"snippet_char": [
+85,
+89
+],
+"uri": ["http://www.ft.com/thing/d895e046-b123-11e4-9331-00144feab7de"]
+}
+],
+"period": [
+"20150210",
+"20150610"
+],
+"prefLabel": ["adopt"],
+"sentence": "500",
+"time": "20150210",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216645",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/210607"
+]
+},
+{
+"actors": {"actor:": [
+"ne:trade",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Expressing_publicly"],
+"ili": [
+"i74026",
+"i36357",
+"i26361",
+"i63181",
+"i73852"
+]
+},
+"climax": 67,
+"event": "ev51",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/aba86dce-7efa-11e5-98fb-5a6d4728f74e#ev51",
+"labels": ["voice"],
+"mentions": [{
+"char": [
+"648",
+"653"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:Michael_Froman"
+}],
+"snippet": [" Anglospheric bilateral deal. Mr Froman said that the UK would have a bigger voice in trade talks as part of the EU than on its own; and that if it left the bloc"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/aba86dce-7efa-11e5-98fb-5a6d4728f74e"]
+}],
+"prefLabel": ["voice"],
+"sentence": "648",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/211008",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Chamber_of_commerce",
+"dbp:British_Empire",
+"dbp:Parliament_of_the_United_Kingdom",
+"dbp:European_Union",
+"ne:trade",
+"dbp:Peter_Mandelson",
+"ne:of_national_parliaments",
+"ne:his_objectives",
+"dbp:United_States_dollar"
+]},
+"classes": {
+"fn": [
+"Hear",
+"Perception_experience"
+],
+"ili": [
+"i32299",
+"i32609",
+"i32603",
+"i24755"
+]
+},
+"climax": 84,
+"event": "ev131",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/caed8e44-b9ad-11e3-b74f-00144feabdc0#ev131",
+"labels": [
+"hear",
+"conference",
+"include"
+],
+"mentions": [
+{
+"char": [
+"3420",
+"3425"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" it better.\nAnd the British Chambers of Commerce conference in Westminster heard Lord Mandelson, former EU trade commissioner, warn that British voters would"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/caed8e44-b9ad-11e3-b74f-00144feabdc0"]
+},
+{
+"char": [
+"3394",
+"3404"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+}
+],
+"snippet": [" in the EU and fight to make it better.\nAnd the British Chambers of Commerce conference in Westminster heard Lord Mandelson, former EU trade commissioner, warn that"],
+"snippet_char": [
+77,
+87
+],
+"uri": ["http://www.ft.com/thing/caed8e44-b9ad-11e3-b74f-00144feabdc0"]
+},
+{
+"char": [
+"1882",
+"1891"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" exercise found that Mr Cameron was likely to achieve some of his objectives, including strengthening the power of national parliaments to veto EU legislation, pushing"],
+"snippet_char": [
+78,
+87
+],
+"uri": ["http://www.ft.com/thing/caed8e44-b9ad-11e3-b74f-00144feabdc0"]
+}
+],
+"period": ["20140401"],
+"prefLabel": ["hear"],
+"sentence": "3420",
+"time": "20140401",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/210765"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Canada",
+"ne:trade",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": [
+"Increasing",
+"Getting",
+"Transportation",
+"Taking"
+],
+"fn": [
+"Bringing",
+"Change_of_leadership",
+"Getting",
+"Removing",
+"Change_of_quantity_of_possession",
+"Earnings_and_losses",
+"Taking"
+],
+"ili": [
+"i33076",
+"i32922",
+"i33181",
+"i32785",
+"i33178",
+"i32134",
+"i31738",
+"i35249"
+]
+},
+"climax": 68,
+"event": "ev76",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/0212d89a-dfd4-11e5-b67f-a61732c1d025#ev76",
+"labels": ["take"],
+"mentions": [
+{
+"char": [
+"1412",
+"1416"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" limited access for services firms, faces restrictions on financial services and took two decades to negotiate trade deal.\nCanada has taken seven years to negotiate"],
+"snippet_char": [
+81,
+85
+],
+"uri": ["http://www.ft.com/thing/0212d89a-dfd4-11e5-b67f-a61732c1d025"]
+},
+{
+"char": [
+"1465",
+"1470"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" financial services and took two decades to negotiate trade deal.\nCanada has taken seven years to negotiate a trade deal with Europe that has still not concluded"],
+"snippet_char": [
+77,
+82
+],
+"uri": ["http://www.ft.com/thing/0212d89a-dfd4-11e5-b67f-a61732c1d025"]
+}
+],
+"prefLabel": ["take"],
+"sentence": "1412",
+"time": "20160302",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/209926",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Denmark",
+"ne:migrant",
+"dbp:United_Kingdom",
+"dbp:Austria",
+"dbp:Weimar_Republic"
+]},
+"classes": {
+"fn": [
+"Run_risk",
+"Daring"
+],
+"ili": [
+"i34420",
+"i113422",
+"i34425",
+"i39621"
+]
+},
+"climax": 83,
+"event": "ev131",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead#ev131",
+"labels": [
+"risk",
+"set"
+],
+"mentions": [
+{
+"char": [
+"3076",
+"3080"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" countries hijack talks with their own reform wishlists.Ê\nA particular worry is the risk of countries supportive of migrant benefit curbs \u2014 such as Denmark, Germany"],
+"snippet_char": [
+84,
+88
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"3170",
+"3177"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" supportive of migrant benefit curbs \u2014 such as Denmark, Germany or Austria \u2014 setting off a political storm by demanding UK measures are toughened and broadened"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"1412",
+"1415"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" EU to \u201can orchestra playing on the Titanic\u201d.Ê\nBritain\u2019s \u201cnew settlement\u201d is set to be debated at the EU summit, with Mr Tusk aiming to broker a deal allowing"],
+"snippet_char": [
+77,
+80
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+}
+],
+"period": ["20160210"],
+"prefLabel": ["risk"],
+"sentence": "3076",
+"time": "20160210",
+"topics": [
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/223000",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/209933"
+]
+},
+{
+"actors": {"actor:": [
+"ne:labour",
+"dbp:Bulgaria_(ship)",
+"dbp:Romanians"
+]},
+"classes": {
+"eso": ["Stealing"],
+"fn": [
+"Cause_to_end",
+"Theft"
+],
+"ili": [
+"i31600",
+"i33118",
+"i33119"
+]
+},
+"climax": 83,
+"event": "ev142",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d10bcbf6-6c9c-11e2-b73a-00144feab49a#ev142",
+"labels": [
+"lift",
+"restriction"
+],
+"mentions": [
+{
+"char": [
+"3085",
+"3089"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+}
+],
+"snippet": [" controls on new EU member states. This time around, the UK is one of the last to lift its labour restrictions for Romanians and Bulgarians.\nNeither are the Tories\u2019"],
+"snippet_char": [
+82,
+86
+],
+"uri": ["http://www.ft.com/thing/d10bcbf6-6c9c-11e2-b73a-00144feab49a"]
+},
+{
+"char": [
+"3101",
+"3113"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Helen_Warrell"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Elizabeth_Rigby"]
+}
+],
+"snippet": [" member states. This time around, the UK is one of the last to lift its labour restrictions for Romanians and Bulgarians.\nNeither are the Tories\u2019 warnings about \u201cbenefit"],
+"snippet_char": [
+79,
+91
+],
+"uri": ["http://www.ft.com/thing/d10bcbf6-6c9c-11e2-b73a-00144feab49a"]
+}
+],
+"period": ["20040101"],
+"prefLabel": ["lift"],
+"sentence": "3085",
+"time": "20040101",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/221958",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/221974",
+"http://eurovoc.europa.eu/223000"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Central_Bank",
+"dbp:Bank_of_England"
+]},
+"classes": {
+"fn": [
+"Perception_experience",
+"Hear"
+],
+"ili": [
+"i32603",
+"i24755",
+"i32609",
+"i32299"
+]
+},
+"climax": 83,
+"event": "ev125",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/4b5df80a-c26a-11e4-ad89-00144feab7de#ev125",
+"labels": [
+"hear",
+"reach",
+"end",
+"settlement"
+],
+"mentions": [
+{
+"char": [
+"3267",
+"3272"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" concerns the ECB has about Bank of England supervision are more likely to be heard if it is not suspected of simultaneously pursuing a protectionist agenda. \nWorking"],
+"snippet_char": [
+78,
+83
+],
+"uri": ["http://www.ft.com/thing/4b5df80a-c26a-11e4-ad89-00144feab7de"]
+},
+{
+"char": [
+"2192",
+"2199"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" \u201clocation policy\u201d in court as discriminatory. The ECB and the Bank of England reached a settlement in March to end the four-year legal battle.\n\u201cWe must never let taxpayers"],
+"snippet_char": [
+83,
+90
+],
+"uri": ["http://www.ft.com/thing/55d4a83c-8214-11e5-8095-ed1a37d1e096"]
+},
+{
+"char": [
+"2225",
+"2228"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" discriminatory. The ECB and the Bank of England reached a settlement in March to end the four-year legal battle.\n\u201cWe must never let taxpayers in countries that are"],
+"snippet_char": [
+86,
+89
+],
+"uri": ["http://www.ft.com/thing/55d4a83c-8214-11e5-8095-ed1a37d1e096"]
+},
+{
+"char": [
+"2202",
+"2212"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" in court as discriminatory. The ECB and the Bank of England reached a settlement in March to end the four-year legal battle.\n\u201cWe must never let taxpayers in countries"],
+"snippet_char": [
+75,
+85
+],
+"uri": ["http://www.ft.com/thing/55d4a83c-8214-11e5-8095-ed1a37d1e096"]
+},
+{
+"char": [
+"562",
+"572"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" that they will push down a road towards \u201cever closer union\u201d.\nHe wants a \u201cnew settlement\u201d, enshrining in EU law the idea of a multicurrency union. Under this scenario,"],
+"snippet_char": [
+78,
+88
+],
+"uri": ["http://www.ft.com/thing/55d4a83c-8214-11e5-8095-ed1a37d1e096"]
+}
+],
+"period": [
+"20150301",
+"20150304"
+],
+"prefLabel": ["hear"],
+"sentence": "3267",
+"time": "20150301",
+"topics": [
+"http://eurovoc.europa.eu/213253",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/213251",
+"http://eurovoc.europa.eu/213180",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213241"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Government_of_the_United_Kingdom",
+"dbp:Brussels",
+"dbp:City_of_London",
+"dbp:George_Osborne",
+"dbp:HM_Treasury"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Cause_to_start",
+"Intentionally_create",
+"Creating"
+],
+"ili": [
+"i30508",
+"i29865",
+"i29942",
+"i29849"
+]
+},
+"climax": 82,
+"event": "ev108",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/469e67b4-c3d9-11e2-8c30-00144feab7de#ev108",
+"labels": [
+"create",
+"tension"
+],
+"mentions": [
+{
+"char": [
+"2890",
+"2897"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Michael_Steen"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" \nMore recently, some moves towards deeper eurozone financial integration have created further tensions between the UK and Brussels. Mr Osborne has also launched"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/469e67b4-c3d9-11e2-8c30-00144feab7de"]
+},
+{
+"char": [
+"2906",
+"2914"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Michael_Steen"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" some moves towards deeper eurozone financial integration have created further tensions between the UK and Brussels. Mr Osborne has also launched legal action against"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/469e67b4-c3d9-11e2-8c30-00144feab7de"]
+},
+{
+"char": [
+"2407",
+"2415"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Michael_Steen"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" Europe but more Europe,\u201d he said.\nMr Draghi\u2019s presence in London comes amid tensions with the Treasury over what George Osborne, chancellor, believes is an attempt"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/469e67b4-c3d9-11e2-8c30-00144feab7de"]
+}
+],
+"period": ["20110101"],
+"prefLabel": ["create"],
+"sentence": "2890",
+"time": "20110101",
+"topics": [
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213180",
+"http://eurovoc.europa.eu/213274",
+"http://eurovoc.europa.eu/213241",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:British_Empire",
+"ne:continued",
+"ne:both_the_leave_and_remain_camps",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["JoiningAnOrganization"],
+"fn": [
+"Possession",
+"Becoming_a_member"
+],
+"ili": [
+"i81246",
+"i34076",
+"i110154"
+]
+},
+"climax": 58,
+"event": "ev45",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6#ev45",
+"labels": ["membership"],
+"mentions": [
+{
+"char": [
+"3534",
+"3544"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" money to banks, BoE officials will on Tuesday update its assessment that EU membership has benefited British people by bringing greater dynamism and prosperity to"],
+"snippet_char": [
+77,
+87
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+},
+{
+"char": [
+"2429",
+"2439"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Mark_Carney"
+}],
+"snippet": [" offer. \nMr Carney will face questions on Tuesday on the effects of Britain\u2019s membership of the EU on the economy from MPs keen to recruit him to both the leave and"],
+"snippet_char": [
+78,
+88
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+},
+{
+"char": [
+"3029",
+"3039"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" \u201cvery impressive\u201d a speech by Mr Carney supporting Britain\u2019s continued EU membership.\nTheresa Villiers, Northern Ireland secretary and one of six cabinet ministers"],
+"snippet_char": [
+75,
+85
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+},
+{
+"char": [
+"380",
+"390"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" exceptional opportunities just before and after the June 23 poll on Britain\u2019s membership of the EU to borrow as much money as they like to offset any threat of a run"],
+"snippet_char": [
+79,
+89
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+}
+],
+"prefLabel": ["membership"],
+"sentence": "380",
+"time": "20070101",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Osborne_House",
+"dbp:Mark_Carney",
+"ne:continued",
+"dbp:European_Union",
+"dbp:British_Empire"
+]},
+"classes": {
+"eso": ["Translocation"],
+"fn": [
+"Travel",
+"Communicate_categorization"
+],
+"ili": [
+"i35388",
+"i26117",
+"i26118",
+"i25938"
+]
+},
+"climax": 82,
+"event": "ev126",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6#ev126",
+"labels": ["hail"],
+"mentions": [{
+"char": [
+"2945",
+"2951"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" sure\u201d the BoE set out the economic facts around Brexit; last year Mr Osborne hailed as \u201cvery impressive\u201d a speech by Mr Carney supporting Britain\u2019s continued EU"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+}],
+"prefLabel": ["hail"],
+"sentence": "2945",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"ne:continued",
+"dbp:British_Empire",
+"dbp:European_Union",
+"dbp:Mark_Carney"
+]},
+"classes": {
+"eso": ["IntentionalEvent"],
+"fn": [
+"Taking_sides",
+"Supporting"
+],
+"ili": [
+"i25064",
+"i27707",
+"i34473",
+"i33992",
+"i25699"
+]
+},
+"climax": 82,
+"event": "ev127",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6#ev127",
+"labels": ["support"],
+"mentions": [{
+"char": [
+"2995",
+"3005"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" Brexit; last year Mr Osborne hailed as \u201cvery impressive\u201d a speech by Mr Carney supporting Britain\u2019s continued EU membership.\nTheresa Villiers, Northern Ireland secretary"],
+"snippet_char": [
+80,
+90
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+}],
+"prefLabel": ["support"],
+"sentence": "2995",
+"time": "20160201",
+"topics": [
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210356"
+]
+},
+{
+"actors": {"actor:": [
+"ne:great",
+"dbp:City_of_London"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Building",
+"Cause_change",
+"Arriving",
+"Cooking_creation",
+"Causation",
+"Self_motion",
+"Intentionally_create",
+"Creating",
+"Manufacturing"
+],
+"ili": [
+"i34780",
+"i30054",
+"i34493",
+"i33730",
+"i30518",
+"i29865",
+"i29854",
+"i35418",
+"i22361",
+"i35419",
+"i30008"
+]
+},
+"climax": 63,
+"event": "ev71",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d0af25ac-b49e-11e5-b147-e5e5bba42e51#ev71",
+"labels": ["make"],
+"mentions": [
+{
+"char": [
+"1188",
+"1192"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" leave, there will be a lot of work to be done,\u201d he added. \u201cWe have got plans to make sure that if that is what happens we know who is going to do what. It will"],
+"snippet_char": [
+81,
+85
+],
+"uri": ["http://www.ft.com/thing/d0af25ac-b49e-11e5-b147-e5e5bba42e51"]
+},
+{
+"char": [
+"2780",
+"2784"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" the EU single market had helped to offset that. \u201cThe hub things that have made London great are not eternal and the advantages that have been granted by access"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/d0af25ac-b49e-11e5-b147-e5e5bba42e51"]
+},
+{
+"char": [
+"1656",
+"1660"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" financial services industry was hampered by EU regulation \u2014 an argument often made by the hedge fund bosses who have donated money to the Out campaign.\nWhile"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/d0af25ac-b49e-11e5-b147-e5e5bba42e51"]
+},
+{
+"char": [
+"2916",
+"2920"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" have been granted by access to the single market have bolstered that and have made it stronger.\u201d \nGiving the example of foreign exchange markets, Mr Chew said"],
+"snippet_char": [
+79,
+83
+],
+"uri": ["http://www.ft.com/thing/d0af25ac-b49e-11e5-b147-e5e5bba42e51"]
+}
+],
+"prefLabel": ["make"],
+"sentence": "1188",
+"time": "20150601",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/217039",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"ne:great",
+"dbp:City_of_London"
+]},
+"classes": {
+"fn": ["Supporting"],
+"ili": [
+"i22840",
+"i23339"
+]
+},
+"climax": 82,
+"event": "ev117",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d0af25ac-b49e-11e5-b147-e5e5bba42e51#ev117",
+"labels": ["bolster"],
+"mentions": [{
+"char": [
+"2892",
+"2901"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" the advantages that have been granted by access to the single market have bolstered that and have made it stronger.\u201d \nGiving the example of foreign exchange markets,"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/d0af25ac-b49e-11e5-b147-e5e5bba42e51"]
+}],
+"prefLabel": ["bolster"],
+"sentence": "2892",
+"time": "20160106",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/217039"
+]
+},
+{
+"actors": {"actor:": [
+"ne:tory",
+"dbp:Premiership_of_David_Cameron"
+]},
+"classes": {
+"eso": [
+"Translocation",
+"Motion"
+],
+"fn": [
+"Change_position_on_a_scale",
+"Cause_motion",
+"Cause_change_of_position_on_a_scale",
+"Motion"
+],
+"ili": [
+"i21839",
+"i30960",
+"i36296",
+"i36281",
+"i37159",
+"i30898",
+"i30886"
+]
+},
+"climax": 65,
+"event": "ev55",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39#ev55",
+"labels": ["move"],
+"mentions": [
+{
+"char": [
+"712",
+"718"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+}
+],
+"snippet": [" recently, HSBC\u2019s chief executive Stuart Gulliver raised the spectre of the bank moving 1,000 jobs from London in the event of a Brexit, although the bank confirmed"],
+"snippet_char": [
+81,
+87
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+},
+{
+"char": [
+"2679",
+"2683"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Conservative_Party_(UK)"
+}],
+"snippet": [" that has infuriated David Cameron, the prime minister.\nSome Tories saw the move as an exercise in political positioning to bolster his chances in the next"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+}
+],
+"prefLabel": ["move"],
+"sentence": "712",
+"time": "20130101",
+"topics": [
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212117",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"ne:tory",
+"dbp:Premiership_of_David_Cameron",
+"dbp:Conservative_Party_(UK)"
+]},
+"classes": {
+"fn": ["Supporting"],
+"ili": [
+"i22840",
+"i23339"
+]
+},
+"climax": 81,
+"event": "ev111",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39#ev111",
+"labels": [
+"bolster",
+"chance",
+"step"
+],
+"mentions": [
+{
+"char": [
+"2727",
+"2734"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Conservative_Party_(UK)"
+}],
+"snippet": [" minister.\nSome Tories saw the move as an exercise in political positioning to bolster his chances in the next contest for the Tory leadership when Mr Cameron steps"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+},
+{
+"char": [
+"2739",
+"2746"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Conservative_Party_(UK)"
+}],
+"snippet": [" Tories saw the move as an exercise in political positioning to bolster his chances in the next contest for the Tory leadership when Mr Cameron steps down before"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+},
+{
+"char": [
+"2807",
+"2812"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Conservative_Party_(UK)"
+}],
+"snippet": [" bolster his chances in the next contest for the Tory leadership when Mr Cameron steps down before the 2020 general election.\nMr Johnson told the BBC that he had"],
+"snippet_char": [
+81,
+86
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+},
+{
+"char": [
+"3315",
+"3319"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:Boris_Johnson"
+}],
+"snippet": [" left the door open\u201d.\nMr Johnson insisted that Mr Cameron would not have to step down if the British public voted to quit the bloc.\n\u201cCertainly not,\u201d he said."],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+},
+{
+"char": [
+"3519",
+"3523"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Pickard"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+}
+],
+"snippet": [" best of my knowledge there is not a single European leader who has had to step down because of a referendum, on Europe or not."],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+}
+],
+"period": ["20160306"],
+"prefLabel": ["bolster"],
+"sentence": "2727",
+"time": "20160306",
+"topics": [
+"http://eurovoc.europa.eu/212117",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/216970"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Osborne_Group",
+"ne:prime",
+"dbp:David_Cameron",
+"ne:the_boe"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Experiencer_obj",
+"Intentionally_create"
+],
+"ili": ["i30668"]
+},
+"climax": 81,
+"event": "ev108",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39#ev108",
+"labels": [
+"infuriate",
+"manipulate"
+],
+"mentions": [
+{
+"char": [
+"2613",
+"2623"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Boris_Johnson"
+}],
+"snippet": [" side of the referendum after months of procrastination \u2014 a decision that has infuriated David Cameron, the prime minister.\nSome Tories saw the move as an exercise"],
+"snippet_char": [
+78,
+88
+],
+"uri": ["http://www.ft.com/thing/ad3cc194-e395-11e5-a09b-1f8b0d268c39"]
+},
+{
+"char": [
+"1119",
+"1130"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" markets. \nBut Tory campaigners for a British EU exit claimed the BoE was being manipulated by Mr Osborne and David Cameron, the prime minister. Jacob Rees-Mogg, a Tory"],
+"snippet_char": [
+80,
+91
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+}
+],
+"period": [
+"20160306",
+"20160307"
+],
+"prefLabel": ["infuriate"],
+"sentence": "2613",
+"time": "20160306",
+"topics": [
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/212117",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/213515"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:JPMorgan_Chase",
+"dbp:United_States_dollar",
+"dbp:United_Kingdom",
+"dbp:European_Union",
+"ne:money",
+"dbp:Goldman_Sachs"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": ["Giving"],
+"ili": ["i33048"]
+},
+"climax": 81,
+"event": "ev96",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/11b15942-f1c8-11e5-aff5-19b4e253664a#ev96",
+"labels": [
+"donate",
+"include"
+],
+"mentions": [
+{
+"char": [
+"2656",
+"2663"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" BSE campaign,\u201d he added.\nSeveral US banks with large British operations have donated money to the Britain Stronger in Europe campaign, including Goldman Sachs and"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/11b15942-f1c8-11e5-aff5-19b4e253664a"]
+},
+{
+"char": [
+"2714",
+"2723"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" operations have donated money to the Britain Stronger in Europe campaign, including Goldman Sachs and JPMorgan Chase.\nLucy Thomas, deputy director of Britain Stronger"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/11b15942-f1c8-11e5-aff5-19b4e253664a"]
+}
+],
+"period": ["20160324"],
+"prefLabel": ["donate"],
+"sentence": "2656",
+"time": "20160324",
+"topics": [
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:David_Cameron",
+"dbp:Switzerland",
+"ne:central_banks_which_set_monetary_policy_in_an_independent_fashion",
+"dbp:Bank_of_England",
+"dbp:Norway"
+]},
+"classes": {
+"eso": ["Arriving"],
+"fn": [
+"Change_position_on_a_scale",
+"Arriving",
+"Path_shape"
+],
+"ili": [
+"i31770",
+"i32898",
+"i35083",
+"i31843"
+]
+},
+"climax": 81,
+"event": "ev96",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7#ev96",
+"labels": [
+"reach",
+"have"
+],
+"mentions": [
+{
+"char": [
+"2548",
+"2555"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ferdinando_Giugliano"
+}],
+"snippet": [" effect.\nIn a way, it is hard to see how the Bank of England could have reached a different conclusion: non-EU member states from Switzerland to Norway have central"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+},
+{
+"char": [
+"2628",
+"2632"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Bank_of_England"
+}],
+"snippet": [" different conclusion: non-EU member states from Switzerland to Norway have central banks which set monetary policy in an independent fashion. Were Britain"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+},
+{
+"char": [
+"2459",
+"2462"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ferdinando_Giugliano"
+}],
+"snippet": [" price stability and monetary policy, his conclusion is that EU membership has little direct effect.\nIn a way, it is hard to see how the Bank of England could"],
+"snippet_char": [
+79,
+82
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+},
+{
+"char": [
+"2067",
+"2070"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" a senior policymaker who oversees the functioning of the UK economy, he has a duty to give his assessment of the overall impact of EU membership.\n3) \u201cNeither"],
+"snippet_char": [
+76,
+79
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+},
+{
+"char": [
+"4699",
+"4703"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Ferdinando_Giugliano"
+}],
+"snippet": [" crucial phase of his talks, David Cameron will no doubt be pleased to have the BoE chief\u2019s support"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/95a4b7f6-7817-11e5-a95a-27d368e1ddf7"]
+}
+],
+"period": ["20151021"],
+"prefLabel": ["reach"],
+"sentence": "2548",
+"time": "20151021",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213253",
+"http://eurovoc.europa.eu/213274",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"ne:less",
+"ne:environmental",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["BeingLeader"],
+"fn": [
+"Evidence",
+"Leadership",
+"Adducing"
+],
+"ili": [
+"i26230",
+"i31378",
+"i27384"
+]
+},
+"climax": 81,
+"event": "ev97",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/7b4fb994-9409-11e3-a0e1-00144feab7de#ev97",
+"labels": ["point"],
+"mentions": [{
+"char": [
+"2621",
+"2628"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Mats_Persson"
+}],
+"snippet": [" existing powers more sparingly.\nHowever, Mr Persson noted that the reports pointed to overregulation in areas such as transport and environmental policy, and"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/7b4fb994-9409-11e3-a0e1-00144feab7de"]
+}],
+"prefLabel": ["point"],
+"sentence": "2621",
+"time": "20140212",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209983",
+"http://eurovoc.europa.eu/214142",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"ne:fiscal",
+"ne:federal",
+"dbp:European_Union",
+"ne:less"
+]},
+"classes": {
+"eso": [
+"Taking",
+"Increasing",
+"Getting",
+"Transportation"
+],
+"fn": [
+"Bringing",
+"Change_of_leadership",
+"Change_of_quantity_of_possession",
+"Getting",
+"Earnings_and_losses",
+"Taking",
+"Removing"
+],
+"ili": [
+"i33076",
+"i24872",
+"i33178",
+"i35249",
+"i32134",
+"i31738",
+"i32778",
+"i32785",
+"i34813",
+"i33181",
+"i22577",
+"i32798",
+"i27693",
+"i25092",
+"i32306",
+"i25071",
+"i25370"
+]
+},
+"climax": 74,
+"event": "ev135",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/64e0ff1e-e1f6-11e5-9217-6ae3733a2cd1#ev135",
+"labels": ["take"],
+"mentions": [
+{
+"char": [
+"4613",
+"4617"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Merryn_Somerset_Webb"
+}],
+"snippet": [" North Sea while it reapplied \u2014 in the full knowledge that it would have to take the euro and the EU\u2019s fiscal limits with no UK-style federal transfers. Who would"],
+"snippet_char": [
+80,
+84
+],
+"uri": ["http://www.ft.com/thing/64e0ff1e-e1f6-11e5-9217-6ae3733a2cd1"]
+},
+{
+"char": [
+"2819",
+"2823"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "author:Merryn_Somerset_Webb"
+}],
+"snippet": [" our welfare system. With that fresh in my mind post renegotiation, I\u2019ll take less. \nThe economy. It will be almost impossible to cut though the numbers on"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/64e0ff1e-e1f6-11e5-9217-6ae3733a2cd1"]
+},
+{
+"char": [
+"5704",
+"5708"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" what he is doing: think long-term average returns of about 10 per cent. Take a look also at an entirely new fund \u2014 Equitile. This one aims to invest only in"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/64e0ff1e-e1f6-11e5-9217-6ae3733a2cd1"]
+}
+],
+"prefLabel": ["take"],
+"sentence": "2819",
+"time": "20160304",
+"topics": [
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/212130",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Premiership_of_David_Cameron",
+"dbp:David_Cameron"
+]},
+"classes": {
+"eso": ["Translocation"],
+"fn": [
+"Desiring",
+"Self_motion"
+],
+"ili": [
+"i30859",
+"i25236"
+]
+},
+"climax": 81,
+"event": "ev108",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/5c7b911c-f7ce-11e4-9beb-00144feab7de#ev108",
+"labels": ["hope"],
+"mentions": [{
+"char": [
+"2582",
+"2586"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" requires some of them to hold referendums as well. The best Mr Cameron can hope for is a \u201cpromissory note\u201d that sets out ideas for minor treaty changes at"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/5c7b911c-f7ce-11e4-9beb-00144feab7de"]
+}],
+"prefLabel": ["hope"],
+"sentence": "2582",
+"time": "20150511",
+"topics": [
+"http://eurovoc.europa.eu/212128",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"ne:the_outcome",
+"dbp:David_Cameron",
+"dbp:Premiership_of_David_Cameron"
+]},
+"classes": {
+"fn": [
+"Causation",
+"Manufacturing"
+],
+"ili": [
+"i33730",
+"i34493",
+"i22361",
+"i34780"
+]
+},
+"climax": 64,
+"event": "ev54",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/0669bb16-96ee-11e2-8950-00144feabdc0#ev54",
+"labels": ["make"],
+"mentions": [
+{
+"char": [
+"2146",
+"2152"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Peter_Kellner"
+}],
+"snippet": [" EU had hardened since Mr Cameron made his offer of a referendum in January, making the outcome harder to call.\nA YouGov survey this week found 44 per cent of"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/0669bb16-96ee-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"980",
+"984"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" commit to an in/out referendum, in spite of the fact that David Cameron has made a commitment to hold a vote on the issue in 2017.\nLabour and Liberal Democrat"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/0669bb16-96ee-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"2103",
+"2107"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Peter_Kellner"
+}],
+"snippet": [" YouGov, a pollster, said attitudes towards the EU had hardened since Mr Cameron made his offer of a referendum in January, making the outcome harder to call.\nA"],
+"snippet_char": [
+81,
+85
+],
+"uri": ["http://www.ft.com/thing/0669bb16-96ee-11e2-8950-00144feabdc0"]
+}
+],
+"prefLabel": ["make"],
+"sentence": "980",
+"time": "20170101",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/212401",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/212449",
+"http://eurovoc.europa.eu/217312",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"ne:the_central_bank",
+"ne:pay",
+"dbp:Government_of_Ireland",
+"ne:bonus"
+]},
+"classes": {
+"eso": ["Stealing"],
+"fn": [
+"Cause_to_end",
+"Theft"
+],
+"ili": [
+"i33118",
+"i31600",
+"i33119"
+]
+},
+"climax": 80,
+"event": "ev104",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/dd141dcc-a407-11e5-873f-68411a84f346#ev104",
+"labels": [
+"lift",
+"ban"
+],
+"mentions": [
+{
+"char": [
+"2418",
+"2422"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" so. The central bank is already lobbying the government for permission to lift a pay freeze and bonus ban introduced during the crisis that is harder to sustain"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/dd141dcc-a407-11e5-873f-68411a84f346"]
+},
+{
+"char": [
+"2446",
+"2449"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" already lobbying the government for permission to lift a pay freeze and bonus ban introduced during the crisis that is harder to sustain as the Irish economy"],
+"snippet_char": [
+79,
+82
+],
+"uri": ["http://www.ft.com/thing/dd141dcc-a407-11e5-873f-68411a84f346"]
+}
+],
+"period": ["20160127"],
+"prefLabel": ["lift"],
+"sentence": "2418",
+"time": "20160127",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222013",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"ne:with_the_liquidity_it_needs_to_operate",
+"ne:banking",
+"dbp:Government_of_the_United_Kingdom",
+"ne:the_central_bank",
+"ne:few"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": ["Supply"],
+"ili": [
+"i33372",
+"i27532"
+]
+},
+"climax": 79,
+"event": "ev104",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6#ev104",
+"labels": [
+"provide",
+"lend",
+"pound"
+],
+"mentions": [
+{
+"char": [
+"2224",
+"2231"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" lends a few billion pounds in the equivalent regular monthly auctions held to provide the commercial UK banking system with the liquidity it needs to operate. There"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+},
+{
+"char": [
+"2146",
+"2151"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" only publicised these plans after the referendum. \nThe central bank often lends a few billion pounds in the equivalent regular monthly auctions held to provide"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+},
+{
+"char": [
+"2166",
+"2172"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Chris_Giles"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" these plans after the referendum. \nThe central bank often lends a few billion pounds in the equivalent regular monthly auctions held to provide the commercial UK"],
+"snippet_char": [
+79,
+85
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+}
+],
+"period": ["20160307"],
+"prefLabel": ["provide"],
+"sentence": "2224",
+"time": "20160307",
+"topics": [
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213515"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Conservatives_and_Reformists",
+"ne:anti-immigration",
+"dbp:Finland",
+"ne:meps_with_convictions_for_inciting_ethnic_tension",
+"dbp:Denmark",
+"ne:in_spite_of_two_of_their_meps_carrying_past_convictions_for_inciting_ethnic_tension",
+"ne:tory",
+"dbp:10_Downing_Street"
+]},
+"classes": {
+"eso": ["Merging"],
+"fn": [
+"Cause_to_amalgamate",
+"Attaching",
+"Becoming_a_member"
+],
+"ili": [
+"i33902",
+"i28129",
+"i28152",
+"i34784"
+]
+},
+"climax": 78,
+"event": "ev78",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0#ev78",
+"labels": [
+"join",
+"include",
+"come"
+],
+"mentions": [
+{
+"char": [
+"1935",
+"1941"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" party. \nAgainst the advice of some within Downing Street, the ECR last week joined with anti-immigration parties from Denmark and Finland that both include MEPs"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0"]
+},
+{
+"char": [
+"2007",
+"2014"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" week joined with anti-immigration parties from Denmark and Finland that both include MEPs with convictions for inciting ethnic tension.\nParties such as the Danish"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0"]
+},
+{
+"char": [
+"4990",
+"4994"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" growing rightwing force in Danish politics for almost 20 years. Its breakthrough came in last month\u2019s European elections, when it emerged as the biggest party with"],
+"snippet_char": [
+82,
+86
+],
+"uri": ["http://www.ft.com/thing/5ca0247c-f244-11e3-9e59-00144feabdc0"]
+},
+{
+"char": [
+"1264",
+"1268"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" the next European Commission president. \nPart of the pro-AfD majority also came from Danish and Finnish anti-immigration parties that were only admitted to"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/5ca0247c-f244-11e3-9e59-00144feabdc0"]
+},
+{
+"char": [
+"1013",
+"1018"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" spokesman for Mr Cameron said he was \u201cvery disappointed\u201d over the AfD vote, which comes at a highly sensitive moment for Mr Cameron\u2019s diplomatic push to speed up EU"],
+"snippet_char": [
+83,
+88
+],
+"uri": ["http://www.ft.com/thing/5ca0247c-f244-11e3-9e59-00144feabdc0"]
+}
+],
+"period": [
+"20140101",
+"20140501"
+],
+"prefLabel": ["join"],
+"sentence": "1935",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/209523",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/210765"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:Premiership_of_David_Cameron",
+"dbp:Conservative_Party_(UK)"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": [
+"Giving",
+"Offering"
+],
+"ili": [
+"i33216",
+"i74413",
+"i34739",
+"i74305"
+]
+},
+"climax": 60,
+"event": "ev53",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/6de6f8b2-1c68-11e3-8894-00144feab7de#ev53",
+"labels": ["offer"],
+"mentions": [
+{
+"char": [
+"4947",
+"4952"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "author:Janan_Ganesh"
+}],
+"snippet": [" force his hand. \nThe only good reason for either man to match Mr Cameron\u2019s offer is high principle. The EU is unrecognisable from 38 years ago, and is about"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/6de6f8b2-1c68-11e3-8894-00144feab7de"]
+},
+{
+"char": [
+"372",
+"377"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Janan_Ganesh"
+}],
+"snippet": [" leads the Labour opposition. \nBoth men are urged to match the Conservatives\u2019 offer of a referendum on EU membership after the next election \u2013 and to announce"],
+"snippet_char": [
+78,
+83
+],
+"uri": ["http://www.ft.com/thing/6de6f8b2-1c68-11e3-8894-00144feab7de"]
+}
+],
+"prefLabel": ["offer"],
+"sentence": "372",
+"time": "20130101",
+"topics": [
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/209523",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Conservative_Party_(UK)",
+"dbp:Premiership_of_David_Cameron"
+]},
+"classes": {
+"fn": [
+"Daring",
+"Run_risk"
+],
+"ili": [
+"i113422",
+"i34420",
+"i34425",
+"i39621"
+]
+},
+"climax": 77,
+"event": "ev73",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0#ev73",
+"labels": [
+"risk",
+"find"
+],
+"mentions": [
+{
+"char": [
+"1734",
+"1739"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" speaking time and coveted positions in the parliament. But it carries political risks for Mr Cameron, who finds the Tories sitting in an expanded group containing"],
+"snippet_char": [
+81,
+86
+],
+"uri": ["http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0"]
+},
+{
+"char": [
+"1760",
+"1765"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" positions in the parliament. But it carries political risks for Mr Cameron, who finds the Tories sitting in an expanded group containing some former allies of the"],
+"snippet_char": [
+81,
+86
+],
+"uri": ["http://www.ft.com/thing/2e88a834-f217-11e3-9015-00144feabdc0"]
+}
+],
+"period": ["20140101"],
+"prefLabel": ["risk"],
+"sentence": "1734",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/221905",
+"http://eurovoc.europa.eu/209523",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_States_dollar",
+"ne:financial",
+"dbp:European_Union",
+"ne:bonus",
+"dbp:Asia"
+]},
+"classes": {
+"eso": ["Placing"],
+"fn": [
+"Event",
+"Placing"
+],
+"ili": [
+"i23435",
+"i33401",
+"i29197"
+]
+},
+"climax": 68,
+"event": "ev68",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/bd8c3926-9703-11e2-8950-00144feabdc0#ev68",
+"labels": ["place"],
+"mentions": [
+{
+"char": [
+"1362",
+"1367"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" more difficult to claw back pay.\u201d\nAn official vote over the plan will take place in May when EU finance ministers meet in Brussels, but Wednesday\u2019s decision"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/bd8c3926-9703-11e2-8950-00144feabdc0"]
+},
+{
+"char": [
+"1795",
+"1802"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:MarkBoleat"
+}],
+"snippet": [" policy chairman of the City of London Corporation, said: \u201cThis bonus cap risks placing the EU at a competitive disadvantage to other international financial centres"],
+"snippet_char": [
+80,
+87
+],
+"uri": ["http://www.ft.com/thing/bd8c3926-9703-11e2-8950-00144feabdc0"]
+}
+],
+"prefLabel": ["place"],
+"sentence": "1362",
+"time": "20120501",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213253",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213380"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_States_dollar",
+"ne:financial",
+"dbp:Asia",
+"dbp:European_Union",
+"ne:bonus"
+]},
+"classes": {
+"fn": [
+"Run_risk",
+"Daring"
+],
+"ili": [
+"i113422",
+"i34425",
+"i39621",
+"i34420"
+]
+},
+"climax": 77,
+"event": "ev80",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/bd8c3926-9703-11e2-8950-00144feabdc0#ev80",
+"labels": ["risk"],
+"mentions": [{
+"char": [
+"1789",
+"1794"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:MarkBoleat"
+}],
+"snippet": [" Boleat, policy chairman of the City of London Corporation, said: \u201cThis bonus cap risks placing the EU at a competitive disadvantage to other international financial"],
+"snippet_char": [
+82,
+87
+],
+"uri": ["http://www.ft.com/thing/bd8c3926-9703-11e2-8950-00144feabdc0"]
+}],
+"prefLabel": ["risk"],
+"sentence": "1789",
+"time": "20130327",
+"topics": [
+"http://eurovoc.europa.eu/213253",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/210356"
+]
+},
+{
+"actors": {"actor:": [
+"ne:common",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["BeingLeader"],
+"fn": [
+"Leadership",
+"Adducing",
+"Evidence"
+],
+"ili": [
+"i31378",
+"i82287",
+"i67705"
+]
+},
+"climax": 76,
+"event": "ev76",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/dd141dcc-a407-11e5-873f-68411a84f346#ev76",
+"labels": [
+"point",
+"market"
+],
+"mentions": [
+{
+"char": [
+"1538",
+"1543"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Laura_Noonan"
+}],
+"snippet": [" and Goldman Sachs. UK banks might also find themselves in need of an entry point to the EU common market but the chances of them moving large operations to"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/dd141dcc-a407-11e5-873f-68411a84f346"]
+},
+{
+"char": [
+"1561",
+"1567"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Laura_Noonan"
+}],
+"snippet": [" banks might also find themselves in need of an entry point to the EU common market but the chances of them moving large operations to Ireland are slimmer. Asset"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/dd141dcc-a407-11e5-873f-68411a84f346"]
+}
+],
+"period": ["20160127"],
+"prefLabel": ["point"],
+"sentence": "1538",
+"time": "20160127",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222013",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:George_Osborne",
+"ne:boe",
+"dbp:Mark_Carney"
+]},
+"classes": {
+"fn": [
+"Statement",
+"Chatting"
+],
+"ili": [
+"i74711",
+"i26408",
+"i26316"
+]
+},
+"climax": 63,
+"event": "ev61",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09#ev61",
+"labels": ["speech"],
+"mentions": [{
+"char": [
+"466",
+"472"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:George_Osborne"
+}],
+"snippet": [" BoE governor, supported Britain\u2019s continued EU membership last October in a speech hailed by chancellor George Osborne as \u201cvery impressive\u201d. At the time BoE officials"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/87a838ec-daf7-11e5-98fd-06d75973fe09"]
+}],
+"prefLabel": ["speech"],
+"sentence": "466",
+"time": "20151001",
+"topics": [
+"http://eurovoc.europa.eu/213241",
+"http://eurovoc.europa.eu/222119",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/210356"
+]
+},
+{
+"actors": {"actor:": [
+"ne:boe",
+"dbp:Mark_Carney"
+]},
+"classes": {
+"eso": ["Translocation"],
+"fn": [
+"Cause_motion",
+"Create_physical_artwork",
+"Removing"
+],
+"ili": [
+"i33290",
+"i28967",
+"i30195",
+"i26520",
+"i32191",
+"i33197",
+"i25353",
+"i30973",
+"i29956",
+"i31716",
+"i30546",
+"i29642",
+"i30196",
+"i32247",
+"i29955",
+"i26980",
+"i24527",
+"i25096",
+"i27848"
+]
+},
+"climax": 74,
+"event": "ev79",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6#ev79",
+"labels": ["draw"],
+"mentions": [{
+"char": [
+"1337",
+"1342"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Jacob_Rees-Mogg"
+}],
+"snippet": [" supporter of Brexit, said he feared that Mark Carney, the BoE governor, was being drawn into what Brexit backers call \u201cProject Fear\u201d \u2014 the campaign to remain in the"],
+"snippet_char": [
+83,
+88
+],
+"uri": ["http://www.ft.com/thing/fedc3f6e-e491-11e5-bc31-138df2ae9ee6"]
+}],
+"prefLabel": ["draw"],
+"sentence": "1337",
+"time": "20160307",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/213515"
+]
+},
+{
+"actors": {"actor:": [
+"ne:to_a_further_depreciation_of_sterling",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"fn": ["Objective_influence"],
+"ili": [
+"i30577",
+"i22407"
+]
+},
+"climax": 73,
+"event": "ev59",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db#ev59",
+"labels": [
+"affect",
+"lead",
+"range"
+],
+"mentions": [
+{
+"char": [
+"1207",
+"1213"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" range of UK assets, which could lead to a further depreciation of sterling and affect the cost and availability of financing for a broad range of UK borrowers,\u201d"],
+"snippet_char": [
+80,
+86
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+},
+{
+"char": [
+"1160",
+"1164"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" the risk premia investors require on a wide range of UK assets, which could lead to a further depreciation of sterling and affect the cost and availability"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+},
+{
+"char": [
+"1128",
+"1133"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" has the potential to increase the risk premia investors require on a wide range of UK assets, which could lead to a further depreciation of sterling and affect"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+},
+{
+"char": [
+"1265",
+"1270"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" of sterling and affect the cost and availability of financing for a broad range of UK borrowers,\u201d the BoE said in a statement from its Financial Policy Committee.\nThe"],
+"snippet_char": [
+75,
+80
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+}
+],
+"period": ["20160623"],
+"prefLabel": ["affect"],
+"sentence": "1207",
+"time": "20160623",
+"topics": [
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/213403",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210356"
+]
+},
+{
+"actors": {"actor:": [
+"ne:business",
+"ne:of_a_brexit",
+"ne:companies",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["BeingLeader"],
+"fn": [
+"Evidence",
+"Leadership",
+"Adducing"
+],
+"ili": [
+"i31378",
+"i27384",
+"i26230"
+]
+},
+"climax": 73,
+"event": "ev83",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/576fbf4c-70ee-11e5-9b9e-690fdae72044#ev83",
+"labels": [
+"point",
+"make"
+],
+"mentions": [
+{
+"char": [
+"1177",
+"1185"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" told the FT.\nThe \u201cOut\u201d campaign has criticised Lord Rose for inconsistency, pointing to comments he made in April, when he said that arguments that companies would"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/576fbf4c-70ee-11e5-9b9e-690fdae72044"]
+},
+{
+"char": [
+"1201",
+"1205"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" campaign has criticised Lord Rose for inconsistency, pointing to comments he made in April, when he said that arguments that companies would leave the UK in"],
+"snippet_char": [
+78,
+82
+],
+"uri": ["http://www.ft.com/thing/576fbf4c-70ee-11e5-9b9e-690fdae72044"]
+},
+{
+"char": [
+"2239",
+"2244"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" credentials, Lord Rose\u2019s 40-year career at many of the UK\u2019s best-known retailers makes him British business aristocracy. His most visible moment in the public eye"],
+"snippet_char": [
+82,
+87
+],
+"uri": ["http://www.ft.com/thing/576fbf4c-70ee-11e5-9b9e-690fdae72044"]
+}
+],
+"period": ["20150401"],
+"prefLabel": ["point"],
+"sentence": "1177",
+"time": "20150401",
+"topics": [
+"http://eurovoc.europa.eu/209261",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212933",
+"http://eurovoc.europa.eu/212811",
+"http://eurovoc.europa.eu/217045"
+]
+},
+{
+"actors": {"actor:": [
+"ne:national",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"eso": ["Giving"],
+"fn": ["Supply"],
+"ili": [
+"i33372",
+"i27532"
+]
+},
+"climax": 70,
+"event": "ev66",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/983d76fa-5de3-11e4-897f-00144feabdc0#ev66",
+"labels": [
+"provide",
+"statistic"
+],
+"mentions": [
+{
+"char": [
+"937",
+"945"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Dominik_Ha?ek"
+}],
+"snippet": [" mechanically applying rules on EU contributions to statistics on national wealth provided and approved by UK authorities. He said British officials were \u201cfully aware\u201d"],
+"snippet_char": [
+82,
+90
+],
+"uri": ["http://www.ft.com/thing/983d76fa-5de3-11e4-897f-00144feabdc0"]
+},
+{
+"char": [
+"907",
+"917"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Dominik_Ha?ek"
+}],
+"snippet": [" the commission was simply mechanically applying rules on EU contributions to statistics on national wealth provided and approved by UK authorities. He said British"],
+"snippet_char": [
+78,
+88
+],
+"uri": ["http://www.ft.com/thing/983d76fa-5de3-11e4-897f-00144feabdc0"]
+}
+],
+"period": ["20131201"],
+"prefLabel": ["provide"],
+"sentence": "937",
+"time": "20131201",
+"topics": [
+"http://eurovoc.europa.eu/217503",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210581",
+"http://eurovoc.europa.eu/209671",
+"http://eurovoc.europa.eu/210416",
+"http://eurovoc.europa.eu/217301"
+]
+},
+{
+"actors": {"actor:": [
+"ne:existing_powers",
+"dbp:European_Union",
+"dbp:Nick_Clegg",
+"dbp:Liberal_Democrats",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"eso": ["Placing"],
+"fn": [
+"Statement",
+"Possession",
+"Activity_ongoing"
+],
+"ili": [
+"i35066",
+"i27540",
+"i33135"
+]
+},
+"climax": 70,
+"event": "ev59",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/54ee608e-a92b-11e3-bf0c-00144feab7de#ev59",
+"labels": [
+"maintain",
+"reform"
+],
+"mentions": [
+{
+"char": [
+"895",
+"903"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alexander_Stubb"
+}],
+"snippet": [" Brussels. That is not on the cards. Liberal Democrat leader Nick Clegg wants to maintain a reformed EU with existing powers. So do I. Nigel Farage of the UK Independence"],
+"snippet_char": [
+81,
+89
+],
+"uri": ["http://www.ft.com/thing/54ee608e-a92b-11e3-bf0c-00144feab7de"]
+},
+{
+"char": [
+"4292",
+"4298"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alexander_Stubb"
+}],
+"snippet": [" worrying. What if someone just throws away the key?\nThe UK has argued for EU reform \u2013 making sure its institutions promote growth, create jobs and contribute to"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/54ee608e-a92b-11e3-bf0c-00144feab7de"]
+},
+{
+"char": [
+"906",
+"914"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alexander_Stubb"
+}],
+"snippet": [" is not on the cards. Liberal Democrat leader Nick Clegg wants to maintain a reformed EU with existing powers. So do I. Nigel Farage of the UK Independence party"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/54ee608e-a92b-11e3-bf0c-00144feab7de"]
+}
+],
+"period": ["20140312"],
+"prefLabel": ["maintain"],
+"sentence": "895",
+"time": "20140312",
+"topics": [
+"http://eurovoc.europa.eu/222072",
+"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
+"http://eurovoc.europa.eu/211794",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211846",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"ne:growth",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Supporting"],
+"ili": [
+"i23339",
+"i22840"
+]
+},
+"climax": 70,
+"event": "ev52",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/208fdf8c-9846-11e5-95c7-d47aa298f769#ev52",
+"labels": ["bolster"],
+"mentions": [{
+"char": [
+"888",
+"895"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" and came under questioning about whether he was relying on immigration to bolster Britain\u2019s growth prospects.\nThe independent Office for Budget Responsibility"],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/208fdf8c-9846-11e5-95c7-d47aa298f769"]
+}],
+"prefLabel": ["bolster"],
+"sentence": "888",
+"time": "20150101",
+"topics": [
+"http://eurovoc.europa.eu/212159",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212086",
+"http://eurovoc.europa.eu/217671",
+"http://eurovoc.europa.eu/212101",
+"http://eurovoc.europa.eu/213642"
+]
+},
+{
+"actors": {"actor:": [
+"ne:growth",
+"ne:on_immigration",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": [
+"Motion",
+"Arriving"
+],
+"fn": [
+"Reveal_secret",
+"Arriving",
+"Motion"
+],
+"ili": [
+"i24445",
+"i30956",
+"i23444",
+"i31766"
+]
+},
+"climax": 65,
+"event": "ev47",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/208fdf8c-9846-11e5-95c7-d47aa298f769#ev47",
+"labels": ["come"],
+"mentions": [
+{
+"char": [
+"818",
+"822"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" was giving evidence on the economic impact of Britain\u2019s EU membership and came under questioning about whether he was relying on immigration to bolster Britain\u2019s"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/208fdf8c-9846-11e5-95c7-d47aa298f769"]
+},
+{
+"char": [
+"1832",
+"1838"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:John_Mann_(British_politician)"
+}],
+"snippet": [" Osborne\u2019s projected surplus for 2020 was \u201cpredicated on over 1m net new migrants coming into the country\u201d during the next four years. The chancellor said he did not"],
+"snippet_char": [
+82,
+88
+],
+"uri": ["http://www.ft.com/thing/208fdf8c-9846-11e5-95c7-d47aa298f769"]
+}
+],
+"prefLabel": ["come"],
+"sentence": "818",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/213642",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212086",
+"http://eurovoc.europa.eu/217671",
+"http://eurovoc.europa.eu/212101",
+"http://eurovoc.europa.eu/212159"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:France",
+"dbp:European_Union",
+"dbp:Central_African_Republic",
+"dbp:United_Kingdom",
+"ne:prime",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"eso": ["Creating"],
+"fn": [
+"Creating",
+"Intentionally_create",
+"Cause_to_start"
+],
+"ili": [
+"i29942",
+"i30508",
+"i29849",
+"i29865"
+]
+},
+"climax": 69,
+"event": "ev56",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0#ev56",
+"labels": [
+"create",
+"resist"
+],
+"mentions": [
+{
+"char": [
+"813",
+"819"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "author:Carola_Hoyos"
+}],
+"snippet": [" time in five years deal with defence. \nBritain is resisting the attempt to create a European defence fund, something floated by France to help pay for conflicts"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
+},
+{
+"char": [
+"788",
+"797"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Carola_Hoyos"
+}],
+"snippet": [" which will for the first time in five years deal with defence. \nBritain is resisting the attempt to create a European defence fund, something floated by France"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
+},
+{
+"char": [
+"162",
+"171"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Carola_Hoyos"
+}],
+"snippet": [" EU a greater role in defence, something the UK prime minister is doggedly resisting.\nMr Cameron travels to Brussels on Thursday for two days of talks with other"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/dd60553e-6732-11e3-8d3e-00144feabdc0"]
+}
+],
+"period": ["20131219"],
+"prefLabel": ["create"],
+"sentence": "813",
+"time": "20131219",
+"topics": [
+"http://eurovoc.europa.eu/210076",
+"http://eurovoc.europa.eu/210286",
+"http://eurovoc.europa.eu/210301",
+"http://eurovoc.europa.eu/210252",
+"http://eurovoc.europa.eu/210241",
+"http://eurovoc.europa.eu/209990"
+]
+},
+{
+"actors": {"actor:": [
+"ne:inflation",
+"dbp:Sadiq_Khan",
+"ne:to_the_city",
+"dbp:Chuka_Umunna",
+"ne:shadow_business",
+"dbp:Zac_Goldsmith"
+]},
+"classes": {
+"eso": ["Translocation"],
+"fn": [
+"Cause_motion",
+"Travel",
+"Cause_change_of_position_on_a_scale",
+"Manipulation"
+],
+"ili": [
+"i31065",
+"i35999",
+"i98018",
+"i31066",
+"i31067"
+]
+},
+"climax": 67,
+"event": "ev54",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/b43a8340-f1e7-11e5-9f20-c3a047354386#ev54",
+"labels": ["push"],
+"mentions": [
+{
+"char": [
+"971",
+"975"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Conor_Sullivan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" in another EU country, according to the 2011 census.\nMr Khan\u2019s pro-Europe push has been joined by Chuka Umunna, the former shadow business secretary, who"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/b43a8340-f1e7-11e5-9f20-c3a047354386"]
+},
+{
+"char": [
+"2128",
+"2135"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" the nominal effective exchange rate of sterling on a trade-weighted basis, pushing up inflation by between 1.0 and 1.5 percentage points, it says.\nUnder a Brexit"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/b43a8340-f1e7-11e5-9f20-c3a047354386"]
+}
+],
+"prefLabel": ["push"],
+"sentence": "971",
+"time": "20170101",
+"topics": [
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216970"
+]
+},
+{
+"actors": {"actor:": [
+"ne:to_the_city",
+"dbp:Chuka_Umunna",
+"ne:shadow_business",
+"dbp:Zac_Goldsmith",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Merging"],
+"fn": [
+"Cause_to_amalgamate",
+"Becoming_a_member",
+"Attaching"
+],
+"ili": [
+"i28152",
+"i33902",
+"i28129",
+"i34784"
+]
+},
+"climax": 68,
+"event": "ev55",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/b43a8340-f1e7-11e5-9f20-c3a047354386#ev55",
+"labels": ["join"],
+"mentions": [
+{
+"char": [
+"985",
+"991"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Conor_Sullivan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" country, according to the 2011 census.\nMr Khan\u2019s pro-Europe push has been joined by Chuka Umunna, the former shadow business secretary, who said Mr Goldsmith\u2019s"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/b43a8340-f1e7-11e5-9f20-c3a047354386"]
+},
+{
+"char": [
+"2744",
+"2748"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:Boris_Johnson"
+}],
+"snippet": [" were made by the same people who warned of catastrophe if Britain failed to join the euro"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/b43a8340-f1e7-11e5-9f20-c3a047354386"]
+}
+],
+"prefLabel": ["join"],
+"sentence": "985",
+"time": "20160101",
+"topics": [
+"http://eurovoc.europa.eu/210360",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"ne:to_between_7_and_8_per_cent._however__officials_at_the_boe_do_not_expect_the_stress_tests_to_increase_overall_capital_requirements_for_banks_?_because_they_already_took_the_two_extra_buffers_into_account_and_most_have_already_reduced_the_riskiness_of_their_business_models",
+"ne:to_clear_a_higher_bar_in_this_year_s_stress_tests_?_which_model_a_deeper_shock_to_the_global_economy_than_the_past_two_exercises_and_for_the_first_time_formally_include_two_extra_capital_buffers_in_the_overall_requirements_for_banks"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": [
+"Imposing_obligation",
+"Have_as_requirement",
+"Motion"
+],
+"ili": [
+"i25475",
+"i85851",
+"i25457",
+"i27561",
+"i67810"
+]
+},
+"climax": 65,
+"event": "ev44",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db#ev44",
+"labels": [
+"requirement",
+"model"
+],
+"mentions": [
+{
+"char": [
+"2387",
+"2399"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" officials at the BoE do not expect the stress tests to increase overall capital requirements for banks, because they already took the two extra buffers into account and"],
+"snippet_char": [
+81,
+93
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+},
+{
+"char": [
+"705",
+"717"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" for the first time formally include two extra capital buffers in the overall requirements for banks.\nThe BoE warned that the UK\u2019s high current account deficit left it"],
+"snippet_char": [
+78,
+90
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+},
+{
+"char": [
+"2534",
+"2540"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" into account and most have already reduced the riskiness of their business models.\nThe BoE said in October that it was overhauling its annual stress tests to"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+},
+{
+"char": [
+"553",
+"558"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Martin_Arnold"
+}],
+"snippet": [" businesses.\nBanks are being asked to clear a higher bar in this year\u2019s stress tests, which model a deeper shock to the global economy than the past two exercises and for the"],
+"snippet_char": [
+92,
+97
+],
+"uri": ["http://www.ft.com/thing/46c30d52-f596-11e5-96db-fc683b5e52db"]
+}
+],
+"period": ["20160101"],
+"prefLabel": ["requirement"],
+"sentence": "705",
+"time": "20160101",
+"topics": [
+"http://eurovoc.europa.eu/213403",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213380",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Dublin",
+"dbp:United_Kingdom",
+"dbp:United_States_dollar",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Becoming_aware"],
+"ili": [
+"i35580",
+"i35131"
+]
+},
+"climax": 58,
+"event": "ev62",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/9b555ed6-25f1-11e4-8bb5-00144feabdc0#ev62",
+"labels": ["location"],
+"mentions": [
+{
+"char": [
+"296",
+"304"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Martin_Arnold"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Sam_Fleming"]
+}
+],
+"snippet": [" Stanley told the Financial Times that they considered Ireland a favourable location for some of their European business if they needed to move them out of the"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/9b555ed6-25f1-11e4-8bb5-00144feabdc0"]
+},
+{
+"char": [
+"4147",
+"4156"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Martin_Arnold"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Sam_Fleming"]
+}
+],
+"snippet": [" fund administration business in the country. Goldman has looked at other EU locations for parts of its UK-based business, including Dublin, but for now it has decided"],
+"snippet_char": [
+77,
+86
+],
+"uri": ["http://www.ft.com/thing/9b555ed6-25f1-11e4-8bb5-00144feabdc0"]
+}
+],
+"prefLabel": ["location"],
+"sentence": "296",
+"time": "20130101",
+"topics": [
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/222013",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213280"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_States_dollar",
+"dbp:European_Union",
+"dbp:Republic_of_Ireland"
+]},
+"classes": {
+"fn": ["Categorization"],
+"ili": [
+"i25165",
+"i25729"
+]
+},
+"climax": 57,
+"event": "ev61",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/9b555ed6-25f1-11e4-8bb5-00144feabdc0#ev61",
+"labels": ["consider"],
+"mentions": [{
+"char": [
+"264",
+"274"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Martin_Arnold"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Sam_Fleming"]
+}
+],
+"snippet": [" of America, Citigroup and Morgan Stanley told the Financial Times that they considered Ireland a favourable location for some of their European business if they needed"],
+"snippet_char": [
+77,
+87
+],
+"uri": ["http://www.ft.com/thing/9b555ed6-25f1-11e4-8bb5-00144feabdc0"]
+}],
+"prefLabel": ["consider"],
+"sentence": "264",
+"time": "20140817",
+"topics": [
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/222013",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/222072"
+]
+},
+{
+"actors": {"actor:": [
+"ne:the_prime_minister_?s_stance",
+"ne:it_supported_the_prime_minister_s_stance_and_welcomed_his__call_for_business_to_play_our_part_?"
+]},
+"classes": {
+"fn": ["Assessing"],
+"ili": [
+"i26451",
+"i63705",
+"i25074",
+"i25082"
+]
+},
+"climax": 55,
+"event": "ev59",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2#ev59",
+"labels": [
+"stance",
+"minister"
+],
+"mentions": [
+{
+"char": [
+"2425",
+"2431"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" the UK\u2019s broader financial sector, said it supported the prime minister\u2019s stance and welcomed his \u201ccall for business to play our part\u201d. \nYet the banks \u2014 because"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2"]
+},
+{
+"char": [
+"231",
+"237"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" pounds and senior chief executives publicly endorsing the prime minister\u2019s stance. \nGoldman Sachs, which has its European head office in London, is leading the"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2"]
+},
+{
+"char": [
+"2414",
+"2422"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" represents the UK\u2019s broader financial sector, said it supported the prime minister\u2019s stance and welcomed his \u201ccall for business to play our part\u201d. \nYet the banks"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2"]
+},
+{
+"char": [
+"220",
+"228"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Laura_Noonan"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+}
+],
+"snippet": [" thousands of pounds and senior chief executives publicly endorsing the prime minister\u2019s stance. \nGoldman Sachs, which has its European head office in London, is"],
+"snippet_char": [
+78,
+86
+],
+"uri": ["http://www.ft.com/thing/776f2c82-c031-11e5-9fdb-87b8d15baec2"]
+}
+],
+"period": ["20160121"],
+"prefLabel": ["stance"],
+"sentence": "231",
+"time": "20160121",
+"topics": [
+"http://eurovoc.europa.eu/211106",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/213515",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210356"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Government_of_the_United_Kingdom",
+"ne:its_creation"
+]},
+"classes": {
+"eso": [
+"Decreasing",
+"IntentionalEvent",
+"Increasing"
+],
+"fn": [
+"Hindering",
+"Cause_change_of_position_on_a_scale",
+"Change_position_on_a_scale",
+"Change_event_time"
+],
+"ili": [
+"i34879",
+"i24018"
+]
+},
+"climax": 51,
+"event": "ev24",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/8a45755c-8c9d-11e2-8ee0-00144feabdc0#ev24",
+"labels": ["delay"],
+"mentions": [{
+"char": [
+"146",
+"153"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:Vince_Cable"
+}],
+"snippet": [" start investing this year, in the face of fears that its creation is being delayed by Whitehall wrangling.\n\u201cWe will be getting money out of the door in serious"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/8a45755c-8c9d-11e2-8ee0-00144feabdc0"]
+}],
+"prefLabel": ["delay"],
+"sentence": "146",
+"time": "20130321",
+"topics": [
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/217039",
+"http://eurovoc.europa.eu/213417",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/210765"
+]
+},
+{
+"actors": {"actor:": [
+"ne:its_creation",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"fn": ["Quarreling"],
+"ili": ["i25562"]
+},
+"climax": 53,
+"event": "ev21",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/8a45755c-8c9d-11e2-8ee0-00144feabdc0#ev21",
+"labels": ["wrangle"],
+"mentions": [{
+"char": [
+"167",
+"176"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:Vince_Cable"
+}],
+"snippet": [" year, in the face of fears that its creation is being delayed by Whitehall wrangling.\n\u201cWe will be getting money out of the door in serious activities this year,\u201d"],
+"snippet_char": [
+76,
+85
+],
+"uri": ["http://www.ft.com/thing/8a45755c-8c9d-11e2-8ee0-00144feabdc0"]
+}],
+"prefLabel": ["wrangle"],
+"sentence": "167",
+"time": "20130101",
+"topics": [
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/217039",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/213417"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"ne:the_euro"
+]},
+"classes": {
+"eso": ["Merging"],
+"fn": [
+"Becoming_a_member",
+"Attaching",
+"Cause_to_amalgamate"
+],
+"ili": [
+"i28129",
+"i33902",
+"i34784",
+"i28152"
+]
+},
+"climax": 51,
+"event": "ev44",
+"group": "090:[central bank]",
+"groupName": "[central bank]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/dee8516c-1a56-11e5-8201-cbdb03d71480#ev44",
+"labels": [
+"join",
+"want"
+],
+"mentions": [
+{
+"char": [
+"144",
+"148"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" the rhetorical attacks have begun, calling out those who wanted Britain to join the euro, most of whom have retracted their support or tried to forget it."],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/dee8516c-1a56-11e5-8201-cbdb03d71480"]
+},
+{
+"char": [
+"126",
+"132"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" some time off but the rhetorical attacks have begun, calling out those who wanted Britain to join the euro, most of whom have retracted their support or tried"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/dee8516c-1a56-11e5-8201-cbdb03d71480"]
+}
+],
+"period": ["20150624"],
+"prefLabel": ["join"],
+"sentence": "144",
+"time": "20150624",
+"topics": [
+"http://eurovoc.europa.eu/210356",
+"http://eurovoc.europa.eu/213280",
+"http://eurovoc.europa.eu/213274",
+"http://eurovoc.europa.eu/213241",
+"http://eurovoc.europa.eu/213180",
+"http://eurovoc.europa.eu/213189"
+]
+}
+],
+"headline": "brexit4-ne",
+"mention_cnt": [171],
+"polls": [
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20140515"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Opinium;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:43:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov/The Times"]
+}],
+"prefLabel": ["38:43:18"],
+"time": "20160201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:38:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:38:22"],
+"time": "20140808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:40:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes"]
+}],
+"prefLabel": ["46:40:14"],
+"time": "20160208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:42:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Survation;BMG Research;ICM"]
+}],
+"prefLabel": ["43:42:14"],
+"time": "20151115"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:45:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes"]
+}],
+"prefLabel": ["35:45:19"],
+"time": "20141122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes;Survation;YouGov"]
+}],
+"prefLabel": ["38:41:20"],
+"time": "20140622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:51:9"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:51:9"],
+"time": "20121122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["44:45:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["44:45:11"],
+"time": "20130601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140522"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130801"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;ICM"]
+}],
+"prefLabel": ["42:39:18"],
+"time": "20151108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["32:53:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["32:53:15"],
+"time": "20130808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20140322"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;YouGov;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20151101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:43:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["33:43:24"],
+"time": "20140108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "13",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:56:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium/Observer"]
+}],
+"prefLabel": ["30:56:14"],
+"time": "20121115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Pew Research Center;Populus;Opinium"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150408"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["38:41:21"],
+"time": "20130215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:48:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;Survation"]
+}],
+"prefLabel": ["34:48:17"],
+"time": "20141101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:43:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["36:43:21"],
+"time": "20130408"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["54:37:10"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["54:37:10"],
+"time": "20140508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ORB;ICM;YouGov"]
+}],
+"prefLabel": ["43:41:14"],
+"time": "20151022"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:46:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["39:46:15"],
+"time": "20140501"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20150608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:43:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["37:43:20"],
+"time": "20131208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:34:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["43:34:21"],
+"time": "20150601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20131008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:42:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["37:42:20"],
+"time": "20141022"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140308"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:40:19"],
+"time": "20141115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ICM"]
+}],
+"prefLabel": ["42:39:19"],
+"time": "20151122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:38:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;GQRR;Ipsos MORI;ICM"]
+}],
+"prefLabel": ["45:38:16"],
+"time": "20151015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["47:38:15"],
+"time": "20150815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:36:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["45:36:19"],
+"time": "20150222"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Panelbase;ICM"]
+}],
+"prefLabel": ["43:41:15"],
+"time": "20160108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:37:20"],
+"time": "20150122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;Panelbase;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20150322"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:38:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:38:21"],
+"time": "20140708"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:40:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["47:40:13"],
+"time": "20150515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:32:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["49:32:18"],
+"time": "20150422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "13",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["60:33:6"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Ipsos MORI"]
+}],
+"prefLabel": ["60:33:6"],
+"time": "20150615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:41:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS BMRB"]
+}],
+"prefLabel": ["30:41:22"],
+"time": "20130201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:39:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:39:17"],
+"time": "20151001"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;ICM/The Guardian;YouGov/The Sun"]
+}],
+"prefLabel": ["34:44:20"],
+"time": "20130508"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:44:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["41:44:15"],
+"time": "20150215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:36:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;TNS-BMRB"]
+}],
+"prefLabel": ["40:36:23"],
+"time": "20150115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:37:19"],
+"time": "20150722"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "10",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["56:36:8"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["56:36:8"],
+"time": "20141008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:46:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Times"]
+}],
+"prefLabel": ["35:46:20"],
+"time": "20130501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20111208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "5",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:35:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:35:20"],
+"time": "20150415"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "8",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:50:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation/Mail on Sunday;YouGov/The Sun"]
+}],
+"prefLabel": ["33:50:16"],
+"time": "20130101"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20150622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:33:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes;YouGov"]
+}],
+"prefLabel": ["49:33:17"],
+"time": "20150522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:46:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:46:19"],
+"time": "20130701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20130708"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:42:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/Sunday Times"]
+}],
+"prefLabel": ["36:42:21"],
+"time": "20130108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:40:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["43:40:17"],
+"time": "20150908"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:40:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB"]
+}],
+"prefLabel": ["37:40:23"],
+"time": "20150108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:39:25"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:39:25"],
+"time": "20140208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:40:19"],
+"time": "20140822"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:40:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["38:40:22"],
+"time": "20150915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["31:46:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;ComRes/Sunday Mirror/Independent;ICM/The Telegraph"]
+}],
+"prefLabel": ["31:46:21"],
+"time": "20130515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:39:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;Ipsos MORI;BMG Research;ComRes;ICM"]
+}],
+"prefLabel": ["45:39:15"],
+"time": "20160122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;Survation"]
+}],
+"prefLabel": ["39:41:18"],
+"time": "20151201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["52:36:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI;ICM;ComRes"]
+}],
+"prefLabel": ["52:36:11"],
+"time": "20151208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;YouGov;BMG Research;ICM;ComRes"]
+}],
+"prefLabel": ["42:41:15"],
+"time": "20160222"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:44:20"],
+"time": "20130922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["35:32:32"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;YouGov/Sunday Times"]
+}],
+"prefLabel": ["35:32:32"],
+"time": "20130115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:38:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:38:19"],
+"time": "20140922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "6",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:34:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["46:34:20"],
+"time": "20130815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20141201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;ICM;YouGov"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "7",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:31:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:31:24"],
+"time": "20130622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;Opinium;Ipsos MORI;TNS"]
+}],
+"prefLabel": ["43:37:19"],
+"time": "20160215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:42:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:42:17"],
+"time": "20151215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:42:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;ICM;Survation"]
+}],
+"prefLabel": ["44:42:13"],
+"time": "20160115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["39:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:37:18"],
+"time": "20160301"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20130522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:47:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["33:47:19"],
+"time": "20100908"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["50:33:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;YouGov"]
+}],
+"prefLabel": ["50:33:15"],
+"time": "20150501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:42:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes"]
+}],
+"prefLabel": ["40:42:18"],
+"time": "20140601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20130915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Financial Times/Harris;Survation/Mail on Sunday;YouGov/Sunday Times;Populus/The Times"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20130122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:37:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["40:37:22"],
+"time": "20140401"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "11",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:52:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:52:19"],
+"time": "20110808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141215"
+}
+],
+"story_cnt": [1],
+"text": "FT-Brexit",
+"type": "default"
+}}

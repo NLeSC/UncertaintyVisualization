@@ -1,1519 +1,45 @@
 { "timeline":
 {
-"actor_cnt": [32],
-"event_cnt": [35],
+"actor_cnt": [41],
+"event_cnt": [19],
 "events": [
 {
 "actors": {"actor:": [
-"dbp:Steve_Baker_(politician)",
-"dbp:Conservatism",
-"dbp:European_Union",
-"dbp:United_Kingdom",
-"dbp:Cameron",
-"_Louisiana"
-]},
-"classes": {
-"eso": [
-"Injuring",
-"Motion"
-],
-"fn": [
-"Motion",
-"Cause_to_move_in_place",
-"Cause_harm",
-"Moving_in_place",
-"Change_direction",
-"Contingency"
-],
-"ili": [
-"i31251",
-"i32204",
-"i32199",
-"i32202",
-"i22227",
-"i22450",
-"i34806",
-"i32237"
-]
-},
-"climax": 77,
-"event": "ev88",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879#ev88",
-"labels": [
-"turn",
-"attempt",
-"start",
-"team",
-"refer",
-"face"
-],
-"mentions": [
-{
-"char": [
-"1815",
-"1821"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" chairman of Conservatives for Britain, said this would attract more workers and turned Mr Cameron\u2019s attempts to control migration from the rest of the EU into \u201ca"],
-"snippet_char": [
-81,
-87
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"1835",
-"1843"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" for Britain, said this would attract more workers and turned Mr Cameron\u2019s attempts to control migration from the rest of the EU into \u201ca farce\u201d.\nVote Leave, the"],
-"snippet_char": [
-75,
-83
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"751",
-"758"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" new influx of workers.\nFaced with this double problem, Mr Cameron\u2019s team has started referring to other aspects of his plan to limit EU migration, which are more"],
-"snippet_char": [
-78,
-85
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"742",
-"746"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" lead to a new influx of workers.\nFaced with this double problem, Mr Cameron\u2019s team has started referring to other aspects of his plan to limit EU migration, which"],
-"snippet_char": [
-79,
-83
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"759",
-"768"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" of workers.\nFaced with this double problem, Mr Cameron\u2019s team has started referring to other aspects of his plan to limit EU migration, which are more likely to"],
-"snippet_char": [
-75,
-84
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"473",
-"479"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" benefits was roundly opposed in Brussels last week by EU leaders.\nNow he is facing pressure on another front, with eurosceptics arguing that even if he were able"],
-"snippet_char": [
-77,
-83
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"697",
-"702"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" hourly \u201cliving wage\u201d of £9 by 2020 would lead to a new influx of workers.\nFaced with this double problem, Mr Cameron\u2019s team has started referring to other"],
-"snippet_char": [
-75,
-80
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-}
-],
-"period": ["20200101"],
-"prefLabel": ["turn"],
-"sentence": "1815",
-"time": "20200101",
-"topics": [
-"http://eurovoc.europa.eu/214855",
-"http://eurovoc.europa.eu/214510",
-"http://eurovoc.europa.eu/214894",
-"http://eurovoc.europa.eu/217288",
-"http://eurovoc.europa.eu/214852",
-"http://eurovoc.europa.eu/217295"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:European_Union",
-"dbp:Cameron",
-"_Louisiana"
-]},
-"classes": {
-"fn": ["Experiencer_obj"],
-"ili": ["i24864"]
-},
-"climax": 82,
-"event": "ev114",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879#ev114",
-"labels": ["baffle"],
-"mentions": [{
-"char": [
-"2930",
-"2937"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" legislation.\nMr Cameron\u2019s focus on the proposed four-year ban on migrant benefits has baffled some EU diplomats. One German official said: \u201cWhy has Europe\u2019s third-biggest"],
-"snippet_char": [
-87,
-94
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-}],
-"prefLabel": ["baffle"],
-"sentence": "2930",
-"time": "20151220",
-"topics": [
-"http://eurovoc.europa.eu/214855",
-"http://eurovoc.europa.eu/217288",
-"http://eurovoc.europa.eu/214510",
-"http://eurovoc.europa.eu/214852",
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/214894"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Cameron",
-"_Louisiana"
-]},
-"classes": {"ili": [
-"i25437",
-"i28409"
-]},
-"climax": 79,
-"event": "ev76",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/ac54bcbc-c90c-11e5-be0b-b7ece4e953a0#ev76",
-"labels": ["clamp"],
-"mentions": [{
-"char": [
-"2141",
-"2146"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:Cameron,_Louisiana"
-}],
-"snippet": [" an emergency brake on benefits to be invoked. \nAlthough Mr Cameron wants to clamp down on migrant benefits almost immediately, Downing Street declined to say"],
-"snippet_char": [
-77,
-82
-],
-"uri": ["http://www.ft.com/thing/ac54bcbc-c90c-11e5-be0b-b7ece4e953a0"]
-}],
-"prefLabel": ["clamp"],
-"sentence": "2141",
-"time": "20160101",
-"topics": [
-"http://eurovoc.europa.eu/217039",
-"http://eurovoc.europa.eu/214855",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/209882",
-"http://eurovoc.europa.eu/221975"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Cameron",
-"_Louisiana",
-"dbp:United_Kingdom"
-]},
-"classes": {
-"eso": ["Placing"],
-"fn": [
-"Adorning",
-"Filling",
-"Eclipse",
-"Topic"
-],
-"ili": [
-"i34821",
-"i27662",
-"i35093",
-"i26742",
-"i28352",
-"i22011",
-"i28369"
-]
-},
-"climax": 82,
-"event": "ev110",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc#ev110",
-"labels": [
-"cover",
-"require"
-],
-"mentions": [
-{
-"char": [
-"2767",
-"2775"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" half-dozen lines, but it upended months of painstaking diplomacy to craft a deal covering Britain\u2019s demands, which required Mr Cameron to compromise on benefits, or"],
-"snippet_char": [
-82,
-90
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-},
-{
-"char": [
-"2801",
-"2809"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" of painstaking diplomacy to craft a deal covering Britain\u2019s demands, which required Mr Cameron to compromise on benefits, or at least apply restrictions on tax"],
-"snippet_char": [
-76,
-84
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-}
-],
-"period": ["20151129"],
-"prefLabel": ["cover"],
-"sentence": "2767",
-"time": "20151129",
-"topics": [
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/214855",
-"http://eurovoc.europa.eu/216992"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Cameron",
-"_Louisiana",
-"dbp:United_Kingdom",
-"dbp:Netherlands",
-"dbp:Mark_Rutte",
-"dbp:European_Union"
-]},
-"classes": {
-"eso": ["Translocation"],
-"fn": [
-"Manipulation",
-"Cause_motion",
-"Cause_change_of_position_on_a_scale"
-],
-"ili": [
-"i31065",
-"i25523"
-]
-},
-"climax": 84,
-"event": "ev133",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc#ev133",
-"labels": [
-"push",
-"resonance",
-"upend",
-"change",
-"decide"
-],
-"mentions": [
-{
-"char": [
-"3400",
-"3406"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" Netherlands, expected. \nIt suggested more than a manufactured fight. If Mr Cameron pushed hard for a December deal, the danger of the debate spiralling out of control"],
-"snippet_char": [
-84,
-90
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-},
-{
-"char": [
-"3250",
-"3254"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" four-year benefits or I will be unable to campaign for the UK to stay in the EU \u2014 went further than allies such as Mark Rutte, prime minister of the Netherlands,"],
-"snippet_char": [
-83,
-87
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-},
-{
-"char": [
-"3155",
-"3164"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" future into a question about social benefits?\u201d\nAlthough Mr Cameron\u2019s plan has resonance at home, Sir Stephen Nickell of the Office for Budget Responsibility said this"],
-"snippet_char": [
-79,
-88
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"2711",
-"2718"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" simplified revision procedure.\nThe text ran for around a half-dozen lines, but it upended months of painstaking diplomacy to craft a deal covering Britain\u2019s demands,"],
-"snippet_char": [
-83,
-90
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-},
-{
-"char": [
-"2414",
-"2420"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "negative",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "negative",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" immigration, making Britain less generous would have more impact than trying to change the EU rules,\u201d one senior eastern EU diplomat told the Financial Times.\nPoland\u2019s"],
-"snippet_char": [
-81,
-87
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"3460",
-"3466"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:Cameron,_Louisiana"
-}],
-"snippet": [" offset cuts to migrant benefits in any case, it is clear Mr Cameron wants to change the subject"],
-"snippet_char": [
-78,
-84
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"221",
-"228"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" blinked when German Chancellor Angela Merkel called.\nLast weekend Mr Cameron decided to try to bounce fellow EU leaders into an early deal in December, including"],
-"snippet_char": [
-78,
-85
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-}
-],
-"period": ["20151201"],
-"prefLabel": ["push"],
-"sentence": "3400",
-"time": "20151201",
-"topics": [
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/214855",
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/214852",
-"http://eurovoc.europa.eu/214894",
-"http://eurovoc.europa.eu/217288",
-"http://eurovoc.europa.eu/214510"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Cameron",
-"_Louisiana",
-"dbp:David_Cameron"
-]},
-"classes": {
-"fn": [
-"Cause_change_of_consistency",
-"Change_of_consistency"
-],
-"ili": [
-"i23940",
-"i23238",
-"i23939"
-]
-},
-"climax": 75,
-"event": "ev82",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/1ac7f5f2-9d01-11e5-8ce1-f6219b685d74#ev82",
-"labels": [
-"harden",
-"position"
-],
-"mentions": [
-{
-"char": [
-"1485",
-"1493"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" negotiation\u201d.\nEU diplomats involved in the process say Mr Cameron\u2019s position has hardened in recent weeks, with the prime minister pressing for fast-tracked treaty change"],
-"snippet_char": [
-82,
-90
-],
-"uri": ["http://www.ft.com/thing/1ac7f5f2-9d01-11e5-8ce1-f6219b685d74"]
-},
-{
-"char": [
-"1472",
-"1480"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" in the negotiation\u201d.\nEU diplomats involved in the process say Mr Cameron\u2019s position has hardened in recent weeks, with the prime minister pressing for fast-tracked"],
-"snippet_char": [
-76,
-84
-],
-"uri": ["http://www.ft.com/thing/1ac7f5f2-9d01-11e5-8ce1-f6219b685d74"]
-}
-],
-"period": ["20151207"],
-"prefLabel": ["harden"],
-"sentence": "1485",
-"time": "20151207",
-"topics": [
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/214855",
-"http://eurovoc.europa.eu/223006"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:European_Union",
-"dbp:Cameron",
-"_Louisiana"
-]},
-"classes": {
-"fn": [
-"Eventive_cognizer_affecting",
-"Suasion"
-],
-"ili": ["i25542"]
-},
-"climax": 87,
-"event": "ev172",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/ec77e82e-a41c-11e5-8218-6b8ff73aae15#ev172",
-"labels": ["convince"],
-"mentions": [{
-"char": [
-"4751",
-"4761"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" to impose such restrictions.\nDetails aside, Mr Cameron\u2019s main goal will be convincing his fellow EU leaders to clear political space for a migration solution that"],
-"snippet_char": [
-76,
-86
-],
-"uri": ["http://www.ft.com/thing/ec77e82e-a41c-11e5-8218-6b8ff73aae15"]
-}],
-"prefLabel": ["convince"],
-"sentence": "4751",
-"time": "20151216",
-"topics": [
-"http://eurovoc.europa.eu/214852",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/214510",
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/214894",
-"http://eurovoc.europa.eu/214855"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Cameron",
-"_Louisiana",
-"dbp:United_Kingdom"
-]},
-"classes": {
-"eso": ["Giving"],
-"fn": ["Giving"],
-"ili": [
-"i32758",
-"i27512",
-"i33278",
-"i33436",
-"i32755",
-"i33549",
-"i32920",
-"i33319",
-"i32757",
-"i32898"
-]
-},
-"climax": 83,
-"event": "ev127",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc#ev127",
-"labels": [
-"give",
-"ultimatum",
-"compromise",
-"hold"
-],
-"mentions": [
-{
-"char": [
-"3156",
-"3160"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" February,\u201d joked one senior British official.\nYet Mr Cameron\u2019s ultimatum \u2014 give way on four-year benefits or I will be unable to campaign for the UK to stay"],
-"snippet_char": [
-76,
-80
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-},
-{
-"char": [
-"3144",
-"3153"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" and a deal in February,\u201d joked one senior British official.\nYet Mr Cameron\u2019s ultimatum \u2014 give way on four-year benefits or I will be unable to campaign for the UK"],
-"snippet_char": [
-78,
-87
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-},
-{
-"char": [
-"2824",
-"2834"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" diplomacy to craft a deal covering Britain\u2019s demands, which required Mr Cameron to compromise on benefits, or at least apply restrictions on tax credits in a non-discriminatory"],
-"snippet_char": [
-84,
-94
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-},
-{
-"char": [
-"1707",
-"1711"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-}
-],
-"snippet": [" to keep minds focused.\u201d A deal in February would still allow Mr Cameron to hold a referendum on his preferred date in June 2016.\nBut the consternation in European"],
-"snippet_char": [
-76,
-80
-],
-"uri": ["http://www.ft.com/thing/aa2287e2-99d9-11e5-9228-87e603d47bdc"]
-}
-],
-"period": ["20150201"],
-"prefLabel": ["give"],
-"sentence": "3156",
-"time": "20150201",
-"topics": [
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/214855"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Cameron",
-"_Louisiana",
-"dbp:Brussels",
-"dbp:European_Union"
-]},
-"classes": {
-"eso": [
-"Translocation",
-"Motion"
-],
-"fn": [
-"Change_position_on_a_scale",
-"Cause_motion",
-"Cause_change_of_position_on_a_scale",
-"Motion"
-],
-"ili": [
-"i21839",
-"i30960",
-"i30886",
-"i30898"
-]
-},
-"climax": 73,
-"event": "ev68",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879#ev68",
-"labels": [
-"move",
-"negotiates",
-"debate"
-],
-"mentions": [
-{
-"char": [
-"1159",
-"1163"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" John Major, the former Tory prime minister, has in the past week tried to move the debate on by promoting the benefits of EU membership, whatever new deal"],
-"snippet_char": [
-75,
-79
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"1251",
-"1261"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" on by promoting the benefits of EU membership, whatever new deal Mr Cameron negotiates in Brussels.\nSir John, who often tries to help his successor out of a tight"],
-"snippet_char": [
-77,
-87
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"1168",
-"1174"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" Major, the former Tory prime minister, has in the past week tried to move the debate on by promoting the benefits of EU membership, whatever new deal Mr Cameron"],
-"snippet_char": [
-79,
-85
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-},
-{
-"char": [
-"3060",
-"3066"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:George_Parker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Foy"]
-}
-],
-"snippet": [" \u201cWhy has Europe\u2019s third-biggest economy and biggest military power reduced a debate on its EU future into a question about social benefits?\u201d\nAlthough Mr Cameron\u2019s"],
-"snippet_char": [
-78,
-84
-],
-"uri": ["http://www.ft.com/thing/8777bc22-a734-11e5-955c-1e1d6de94879"]
-}
-],
-"period": ["20150101"],
-"prefLabel": ["move"],
-"sentence": "1159",
-"time": "20150101",
-"topics": [
-"http://eurovoc.europa.eu/217295",
-"http://eurovoc.europa.eu/217288",
-"http://eurovoc.europa.eu/214852",
-"http://eurovoc.europa.eu/214855",
-"http://eurovoc.europa.eu/214894",
-"http://eurovoc.europa.eu/214510"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {"ili": ["i26563"]},
-"climax": 71,
-"event": "ev95",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14#ev95",
-"labels": [
-"amend",
-"join"
-],
-"mentions": [
-{
-"char": [
-"2348",
-"2353"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" should be given the opportunity to vote.\n\u201cTo suggest peers should not seek to amend the bill in this way because of the unelected nature of the House of Lords"],
-"snippet_char": [
-79,
-84
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"1722",
-"1727"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" when we come to it.\u201d\nLabour and Lib Dem peers have already joined forces to amend the cities bill, insisting that the voting age be cut from 18 to 16 for town"],
-"snippet_char": [
-77,
-82
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"113",
-"117"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" possible defeat on his EU referendum plans, as Labour and Liberal Democrat peers join forces to demand that 16 and 17 year-olds are given the vote.\nYounger people"],
-"snippet_char": [
-82,
-86
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"1705",
-"1711"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" cross this bridge when we come to it.\u201d\nLabour and Lib Dem peers have already joined forces to amend the cities bill, insisting that the voting age be cut from"],
-"snippet_char": [
-78,
-84
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-}
-],
-"period": ["20150910"],
-"prefLabel": ["amend"],
-"sentence": "1722",
-"time": "20150910",
-"topics": [
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/210993",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/222026"
-]
-},
-{
-"actors": {"actor:": [
-"en:UnitedKingdomIndependence",
-"dbp:European_Union",
-"dbp:United_Kingdom",
-"dbp:Conservative_Party_(UK)",
-"dbp:Parliament_of_the_United_Kingdom",
+"ne:coalition",
 "dbp:Liberal_Democrats",
 "dbp:Labour_Party_(UK)",
-"dbp:Scotland"
+"ne:for_a_referendum",
+"dbp:Nick_Clegg",
+"dbp:Conservative_Party_(UK)",
+"ne:senior",
+"dbp:United_States_dollar"
 ]},
 "classes": {
-"eso": ["Getting"],
-"fn": ["Win_game"],
+"fn": ["Place_weight_on"],
 "ili": [
-"i33174",
-"i27092"
+"i62331",
+"i66888",
+"i25312",
+"i111426",
+"i61773"
 ]
 },
-"climax": 86,
-"event": "ev156",
+"climax": 87,
+"event": "ev166",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/cbd191ce-19c0-11e5-8201-cbdb03d71480#ev156",
+"instance": "http://www.ft.com/thing/d57b8ea8-a773-11e2-9fbe-00144feabdc0#ev166",
 "labels": [
-"win",
-"majority",
-"say"
+"focus",
+"warn",
+"come"
 ],
 "mentions": [
 {
 "char": [
-"4140",
-"4147"
+"4544",
+"4549"
 ],
 "perspective": [{
 "attribution": {
@@ -1523,303 +49,81 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Philip_Stephens"
+"source": "author:Timothy_Garton_Ash"
 }],
-"snippet": [" No?\nScotland further amplifies the weakness of the British bargaining position. By winning 56 of Scotland\u2019s 59 seats at Westminster \u2014 the Conservatives, Labour and the"],
-"snippet_char": [
-84,
-91
-],
-"uri": ["http://www.ft.com/thing/cbd191ce-19c0-11e5-8201-cbdb03d71480"]
-},
-{
-"char": [
-"3454",
-"3464"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" keen to opt to stay in the bloc.\nThis article has been amended to state that majorities of Labour and Lib Dem voters said they intend to vote to remain in the EU"],
-"snippet_char": [
-78,
-88
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"2960",
-"2970"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" EU, according to Prof John Curtice. \nAmong supporters of political parties, majorities of Labour and Liberal Democrat voters said they intend to vote to remain. \nConservatives"],
-"snippet_char": [
-77,
-87
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"3111",
-"3119"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" remain. \nConservatives were more finely split, with most polls showing no majority for either side if \u201cdon\u2019t know\u201d voters are included.\nA large majority of United"],
-"snippet_char": [
-75,
-83
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"3181",
-"3189"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" showing no majority for either side if \u201cdon\u2019t know\u201d voters are included.\nA large majority of United Kingdom Independence party supporters said they would vote to leave."],
-"snippet_char": [
-82,
-90
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"1092",
-"1098"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" vote to leave the EU, according to the attitudes survey, with 69 per cent saying they would vote to remain, while the rest were undecided.\nThat compares with"],
-"snippet_char": [
-75,
-81
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"1255",
-"1261"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" per cent of those aged over 55 intending to vote for Brexit and 45 per cent saying they will opt to stay. A similar pattern of results was found in the other"],
-"snippet_char": [
-77,
-83
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"3009",
-"3013"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" supporters of political parties, majorities of Labour and Liberal Democrat voters said they intend to vote to remain. \nConservatives were more finely split, with"],
-"snippet_char": [
-83,
-87
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"3494",
-"3498"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" article has been amended to state that majorities of Labour and Lib Dem voters said they intend to vote to remain in the EU"],
-"snippet_char": [
-80,
-84
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"996",
-"1000"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" vowed to hold before the end of 2017. \nOnly a quarter of Britons aged 18-34 said they intended to vote to leave the EU, according to the attitudes survey, with"],
-"snippet_char": [
-77,
-81
-],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-},
-{
-"char": [
-"3238",
-"3242"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:John_McDermott"
-}],
-"snippet": [" included.\nA large majority of United Kingdom Independence party supporters said they would vote to leave. But despite Brexit being the defining cause of Nigel"],
+"snippet": [" without Lib Dem coalition partners, would drop the Tories\u2019 two R-words and focus on the third: reform. It would do everything possible to avoid the fourth:"],
 "snippet_char": [
 76,
-80
+81
 ],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
+"uri": ["http://www.ft.com/thing/d57b8ea8-a773-11e2-9fbe-00144feabdc0"]
 },
 {
 "char": [
-"669",
-"673"
+"9443",
+"9449"
 ],
 "perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
 "possibility": "likely",
-"sentiment": "neutral",
+"sentiment": "negative",
 "when": "now"
 },
-"source": "author:John_McDermott"
+"source": "author:George_Parker"
 }],
-"snippet": [" is also a debate about what kind of a country Britain can and wants to be,\u201d said the author of the report, John Curtice of the University of Strathclyde. \nOpinion"],
+"snippet": [" Clegg, leader of the Liberal Democrats, the Tories\u2019 junior coalition partner, warned of the \u201cchilling\u201d effect the uncertainty might have on inward investment, while"],
 "snippet_char": [
-77,
-81
+81,
+87
 ],
-"uri": ["http://www.ft.com/thing/dcd2a88e-770b-11e5-933d-efcdc3c11c89"]
-}
-],
-"period": ["20140101"],
-"prefLabel": ["win"],
-"sentence": "4140",
-"time": "20140101",
-"topics": [
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/222119",
-"http://eurovoc.europa.eu/222072",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/210993",
-"http://eurovoc.europa.eu/211084",
-"http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/211225"
-]
+"uri": ["http://www.ft.com/thing/8df84cf6-5fca-11e2-8d8d-00144feab49a"]
 },
 {
-"actors": {"actor:": [
-"dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {
-"eso": [
-"Motion",
-"Arriving"
+"char": [
+"7342",
+"7346"
 ],
-"fn": [
-"Motion",
-"Arriving",
-"Reveal_secret"
-],
-"ili": [
-"i31766",
-"i30956"
-]
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
 },
-"climax": 65,
-"event": "ev75",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/09205af8-5e6e-11e2-a771-00144feab49a#ev75",
-"labels": ["come"],
-"mentions": [
+"source": "author:George_Parker"
+}],
+"snippet": [" economically liberal southern European bloc. Senior officials in Berlin, however, warn that there is a limit to German tolerance of a special deal for the UK. \u201cOur"],
+"snippet_char": [
+84,
+88
+],
+"uri": ["http://www.ft.com/thing/8df84cf6-5fca-11e2-8d8d-00144feab49a"]
+},
+{
+"char": [
+"9202",
+"9208"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" Mr Cameron\u2019s position has increasingly been framed by others. The US has warned that Britain risked \u201cturning inward\u201d if it held a referendum, stressing that"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/8df84cf6-5fca-11e2-8d8d-00144feab49a"]
+},
 {
 "char": [
 "1622",
@@ -1887,259 +191,25 @@
 "uri": ["http://www.ft.com/thing/09205af8-5e6e-11e2-a771-00144feab49a"]
 }
 ],
-"prefLabel": ["come"],
-"sentence": "918",
-"time": "20130121",
+"period": [
+"20130116",
+"20130121",
+"20130419"
+],
+"prefLabel": ["focus"],
+"sentence": "4544",
+"time": "20130116",
 "topics": [
 "http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/209933",
-"http://eurovoc.europa.eu/222026",
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/223006"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Premiership_of_David_Cameron",
-"dbp:Conservative_Party_(UK)",
-"dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {
-"fn": ["Statement"],
-"ili": [
-"i25287",
-"i25755"
-]
-},
-"climax": 68,
-"event": "ev77",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14#ev77",
-"labels": [
-"insist",
-"peer"
-],
-"mentions": [
-{
-"char": [
-"1745",
-"1754"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" it.\u201d\nLabour and Lib Dem peers have already joined forces to amend the cities bill, insisting that the voting age be cut from 18 to 16 for town hall elections: MPs are expected"],
-"snippet_char": [
-84,
-93
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"1222",
-"1228"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" majority of 80 over the Conservatives and are expected to use their muscle to insist that the vote is thrown open to 16 and 17 year-olds.\n\u201cThey are going to cause"],
-"snippet_char": [
-79,
-85
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"1353",
-"1357"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:Conservative_Party_(UK)"
-}],
-"snippet": [" year-olds.\n\u201cThey are going to cause a lot of trouble on this,\u201d predicted one Tory peer close to Mr Cameron. A protracted game of parliamentary \u201cping pong\u201d could ensue"],
-"snippet_char": [
-83,
-87
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"1122",
-"1127"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" which he hopes to hold in the summer or autumn of 2016.\nBut Labour and Lib Dem peers combined have a majority of 80 over the Conservatives and are expected to use"],
-"snippet_char": [
-80,
-85
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"1686",
-"1691"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" legislation. We\u2019ll cross this bridge when we come to it.\u201d\nLabour and Lib Dem peers have already joined forces to amend the cities bill, insisting that the voting"],
-"snippet_char": [
-78,
-83
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"107",
-"112"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" possible defeat on his EU referendum plans, as Labour and Liberal Democrat peers join forces to demand that 16 and 17 year-olds are given the vote.\nYounger"],
-"snippet_char": [
-76,
-81
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-},
-{
-"char": [
-"2964",
-"2969"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:George_Parker"
-}],
-"snippet": [" 17 year-olds to vote.\nIn spite of Mr Cameron\u2019s recent appointment of 26 new peers to the upper house, the Conservatives are still in the minority. Downing Street"],
-"snippet_char": [
-77,
-82
-],
-"uri": ["http://www.ft.com/thing/bdc8ef84-5226-11e5-b029-b9d50a74fd14"]
-}
-],
-"period": ["20160101"],
-"prefLabel": ["insist"],
-"sentence": "1222",
-"time": "20160101",
-"topics": [
-"http://eurovoc.europa.eu/222026",
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/210993",
-"http://eurovoc.europa.eu/223006"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {
-"fn": ["Thwarting"],
-"ili": ["i34482"]
-},
-"climax": 62,
-"event": "ev37",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/684d91de-a1bf-11e5-a035-96e9dfdf9fff#ev37",
-"labels": ["thwart"],
-"mentions": [{
-"char": [
-"409",
-"417"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Jim_Pickard"
-}],
-"snippet": [" an alliance of Labour, Liberal Democrat and crossbench peers has repeatedly thwarted the government\u2019s will in the upper house. Labour argues that giving the vote"],
-"snippet_char": [
-77,
-85
-],
-"uri": ["http://www.ft.com/thing/684d91de-a1bf-11e5-a035-96e9dfdf9fff"]
-}],
-"prefLabel": ["thwart"],
-"sentence": "409",
-"time": "20151213",
-"topics": [
-"http://eurovoc.europa.eu/210490",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216992",
 "http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/217671",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/209523",
 "http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/209523"
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/209933"
 ]
 },
 {
@@ -2202,280 +272,10 @@
 },
 {
 "actors": {"actor:": [
+"ne:using_their_numbers_in_the_lords_to_pursue_their_manifestos_and_instead_accept_the_settled_view_of_the_democratically_elected_chamber",
 "dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {
-"eso": ["Collaboration"],
-"ili": [
-"i112778",
-"i33881",
-"i72084"
-]
-},
-"climax": 59,
-"event": "ev38",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/684d91de-a1bf-11e5-a035-96e9dfdf9fff#ev38",
-"labels": ["alliance"],
-"mentions": [
-{
-"char": [
-"3609",
-"3617"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Jim_Pickard"
-}],
-"snippet": [" reflected in the Lords, where the Conservatives can easily be outvoted by an alliance of opposition peers and cross-benchers.\nIn October, members of the Lords defied"],
-"snippet_char": [
-78,
-86
-],
-"uri": ["http://www.ft.com/thing/684d91de-a1bf-11e5-a035-96e9dfdf9fff"]
-},
-{
-"char": [
-"336",
-"344"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Jim_Pickard"
-}],
-"snippet": [" three times in the House of Commons \u2014 by 50 votes on the last occasion. Yet an alliance of Labour, Liberal Democrat and crossbench peers has repeatedly thwarted the"],
-"snippet_char": [
-80,
-88
-],
-"uri": ["http://www.ft.com/thing/684d91de-a1bf-11e5-a035-96e9dfdf9fff"]
-}
-],
-"prefLabel": ["alliance"],
-"sentence": "336",
-"time": "20151001",
-"topics": [
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/210490"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Liberal_Democrats",
-"dbp:Scottish_National_Party",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {
-"eso": ["IntentionalEvent"],
-"fn": [
-"Frequency",
-"Intentionally_create",
-"Manufacturing",
-"Creating",
-"Building"
-],
-"ili": [
-"i34664",
-"i30411",
-"i26388",
-"i26384",
-"i23452"
-]
-},
-"climax": 83,
-"event": "ev112",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/9530fc1a-a285-11e5-bc70-7ff6d4fd203a#ev112",
-"labels": ["repeat"],
-"mentions": [{
-"char": [
-"3053",
-"3061"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Jim_Pickard"
-}],
-"snippet": [" each depending on their vote share at the last general election. \nDespite repeated attempts by Labour, SNP and the Lib Dems to give a vote to 16 and 17 year-olds,"],
-"snippet_char": [
-75,
-83
-],
-"uri": ["http://www.ft.com/thing/9530fc1a-a285-11e5-bc70-7ff6d4fd203a"]
-}],
-"prefLabel": ["repeat"],
-"sentence": "3053",
-"time": "20151214",
-"topics": [
-"http://eurovoc.europa.eu/222013",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/222072",
-"http://eurovoc.europa.eu/208984"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {
-"fn": ["Place_weight_on"],
-"ili": [
-"i62331",
-"i66888",
-"i25312",
-"i111426",
-"i61773"
-]
-},
-"climax": 87,
-"event": "ev166",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/d57b8ea8-a773-11e2-9fbe-00144feabdc0#ev166",
-"labels": ["focus"],
-"mentions": [{
-"char": [
-"4544",
-"4549"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Timothy_Garton_Ash"
-}],
-"snippet": [" without Lib Dem coalition partners, would drop the Tories\u2019 two R-words and focus on the third: reform. It would do everything possible to avoid the fourth:"],
-"snippet_char": [
-76,
-81
-],
-"uri": ["http://www.ft.com/thing/d57b8ea8-a773-11e2-9fbe-00144feabdc0"]
-}],
-"prefLabel": ["focus"],
-"sentence": "4544",
-"time": "20130419",
-"topics": [
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/222026",
-"http://eurovoc.europa.eu/217671",
-"http://eurovoc.europa.eu/222072",
-"http://eurovoc.europa.eu/209523"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
-]},
-"classes": {"ili": [
-"i87225",
-"i81151"
-]},
-"climax": 71,
-"event": "ev79",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/3786c24e-7b7b-11e3-84af-00144feabdc0#ev79",
-"labels": ["leader"],
-"mentions": [
-{
-"char": [
-"3711",
-"3717"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Jim_Pickard"
-}],
-"snippet": [" have 3 children.\u201d\nAmid the increasingly noisy debate over the EU, Mr Clegg \u2013 leader of the most pro-European of the three main parties \u2013 said Britain should not"],
-"snippet_char": [
-78,
-84
-],
-"uri": ["http://www.ft.com/thing/3786c24e-7b7b-11e3-84af-00144feabdc0"]
-},
-{
-"char": [
-"1393",
-"1400"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Jim_Pickard"
-}],
-"snippet": [" country should leave the EU.\nMr Cameron, along with the Labour and Lib Dem leaders, will campaign for Britain to remain in the EU but many Tory MPs would prefer"],
-"snippet_char": [
-76,
-83
-],
-"uri": ["http://www.ft.com/thing/3786c24e-7b7b-11e3-84af-00144feabdc0"]
-}
-],
-"prefLabel": ["leader"],
-"sentence": "1393",
-"time": "20170101",
-"topics": [
-"http://eurovoc.europa.eu/217229",
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/217671",
-"http://eurovoc.europa.eu/216992"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Liberal_Democrats",
-"dbp:Labour_Party_(UK)"
+"dbp:Labour_Party_(UK)",
+"ne:a_vote"
 ]},
 "classes": {
 "eso": ["IntentionalEvent"],
@@ -2537,7 +337,7 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Jim_Pickard"
+"source": "cite:FT-Brexit"
 }],
 "snippet": [" their shoddy amendment, it is time for the Labour and Lib Dem front benches to stop using their numbers in the Lords to pursue their manifestos and instead accept"],
 "snippet_char": [
@@ -2565,34 +365,33 @@
 },
 {
 "actors": {"actor:": [
-"dbp:Economy_of_Japan",
-"dbp:Singapore"
+"dbp:Conservative_Party_(UK)",
+"dbp:Parliament_of_the_United_Kingdom",
+"dbp:Liberal_Democrats",
+"dbp:Labour_Party_(UK)",
+"dbp:Scotland"
 ]},
 "classes": {
-"fn": [
-"Eventive_cognizer_affecting",
-"Suasion"
-],
-"ili": ["i25542"]
+"eso": ["Getting"],
+"fn": ["Win_game"],
+"ili": [
+"i33174",
+"i27092"
+]
 },
 "climax": 86,
-"event": "ev169",
+"event": "ev156",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/807750a4-d984-11e5-98fd-06d75973fe09#ev169",
-"labels": [
-"convince",
-"shift"
-],
-"mentions": [
-{
+"instance": "http://www.ft.com/thing/cbd191ce-19c0-11e5-8201-cbdb03d71480#ev156",
+"labels": ["win"],
+"mentions": [{
 "char": [
-"4368",
-"4377"
+"4140",
+"4147"
 ],
-"perspective": [
-{
+"perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
@@ -2600,516 +399,141 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": ["author:Patrick_Jenkins"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Harriet_Agnew"]
-}
-],
-"snippet": [" overstating the consequences for their industry if the UK left the EU. But many are convinced it would accelerate the shift of business to other global insurance centres,"],
+"source": "author:Philip_Stephens"
+}],
+"snippet": [" No?\nScotland further amplifies the weakness of the British bargaining position. By winning 56 of Scotland\u2019s 59 seats at Westminster \u2014 the Conservatives, Labour and the"],
 "snippet_char": [
-85,
-94
+84,
+91
 ],
-"uri": ["http://www.ft.com/thing/807750a4-d984-11e5-98fd-06d75973fe09"]
-},
-{
-"char": [
-"4402",
-"4407"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Patrick_Jenkins"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Harriet_Agnew"]
-}
-],
-"snippet": [" industry if the UK left the EU. But many are convinced it would accelerate the shift of business to other global insurance centres, such as Singapore and Japan."],
-"snippet_char": [
-80,
-85
-],
-"uri": ["http://www.ft.com/thing/807750a4-d984-11e5-98fd-06d75973fe09"]
-},
-{
-"char": [
-"832",
-"838"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Patrick_Jenkins"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Harriet_Agnew"]
-}
-],
-"snippet": [" could be struck between the UK and Europe, and partly because of unpredictable shifts of sentiment.\nBut if pinning down how Brexit would help or hinder the City"],
-"snippet_char": [
-80,
-86
-],
-"uri": ["http://www.ft.com/thing/807750a4-d984-11e5-98fd-06d75973fe09"]
-}
-],
-"period": ["20160223"],
-"prefLabel": ["convince"],
-"sentence": "4368",
-"time": "20160223",
+"uri": ["http://www.ft.com/thing/cbd191ce-19c0-11e5-8201-cbdb03d71480"]
+}],
+"prefLabel": ["win"],
+"sentence": "4140",
+"time": "20140101",
 "topics": [
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/216970",
-"http://eurovoc.europa.eu/216685",
 "http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/222119",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216992",
 "http://eurovoc.europa.eu/223006"
 ]
 },
 {
 "actors": {"actor:": [
-"dbp:European_Union",
-"dbp:United_Kingdom"
-]},
-"classes": {"ili": ["i93217"]},
-"climax": 84,
-"event": "ev125",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db#ev125",
-"labels": ["spokesman"],
-"mentions": [{
-"char": [
-"3350",
-"3359"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" These will be \u201cpivotal in getting the student vote out\u201d, said James McGrory, a spokesman for Britain Stronger In Europe. \nThe student groups will conduct outreach work"],
-"snippet_char": [
-80,
-89
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-}],
-"prefLabel": ["spokesman"],
-"sentence": "3350",
-"time": "20160330",
-"topics": [
-"http://eurovoc.europa.eu/217067",
-"http://eurovoc.europa.eu/210993",
-"http://eurovoc.europa.eu/209463",
-"http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/222858",
-"http://eurovoc.europa.eu/214247"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:European_Union",
-"dbp:United_Kingdom",
-"en:VoteLeave"
+"ne:coalition",
+"dbp:Liberal_Democrats"
 ]},
 "classes": {
-"eso": ["Placing"],
-"fn": [
-"Change_of_consistency",
-"Cause_change_of_consistency",
-"Placing"
-],
+"fn": ["Agree_or_refuse_to_act"],
 "ili": [
-"i29382",
-"i21960",
-"i29790",
-"i29197",
-"i25206",
-"i29566"
+"i25664",
+"i32927"
 ]
 },
-"climax": 53,
-"event": "ev42",
+"climax": 71,
+"event": "ev81",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db#ev42",
-"labels": [
-"set",
-"campaign"
-],
+"instance": "http://www.ft.com/thing/0a22a1be-f246-11e3-ac7a-00144feabdc0#ev81",
+"labels": ["refuse"],
 "mentions": [
 {
 "char": [
-"3176",
-"3183"
+"1905",
+"1912"
 ],
-"perspective": [
-{
+"perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
 "possibility": "likely",
-"sentiment": "neutral",
+"sentiment": "negative",
 "when": "now"
 },
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" needs rebranding\u201d and urges young people to \u201ctake power\u201d by voting.\nIt is also setting up student campaigns on campuses across Britain, with more than 50 now up and"],
-"snippet_char": [
-80,
-87
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-},
-{
-"char": [
-"189",
-"196"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" the run-up to European referendum, the campaign to keep Britain in the EU is setting its sights on a different demographic \u2014 \u201cthe Instagram generation\u201d. \nNicky"],
-"snippet_char": [
-78,
-85
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-},
-{
-"char": [
-"3846",
-"3853"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" been hindered because a number of universities have tried to prevent it from setting up campus groups. \nUniversities have become dominated by \u201clefty safe space"],
-"snippet_char": [
-78,
-85
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-},
-{
-"char": [
-"151",
-"159"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" votes of hard-working families. \nNow in the run-up to European referendum, the campaign to keep Britain in the EU is setting its sights on a different demographic"],
-"snippet_char": [
-80,
-88
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-},
-{
-"char": [
-"3707",
-"3715"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" taken NUS president Megan Dunn on to its board. \nMeanwhile, the Vote Leave campaign complains that its own attempts to woo students have been hindered because"],
+"source": "author:Elizabeth_Rigby"
+}],
+"snippet": [" private members\u2019 legislation because their Lib Dem coalition partners have refused to agree to a government bill, which would have much greater prospects of success.\nThe"],
 "snippet_char": [
 76,
-84
+83
 ],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
+"uri": ["http://www.ft.com/thing/0a22a1be-f246-11e3-ac7a-00144feabdc0"]
 },
 {
 "char": [
-"3195",
-"3204"
+"2156",
+"2163"
 ],
-"perspective": [
-{
+"perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
 "possibility": "likely",
-"sentiment": "neutral",
+"sentiment": "negative",
 "when": "now"
 },
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" urges young people to \u201ctake power\u201d by voting.\nIt is also setting up student campaigns on campuses across Britain, with more than 50 now up and running. These will"],
+"source": "author:Elizabeth_Rigby"
+}],
+"snippet": [" \u2013 the Lib Dems are a pro-Europe party. \nA party spokesman for the Lib Dems refused to say whether they would block the bill. \u201cThere\u2019s a long way to go before"],
 "snippet_char": [
-77,
-86
+76,
+83
 ],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-},
-{
-"char": [
-"3614",
-"3622"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
+"uri": ["http://www.ft.com/thing/0a22a1be-f246-11e3-ac7a-00144feabdc0"]
 }
 ],
-"snippet": [" Facebook feeds, in a bid to reach their more apathetic peers. The Stronger In campaign has also taken NUS president Megan Dunn on to its board. \nMeanwhile, the Vote"],
-"snippet_char": [
-79,
-87
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-},
-{
-"char": [
-"960",
-"968"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" researcher at Cardiff University. \u201cThe most profitable strategy for the Remain campaign is going to be getting as many young people as possible to the ballot box.\u201d\nJoe"],
-"snippet_char": [
-80,
-88
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-}
-],
-"period": ["20150101"],
-"prefLabel": ["set"],
-"sentence": "189",
-"time": "20150101",
+"prefLabel": ["refuse"],
+"sentence": "1905",
+"time": "20140612",
 "topics": [
-"http://eurovoc.europa.eu/214247",
 "http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/209463",
-"http://eurovoc.europa.eu/222858",
-"http://eurovoc.europa.eu/210993",
-"http://eurovoc.europa.eu/217067"
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/217671",
+"http://eurovoc.europa.eu/217189",
+"http://eurovoc.europa.eu/209702",
+"http://eurovoc.europa.eu/222026"
 ]
 },
 {
 "actors": {"actor:": [
-"dbp:British_Empire",
+"ne:prime",
+"dbp:United_Kingdom",
+"ne:national",
 "dbp:European_Union"
 ]},
 "classes": {
-"fn": ["Place_weight_on"],
+"fn": [
+"Awareness",
+"Certainty"
+],
 "ili": [
-"i25358",
-"i25312",
-"i32560"
+"i25161",
+"i25306",
+"i25132"
 ]
 },
-"climax": 83,
-"event": "ev133",
+"climax": 82,
+"event": "ev112",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132#ev133",
+"instance": "http://www.ft.com/thing/50fc868a-8788-11e5-90de-f44762bf9896#ev112",
 "labels": [
-"focus",
-"suggest"
+"believe",
+"reform",
+"keep"
 ],
 "mentions": [
 {
 "char": [
-"3288",
-"3295"
+"2822",
+"2830"
 ],
-"perspective": [{
+"perspective": [
+{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
@@ -3117,21 +541,9 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Kate_Allen"
-}],
-"snippet": [" they call the Leave campaign\u2019s \u201cTrump-like\u201d populism.\nMuch of the debate focuses on the economic prospects for Britain outside the EU. Work by several economic"],
-"snippet_char": [
-76,
-83
-],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
+"source": ["author:George_Parker_Jim_Pickard"]
 },
 {
-"char": [
-"1983",
-"1991"
-],
-"perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
@@ -3139,21 +551,9 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Kate_Allen"
-}],
-"snippet": [" Both sides \ntargeted young voters, producing an array of literature.\nPolling suggests that younger people are noticeably more enthusiastic about Britain\u2019s membership"],
-"snippet_char": [
-79,
-87
-],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
+"source": ["author:Josh_Noble"]
 },
 {
-"char": [
-"3548",
-"3557"
-],
-"perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
@@ -3161,85 +561,125 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Kate_Allen"
-}],
-"snippet": [" but, under certain conditions, those costs could be contained, they have suggested"],
-"snippet_char": [
-74,
-82
-],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
-},
-{
-"char": [
-"3391",
-"3399"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Kate_Allen"
-}],
-"snippet": [" prospects for Britain outside the EU. Work by several economic research groups suggests that leaving the bloc would have a significant cost for British households but,"],
-"snippet_char": [
-82,
-90
-],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
+"source": ["author:Alex_Barker"]
 }
 ],
-"period": ["20160328"],
-"prefLabel": ["focus"],
-"sentence": "3288",
-"time": "20160328",
+"snippet": [" EU did not lead to a \u201cland of milk and honey\u201d, he said.\nThe prime minister believed he could secure a decent deal, at which point he would fight to stay: \u201cI will"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/50fc868a-8788-11e5-90de-f44762bf9896"]
+},
+{
+"char": [
+"2943",
+"2951"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker_Jim_Pickard"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Josh_Noble"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" which point he would fight to stay: \u201cI will campaign to keep Britain inside a reformed European Union \u2014 campaign for it with all my heart and all my soul, because"],
+"snippet_char": [
+80,
+88
+],
+"uri": ["http://www.ft.com/thing/50fc868a-8788-11e5-90de-f44762bf9896"]
+},
+{
+"char": [
+"1360",
+"1364"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" a decent deal, at which point he would fight to stay: \u201cI will campaign to keep Britain inside a reformed European Union \u2014 campaign for it with all my heart"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/9a47a260-8608-11e5-9f8c-a8d619fa707c"]
+}
+],
+"period": [
+"20151109",
+"20151110"
+],
+"prefLabel": ["believe"],
+"sentence": "2822",
+"time": "20151109",
 "topics": [
-"http://eurovoc.europa.eu/209463",
-"http://eurovoc.europa.eu/222858",
-"http://eurovoc.europa.eu/217067",
-"http://eurovoc.europa.eu/220315",
-"http://eurovoc.europa.eu/214247",
-"http://eurovoc.europa.eu/221975"
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/211106",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/222072"
 ]
 },
 {
 "actors": {"actor:": [
-"dbp:European_Union",
-"dbp:British_Empire"
+"ne:national",
+"dbp:European_Union"
 ]},
 "classes": {
-"eso": ["IntentionalEvent"],
-"fn": [
-"Supporting",
-"Taking_sides"
-],
+"fn": ["Reforming_a_system"],
 "ili": [
-"i93452",
-"i25064",
-"i27707",
-"i33992",
-"i34473"
+"i36764",
+"i23044"
 ]
 },
-"climax": 53,
-"event": "ev34",
+"climax": 71,
+"event": "ev59",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132#ev34",
-"labels": [
-"supporter",
-"campaign"
-],
+"instance": "http://www.ft.com/thing/9a47a260-8608-11e5-9f8c-a8d619fa707c#ev59",
+"labels": ["reform"],
 "mentions": [
 {
 "char": [
-"179",
-"188"
+"1382",
+"1390"
 ],
 "perspective": [{
 "attribution": {
@@ -3247,21 +687,21 @@
 "certainty": "certain",
 "possibility": "likely",
 "sentiment": "neutral",
-"when": "now"
+"when": "future"
 },
-"source": "author:Kate_Allen"
+"source": "cite:FT-Brexit"
 }],
-"snippet": [" not exit, according to Nicky Morgan, the education secretary. \nMs Morgan, a supporter of the campaign for Britain to remain in the EU, will appeal to \u201cparents and"],
+"snippet": [" which point he would fight to stay: \u201cI will campaign to keep Britain inside a reformed European Union \u2014 campaign for it with all my heart and all my soul, because"],
 "snippet_char": [
-77,
-86
+79,
+87
 ],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
+"uri": ["http://www.ft.com/thing/9a47a260-8608-11e5-9f8c-a8d619fa707c"]
 },
 {
 "char": [
-"2811",
-"2819"
+"3329",
+"3336"
 ],
 "perspective": [{
 "attribution": {
@@ -3271,48 +711,25 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Kate_Allen"
+"source": "cite:Premiership_of_David_Cameron"
 }],
-"snippet": [" intergenerational unfairness, Ms Morgan will warn.\nBoth sides of the EU campaign have spent recent weeks trying to define the terms of the debate in a manner"],
+"snippet": [" think-tank, suggests that Mr Cameron will not find instant support for his four main reforms.\nOver changes to migrant benefits, for example, at least 12 states have reservations"],
 "snippet_char": [
-75,
-83
+86,
+93
 ],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
-},
-{
-"char": [
-"196",
-"204"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Kate_Allen"
-}],
-"snippet": [" according to Nicky Morgan, the education secretary. \nMs Morgan, a supporter of the campaign for Britain to remain in the EU, will appeal to \u201cparents and grandparents\u201d"],
-"snippet_char": [
-84,
-92
-],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
+"uri": ["http://www.ft.com/thing/9a47a260-8608-11e5-9f8c-a8d619fa707c"]
 }
 ],
-"period": ["20160329"],
-"prefLabel": ["supporter"],
-"sentence": "179",
-"time": "20160329",
+"prefLabel": ["reform"],
+"sentence": "1382",
+"time": "20151116",
 "topics": [
-"http://eurovoc.europa.eu/217067",
-"http://eurovoc.europa.eu/220315",
-"http://eurovoc.europa.eu/209463",
-"http://eurovoc.europa.eu/222858",
-"http://eurovoc.europa.eu/214247",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/222072",
 "http://eurovoc.europa.eu/221975"
 ]
 },
@@ -3320,7 +737,9 @@
 "actors": {"actor:": [
 "dbp:David_Miliband",
 "dbp:Tony_Blair",
-"dbp:European_Union"
+"dbp:European_Union",
+"ne:national",
+"ne:to_retain_control_over_our_borders"
 ]},
 "classes": {
 "fn": ["Remembering_experience"],
@@ -3338,7 +757,9 @@
 "labels": [
 "forget",
 "surrender",
-"lead"
+"lead",
+"control",
+"retain"
 ],
 "mentions": [
 {
@@ -3406,6 +827,50 @@
 88
 ],
 "uri": ["http://www.ft.com/thing/d9be7340-fffe-11e5-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"2955",
+"2962"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Priti_Patel"
+}],
+"snippet": [" relentlessly surrendered national powers to the EU\u2009.\u2009.\u2009.\u2009and failed to retain control over our borders\u201d.\nOn Monday, the government defended its decision to send"],
+"snippet_char": [
+79,
+86
+],
+"uri": ["http://www.ft.com/thing/d9be7340-fffe-11e5-ac98-3c15a1aa2e62"]
+},
+{
+"char": [
+"2948",
+"2954"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:Priti_Patel"
+}],
+"snippet": [" that relentlessly surrendered national powers to the EU\u2009.\u2009.\u2009.\u2009and failed to retain control over our borders\u201d.\nOn Monday, the government defended its decision"],
+"snippet_char": [
+77,
+83
+],
+"uri": ["http://www.ft.com/thing/d9be7340-fffe-11e5-ac98-3c15a1aa2e62"]
 }
 ],
 "period": ["20160411"],
@@ -3423,24 +888,24 @@
 },
 {
 "actors": {"actor:": [
-"dbp:David_Cameron",
-"dbp:Premiership_of_David_Cameron",
-"dbp:European_Union",
-"dbp:Tony_Blair"
+"ne:national",
+"dbp:European_Union"
 ]},
-"classes": {"ili": ["i36367"]},
-"climax": 66,
-"event": "ev68",
+"classes": {
+"fn": ["Coming_to_believe"],
+"ili": ["i24913"]
+},
+"climax": 86,
+"event": "ev167",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/6fe6f8b6-00b8-11e5-a908-00144feabdc0#ev68",
-"labels": ["referendum"],
-"mentions": [
-{
+"instance": "http://www.ft.com/thing/aeba7c40-f96d-11e4-ae65-00144feab7de#ev167",
+"labels": ["conclude"],
+"mentions": [{
 "char": [
-"887",
-"897"
+"4391",
+"4400"
 ],
 "perspective": [{
 "attribution": {
@@ -3450,97 +915,234 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Janan_Ganesh"
+"source": "author:Philip_Stephens"
 }],
-"snippet": [" relied on errant guesswork and their own prejudices. \nDavid Cameron\u2019s promised referendum on EU membership gives the romantics another chance to get it wrong. Pro-Europeans"],
+"snippet": [" the overwhelming weight of evidence. Nearly three dozen detailed analyses concluded that national security and prosperity could not be separated from close collaboration"],
+"snippet_char": [
+75,
+84
+],
+"uri": ["http://www.ft.com/thing/aeba7c40-f96d-11e4-ae65-00144feab7de"]
+}],
+"prefLabel": ["conclude"],
+"sentence": "4391",
+"time": "20150514",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"ne:national",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Communication",
+"Gesture"
+],
+"ili": [
+"i26772",
+"i26766",
+"i24271"
+]
+},
+"climax": 74,
+"event": "ev98",
+"group": "087:[vocational training]",
+"groupName": "[vocational training]",
+"groupScore": "087",
+"instance": "http://www.ft.com/thing/f0c167e8-5e04-11e4-bc04-00144feabdc0#ev98",
+"labels": ["flag"],
+"mentions": [{
+"char": [
+"1283",
+"1290"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" revisions to gross national income and contributions to the EU budget had been flagged in March and then again in May. Mr Cameron, he said, was \u201casleep at the wheel\u201d."],
 "snippet_char": [
 80,
-90
+87
 ],
-"uri": ["http://www.ft.com/thing/6fe6f8b6-00b8-11e5-a908-00144feabdc0"]
-},
-{
-"char": [
-"3718",
-"3728"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Janan_Ganesh"
+"uri": ["http://www.ft.com/thing/f0c167e8-5e04-11e4-bc04-00144feabdc0"]
 }],
-"snippet": [" question, which is why Tony Blair did not venture to hold one. \nIn Mr Cameron\u2019s referendum, the burden switches to the other side. Britain lives the status quo of EU"],
-"snippet_char": [
-81,
-91
-],
-"uri": ["http://www.ft.com/thing/6fe6f8b6-00b8-11e5-a908-00144feabdc0"]
-},
-{
-"char": [
-"3619",
-"3629"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Janan_Ganesh"
-}],
-"snippet": [" tolerable status quo in sterling. Supporters of the euro would have lost any referendum on that question, which is why Tony Blair did not venture to hold one. \nIn"],
-"snippet_char": [
-78,
-88
-],
-"uri": ["http://www.ft.com/thing/6fe6f8b6-00b8-11e5-a908-00144feabdc0"]
-}
-],
-"prefLabel": ["referendum"],
-"sentence": "887",
-"time": "20150525",
+"prefLabel": ["flag"],
+"sentence": "1283",
+"time": "20140301",
 "topics": [
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/209882",
 "http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216970",
 "http://eurovoc.europa.eu/216992"
 ]
 },
 {
 "actors": {"actor:": [
-"dbp:European_Union",
-"dbp:Peter_Mandelson",
-"dbp:Tony_Blair"
+"ne:national",
+"dbp:European_Union"
 ]},
 "classes": {
-"fn": ["Complaining"],
+"eso": ["Giving"],
+"fn": ["Giving"],
 "ili": [
-"i34441",
-"i89344"
+"i32898",
+"i33549",
+"i33278",
+"i33436",
+"i27512",
+"i33319",
+"i32757",
+"i32758",
+"i32755"
 ]
 },
-"climax": 49,
-"event": "ev39",
+"climax": 71,
+"event": "ev51",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b#ev39",
-"labels": ["minister"],
+"instance": "http://www.ft.com/thing/be602258-4253-11e3-8350-00144feabdc0#ev51",
+"labels": ["give"],
+"mentions": [{
+"char": [
+"971",
+"975"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Mike_Rake"
+}],
+"snippet": [" engagement with this increasingly integrated world. This is all too much to give away, which is why I believe it is overwhelmingly in our national interest"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/be602258-4253-11e3-8350-00144feabdc0"]
+}],
+"prefLabel": ["give"],
+"sentence": "971",
+"time": "20131103",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/216685",
+"http://eurovoc.europa.eu/210993"
+]
+},
+{
+"actors": {"actor:": [
+"ne:the_prime_minister",
+"dbp:William_Hague",
+"ne:national",
+"ne:of_the_single_market",
+"ne:foreign",
+"ne:parliamentary",
+"dbp:European_Union"
+]},
+"classes": {
+"eso": ["Getting"],
+"fn": ["Getting"],
+"ili": [
+"i32933",
+"i26072",
+"i33486"
+]
+},
+"climax": 72,
+"event": "ev52",
+"group": "087:[vocational training]",
+"groupName": "[vocational training]",
+"groupScore": "087",
+"instance": "http://www.ft.com/thing/bab02114-7d6b-11e3-a48f-00144feabdc0#ev52",
+"labels": ["secure"],
+"mentions": [{
+"char": [
+"1108",
+"1114"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" a better deal for Britain in the EU.\nThose MPs want the prime minister to secure a national parliamentary veto over EU legislation, something already rejected"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/bab02114-7d6b-11e3-a48f-00144feabdc0"]
+}],
+"prefLabel": ["secure"],
+"sentence": "1108",
+"time": "20170101",
+"topics": [
+"http://eurovoc.europa.eu/210802",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/210993",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/209933"
+]
+},
+{
+"actors": {"actor:": [
+"ne:economic",
+"dbp:British_Empire",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Place_weight_on"],
+"ili": [
+"i25358",
+"i25312",
+"i32560"
+]
+},
+"climax": 83,
+"event": "ev133",
+"group": "087:[vocational training]",
+"groupName": "[vocational training]",
+"groupScore": "087",
+"instance": "http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132#ev133",
+"labels": [
+"focus",
+"supporter"
+],
 "mentions": [
 {
 "char": [
-"1261",
-"1269"
+"3288",
+"3295"
 ],
 "perspective": [{
 "attribution": {
@@ -3552,39 +1154,17 @@
 },
 "source": "author:Kate_Allen"
 }],
-"snippet": [" \nNumber 10 is also unlikely to create Mr Johnson\u2019s dream job of infrastructure minister, which would involve carving a new role out of parts of several existing departments,"],
+"snippet": [" they call the Leave campaign\u2019s \u201cTrump-like\u201d populism.\nMuch of the debate focuses on the economic prospects for Britain outside the EU. Work by several economic"],
 "snippet_char": [
-80,
-88
-],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
-},
-{
-"char": [
-"991",
-"999"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Kate_Allen"
-}],
-"snippet": [" served this party, and there\u2019s a huge amount more to come.\u201d\nBut the prime minister is unwilling to carry out a reshuffle to free up a job for Mr Johnson before"],
-"snippet_char": [
-75,
+76,
 83
 ],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
+"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
 },
 {
 "char": [
-"2429",
-"2437"
+"179",
+"188"
 ],
 "perspective": [{
 "attribution": {
@@ -3596,154 +1176,62 @@
 },
 "source": "author:Kate_Allen"
 }],
-"snippet": [" students into the country.\nThat followed his call on Sunday for the prime minister to toughen his European negotiating line. \nIn a newspaper interview he suggested"],
-"snippet_char": [
-75,
-83
-],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
-},
-{
-"char": [
-"2927",
-"2936"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "positive",
-"when": "future"
-},
-"source": "cite:Premiership_of_David_Cameron"
-}],
-"snippet": [" negotiating points.\nMr Cameron has yet to announce whether he expects government ministers to support the Remain campaign \u2014 or indeed whether he will support it himself."],
-"snippet_char": [
-82,
-91
-],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
-},
-{
-"char": [
-"1400",
-"1408"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Kate_Allen"
-}],
-"snippet": [" several existing departments, the person said.\nA more likely job would be minister without portfolio \u2014 a roving role traditionally given to heavy hitters such"],
-"snippet_char": [
-75,
-83
-],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
-},
-{
-"char": [
-"216",
-"224"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Kate_Allen"
-}],
-"snippet": [" May and other senior Tory waverers to shun the Brexit campaign.\nThe prime minister is confident his EU renegotiations will succeed and that Mr Johnson, London"],
-"snippet_char": [
-75,
-83
-],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
-},
-{
-"char": [
-"3443",
-"3452"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Kate_Allen"
-}],
-"snippet": [" I just don\u2019t think the public will understand how you can have government ministers at loggerheads with each other,\u201d one experienced Tory backbencher said"],
-"snippet_char": [
-75,
-84
-],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
-},
-{
-"char": [
-"2529",
-"2537"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Kate_Allen"
-}],
-"snippet": [" European negotiating line. \nIn a newspaper interview he suggested the prime minister could legislate to give the British parliament veto powers over EU rules, a"],
+"snippet": [" not exit, according to Nicky Morgan, the education secretary. \nMs Morgan, a supporter of the campaign for Britain to remain in the EU, will appeal to \u201cparents and"],
 "snippet_char": [
 77,
-85
+86
 ],
-"uri": ["http://www.ft.com/thing/5925d37c-8d3a-11e5-8be4-3506bf20cc2b"]
+"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
 }
 ],
-"prefLabel": ["minister"],
-"sentence": "216",
-"time": "20151115",
+"period": [
+"20160328",
+"20160329"
+],
+"prefLabel": ["focus"],
+"sentence": "3288",
+"time": "20160328",
 "topics": [
-"http://eurovoc.europa.eu/210360",
-"http://eurovoc.europa.eu/211106",
-"http://eurovoc.europa.eu/217500",
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/209463",
+"http://eurovoc.europa.eu/222858",
+"http://eurovoc.europa.eu/217067",
+"http://eurovoc.europa.eu/220315",
+"http://eurovoc.europa.eu/214247",
 "http://eurovoc.europa.eu/221975"
 ]
 },
 {
 "actors": {"actor:": [
-"dbp:Tony_Blair",
-"dbp:European_Union"
+"dbp:United_Kingdom",
+"ne:energy",
+"ne:civil",
+"ne:nuclear",
+"ne:military",
+"dbp:French_Third_Republic"
 ]},
-"classes": {"ili": ["i67559"]},
-"climax": 49,
-"event": "ev51",
+"classes": {
+"fn": ["Place_weight_on"],
+"ili": [
+"i25312",
+"i25358",
+"i32560"
+]
+},
+"climax": 83,
+"event": "ev126",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/53c0c376-3d9e-11e3-9928-00144feab7de#ev51",
-"labels": ["kind"],
+"instance": "http://www.ft.com/thing/68add456-8a9a-11e3-9465-00144feab7de#ev126",
+"labels": [
+"focus",
+"develop"
+],
 "mentions": [
 {
 "char": [
-"4574",
-"4578"
+"3131",
+"3138"
 ],
 "perspective": [{
 "attribution": {
@@ -3753,19 +1241,41 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Janan_Ganesh"
+"source": "author:George_Parker_at_Brize_Norton"
 }],
-"snippet": [" it is that the EU is a hedge against protectionism. It renders illegal the kind of market barriers that voters might like their governments to put up.\nBritish"],
+"snippet": [" Socialist party split and he led the Yes campaign.\nThe summit\u2019s official business focused on defence and nuclear energy co-operation between Britain and France, including"],
+"snippet_char": [
+83,
+90
+],
+"uri": ["http://www.ft.com/thing/68add456-8a9a-11e3-9465-00144feab7de"]
+},
+{
+"char": [
+"3285",
+"3292"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker_at_Brize_Norton"
+}],
+"snippet": [" including a joint programme to develop a military drone and joint plans to develop the UK\u2019s civil nuclear programme.\nShortly after Mr Hollande flew out of the"],
 "snippet_char": [
 76,
-80
+83
 ],
-"uri": ["http://www.ft.com/thing/53c0c376-3d9e-11e3-9928-00144feab7de"]
+"uri": ["http://www.ft.com/thing/68add456-8a9a-11e3-9465-00144feab7de"]
 },
 {
 "char": [
-"1993",
-"1997"
+"3241",
+"3248"
 ],
 "perspective": [{
 "attribution": {
@@ -3775,19 +1285,295 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Janan_Ganesh"
+"source": "author:George_Parker_at_Brize_Norton"
 }],
-"snippet": [" if it did not also hamper Mr Cameron diplomatically. Were he to espouse the kind of European reform that might profit the continent generally \u2013 a deeper internal"],
+"snippet": [" energy co-operation between Britain and France, including a joint programme to develop a military drone and joint plans to develop the UK\u2019s civil nuclear programme.\nShortly"],
 "snippet_char": [
-77,
-81
+80,
+87
 ],
-"uri": ["http://www.ft.com/thing/53c0c376-3d9e-11e3-9928-00144feab7de"]
+"uri": ["http://www.ft.com/thing/68add456-8a9a-11e3-9465-00144feab7de"]
+}
+],
+"period": ["20140131"],
+"prefLabel": ["focus"],
+"sentence": "3131",
+"time": "20140131",
+"topics": [
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222046",
+"http://eurovoc.europa.eu/223006",
+"http://www.newsreader-project.eu/ontologies/topic/French+Overseas+Departments"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Centre_for_European_Reform",
+"ne:on_trade",
+"ne:goods",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Place_weight_on"],
+"ili": [
+"i32560",
+"i25312",
+"i25358"
+]
+},
+"climax": 80,
+"event": "ev99",
+"group": "087:[vocational training]",
+"groupName": "[vocational training]",
+"groupScore": "087",
+"instance": "http://www.ft.com/thing/ef42d786-c360-11e5-808f-8231cd71622e#ev99",
+"labels": [
+"focus",
+"constitute"
+],
+"mentions": [
+{
+"char": [
+"2375",
+"2382"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" of the single market on the UK economy.\u201d\nVote Leave said the CER research focused on trade in goods, not services, which constituted 78 per cent of the UK economy."],
+"snippet_char": [
+75,
+82
+],
+"uri": ["http://www.ft.com/thing/ef42d786-c360-11e5-808f-8231cd71622e"]
 },
 {
 "char": [
-"127",
-"131"
+"2422",
+"2433"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" Leave said the CER research focused on trade in goods, not services, which constituted 78 per cent of the UK economy. It also said CER had suggested EU membership"],
+"snippet_char": [
+76,
+87
+],
+"uri": ["http://www.ft.com/thing/ef42d786-c360-11e5-808f-8231cd71622e"]
+}
+],
+"period": ["20160125"],
+"prefLabel": ["focus"],
+"sentence": "2375",
+"time": "20160125",
+"topics": [
+"http://eurovoc.europa.eu/212826",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216645",
+"http://eurovoc.europa.eu/211008",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"ne:sovereignty",
+"ne:brexit",
+"dbp:European_Union",
+"dbp:Matthew_Elliott_(cricketer)",
+"en:DominicCummings",
+"dbp:Conservative_Party_(UK)"
+]},
+"classes": {
+"fn": ["Place_weight_on"],
+"ili": [
+"i25358",
+"i25312",
+"i32560"
+]
+},
+"climax": 78,
+"event": "ev70",
+"group": "087:[vocational training]",
+"groupName": "[vocational training]",
+"groupScore": "087",
+"instance": "http://www.ft.com/thing/63cf9c24-d4af-11e5-8887-98e7feb46f27#ev70",
+"labels": [
+"focus",
+"message",
+"run"
+],
+"mentions": [
+{
+"char": [
+"1910",
+"1917"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sebastian_Payne"
+}],
+"snippet": [" have run a more professional, if less vocal, campaign with a Brexit message focused on regaining sovereignty and reusing money sent to the EU for science and healthcare."],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/63cf9c24-d4af-11e5-8887-98e7feb46f27"]
+},
+{
+"char": [
+"1902",
+"1909"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sebastian_Payne"
+}],
+"snippet": [" party. They have run a more professional, if less vocal, campaign with a Brexit message focused on regaining sovereignty and reusing money sent to the EU for science"],
+"snippet_char": [
+81,
+88
+],
+"uri": ["http://www.ft.com/thing/63cf9c24-d4af-11e5-8887-98e7feb46f27"]
+},
+{
+"char": [
+"1839",
+"1842"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sebastian_Payne"
+}],
+"snippet": [" Cummings \u2014 two campaigners with close ties to the Conservative party. They have run a more professional, if less vocal, campaign with a Brexit message focused"],
+"snippet_char": [
+81,
+84
+],
+"uri": ["http://www.ft.com/thing/63cf9c24-d4af-11e5-8887-98e7feb46f27"]
+},
+{
+"char": [
+"1724",
+"1727"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sebastian_Payne"
+}],
+"snippet": [" these campaigns receives the designation.\nVote Leave, on the other hand, is run by Matthew Elliott and Dominic Cummings \u2014 two campaigners with close ties to"],
+"snippet_char": [
+77,
+80
+],
+"uri": ["http://www.ft.com/thing/63cf9c24-d4af-11e5-8887-98e7feb46f27"]
+}
+],
+"period": ["20160216"],
+"prefLabel": ["focus"],
+"sentence": "1910",
+"time": "20160216",
+"topics": [
+"http://eurovoc.europa.eu/212933",
+"http://eurovoc.europa.eu/212401",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/213025"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"ne:its_competitiveness"
+]},
+"classes": {
+"eso": [
+"Translocation",
+"Motion",
+"Meeting",
+"Creating"
+],
+"fn": [
+"Travel",
+"Categorization",
+"Intentionally_create",
+"Self_motion",
+"Perception_experience",
+"Grasp",
+"Motion",
+"Come_together"
+],
+"ili": [
+"i32409",
+"i67205",
+"i66634",
+"i29527",
+"i29923",
+"i34186",
+"i32402",
+"i32509",
+"i34163",
+"i34164",
+"i32401",
+"i25165",
+"i32531",
+"i24866",
+"i26213"
+]
+},
+"climax": 68,
+"event": "ev54",
+"group": "087:[vocational training]",
+"groupName": "[vocational training]",
+"groupScore": "087",
+"instance": "http://www.ft.com/thing/36b31e14-9fa1-11e2-b4b6-00144feabdc0#ev54",
+"labels": ["vision"],
+"mentions": [{
+"char": [
+"736",
+"742"
 ],
 "perspective": [{
 "attribution": {
@@ -3799,151 +1585,47 @@
 },
 "source": "cite:David_Cameron"
 }],
-"snippet": [" by two stories last week. At a summit in Brussels, David Cameron touted the kind of liberal economic reforms that Tony Blair, his predecessor but one as prime"],
-"snippet_char": [
-77,
-81
-],
-"uri": ["http://www.ft.com/thing/53c0c376-3d9e-11e3-9928-00144feab7de"]
-}
-],
-"prefLabel": ["kind"],
-"sentence": "127",
-"time": "20131021",
-"topics": [
-"http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/211776",
-"http://www.newsreader-project.eu/ontologies/topic/external+border+of+the+European+Union",
-"http://eurovoc.europa.eu/216144",
-"http://eurovoc.europa.eu/211846"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Scottish_devolution_referendum",
-"_1979",
-"dbp:Ireland"
-]},
-"classes": {
-"fn": ["Feeling"],
-"ili": [
-"i67159",
-"i24745",
-"i68273",
-"i74975"
-]
-},
-"climax": 81,
-"event": "ev105",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db#ev105",
-"labels": [
-"experience",
-"back"
-],
-"mentions": [
-{
-"char": [
-"2533",
-"2543"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "future"
-},
-"source": "cite:Charles_James_Fox"
-}],
-"snippet": [" credited with having shifted old voters\u2019 views. \nReplicating the Scottish experience will require dominating the news agenda to such a degree that it saturates"],
-"snippet_char": [
-75,
-85
-],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-},
-{
-"char": [
-"2372",
-"2378"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "positive",
-"when": "now"
-},
-"source": ["author:Henry_Mance"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "positive",
-"when": "now"
-},
-"source": ["author:Kate_Allen"]
-}
-],
-"snippet": [" favourable precedents: the Scottish referendum, where young voters heavily backed independence, and the Irish referendum on gay marriage, where young people"],
+"snippet": [" shopping list of British demands, but instead wanted to focus on a broader vision for the EU to ensure its competitiveness in the \u201cglobal race\u201d.\n\u201cI don\u2019t want"],
 "snippet_char": [
 76,
 82
 ],
-"uri": ["http://www.ft.com/thing/49a6ea84-f5be-11e5-96db-fc683b5e52db"]
-}
-],
-"period": ["20160330"],
-"prefLabel": ["experience"],
-"sentence": "2533",
-"time": "20160330",
+"uri": ["http://www.ft.com/thing/36b31e14-9fa1-11e2-b4b6-00144feabdc0"]
+}],
+"prefLabel": ["vision"],
+"sentence": "736",
+"time": "20130101",
 "topics": [
-"http://eurovoc.europa.eu/209463",
-"http://eurovoc.europa.eu/222858",
-"http://eurovoc.europa.eu/217067",
-"http://eurovoc.europa.eu/210993",
-"http://eurovoc.europa.eu/209523",
-"http://eurovoc.europa.eu/214247"
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/221981",
+"http://eurovoc.europa.eu/222046",
+"http://eurovoc.europa.eu/223006"
 ]
 },
 {
 "actors": {"actor:": [
-"dbp:British_Empire",
-"dbp:Jean-Claude_Juncker",
+"ne:its_competitiveness",
 "dbp:European_Union"
 ]},
-"classes": {"ili": [
-"i25566",
-"i74396"
-]},
-"climax": 50,
-"event": "ev40",
+"classes": {
+"fn": ["Place_weight_on"],
+"ili": ["i25312"]
+},
+"climax": 68,
+"event": "ev53",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/f091232e-ec05-11e3-a9e3-00144feabdc0#ev40",
-"labels": [
-"dispute",
-"calm",
-"sacrifice"
-],
-"mentions": [
-{
+"instance": "http://www.ft.com/thing/36b31e14-9fa1-11e2-b4b6-00144feabdc0#ev53",
+"labels": ["focus"],
+"mentions": [{
 "char": [
-"131",
-"138"
+"717",
+"722"
 ],
-"perspective": [
-{
+"perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
@@ -3951,248 +1633,67 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": ["author:Stefan_Wagstyl"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-}
-],
-"snippet": [" powerful speech recalling Britain\u2019s wartime sacrifices in an effort to calm the dispute over Jean-Claude Juncker\u2019s bid for the EU\u2019s top job and to dispel fears of"],
-"snippet_char": [
-81,
-88
-],
-"uri": ["http://www.ft.com/thing/f091232e-ec05-11e3-a9e3-00144feabdc0"]
-},
-{
-"char": [
-"122",
-"126"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Stefan_Wagstyl"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-}
-],
-"snippet": [" with a powerful speech recalling Britain\u2019s wartime sacrifices in an effort to calm the dispute over Jean-Claude Juncker\u2019s bid for the EU\u2019s top job and to dispel"],
+"source": "cite:David_Cameron"
+}],
+"snippet": [" leaders with a narrow shopping list of British demands, but instead wanted to focus on a broader vision for the EU to ensure its competitiveness in the \u201cglobal"],
 "snippet_char": [
 79,
-83
-],
-"uri": ["http://www.ft.com/thing/f091232e-ec05-11e3-a9e3-00144feabdc0"]
-},
-{
-"char": [
-"95",
-"105"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Stefan_Wagstyl"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-}
-],
-"snippet": [" embraced the UK \non Wednesday with a powerful speech recalling Britain\u2019s wartime sacrifices in an effort to calm the dispute over Jean-Claude Juncker\u2019s bid for the EU\u2019s"],
-"snippet_char": [
-82,
-92
-],
-"uri": ["http://www.ft.com/thing/f091232e-ec05-11e3-a9e3-00144feabdc0"]
-}
-],
-"period": ["20140604"],
-"prefLabel": ["dispute"],
-"sentence": "131",
-"time": "20140604",
-"topics": [
-"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
-"http://eurovoc.europa.eu/222026",
-"http://eurovoc.europa.eu/217500",
-"http://eurovoc.europa.eu/210360",
-"http://eurovoc.europa.eu/210117",
-"http://eurovoc.europa.eu/221975"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Jean-Claude_Juncker",
-"dbp:European_Union"
-]},
-"classes": {
-"eso": ["IntentionalEvent"],
-"fn": ["Attempt"],
-"ili": ["i34354"]
-},
-"climax": 76,
-"event": "ev93",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/f091232e-ec05-11e3-a9e3-00144feabdc0#ev93",
-"labels": ["try"],
-"mentions": [{
-"char": [
-"1599",
-"1604"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "positive",
-"when": "now"
-},
-"source": ["author:Stefan_Wagstyl"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "positive",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-}
-],
-"snippet": [" the current commission when its term ends this year.\nBut the parliament has tried to pre-empt them and boost its influence by backing Mr Juncker following his"],
-"snippet_char": [
-77,
-82
-],
-"uri": ["http://www.ft.com/thing/f091232e-ec05-11e3-a9e3-00144feabdc0"]
-}],
-"prefLabel": ["try"],
-"sentence": "1599",
-"time": "20140101",
-"topics": [
-"http://eurovoc.europa.eu/210360",
-"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
-"http://eurovoc.europa.eu/222026",
-"http://eurovoc.europa.eu/217500",
-"http://eurovoc.europa.eu/210117",
-"http://eurovoc.europa.eu/221975"
-]
-},
-{
-"actors": {"actor:": [
-"dbp:Nazi_Germany",
-"dbp:Jean-Claude_Juncker",
-"dbp:European_Union"
-]},
-"classes": {
-"fn": [
-"Eventive_cognizer_affecting",
-"Suasion"
-],
-"ili": ["i25542"]
-},
-"climax": 78,
-"event": "ev115",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0#ev115",
-"labels": ["convince"],
-"mentions": [{
-"char": [
-"1891",
-"1900"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:Gideon_Rachman"
-}],
-"snippet": [" a coalition with the Social Democrats. Much of the German media also seem convinced that a rejection of Mr Juncker would be a grave blow to democracy in Europe.\nLeft"],
-"snippet_char": [
-75,
 84
 ],
-"uri": ["http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0"]
+"uri": ["http://www.ft.com/thing/36b31e14-9fa1-11e2-b4b6-00144feabdc0"]
 }],
-"prefLabel": ["convince"],
-"sentence": "1891",
-"time": "20140623",
+"prefLabel": ["focus"],
+"sentence": "717",
+"time": "20130408",
 "topics": [
-"http://eurovoc.europa.eu/210117",
 "http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/222026",
-"http://eurovoc.europa.eu/210360",
 "http://eurovoc.europa.eu/217500",
-"http://eurovoc.europa.eu/209284"
+"http://eurovoc.europa.eu/221981",
+"http://eurovoc.europa.eu/222046",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/223006"
 ]
 },
 {
 "actors": {"actor:": [
+"ne:brexit",
 "dbp:European_Union",
-"dbp:British_Empire",
-"dbp:Nicky_Morgan_(politician)"
+"ne:prime",
+"ne:neutral"
 ]},
 "classes": {
-"eso": ["IntentionalEvent"],
-"fn": ["Attempt"],
-"ili": ["i34354"]
+"eso": [
+"IntentionalEvent",
+"StoppingAnActivity"
+],
+"fn": [
+"Activity_finish",
+"Coming_to_believe",
+"Activity_stop",
+"Process_end"
+],
+"ili": [
+"i34725",
+"i24913",
+"i26683",
+"i25278"
+]
 },
-"climax": 41,
-"event": "ev27",
+"climax": 57,
+"event": "ev52",
 "group": "087:[vocational training]",
 "groupName": "[vocational training]",
 "groupScore": "087",
-"instance": "http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132#ev27",
-"labels": ["try"],
+"instance": "http://www.ft.com/thing/475c6cc4-a968-11e5-9700-2b669a5aeb83#ev52",
+"labels": [
+"conclude",
+"remain"
+],
 "mentions": [
 {
 "char": [
-"54",
-"57"
+"347",
+"355"
 ],
 "perspective": [{
 "attribution": {
@@ -4202,19 +1703,19 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Kate_Allen"
+"source": "author:George_Parker"
 }],
-"snippet": ["Young people should speak out in favour of the EU and try to convince their elders that Britain should not exit, according to Nicky Morgan,"],
+"snippet": [" the Brexit debate pending the outcome of his EU renegotiation \u2014 expected to conclude in February \u2014 effectively stopping senior ministers from speaking out.\nMeanwhile,"],
 "snippet_char": [
-54,
-57
+77,
+85
 ],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
+"uri": ["http://www.ft.com/thing/475c6cc4-a968-11e5-9700-2b669a5aeb83"]
 },
 {
 "char": [
-"2844",
-"2850"
+"1071",
+"1081"
 ],
 "perspective": [{
 "attribution": {
@@ -4224,51 +1725,19 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Kate_Allen"
+"source": "author:George_Parker"
 }],
-"snippet": [" Morgan will warn.\nBoth sides of the EU campaign have spent recent weeks trying to define the terms of the debate in a manner most favourable to them. The Leave"],
+"snippet": [" in The Daily Telegraph, lists the many shortcomings of the EU but ends up concluding that it plays a key role in stabilising new democracies in the western Balkans.\nLike"],
 "snippet_char": [
 75,
-81
+85
 ],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
-}
-],
-"prefLabel": ["try"],
-"sentence": "54",
-"time": "20160328",
-"topics": [
-"http://eurovoc.europa.eu/217067",
-"http://eurovoc.europa.eu/220315",
-"http://eurovoc.europa.eu/209463",
-"http://eurovoc.europa.eu/222858",
-"http://eurovoc.europa.eu/214247",
-"http://eurovoc.europa.eu/221975"
-]
+"uri": ["http://www.ft.com/thing/475c6cc4-a968-11e5-9700-2b669a5aeb83"]
 },
 {
-"actors": {"actor:": [
-"dbp:British_Empire",
-"dbp:Nicky_Morgan_(politician)"
-]},
-"classes": {
-"fn": [
-"Eventive_cognizer_affecting",
-"Suasion"
-],
-"ili": ["i25542"]
-},
-"climax": 42,
-"event": "ev28",
-"group": "087:[vocational training]",
-"groupName": "[vocational training]",
-"groupScore": "087",
-"instance": "http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132#ev28",
-"labels": ["convince"],
-"mentions": [{
 "char": [
-"61",
-"69"
+"253",
+"259"
 ],
 "perspective": [{
 "attribution": {
@@ -4278,30 +1747,32 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": "author:Kate_Allen"
+"source": "author:George_Parker"
 }],
-"snippet": ["Young people should speak out in favour of the EU and try to convince their elders that Britain should not exit, according to Nicky Morgan, the education"],
+"snippet": [" cabinet ministers to keep quiet.\nThe prime minister has ordered his cabinet to remain neutral in the Brexit debate pending the outcome of his EU renegotiation \u2014"],
 "snippet_char": [
-61,
-69
+80,
+86
 ],
-"uri": ["http://www.ft.com/thing/0c3ad574-f4f2-11e5-803c-d27c7117d132"]
-}],
-"prefLabel": ["convince"],
-"sentence": "61",
-"time": "20160329",
+"uri": ["http://www.ft.com/thing/475c6cc4-a968-11e5-9700-2b669a5aeb83"]
+}
+],
+"period": ["20150201"],
+"prefLabel": ["conclude"],
+"sentence": "347",
+"time": "20150201",
 "topics": [
-"http://eurovoc.europa.eu/214247",
-"http://eurovoc.europa.eu/217067",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/210443",
+"http://eurovoc.europa.eu/209261",
 "http://eurovoc.europa.eu/221975",
-"http://eurovoc.europa.eu/220315",
-"http://eurovoc.europa.eu/209463",
-"http://eurovoc.europa.eu/222858"
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/211106"
 ]
 }
 ],
-"headline": "brexit3",
-"mention_cnt": [110],
+"headline": "brexit4-ne",
+"mention_cnt": [42],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

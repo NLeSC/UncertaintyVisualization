@@ -1,63 +1,41 @@
 { "timeline":
 {
-"actor_cnt": [6],
+"actor_cnt": [10],
 "event_cnt": [2],
 "events": [
 {
 "actors": {"actor:": [
+"dbp:British_Empire",
+"ne:this_point",
+"ne:a_legal_obligation_for_treaty_change",
+"ne:the_officials",
+"ne:ratification",
 "dbp:Belgium",
-"dbp:Government_of_the_United_Kingdom"
+"dbp:Government_of_the_United_Kingdom",
+"ne:of__ever_closer_union_?",
+"dbp:European_Union"
 ]},
-"classes": {"ili": [
-"i66800",
-"i38702",
-"i112724"
-]},
+"classes": {
+"fn": ["Experiencer_obj"],
+"ili": [
+"i25326",
+"i75041",
+"i76217"
+]
+},
 "climax": 82,
-"event": "ev121",
+"event": "ev120",
 "group": "082:[international organisation]",
 "groupName": "[international organisation]",
 "groupScore": "082",
-"instance": "http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead#ev121",
+"instance": "http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead#ev120",
 "labels": [
-"difficulty",
-"surprise"
+"surprise",
+"meeting",
+"seek",
+"exclude"
 ],
 "mentions": [
-{
-"char": [
-"2792",
-"2804"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Jim_Brunsden"]
-}
-],
-"snippet": [" seeking \u201cto clarify this point and to exclude any last-minute surprises or difficulties\u201d at Thursday\u2019s summit.Ê\nBelgium was not the only country to raise ratification"],
-"snippet_char": [
-76,
-88
-],
-"uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
-},
 {
 "char": [
 "2779",
@@ -91,55 +69,11 @@
 88
 ],
 "uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
-}
-],
-"period": ["20160211"],
-"prefLabel": ["difficulty"],
-"sentence": "2792",
-"time": "20160211",
-"topics": [
-"http://eurovoc.europa.eu/221965",
-"http://eurovoc.europa.eu/209864",
-"http://eurovoc.europa.eu/209742",
-"http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/221975"
-]
 },
-{
-"actors": {"actor:": [
-"dbp:Belgium",
-"dbp:Wallonia",
-"dbp:European_Parliament",
-"dbp:London",
-"dbp:German_language",
-"dbp:Government_of_the_United_Kingdom"
-]},
-"classes": {
-"eso": ["Motion"],
-"fn": ["Motion"],
-"ili": [
-"i25814",
-"i25815",
-"i25978",
-"i25977"
-]
-},
-"climax": 62,
-"event": "ev40",
-"group": "082:[international organisation]",
-"groupName": "[international organisation]",
-"groupScore": "082",
-"instance": "http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead#ev40",
-"labels": [
-"warn",
-"veto"
-],
-"mentions": [
 {
 "char": [
-"434",
-"440"
+"2902",
+"2909"
 ],
 "perspective": [
 {
@@ -147,7 +81,7 @@
 "belief": "confirm",
 "certainty": "certain",
 "possibility": "likely",
-"sentiment": "negative",
+"sentiment": "neutral",
 "when": "now"
 },
 "source": ["author:Alex_Barker"]
@@ -157,26 +91,127 @@
 "belief": "confirm",
 "certainty": "certain",
 "possibility": "likely",
-"sentiment": "negative",
+"sentiment": "neutral",
 "when": "now"
 },
 "source": ["author:Jim_Brunsden"]
 }
 ],
-"snippet": [" the assembly of the 76,000-strong German-speaking community, London has been warned. \nDuring negotiations on Thursday, senior Belgian officials raised the prospect"],
+"snippet": [" summit.Ê\nBelgium was not the only country to raise ratification concerns during a meeting of the \u201csherpas\u201d \u2014 the officials negotiating the UK package. Some countries"],
 "snippet_char": [
-78,
+83,
+90
+],
+"uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"2717",
+"2724"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+}
+],
+"snippet": [" ratification procedures are necessary, the Belgian official said they were still seeking \u201cto clarify this point and to exclude any last-minute surprises or difficulties\u201d"],
+"snippet_char": [
+82,
+89
+],
+"uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"2497",
+"2503"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+}
+],
+"snippet": [" you ruin Europe by staying.\u201d\nA Belgian official confirmed negotiators had \u201csought assurances\u201d that the British texts \u201cdo not imply a legal obligation for treaty"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"2755",
+"2762"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+}
+],
+"snippet": [" Belgian official said they were still seeking \u201cto clarify this point and to exclude any last-minute surprises or difficulties\u201d at Thursday\u2019s summit.Ê\nBelgium was"],
+"snippet_char": [
+77,
 84
 ],
 "uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
 },
 {
 "char": [
-"1004",
-"1008"
+"2265",
+"2273"
 ],
-"perspective": [
-{
+"perspective": [{
 "attribution": {
 "belief": "confirm",
 "certainty": "certain",
@@ -184,77 +219,143 @@
 "sentiment": "neutral",
 "when": "now"
 },
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Jim_Brunsden"]
-}
-],
-"snippet": [" is already worried about the European Parliament holding a post-referendum veto on legislation tied to the deal.\nBelgium fears Mr Cameron\u2019s demand for a binding"],
+"source": "cite:Premiership_of_David_Cameron"
+}],
+"snippet": [" minister, is one of the strongest critics of Mr Cameron\u2019s demand for Britain to be excluded from the EU treaty mantra of \u201cever closer union\u201d. Mr Michel once told Mr Cameron"],
 "snippet_char": [
-76,
-80
-],
-"uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
-},
-{
-"char": [
-"269",
-"273"
-],
-"perspective": [
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Alex_Barker"]
-},
-{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": ["author:Jim_Brunsden"]
-}
-],
-"snippet": [" survive the Walloons.\nThe UK prime minister\u2019s deal is potentially subject to veto by six separate Belgian parliaments, including one in French-speaking Wallonia"],
-"snippet_char": [
-78,
-82
+84,
+92
 ],
 "uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
 }
 ],
 "period": ["20160211"],
-"prefLabel": ["warn"],
-"sentence": "434",
+"prefLabel": ["surprise"],
+"sentence": "2779",
 "time": "20160211",
 "topics": [
 "http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/209742",
 "http://eurovoc.europa.eu/221965",
-"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209864",
 "http://eurovoc.europa.eu/210765",
-"http://eurovoc.europa.eu/209864"
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209742"
+]
+},
+{
+"actors": {"actor:": [
+"ne:negotiators",
+"ne:a_legal_obligation_for_treaty_change",
+"dbp:British_Empire",
+"dbp:Belgium"
+]},
+"classes": {
+"fn": ["Telling"],
+"ili": [
+"i66854",
+"i26072",
+"i74645",
+"i25039",
+"i74643",
+"i26040"
+]
+},
+"climax": 81,
+"event": "ev112",
+"group": "082:[international organisation]",
+"groupName": "[international organisation]",
+"groupScore": "082",
+"instance": "http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead#ev112",
+"labels": [
+"assurance",
+"confirm"
+],
+"mentions": [
+{
+"char": [
+"2504",
+"2514"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+}
+],
+"snippet": [" ruin Europe by staying.\u201d\nA Belgian official confirmed negotiators had \u201csought assurances\u201d that the British texts \u201cdo not imply a legal obligation for treaty change\u201d."],
+"snippet_char": [
+79,
+89
+],
+"uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
+},
+{
+"char": [
+"2470",
+"2479"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+}
+],
+"snippet": [" go, just go. We will not let you ruin Europe by staying.\u201d\nA Belgian official confirmed negotiators had \u201csought assurances\u201d that the British texts \u201cdo not imply a"],
+"snippet_char": [
+78,
+87
+],
+"uri": ["http://www.ft.com/thing/999eee6c-d1a4-11e5-986a-62c79fcbcead"]
+}
+],
+"period": ["20160211"],
+"prefLabel": ["assurance"],
+"sentence": "2504",
+"time": "20160211",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/221965",
+"http://eurovoc.europa.eu/209864",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/209742",
+"http://eurovoc.europa.eu/223006"
 ]
 }
 ],
-"headline": "brexit3",
-"mention_cnt": [5],
+"headline": "brexit4-ne",
+"mention_cnt": [8],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

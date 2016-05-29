@@ -1,34 +1,44 @@
 { "timeline":
 {
-"actor_cnt": [2],
-"event_cnt": [1],
-"events": [{
+"actor_cnt": [8],
+"event_cnt": [3],
+"events": [
+{
 "actors": {"actor:": [
-"dbp:John_Ashcroft",
-"dbp:Conservative_Party_(UK)"
+"ne:ukip",
+"dbp:Government_of_the_United_Kingdom",
+"ne:on_sunday",
+"dbp:ComRes"
 ]},
 "classes": {
-"fn": ["Research"],
+"eso": ["Creating"],
+"fn": [
+"Creating",
+"Intentionally_create",
+"Building",
+"Manufacturing"
+],
 "ili": [
-"i38770",
-"i24975"
+"i30462",
+"i30456",
+"i26434"
 ]
 },
 "climax": 83,
-"event": "ev153",
+"event": "ev151",
 "group": "083:[free movement of persons]",
 "groupName": "[free movement of persons]",
 "groupScore": "083",
-"instance": "http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0#ev153",
+"instance": "http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0#ev151",
 "labels": [
-"research",
-"find"
+"publish",
+"emerge"
 ],
 "mentions": [
 {
 "char": [
-"3258",
-"3266"
+"3168",
+"3177"
 ],
 "perspective": [
 {
@@ -52,17 +62,17 @@
 "source": ["author:James_Fontanella-Khan"]
 }
 ],
-"snippet": [" Sunday, with 27 per cent of voters saying they \u201cliked\u201d it the best.\nSeparate research by Lord Ashcroft, former Conservative party treasurer and pollster, found that"],
+"snippet": [" concerns.\nUkip emerged as the most popular of all UK parties in a ComRes poll published on Sunday, with 27 per cent of voters saying they \u201cliked\u201d it the best.\nSeparate"],
 "snippet_char": [
-78,
-86
+79,
+88
 ],
 "uri": ["http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0"]
 },
 {
 "char": [
-"3335",
-"3340"
+"3105",
+"3112"
 ],
 "perspective": [
 {
@@ -86,29 +96,253 @@
 "source": ["author:James_Fontanella-Khan"]
 }
 ],
-"snippet": [" research by Lord Ashcroft, former Conservative party treasurer and pollster, found that 37 per cent of 2010 Tory voters would not support the party in an election"],
+"snippet": [" party, with immigration beginning to top the list of voters\u2019 concerns.\nUkip emerged as the most popular of all UK parties in a ComRes poll published on Sunday,"],
+"snippet_char": [
+77,
+84
+],
+"uri": ["http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0"]
+}
+],
+"period": ["20140119"],
+"prefLabel": ["publish"],
+"sentence": "3168",
+"time": "20140119",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/211846",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/217074",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/222026"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Conservative_Party_(UK)",
+"dbp:Labour_Party_(UK)",
+"dbp:Government_of_the_United_Kingdom"
+]},
+"classes": {
+"fn": ["Occupy_rank"],
+"ili": [
+"i82501",
+"i25026"
+]
+},
+"climax": 82,
+"event": "ev147",
+"group": "083:[free movement of persons]",
+"groupName": "[free movement of persons]",
+"groupScore": "083",
+"instance": "http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0#ev147",
+"labels": [
+"place",
+"beat"
+],
+"mentions": [
+{
+"char": [
+"2989",
+"2994"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" May, polls suggest\n that his Conservative party could be beaten into third place by Labour and the UK Independence party, with immigration beginning to top"],
+"snippet_char": [
+76,
+81
+],
+"uri": ["http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0"]
+},
+{
+"char": [
+"2971",
+"2977"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" elections due in May, polls suggest\n that his Conservative party could be beaten into third place by Labour and the UK Independence party, with immigration"],
+"snippet_char": [
+75,
+81
+],
+"uri": ["http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0"]
+}
+],
+"period": ["20130501"],
+"prefLabel": ["place"],
+"sentence": "2989",
+"time": "20130501",
+"topics": [
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/217074",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/211846",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Premiership_of_David_Cameron",
+"dbp:Conservative_Party_(UK)",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Giving"],
+"ili": [
+"i74363",
+"i70764",
+"i27512"
+]
+},
+"climax": 74,
+"event": "ev96",
+"group": "083:[free movement of persons]",
+"groupName": "[free movement of persons]",
+"groupScore": "083",
+"instance": "http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0#ev96",
+"labels": [
+"concession",
+"fight"
+],
+"mentions": [
+{
+"char": [
+"1300",
+"1311"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+}
+],
+"snippet": [" clampdown on the benefits regime for EU migrants. Mr Cameron is fighting for concessions on free movement to fend off rebellions in the Conservative party over Europe.\nDozens"],
 "snippet_char": [
 78,
+89
+],
+"uri": ["http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0"]
+},
+{
+"char": [
+"4400",
+"4405"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+}
+],
+"snippet": [" achievements on the altar of political populism. Where there is abuse, let us fight this effectively with existing means.\u201d\nDowning Street said: \u201cFree movement is"],
+"snippet_char": [
+80,
+85
+],
+"uri": ["http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0"]
+},
+{
+"char": [
+"1287",
+"1295"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:Kiran_Stacey"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": ["author:James_Fontanella-Khan"]
+}
+],
+"snippet": [" a limited clampdown on the benefits regime for EU migrants. Mr Cameron is fighting for concessions on free movement to fend off rebellions in the Conservative"],
+"snippet_char": [
+75,
 83
 ],
 "uri": ["http://www.ft.com/thing/91350d0e-7f91-11e3-b6a7-00144feabdc0"]
 }
 ],
 "period": ["20140119"],
-"prefLabel": ["research"],
-"sentence": "3258",
+"prefLabel": ["concession"],
+"sentence": "1300",
 "time": "20140119",
 "topics": [
-"http://eurovoc.europa.eu/209933",
-"http://eurovoc.europa.eu/222026",
 "http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/209933",
 "http://eurovoc.europa.eu/223006",
 "http://eurovoc.europa.eu/211846",
-"http://eurovoc.europa.eu/217074"
+"http://eurovoc.europa.eu/217074",
+"http://eurovoc.europa.eu/222026"
 ]
-}],
-"headline": "brexit3",
-"mention_cnt": [2],
+}
+],
+"headline": "brexit4-ne",
+"mention_cnt": [7],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},

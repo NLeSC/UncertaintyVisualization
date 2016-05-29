@@ -1,56 +1,33 @@
 { "timeline":
 {
-"actor_cnt": [3],
+"actor_cnt": [4],
 "event_cnt": [1],
 "events": [{
 "actors": {"actor:": [
 "dbp:European_Union",
 "dbp:Cameron",
-"_Louisiana"
+"_Louisiana",
+"dbp:France"
 ]},
-"classes": {"ili": [
-"i22098",
-"i30566"
-]},
+"classes": {
+"fn": ["Accomplishment"],
+"ili": ["i34338"]
+},
 "climax": 80,
-"event": "ev108",
+"event": "ev107",
 "group": "080:[EC association agreement]",
 "groupName": "[EC association agreement]",
 "groupScore": "080",
-"instance": "http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09#ev108",
+"instance": "http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09#ev107",
 "labels": [
-"assuage",
 "achieve",
 "fail",
-"argue",
 "reform",
 "put",
 "amplify",
-"victory"
+"concern"
 ],
 "mentions": [
-{
-"char": [
-"2392",
-"2399"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:FT_reporters"
-}],
-"snippet": [" argued that Mr Cameron had failed to achieve fundamental reform but could assuage Conservative Eurosceptics back home. \n\u201cFrom the start it was all about finding"],
-"snippet_char": [
-75,
-82
-],
-"uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
-},
 {
 "char": [
 "2355",
@@ -92,28 +69,6 @@
 "snippet_char": [
 77,
 83
-],
-"uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
-},
-{
-"char": [
-"2318",
-"2324"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:FT_reporters"
-}],
-"snippet": [" most of deal was bluster. \nThe centre-right Frankfurter Allgemeine Zeitung argued that Mr Cameron had failed to achieve fundamental reform but could assuage"],
-"snippet_char": [
-76,
-82
 ],
 "uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
 },
@@ -207,30 +162,8 @@
 },
 {
 "char": [
-"1150",
-"1154"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:El_Pa’s"
-}],
-"snippet": [" their own referendum?\u201d it wrote. \nSpain\u2019s El Pa’s also agreed that the deal went far beyond a symbolic victory for Mr Cameron. It wrote that the EU had \u201cpaid"],
-"snippet_char": [
-77,
-81
-],
-"uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
-},
-{
-"char": [
-"1693",
-"1697"
+"636",
+"645"
 ],
 "perspective": [{
 "attribution": {
@@ -242,39 +175,17 @@
 },
 "source": "author:FT_reporters"
 }],
-"snippet": [" southern Europeans. \nThe right-leaning Welt am Sonntag said that Mr Cameron had gone beyond his agenda and reformed the entire EU. \u201cCameron has done the whole union"],
-"snippet_char": [
-81,
-85
-],
-"uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
-},
-{
-"char": [
-"1177",
-"1184"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "cite:El_Pa’s"
-}],
-"snippet": [" wrote. \nSpain\u2019s El Pa’s also agreed that the deal went far beyond a symbolic victory for Mr Cameron. It wrote that the EU had \u201cpaid a high and unjustifiable price"],
+"snippet": [" newspaper. \nAdopting a similar tone, France\u2019s centre-left daily Le Monde was concerned that Mr Cameron\u2019s victory \u201camplified the movement towards Europe ˆ la carte\u201d"],
 "snippet_char": [
 78,
-85
+87
 ],
 "uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
 },
 {
 "char": [
-"82",
-"89"
+"3096",
+"3104"
 ],
 "perspective": [{
 "attribution": {
@@ -286,51 +197,29 @@
 },
 "source": "author:FT_reporters"
 }],
-"snippet": [" David Cameron\u2019s deal in Brussels has been criticised in Britain as a modest victory, many in continental Europe fear the depth of the concessions made to the UK"],
-"snippet_char": [
-77,
-84
-],
-"uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
-},
-{
-"char": [
-"664",
-"671"
-],
-"perspective": [{
-"attribution": {
-"belief": "confirm",
-"certainty": "certain",
-"possibility": "likely",
-"sentiment": "neutral",
-"when": "now"
-},
-"source": "author:FT_reporters"
-}],
-"snippet": [" tone, France\u2019s centre-left daily Le Monde was concerned that Mr Cameron\u2019s victory \u201camplified the movement towards Europe ˆ la carte\u201d and put added pressure on"],
+"snippet": [" no questioning of the principle of free movement\u201d. \nCountering Mr Prodi\u2019s concerns, Italy\u2019s new ambassador to the EU, Carlo Calenda, wrote in Corriere della Sera,"],
 "snippet_char": [
 75,
-82
+83
 ],
 "uri": ["http://www.ft.com/thing/4567a68e-d8a9-11e5-98fd-06d75973fe09"]
 }
 ],
 "period": ["20160221"],
-"prefLabel": ["assuage"],
-"sentence": "2392",
+"prefLabel": ["achieve"],
+"sentence": "2355",
 "time": "20160221",
 "topics": [
-"http://eurovoc.europa.eu/216992",
-"http://eurovoc.europa.eu/222022",
 "http://eurovoc.europa.eu/210802",
+"http://eurovoc.europa.eu/222042",
 "http://eurovoc.europa.eu/222026",
 "http://eurovoc.europa.eu/223006",
-"http://eurovoc.europa.eu/222042"
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/222022"
 ]
 }],
-"headline": "brexit3",
-"mention_cnt": [13],
+"headline": "brexit4-ne",
+"mention_cnt": [8],
 "polls": [
 {
 "actors": {"-": ["brexit:Stay"]},
