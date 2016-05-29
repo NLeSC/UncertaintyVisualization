@@ -43,6 +43,11 @@
             p.labels.none = (p.labels.none || 0) + 1;
           }
 
+          //Push mentions over all events fitting this time and group.
+          v.mentions.forEach(function(m) {
+            p.mentions.push(m);
+          });
+
           return p;
         },
         //Remove something from our temporary collection, (basically do
@@ -70,6 +75,12 @@
             p.labels.none = (p.labels.none || 0) - 1;
           }
 
+
+          //Push mentions over all events fitting this time and group.
+          v.mentions.forEach(function(m) {
+            p.mentions.pop(m);
+          });
+
           return p;
         },
         //Set up the inital data structure.
@@ -78,7 +89,8 @@
             climax: 0,
             events: {},
             actors: {},
-            labels: {}
+            labels: {},
+            mentions: []
           };
         }
       );
@@ -246,7 +258,9 @@
             '\n-----Time-------\n' +
             formattedTime +
             '\n-----Group------\n' +
-            p.key[0];
+            p.key[0] +
+            '\n---Mentions-----\n' +
+            HelperFunctions.mentionToTxt(p.value);
           return titleString;
         });
 

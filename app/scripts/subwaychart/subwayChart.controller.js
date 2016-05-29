@@ -2,20 +2,20 @@
   'use strict';
 
   function SubwayChartController($scope, $window, $element, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
-    var mentionToTxt = function(d) {
-      var raw = d.mentions;
-
-      var txt = '';
-      raw.forEach(function(mention) {
-        var pre = mention.snippet[0].substring(0, mention.snippet_char[0]);
-        var word = mention.snippet[0].substring(mention.snippet_char[0],mention.snippet_char[1]);
-        var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
-
-        txt += pre + word + post + '\n';
-      }.bind(this));
-
-      return txt;
-    }.bind(this);
+    // var mentionToTxt = function(d) {
+    //   var raw = d.mentions;
+    //
+    //   var txt = '';
+    //   raw.forEach(function(mention) {
+    //     var pre = mention.snippet[0].substring(0, mention.snippet_char[0]);
+    //     var word = mention.snippet[0].substring(mention.snippet_char[0],mention.snippet_char[1]);
+    //     var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
+    //
+    //     txt += pre + word + post + '\n';
+    //   }.bind(this));
+    //
+    //   return txt;
+    // }.bind(this);
 
     this.initializeChart = function() {
       var subwayChart = dc.subwayChart('#'+$element[0].children[0].attributes.id.value);
@@ -145,7 +145,7 @@
         .maxBubbleRelativeSize(0.015)
 
       //Use the color scheme of the groupRowChart
-      .colors(HelperFunctions.getActorColors())
+      .colors(d3.scale.ordinal().range(HelperFunctions.getOrdinalColors()))
       .colorAccessor(function(d) {
         return d;
       })
@@ -188,7 +188,7 @@
             '\n---Labels-------\n' +
             labelString +
             '\n---Mentions-----\n' +
-            mentionToTxt(p.value, this.sources);
+            HelperFunctions.mentionToTxt(p.value);
           return titleString;
         }.bind(this));
 

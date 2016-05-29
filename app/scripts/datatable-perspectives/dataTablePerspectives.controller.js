@@ -1,13 +1,27 @@
 (function() {
   'use strict';
 
-  function DataTableController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
-    var actorsToHtml = function(d) {
-      //Get the actors
-      var actors = d.actors['actor:'];
+  function DataTablePerspectivesController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+    var sourceToHtml = function(d) {
+      var result = [];
+      var raw = d.mentions;
+      raw.forEach(function(mention) {
+        var source;
+        if (mention.perspective[0]) {
+          source = mention.perspective[0].source;
+        } else {
+          source = '';
+        }
+
+        if (source) {
+          result.push({
+            source: source
+          });
+        }
+      });
       var html = '';
-      actors.forEach(function(a) {
-        html += '<p>' + a + '</p>';
+      result.forEach(function(phrase) {
+        html += '<p>' + phrase.source + '</p><p></br></p>';
       });
       return html;
     };
@@ -88,9 +102,9 @@
             return '<div class=col_0>' + time.getDate() + '/' + (time.getMonth()+1) + '/' + time.getFullYear() + '</div>';
           }
         }, {
-          label: '<div class=col_1>Actors</div>',
+          label: '<div class=col_1>Source</div>',
           format: function(d) {
-            return '<div class=col_1>' + actorsToHtml(d) + '</div>';
+            return '<div class=col_1>' + sourceToHtml(d) + '</div>';
           }
         }, {
           label: '<div class=col_2>Mentions</div>',
@@ -121,5 +135,5 @@
     }.bind(this));
   }
 
-  angular.module('uncertApp.datatable').controller('DataTableController', DataTableController);
+  angular.module('uncertApp.datatableperspectives').controller('DataTablePerspectivesController', DataTablePerspectivesController);
 })();
