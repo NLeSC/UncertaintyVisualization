@@ -35,7 +35,7 @@
         var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
 
 
-        html += '<p>' + pre + '<span class=\'highlighted-mention\'>' + word + '</span></p><p>' + post + '</p>';
+        html += '<p>' + pre + '</p><p><span class=\'highlighted-mention\'>' + word + '</span>' + post + '</p>';
       }.bind(this));
       return html;
     };
