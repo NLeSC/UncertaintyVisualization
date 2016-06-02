@@ -66,11 +66,11 @@
               }
               p.sentiment[source] = (p.sentiment[source] || 0) + sentiment;
 
-              var when = 0;
-              if (attribution.when === 'future') {
-                when += 1;
-              } else if (attribution.when === 'past') {
+              var when = 0; //Reversed on request
+              if (attribution.when === 'past') {
                 when -= 1;
+              } else if (attribution.when === 'future') {
+                when += 1;
               }
               p.when[source] = (p.when[source] || 0) + when;
             });
@@ -126,10 +126,10 @@
               }
               p.sentiment[source] = (p.sentiment[source] || 0) - sentiment;
 
-              var when = 0;
-              if (attribution.when === 'future') {
+              var when = 0; //Reversed on request
+              if (attribution.when === 'past') {
                 when += 1;
-              } else if (attribution.when === 'past') {
+              } else if (attribution.when === 'future') {
                 when -= 1;
               }
               p.when[source] = (p.when[source] || 0) - when;
