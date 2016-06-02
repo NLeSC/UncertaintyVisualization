@@ -1,0 +1,406 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-00253761-v-and-ili-30-01738774-v-and-ili-30-02138766-v-and-ili-30-00252019-v-and-ili-30-00543410-v-and-ili-30-01627947-v
+            a              sem:Event , fn:Cause_to_make_progress , fn:Coming_to_be , eso:Constructing , eso:IntentionalEvent , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00253761-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01738774-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02138766-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00252019-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00543410-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01627947-v> ;
+            rdfs:label     "development" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=472,483> .
+    
+    <http://www.newsreader-project.eu/time/20070609>
+            a              time:DateTimeDescription ;
+            time:day       "---09"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--06"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1>
+            a                time:Interval ;
+            rdfs:label       "June" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=51,55> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=56,58> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=59,60> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20070609> .
+    
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            a              sem:Event , fn:Replacing , fn:Take_place_of , eso:Replacing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02257767-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00162688-v> ;
+            rdfs:label     "replace" , "modernise" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=161,172> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1308,1316> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/long-haul+fleet>
+            rdfs:label     "long-haul fleet" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=178,193> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/Some+of+the+A330s>
+            rdfs:label     "some of the a330s" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1282,1299> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/by+the+new+aircraft>
+            rdfs:label     "by the new aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1317,1336> .
+    
+    nwrontology:ili-30-00257269-v-and-ili-30-00541163-v-and-ili-30-02077148-v
+            a              sem:Event , fn:Cause_expansion , fn:Expansion , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00257269-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00541163-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02077148-v> ;
+            rdfs:label     "expand" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2556,2562> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dct>
+            a                time:Interval ;
+            rdfs:label       "2007-06-09T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20070609> .
+    
+    nwrontology:ili-30-02207206-v-and-ili-30-02646757-v
+            a              sem:Event , fn:Commerce_buy , eso:Buying , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02207206-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02646757-v> ;
+            rdfs:label     "buy" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=12,16> .
+    
+    <http://dbpedia.org/resource/Aer_Lingus>
+            rdfs:label     "Aer Lingus" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1,11> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=88,98> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=495,505> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=564,574> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=978,988> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1762,1772> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1927,1937> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1985,1995> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2196,2206> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2243,2253> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2355,2365> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/twelve+new+long-haul+Airbus+jets>
+            rdfs:label     "twelve new long-haul Airbus jet" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=17,49> .
+    
+    nwrontology:ili-30-00205885-v-and-ili-30-00205046-v
+            a              sem:Event , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00205885-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00205046-v> ;
+            rdfs:label     "improve" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=198,207> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/transatlantic+network>
+            rdfs:label     "transatlantic network" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=213,234> .
+    
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            a              sem:Event , fn:Bringing , fn:Motion , fn:Operate_vehicle , fn:Ride_vehicle , fn:Self_motion , eso:Transportation , eso:Motion , eso:Translocation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01451842-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01847845-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01840238-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02140965-v> ;
+            rdfs:label     "flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1620,1627> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline>
+            rdfs:label     "the airline" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1593,1604> .
+    
+    nwrontology:ili-30-01346003-v-and-ili-30-01346804-v-and-ili-30-01579813-v
+            a              sem:Event , eso:Motion , fn:Body_movement , fn:Closure , eso:ChangingShape , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01346003-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01346804-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01579813-v> ;
+            rdfs:label     "open" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2586,2590> .
+    
+    nwrontology:ili-30-01438304-v
+            a              sem:Event , eso:Transportation , fn:Delivery , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01438304-v> ;
+            rdfs:label     "delivery" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=386,394> .
+    
+    nwrontology:ili-30-01942234-v
+            a              sem:Event , fn:Bringing , fn:Ride_vehicle , eso:Transportation , eso:Translocation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01942234-v> ;
+            rdfs:label     "jet" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=45,49> .
+    
+    <http://dbpedia.org/resource/Airbus_A320_family>
+            rdfs:label     "airbus" , "Airbus ." ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=38,44> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=899,905> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1048,1054> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=487,494> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=131,137> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2650,2656> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1219,1225> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev22>
+            a              sem:Event ;
+            rdfs:label     "twelve" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=17,23> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr20> {
+    nwrontology:ili-30-00253761-v-and-ili-30-01738774-v-and-ili-30-02138766-v-and-ili-30-00252019-v-and-ili-30-00543410-v-and-ili-30-01627947-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr20>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=51,483> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr16>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=51,172> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr7,rl14>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=161,193> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr36,rl88>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1282,1316> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr36,rl90>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1308,1336> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv111>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=161,172> , <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1308,1316> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dt11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2556,2562> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr77,rl189>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2556,2578> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv321>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2556,2562> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=12,55> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr1,rl1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1,16> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr1,rl2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=12,49> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv01>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=12,16> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=51,207> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr9,rl17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=198,234> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv121>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=198,207> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dt6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1620,1627> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr47,rl116>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1593,1627> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dt13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2586,2590> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr79,rl192>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2586,2625> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv341>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=2586,2590> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr19>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=51,394> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr12>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=45,55> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr3,rl7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=38,49> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=17,55> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr2,rl3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=1,23> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr2,rl4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=17,49> .
+    
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv71>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#char=17,23> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr16> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr7,rl14> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/long-haul+fleet> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/long-haul+fleet> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr36,rl88> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/Some+of+the+A330s> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Replacing@Old>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Some+of+the+A330s> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Take_place_of@Old>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Some+of+the+A330s> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Some+of+the+A330s> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr36,rl90> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/by+the+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Replacing@New>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/by+the+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Take_place_of@New>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/by+the+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/by+the+new+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv111> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev26>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dt11> {
+    nwrontology:ili-30-00257269-v-and-ili-30-00541163-v-and-ili-30-02077148-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dct> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr77,rl189> {
+    nwrontology:ili-30-00257269-v-and-ili-30-00541163-v-and-ili-30-02077148-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/existing+routes> ;
+            eso:quantity-theme       <http://www.newsreader-project.eu/data/timeline/non-entities/existing+routes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_expansion@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/existing+routes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Expansion@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/existing+routes> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/existing+routes> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv321> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev58>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr3> {
+    nwrontology:ili-30-02207206-v-and-ili-30-02646757-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr1,rl1> {
+    nwrontology:ili-30-02207206-v-and-ili-30-02646757-v
+            sem:hasActor            <http://dbpedia.org/resource/Aer_Lingus> ;
+            eso:possession-owner_2  <http://dbpedia.org/resource/Aer_Lingus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_buy@Buyer>
+                    <http://dbpedia.org/resource/Aer_Lingus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Aer_Lingus> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr1,rl2> {
+    nwrontology:ili-30-02207206-v-and-ili-30-02646757-v
+            sem:hasActor           <http://www.newsreader-project.eu/data/timeline/non-entities/twelve+new+long-haul+Airbus+jets> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_buy@Goods>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/twelve+new+long-haul+Airbus+jets> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/twelve+new+long-haul+Airbus+jets> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv01> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev21_1>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr17> {
+    nwrontology:ili-30-00205885-v-and-ili-30-00205046-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr9,rl17> {
+    nwrontology:ili-30-00205885-v-and-ili-30-00205046-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/transatlantic+network> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/transatlantic+network> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv121> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev27>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dt6> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dct> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr47,rl116> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+airline> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dt13> {
+    nwrontology:ili-30-01346003-v-and-ili-30-01346804-v-and-ili-30-01579813-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#dct> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr79,rl192> {
+    nwrontology:ili-30-01346003-v-and-ili-30-01346804-v-and-ili-30-01579813-v
+            sem:hasActor  <http://dbpedia.org/resource/Dublin_Airport> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A3>
+                    <http://dbpedia.org/resource/Dublin_Airport> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv341> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev60>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr19> {
+    nwrontology:ili-30-01438304-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr12> {
+    nwrontology:ili-30-01942234-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr3,rl7> {
+    nwrontology:ili-30-01942234-v
+            sem:hasActor             <http://dbpedia.org/resource/Airbus_A320_family> ;
+            eso:translocation-theme  <http://dbpedia.org/resource/Airbus_A320_family> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://dbpedia.org/resource/Airbus_A320_family> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Vehicle>
+                    <http://dbpedia.org/resource/Airbus_A320_family> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Airbus_A320_family> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tr11> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev22>
+            sem:hasTime  <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr2,rl3> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev22>
+            sem:hasActor  <http://dbpedia.org/resource/Aer_Lingus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Aer_Lingus> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#pr2,rl4> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev22>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/twelve+new+long-haul+Airbus+jets> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/twelve+new+long-haul+Airbus+jets> .
+}
+
+<http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#fv71> {
+    <http://en.wikinews.org/wiki/Aer_Lingus_buys_twelve_new_long-haul_Airbus_jets#ev22>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

@@ -1,0 +1,281 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            a              sem:Event , fn:Bringing , eso:Transportation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01449974-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01408760-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02700867-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00738951-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01203074-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01740320-v> , nwrontology:SPEECH_COGNITIVE ;
+            rdfs:label     "carrier" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=379,387> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=407,415> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1728,1735> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1847,1854> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1895,1902> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1987,1995> .
+    
+    <http://dbpedia.org/resource/Indonesia>
+            rdfs:label     "indonesian airline '" , "Indonesia" , "Indonesia 's" , "indonesian" , "Indonesian" , "indonesian airline" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1,10> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=2150,2159> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1172,1181> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1015,1024> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=363,374> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=158,167> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1,12> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=363,372> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=471,481> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1936,1946> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1336,1346> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=954,964> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=2219,2229> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1541,1551> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1031,1041> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1092,1094> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=2562,2572> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1936,1954> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1031,1050> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/Indonesia+%27s+air+carriers>
+            rdfs:label     "Indonesia 's air carrier" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=363,387> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/air+carriers+banned+in+the+EU>
+            rdfs:label     "air carrier ban in the EU" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=403,432> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/state-owned+national+flag+carrier+Garuda+Indonesia>
+            rdfs:label     "state-owned national flag carrier Garuda Indonesia" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1705,1750> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/national+flag>
+            rdfs:label     "national flag" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1716,1728> .
+    
+    <http://dbpedia.org/resource/Pakistan>
+            rdfs:label     "pakistani" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1834,1843> .
+    
+    <http://dbpedia.org/resource/Suriname>
+            rdfs:label     "Surinam" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1888,1895> .
+    
+    <http://dbpedia.org/resource/Blue_Wing_Airlines>
+            rdfs:label     "Blue Wing airlines" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1902,1918> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/Multiple+local+air+carriers>
+            rdfs:label     "multiple local air carrier" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1971,1995> .
+    
+    <http://www.newsreader-project.eu/time/20071128>
+            a              time:DateTimeDescription ;
+            time:day       "---28"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tmx4>
+            a                time:Interval ;
+            rdfs:label       "November" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1798,1806> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1806,1808> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20071128> .
+    
+    nwrontology:ili-30-01360423-v-and-ili-30-01359432-v-and-ili-30-01974062-v-and-ili-30-01579153-v-and-ili-30-01455184-v-and-ili-30-01224744-v-and-ili-30-01525666-v-and-ili-30-02276866-v-and-ili-30-02277138-v
+            a              sem:Event , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01360423-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01359432-v> , fn:Body_movement , eso:Motion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01974062-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01579153-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01455184-v> , fn:Being_in_operation , fn:Operating_a_system , fn:Using , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01224744-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01525666-v> , fn:Theft , eso:Stealing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02276866-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02277138-v> ;
+            rdfs:label     "operate" , "string" , "lift" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=503,509> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1465,1469> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1826,1832> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1489,1493> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=2427,2431> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1694,1702> .
+    
+    nwrontology:ili-30-01448100-v-and-ili-30-01650425-v
+            a              sem:Event , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01448100-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01650425-v> ;
+            rdfs:label     "force" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1964,1969> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tr13> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tmx4> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tr13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1728,1902> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr12,rl30>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=363,387> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr12,rl32>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=363,387> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr14,rl35>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=403,432> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr62,rl140>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1684,1750> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr62,rl142>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1716,1735> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr68,rl154>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1834,1854> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr69,rl157>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1888,1902> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr69,rl158>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1888,1918> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr72,rl165>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1971,1995> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tr17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1694,1832> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr53,rl120>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1465,1475> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr54,rl123>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1489,1529> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr61,rl138>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1684,1750> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#fv141>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1465,1469> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#fv151>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1826,1832> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1489,1493> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=2427,2431> , <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1694,1702> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tr32>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1798,1969> .
+    
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr71,rl161>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#char=1922,1969> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr12,rl30> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasPlace  <http://dbpedia.org/resource/Indonesia> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/Indonesia> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr12,rl32> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/Indonesia+%27s+air+carriers> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/Indonesia+%27s+air+carriers> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Indonesia+%27s+air+carriers> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Area>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Indonesia+%27s+air+carriers> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Indonesia+%27s+air+carriers> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr14,rl35> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/air+carriers+banned+in+the+EU> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/air+carriers+banned+in+the+EU> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/air+carriers+banned+in+the+EU> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Area>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/air+carriers+banned+in+the+EU> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/air+carriers+banned+in+the+EU> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr62,rl140> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/non-entities/state-owned+national+flag+carrier+Garuda+Indonesia> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/state-owned+national+flag+carrier+Garuda+Indonesia> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/state-owned+national+flag+carrier+Garuda+Indonesia> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr62,rl142> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/non-entities/national+flag> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/national+flag> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/national+flag> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr68,rl154> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasPlace  <http://dbpedia.org/resource/Pakistan> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/Pakistan> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr69,rl157> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasPlace  <http://dbpedia.org/resource/Suriname> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/Suriname> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr69,rl158> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor             <http://dbpedia.org/resource/Blue_Wing_Airlines> ;
+            eso:translocation-theme  <http://dbpedia.org/resource/Blue_Wing_Airlines> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://dbpedia.org/resource/Blue_Wing_Airlines> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Area>
+                    <http://dbpedia.org/resource/Blue_Wing_Airlines> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Blue_Wing_Airlines> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr72,rl165> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/Multiple+local+air+carriers> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/Multiple+local+air+carriers> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Multiple+local+air+carriers> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Area>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Multiple+local+air+carriers> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Multiple+local+air+carriers> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tr17> {
+    nwrontology:ili-30-01360423-v-and-ili-30-01359432-v-and-ili-30-01974062-v-and-ili-30-01579153-v-and-ili-30-01455184-v-and-ili-30-01224744-v-and-ili-30-01525666-v-and-ili-30-02276866-v-and-ili-30-02277138-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tmx4> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr53,rl120> {
+    nwrontology:ili-30-01360423-v-and-ili-30-01359432-v-and-ili-30-01974062-v-and-ili-30-01579153-v-and-ili-30-01455184-v-and-ili-30-01224744-v-and-ili-30-01525666-v-and-ili-30-02276866-v-and-ili-30-02277138-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/the+ban> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Body_movement@Message>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+ban> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+ban> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr54,rl123> {
+    nwrontology:ili-30-01360423-v-and-ili-30-01359432-v-and-ili-30-01974062-v-and-ili-30-01579153-v-and-ili-30-01455184-v-and-ili-30-01224744-v-and-ili-30-01525666-v-and-ili-30-02276866-v-and-ili-30-02277138-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/of+open+sky+policy> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+open+sky+policy> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr61,rl138> {
+    nwrontology:ili-30-01360423-v-and-ili-30-01359432-v-and-ili-30-01974062-v-and-ili-30-01579153-v-and-ili-30-01455184-v-and-ili-30-01224744-v-and-ili-30-01525666-v-and-ili-30-02276866-v-and-ili-30-02277138-v
+            sem:hasActor    <http://www.newsreader-project.eu/data/timeline/non-entities/state-owned+national+flag+carrier+Garuda+Indonesia> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Using@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/state-owned+national+flag+carrier+Garuda+Indonesia> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/state-owned+national+flag+carrier+Garuda+Indonesia> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#fv141> {
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#ev33>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#fv151> {
+    <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#ev33>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tr32> {
+    nwrontology:ili-30-01448100-v-and-ili-30-01650425-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#tmx4> .
+}
+
+<http://en.wikinews.org/wiki/Indonesia's_transport_minister_tells_airlines_not_to_buy_European_aircraft_due_to_EU_ban#pr71,rl161> {
+    nwrontology:ili-30-01448100-v-and-ili-30-01650425-v
+            sem:hasActor  <http://dbpedia.org/resource/Indonesia> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Indonesia> .
+}

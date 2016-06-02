@@ -23,6 +23,10 @@ module.exports = function(grunt) {
     dist: 'dist'
   };
 
+  grunt.loadNpmTasks('grunt-angular-templates');
+  grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -55,7 +59,7 @@ module.exports = function(grunt) {
         },
         files: [
           '<%= yeoman.app %>/{,*/}*.html',
-          '.tmp/styles/{,*/}*.css',
+          '<%= yeoman.app %>/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.app %>/scripts/{,*/}*.html'
         ]
@@ -425,6 +429,13 @@ module.exports = function(grunt) {
           configure : 'node_modules/grunt-jsdoc/node_modules/ink-docstrap/template/jsdoc.conf.json'
         }
       }
+    },
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
     }
   });
 

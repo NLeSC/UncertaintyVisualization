@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" >
 
 <head>
   <meta charset="utf-8">
@@ -10,76 +10,110 @@
   <!-- build:css(.) styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="bower_components/dcjs/dc.css" />
+  <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body ng-app="uncertApp">
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
-  <!-- Add your site or application content here -->
-
-  <div class="container-fluid">
-    <authentication-directive></authentication-directive>
-
-    <sparql-directive></sparql-directive>
-
-    <rdf-directive></rdf-directive>
-
-    <dcjs-directive></dcjs-directive>
+  <div id="rig-window">
+    <div id="progress-bar"></div>
+    <rig-selector></rig-selector>
   </div>
-
-  <!-- build:js(.) scripts/oldieshim.js -->
-  <!--[if lt IE 9]>
-    <script src="bower_components/es5-shim/es5-shim.js"></script>
-    <script src="bower_components/json3/lib/json3.js"></script>
-    <![endif]-->
-  <!-- endbuild -->
 
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-cookies/angular-cookies.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
   <script src="bower_components/angular-touch/angular-touch.js"></script>
-  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="bower_components/d3/d3.js"></script>
-  <script src="bower_components/n3js/n3-browser.js"></script>
   <script src="bower_components/crossfilter/crossfilter.js"></script>
   <script src="bower_components/dcjs/dc.js"></script>
   <script src="bower_components/colorbrewer/colorbrewer.js"></script>
+  <script src="bower_components/material-design-lite/material.min.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
   <!-- build:js({.tmp,app}) scripts/scripts.js -->
   <script src="scripts/app.js"></script>
   <script src="scripts/utils/messagebus.service.js"></script>
-  <script src="scripts/authentication/base64.service.js"></script>
-  <script src="scripts/authentication/authentication.service.js"></script>
-  <script src="scripts/authentication/authentication.controller.js"></script>
-  <script src="scripts/authentication/authentication.directive.js"></script>
-  <script src="scripts/rdf/rdf.controller.js"></script>
-  <script src="scripts/rdf/rdf.directive.js"></script>
 
-  <script src="scripts/sparql/sparql.service.js"></script>
-  <script src="scripts/sparql/sparql.directive.js"></script>
-  <script src="scripts/sparql/sparql.controller.js"></script>
-  <script src="scripts/sparql/sparql.filters.js"></script>
+  <script src="scripts/core/constants.js"></script>
+  <script src="scripts/dcjs/dc.baseMixin.js"></script>
+  <script src="scripts/dcjs/dc.customCompositeChart.js"></script>
+  <script src="scripts/dcjs/dc.customSeriesChart.js"></script>
+  <script src="scripts/dcjs/dc.customScatterPlot.js"></script>
+  <script src="scripts/dcjs/dc.customBubbleMixin.js"></script>
+  <script src="scripts/dcjs/dc.customBubbleChart.js"></script>
+  <script src="scripts/dcjs/dc.subwayChart.js"></script>
+  <script src="scripts/dcjs/dc.laneChart.js"></script>
+  <script src="scripts/dcjs/dc.dyndomBubbleChart.js"></script>
 
-  <script src="scripts/dcjs/dcjs.service.js"></script>
-  <script src="scripts/dcjs/dcjs.controller.js"></script>
-  <script src="scripts/dcjs/dcjs.directive.js"></script>
+  <script src="scripts/fileloading/fileLoading.controller.js"></script>
+  <script src="scripts/fileloading/fileLoading.directive.js"></script>
+  <script src="scripts/breadcrumbs/breadcrumbs.controller.js"></script>
+  <script src="scripts/breadcrumbs/breadcrumbs.directive.js"></script>
+
+  <script src="scripts/utils/helperFunctions.service.js"></script>
+  <script src="scripts/crossfilter/ndx.service.js"></script>
+
+  <script src="scripts/selector/selector.controller.js"></script>
+  <script src="scripts/selector/selector.directive.js"></script>
+
+  <script src="scripts/viewstorylines/view.storylines.controller.js"></script>
+  <script src="scripts/viewstorylines/view.storylines.directive.js"></script>
+  <script src="scripts/viewrelations/view.relations.controller.js"></script>
+  <script src="scripts/viewrelations/view.relations.directive.js"></script>
+  <script src="scripts/viewperspectives/view.perspectives.controller.js"></script>
+  <script src="scripts/viewperspectives/view.perspectives.directive.js"></script>
+
+  <script src="scripts/allactorchart/allActorChart.controller.js"></script>
+  <script src="scripts/allactorchart/allActorChart.directive.js"></script>
+  <script src="scripts/subwaychart/subwayChart.controller.js"></script>
+  <script src="scripts/subwaychart/subwayChart.directive.js"></script>
+  <script src="scripts/grouprowchart/groupRowChart.controller.js"></script>
+  <script src="scripts/grouprowchart/groupRowChart.directive.js"></script>
+  <script src="scripts/lanechart/laneChart.controller.js"></script>
+  <script src="scripts/lanechart/laneChart.directive.js"></script>
+  <script src="scripts/serieschart/seriesChart.controller.js"></script>
+  <script src="scripts/serieschart/seriesChart.directive.js"></script>
+  <script src="scripts/datatable/dataTable.controller.js"></script>
+  <script src="scripts/datatable/dataTable.directive.js"></script>
+  <script src="scripts/dataTable-perspectives/dataTablePerspectives.controller.js"></script>
+  <script src="scripts/dataTable-perspectives/dataTablePerspectives.directive.js"></script>
+
+  <script src="scripts/pollchart/pollChart.controller.js"></script>
+  <script src="scripts/pollchart/pollChart.directive.js"></script>
+
+  <script src="scripts/pollrowchart/pollRowChart.controller.js"></script>
+  <script src="scripts/pollrowchart/pollRowChart.directive.js"></script>
+  <script src="scripts/polllanechart/pollLaneChart.controller.js"></script>
+  <script src="scripts/polllanechart/pollLaneChart.directive.js"></script>
+
+  <script src="scripts/allcitationschart/allCitationsChart.controller.js"></script>
+  <script src="scripts/allcitationschart/allCitationsChart.directive.js"></script>
+
+  <script src="scripts/allauthorschart/allAuthorsChart.controller.js"></script>
+  <script src="scripts/allauthorschart/allAuthorsChart.directive.js"></script>
+
+  <script src="scripts/perspectivelanechart/perspectiveLaneChart.controller.js"></script>
+  <script src="scripts/perspectivelanechart/perspectiveLaneChart.directive.js"></script>
+  <script src="scripts/perspectivelanechart/optionSelector.controller.js"></script>
+  <script src="scripts/perspectivelanechart/optionSelector.directive.js"></script>
+
+  <script src="scripts/core/data.service.js"></script>
   <!-- endbuild -->
 </body>
 

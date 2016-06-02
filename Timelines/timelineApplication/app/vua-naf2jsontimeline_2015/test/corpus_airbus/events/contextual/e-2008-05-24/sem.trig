@@ -1,0 +1,551 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02624263-v-and-ili-30-00253761-v-and-ili-30-01738774-v-and-ili-30-02138766-v-and-ili-30-00252019-v-and-ili-30-00543410-v-and-ili-30-01627947-v-and-ili-30-00205885-v-and-ili-30-00205046-v
+            a              sem:Event , fn:Cause_to_make_progress , fn:Coming_to_be , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02624263-v> , eso:Constructing , eso:IntentionalEvent , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00253761-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01738774-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02138766-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00252019-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00543410-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01627947-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00205885-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00205046-v> ;
+            rdfs:label     "improvement" , "development" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=36,47> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=113,124> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=424,435> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1305,1316> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1335,1346> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=525,537> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development>
+            rdfs:label     "737 replacement development" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=20,47> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team>
+            rdfs:label     "the parent product development team" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=405,440> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+other>
+            rdfs:label     "of the other" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1347,1359> .
+    
+    <http://www.newsreader-project.eu/time/20080524>
+            a              time:DateTimeDescription ;
+            time:day       "---24"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--05"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tmx1>
+            a                time:Interval ;
+            rdfs:label       "May" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=49,52> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=53,55> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=55,56> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20080524> .
+    
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v-and-ili-30-01992503-v-and-ili-30-02283949-v-and-ili-30-00248659-v-and-ili-30-00158222-v-and-ili-30-00497061-v-and-ili-30-00558371-v-and-ili-30-02397637-v-and-ili-30-02554922-v-and-ili-30-00118523-v-and-ili-30-00781000-v-and-ili-30-02684924-v-and-ili-30-02747709-v-and-ili-30-02747922-v
+            a              sem:Event , eso:IntentionalEvent , fn:Cause_change_of_position_on_a_scale , fn:Cause_motion , fn:Manipulation , eso:QuantityChange , eso:Translocation , eso:Motion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01871979-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01872645-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01872877-v> , fn:Change_position_on_a_scale , eso:FinancialTransaction , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01992503-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02283949-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00248659-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00158222-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00497061-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00558371-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02397637-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02554922-v> , fn:Activity_ongoing , fn:Process_continue , nwrontology:GRAMMATICAL , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00118523-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00781000-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02684924-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02747709-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02747922-v> ;
+            rdfs:label     "keep" , "push" , "advancement" , "continue" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=8,14> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=207,213> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=261,272> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1468,1478> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1655,1662> .
+    
+    <http://dbpedia.org/resource/Boeing>
+            rdfs:label     "Boeing Commercial airplanes" , "Boeing" , "Boeing 's" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1,7> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1712,1720> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1361,1367> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=486,492> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=87,93> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=234,240> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1411,1438> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1712,1718> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/several+years>
+            rdfs:label     "several year" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=219,232> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/of+technology>
+            rdfs:label     "of technology" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=273,286> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/our+research+effort>
+            rdfs:label     "our research effort" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1479,1498> .
+    
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            a              sem:Event , fn:Replacing , fn:Take_place_of , eso:Replacing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02257767-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00162688-v> ;
+            rdfs:label     "replacement" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=130,141> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1266,1277> .
+    
+    nwrontology:ili-30-01621555-v
+            a              sem:Event , fn:Behind_the_scenes , fn:Cause_to_start , fn:Intentionally_create , fn:Manufacturing , eso:Manufacturing , eso:Creating , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01621555-v> ;
+            rdfs:label     "product" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1556,1563> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dct>
+            a                time:Interval ;
+            rdfs:label       "2008-05-24T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20080524> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev21>
+            a              sem:Event ;
+            rdfs:label     "merge" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=393,399> .
+    
+    nwrontology:ili-30-01433294-v-and-ili-30-02210855-v-and-ili-30-02208265-v-and-ili-30-02359340-v-and-ili-30-01438304-v-and-ili-30-02204692-v
+            a              sem:Event , nwrontology:GRAMMATICAL , fn:Getting , fn:Grasp , eso:Getting , eso:Placing , eso:Buying , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01433294-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02210855-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02208265-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02359340-v> , fn:Delivery , eso:Transportation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01438304-v> , fn:Inclusion , fn:Possession , eso:HavingInPossession , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02204692-v> ;
+            rdfs:label     "have" , "get" , "deliver" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=905,908> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1247,1254> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1381,1385> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/difficult+challenges>
+            rdfs:label     "difficult challenge" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=909,929> .
+    
+    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_to>
+            a              nwrontology:MISC ;
+            rdfs:label     "Airbus to" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1237,1246> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/their+A320+replacement>
+            rdfs:label     "their A320 replacement" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1255,1277> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/their+%27s+ready>
+            rdfs:label     "their 's ready" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1386,1399> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev18>
+            a              sem:Event ;
+            rdfs:label     "airliner" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=167,175> .
+    
+    nwrontology:ili-30-00634906-v-and-ili-30-00733044-v
+            a              sem:Event , fn:Resolve_problem , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00634906-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00733044-v> ;
+            rdfs:label     "solution" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1523,1531> .
+    
+    nwrontology:ili-30-00429060-v-and-ili-30-02061069-v-and-ili-30-00241038-v-and-ili-30-00240571-v-and-ili-30-00241689-v-and-ili-30-00644583-v
+            a              sem:Event , fn:Cause_change_of_position_on_a_scale , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00429060-v> , fn:Cause_expansion , fn:Expansion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02061069-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00241038-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00240571-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00241689-v> , fn:Scrutiny , nwrontology:SPEECH_COGNITIVE , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00644583-v> ;
+            rdfs:label     "analyst" , "reduce" , "shrink" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=617,624> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=827,833> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1288,1296> .
+    
+    nwrontology:ili-30-01438304-v
+            a              sem:Event , fn:Delivery , eso:Transportation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01438304-v> ;
+            rdfs:label     "delivery" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1095,1103> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev24>
+            a              sem:Event ;
+            rdfs:label     "team" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=436,440> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr2> {
+    nwrontology:ili-30-02624263-v-and-ili-30-00253761-v-and-ili-30-01738774-v-and-ili-30-02138766-v-and-ili-30-00252019-v-and-ili-30-00543410-v-and-ili-30-01627947-v-and-ili-30-00205885-v-and-ili-30-00205046-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tmx1> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=36,124> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr2,rl4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=24,47> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr17,rl33>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=405,440> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr54,rl105>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1335,1359> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=8,272> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr1,rl1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1,14> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr1,rl3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=8,47> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr4,rl9>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=207,232> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr11,rl21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=261,286> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr58,rl114>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1468,1498> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv01>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=8,14> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=207,213> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1655,1662> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1468,1478> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=49,141> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt24>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1556,1563> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr62,rl123>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1546,1563> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=49,399> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr13,rl25>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=393,440> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv121>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=393,399> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=905,908> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1247,1254> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1381,1385> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr33,rl70>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=905,929> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr48,rl95>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1237,1254> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr48,rl96>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1247,1277> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr56,rl108>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1361,1385> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr56,rl109>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1381,1399> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv201>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=905,908> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1247,1254> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1381,1385> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=49,175> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt23>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1523,1531> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=617,624> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=827,833> , <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1288,1296> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr24,rl46>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=617,651> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr50,rl98>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1279,1296> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv161>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=617,624> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv171>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=827,833> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt19>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1095,1103> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr43,rl89>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=1095,1122> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=49,440> .
+    
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr16,rl31>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#char=416,440> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr2,rl4> {
+    nwrontology:ili-30-02624263-v-and-ili-30-00253761-v-and-ili-30-01738774-v-and-ili-30-02138766-v-and-ili-30-00252019-v-and-ili-30-00543410-v-and-ili-30-01627947-v-and-ili-30-00205885-v-and-ili-30-00205046-v
+            sem:hasActor           <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_make_progress@Place>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Coming_to_be@Place>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Coming_to_be@Time>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr17,rl33> {
+    nwrontology:ili-30-02624263-v-and-ili-30-00253761-v-and-ili-30-01738774-v-and-ili-30-02138766-v-and-ili-30-00252019-v-and-ili-30-00543410-v-and-ili-30-01627947-v-and-ili-30-00205885-v-and-ili-30-00205046-v
+            sem:hasActor           <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_make_progress@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Coming_to_be@Cause>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr54,rl105> {
+    nwrontology:ili-30-02624263-v-and-ili-30-00253761-v-and-ili-30-01738774-v-and-ili-30-02138766-v-and-ili-30-00252019-v-and-ili-30-00543410-v-and-ili-30-01627947-v-and-ili-30-00205885-v-and-ili-30-00205046-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+other> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_make_progress@Duration>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+other> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Coming_to_be@Entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+other> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+other> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr1> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v-and-ili-30-01992503-v-and-ili-30-02283949-v-and-ili-30-00248659-v-and-ili-30-00158222-v-and-ili-30-00497061-v-and-ili-30-00558371-v-and-ili-30-02397637-v-and-ili-30-02554922-v-and-ili-30-00118523-v-and-ili-30-00781000-v-and-ili-30-02684924-v-and-ili-30-02747709-v-and-ili-30-02747922-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr1,rl1> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v-and-ili-30-01992503-v-and-ili-30-02283949-v-and-ili-30-00248659-v-and-ili-30-00158222-v-and-ili-30-00497061-v-and-ili-30-00558371-v-and-ili-30-02397637-v-and-ili-30-02554922-v-and-ili-30-00118523-v-and-ili-30-00781000-v-and-ili-30-02684924-v-and-ili-30-02747709-v-and-ili-30-02747922-v
+            sem:hasActor             <http://dbpedia.org/resource/Boeing> ;
+            eso:translocation-theme  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Agent>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Agent>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manipulation@Agent>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr1,rl3> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v-and-ili-30-01992503-v-and-ili-30-02283949-v-and-ili-30-00248659-v-and-ili-30-00158222-v-and-ili-30-00497061-v-and-ili-30-00558371-v-and-ili-30-02397637-v-and-ili-30-02554922-v-and-ili-30-00118523-v-and-ili-30-00781000-v-and-ili-30-02684924-v-and-ili-30-02747709-v-and-ili-30-02747922-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            eso:quantity-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            eso:translocation-goal  <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manipulation@Entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/737+replacement+development> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr4,rl9> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v-and-ili-30-01992503-v-and-ili-30-02283949-v-and-ili-30-00248659-v-and-ili-30-00158222-v-and-ili-30-00497061-v-and-ili-30-00558371-v-and-ili-30-02397637-v-and-ili-30-02554922-v-and-ili-30-00118523-v-and-ili-30-00781000-v-and-ili-30-02684924-v-and-ili-30-02747709-v-and-ili-30-02747922-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            eso:quantity-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            eso:translocation-goal  <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manipulation@Entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/several+years> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr11,rl21> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v-and-ili-30-01992503-v-and-ili-30-02283949-v-and-ili-30-00248659-v-and-ili-30-00158222-v-and-ili-30-00497061-v-and-ili-30-00558371-v-and-ili-30-02397637-v-and-ili-30-02554922-v-and-ili-30-00118523-v-and-ili-30-00781000-v-and-ili-30-02684924-v-and-ili-30-02747709-v-and-ili-30-02747922-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/of+technology> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_position_on_a_scale@Attribute>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+technology> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+technology> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr58,rl114> {
+    nwrontology:ili-30-01871979-v-and-ili-30-01872645-v-and-ili-30-01872877-v-and-ili-30-01992503-v-and-ili-30-02283949-v-and-ili-30-00248659-v-and-ili-30-00158222-v-and-ili-30-00497061-v-and-ili-30-00558371-v-and-ili-30-02397637-v-and-ili-30-02554922-v-and-ili-30-00118523-v-and-ili-30-00781000-v-and-ili-30-02684924-v-and-ili-30-02747709-v-and-ili-30-02747922-v
+            sem:hasActor                  <http://www.newsreader-project.eu/data/timeline/non-entities/our+research+effort> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Activity_ongoing@Activity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/our+research+effort> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Process_continue@Event>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/our+research+effort> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/our+research+effort> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv01> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv11> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr4> {
+    nwrontology:ili-30-02257767-v-and-ili-30-00162688-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt24> {
+    nwrontology:ili-30-01621555-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr62,rl123> {
+    nwrontology:ili-30-01621555-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/a+25-year+product> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Behind_the_scenes@Production>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+25-year+product> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_start@Means>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+25-year+product> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Intentionally_create@Created_entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+25-year+product> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manufacturing@Product>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+25-year+product> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+25-year+product> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr8> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev21>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr13,rl25> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev21>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv121> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev21>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt10> {
+    nwrontology:ili-30-01433294-v-and-ili-30-02210855-v-and-ili-30-02208265-v-and-ili-30-02359340-v-and-ili-30-01438304-v-and-ili-30-02204692-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr33,rl70> {
+    nwrontology:ili-30-01433294-v-and-ili-30-02210855-v-and-ili-30-02208265-v-and-ili-30-02359340-v-and-ili-30-01438304-v-and-ili-30-02204692-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/difficult+challenges> ;
+            eso:possession-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/difficult+challenges> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Getting@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/difficult+challenges> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Grasp@Phenomenon>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/difficult+challenges> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/difficult+challenges> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr48,rl95> {
+    nwrontology:ili-30-01433294-v-and-ili-30-02210855-v-and-ili-30-02208265-v-and-ili-30-02359340-v-and-ili-30-01438304-v-and-ili-30-02204692-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/entities/Airbus_to> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Delivery@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_to> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_to> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr48,rl96> {
+    nwrontology:ili-30-01433294-v-and-ili-30-02210855-v-and-ili-30-02208265-v-and-ili-30-02359340-v-and-ili-30-01438304-v-and-ili-30-02204692-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/non-entities/their+A320+replacement> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Delivery@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+A320+replacement> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+A320+replacement> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr56,rl108> {
+    nwrontology:ili-30-01433294-v-and-ili-30-02210855-v-and-ili-30-02208265-v-and-ili-30-02359340-v-and-ili-30-01438304-v-and-ili-30-02204692-v
+            sem:hasActor          <http://dbpedia.org/resource/Boeing> ;
+            eso:possession-owner  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Owner>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr56,rl109> {
+    nwrontology:ili-30-01433294-v-and-ili-30-02210855-v-and-ili-30-02208265-v-and-ili-30-02359340-v-and-ili-30-01438304-v-and-ili-30-02204692-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/their+%27s+ready> ;
+            eso:possession-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/their+%27s+ready> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Inclusion@Purpose>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+%27s+ready> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Possession>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+%27s+ready> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/their+%27s+ready> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv201> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev30>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr5> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev18>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt23> {
+    nwrontology:ili-30-00634906-v-and-ili-30-00733044-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt6> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02061069-v-and-ili-30-00241038-v-and-ili-30-00240571-v-and-ili-30-00241689-v-and-ili-30-00644583-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr24,rl46> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02061069-v-and-ili-30-00241038-v-and-ili-30-00240571-v-and-ili-30-00241689-v-and-ili-30-00644583-v
+            sem:hasActor        <http://www.newsreader-project.eu/data/timeline/non-entities/our+airplane-design+effort> ;
+            eso:quantity-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/our+airplane-design+effort> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/our+airplane-design+effort> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/our+airplane-design+effort> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr50,rl98> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02061069-v-and-ili-30-00241038-v-and-ili-30-00240571-v-and-ili-30-00241689-v-and-ili-30-00644583-v
+            sem:hasActor        <http://www.newsreader-project.eu/data/timeline/non-entities/Industry+analysts> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Scrutiny@Ground>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Industry+analysts> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Industry+analysts> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv161> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev26>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#fv171> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev26>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dt19> {
+    nwrontology:ili-30-01438304-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr43,rl89> {
+    nwrontology:ili-30-01438304-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/non-entities/for+the+plane> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Delivery@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/for+the+plane> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/for+the+plane> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tr11> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev24>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#pr16,rl31> {
+    <http://en.wikinews.org/wiki/Boeing_pushes_back_737_replacement_development#ev24>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+parent+product+development+team> .
+}

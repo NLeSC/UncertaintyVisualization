@@ -1,3 +1,19 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+#banner {
+  color: white;
+  margin-top: 10px;
+}
+
+#introduction {
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.16);
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.16);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -6,6 +22,177 @@
 }
 
 body {
+  margin:10px;
+  overflow:auto;
+  background: #fafafa;
+}
+
+.mdl-grid {
   padding: 0;
+}
+
+#pagetitle {
+  position: relative;
+  top: -15px;
+}
+
+.logo {
+  width: 80%;
+}
+
+.nwa_logo {
+  position: absolute;
+  height: 14%;
+  right: 10px;
+}
+
+div.dc-chart {
+    float: none;
+}
+
+.dc-chart g.row text {
+    fill: black;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.dc-chart .grid-line {
+    fill: none;
+    stroke: #ccc;
+    opacity: .75;
+    shape-rendering: crispEdges;
+}
+
+.dc-chart .subwayBubble {
+    stroke: black;
+    stroke-width: 2px;
+    fill: white;
+}
+
+.dc-chart .bubble {
+    stroke: black;
+    stroke-width: 1px;
+}
+
+g.dyndom_node :hover {
+    fill-opacity: .8;
+    stroke: red !important;
+}
+
+g.dyndom_node {
+    stroke: black;
+    stroke-width: 1px;
+    stroke-opacity: 1;
+}
+
+.dc-chart .symbol {
+  stroke: black !important;
+}
+
+#subwayChart .bubble-text {
+    color: red;
+    font-size: 12px;
+}
+
+.dc-chart path.diagonal {
+    fill: none;
+    stroke-width: 4px;
+}
+
+.myChart {
+  background: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.dc-chart .brush rect.extent {
+    fill: steelblue;
+    fill-opacity: .6;
+}
+
+span.highlighted-mention {
+    color: red;
+}
+
+g.node.deselected {
+    opacity: 0.5;
+}
+
+g.node.selected {
+    opacity: 1.0;
+}
+
+.breadcrumb_class {
+  font-size: 12px;
+  padding-left: 10px;
+  color: rgb(255, 0, 0);
+}
+
+.breadcrumb_empty {
+  color: rgb(0, 0, 0);
+}
+
+.logo-vu {
+  background-image: url("../images/VUlogo.png");
+  height: 100px;
+  width: 100%;
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position-x: 50px;
+}
+
+.logo-nwr {
+  background-image: url("../images/NWR_logo_1920x200.png");
+  height: 100px;
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-y: 35px;
+}
+
+.logo-nlesc {
+  background-image: url("../images/NLESClogo.png");
+  height: 100px;
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-y: 40px;
+}
+
+.dc-data-table {
+    font-size: 10px;
+}
+
+table{
+    width: 600px;
+}
+
+th, td {
   overflow: hidden;
+  white-space:nowrap;
+}
+
+.col_0 {
+  width: 30px;
+}
+
+.col_1 {
+  width: 100px;
+}
+
+.col_2 {
+    width: 370px;
+}
+
+.radio-parent {
+    display: flex;
+}
+
+.radio-child {
+    margin: auto;
+}
+
+p {
+    font-size: 10px;
+    margin: 0 0 10px;
+    line-height: 1px;
 }

@@ -1,0 +1,387 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v-and-ili-30-00719734-v-and-ili-30-00755745-v
+            a              sem:Event , fn:Bringing , eso:Transportation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01449974-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01408760-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02700867-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00738951-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01203074-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01740320-v> , fn:Expectation , fn:Opinion , nwrontology:SPEECH_COGNITIVE , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00719734-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00755745-v> ;
+            rdfs:label     "expect" , "carry" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=217,222> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=647,655> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1033,1041> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft>
+            rdfs:label     "of the aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=662,677> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=948,963> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft>
+            rdfs:label     "sale of the aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=656,677> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight>
+            rdfs:label     "the 1 commercial flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1002,1029> .
+    
+    <http://www.newsreader-project.eu/time/200403>
+            a              time:DateTimeDescription ;
+            time:month     "--03"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tmx3>
+            a                time:Interval ;
+            rdfs:label       "March" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=991,996> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200403> .
+    
+    nwrontology:ili-30-01999798-v-and-ili-30-02077656-v-and-ili-30-02717102-v-and-ili-30-02206619-v-and-ili-30-02289295-v-and-ili-30-02290196-v
+            a              sem:Event , fn:Bringing , eso:Transportation , fn:Removing , fn:Taking , fn:Change_of_leadership , eso:Removing , eso:Taking , eso:ChangeOfLeadership , eso:Getting , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01999798-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02077656-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02717102-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02206619-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02289295-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02290196-v> ;
+            rdfs:label     "take" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=361,365> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=968,972> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1045,1049> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft>
+            rdfs:label     "the new aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=339,355> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title>
+            rdfs:label     "the world 's - large title" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=366,391> .
+    
+    <http://dbpedia.org/resource/Boeing>
+            rdfs:label     "Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=408,414> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=422,428> .
+    
+    <http://dbpedia.org/resource/Singapore_Changi_Airport>
+            rdfs:label     "Changi Airport" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1083,1097> .
+    
+    nwrontology:ili-30-02244956-v-and-ili-30-02242464-v
+            a              sem:Event , fn:Commerce_sell , eso:Selling , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02244956-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02242464-v> ;
+            rdfs:label     "sale" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=656,661> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=912,917> .
+    
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            a              sem:Event , fn:Bringing , eso:Transportation , fn:Motion , fn:Operate_vehicle , fn:Ride_vehicle , fn:Self_motion , eso:Motion , eso:Translocation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01451842-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01847845-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01840238-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02140965-v> ;
+            rdfs:label     "flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=569,575> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=941,947> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1023,1029> .
+    
+    nwrontology:ili-30-02207206-v
+            a              sem:Event , fn:Commerce_buy , eso:Buying , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02207206-v> ;
+            rdfs:label     "purchase" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1149,1158> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr11> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v-and-ili-30-00719734-v-and-ili-30-00755745-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tmx3> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=991,1041> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr21,rl52>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=647,677> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr37,rl85>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1002,1041> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv91>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=217,222> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv101>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=647,655> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1033,1041> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=968,1049> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr11,rl26>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=339,365> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr11,rl28>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=361,391> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr11,rl30>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=361,420> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr38,rl87>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1002,1049> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr38,rl89>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1045,1097> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv31>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=361,365> , <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=968,972> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv41>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1045,1049> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=912,996> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr23,rl57>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=656,677> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr16>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=941,1029> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr33,rl77>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=941,963> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr36,rl84>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1002,1029> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=991,1158> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr39,rl90>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1100,1158> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr39,rl91>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1149,1182> .
+    
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#char=1149,1158> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr21,rl52> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v-and-ili-30-00719734-v-and-ili-30-00755745-v
+            sem:hasActor               <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Expectation@Phenomenon>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Expectation@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Opinion@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr37,rl85> {
+    nwrontology:ili-30-01449974-v-and-ili-30-01408760-v-and-ili-30-02700867-v-and-ili-30-00738951-v-and-ili-30-01203074-v-and-ili-30-01740320-v-and-ili-30-00719734-v-and-ili-30-00755745-v
+            sem:hasActor               <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Expectation@Phenomenon>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Expectation@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Opinion@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv91> {
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv101> {
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr2> {
+    nwrontology:ili-30-01999798-v-and-ili-30-02077656-v-and-ili-30-02717102-v-and-ili-30-02206619-v-and-ili-30-02289295-v-and-ili-30-02290196-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr11,rl26> {
+    nwrontology:ili-30-01999798-v-and-ili-30-02077656-v-and-ili-30-02717102-v-and-ili-30-02206619-v-and-ili-30-02289295-v-and-ili-30-02290196-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            eso:possession-owner_1   <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            eso:possession-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Means>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_of_leadership@Selector>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Removing@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Removing@Cause>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Removing@Instrument>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Taking@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Taking@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+new+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr11,rl28> {
+    nwrontology:ili-30-01999798-v-and-ili-30-02077656-v-and-ili-30-02717102-v-and-ili-30-02206619-v-and-ili-30-02289295-v-and-ili-30-02290196-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title> ;
+            eso:possession-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_of_leadership@New_leader>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Removing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Taking@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world+%27s+-+largest+title> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr11,rl30> {
+    nwrontology:ili-30-01999798-v-and-ili-30-02077656-v-and-ili-30-02717102-v-and-ili-30-02206619-v-and-ili-30-02289295-v-and-ili-30-02290196-v
+            sem:hasActor                   <http://dbpedia.org/resource/Boeing> ;
+            eso:possession-owner_1         <http://dbpedia.org/resource/Boeing> ;
+            eso:translocation-source       <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Source>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_of_leadership@Means>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Removing@Source>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Taking@Source>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr38,rl87> {
+    nwrontology:ili-30-01999798-v-and-ili-30-02077656-v-and-ili-30-02717102-v-and-ili-30-02206619-v-and-ili-30-02289295-v-and-ili-30-02290196-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            eso:possession-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_of_leadership@New_leader>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Removing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Taking@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr38,rl89> {
+    nwrontology:ili-30-01999798-v-and-ili-30-02077656-v-and-ili-30-02717102-v-and-ili-30-02206619-v-and-ili-30-02289295-v-and-ili-30-02290196-v
+            sem:hasActor                   <http://dbpedia.org/resource/Singapore_Changi_Airport> ;
+            eso:possession-owner_1         <http://dbpedia.org/resource/Singapore_Changi_Airport> ;
+            eso:translocation-source       <http://dbpedia.org/resource/Singapore_Changi_Airport> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Source>
+                    <http://dbpedia.org/resource/Singapore_Changi_Airport> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_of_leadership@Means>
+                    <http://dbpedia.org/resource/Singapore_Changi_Airport> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Removing@Source>
+                    <http://dbpedia.org/resource/Singapore_Changi_Airport> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Taking@Source>
+                    <http://dbpedia.org/resource/Singapore_Changi_Airport> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://dbpedia.org/resource/Singapore_Changi_Airport> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv31> {
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#ev9_2>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv41> {
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#ev9_2>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr17> {
+    nwrontology:ili-30-02244956-v-and-ili-30-02242464-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr23,rl57> {
+    nwrontology:ili-30-02244956-v-and-ili-30-02242464-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_sell@Goods>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> , <http://www.newsreader-project.eu/data/timeline/non-entities/sales+of+the+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr16> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr33,rl77> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr36,rl84> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            eso:translocation-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Operate_vehicle@Vehicle>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Ride_vehicle@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Self_mover>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+first+commercial+flight> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tr3> {
+    nwrontology:ili-30-02207206-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr39,rl90> {
+    nwrontology:ili-30-02207206-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/British+and+American+airline+Virgin+Atlantic> ;
+            eso:possession-owner_2  <http://www.newsreader-project.eu/data/timeline/non-entities/British+and+American+airline+Virgin+Atlantic> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_buy@Buyer>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/British+and+American+airline+Virgin+Atlantic> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/British+and+American+airline+Virgin+Atlantic> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#pr39,rl91> {
+    nwrontology:ili-30-02207206-v
+            sem:hasActor           <http://www.newsreader-project.eu/data/timeline/non-entities/six+of+these+aeroplanes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_buy@Goods>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/six+of+these+aeroplanes> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/six+of+these+aeroplanes> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#fv51> {
+    <http://en.wikinews.org/wiki/Airbus_launches_world's_largest_passenger_plane#ev9_7>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

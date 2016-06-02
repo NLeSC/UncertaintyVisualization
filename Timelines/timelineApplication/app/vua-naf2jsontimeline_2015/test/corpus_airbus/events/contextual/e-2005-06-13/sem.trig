@@ -1,0 +1,770 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-00155727-v
+            a              sem:Event , fn:Change_position_on_a_scale , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00155727-v> ;
+            rdfs:label     "jump" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1031,1035> .
+    
+    <http://www.newsreader-project.eu/time/20050613>
+            a              time:DateTimeDescription ;
+            time:day       "---13"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--06"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dct>
+            a                time:Interval ;
+            rdfs:label       "2005-06-13T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20050613> .
+    
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v-and-ili-30-02204692-v-and-ili-30-02210119-v
+            a              sem:Event , fn:Giving , eso:Giving , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01178565-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02199590-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02200686-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02200498-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02316868-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02230772-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02359553-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02309374-v> , fn:Inclusion , fn:Possession , eso:HavingInPossession , nwrontology:GRAMMATICAL , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02204692-v> , fn:Receiving , eso:Getting , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02210119-v> ;
+            rdfs:label     "receive" , "give" , "have" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=240,245> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=515,518> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=842,850> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/a+boost>
+            rdfs:label     "a boost" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=246,253> .
+    
+    <http://dbpedia.org/resource/Qatar>
+            rdfs:label     "Qatar" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=509,514> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=572,577> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=578,580> .
+    
+    <http://dbpedia.org/resource/Boeing>
+            rdfs:label     "Boeing 's" , "Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=367,373> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=831,837> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=464,472> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=670,676> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=425,431> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=464,470> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/far+more+orders+than+Airbus>
+            rdfs:label     "far much order than Airbus" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=851,878> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tmx1>
+            a                time:Interval ;
+            rdfs:label       "June" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=46,50> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=51,53> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=53,54> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20050613> .
+    
+    nwrontology:ili-30-02244956-v-and-ili-30-02242464-v
+            a              sem:Event , fn:Commerce_sell , eso:Selling , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02244956-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02242464-v> ;
+            rdfs:label     "sell" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=648,652> .
+    
+    <http://dbpedia.org/resource/Airbus>
+            rdfs:label     "Airbus ," , "Airbus" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=1,7> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=93,100> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=356,362> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=641,647> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=153,156> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=872,878> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/more+planes+than+Boeing>
+            rdfs:label     "much plane than Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=653,676> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dct>
+            a                time:Interval ;
+            rdfs:label       "2005-06-13T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20050613> .
+    
+    nwrontology:ili-30-02207206-v
+            a              sem:Event , fn:Commerce_buy , eso:Buying , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02207206-v> ;
+            rdfs:label     "purchase" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=161,169> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=449,457> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/five+new+737+aircraft>
+            rdfs:label     "five new 737 aircraft" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=170,191> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tmx3>
+            a                time:Interval ;
+            rdfs:label       "today" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=106,111> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20050613> .
+    
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            a              sem:Event , fn:Inclusion , fn:Possession , eso:HavingInPossession , nwrontology:GRAMMATICAL , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02204692-v> , fn:Bringing , eso:Transportation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01433294-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01434140-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02077656-v> ;
+            rdfs:label     "have" , "bring" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=198,204> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=781,786> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=507,510> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=637,640> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=852,854> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1001,1003> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1087,1090> .
+    
+    <http://dbpedia.org/resource/Boeing_737_Next_Generation>
+            rdfs:label     "Boeing 737-800" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=492,506> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+best+technical+reliability>
+            rdfs:label     "the good technical reliability" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=511,541> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost>
+            rdfs:label     "the low unit operate cost" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=641,671> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit>
+            rdfs:label     "low unit" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=645,656> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/more+new+routes>
+            rdfs:label     "much new route" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=747,762> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/low+fares>
+            rdfs:label     "low fare" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=787,796> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world>
+            rdfs:label     "the world" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=843,852> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/most+profitable+airline>
+            rdfs:label     "much profitable airline" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=855,878> .
+    
+    <http://dbpedia.org/resource/Ryanair>
+            rdfs:label     "Ryanair 's" , "Ryanair" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1,8> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=635,637> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=999,1001> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=559,566> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=832,839> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=984,989> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=415,422> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=87,94> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=205,214> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=117,119> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=205,212> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1079,1086> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/91+aircraft+and+230>
+            rdfs:label     "91 aircraft and 230" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1091,1110> .
+    
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            a              sem:Event , fn:Bringing , eso:Transportation , fn:Motion , fn:Operate_vehicle , fn:Ride_vehicle , fn:Self_motion , eso:Motion , eso:Translocation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01451842-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01847845-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01840238-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02140965-v> ;
+            rdfs:label     "fly" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=595,598> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev14>
+            a              sem:Event ;
+            rdfs:label     "dominate" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=315,324> .
+    
+    nwrontology:ili-30-01224744-v-and-ili-30-01525666-v
+            a              sem:Event , fn:Being_in_operation , fn:Operating_a_system , fn:Using , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01224744-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01525666-v> ;
+            rdfs:label     "operate" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=657,666> .
+    
+    nwrontology:ili-30-02554922-v
+            a              sem:Event , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02554922-v> ;
+            rdfs:label     "boost" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=248,253> .
+    
+    nwrontology:ili-30-01653442-v
+            a              sem:Event , fn:Manufacturing , eso:Manufacturing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01653442-v> ;
+            rdfs:label     "manufacturer" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=262,274> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=79,91> .
+    
+    <http://dbpedia.org/resource/United_States_dollar>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=259,261> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=733,735> .
+    
+    <http://dbpedia.org/resource/Europe>
+            rdfs:label     "european" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=61,69> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/European+aircraft+manufacturer+%2C+Airbus+%2C>
+            rdfs:label     "european aircraft manufacturer , Airbus ," ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=61,100> .
+    
+    nwrontology:ili-30-02000868-v
+            a              sem:Event , eso:Translocation , fn:Cotheme , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02000868-v> ;
+            rdfs:label     "pursue" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=946,954> .
+    
+    nwrontology:ili-30-02288295-v
+            a              sem:Event , eso:Getting , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02288295-v> ;
+            rdfs:label     "win" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=8,12> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=105,108> .
+    
+    <http://dbpedia.org/resource/Qatar_Airways>
+            rdfs:label     "Qatar airways" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=13,26> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=123,136> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=376,389> .
+    
+    nwrontology:ili-30-02547586-v
+            a              sem:Event , fn:Assistance , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02547586-v> ;
+            rdfs:label     "aid" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=336,339> .
+    
+    nwrontology:ili-30-01643657-v
+            a              sem:Event , fn:Cause_to_start , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01643657-v> ;
+            rdfs:label     "spark" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=702,710> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dt16> {
+    nwrontology:ili-30-00155727-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dct> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dt16>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1031,1035> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr41,rl86>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1004,1035> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv181>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1031,1035> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=46,245> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr7,rl16>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=240,253> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr14,rl35>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=509,518> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr24,rl63>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=831,850> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr24,rl64>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=842,878> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=240,245> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=515,518> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=842,850> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=648,652> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr19,rl49>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=641,652> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr19,rl50>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=648,676> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv81>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=648,652> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tr4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=106,169> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr5,rl13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=161,191> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv31>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=161,169> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=449,457> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=449,457> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tr5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=106,204> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr18,rl39>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=489,510> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr18,rl40>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=507,541> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr21,rl46>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=637,671> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr29,rl62>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=747,786> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr29,rl63>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=781,796> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr34,rl70>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=843,854> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr34,rl71>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=852,878> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr44,rl92>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1079,1090> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr44,rl93>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1087,1110> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv41>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=198,204> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=507,510> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=852,854> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1087,1090> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=781,786> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=637,640> , <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=1001,1003> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=595,598> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv71>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=595,598> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=46,324> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv31>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=315,324> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dt6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=657,666> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr24,rl50>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=641,671> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv131>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=657,666> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=46,253> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tr8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=106,274> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr10,rl20>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=259,274> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=46,91> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr3,rl5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=61,91> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr3,rl7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=61,100> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dt15>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=946,954> .
+    
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv171>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#char=946,954> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=8,108> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr1,rl1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=1,12> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr1,rl2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=8,44> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr4,rl8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=61,108> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv01>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=8,12> , <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=105,108> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=46,339> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr10,rl24>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=336,373> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=702,710> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr20,rl53>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=641,710> .
+    
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv91>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#char=702,710> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr41,rl86> {
+    nwrontology:ili-30-00155727-v
+            sem:hasActor        <http://www.newsreader-project.eu/data/timeline/non-entities/total+number+of+passengers> ;
+            eso:quantity-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/total+number+of+passengers> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_position_on_a_scale@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/total+number+of+passengers> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/total+number+of+passengers> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv181> {
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#ev36>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr5> {
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v-and-ili-30-02204692-v-and-ili-30-02210119-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr7,rl16> {
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v-and-ili-30-02204692-v-and-ili-30-02210119-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/a+boost> ;
+            eso:possession-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/a+boost> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Giving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+boost> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+boost> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr14,rl35> {
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v-and-ili-30-02204692-v-and-ili-30-02210119-v
+            sem:hasActor          <http://dbpedia.org/resource/Qatar> ;
+            eso:possession-owner  <http://dbpedia.org/resource/Qatar> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Owner>
+                    <http://dbpedia.org/resource/Qatar> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Qatar> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr24,rl63> {
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v-and-ili-30-02204692-v-and-ili-30-02210119-v
+            sem:hasActor            <http://dbpedia.org/resource/Boeing> ;
+            eso:possession-owner_1  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Receiving@Donor>
+                    <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr24,rl64> {
+    nwrontology:ili-30-01178565-v-and-ili-30-02199590-v-and-ili-30-02200686-v-and-ili-30-02200498-v-and-ili-30-02316868-v-and-ili-30-02230772-v-and-ili-30-02359553-v-and-ili-30-02309374-v-and-ili-30-02204692-v-and-ili-30-02210119-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/far+more+orders+than+Airbus> ;
+            eso:possession-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/far+more+orders+than+Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Receiving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/far+more+orders+than+Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/far+more+orders+than+Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv21> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev12>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt6> {
+    nwrontology:ili-30-02244956-v-and-ili-30-02242464-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dct> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr19,rl49> {
+    nwrontology:ili-30-02244956-v-and-ili-30-02242464-v
+            sem:hasActor             <http://dbpedia.org/resource/Airbus> ;
+            eso:possession-owner_1   <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_sell@Seller>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr19,rl50> {
+    nwrontology:ili-30-02244956-v-and-ili-30-02242464-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/more+planes+than+Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_sell@Goods>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/more+planes+than+Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/more+planes+than+Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv81> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev22>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tr4> {
+    nwrontology:ili-30-02207206-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr5,rl13> {
+    nwrontology:ili-30-02207206-v
+            sem:hasActor           <http://www.newsreader-project.eu/data/timeline/non-entities/five+new+737+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_buy@Goods>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/five+new+737+aircraft> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/five+new+737+aircraft> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv31> {
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#ev12>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt2> {
+    nwrontology:ili-30-02207206-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dct> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv51> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev18>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tr5> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr18,rl39> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor          <http://dbpedia.org/resource/Boeing_737_Next_Generation> ;
+            eso:possession-owner  <http://dbpedia.org/resource/Boeing_737_Next_Generation> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Owner>
+                    <http://dbpedia.org/resource/Boeing_737_Next_Generation> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing_737_Next_Generation> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr18,rl40> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/the+best+technical+reliability> ;
+            eso:possession-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/the+best+technical+reliability> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Inclusion@Purpose>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+best+technical+reliability> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Possession>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+best+technical+reliability> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+best+technical+reliability> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr21,rl46> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> ;
+            eso:possession-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Inclusion@Purpose>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Possession>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr29,rl62> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/more+new+routes> ;
+            eso:translocation-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/more+new+routes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/more+new+routes> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/more+new+routes> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr29,rl63> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor       <http://www.newsreader-project.eu/data/timeline/non-entities/low+fares> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/low+fares> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/low+fares> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr34,rl70> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/the+world> ;
+            eso:possession-owner  <http://www.newsreader-project.eu/data/timeline/non-entities/the+world> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Owner>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+world> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr34,rl71> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/most+profitable+airline> ;
+            eso:possession-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/most+profitable+airline> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Inclusion@Purpose>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/most+profitable+airline> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Possession>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/most+profitable+airline> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/most+profitable+airline> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr44,rl92> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor          <http://dbpedia.org/resource/Ryanair> ;
+            eso:possession-owner  <http://dbpedia.org/resource/Ryanair> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Owner>
+                    <http://dbpedia.org/resource/Ryanair> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Ryanair> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr44,rl93> {
+    nwrontology:ili-30-01433294-v-and-ili-30-01434140-v-and-ili-30-02077656-v-and-ili-30-02204692-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/91+aircraft+and+230> ;
+            eso:possession-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/91+aircraft+and+230> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Inclusion@Purpose>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/91+aircraft+and+230> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Possession>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/91+aircraft+and+230> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/91+aircraft+and+230> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv41> {
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#ev13>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv51> {
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#ev13>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt5> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dct> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv71> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev21>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr7> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev14>
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv31> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dt6> {
+    nwrontology:ili-30-01224744-v-and-ili-30-01525666-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dct> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr24,rl50> {
+    nwrontology:ili-30-01224744-v-and-ili-30-01525666-v
+            sem:hasActor    <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Using@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+lowest+unit+operating+cost> , <http://www.newsreader-project.eu/data/timeline/non-entities/lowest+unit> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv131> {
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#ev26>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr6> {
+    nwrontology:ili-30-02554922-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tr8> {
+    nwrontology:ili-30-01653442-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#pr10,rl20> {
+    nwrontology:ili-30-01653442-v
+            sem:hasPlace  <http://dbpedia.org/resource/United_States_dollar> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/United_States_dollar> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr3> {
+    nwrontology:ili-30-01653442-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr3,rl5> {
+    nwrontology:ili-30-01653442-v
+            sem:hasPlace  <http://dbpedia.org/resource/Europe> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/Europe> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr3,rl7> {
+    nwrontology:ili-30-01653442-v
+            sem:hasActor                   <http://www.newsreader-project.eu/data/timeline/non-entities/European+aircraft+manufacturer+%2C+Airbus+%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manufacturing@Manufacturer>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/European+aircraft+manufacturer+%2C+Airbus+%2C> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/European+aircraft+manufacturer+%2C+Airbus+%2C> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dt15> {
+    nwrontology:ili-30-02000868-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#dct> .
+}
+
+<http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#fv171> {
+    <http://en.wikinews.org/wiki/Ryanair_exercises_options_on_five_Boeing_737s#ev35>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr1> {
+    nwrontology:ili-30-02288295-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr1,rl1> {
+    nwrontology:ili-30-02288295-v
+            sem:hasActor  <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr1,rl2> {
+    nwrontology:ili-30-02288295-v
+            sem:hasActor  <http://dbpedia.org/resource/Qatar_Airways> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Qatar_Airways> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr4,rl8> {
+    nwrontology:ili-30-02288295-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/European+aircraft+manufacturer+%2C+Airbus+%2C> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/European+aircraft+manufacturer+%2C+Airbus+%2C> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv01> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev8>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tr8> {
+    nwrontology:ili-30-02547586-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr10,rl24> {
+    nwrontology:ili-30-02547586-v
+            sem:hasActor          <http://dbpedia.org/resource/Boeing> , <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Assistance@Helper>
+                    <http://dbpedia.org/resource/Boeing> , <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> , <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dt7> {
+    nwrontology:ili-30-01643657-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#dct> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#pr20,rl53> {
+    nwrontology:ili-30-01643657-v
+            sem:hasActor             <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_start@Cause>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#fv91> {
+    <http://en.wikinews.org/wiki/Airbus_wins_Qatar_Airways_order_worth_$15bn#ev23>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

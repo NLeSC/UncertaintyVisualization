@@ -1,0 +1,129 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev8_3>
+            a              sem:Event ;
+            rdfs:label     "cite" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=226,232> .
+    
+    <http://dbpedia.org/resource/Government_Accountability_Office>
+            rdfs:label     "the GAO 's" , "Government Accountability Office" , "GAO" , "the GAO" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=1,33> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=540,543> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=992,999> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=924,933> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=536,543> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=600,607> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=1261,1268> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=95,127> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=604,607> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=928,931> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=996,999> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=1265,1268> .
+    
+    <http://www.newsreader-project.eu/time/20080618>
+            a              time:DateTimeDescription ;
+            time:day       "---18"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--06"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tmx3>
+            a                time:Interval ;
+            rdfs:label       "June" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=131,135> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=136,138> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20080618> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev13>
+            a              sem:Event ;
+            rdfs:label     "flaw" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=239,244> .
+    
+    nwrontology:ili-30-00240571-v-and-ili-30-01279474-v-and-ili-30-01387786-v-and-ili-30-02409941-v
+            a              sem:Event , fn:Expansion , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00240571-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01279474-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01387786-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02409941-v> ;
+            rdfs:label     "contract" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=216,224> .
+    
+    <http://dbpedia.org/resource/United_States_Air_Force>
+            rdfs:label     "Air Force" , "US Air Force" , "U.S. Air Force" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=52,64> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=182,196> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=389,398> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=743,752> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=1045,1054> , <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=1225,1234> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev11>
+            a              sem:Event ;
+            rdfs:label     "re-run" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=152,158> .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr1> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev8_3>
+            sem:hasTime  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tmx3> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=131,232> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#pr5,rl10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=91,232> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#fv01>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=226,232> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=131,244> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=131,224> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#pr7,rl13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=182,224> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr9>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=131,158> .
+    
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#pr6,rl12>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#char=152,224> .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#pr5,rl10> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev8_3>
+            sem:hasActor  <http://dbpedia.org/resource/Government_Accountability_Office> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Government_Accountability_Office> .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#fv01> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev8_3>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr11> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev13>
+            sem:hasTime  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr10> {
+    nwrontology:ili-30-00240571-v-and-ili-30-01279474-v-and-ili-30-01387786-v-and-ili-30-02409941-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#pr7,rl13> {
+    nwrontology:ili-30-00240571-v-and-ili-30-01279474-v-and-ili-30-01387786-v-and-ili-30-02409941-v
+            sem:hasActor  <http://dbpedia.org/resource/United_States_Air_Force> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://dbpedia.org/resource/United_States_Air_Force> .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tr9> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev11>
+            sem:hasTime  <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#pr6,rl12> {
+    <http://en.wikinews.org/wiki/Government_Accountability_Office_requests_rerun_of_US_Air_Force_tanker_bid#ev11>
+            sem:hasActor  <http://dbpedia.org/resource/United_States_Air_Force> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/United_States_Air_Force> .
+}

@@ -1,11 +1,8 @@
 // The app
-/* global N3:false, dc:false, d3:false, crossfilter:false, colorbrewer:false */
+/* global dc:false, d3:false, crossfilter:false, colorbrewer:false */
 
 (function() {
   'use strict';
-
-  angular.module('uncertApp.n3', [])
-    .constant('N3', N3);
 
   angular.module('uncertApp.dc', [])
     .constant('dc', dc);
@@ -18,7 +15,6 @@
 
   angular.module('uncertApp.colorbrewer', [])
     .constant('colorbrewer', colorbrewer);
-
 
 
   /**
@@ -34,22 +30,74 @@
       'ngAnimate',
       'ngSanitize',
       'ngTouch',
-      'ngRoute',
-      'ngCookies',
       'ui.bootstrap',
-      'uncertApp.authentication',
-      'uncertApp.rdf',
-      'uncertApp.sparql',
-      //'uncertApp.text',
-      'uncertApp.dcjs'
+
+      'uncertApp.selector',
+
+      'uncertApp.viewstorylines',
+      'uncertApp.viewrelations',
+      'uncertApp.viewperspectives',
+
+      'uncertApp.fileLoading',
+      // 'uncertApp.punchcard',
+      'uncertApp.breadcrumbs',
+      'uncertApp.allactorchart',
+      'uncertApp.subwaychart',
+      'uncertApp.grouprowchart',
+      'uncertApp.lanechart',
+      'uncertApp.serieschart',
+      'uncertApp.datatable',
+      'uncertApp.datatableperspectives',
+
+      'uncertApp.pollchart',
+      'uncertApp.pollrowchart',
+      'uncertApp.polllanechart',
+
+      'uncertApp.allcitationschart',
+      'uncertApp.allauthorschart',
+      'uncertApp.perspectivelanechart'
     ])
-    .run(function() {});
+    .config(function($compileProvider) {
+       // data urls are not allowed by default, so whitelist them
+       $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|tel|file|blob):/);
+    })
+    .run(function($timeout, DataService) {
+      angular.element(document).ready(function () {
+        $timeout(DataService.load(), 1000);
+      });
+    });
 
 
   angular.module('uncertApp.templates', []);
   angular.module('uncertApp.utils', ['uncertApp.templates']);
-  angular.module('uncertApp.authentication', ['ngCookies']);
-  angular.module('uncertApp.sparql', ['uncertApp.utils','uncertApp.authentication']);
-  angular.module('uncertApp.rdf', ['uncertApp.n3']);
-  angular.module('uncertApp.dcjs', ['uncertApp.utils','uncertApp.dc', 'uncertApp.d3', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
+
+  angular.module('uncertApp.ndx', ['uncertApp.crossfilter','uncertApp.utils']);
+
+  angular.module('uncertApp.selector', ['uncertApp.utils']);
+
+  angular.module('uncertApp.viewstorylines', []);
+  angular.module('uncertApp.viewrelations', []);
+  angular.module('uncertApp.viewperspectives', []);
+
+  angular.module('uncertApp.allactorchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.subwaychart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.grouprowchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.lanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
+  angular.module('uncertApp.serieschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.datatable', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.datatableperspectives', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+
+  angular.module('uncertApp.pollchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+
+  angular.module('uncertApp.pollrowchart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.polllanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
+
+  angular.module('uncertApp.allcitationschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.allauthorschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+  angular.module('uncertApp.perspectivelanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
+
+  angular.module('uncertApp.core', ['uncertApp.utils', 'toastr', 'uncertApp.ndx']);
+  angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);
+  // angular.module('uncertApp.punchcard', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
+  angular.module('uncertApp.breadcrumbs', ['uncertApp.core', 'uncertApp.dc', 'uncertApp.utils']);
 })();

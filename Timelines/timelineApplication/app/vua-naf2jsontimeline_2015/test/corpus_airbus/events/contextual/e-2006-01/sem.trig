@@ -1,0 +1,81 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01346003-v-and-ili-30-01346804-v-and-ili-30-01579813-v
+            a              sem:Event , fn:Closure , fn:Body_movement , eso:Motion , eso:ChangingShape , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01346003-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01346804-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01579813-v> ;
+            rdfs:label     "open" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=802,806> .
+    
+    <http://www.newsreader-project.eu/time/200601>
+            a              time:DateTimeDescription ;
+            time:month     "--01"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#tmx3>
+            a                time:Interval ;
+            rdfs:label       "year" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=820,827> , <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=828,832> , <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=833,837> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200601> .
+}
+
+<http://en.wikinews.org/wiki/First_A380_enters_commercial_service#tr13> {
+    nwrontology:ili-30-01346003-v-and-ili-30-01346804-v-and-ili-30-01579813-v
+            sem:hasTime  <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#tmx3> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#tr13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=802,827> .
+    
+    <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#pr17,rl37>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=766,806> .
+    
+    <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#pr17,rl39>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=802,816> .
+    
+    <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#fv71>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#char=802,806> .
+}
+
+<http://en.wikinews.org/wiki/First_A380_enters_commercial_service#pr17,rl37> {
+    nwrontology:ili-30-01346003-v-and-ili-30-01346804-v-and-ili-30-01579813-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/entities/SGD1.75-billion_Terminal> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Body_movement@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/entities/SGD1.75-billion_Terminal> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Closure@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/entities/SGD1.75-billion_Terminal> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/entities/SGD1.75-billion_Terminal> .
+}
+
+<http://en.wikinews.org/wiki/First_A380_enters_commercial_service#pr17,rl39> {
+    nwrontology:ili-30-01346003-v-and-ili-30-01346804-v-and-ili-30-01579813-v
+            sem:hasActor                  <http://www.newsreader-project.eu/data/timeline/non-entities/its+doors> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Body_movement@Body_part>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+doors> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Closure@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+doors> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Closure@Containing_object>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+doors> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+doors> .
+}
+
+<http://en.wikinews.org/wiki/First_A380_enters_commercial_service#fv71> {
+    <http://en.wikinews.org/wiki/First_A380_enters_commercial_service#ev26>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

@@ -1,0 +1,43 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            a              sem:Event , nwrontology:volar.1.default , fn:Bringing , fn:Motion , fn:Operate_vehicle , fn:Ride_vehicle , fn:Self_motion , eso:Transportation , eso:Motion , eso:Translocation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01451842-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01847845-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01840238-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02140965-v> ;
+            rdfs:label     "volar" ;
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=801,807> .
+    
+    <http://www.newsreader-project.eu/time/20051116>
+            a              time:DateTimeDescription ;
+            time:day       "---16"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tx6>
+            a                time:Interval ;
+            rdfs:label       "noviembre" ;
+            gaf:denotedBy    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=943,945> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=946,948> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=949,951> , <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=952,961> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20051116> .
+}
+
+<http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tr16> {
+    nwrontology:ili-30-01451842-v-and-ili-30-01847845-v-and-ili-30-01840238-v-and-ili-30-02140965-v
+            sem:hasTime  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tx6> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#tr16>
+            gaf:denotedBy  <http://www.newsreader-project.eu/data/timeline/../Annotation-Spanish/Boeing/Boeing_txt/3235_Engine_troubles.txt.es#char=801,945> .
+}

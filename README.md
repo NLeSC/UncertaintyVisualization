@@ -119,8 +119,70 @@ grunt jsdoc
 
 API documentation is generated in `doc/` directory.
 
-## Knowledge Store Authentication Workaround
+## Data Format
 
-Requests to the Knowledge Store are send to a Flask app on heroku in order to circumvent the authorization issues. Please note that the app can be slow (it has to be woken up) and can't be used 24/7. However, for development this is probably sufficient.
+The data format is as follows. The data file should contain a JSON object that specifies `timeline`. `timeline` contains two arrays of objects, `events` and `sources`.
 
-The Flask app can also be run locally. See [the github page](https://github.com/jvdzwaan/visun-flask) for installation instructions.
+```
+{
+  "timeline": {
+    "events": [...],
+    "sources": [...]
+  }
+}
+```
+
+The `events` array contains events. An event looks like:
+
+```
+{
+  "actors": {
+    "eso/possession-owner_1": ["ne:apple_computer"],
+    "eso/possession-theme": ["ne:digital_music_tracks"]
+  },
+  "climax": 100,
+  "event": "ev9",
+  "group": "100:[\"sell\"]",
+  "groupName": "[\"sell\"]",
+  "groupScore": "100",
+  "labels": ["sell"],
+  "mentions": [...],
+  "prefLabel": ["sell"],
+  "time": "20060620"
+}
+```
+
+* `actors` are the _participants_.
+* `climax` is the _climax score_.
+* `event` is the event id.
+* `group` is the _group_, which consists of a `groupName` and a `groupScore`, separated by a colon.
+* `labels` is an array of words from the source text that refer to the event
+* `mentions` is an array of mentions, which are specified below.
+* `prefLabel` is the prefered label (currently not used).
+* `time` is the date of the event. This must be a complete date in the format YYYYmmdd.
+
+The `mentions` array contains mentions:
+
+```
+{
+  "char": ["15", "19"],
+  "uri": ["http://en.wikinews.org/wiki/Apple_plans_to_sell_movies_on_iTunes"]
+}
+```
+
+* `char`: character offsets of the text that refers to the event (these words are also stored directly in the `labels` array).
+* `uri` is the id of the source text (specified in the `source`).
+
+The character offsets are used to highlight the appropriate words in the data table (third view). These words come from the `source` text, which are stored in the `sources` array.
+
+```
+{
+  "text": "...",
+  "uri": "http://en.wikinews.org/wiki/Apple_releases_iPhone_SDK,_announces_upcoming_update"
+}
+```
+
+* `text` is the raw text of the source.
+* `uri` is the id of the text, which is referred to in the `mentions`.
+
+Examples of data files can be found in `app/data/`.
