@@ -68,9 +68,9 @@
 
               var when = 0; //Reversed on request
               if (attribution.when === 'past') {
-                when -= 1;
-              } else if (attribution.when === 'future') {
                 when += 1;
+              } else if (attribution.when === 'future') {
+                when -= 1;
               }
               p.when[source] = (p.when[source] || 0) + when;
             });
