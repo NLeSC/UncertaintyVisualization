@@ -37,7 +37,7 @@
               var belief = 0;
               if (attribution.belief === 'confirm') {
                 belief += 1;
-              } else if (attribution.belief === 'deny') {
+              } else if (attribution.belief === 'denial') {
                 belief -= 1;
               }
               p.belief[source] = (p.belief[source] || 0) + belief;
@@ -97,7 +97,7 @@
               var belief = 0;
               if (attribution.belief === 'confirm') {
                 belief += 1;
-              } else if (attribution.belief === 'deny') {
+              } else if (attribution.belief === 'denial') {
                 belief -= 1;
               }
               p.belief[source] = (p.belief[source] || 0) - belief;
