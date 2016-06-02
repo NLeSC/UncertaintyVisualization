@@ -1,0 +1,29 @@
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="logo-vu"></div>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="logo-nwr"></div>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="logo-nlesc"></div>
+  </div>
+</div>
+
+<!-- <file-loading-directive></file-loading-directive> -->
+<breadcrumbs-directive></breadcrumbs-directive>
+
+<div class="mdl-grid">	
+	<div class="mdl-cell mdl-cell--4-col" ng-class="{ active: isSet(1) }">
+		<a id="storylines-button" href class="btn btn:hover" ng-click="setTab(1)"> View Storylines </a>
+	</div>
+	<div class="mdl-cell mdl-cell--4-col" ng-class="{ active: isSet(2) }">
+		<a id="relations-button" href class="btn btn:hover" ng-click="setTab(2)"> View Relations </a>
+	</div>
+	<div class="mdl-cell mdl-cell--4-col" ng-class="{ active: isSet(3) }">
+		<a id="perspectives-button" href class="btn btn:hover" ng-click="setTab(3)"> View Perspectives </a>
+	</div>
+</div>
+<div ng-show="isSet(1)"><view-storylines-directive></view-storylines-directive></div>
+<div ng-show="isSet(2)"><view-relations-directive></view-relations-directive></div>
+<div ng-show="isSet(3)"><view-perspectives-directive></view-perspectives-directive></div>

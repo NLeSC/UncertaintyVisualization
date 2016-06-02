@@ -1,0 +1,103 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev24>
+            a              sem:Event ;
+            rdfs:label     "region" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=649,655> .
+    
+    <http://dbpedia.org/resource/Boeing>
+            rdfs:label     "Boeing 's" , "Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=1,7> , <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=196,202> , <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=911,919> , <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=687,693> , <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=302,308> , <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=65,73> , <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=65,71> , <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=911,917> .
+    
+    <http://www.newsreader-project.eu/time/20091216>
+            a              time:DateTimeDescription ;
+            time:day       "---16"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dct>
+            a                time:Interval ;
+            rdfs:label       "2009-12-16T00:00:00" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dctm> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20091216> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev30>
+            a              sem:Event ;
+            rdfs:label     "rival" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=929,934> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev23>
+            a              sem:Event ;
+            rdfs:label     "worth" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=636,641> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dt11> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev24>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dct> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dt11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=649,655> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#pr21,rl45>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=649,693> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dt17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=929,934> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#pr30,rl62>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=911,934> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dt10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=636,641> .
+    
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#pr20,rl43>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#char=636,693> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#pr21,rl45> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev24>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dt17> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev30>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#pr30,rl62> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev30>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dt10> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev23>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#dct> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#pr20,rl43> {
+    <http://en.wikinews.org/wiki/Boeing_787_"Dreamliner"_makes_maiden_flight#ev23>
+            sem:hasPlace  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/Boeing> .
+}

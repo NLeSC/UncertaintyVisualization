@@ -1,0 +1,206 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01850315-v-and-ili-30-01835496-v-and-ili-30-01831531-v-and-ili-30-00014549-v
+            a              sem:Event , fn:Cause_change_of_position_on_a_scale , fn:Cause_motion , fn:Change_position_on_a_scale , fn:Motion , eso:QuantityChange , eso:Translocation , eso:Motion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01850315-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01835496-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01831531-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00014549-v> ;
+            rdfs:label     "roll" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=8,13> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=135,141> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=1291,1298> .
+    
+    <http://dbpedia.org/resource/Boeing_Commercial_Airplanes>
+            rdfs:label     "Boeing 's" , "Boeing" , "boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=1,7> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=1561,1567> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=1517,1523> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=1396,1402> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=457,463> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=568,576> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=124,130> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=568,574> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service>
+            rdfs:label     "to go into service" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=39,57> .
+    
+    <http://www.newsreader-project.eu/time/20110808>
+            a              time:DateTimeDescription ;
+            time:day       "---08"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--08"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx1>
+            a                time:Interval ;
+            rdfs:label       "August" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=59,65> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=66,68> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=69,70> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20110808> .
+    
+    <http://www.newsreader-project.eu/time/200805>
+            a              time:DateTimeDescription ;
+            time:month     "--05"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx3>
+            a                time:Interval ;
+            rdfs:label       "2008" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=234,237> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=238,242> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200805> .
+    
+    <http://www.newsreader-project.eu/time/201109>
+            a              time:DateTimeDescription ;
+            time:month     "--09"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx5>
+            a                time:Interval ;
+            rdfs:label       "month" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=278,282> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=283,288> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/201109> .
+    
+    nwrontology:ili-30-01438304-v
+            a              sem:Event , fn:Delivery , eso:Transportation , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01438304-v> ;
+            rdfs:label     "deliver" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=170,179> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/to+a+customer>
+            rdfs:label     "to a customer" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=180,193> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr7> {
+    nwrontology:ili-30-01850315-v-and-ili-30-01835496-v-and-ili-30-01831531-v-and-ili-30-00014549-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx1> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=8,141> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=135,237> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr9>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=135,282> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#pr1,rl1>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=1,13> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#pr1,rl3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=8,57> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#fv71>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=8,13> , <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=135,141> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#fv81>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=1291,1298> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=59,179> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr22>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=170,237> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr23>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=170,282> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#pr6,rl13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=170,193> .
+    
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#fv151>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#char=170,179> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr8> {
+    nwrontology:ili-30-01850315-v-and-ili-30-01835496-v-and-ili-30-01831531-v-and-ili-30-00014549-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr9> {
+    nwrontology:ili-30-01850315-v-and-ili-30-01835496-v-and-ili-30-01831531-v-and-ili-30-00014549-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx5> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#pr1,rl1> {
+    nwrontology:ili-30-01850315-v-and-ili-30-01835496-v-and-ili-30-01831531-v-and-ili-30-00014549-v
+            sem:hasActor             <http://dbpedia.org/resource/Boeing_Commercial_Airplanes> ;
+            eso:translocation-theme  <http://dbpedia.org/resource/Boeing_Commercial_Airplanes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Agent>
+                    <http://dbpedia.org/resource/Boeing_Commercial_Airplanes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Agent>
+                    <http://dbpedia.org/resource/Boeing_Commercial_Airplanes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_position_on_a_scale@Attribute>
+                    <http://dbpedia.org/resource/Boeing_Commercial_Airplanes> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://dbpedia.org/resource/Boeing_Commercial_Airplanes> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing_Commercial_Airplanes> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#pr1,rl3> {
+    nwrontology:ili-30-01850315-v-and-ili-30-01835496-v-and-ili-30-01831531-v-and-ili-30-00014549-v
+            sem:hasActor           <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            eso:quantity-theme     <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Attribute>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_position_on_a_scale@Attribute>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_position_on_a_scale@Item>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Motion@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+go+into+service> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#fv71> {
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#ev17_1>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#fv81> {
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#ev17_1>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr21> {
+    nwrontology:ili-30-01438304-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr22> {
+    nwrontology:ili-30-01438304-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tr23> {
+    nwrontology:ili-30-01438304-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#tmx5> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#pr6,rl13> {
+    nwrontology:ili-30-01438304-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/to+a+customer> ;
+            eso:translocation-goal  <http://www.newsreader-project.eu/data/timeline/non-entities/to+a+customer> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Delivery@Goal>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+a+customer> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/to+a+customer> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#fv151> {
+    <http://en.wikinews.org/wiki/Boeing_rolls_out_first_787_Dreamliner_to_go_into_service#ev19>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}

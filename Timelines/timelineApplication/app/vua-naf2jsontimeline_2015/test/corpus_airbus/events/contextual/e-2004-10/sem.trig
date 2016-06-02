@@ -1,0 +1,116 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01323958-v-and-ili-30-01325536-v-and-ili-30-01325774-v-and-ili-30-02748495-v-and-ili-30-00750532-v-and-ili-30-02475922-v
+            a              sem:Event , fn:Killing , eso:Killing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01323958-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01325536-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01325774-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02748495-v> , fn:Commerce_collect , nwrontology:SPEECH_COGNITIVE , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00750532-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02475922-v> ;
+            rdfs:label     "charge" , "kill" , "level" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=538,544> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1110,1117> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4078,4085> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal>
+            rdfs:label     "the deal" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=520,528> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=593,601> .
+    
+    <http://www.newsreader-project.eu/time/200410>
+            a              time:DateTimeDescription ;
+            time:month     "--10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2004"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tmx4>
+            a                time:Interval ;
+            rdfs:label       "October" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=481,488> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200410> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tr20> {
+    nwrontology:ili-30-01323958-v-and-ili-30-01325536-v-and-ili-30-01325774-v-and-ili-30-02748495-v-and-ili-30-00750532-v-and-ili-30-02475922-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tmx4> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#tr20>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=481,544> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr17,rl40>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=520,544> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr17,rl41>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=538,560> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr32,rl74>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1110,1152> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr125,rl286>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4078,4133> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr125,rl287>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=4078,4155> .
+    
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv281>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=538,544> , <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#char=1110,1117> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr17,rl40> {
+    nwrontology:ili-30-01323958-v-and-ili-30-01325536-v-and-ili-30-01325774-v-and-ili-30-02748495-v-and-ili-30-00750532-v-and-ili-30-02475922-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> ;
+            eso:destroying-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Killing@Victim>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+deal> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr17,rl41> {
+    nwrontology:ili-30-01323958-v-and-ili-30-01325536-v-and-ili-30-01325774-v-and-ili-30-02748495-v-and-ili-30-00750532-v-and-ili-30-02475922-v
+            sem:hasActor       <http://dbpedia.org/resource/United_States_Department_of_Defense> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Killing@Cause>
+                    <http://dbpedia.org/resource/United_States_Department_of_Defense> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Killing@Killer>
+                    <http://dbpedia.org/resource/United_States_Department_of_Defense> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/United_States_Department_of_Defense> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr32,rl74> {
+    nwrontology:ili-30-01323958-v-and-ili-30-01325536-v-and-ili-30-01325774-v-and-ili-30-02748495-v-and-ili-30-00750532-v-and-ili-30-02475922-v
+            sem:hasActor  <http://dbpedia.org/resource/Dick_Cheney> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://dbpedia.org/resource/Dick_Cheney> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr125,rl286> {
+    nwrontology:ili-30-01323958-v-and-ili-30-01325536-v-and-ili-30-01325774-v-and-ili-30-02748495-v-and-ili-30-00750532-v-and-ili-30-02475922-v
+            sem:hasActor               <http://www.newsreader-project.eu/data/timeline/entities/Boeing_Chief_Financial> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_collect@Money>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Boeing_Chief_Financial> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Boeing_Chief_Financial> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#pr125,rl287> {
+    nwrontology:ili-30-01323958-v-and-ili-30-01325536-v-and-ili-30-01325774-v-and-ili-30-02748495-v-and-ili-30-00750532-v-and-ili-30-02475922-v
+            sem:hasActor               <http://www.newsreader-project.eu/data/timeline/non-entities/for+illegally+hiring+her> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Commerce_collect@Goods>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/for+illegally+hiring+her> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/for+illegally+hiring+her> .
+}
+
+<http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#fv281> {
+    <http://en.wikinews.org/wiki/Internal_emails_expose_Boeing-Air_Force_contract_discussions#ev45>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

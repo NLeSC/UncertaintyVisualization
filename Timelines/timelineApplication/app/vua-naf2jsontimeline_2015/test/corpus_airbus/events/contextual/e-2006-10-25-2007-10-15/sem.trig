@@ -1,0 +1,149 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            a              sem:Event , fn:Arriving , fn:Building , fn:Cause_change , fn:Cooking_creation , fn:Intentionally_create , fn:Manufacturing , fn:Self_motion , eso:Arriving , eso:Constructing , eso:Creating , eso:Manufacturing , eso:Translocation , eso:IntentionalEvent , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02621395-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01621555-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01619014-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01664172-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01755504-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01654628-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02748759-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02748627-v> ;
+            rdfs:label     "work" , "make" , "build" , "take" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=75,79> , <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=296,301> , <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=366,370> , <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=677,683> .
+    
+    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C>
+            a              nwrontology:MISC ;
+            rdfs:label     "Airbus ," ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=83,90> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane>
+            rdfs:label     "the plane" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=283,292> .
+    
+    <http://dbpedia.org/resource/Rolls-Royce_Trent>
+            rdfs:label     "Rolls-Royce Trent" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=312,329> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/The+first+flight>
+            rdfs:label     "the 1 flight" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=344,360> .
+    
+    <http://www.newsreader-project.eu/time/20071015>
+            a              time:DateTimeDescription ;
+            time:day       "---15"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tmx2>
+            a                time:Interval ;
+            rdfs:label       "today" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=105,110> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20071015> .
+    
+    <http://www.newsreader-project.eu/time/20061025>
+            a              time:DateTimeDescription ;
+            time:day       "---25"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tmx4>
+            a                time:Interval ;
+            rdfs:label       "October" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=443,450> , <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=451,453> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20061025> .
+}
+
+<http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tr3> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasTime  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tmx2> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=75,110> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tr4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=366,450> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr3,rl5>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=75,89> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr9,rl18>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=283,301> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr9,rl19>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=296,341> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr12,rl24>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=344,370> .
+    
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#fv11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=75,79> , <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=296,301> , <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=366,370> , <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#char=677,683> .
+}
+
+<http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tr4> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasTime  <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#tmx4> .
+}
+
+<http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr3,rl5> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasActor                   <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            eso:translocation-source       <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Building@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change@Agent>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cooking_creation@Cook>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Intentionally_create@Creator>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manufacturing@Manufacturer>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Self_motion@Source>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/entities/Airbus_%2C> .
+}
+
+<http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr9,rl18> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Building@Created_entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+plane> .
+}
+
+<http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr9,rl19> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasActor            <http://dbpedia.org/resource/Rolls-Royce_Trent> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Building@Components>
+                    <http://dbpedia.org/resource/Rolls-Royce_Trent> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A2>
+                    <http://dbpedia.org/resource/Rolls-Royce_Trent> .
+}
+
+<http://en.wikinews.org/wiki/First_Airbus_A380_delivered#pr12,rl24> {
+    nwrontology:ili-30-02621395-v-and-ili-30-01621555-v-and-ili-30-01619014-v-and-ili-30-01664172-v-and-ili-30-01755504-v-and-ili-30-01654628-v-and-ili-30-02748759-v-and-ili-30-02748627-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/The+first+flight> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+first+flight> .
+}
+
+<http://en.wikinews.org/wiki/First_Airbus_A380_delivered#fv11> {
+    <http://en.wikinews.org/wiki/First_Airbus_A380_delivered#ev9>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}

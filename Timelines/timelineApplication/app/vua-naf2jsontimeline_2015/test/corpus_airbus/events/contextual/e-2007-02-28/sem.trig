@@ -1,0 +1,346 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02204692-v
+            a              sem:Event , fn:Cause_change_of_position_on_a_scale , eso:QuantityChange , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00429060-v> , fn:Inclusion , fn:Possession , eso:HavingInPossession , nwrontology:GRAMMATICAL , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02204692-v> ;
+            rdfs:label     "have" , "cut" , "make" , "reduction" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=22,26> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=130,134> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=361,364> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=482,486> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=554,563> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=831,834> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/job+cuts+of+10%2C000>
+            rdfs:label     "job cut of 10,000" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=18,36> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/10%2C000+job+cuts>
+            rdfs:label     "10,000 job cut" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=119,134> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/the+company>
+            rdfs:label     "the company" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=338,349> .
+    
+    <http://dbpedia.org/resource/Airbus>
+            rdfs:label     "150px Airbus" , "Airbus" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=1,7> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=997,1003> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=57,68> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=645,651> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=538,544> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=62,68> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/a+two+hour+work+stoppage>
+            rdfs:label     "a two hour work stoppage" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=835,859> .
+    
+    <http://www.newsreader-project.eu/time/20070228>
+            a              time:DateTimeDescription ;
+            time:day       "---28"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--02"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2007"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx3>
+            a                time:Interval ;
+            rdfs:label       "afternoon" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=860,869> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=870,879> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20070228> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev16>
+            a              sem:Event ;
+            rdfs:label     "programme" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=233,242> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/its+parent+company+%2C+EADS>
+            rdfs:label     "its parent company , EADS" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=179,203> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx1>
+            a                time:Interval ;
+            rdfs:label       "February" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=38,46> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=47,49> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=49,50> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20070228> .
+    
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            a              sem:Event , nwrontology:GRAMMATICAL , fn:Arriving , fn:Reveal_secret , eso:Arriving , eso:Motion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01849221-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02005948-v> ;
+            rdfs:label     "come" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=170,175> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=1103,1108> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/The+news>
+            rdfs:label     "the news" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=161,169> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/This+move>
+            rdfs:label     "this move" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=1093,1102> .
+    
+    nwrontology:ili-30-02409412-v
+            a              sem:Event , fn:Employing , eso:InEmployment , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02409412-v> ;
+            rdfs:label     "employee" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=652,661> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=800,809> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/55%2C000+full-time+Airbus+employees>
+            rdfs:label     "55,000 full-time Airbus employee" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=628,661> .
+    
+    <http://dbpedia.org/resource/France>
+            rdfs:label     "french" , "France" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=393,399> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=1013,1019> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=818,824> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev30>
+            a              sem:Event ;
+            rdfs:label     "union" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=1004,1009> .
+    
+    nwrontology:ili-30-01653442-v
+            a              sem:Event , fn:Manufacturing , eso:Manufacturing , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01653442-v> ;
+            rdfs:label     "manufacturer" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=92,104> .
+    
+    <http://dbpedia.org/resource/Europe>
+            rdfs:label     "Europe" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=69,75> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/Europe+%27s+biggest+aircraft+manufacturer>
+            rdfs:label     "Europe 's big aircraft manufacturer" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=69,104> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr2> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02204692-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx3> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=831,869> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr2,rl3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=18,26> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr5,rl11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=126,134> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr12,rl26>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=338,364> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr15,rl32>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=531,563> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr25,rl53>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=831,859> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#fv11>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=361,364> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=482,486> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=831,834> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr6>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=38,242> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr8,rl17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=179,242> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr4>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=38,175> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr6,rl12>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=161,175> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr35,rl74>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=1093,1108> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#fv21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=170,175> , <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=1103,1108> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr7>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=800,869> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr18,rl37>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=645,661> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr18,rl38>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=628,661> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr24,rl51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=800,830> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr15>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=860,1009> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr31,rl66>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=997,1009> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr3>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=38,104> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr4,rl8>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=69,104> .
+    
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr4,rl10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#char=69,104> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr2,rl3> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02204692-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/job+cuts+of+10%2C000> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/job+cuts+of+10%2C000> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr5,rl11> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02204692-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/10%2C000+job+cuts> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/10%2C000+job+cuts> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr12,rl26> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02204692-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/the+company> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+company> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr15,rl32> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02204692-v
+            sem:hasActor  <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_change_of_position_on_a_scale@Cause>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr25,rl53> {
+    nwrontology:ili-30-00429060-v-and-ili-30-02204692-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/a+two+hour+work+stoppage> ;
+            eso:possession-theme      <http://www.newsreader-project.eu/data/timeline/non-entities/a+two+hour+work+stoppage> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Inclusion@Purpose>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+two+hour+work+stoppage> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Possession@Possession>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+two+hour+work+stoppage> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/a+two+hour+work+stoppage> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#fv11> {
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev12>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr6> {
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev16>
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr8,rl17> {
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev16>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/its+parent+company+%2C+EADS> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/its+parent+company+%2C+EADS> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr4> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr6,rl12> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/The+news> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+news> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Reveal_secret@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+news> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+news> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr35,rl74> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/This+move> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/This+move> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Reveal_secret@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/This+move> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/This+move> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#fv21> {
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr7> {
+    nwrontology:ili-30-02409412-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr18,rl37> {
+    nwrontology:ili-30-02409412-v
+            sem:hasActor             <http://dbpedia.org/resource/Airbus> ;
+            eso:employment-employer  <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Employing@Employer>
+                    <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr18,rl38> {
+    nwrontology:ili-30-02409412-v
+            sem:hasActor             <http://www.newsreader-project.eu/data/timeline/non-entities/55%2C000+full-time+Airbus+employees> ;
+            eso:employment-employee  <http://www.newsreader-project.eu/data/timeline/non-entities/55%2C000+full-time+Airbus+employees> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Employing@Employee>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/55%2C000+full-time+Airbus+employees> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/55%2C000+full-time+Airbus+employees> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr24,rl51> {
+    nwrontology:ili-30-02409412-v
+            sem:hasActor             <http://dbpedia.org/resource/France> ;
+            eso:employment-employer  <http://dbpedia.org/resource/France> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Employing@Employer>
+                    <http://dbpedia.org/resource/France> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/France> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr15> {
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev30>
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr31,rl66> {
+    <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#ev30>
+            sem:hasActor  <http://dbpedia.org/resource/Airbus> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Airbus> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tr3> {
+    nwrontology:ili-30-01653442-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#tmx1> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr4,rl8> {
+    nwrontology:ili-30-01653442-v
+            sem:hasPlace  <http://dbpedia.org/resource/Europe> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/AM-LOC>
+                    <http://dbpedia.org/resource/Europe> .
+}
+
+<http://en.wikinews.org/wiki/Airbus_announces_job_cuts_of_10,000#pr4,rl10> {
+    nwrontology:ili-30-01653442-v
+            sem:hasActor                   <http://www.newsreader-project.eu/data/timeline/non-entities/Europe+%27s+biggest+aircraft+manufacturer> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manufacturing@Manufacturer>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Europe+%27s+biggest+aircraft+manufacturer> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/Europe+%27s+biggest+aircraft+manufacturer> .
+}

@@ -1,0 +1,303 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev14>
+            a              sem:Event ;
+            rdfs:label     "suspend" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=260,269> .
+    
+    <http://dbpedia.org/resource/Boeing>
+            rdfs:label     "Boeing 's" , "Boeing" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=244,250> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=680,686> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=744,750> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=540,546> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=817,819> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=434,442> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=1,7> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=434,440> .
+    
+    <http://www.newsreader-project.eu/time/20030724>
+            a              time:DateTimeDescription ;
+            time:day       "---24"^^<http://www.w3.org/2001/XMLSchema#gDay> ;
+            time:month     "--07"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3>
+            a                time:Interval ;
+            rdfs:label       "2003" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,280> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=281,283> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=283,284> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=285,289> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/20030724> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev22>
+            a              sem:Event ;
+            rdfs:label     "process" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=516,523> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source>
+            rdfs:label     "1998 evolve expendable launch vehicle source" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=460,505> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/evolved+expendable+launch+vehicle>
+            rdfs:label     "evolve expendable launch vehicle" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=465,498> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev15>
+            a              sem:Event ;
+            rdfs:label     "violate" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=296,305> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/federal+law>
+            rdfs:label     "federal law" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=306,317> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev18>
+            a              sem:Event ;
+            rdfs:label     "have" , "possession" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=362,372> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=756,760> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev21>
+            a              sem:Event ;
+            rdfs:label     "rival" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=443,448> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev26>
+            a              sem:Event ;
+            rdfs:label     "interest" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=607,616> .
+    
+    <http://dbpedia.org/resource/United_States_Air_Force>
+            rdfs:label     "the Air Force" , "USAF" , "the USAF" , "Air Force" , "the Air Force 's" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=223,227> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=219,227> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=527,535> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=531,535> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=595,604> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=591,606> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=849,862> , <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=853,862> .
+    
+    nwrontology:ili-30-02238536-v-and-ili-30-00890590-v-and-ili-30-02238770-v-and-ili-30-02349706-v
+            a              sem:Event , fn:Getting , eso:Getting , nwrontology:SPEECH_COGNITIVE , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02238536-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00890590-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02238770-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02349706-v> ;
+            rdfs:label     "source" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=499,505> .
+    
+    nwrontology:ili-30-01128193-v
+            a              sem:Event , fn:Protecting , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01128193-v> ;
+            rdfs:label     "protect" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=583,590> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr13> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev14>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr13>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=260,280> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr11,rl24>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=244,269> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv71>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=260,269> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr21>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,523> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr19,rl40>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=434,523> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr19,rl41>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=465,523> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr14>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,305> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr12,rl27>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=244,305> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr12,rl28>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=296,317> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv81>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=296,305> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr17>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,372> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr31,rl66>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=744,760> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv101>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=756,760> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr20>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,448> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr18,rl37>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=434,448> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr18,rl38>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=434,523> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr25>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,616> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr24,rl53>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=591,616> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr22>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,505> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr20,rl44>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=465,505> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr24>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=276,590> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr23,rl51>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=527,590> .
+    
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv111>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#char=583,590> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr11,rl24> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev14>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv71> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev14>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr21> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev22>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr19,rl40> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev22>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr19,rl41> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev22>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> , <http://www.newsreader-project.eu/data/timeline/non-entities/evolved+expendable+launch+vehicle> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> , <http://www.newsreader-project.eu/data/timeline/non-entities/evolved+expendable+launch+vehicle> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr14> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev15>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr12,rl27> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev15>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr12,rl28> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev15>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/federal+law> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/federal+law> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv81> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev15>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr17> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev18>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr31,rl66> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev18>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv101> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev18>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr20> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev21>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr18,rl37> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev21>
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://dbpedia.org/resource/Boeing> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr18,rl38> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev21>
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr25> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev26>
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr24,rl53> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev26>
+            sem:hasActor  <http://dbpedia.org/resource/United_States_Air_Force> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/United_States_Air_Force> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr22> {
+    nwrontology:ili-30-02238536-v-and-ili-30-00890590-v-and-ili-30-02238770-v-and-ili-30-02349706-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr20,rl44> {
+    nwrontology:ili-30-02238536-v-and-ili-30-00890590-v-and-ili-30-02238770-v-and-ili-30-02349706-v
+            sem:hasActor          <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> , <http://www.newsreader-project.eu/data/timeline/non-entities/evolved+expendable+launch+vehicle> ;
+            eso:possession-theme  <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> , <http://www.newsreader-project.eu/data/timeline/non-entities/evolved+expendable+launch+vehicle> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Getting@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> , <http://www.newsreader-project.eu/data/timeline/non-entities/evolved+expendable+launch+vehicle> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/1998+evolved+expendable+launch+vehicle+source> , <http://www.newsreader-project.eu/data/timeline/non-entities/evolved+expendable+launch+vehicle> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tr24> {
+    nwrontology:ili-30-01128193-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#tmx3> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#pr23,rl51> {
+    nwrontology:ili-30-01128193-v
+            sem:hasActor  <http://dbpedia.org/resource/Boeing> , <http://dbpedia.org/resource/United_States_Air_Force> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://dbpedia.org/resource/Boeing> , <http://dbpedia.org/resource/United_States_Air_Force> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#fv111> {
+    <http://en.wikinews.org/wiki/Boeing_allowed_to_bid_for_U.S._space_launch_contracts_again#ev25>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}

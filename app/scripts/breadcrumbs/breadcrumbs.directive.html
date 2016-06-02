@@ -1,0 +1,7 @@
+<div class="breadcrumb_class">
+  <span>Filters applied (click to remove): </span>
+  <span ng-repeat="element in bc.filters"> &gt;
+    <span ng-click="bc.click(element)"><a>{{element.filter}}</a></span>
+  </span>
+  <span class="breadcrumb_empty" ng-if="bc.filters.length == 0">No Filters</span>
+</div>

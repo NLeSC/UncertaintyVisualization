@@ -1,0 +1,127 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            a              sem:Event , fn:Arriving , fn:Reveal_secret , eso:Arriving , eso:Motion , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01849221-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02005948-v> ;
+            rdfs:label     "come" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1223,1227> .
+    
+    <http://www.newsreader-project.eu/data/timeline/non-entities/additional+charges+to+come>
+            rdfs:label     "additional charge to come" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1201,1227> .
+    
+    <http://www.newsreader-project.eu/time/200610>
+            a              time:DateTimeDescription ;
+            time:month     "--10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2006"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tmx4>
+            a                time:Interval ;
+            rdfs:label       "October" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1058,1065> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200610> .
+    
+    nwrontology:ili-30-01621555-v
+            a              sem:Event , fn:Behind_the_scenes , fn:Cause_to_start , fn:Intentionally_create , fn:Manufacturing , eso:Manufacturing , eso:Creating , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-01621555-v> ;
+            rdfs:label     "production" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1099,1109> .
+    
+    nwrontology:ili-30-02641957-v
+            a              sem:Event , fn:Change_event_time , fn:Hindering , eso:IntentionalEvent , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02641957-v> ;
+            rdfs:label     "delay" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1085,1091> .
+}
+
+<http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tr10> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            sem:hasTime  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tmx4> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tr10>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1058,1227> .
+    
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#pr35,rl84>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1201,1227> .
+    
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#fv121>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1223,1227> .
+    
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tr2>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1058,1109> .
+    
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#pr32,rl79>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1099,1121> .
+    
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tr28>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1058,1091> .
+    
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#pr31,rl78>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#char=1085,1121> .
+}
+
+<http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#pr35,rl84> {
+    nwrontology:ili-30-01849221-v-and-ili-30-02005948-v
+            sem:hasActor            <http://www.newsreader-project.eu/data/timeline/non-entities/additional+charges+to+come> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Arriving@Theme>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/additional+charges+to+come> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Reveal_secret@Topic>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/additional+charges+to+come> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/additional+charges+to+come> .
+}
+
+<http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#fv121> {
+    <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#ev13_7>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "CT+" .
+}
+
+<http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tr2> {
+    nwrontology:ili-30-01621555-v
+            sem:hasTime  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tmx4> .
+}
+
+<http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#pr32,rl79> {
+    nwrontology:ili-30-01621555-v
+            sem:hasActor              <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Behind_the_scenes@Production>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Cause_to_start@Means>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Intentionally_create@Created_entity>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Manufacturing@Product>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> .
+}
+
+<http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tr28> {
+    nwrontology:ili-30-02641957-v
+            sem:hasTime  <http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#tmx4> .
+}
+
+<http://en.wikinews.org/wiki/A380_makes_maiden_flight_to_US#pr31,rl78> {
+    nwrontology:ili-30-02641957-v
+            sem:hasActor                <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Change_event_time@Event>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Hindering@Protagonist>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+A380> , <http://www.newsreader-project.eu/data/timeline/non-entities/of+the+production+of+the+A380> .
+}

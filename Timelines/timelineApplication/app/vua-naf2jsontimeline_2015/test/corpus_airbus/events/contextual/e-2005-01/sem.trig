@@ -1,0 +1,88 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/TR/owl-time#> .
+@prefix eso:   <http://www.newsreader-project.eu/domain-ontology#> .
+@prefix gaf:   <http://groundedannotationframework.org/gaf#> .
+@prefix nwrontology: <http://www.newsreader-project.eu/ontologies/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem:   <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix fn:    <http://www.newsreader-project.eu/ontologies/framenet/> .
+@prefix nwrdata: <http://www.newsreader-project.eu/data/> .
+
+{ 
+}
+
+<http://www.newsreader-project.eu/instances> {
+    nwrontology:ili-30-02296153-v-and-ili-30-02229055-v-and-ili-30-00613683-v-and-ili-30-00613018-v-and-ili-30-02356230-v
+            a              sem:Event , fn:Forming_relationships , eso:Giving , eso:IntentionalEvent , eso:ChangeOfRelationship , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02296153-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02229055-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00613683-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00613018-v> , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-02356230-v> ;
+            rdfs:label     "leave" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=1168,1174> .
+    
+    <http://www.newsreader-project.eu/time/200501>
+            a              time:DateTimeDescription ;
+            time:month     "--01"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+            time:unitType  time:unitDay ;
+            time:year      "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+    
+    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#tmx7>
+            a                time:Interval ;
+            rdfs:label       "2005" ;
+            gaf:denotedBy    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=1033,1040> , <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=1041,1045> ;
+            time:inDateTime  <http://www.newsreader-project.eu/time/200501> .
+    
+    nwrontology:ili-30-00998399-v
+            a              sem:Event , fn:Recording , <http://www.newsreader-project.eu/ontologies/wordnet3.0/ili-30-00998399-v> , nwrontology:SPEECH_COGNITIVE ;
+            rdfs:label     "history" ;
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=800,807> , <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=996,1003> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#tr19> {
+    nwrontology:ili-30-02296153-v-and-ili-30-02229055-v-and-ili-30-00613683-v-and-ili-30-00613018-v-and-ili-30-02356230-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#tmx7> .
+}
+
+<http://www.newsreader-project.eu/provenance> {
+    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#tr19>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=1033,1174> .
+    
+    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#pr35,rl82>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=1143,1174> .
+    
+    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#pr35,rl83>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=1168,1202> .
+    
+    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#fv181>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=1168,1174> .
+    
+    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#tr14>
+            gaf:denotedBy  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#char=996,1040> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#pr35,rl82> {
+    nwrontology:ili-30-02296153-v-and-ili-30-02229055-v-and-ili-30-00613683-v-and-ili-30-00613018-v-and-ili-30-02356230-v
+            sem:hasActor  <http://www.newsreader-project.eu/data/timeline/non-entities/The+717+program+%27s> , <http://www.newsreader-project.eu/data/timeline/non-entities/The+717+program+%27s+demise> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Forming_relationships@Partner_1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+717+program+%27s> , <http://www.newsreader-project.eu/data/timeline/non-entities/The+717+program+%27s+demise> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A0>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/The+717+program+%27s> , <http://www.newsreader-project.eu/data/timeline/non-entities/The+717+program+%27s+demise> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#pr35,rl83> {
+    nwrontology:ili-30-02296153-v-and-ili-30-02229055-v-and-ili-30-00613683-v-and-ili-30-00613018-v-and-ili-30-02356230-v
+            sem:hasActor                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+C-17+military+cargo+jet> ;
+            <http://www.newsreader-project.eu/ontologies/framenet/Forming_relationships@Means>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+C-17+military+cargo+jet> ;
+            <http://www.newsreader-project.eu/ontologies/propbank/A1>
+                    <http://www.newsreader-project.eu/data/timeline/non-entities/the+C-17+military+cargo+jet> .
+}
+
+<http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#fv181> {
+    <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#ev37>
+            <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue>
+                    "Uu" .
+}
+
+<http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#tr14> {
+    nwrontology:ili-30-00998399-v
+            sem:hasTime  <http://en.wikinews.org/wiki/Boeing_delivers_final_717_to_AirTran,_ending_Douglas_era#tmx7> .
+}
