@@ -121,13 +121,12 @@ API documentation is generated in `doc/` directory.
 
 ## Data Format
 
-The data format is as follows. The data file should contain a JSON object that specifies `timeline`. `timeline` contains two arrays of objects, `events` and `sources`.
+The data format is as follows. The data file should contain a JSON object that specifies `timeline`. `timeline` contains an arrays of objects, `events`.
 
 ```
 {
   "timeline": {
-    "events": [...],
-    "sources": [...]
+    "events": [...]
   }
 }
 ```
@@ -137,17 +136,25 @@ The `events` array contains events. An event looks like:
 ```
 {
   "actors": {
-    "eso/possession-owner_1": ["ne:apple_computer"],
-    "eso/possession-theme": ["ne:digital_music_tracks"]
+    "actor:": [
+      "dbp:European_Union",
+      "dbp:United_Kingdom",
+      "dbp:The_Times",
+      "dbp:Government_of_the_United_Kingdom"
+    ]
   },
-  "climax": 100,
+  "climax": 89,
   "event": "ev9",
   "group": "100:[\"sell\"]",
   "groupName": "[\"sell\"]",
   "groupScore": "100",
-  "labels": ["sell"],
+  "labels": [
+    "stop",
+    "difficulty",
+    "pressure"
+  ],
   "mentions": [...],
-  "prefLabel": ["sell"],
+  "prefLabel": ["stop"],
   "time": "20060620"
 }
 ```
@@ -161,28 +168,56 @@ The `events` array contains events. An event looks like:
 * `prefLabel` is the prefered label (currently not used).
 * `time` is the date of the event. This must be a complete date in the format YYYYmmdd.
 
-The `mentions` array contains mentions:
+The `mentions` array contains mentions and `perspectives`:
 
 ```
 {
-  "char": ["15", "19"],
-  "uri": ["http://en.wikinews.org/wiki/Apple_plans_to_sell_movies_on_iTunes"]
+  "mentions": [{
+    "char": ["5665","5673"],
+    "snippet": [" Sunday Times, said they were extremely concerned about the UK's difficulties in stopping the EU from introducing measures that continue to erode Britain's competitiveness"],
+    "snippet_char": [ 81, 89 ],
+    "uri": ["http://www.ft.com/thing/f2bc1380-fa32-11e3-a328-00144feab7de"]
+    "perspective": [...]      
 }
 ```
 
-* `char`: character offsets of the text that refers to the event (these words are also stored directly in the `labels` array).
-* `uri` is the id of the source text (specified in the `source`).
-
-The character offsets are used to highlight the appropriate words in the data table (third view). These words come from the `source` text, which are stored in the `sources` array.
+* `char`: character offsets of the original text that refers to the event.
+* `snippet`: a snippet of text mentioning the event.
+* `snippet_char`: an array denoting the exact position of the event in the snippet text. Used for highlighting.
+* `uri` is the link to the source text.
+* `perspective`: an array of 0  or more perspectives on the event, as described below.
 
 ```
-{
-  "text": "...",
-  "uri": "http://en.wikinews.org/wiki/Apple_releases_iPhone_SDK,_announces_upcoming_update"
-}
+"perspective": [
+  {
+    "attribution": {
+      "belief": "confirm",
+      "certainty": "certain",
+      "possibility": "likely",
+      "sentiment": "positive",
+      "when": "future"
+    },
+    "source": "cite:Chris_Giles"
+  },
+  {
+    "attribution": {
+      "belief": "denial",
+      "certainty": "uncertain",
+      "possibility": "unlikely",
+      "sentiment": "negative",
+      "when": "past"
+    },
+    "source": "author:Emily_Cadman"
+  }
+],
 ```
 
-* `text` is the raw text of the source.
-* `uri` is the id of the text, which is referred to in the `mentions`.
+* `source`: The perrspective's source. can be either `cite:****` or `author:****` to denote citations and/or article authors.
+* `attribution`: an object holding the following values:
+* `belief`: Is the source `confirm`ing or in `denial` of the event?.
+* `certainty` Is the source `certain` or `uncertain` in the event?.
+* `possibility`: Is the source denoting the event as `likely` or `unlikely`?.
+* `sentiment`: Is the source `negative`, `neutral` or `positive` about the event?.
+* `when`: Is the source talking about the `past`, present(`now`) or `future`?
 
 Examples of data files can be found in `app/data/`.
