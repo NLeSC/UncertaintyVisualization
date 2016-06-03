@@ -39,6 +39,8 @@
                 belief += 1;
               } else if (attribution.belief === 'denial') {
                 belief -= 1;
+              } else if (attribution.belief === 'deny') {
+                belief -= 1;
               }
               p.belief[source] = (p.belief[source] || 0) + belief;
 
@@ -66,10 +68,10 @@
               }
               p.sentiment[source] = (p.sentiment[source] || 0) + sentiment;
 
-              var when = 0; //Reversed on request
-              if (attribution.when === 'past') {
+              var when = 0;
+              if (attribution.when === 'future') {
                 when += 1;
-              } else if (attribution.when === 'future') {
+              } else if (attribution.when === 'past') {
                 when -= 1;
               }
               p.when[source] = (p.when[source] || 0) + when;
@@ -126,10 +128,10 @@
               }
               p.sentiment[source] = (p.sentiment[source] || 0) - sentiment;
 
-              var when = 0; //Reversed on request
-              if (attribution.when === 'past') {
+              var when = 0;
+              if (attribution.when === 'future') {
                 when += 1;
-              } else if (attribution.when === 'future') {
+              } else if (attribution.when === 'past') {
                 when -= 1;
               }
               p.when[source] = (p.when[source] || 0) - when;
@@ -244,7 +246,11 @@
           [0, 1])
         .colorAccessor(function(p) {
           if (p.value.perspectives > 0) {
-            return (0.5*p.value[this.perspectiveOption][p.key[1]]) / p.value.perspectives + 0.5;
+            if (this.perspectiveOption === 'when') {
+              return -(0.5*p.value[this.perspectiveOption][p.key[1]]) / p.value.perspectives + 0.5;
+            } else {
+              return (0.5*p.value[this.perspectiveOption][p.key[1]]) / p.value.perspectives + 0.5;
+            }
           }
           return 0;
         }.bind(this))
@@ -305,21 +311,6 @@
           } else if (when > 0) {
             whenString = 'future';
           }
-
-
-          // //Get the actors
-          // var actors = Object.keys(p.value.actors);
-          // var actorString = '';
-          // actors.forEach(function(a) {
-          //   actorString += p.value.actors[a] + ' : ' + a.toString() + '\n';
-          // });
-          //
-          // //List all individual labels and their climax scores
-          // var labels = Object.keys(p.value.labels);
-          // var labelString = '';
-          // labels.forEach(function(l) {
-          //   labelString += p.value.labels[l] + ' : ' + l.toString() + '\n';
-          // });
 
           var titleString =
             formattedTime + '\n' +
