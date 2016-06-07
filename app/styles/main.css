@@ -196,3 +196,7 @@ p {
     margin: 0 0 10px;
     line-height: 1px;
 }
+
+#perspective_filters_flexbox {
+  display: flex;
+}

@@ -55,7 +55,8 @@
 
       'uncertApp.allcitationschart',
       'uncertApp.allauthorschart',
-      'uncertApp.perspectivelanechart'
+      'uncertApp.perspectivelanechart',
+      'uncertApp.perspectivefilters'
     ])
     .config(function($compileProvider) {
        // data urls are not allowed by default, so whitelist them
@@ -95,6 +96,7 @@
   angular.module('uncertApp.allcitationschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.allauthorschart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
   angular.module('uncertApp.perspectivelanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
+  angular.module('uncertApp.perspectivefilters', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
 
   angular.module('uncertApp.core', ['uncertApp.utils', 'toastr', 'uncertApp.ndx']);
   angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);

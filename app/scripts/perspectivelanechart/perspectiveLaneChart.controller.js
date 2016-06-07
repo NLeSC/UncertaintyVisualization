@@ -248,8 +248,10 @@
           if (p.value.perspectives > 0) {
             if (this.perspectiveOption === 'when') {
               return -(0.5*p.value[this.perspectiveOption][p.key[1]]) / p.value.perspectives + 0.5;
+              //return -p.value[this.perspectiveOption][p.key[1]];
             } else {
               return (0.5*p.value[this.perspectiveOption][p.key[1]]) / p.value.perspectives + 0.5;
+              //return p.value[this.perspectiveOption][p.key[1]];
             }
           }
           return 0;
