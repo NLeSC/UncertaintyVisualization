@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PollRowChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function PollRowChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus, uncertConf) {
 
     this.initializeChart = function() {
       var groupRowChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
@@ -50,7 +50,9 @@
     };
 
     Messagebus.subscribe('crossfilter ready', function() {
-      this.initializeChart();
+      if (uncertConf.POLLS) {
+        this.initializeChart();
+      }
     }.bind(this));
   }
 

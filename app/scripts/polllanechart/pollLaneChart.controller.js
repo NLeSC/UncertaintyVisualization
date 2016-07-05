@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PollLaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PollLaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus, uncertConf) {
     this.initializeChart = function() {
       var customBubbleChart = dc.customBubbleChart('#'+$element[0].children[0].attributes.id.value);
       var timeMin = undefined;
@@ -238,7 +238,9 @@
     };
 
     Messagebus.subscribe('crossfilter ready', function() {
-      this.initializeChart();
+      if (uncertConf.POLLS) {
+        this.initializeChart();
+      }
     }.bind(this));
   }
 

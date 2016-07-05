@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function NdxService($q, crossfilter, Messagebus) {
+  function NdxService($q, crossfilter, Messagebus, uncertConf) {
     this.data = {};
     this.dimensions = [];
 
@@ -23,7 +23,10 @@
       //Crossfilter initialization
       this.data = data;
       this.ndx = crossfilter(data.timeline.events);
-      this.ndxPolls = crossfilter(data.timeline.polls);
+
+      if (uncertConf.POLLS) {
+        this.ndxPolls = crossfilter(data.timeline.polls);
+      }
 
       Messagebus.publish('crossfilter ready', this.getData);
 
@@ -31,8 +34,13 @@
     };
 
     this.pollDimension = function(keyAccessor) {
-      var newDimension = this.ndxPolls.dimension(keyAccessor);
-      this.pollDimensions.push(newDimension);
+      var newDimension = null;
+
+      if (uncertConf.POLLS) {
+        newDimension =  this.ndxPolls.dimension(keyAccessor);
+        this.pollDimensions.push(newDimension);
+      }
+      
       return newDimension;
     };
 
@@ -47,12 +55,16 @@
         d.filter(null);
         d.dispose();
       });
-      this.pollDimensions.forEach(function(d) {
-        d.filter(null);
-        d.dispose();
-      });
       this.ndx.remove();
-      this.ndxPolls.remove();
+
+      if (uncertConf.POLLS) {
+        this.pollDimensions.forEach(function(d) {
+          d.filter(null);
+          d.dispose();
+        });
+        this.ndxPolls.remove();
+      }
+
       Messagebus.publish('clearFilters');
     };
 

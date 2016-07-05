@@ -23,6 +23,7 @@
       // DATA_JSON_URL: 'file:data/contextual.timeline-01-07.json'
       // DATA_JSON_URL: 'https://raw.githubusercontent.com/NLeSC/UncertaintyVisualization/gh-pages/data/contextual.timeline04-02.json',
       // DATA_JSON_URL: 'https://raw.githubusercontent.com/NLeSC/UncertaintyVisualization/narratives/app/data/embodied_0202.json',
-      DATA_JSON_URL: 'file:data/contextual.timeline-05-07.json'
+      DATA_JSON_URL: 'file:data/contextual.timeline-05-07.json',
+      POLLS: false
     });
 })();

@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PollChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PollChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus, uncertConf) {
     this.initializeChart = function() {
       var stackedAreaChart = dc.lineChart('#' + $element[0].children[0].attributes.id.value);
       // var volumeChart = dc.barChart('#' + $element[0].children[0].attributes.id.value + '-volume');
@@ -186,7 +186,10 @@
     };
 
     Messagebus.subscribe('crossfilter ready', function() {
-      this.initializeChart();
+      if (uncertConf.POLLS) {
+        this.initializeChart();
+      }
+
     }.bind(this));
   }
 

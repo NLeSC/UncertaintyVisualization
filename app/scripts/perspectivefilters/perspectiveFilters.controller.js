@@ -42,7 +42,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -85,7 +85,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -128,7 +128,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -171,7 +171,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -214,7 +214,7 @@
             left: 0
           })
           .x(d3.scale.linear().domain([-5,5]))
-          .y(d3.scale.linear().domain([0,25]))
+          .y(d3.scale.sqrt().domain([0,25]))
           .colors(colorbrewer.RdBu[3])
           .colorDomain([-1, 1])
           .colorAccessor(function(d) {
