@@ -10,10 +10,16 @@
   </div>
 </div>
 
+<full-text-crossfilter-search-directive
+  chart-header="Search for keywords"
+  ndx-service-name="software"
+  json-fields="actors.actor:, mentions.perspective.source, mentions.snippet, prefLabel, labels">
+</full-text-crossfilter-search-directive>
+
 <!-- <file-loading-directive></file-loading-directive> -->
 <breadcrumbs-directive></breadcrumbs-directive>
 
-<div class="mdl-grid">	
+<div class="mdl-grid">
 	<div class="mdl-cell mdl-cell--4-col" ng-class="{ active: isSet(1) }">
 		<a id="storylines-button" href class="btn btn:hover" ng-click="setTab(1)"> View Storylines </a>
 	</div>
