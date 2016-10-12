@@ -18,7 +18,7 @@
     // }.bind(this);
 
     this.initializeChart = function() {
-      var subwayChart = dc.subwayChart('#'+$element[0].children[0].attributes.id.value);
+      var subwayChart = dc.subwayChart($element[0].children[0]);
 
       //The dimension for the subwayChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
@@ -90,11 +90,10 @@
         });
       });
 
-
       //Set up the
       subwayChart
       //Sizes in pixels
-        .width($window.innerWidth * (8/12) * (10/12) - 32 - 8)//parseInt($element[0].getClientRects()[1].width, 10))
+        .width(Math.min($window.innerWidth, 1280) * (7/12) - 16)
         .height(1000)
         .margins({
           top: 10,
@@ -235,6 +234,10 @@
 
       //Disable the onClick handler for this chart
       dc.override(subwayChart, 'onClick', function() {
+      });
+
+      subwayChart.on('preRedraw', function(chart) {
+        chart.width(Math.min(100,parseInt($element[0].clientWidth, 10)));
       });
 
       subwayChart.render();

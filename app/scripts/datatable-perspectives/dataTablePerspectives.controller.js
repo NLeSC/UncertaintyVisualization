@@ -83,7 +83,7 @@
           return '';
         })
         .showGroups(false)
-        .size(Infinity)
+        .size(100)
         .sortBy(function(d) {
           return d.time;
         })

@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function LaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function LaneChartController($window, $element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       var customBubbleChart = dc.customBubbleChart('#'+$element[0].children[0].attributes.id.value);
 
@@ -120,7 +120,7 @@
       //Set up the
       customBubbleChart
       //Sizes in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
+        .width(Math.min($window.innerWidth, 1280) * (10/12) - 16)
         .height(1000)
         .margins({
           top: 10,

@@ -76,7 +76,7 @@
       //Set up the
       allCitationsChart
       //Size in pixels
-        .width($window.innerWidth * (8/12) * (2/12) - 32)//parseInt($element[0].getClientRects()[1].width, 10))
+        .width(Math.min($window.innerWidth, 1280) * (1/12) - 16)
         .height(400)
         .margins({
           top: 10,

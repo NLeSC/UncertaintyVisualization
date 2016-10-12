@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function SeriesChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function SeriesChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       var customSeriesChart = dc.customSeriesChart('#'+$element[0].children[0].attributes.id.value);
 
@@ -44,7 +44,7 @@
       //Set up the
       customSeriesChart
       //Sizes in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
+        .width(Math.min($window.innerWidth, 1280)  - 16)
         .height(200)
         .margins({
           top: 10,

@@ -76,7 +76,7 @@
       //Set up the
       allSourcesChart
       //Size in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
+        .width(Math.min($window.innerWidth, 1280) * (1/12) - 16)
         .height(400)
         .margins({
           top: 10,

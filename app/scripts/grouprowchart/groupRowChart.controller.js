@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function GroupRowChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function GroupRowChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
     var symbolRenderlet = function(_chart) {
       //For each row in the chart
       _chart.selectAll('g.row').each(function() {
@@ -74,7 +74,7 @@
           bottom: 20,
           left: 0
         })
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
+        .width(Math.min($window.innerWidth, 1280) * (2/12) - 16)
         .height(1000)
 
       //A smaller-than-default gap between bars

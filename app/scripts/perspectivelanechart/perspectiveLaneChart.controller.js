@@ -167,7 +167,7 @@
       //Set up the
       this.customBubbleChart
       //Sizes in pixels
-        .width($window.innerWidth * (8/12) * (10/12) - 32 - 8)//parseInt($element[0].getClientRects()[1].width, 10))
+        .width(Math.min($window.innerWidth, 1280) * (7/12) -16)
         .height(800)
         .margins({
           top: 10,

@@ -1,4 +1,4 @@
-<h6>{{fTCSCtrl.chartHeader}}</h6>
-<div id="fullltextSearch_{{fTCSCtrl.ndxServiceName}}">
-  <input type="text" ng-model="fTCSCtrl.input" ng-change="fTCSCtrl.applyFilter()" ng-model-options="{debounce: 1000}"></input>
+<div class="mdl-textfield mdl-js-textfield" id="fullltextSearch_{{fTCSCtrl.ndxServiceName}}">
+  <input class="mdl-textfield__input" type="text" id="freeSearch" ng-model="fTCSCtrl.input" ng-change="fTCSCtrl.applyFilter()" ng-model-options="{debounce: 1000}">
+  <label class="mdl-textfield__label" for="freeSearch">Search for keywords...</label>
 </div>
