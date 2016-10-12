@@ -236,10 +236,6 @@
       dc.override(subwayChart, 'onClick', function() {
       });
 
-      subwayChart.on('preRedraw', function(chart) {
-        chart.width(Math.min(100,parseInt($element[0].clientWidth, 10)));
-      });
-
       subwayChart.render();
     };
 
