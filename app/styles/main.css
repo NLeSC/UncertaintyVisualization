@@ -62,7 +62,7 @@ div.dc-chart {
     fill: none;
     stroke: #ccc;
     opacity: .75;
-    shape-rendering: crispEdges;
+    /*shape-rendering: crispEdges;*/
 }
 
 .dc-chart .subwayBubble {
@@ -208,7 +208,31 @@ p {
     width: 300px;
     max-width: 100%;
     margin: 0;
-    padding: 0px 0;
+    padding: 2px 0;
+}
+
+.mdl-textfield:focus {
+    outline: none;
+}
+
+.mdl-textfield__input {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  display: block;
+  font-size: 16;
+  font-family: "Helvetica","Arial",sans-serif;
+  margin: 0;
+  padding: 4px 0;
+  width: 100%;
+  background: none;
+  text-align: left;
+  color: inherit;
+
+  outline: none;
+}
+
+.mdl-textfield textarea.mdl-textfield__input {
+  display: block;
 }
 
 .mdl-textfield__label {
@@ -227,9 +251,23 @@ p {
     text-align: left;
 }
 
-.search-textfield {
-  width: 100%;
-}
+.mdl-textfield__label:after {
+    background-color: #3f51b5;
+    bottom: 2px;
+    content: '';
+    height: 2px;
+    left: 45%;
+    position: absolute;
+
+    visibility: hidden;
+    width: 10px;
+  }
+
+  .mdl-textfield.is-focused:after {
+    left: 0;
+    visibility: visible;
+    width: 100%;
+  }
 
 .breadcrumb_class {
   font-size: 16px;
@@ -241,4 +279,15 @@ p {
 
 .breadcrumb_empty {
   color: rgb(0, 0, 0);
+}
+
+.mdl-dialog {
+    border: none;
+    box-shadow: 0 9px 46px 8px rgba(0,0,0,.14), 0 11px 15px -7px rgba(0,0,0,.12), 0 24px 38px 3px rgba(0,0,0,.2);
+    width: 1280px;
+}
+
+.query-selector-item {
+  /*border-top: 1px solid;*/
+  border-bottom: 1px solid;
 }

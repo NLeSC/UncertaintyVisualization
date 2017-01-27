@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css" />
   <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.css" />
   <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+  <link rel="stylesheet" href="bower_components/dialog-polyfill/dialog-polyfill.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
@@ -22,8 +23,8 @@
 
 <body ng-app="uncertApp">
   <!--<div id="rig-window">-->
-    <div id="progress-bar"></div>
-    <rig-selector></rig-selector>
+  <div id="progress-bar"></div>
+  <rig-selector></rig-selector>
   <!--</div>-->
 
   <!-- build:js(.) scripts/vendor.js -->
@@ -42,6 +43,7 @@
   <script src="bower_components/material-design-lite/material.min.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+  <script src="bower_components/dialog-polyfill/dialog-polyfill.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -117,7 +119,11 @@
   <script src="scripts/fullTextCrossfilterSearch/fullTextCrossfilterSearch.controller.js"></script>
   <script src="scripts/fullTextCrossfilterSearch/fullTextCrossfilterSearch.directive.js"></script>
 
+  <script src="scripts/querySelector/querySelector.controller.js"></script>
+  <script src="scripts/querySelector/querySelector.directive.js"></script>
+
   <script src="scripts/core/data.service.js"></script>
+  <script src="scripts/core/queryBuilder.service.js"></script>
   <!-- endbuild -->
 </body>
 

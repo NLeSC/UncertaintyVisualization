@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function querySelector() {
+  function querySelectorDirective() {
     return {
       restrict: 'E',
       templateUrl: 'scripts/querySelector/querySelector.directive.html',
@@ -10,6 +10,5 @@
     };
   }
 
-  angular.module('uncertApp.querySelector')
-    .directive('querySelector', querySelector);
+  angular.module('uncertApp.querySelector').directive('querySelectorDirective', querySelectorDirective);
 })();
