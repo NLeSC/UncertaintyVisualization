@@ -141,7 +141,7 @@
       groupRowChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }

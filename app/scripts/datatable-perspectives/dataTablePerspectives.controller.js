@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function DataTablePerspectivesController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function DataTablePerspectivesController($element, d3, dc, NdxService) {
     var sourceToHtml = function(d) {
       var result = [];
       var raw = d.mentions;
@@ -130,7 +130,7 @@
       dataTable.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }

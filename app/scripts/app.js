@@ -66,7 +66,7 @@
     })
     .run(function($timeout, DataService) {
       angular.element(document).ready(function () {
-        $timeout(DataService.load(), 1000);
+        DataService.load();
       });
     });
 

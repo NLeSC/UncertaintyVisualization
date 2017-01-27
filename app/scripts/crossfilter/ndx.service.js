@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function NdxService($q, crossfilter, Messagebus, uncertConf) {
+  function NdxService(DataService, $q, crossfilter, Messagebus, uncertConf) {
     this.data = {};
     this.dimensions = [];
 
@@ -28,8 +28,6 @@
         this.ndxPolls = crossfilter(data.timeline.polls);
       }
 
-      Messagebus.publish('crossfilter ready', this.getData);
-
       deferred.resolve();
     };
 
@@ -40,7 +38,7 @@
         newDimension =  this.ndxPolls.dimension(keyAccessor);
         this.pollDimensions.push(newDimension);
       }
-      
+
       return newDimension;
     };
 
@@ -68,8 +66,7 @@
       Messagebus.publish('clearFilters');
     };
 
-    Messagebus.subscribe('data loaded', function (event, newDataGetter) {
-      var newData = newDataGetter();
+    DataService.ready.then(function(newData) {
       if (this.ndx && this.data && newData && this.data !== newData) {
         this.resetData();
         this.readData(newData);
@@ -77,6 +74,16 @@
         this.readData(newData);
       }
     }.bind(this));
+
+    // Messagebus.subscribe('data loaded', function (event, newDataGetter) {
+    //   var newData = newDataGetter();
+    //   if (this.ndx && this.data && newData && this.data !== newData) {
+    //     this.resetData();
+    //     this.readData(newData);
+    //   } else {
+    //     this.readData(newData);
+    //   }
+    // }.bind(this));
   }
 
   angular.module('uncertApp.ndx').service('NdxService', NdxService);

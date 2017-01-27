@@ -1,5 +1,0 @@
-//Get all of the possible Framenet event types that are mentioned in an event
-SELECT DISTINCT ?s WHERE {
-  ?s rdfs:isDefinedBy framenet: .
-  ?event rdf:type ?s .
-}

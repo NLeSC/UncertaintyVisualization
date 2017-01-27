@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function SubwayChartController($scope, $window, $element, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
+  function SubwayChartController($scope, $window, $element, d3, dc, NdxService, colorbrewer, HelperFunctions) {
     // var mentionToTxt = function(d) {
     //   var raw = d.mentions;
     //
@@ -239,7 +239,7 @@
       subwayChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.sources = NdxService.getData().timeline.sources;
       this.initializeChart();
     }.bind(this));

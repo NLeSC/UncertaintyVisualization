@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function ViewStorylinesController($timeout, $location,  DataService, Messagebus) {
+  function ViewStorylinesController() {
 
   }
   angular.module('uncertApp.viewstorylines')

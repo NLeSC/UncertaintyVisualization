@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function DataTableController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function DataTableController($element, d3, dc, NdxService) {
     var actorsToHtml = function(d) {
       //Get the actors
       var actors = d.actors['actor:'];
@@ -116,7 +116,7 @@
       dataTable.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }

@@ -136,13 +136,9 @@
       allActorChart.render();
     };
 
-    Messagebus.subscribe('changingToWrangler',function(event) {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
-
-    // Messagebus.subscribe('crossfilter ready', function() {
-    //   this.initializeChart();
-    // }.bind(this));
   }
 
   angular.module('uncertApp.allactorchart').controller('AllActorChartController', AllActorChartController);

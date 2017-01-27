@@ -42,14 +42,14 @@
         .xAxis().tickValues([]);
 
 
-      dc.override(groupRowChart, 'onClick', function(d) {
+      dc.override(groupRowChart, 'onClick', function() {
       });
 
       // dc.override(groupRowChart, 'onClick', onClickOverride);
       groupRowChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       if (uncertConf.POLLS) {
         this.initializeChart();
       }

@@ -26,6 +26,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-angular-templates');
   grunt.loadNpmTasks('grunt-gh-pages');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.registerTask('default', ['imagemin']);
 
   // Define the configuration for all the tasks
   grunt.initConfig({
@@ -40,7 +42,7 @@ module.exports = function(grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
+        files: ['<%= yeoman.app %>/scripts/{,**/}*.js'],
         tasks: ['newer:jshint:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -61,7 +63,7 @@ module.exports = function(grunt) {
           '<%= yeoman.app %>/{,*/}*.html',
           '<%= yeoman.app %>/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-          '<%= yeoman.app %>/scripts/{,*/}*.html'
+          '<%= yeoman.app %>/scripts/{,**/}*.html'
         ]
       }
     },
@@ -71,7 +73,7 @@ module.exports = function(grunt) {
       options: {
         port: 9000,
         // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost',
+        hostname: '127.0.0.1',
         livereload: 35729
       },
       livereload: {
@@ -128,7 +130,7 @@ module.exports = function(grunt) {
       all: {
         src: [
           'Gruntfile.js',
-          '<%= yeoman.app %>/scripts/{,*/}*.js'
+          '<%= yeoman.app %>/scripts/{,**/}*.js'
         ]
       },
       test: {
@@ -198,7 +200,7 @@ module.exports = function(grunt) {
     filerev: {
       dist: {
         src: [
-          '<%= yeoman.dist %>/scripts/{,*/}*.js',
+          '<%= yeoman.dist %>/scripts/{,**/}*.js',
           '<%= yeoman.dist %>/styles/{,*/}*.css',
           '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.dist %>/styles/fonts/*'
@@ -276,7 +278,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
-          src: '{,*/}*.svg',
+          src: '[*/*.svg]',
           dest: '<%= yeoman.dist %>/images'
         }]
       }
@@ -323,7 +325,7 @@ module.exports = function(grunt) {
     ngtemplates: {
       'uncertApp.templates': {
         cwd: 'app/',
-        src: 'scripts/*/*.html',
+        src: 'scripts/**/*.html',
         dest: '.tmp/template.js',
         options: {
           usemin: '<%= yeoman.dist %>/scripts/scripts.js' // <~~ This came from the <!-- build:js --> block

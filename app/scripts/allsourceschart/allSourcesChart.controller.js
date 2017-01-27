@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function AllSourcesChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function AllSourcesChartController($element, $window, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       //A rowChart that shows us the importance of the all Sources
       var allSourcesChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
@@ -23,7 +23,7 @@
               p[splitSource[1]] = (p[splitSource[1]] || 0) + 1;
             }
           }
-        })
+        });
         return p;
       }
 
@@ -38,7 +38,7 @@
               p[splitSource[1]] = (p[splitSource[1]] || 0) + 1;
             }
           }
-        })
+        });
         return p;
       }
 
@@ -133,7 +133,7 @@
       allSourcesChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }

@@ -24,7 +24,7 @@
       }
 
       dc.redrawAll();
-    }
+    };
 
     this.initializeChart = function(element, jsonFields, chartHeader) {
       var ctrl = this;

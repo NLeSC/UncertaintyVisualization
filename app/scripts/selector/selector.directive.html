@@ -11,20 +11,22 @@
 </div>
 
 <div class="content-grid mdl-grid utilities-bar">
-    <full-text-crossfilter-search-directive
-        chart-header="Search for keywords"
-        ndx-service-name="software"
-        json-fields="actors.actor:, mentions.perspective.source, mentions.snippet, prefLabel, labels"
-        class="mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--1-col-phone">
-    </full-text-crossfilter-search-directive>
-    
-    <div class="mdl-layout-spacer"></div>
+  <div class="mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+    <query-selector-directive></query-selector-directive>
+  </div>
 
-    <div class="mdl-cell--8-col mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-      <breadcrumbs-directive></breadcrumbs-directive>
-    </div>
-    
-    <!--<file-loading-directive class="mdl-cell--10-col mdl-cell--5-col-tablet mdl-cell--2-col-phone"></file-loading-directive>-->
+  <full-text-crossfilter-search-directive
+      chart-header="Search for keywords"
+      ndx-service-name="software"
+      json-fields="actors.actor:, mentions.perspective.source, mentions.snippet, prefLabel, labels"
+      class="mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+  </full-text-crossfilter-search-directive>
+
+  <div class="mdl-layout-spacer"></div>
+
+  <div class="mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+    <breadcrumbs-directive></breadcrumbs-directive>
+  </div>
 </div>
 
 

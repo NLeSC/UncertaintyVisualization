@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PerspectiveFiltersController($window, $element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PerspectiveFiltersController($window, $element, d3, dc, colorbrewer, NdxService) {
     this.initializeChart = function() {
       var beliefChart = dc.barChart('#'+$element[0].children[0].children[0].attributes.id.value);
       var certaintyChart = dc.barChart('#'+$element[0].children[0].children[1].attributes.id.value);
@@ -235,7 +235,7 @@
       whenChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }
