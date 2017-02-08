@@ -139,6 +139,12 @@
     NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
+    }.bind(this));
   }
 
   angular.module('uncertApp.allauthorschart').controller('AllAuthorsChartController', AllAuthorsChartController);

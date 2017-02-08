@@ -12,7 +12,7 @@
 
     this.openDialog = function() {
       if (! this.queryList) {
-        QueryBuilderService.load();
+        QueryBuilderService.loadQueries();
       }
 
       QueryBuilderService.ready.then(function() {

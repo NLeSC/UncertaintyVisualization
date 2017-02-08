@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function FullTextCrossfilterSearchController($scope, $element, d3, dc, NdxService, HelperFunctions) {
+  function FullTextCrossfilterSearchController($scope, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.input ='';
 
     this.applyFilter = function() {
@@ -43,6 +43,12 @@
         this.initializeChart(element, jsonFields, chartHeader);
       }.bind(this));
     };
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
+    }.bind(this));
   }
 
   angular.module('uncertApp.charts').controller('FullTextCrossfilterSearchController', FullTextCrossfilterSearchController);

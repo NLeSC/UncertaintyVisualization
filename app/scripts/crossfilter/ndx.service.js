@@ -19,6 +19,7 @@
 
     this.readData = function(data) {
       this.resetData();
+      dc.deregisterAllCharts();
 
       //Crossfilter initialization
       this.data = data;
