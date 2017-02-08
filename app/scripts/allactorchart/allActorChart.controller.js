@@ -1,10 +1,10 @@
 (function() {
   'use strict';
 
-  function AllActorChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function AllActorChartController($window, $element, uncertConf, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       //A rowChart that shows us the importance of the all actors
-      var allActorChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
+      var allActorChart = dc.rowChart('#'+$element[0].children[1].attributes.id.value);
 
       //Dimension of the list of unique actors present in each event.
       var allActorsDimension = NdxService.buildDimension(function(d) {
@@ -73,11 +73,14 @@
         return p;
       };
 
+      var newChartRows = Math.max(1, Math.min(allActorsClimaxSum.top(Infinity).length, uncertConf.CHART_DIMENSIONS.relationsChartMaxRows));
+      var newHeight = HelperFunctions.determineRelationsChartHeight(newChartRows);
+
       //Set up the
       allActorChart
       //Size in pixels
         .width(Math.min($window.innerWidth, 1280) * (1/12) - 16)
-        .height(1000)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 2,
@@ -101,7 +104,7 @@
         return d.top(50);
       })
 
-      .gap(1)
+      .gap(uncertConf.CHART_DIMENSIONS.relationsChartGapHeight)
       .elasticX(true)
 
       .filterHandler(

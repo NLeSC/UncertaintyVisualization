@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PerspectiveLaneChartController($window, $element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PerspectiveLaneChartController($window, $element, uncertConf, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
     this.perspectiveOption = 'sentiment';
 
     this.initializeChart = function() {
@@ -164,11 +164,14 @@
         });
       });
 
+      var newChartRows = Math.max(1, Math.min(uniqueSources.length, uncertConf.CHART_DIMENSIONS.perspectiveBubbleChartMaxRows));
+      var newHeight = HelperFunctions.determinePerspectiveBubbleChartHeight(newChartRows);
+
       //Set up the
       this.customBubbleChart
       //Sizes in pixels
         .width(Math.min($window.innerWidth, 1280) * (7/12) -16)
-        .height(800)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 0,

@@ -1,11 +1,9 @@
 (function() {
   'use strict';
 
-  function NdxService(DataService, $q, crossfilter, Messagebus, uncertConf) {
+  function NdxService(DataService, $q, dc, crossfilter, Messagebus, uncertConf) {
     this.data = {};
-    this.dimensions = [];
-
-    this.pollDimensions = [];
+    this.dimensionCache = [];
 
     var deferred = $q.defer();
 
@@ -20,6 +18,8 @@
     };
 
     this.readData = function(data) {
+      this.resetData();
+
       //Crossfilter initialization
       this.data = data;
       this.ndx = crossfilter(data.timeline.events);
@@ -29,38 +29,23 @@
       }
 
       deferred.resolve();
-    };
-
-    this.pollDimension = function(keyAccessor) {
-      var newDimension = null;
-
-      if (uncertConf.POLLS) {
-        newDimension =  this.ndxPolls.dimension(keyAccessor);
-        this.pollDimensions.push(newDimension);
-      }
-
-      return newDimension;
+      dc.renderAll();
     };
 
     this.buildDimension = function(keyAccessor) {
       var newDimension = this.ndx.dimension(keyAccessor);
-      this.dimensions.push(newDimension);
+      this.dimensionCache.push(newDimension);
       return newDimension;
     };
 
     this.resetData = function() {
-      this.dimensions.forEach(function(d) {
+      this.dimensionCache.forEach(function(d) {
         d.filter(null);
         d.dispose();
       });
-      this.ndx.remove();
 
-      if (uncertConf.POLLS) {
-        this.pollDimensions.forEach(function(d) {
-          d.filter(null);
-          d.dispose();
-        });
-        this.ndxPolls.remove();
+      if (this.ndx) {
+        this.ndx.remove();
       }
 
       Messagebus.publish('clearFilters');
@@ -74,16 +59,6 @@
         this.readData(newData);
       }
     }.bind(this));
-
-    // Messagebus.subscribe('data loaded', function (event, newDataGetter) {
-    //   var newData = newDataGetter();
-    //   if (this.ndx && this.data && newData && this.data !== newData) {
-    //     this.resetData();
-    //     this.readData(newData);
-    //   } else {
-    //     this.readData(newData);
-    //   }
-    // }.bind(this));
   }
 
   angular.module('uncertApp.ndx').service('NdxService', NdxService);

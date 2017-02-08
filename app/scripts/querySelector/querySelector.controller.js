@@ -28,6 +28,7 @@
 
     this.selectQuery = function(query) {
       QueryBuilderService.getJSON(query.id);
+      dialog.close();
     };
   }
 

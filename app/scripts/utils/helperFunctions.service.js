@@ -1,15 +1,47 @@
 (function() {
   'use strict';
 
-  function HelperFunctions(d3, Messagebus) {
+  function HelperFunctions(d3, Messagebus, uncertConf) {
     //Helper function to get unique elements of an array
-    var arrayUnique = function(a) {
+    this.arrayUnique = function(a) {
       return a.reduce(function(p, c) {
         if (p.indexOf(c) < 0) {
           p.push(c);
         }
         return p;
       }, []);
+    };
+
+    this.determineStoryLineChartHeight = function(chartElements) {
+      var heightInPixels = (chartElements - 1) * uncertConf.CHART_DIMENSIONS.storylineChartGapHeight +
+                           (uncertConf.CHART_DIMENSIONS.storylineChartBarHeight * chartElements) +
+                           uncertConf.CHART_DIMENSIONS.storylineChartMargins.top;
+
+      return heightInPixels;
+    };
+
+    this.determineRelationsChartHeight = function(chartElements) {
+      var heightInPixels = (chartElements - 1) * uncertConf.CHART_DIMENSIONS.relationsChartGapHeight +
+                           (uncertConf.CHART_DIMENSIONS.relationsChartBarHeight * chartElements) +
+                           uncertConf.CHART_DIMENSIONS.relationsChartMargins.top;
+
+      return heightInPixels;
+    };
+
+    this.determinePerspectiveChartHeight = function(chartElements) {
+      var heightInPixels = (chartElements - 1) * uncertConf.CHART_DIMENSIONS.perspectiveChartGapHeight +
+                           (uncertConf.CHART_DIMENSIONS.perspectiveChartBarHeight * chartElements) +
+                           uncertConf.CHART_DIMENSIONS.perspectiveChartMargins.top;
+
+      return heightInPixels;
+    };
+
+    this.determinePerspectiveBubbleChartHeight = function(chartElements) {
+      var heightInPixels = (chartElements - 1) * uncertConf.CHART_DIMENSIONS.perspectiveBubbleChartGapHeight +
+                           (uncertConf.CHART_DIMENSIONS.perspectiveBubbleChartBarHeight * chartElements) +
+                           uncertConf.CHART_DIMENSIONS.perspectiveBubbleChartMargins.top;
+
+      return heightInPixels;
     };
 
     this.determineUniqueActors = function(data) {
@@ -37,7 +69,7 @@
           });
         });
       }
-      var uniqueActors = arrayUnique(concatenatedActors);
+      var uniqueActors = this.arrayUnique(concatenatedActors);
 
       return uniqueActors;
     };
@@ -64,7 +96,7 @@
           });
         });
       }
-      var uniqueSources = arrayUnique(concatenatedSources);
+      var uniqueSources = this.arrayUnique(concatenatedSources);
 
       return uniqueSources;
     };
@@ -94,7 +126,7 @@
           });
         });
       }
-      var uniqueCitationSources = arrayUnique(concatenatedCitationSources);
+      var uniqueCitationSources = this.arrayUnique(concatenatedCitationSources);
 
       return uniqueCitationSources;
     };
@@ -124,7 +156,7 @@
           });
         });
       }
-      var uniqueAuthors = arrayUnique(concatenatedAuthors);
+      var uniqueAuthors = this.arrayUnique(concatenatedAuthors);
 
       return uniqueAuthors;
     };

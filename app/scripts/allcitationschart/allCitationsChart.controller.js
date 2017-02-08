@@ -1,10 +1,10 @@
 (function() {
   'use strict';
 
-  function AllCitationsChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function AllCitationsChartController($window, $element, uncertConf, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       //A rowChart that shows us the importance of the all Citations
-      var allCitationsChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
+      var allCitationsChart = dc.rowChart('#'+$element[0].children[1].attributes.id.value);
 
       //Dimension of the list of unique Citations present in each event.
       var allCitationsDimension = NdxService.buildDimension(function(d) {
@@ -73,13 +73,16 @@
         return p;
       };
 
+      var newChartRows = Math.max(1, Math.min(allCitationsClimaxSum.top(Infinity).length, uncertConf.CHART_DIMENSIONS.perspectiveChartMaxRows));
+      var newHeight = HelperFunctions.determinePerspectiveChartHeight(newChartRows);
+
       //Set up the
       allCitationsChart
       //Size in pixels
         .width(Math.min($window.innerWidth, 1280) * (1/12) - 16)
-        .height(400)
+        .height(newHeight)
         .margins({
-          top: 10,
+          top: 0,
           right: 2,
           bottom: 0,
           left: 2
@@ -101,7 +104,7 @@
         return d.top(20);
       })
 
-      .gap(1)
+      .gap(uncertConf.CHART_DIMENSIONS.perspectiveChartGapHeight)
       .elasticX(true)
 
       .filterHandler(

@@ -36,7 +36,7 @@
      * @returns {Promise}
      */
     this.load = function() {
-      uncertConf.QUERY_BUILDER_SERVER_URL+'queries/'.split(':')[0];
+      // uncertConf.QUERY_BUILDER_SERVER_URL+'queries/'.split(':')[0];
 
       me.data = $http.get(uncertConf.QUERY_BUILDER_SERVER_URL+'queries/').success(this.onLoad).error(this.onLoadFailure);
     };
@@ -61,8 +61,8 @@
     };
 
     this.onJSONLoad = function(response) {
-      var json = JSON.parse(response[0].result.data);
-      NdxService.readData(json);
+      // var json = JSON.parse(response);
+      NdxService.readData(response);
       // Messagebus.publish('data loaded', json);
     }.bind(this);
 

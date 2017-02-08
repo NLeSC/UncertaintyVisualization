@@ -1,21 +1,7 @@
 (function() {
   'use strict';
 
-  function SubwayChartController($scope, $window, $element, d3, dc, NdxService, colorbrewer, HelperFunctions) {
-    // var mentionToTxt = function(d) {
-    //   var raw = d.mentions;
-    //
-    //   var txt = '';
-    //   raw.forEach(function(mention) {
-    //     var pre = mention.snippet[0].substring(0, mention.snippet_char[0]);
-    //     var word = mention.snippet[0].substring(mention.snippet_char[0],mention.snippet_char[1]);
-    //     var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
-    //
-    //     txt += pre + word + post + '\n';
-    //   }.bind(this));
-    //
-    //   return txt;
-    // }.bind(this);
+  function SubwayChartController($scope, $window, $element, uncertConf, d3, dc, NdxService, colorbrewer, HelperFunctions) {
 
     this.initializeChart = function() {
       var subwayChart = dc.subwayChart($element[0].children[0]);
@@ -90,11 +76,14 @@
         });
       });
 
+      var newChartRows = Math.max(1, Math.min(uniqueActors.length, uncertConf.CHART_DIMENSIONS.relationsChartMaxRows));
+      var newHeight = HelperFunctions.determineRelationsChartHeight(newChartRows);
+
       //Set up the
       subwayChart
       //Sizes in pixels
         .width(Math.min($window.innerWidth, 1280) * (7/12) - 16)
-        .height(1000)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 0,
