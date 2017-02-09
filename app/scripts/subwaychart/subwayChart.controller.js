@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function SubwayChartController($scope, $window, $element, uncertConf, d3, dc, NdxService, colorbrewer, HelperFunctions) {
+  function SubwayChartController($scope, $window, $element, uncertConf, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
 
     this.initializeChart = function() {
       var subwayChart = dc.subwayChart($element[0].children[0]);
@@ -229,8 +229,13 @@
     };
 
     NdxService.ready.then(function() {
-      this.sources = NdxService.getData().timeline.sources;
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 
