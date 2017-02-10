@@ -1,10 +1,11 @@
 (function() {
   'use strict';
 
-  function DataTableController($element, d3, dc, NdxService, Messagebus) {
+  function DataTableController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
     var actorsToHtml = function(d) {
       //Get the actors
-      var actors = d.actors['actor:'];
+      var actors = HelperFunctions.determineUniqueActors(d);
+
       var html = '';
       actors.forEach(function(a) {
         html += '<p>' + a + '</p>';

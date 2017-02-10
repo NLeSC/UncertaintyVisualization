@@ -24,14 +24,19 @@
           //Climax score summed for all events with the same time(day) and group(number).
           p.climax = p.climax + v.climax;
 
-          var keys = Object.keys(v.actors);
-          keys.forEach(function(key) {
-            var keysActors = v.actors[key];
-            keysActors.forEach(function(keysActor) {
-              var actorLabel = key + ' : ' + keysActor;
-              p.actors[actorLabel] = (p.actors[actorLabel] || 0) + v.climax;
+          if (v.actors) {
+            var keys = Object.keys(v.actors);
+            keys.forEach(function(key) {
+              var keysActors = v.actors[key];
+              keysActors.forEach(function(keysActor) {
+                var actorLabel = key + ' : ' + keysActor;
+                p.actors[actorLabel] = (p.actors[actorLabel] || 0) + v.climax;
+              });
             });
-          });
+          } else {
+            p.actors['no actors'] = (p.actors['no actors'] || 0) + v.climax;
+          }
+
 
           //Sum event values over all events fitting this time and group.
           p.events[v.event] = (p.events[v.event] || 0) + v.climax;
@@ -57,14 +62,18 @@
         function(p, v) {
           p.climax = p.climax - v.climax;
 
-          var keys = Object.keys(v.actors);
-          keys.forEach(function(key) {
-            var keysActors = v.actors[key];
-            keysActors.forEach(function(keysActor) {
-              var actorLabel = key + ' : ' + keysActor;
-              p.actors[actorLabel] = (p.actors[actorLabel] || 0) - v.climax;
+          if (v.actors) {
+            var keys = Object.keys(v.actors);
+            keys.forEach(function(key) {
+              var keysActors = v.actors[key];
+              keysActors.forEach(function(keysActor) {
+                var actorLabel = key + ' : ' + keysActor;
+                p.actors[actorLabel] = (p.actors[actorLabel] || 0) - v.climax;
+              });
             });
-          });
+          } else {
+            p.actors['no actors'] = (p.actors['no actors'] || 0) - v.climax;
+          }
 
           p.events[v.event] = (p.events[v.event] || 0) - v.climax;
 
