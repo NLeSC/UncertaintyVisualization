@@ -7,7 +7,7 @@
       'certainty',
       'possibility',
       'sentiment',
-      'when'
+      'past_future'
     ];
     this.selectedOption = 'sentiment';
 

@@ -41,6 +41,7 @@
         me.filters = [];
         var charts = Object.keys(me.charts);
         charts.forEach(function(chartID) {
+          var anchorName = me.charts[chartID].anchorName();
           me.charts[chartID].filters().forEach(function(f) {
             var filterText = f.toString();
             if (f.filterType === 'RangedTwoDimensionalFilter') {
@@ -52,6 +53,8 @@
               var textLeftBottom = dateLeft.getFullYear() + '-' + dateLeft.getMonth() + '-' + dateLeft.getDay() + ' / ' + bottom;
               var textRightTop = dateRight.getFullYear() + '-' + dateRight.getMonth() + '-' + dateRight.getDay() + ' / ' + top;
               filterText = textLeftBottom + ' : ' + textRightTop;
+            } else if (f.filterType === 'RangedFilter') {
+              filterText = (f[0]).toPrecision(2) + ' : ' + (f[1]).toPrecision(2);
             } else if (f instanceof Array) {
               filterText = '';
               f.forEach(function(element) {
@@ -69,7 +72,7 @@
             me.filters.push({
               chartID: chartID,
               filter: f,
-              filterString: '['+filterText+']',
+              filterString: anchorName+'['+filterText+']',
               dimension: dimension
             });            
           });
