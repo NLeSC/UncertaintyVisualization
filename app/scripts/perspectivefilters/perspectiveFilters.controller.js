@@ -1,22 +1,22 @@
-(function() {
+(function () {
   'use strict';
 
   function PerspectiveFiltersController($window, $element, d3, dc, colorbrewer, NdxService, Messagebus) {
-    this.initializeChart = function() {
-      var beliefChart = dc.barChart('#'+$element[0].children[0].children[0].attributes.id.value);
-      var certaintyChart = dc.barChart('#'+$element[0].children[0].children[1].attributes.id.value);
-      var possibilityChart = dc.barChart('#'+$element[0].children[0].children[2].attributes.id.value);
-      var sentimentChart = dc.barChart('#'+$element[0].children[0].children[3].attributes.id.value);
-      var whenChart = dc.barChart('#'+$element[0].children[0].children[4].attributes.id.value);
+    this.initializeChart = function () {
+      var beliefChart = dc.barChart('#' + $element[0].children[0].children[0].attributes.id.value);
+      var certaintyChart = dc.barChart('#' + $element[0].children[0].children[1].attributes.id.value);
+      var possibilityChart = dc.barChart('#' + $element[0].children[0].children[2].attributes.id.value);
+      var sentimentChart = dc.barChart('#' + $element[0].children[0].children[3].attributes.id.value);
+      var whenChart = dc.barChart('#' + $element[0].children[0].children[4].attributes.id.value);
 
       // BELIEF
 
-      var beliefDimension = NdxService.buildDimension(function(d) {
+      var beliefDimension = NdxService.buildDimension(function (d) {
         var belief = 0;
         var keys = Object.keys(d.mentions);
-        keys.forEach(function(key) {
+        keys.forEach(function (key) {
           var mention = d.mentions[key];
-          mention.perspective.forEach(function(perspective) {
+          mention.perspective.forEach(function (perspective) {
             var attribution = perspective.attribution;
             if (attribution.belief === 'confirm') {
               belief += 1;
@@ -30,7 +30,7 @@
         return belief;
       });
 
-      var widthPerChart = (Math.min($window.innerWidth, 1280) * (7/12) - 16)/5;
+      var widthPerChart = (Math.min($window.innerWidth, 1280) * (7 / 12) - 16) / 5;
 
       var beliefGroup = beliefDimension.group();
 
@@ -43,14 +43,44 @@
           bottom: 20,
           left: 0
         })
-        .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.sqrt().domain([0,25]))
+        .x(d3.scale.linear().domain([-5, 5]))
+        .y(d3.scale.sqrt().domain([0, 25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
-        .colorAccessor(function(d) {
+        .colorAccessor(function (d) {
           return d.key;
         })
         .elasticY(true)
+
+        .filterHandler(
+          function (dimension, filters) {
+            Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+            dimension.filter(null);
+            if (filters.length === 0) {
+              dimension.filter(null);
+            } else if (filters.length === 1 && !filters[0].isFiltered) {
+              // single value and not a function-based filter
+              dimension.filterExact(filters[0]);
+            } else if (filters.length === 1 && filters[0].filterType === 'RangedFilter') {
+              // single range-based filter
+              dimension.filterRange(filters[0]);
+            } else {
+              dimension.filterFunction(function (d) {
+                for (var i = 0; i < filters.length; i++) {
+                  var filter = filters[i];
+                  if (filter.isFiltered && filter.isFiltered(d)) {
+                    return true;
+                  } else if (filter <= d && filter >= d) {
+                    return true;
+                  }
+                }
+                return false;
+              });
+            }
+            return filters;
+          }.bind(beliefChart))
+
         .brushOn(true)
         .dimension(beliefDimension)
         .group(beliefGroup)
@@ -58,12 +88,12 @@
 
       // CERTAINTY
 
-      var certaintyDimension = NdxService.buildDimension(function(d) {
+      var certaintyDimension = NdxService.buildDimension(function (d) {
         var certainty = 0;
         var keys = Object.keys(d.mentions);
-        keys.forEach(function(key) {
+        keys.forEach(function (key) {
           var mention = d.mentions[key];
-          mention.perspective.forEach(function(perspective) {
+          mention.perspective.forEach(function (perspective) {
             var attribution = perspective.attribution;
             if (attribution.certainty === 'certain') {
               certainty += 1;
@@ -86,14 +116,44 @@
           bottom: 20,
           left: 0
         })
-        .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.sqrt().domain([0,25]))
+        .x(d3.scale.linear().domain([-5, 5]))
+        .y(d3.scale.sqrt().domain([0, 25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
-        .colorAccessor(function(d) {
+        .colorAccessor(function (d) {
           return d.key;
         })
         .elasticY(true)
+
+        .filterHandler(
+          function (dimension, filters) {
+            Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+            dimension.filter(null);
+            if (filters.length === 0) {
+              dimension.filter(null);
+            } else if (filters.length === 1 && !filters[0].isFiltered) {
+              // single value and not a function-based filter
+              dimension.filterExact(filters[0]);
+            } else if (filters.length === 1 && filters[0].filterType === 'RangedFilter') {
+              // single range-based filter
+              dimension.filterRange(filters[0]);
+            } else {
+              dimension.filterFunction(function (d) {
+                for (var i = 0; i < filters.length; i++) {
+                  var filter = filters[i];
+                  if (filter.isFiltered && filter.isFiltered(d)) {
+                    return true;
+                  } else if (filter <= d && filter >= d) {
+                    return true;
+                  }
+                }
+                return false;
+              });
+            }
+            return filters;
+          }.bind(certaintyChart))
+
         .brushOn(true)
         .dimension(certaintyDimension)
         .group(certaintyGroup)
@@ -101,12 +161,12 @@
 
       // POSSIBILITY
 
-      var possibilityDimension = NdxService.buildDimension(function(d) {
+      var possibilityDimension = NdxService.buildDimension(function (d) {
         var possibility = 0;
         var keys = Object.keys(d.mentions);
-        keys.forEach(function(key) {
+        keys.forEach(function (key) {
           var mention = d.mentions[key];
-          mention.perspective.forEach(function(perspective) {
+          mention.perspective.forEach(function (perspective) {
             var attribution = perspective.attribution;
             if (attribution.possibility === 'likely') {
               possibility += 1;
@@ -129,14 +189,44 @@
           bottom: 20,
           left: 0
         })
-        .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.sqrt().domain([0,25]))
+        .x(d3.scale.linear().domain([-5, 5]))
+        .y(d3.scale.sqrt().domain([0, 25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
-        .colorAccessor(function(d) {
+        .colorAccessor(function (d) {
           return d.key;
         })
         .elasticY(true)
+
+        .filterHandler(
+          function (dimension, filters) {
+            Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+            dimension.filter(null);
+            if (filters.length === 0) {
+              dimension.filter(null);
+            } else if (filters.length === 1 && !filters[0].isFiltered) {
+              // single value and not a function-based filter
+              dimension.filterExact(filters[0]);
+            } else if (filters.length === 1 && filters[0].filterType === 'RangedFilter') {
+              // single range-based filter
+              dimension.filterRange(filters[0]);
+            } else {
+              dimension.filterFunction(function (d) {
+                for (var i = 0; i < filters.length; i++) {
+                  var filter = filters[i];
+                  if (filter.isFiltered && filter.isFiltered(d)) {
+                    return true;
+                  } else if (filter <= d && filter >= d) {
+                    return true;
+                  }
+                }
+                return false;
+              });
+            }
+            return filters;
+          }.bind(possibilityChart))
+
         .brushOn(true)
         .dimension(possibilityDimension)
         .group(possibilityGroup)
@@ -144,21 +234,21 @@
 
       // SENTIMENT
 
-      var sentimentDimension = NdxService.buildDimension(function(d) {
-      var sentiment = 0;
-      var keys = Object.keys(d.mentions);
-      keys.forEach(function(key) {
-        var mention = d.mentions[key];
-        mention.perspective.forEach(function(perspective) {
-          var attribution = perspective.attribution;
-          if (attribution.sentiment === 'positive') {
-            sentiment += 1;
-          } else if (attribution.sentiment === 'negative') {
-            sentiment -= 1;
-          }
+      var sentimentDimension = NdxService.buildDimension(function (d) {
+        var sentiment = 0;
+        var keys = Object.keys(d.mentions);
+        keys.forEach(function (key) {
+          var mention = d.mentions[key];
+          mention.perspective.forEach(function (perspective) {
+            var attribution = perspective.attribution;
+            if (attribution.sentiment === 'positive') {
+              sentiment += 1;
+            } else if (attribution.sentiment === 'negative') {
+              sentiment -= 1;
+            }
+          });
         });
-      });
-      return sentiment;
+        return sentiment;
       });
 
       var sentimentGroup = sentimentDimension.group();
@@ -172,27 +262,57 @@
           bottom: 20,
           left: 0
         })
-        .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.sqrt().domain([0,25]))
+        .x(d3.scale.linear().domain([-5, 5]))
+        .y(d3.scale.sqrt().domain([0, 25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
-        .colorAccessor(function(d) {
+        .colorAccessor(function (d) {
           return d.key;
         })
         .elasticY(true)
+
+        .filterHandler(
+          function (dimension, filters) {
+            Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+            dimension.filter(null);
+            if (filters.length === 0) {
+              dimension.filter(null);
+            } else if (filters.length === 1 && !filters[0].isFiltered) {
+              // single value and not a function-based filter
+              dimension.filterExact(filters[0]);
+            } else if (filters.length === 1 && filters[0].filterType === 'RangedFilter') {
+              // single range-based filter
+              dimension.filterRange(filters[0]);
+            } else {
+              dimension.filterFunction(function (d) {
+                for (var i = 0; i < filters.length; i++) {
+                  var filter = filters[i];
+                  if (filter.isFiltered && filter.isFiltered(d)) {
+                    return true;
+                  } else if (filter <= d && filter >= d) {
+                    return true;
+                  }
+                }
+                return false;
+              });
+            }
+            return filters;
+          }.bind(sentimentChart))
+
         .brushOn(true)
         .dimension(sentimentDimension)
         .group(sentimentGroup)
         .controlsUseVisibility(true);
 
-        // WHEN
+      // WHEN
 
-        var whenDimension = NdxService.buildDimension(function(d) {
+      var whenDimension = NdxService.buildDimension(function (d) {
         var when = 0;
         var keys = Object.keys(d.mentions);
-        keys.forEach(function(key) {
+        keys.forEach(function (key) {
           var mention = d.mentions[key];
-          mention.perspective.forEach(function(perspective) {
+          mention.perspective.forEach(function (perspective) {
             var attribution = perspective.attribution;
             if (attribution.when === 'future') {
               when += 1;
@@ -202,31 +322,61 @@
           });
         });
         return when;
-        });
+      });
 
-        var whenGroup = whenDimension.group();
+      var whenGroup = whenDimension.group();
 
-        whenChart
+      whenChart
         .width(widthPerChart)
-          .height(100)
-          .margins({
-            top: 0,
-            right: 0,
-            bottom: 20,
-            left: 0
-          })
-          .x(d3.scale.linear().domain([-5,5]))
-          .y(d3.scale.sqrt().domain([0,25]))
-          .colors(colorbrewer.RdBu[3])
-          .colorDomain([-1, 1])
-          .colorAccessor(function(d) {
-            return -d.key;
-          })
-          .elasticY(true)
-          .brushOn(true)
-          .dimension(whenDimension)
-          .group(whenGroup)
-          .controlsUseVisibility(true);
+        .height(100)
+        .margins({
+          top: 0,
+          right: 0,
+          bottom: 20,
+          left: 0
+        })
+        .x(d3.scale.linear().domain([-5, 5]))
+        .y(d3.scale.sqrt().domain([0, 25]))
+        .colors(colorbrewer.RdBu[3])
+        .colorDomain([-1, 1])
+        .colorAccessor(function (d) {
+          return -d.key;
+        })
+        .elasticY(true)
+
+        .filterHandler(
+          function (dimension, filters) {
+            Messagebus.publish('newFilterEvent', [this, filters, dimension]);
+
+            dimension.filter(null);
+            if (filters.length === 0) {
+              dimension.filter(null);
+            } else if (filters.length === 1 && !filters[0].isFiltered) {
+              // single value and not a function-based filter
+              dimension.filterExact(filters[0]);
+            } else if (filters.length === 1 && filters[0].filterType === 'RangedFilter') {
+              // single range-based filter
+              dimension.filterRange(filters[0]);
+            } else {
+              dimension.filterFunction(function (d) {
+                for (var i = 0; i < filters.length; i++) {
+                  var filter = filters[i];
+                  if (filter.isFiltered && filter.isFiltered(d)) {
+                    return true;
+                  } else if (filter <= d && filter >= d) {
+                    return true;
+                  }
+                }
+                return false;
+              });
+            }
+            return filters;
+          }.bind(whenChart))
+
+        .brushOn(true)
+        .dimension(whenDimension)
+        .group(whenGroup)
+        .controlsUseVisibility(true);
 
       beliefChart.render();
       certaintyChart.render();
@@ -235,12 +385,12 @@
       whenChart.render();
     };
 
-    NdxService.ready.then(function() {
+    NdxService.ready.then(function () {
       this.initializeChart();
     }.bind(this));
 
-    Messagebus.subscribe('data loaded', function() {
-      NdxService.ready.then(function() {
+    Messagebus.subscribe('data loaded', function () {
+      NdxService.ready.then(function () {
         this.initializeChart();
       }.bind(this));
     }.bind(this));
