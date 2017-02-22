@@ -27,7 +27,6 @@
      * @returns {Promise}
      */
     this.load = function() {
-      console.log('loading data');
       var dataType = uncertConf.DATA_JSON_URL.split(':')[0];
 
       if (dataType === 'file') {

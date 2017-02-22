@@ -291,3 +291,11 @@ p {
   /*border-top: 1px solid;*/
   border-bottom: 1px solid;
 }
+
+.query-table {
+    width: 100%;
+}
+
+.td-right-align {
+    text-align: right;
+}

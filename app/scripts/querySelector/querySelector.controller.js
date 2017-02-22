@@ -17,6 +17,17 @@
 
       QueryBuilderService.ready.then(function() {
         this.queryList = QueryBuilderService.getList();
+
+        this.queryList.forEach(function (item) {
+          if (item.status === 0) {
+            item.statusText = 'Pending';
+          } else if (item.status === 1) {
+            item.statusText = 'Ready';
+          } else {
+            item.statusText = 'Error';
+          }
+        });
+
         dialog.showModal();
       }.bind(this));
     }.bind(this);

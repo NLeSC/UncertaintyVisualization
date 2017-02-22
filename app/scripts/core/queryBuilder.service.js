@@ -35,8 +35,6 @@
     }.bind(this);
 
     this.getJSON = function(queryID) {
-      console.log('loading query with id ' + queryID);
-
       $http.get(uncertConf.QUERY_BUILDER_SERVER_URL + 'query/' + queryID).success(this.onJSONLoad).error(this.onJSONLoadFailure);
     };
 

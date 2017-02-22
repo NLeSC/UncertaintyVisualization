@@ -112,16 +112,10 @@
       function filterOnGroupImportance(sourceGroup) {
         return {
           all: function() {
-            return sourceGroup.all().filter(function(d) {
-              var groupNum = parseInt(d.key[0].split(':')[0]);
-              return groupNum > 1;
-            });
+            return sourceGroup.all();
           },
           top: function(n) {
-            return sourceGroup.top(Infinity).filter(function(d) {
-              var groupNum = parseInt(d.key[0].split(':')[0]);
-              return groupNum > 1;
-            }).slice(0, n);
+            return sourceGroup.top(Infinity).slice(0, n);
           }
         };
       }

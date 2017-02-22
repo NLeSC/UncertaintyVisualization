@@ -214,14 +214,18 @@
               if (d[splitKey[0]] instanceof String) {
                 result.push(d[splitKey[0]]);
               } else {
-                var keys = Object.keys(d.actors);
-                keys.forEach(function(key) {
-                  var keysActors = d[splitKey[0]][key];
-                  keysActors.forEach(function(keysActor) {
-                    var actorLabel = key + ' : ' + keysActor;
-                    result.push(actorLabel);
+                if (d.actors) {
+                  var keys = Object.keys(d.actors);
+                  keys.forEach(function(key) {
+                    var keysActors = d.actors[key];
+                    keysActors.forEach(function(keysActor) {
+                      var actorLabel = key + ' : ' + keysActor;
+                      result.push(actorLabel);
+                    });
                   });
-                });
+                } else {
+                  result.push('no actors');
+                }                
               }
             }
           } else if (splitKey.length === 2) {
@@ -251,14 +255,6 @@
 
       return newDimension;
     }.bind(this);
-
-    // this.setSymbolScale = function(symbolScale) {
-    //   this.symbolScale = symbolScale;
-    // };
-    //
-    // this.getSymbolScale = function() {
-    //   return this.symbolScale;
-    // };
 
     this.setActorColors = function(actorColors) {
       this.actorColors = actorColors;

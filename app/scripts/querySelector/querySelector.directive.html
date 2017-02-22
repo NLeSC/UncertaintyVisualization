@@ -2,13 +2,13 @@
 <dialog class="mdl-dialog">
     <h4 class="mdl-dialog__title">Please select a query result to display.</h4>
     <div class="mdl-dialog__content">
-        <table>
+        <table class="query-table">
             <tr class="query-selector-item" ng-repeat="query in qs.queryList">
                 <td>{{query.id}}</td>
                 <td>{{query.username}}</td>
-                <td>{{query.status}}</td>
+                <td>{{query.statusText}}</td>
                 <td>{{query.query}}</td>
-                <td><button type="button" class="mdl-button mdl-button--raised mdl-button--colored" ng-click="qs.selectQuery(query)">Load</button></td>
+                <td class="td-right-align"><button type="button" class="mdl-button mdl-button--raised mdl-button--colored" ng-click="qs.selectQuery(query)">Load</button></td>
             </tr>
         </table>
     </div>
