@@ -21,7 +21,8 @@
     "material-design-lite": "*",
     "angular-bootstrap": "*",
     "bootstrap-css-only": "*",
-    "angular-toastr": "*"
+    "angular-toastr": "*",
+    "dialog-polyfill": "^0.4.6"
   },
   "devDependencies": {
     "angular-mocks": "*",

@@ -1,24 +1,10 @@
 (function() {
   'use strict';
 
-  function SubwayChartController($scope, $window, $element, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
-    // var mentionToTxt = function(d) {
-    //   var raw = d.mentions;
-    //
-    //   var txt = '';
-    //   raw.forEach(function(mention) {
-    //     var pre = mention.snippet[0].substring(0, mention.snippet_char[0]);
-    //     var word = mention.snippet[0].substring(mention.snippet_char[0],mention.snippet_char[1]);
-    //     var post = mention.snippet[0].substring(mention.snippet_char[1], mention.snippet[0].length);
-    //
-    //     txt += pre + word + post + '\n';
-    //   }.bind(this));
-    //
-    //   return txt;
-    // }.bind(this);
+  function SubwayChartController($scope, $window, $element, uncertConf, d3, dc, NdxService, colorbrewer, HelperFunctions, Messagebus) {
 
     this.initializeChart = function() {
-      var subwayChart = dc.subwayChart('#'+$element[0].children[0].attributes.id.value);
+      var subwayChart = dc.subwayChart($element[0].children[0]);
 
       //The dimension for the subwayChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
@@ -90,12 +76,14 @@
         });
       });
 
+      var newChartRows = Math.max(1, Math.min(uniqueActors.length, uncertConf.CHART_DIMENSIONS.relationsChartMaxRows));
+      var newHeight = HelperFunctions.determineRelationsChartHeight(newChartRows);
 
       //Set up the
       subwayChart
       //Sizes in pixels
-        .width($window.innerWidth * (8/12) * (10/12) - 32 - 8)//parseInt($element[0].getClientRects()[1].width, 10))
-        .height(1000)
+        .width(Math.min($window.innerWidth, 1280) * (7/12) - 16)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 0,
@@ -240,9 +228,14 @@
       subwayChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
-      this.sources = NdxService.getData().timeline.sources;
+    NdxService.ready.then(function() {
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 

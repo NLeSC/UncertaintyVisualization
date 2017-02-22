@@ -1,12 +1,12 @@
 (function() {
   'use strict';
 
-  function PollChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PollChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus, uncertConf) {
     this.initializeChart = function() {
       var stackedAreaChart = dc.lineChart('#' + $element[0].children[0].attributes.id.value);
       // var volumeChart = dc.barChart('#' + $element[0].children[0].attributes.id.value + '-volume');
-      var timeMin = undefined;
-      var timeMax = undefined;
+      var timeMin;
+      var timeMax;
 
       //The dimension for the stackedAreaChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
@@ -185,8 +185,12 @@
       });
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
-      this.initializeChart();
+
+    NdxService.ready.then(function() {
+      if (uncertConf.POLLS) {
+        this.initializeChart();
+      }
+
     }.bind(this));
   }
 

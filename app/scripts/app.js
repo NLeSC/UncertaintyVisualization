@@ -1,5 +1,5 @@
 // The app
-/* global dc:false, d3:false, crossfilter:false, colorbrewer:false */
+/* global dc:false, d3:false, crossfilter:false, colorbrewer:false, dialogPolyfill:false */
 
 (function() {
   'use strict';
@@ -15,6 +15,9 @@
 
   angular.module('uncertApp.colorbrewer', [])
     .constant('colorbrewer', colorbrewer);
+
+  angular.module('uncertApp.dialogPolyfill', [])
+    .constant('dialogPolyfill', dialogPolyfill);
 
 
   /**
@@ -56,7 +59,11 @@
       'uncertApp.allcitationschart',
       'uncertApp.allauthorschart',
       'uncertApp.perspectivelanechart',
-      'uncertApp.perspectivefilters'
+      'uncertApp.perspectivefilters',
+
+      'uncertApp.querySelector',
+
+      'uncertApp.charts'
     ])
     .config(function($compileProvider) {
        // data urls are not allowed by default, so whitelist them
@@ -64,7 +71,7 @@
     })
     .run(function($timeout, DataService) {
       angular.element(document).ready(function () {
-        $timeout(DataService.load(), 1000);
+        DataService.load();
       });
     });
 
@@ -98,7 +105,10 @@
   angular.module('uncertApp.perspectivelanechart', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
   angular.module('uncertApp.perspectivefilters', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.colorbrewer', 'uncertApp.ndx']);
 
+  angular.module('uncertApp.charts', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.ndx']);
+
   angular.module('uncertApp.core', ['uncertApp.utils', 'toastr', 'uncertApp.ndx']);
+  angular.module('uncertApp.querySelector', ['uncertApp.dialogPolyfill', 'uncertApp.core', 'uncertApp.utils']);
   angular.module('uncertApp.fileLoading', ['uncertApp.core','uncertApp.utils']);
   // angular.module('uncertApp.punchcard', ['uncertApp.core','uncertApp.utils', 'uncertApp.d3', 'uncertApp.dc', 'uncertApp.crossfilter', 'uncertApp.colorbrewer']);
   angular.module('uncertApp.breadcrumbs', ['uncertApp.core', 'uncertApp.dc', 'uncertApp.utils']);

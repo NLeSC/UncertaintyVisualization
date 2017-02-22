@@ -1,56 +1,58 @@
 (function() {
   'use strict';
 
-  function NdxService(crossfilter, Messagebus) {
+  function NdxService(DataService, $q, dc, crossfilter, Messagebus, uncertConf) {
     this.data = {};
-    this.dimensions = [];
-    this.pollDimensions = [];
+    this.dimensionCache = [];
+
+    var deferred = $q.defer();
+
+    this.ready = deferred.promise;
 
     this.getData = function() {
       return this.data;
     };
-    
+
     this.getSize = function() {
       return this.ndx.size();
     };
 
     this.readData = function(data) {
+      this.resetData();
+      dc.deregisterAllCharts();
+
       //Crossfilter initialization
       this.data = data;
       this.ndx = crossfilter(data.timeline.events);
-      this.ndxPolls = crossfilter(data.timeline.polls);
 
-      Messagebus.publish('crossfilter ready', this.getData);
-    };
+      if (uncertConf.POLLS) {
+        this.ndxPolls = crossfilter(data.timeline.polls);
+      }
 
-    this.pollDimension = function(keyAccessor) {
-      var newDimension = this.ndxPolls.dimension(keyAccessor);
-      this.pollDimensions.push(newDimension);
-      return newDimension;
+      deferred.resolve();
+      dc.renderAll();
     };
 
     this.buildDimension = function(keyAccessor) {
       var newDimension = this.ndx.dimension(keyAccessor);
-      this.dimensions.push(newDimension);
+      this.dimensionCache.push(newDimension);
       return newDimension;
     };
 
     this.resetData = function() {
-      this.dimensions.forEach(function(d) {
+      this.dimensionCache.forEach(function(d) {
         d.filter(null);
         d.dispose();
       });
-      this.pollDimensions.forEach(function(d) {
-        d.filter(null);
-        d.dispose();
-      });
-      this.ndx.remove();
-      this.ndxPolls.remove();
+
+      if (this.ndx) {
+        this.ndx.remove();
+      }
+
       Messagebus.publish('clearFilters');
     };
 
-    Messagebus.subscribe('data loaded', function (event, newDataGetter) {
-      var newData = newDataGetter();
+    DataService.ready.then(function(newData) {
       if (this.ndx && this.data && newData && this.data !== newData) {
         this.resetData();
         this.readData(newData);

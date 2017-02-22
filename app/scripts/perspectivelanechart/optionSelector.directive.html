@@ -1,3 +1,4 @@
+<b>Color by:</b>
 <form class="radio-parent" name="radioForm" ng-controller="PerspectiveLaneChartOptionSelectorController">
   <label class="radio-child" ng-repeat="option in plcOsCtrl.options">
     <input type="radio" ng-model="plcOsCtrl.selectedOption" value="{{option}}" ng-change="plcOsCtrl.changeOption(option)">{{option}}

@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PerspectiveFiltersController($window, $element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PerspectiveFiltersController($window, $element, d3, dc, colorbrewer, NdxService, Messagebus) {
     this.initializeChart = function() {
       var beliefChart = dc.barChart('#'+$element[0].children[0].children[0].attributes.id.value);
       var certaintyChart = dc.barChart('#'+$element[0].children[0].children[1].attributes.id.value);
@@ -30,10 +30,12 @@
         return belief;
       });
 
+      var widthPerChart = (Math.min($window.innerWidth, 1280) * (7/12) - 16)/5;
+
       var beliefGroup = beliefDimension.group();
 
       beliefChart
-        .width(($window.innerWidth * (8/12) * (10/12) - 32 - 8)/5)
+        .width(widthPerChart)
         .height(100)
         .margins({
           top: 0,
@@ -42,7 +44,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -76,7 +78,7 @@
       var certaintyGroup = certaintyDimension.group();
 
       certaintyChart
-        .width(($window.innerWidth * (8/12) * (10/12) - 32 - 8)/5)
+        .width(widthPerChart)
         .height(100)
         .margins({
           top: 0,
@@ -85,7 +87,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -119,7 +121,7 @@
       var possibilityGroup = possibilityDimension.group();
 
       possibilityChart
-        .width(($window.innerWidth * (8/12) * (10/12) - 32 - 8)/5)
+        .width(widthPerChart)
         .height(100)
         .margins({
           top: 0,
@@ -128,7 +130,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -162,7 +164,7 @@
       var sentimentGroup = sentimentDimension.group();
 
       sentimentChart
-        .width(($window.innerWidth * (8/12) * (10/12) - 32 - 8)/5)
+        .width(widthPerChart)
         .height(100)
         .margins({
           top: 0,
@@ -171,7 +173,7 @@
           left: 0
         })
         .x(d3.scale.linear().domain([-5,5]))
-        .y(d3.scale.linear().domain([0,25]))
+        .y(d3.scale.sqrt().domain([0,25]))
         .colors(colorbrewer.RdBu[3])
         .colorDomain([-1, 1])
         .colorAccessor(function(d) {
@@ -205,7 +207,7 @@
         var whenGroup = whenDimension.group();
 
         whenChart
-          .width(($window.innerWidth * (8/12) * (10/12) - 32 - 8)/5)
+        .width(widthPerChart)
           .height(100)
           .margins({
             top: 0,
@@ -214,7 +216,7 @@
             left: 0
           })
           .x(d3.scale.linear().domain([-5,5]))
-          .y(d3.scale.linear().domain([0,25]))
+          .y(d3.scale.sqrt().domain([0,25]))
           .colors(colorbrewer.RdBu[3])
           .colorDomain([-1, 1])
           .colorAccessor(function(d) {
@@ -233,8 +235,14 @@
       whenChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 

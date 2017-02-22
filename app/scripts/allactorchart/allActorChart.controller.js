@@ -1,10 +1,10 @@
 (function() {
   'use strict';
 
-  function AllActorChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function AllActorChartController($window, $element, uncertConf, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       //A rowChart that shows us the importance of the all actors
-      var allActorChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
+      var allActorChart = dc.rowChart('#'+$element[0].children[1].attributes.id.value);
 
       //Dimension of the list of unique actors present in each event.
       var allActorsDimension = NdxService.buildDimension(function(d) {
@@ -13,32 +13,34 @@
 
       //Custom reduce functions to split events up with multiple keys
       function reduceAdd(p, v) {
-        var keys = Object.keys(v.actors);
-        if (keys.length === 0) {
-          p.none = (p.none || 0) + 1;
-        } else {
+        if (v.actors) {
+          var keys = Object.keys(v.actors);
           keys.forEach(function(key) {
-            var actors = v.actors[key];
-            actors.forEach(function(actor) {
-              p[actor] = (p[actor] || 0) + 1;
+            var keysActors = v.actors[key];
+            keysActors.forEach(function(keysActor) {
+              var actorLabel = key + ' : ' + keysActor;
+              p[actorLabel] = (p[actorLabel] || 0) + 1;
             });
           });
+        } else {
+          p['no actors'] = (p['no actors'] || 0) + 1;
         }
         return p;
       }
 
       function reduceRemove(p, v) {
-        var keys = Object.keys(v.actors);
-        if (keys.length === 0) {
-          p.none = (p.none || 0) - 1;
-        } else {
-          keys.forEach(function(key) {
-            var actors = v.actors[key];
-            actors.forEach(function(actor) {
-              p[actor] = (p[actor] || 0) - 1;
+        if (v.actors) {
+            var keys = Object.keys(v.actors);
+            keys.forEach(function(key) {
+              var keysActors = v.actors[key];
+              keysActors.forEach(function(keysActor) {
+                var actorLabel = key + ' : ' + keysActor;
+                p[actorLabel] = (p[actorLabel] || 0) - 1;
+              });
             });
-          });
-        }
+          } else {
+            p['no actors'] = (p['no actors'] || 0) - 1;
+          }
         return p;
       }
 
@@ -73,11 +75,14 @@
         return p;
       };
 
+      var newChartRows = Math.max(1, Math.min(allActorsClimaxSum.top(Infinity).length, uncertConf.CHART_DIMENSIONS.relationsChartMaxRows));
+      var newHeight = HelperFunctions.determineRelationsChartHeight(newChartRows);
+
       //Set up the
       allActorChart
       //Size in pixels
-        .width($window.innerWidth * (8/12) * (2/12) - 32)//parseInt($element[0].getClientRects()[1].width, 10))
-        .height(1000)
+        .width(Math.min($window.innerWidth, 1280) * (1/12) - 16)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 2,
@@ -101,7 +106,7 @@
         return d.top(50);
       })
 
-      .gap(1)
+      .gap(uncertConf.CHART_DIMENSIONS.relationsChartGapHeight)
       .elasticX(true)
 
       .filterHandler(
@@ -136,13 +141,15 @@
       allActorChart.render();
     };
 
-    Messagebus.subscribe('changingToWrangler',function(event) {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
 
-    // Messagebus.subscribe('crossfilter ready', function() {
-    //   this.initializeChart();
-    // }.bind(this));
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
+    }.bind(this));
   }
 
   angular.module('uncertApp.allactorchart').controller('AllActorChartController', AllActorChartController);

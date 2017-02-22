@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PerspectiveLaneChartController($window, $element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function PerspectiveLaneChartController($window, $element, uncertConf, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
     this.perspectiveOption = 'sentiment';
 
     this.initializeChart = function() {
@@ -164,11 +164,14 @@
         });
       });
 
+      var newChartRows = Math.max(1, Math.min(uniqueSources.length, uncertConf.CHART_DIMENSIONS.perspectiveBubbleChartMaxRows));
+      var newHeight = HelperFunctions.determinePerspectiveBubbleChartHeight(newChartRows);
+
       //Set up the
       this.customBubbleChart
       //Sizes in pixels
-        .width($window.innerWidth * (8/12) * (10/12) - 32 - 8)//parseInt($element[0].getClientRects()[1].width, 10))
-        .height(800)
+        .width(Math.min($window.innerWidth, 1280) * (7/12) -16)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 0,
@@ -358,13 +361,19 @@
       this.customBubbleChart.render();
     }.bind(this);
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
 
     Messagebus.subscribe('newPerspectiveOption', function(event, value) {
       this.perspectiveOption = value;
       this.customBubbleChart.redraw();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 

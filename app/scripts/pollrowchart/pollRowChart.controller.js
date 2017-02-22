@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function PollRowChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function PollRowChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus, uncertConf) {
 
     this.initializeChart = function() {
       var groupRowChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
@@ -42,15 +42,17 @@
         .xAxis().tickValues([]);
 
 
-      dc.override(groupRowChart, 'onClick', function(d) {
+      dc.override(groupRowChart, 'onClick', function() {
       });
 
       // dc.override(groupRowChart, 'onClick', onClickOverride);
       groupRowChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
-      this.initializeChart();
+    NdxService.ready.then(function() {
+      if (uncertConf.POLLS) {
+        this.initializeChart();
+      }
     }.bind(this));
   }
 

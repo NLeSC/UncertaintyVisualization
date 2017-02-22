@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css" />
   <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.css" />
   <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+  <link rel="stylesheet" href="bower_components/dialog-polyfill/dialog-polyfill.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
@@ -21,11 +22,10 @@
 </head>
 
 <body ng-app="uncertApp">
-
-  <div id="rig-window">
-    <div id="progress-bar"></div>
-    <rig-selector></rig-selector>
-  </div>
+  <!--<div id="rig-window">-->
+  <div id="progress-bar"></div>
+  <rig-selector></rig-selector>
+  <!--</div>-->
 
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
@@ -43,6 +43,7 @@
   <script src="bower_components/material-design-lite/material.min.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+  <script src="bower_components/dialog-polyfill/dialog-polyfill.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -91,8 +92,8 @@
   <script src="scripts/serieschart/seriesChart.directive.js"></script>
   <script src="scripts/datatable/dataTable.controller.js"></script>
   <script src="scripts/datatable/dataTable.directive.js"></script>
-  <script src="scripts/dataTable-perspectives/dataTablePerspectives.controller.js"></script>
-  <script src="scripts/dataTable-perspectives/dataTablePerspectives.directive.js"></script>
+  <script src="scripts/datatable-perspectives/dataTablePerspectives.controller.js"></script>
+  <script src="scripts/datatable-perspectives/dataTablePerspectives.directive.js"></script>
 
   <script src="scripts/pollchart/pollChart.controller.js"></script>
   <script src="scripts/pollchart/pollChart.directive.js"></script>
@@ -115,7 +116,14 @@
   <script src="scripts/perspectivefilters/perspectiveFilters.controller.js"></script>
   <script src="scripts/perspectivefilters/perspectiveFilters.directive.js"></script>
 
+  <script src="scripts/fullTextCrossfilterSearch/fullTextCrossfilterSearch.controller.js"></script>
+  <script src="scripts/fullTextCrossfilterSearch/fullTextCrossfilterSearch.directive.js"></script>
+
+  <script src="scripts/querySelector/querySelector.controller.js"></script>
+  <script src="scripts/querySelector/querySelector.directive.js"></script>
+
   <script src="scripts/core/data.service.js"></script>
+  <script src="scripts/core/queryBuilder.service.js"></script>
   <!-- endbuild -->
 </body>
 

@@ -37,6 +37,7 @@ module.exports = function(config) {
       'bower_components/material-design-lite/material.min.js',
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'bower_components/angular-toastr/dist/angular-toastr.tpls.js',
+      'bower_components/dialog-polyfill/dialog-polyfill.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
 

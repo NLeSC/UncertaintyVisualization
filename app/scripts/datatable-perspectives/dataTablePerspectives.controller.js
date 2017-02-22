@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function DataTablePerspectivesController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function DataTablePerspectivesController($element, d3, dc, NdxService, Messagebus) {
     var sourceToHtml = function(d) {
       var result = [];
       var raw = d.mentions;
@@ -83,7 +83,7 @@
           return '';
         })
         .showGroups(false)
-        .size(Infinity)
+        .size(100)
         .sortBy(function(d) {
           return d.time;
         })
@@ -130,8 +130,14 @@
       dataTable.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 

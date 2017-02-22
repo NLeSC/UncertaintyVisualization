@@ -1,9 +1,11 @@
 (function() {
   'use strict';
 
-  function LaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+  function LaneChartController($window, $element, uncertConf, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus) {
+    var customBubbleChart;
+
     this.initializeChart = function() {
-      var customBubbleChart = dc.customBubbleChart('#'+$element[0].children[0].attributes.id.value);
+      customBubbleChart = dc.customBubbleChart('#'+$element[0].children[0].attributes.id.value);
 
       //The dimension for the customBubbleChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
@@ -22,14 +24,19 @@
           //Climax score summed for all events with the same time(day) and group(number).
           p.climax = p.climax + v.climax;
 
-          var keys = Object.keys(v.actors);
-          keys.forEach(function(key) {
-            var keysActors = v.actors[key];
-            keysActors.forEach(function(keysActor) {
-              var actorLabel = key + ' : ' + keysActor;
-              p.actors[actorLabel] = (p.actors[actorLabel] || 0) + v.climax;
+          if (v.actors) {
+            var keys = Object.keys(v.actors);
+            keys.forEach(function(key) {
+              var keysActors = v.actors[key];
+              keysActors.forEach(function(keysActor) {
+                var actorLabel = key + ' : ' + keysActor;
+                p.actors[actorLabel] = (p.actors[actorLabel] || 0) + v.climax;
+              });
             });
-          });
+          } else {
+            p.actors['no actors'] = (p.actors['no actors'] || 0) + v.climax;
+          }
+
 
           //Sum event values over all events fitting this time and group.
           p.events[v.event] = (p.events[v.event] || 0) + v.climax;
@@ -55,14 +62,18 @@
         function(p, v) {
           p.climax = p.climax - v.climax;
 
-          var keys = Object.keys(v.actors);
-          keys.forEach(function(key) {
-            var keysActors = v.actors[key];
-            keysActors.forEach(function(keysActor) {
-              var actorLabel = key + ' : ' + keysActor;
-              p.actors[actorLabel] = (p.actors[actorLabel] || 0) - v.climax;
+          if (v.actors) {
+            var keys = Object.keys(v.actors);
+            keys.forEach(function(key) {
+              var keysActors = v.actors[key];
+              keysActors.forEach(function(keysActor) {
+                var actorLabel = key + ' : ' + keysActor;
+                p.actors[actorLabel] = (p.actors[actorLabel] || 0) - v.climax;
+              });
             });
-          });
+          } else {
+            p.actors['no actors'] = (p.actors['no actors'] || 0) - v.climax;
+          }
 
           p.events[v.event] = (p.events[v.event] || 0) - v.climax;
 
@@ -101,27 +112,27 @@
       function filterOnGroupImportance(sourceGroup) {
         return {
           all: function() {
-            return sourceGroup.all().filter(function(d) {
-              var groupNum = parseInt(d.key[0].split(':')[0]);
-              return groupNum > 1;
-            });
+            return sourceGroup.all();
           },
           top: function(n) {
-            return sourceGroup.top(Infinity).filter(function(d) {
-              var groupNum = parseInt(d.key[0].split(':')[0]);
-              return groupNum > 1;
-            }).slice(0, n);
+            return sourceGroup.top(Infinity).slice(0, n);
           }
         };
       }
       var filteredLaneClimaxGroup = filterOnGroupImportance(laneClimaxGroup);
       var ordinalGroupScale;
 
+      var ordinalDomain = filteredLaneClimaxGroup.all().map(function(d) {
+        return (d.key[0]);
+      });
+      var newChartRows = Math.max(1, Math.min(HelperFunctions.arrayUnique(ordinalDomain).length, uncertConf.CHART_DIMENSIONS.storylineChartMaxRows));
+      var newHeight = HelperFunctions.determineStoryLineChartHeight(newChartRows);
+
       //Set up the
       customBubbleChart
       //Sizes in pixels
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
-        .height(1000)
+        .width(Math.min($window.innerWidth, 1280) * (10/12) - 16)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 0,
@@ -289,13 +300,32 @@
         this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
       });
 
+      // customBubbleChart.on('preRedraw', function(chart) {
+      //   var newChartElements = Math.max(1, Math.min(chart.group().top(Infinity).length, uncertConf.CHART_DIMENSIONS.storylineChartMaxRows));
+      //   var newHeight = HelperFunctions.determineStoryLineChartHeight(newChartElements);
+
+      //   if (chart.height() !== newHeight) {
+      //     chart.height(newHeight);
+      //     chart.render();
+      //   }
+
+      //   chart.data(function(d) {
+      //     return d.top(newChartElements);
+      //   });
+      // });
 
       // dc.override(customBubbleChart, 'onClick', onClickOverride);
       customBubbleChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 

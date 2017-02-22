@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function SelectorController($scope, Messagebus) {
+  function SelectorController($scope) {
     $scope.tab = 1;
 
     var myEl = angular.element( document.querySelector( '#inventory-button' ) );
@@ -11,7 +11,7 @@
       $scope.tab = newTab;
       var c1 = 'white';
       var c2 = 'black';
-      if ($scope.tab == 1){
+      if ($scope.tab === 1){
         c1 = 'black';
         c2 = 'white';
       }
@@ -21,13 +21,9 @@
       var myEl2 = angular.element( document.querySelector( '#relations-button' ) );
       myEl2.removeClass(c1);
       myEl2.addClass(c2);
-      var myEl2 = angular.element( document.querySelector( '#perspectives-button' ) );
-      myEl2.removeClass(c1);
-      myEl2.addClass(c2);
-
-      if (newTab === 2) {
-        Messagebus.publish('changingToWrangler');
-      }
+      var myEl3 = angular.element( document.querySelector( '#perspectives-button' ) );
+      myEl3.removeClass(c1);
+      myEl3.addClass(c2);
     };
 
     $scope.isSet = function(tabNum){

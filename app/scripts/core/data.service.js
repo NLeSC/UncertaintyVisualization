@@ -37,7 +37,7 @@
           }
           me.data = json;
           deferred.resolve(me.data);
-          Messagebus.publish('data loaded', this.getData);
+          // Messagebus.publish('data loaded', this.getData);
           // Messagebus.publish('new data loaded', this.getData);
         }.bind(this));
       } else if (dataType === 'http' || dataType === 'https') {
