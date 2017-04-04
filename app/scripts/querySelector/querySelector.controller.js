@@ -3,33 +3,36 @@
 
   function QuerySelectorController($element, dialogPolyfill, QueryBuilderService) {
     var dialog = $element[0].children[1];
-    this.queryList = undefined;
 
     //register the polyfill for old browsers
     if (! dialog.showModal) {
       dialogPolyfill.registerDialog(dialog);
     }
 
-    this.openDialog = function() {
-      if (! this.queryList) {
-        QueryBuilderService.loadQueries();
-      }
+    this.queryList = undefined;
+
+    this.refreshQueries = function() {
+      QueryBuilderService.loadQueries();
 
       QueryBuilderService.ready.then(function() {
-        this.queryList = QueryBuilderService.getList();
+          this.queryList = QueryBuilderService.getList();
 
-        this.queryList.forEach(function (item) {
-          if (item.status === 0) {
-            item.statusText = 'Pending';
-          } else if (item.status === 1) {
-            item.statusText = 'Ready';
-          } else {
-            item.statusText = 'Error';
-          }
-        });
-
-        dialog.showModal();
+          this.queryList.forEach(function (item) {
+            if (item.status === 0) {
+              item.statusText = 'Pending';
+            } else if (item.status === 1) {
+              item.statusText = 'Ready';
+            } else {
+              item.statusText = 'Error';
+            }
+          });
       }.bind(this));
+    }.bind(this);
+
+    this.openDialog = function() {
+      this.refreshQueries();
+
+      dialog.showModal();
     }.bind(this);
 
     this.closeDialog = function() {
