@@ -299,3 +299,7 @@ p {
 .td-right-align {
     text-align: right;
 }
+
+.querySelectorQueryField {
+    white-space: normal;
+}
