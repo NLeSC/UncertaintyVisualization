@@ -18,7 +18,7 @@
   <full-text-crossfilter-search-directive
       chart-header="Search for keywords"
       ndx-service-name="software"
-      json-fields="actors.actor:, mentions.perspective.source, mentions.snippet, prefLabel, labels"
+      json-fields="actors, mentions.perspective.source, mentions.snippet, prefLabel, labels"
       class="mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
   </full-text-crossfilter-search-directive>
 
@@ -43,19 +43,8 @@
 	<div class="mdl-cell mdl-cell--4-col nav-tab" ng-class="{ active: isSet(3) }">
 		<a id="perspectives-button" href class="btn btn:hover" ng-click="setTab(3)"> View Perspectives </a>
 	</div>
-  <div ng-show="isSet(1)">
-    <view-storylines-directive
-      class="mdl-cell mdl-cell--12-col">
-    </view-storylines-directive>
-  </div>
-  <div ng-show="isSet(2)">
-    <view-relations-directive
-      class="mdl-cell mdl-cell--12-col">
-    </view-relations-directive>
-  </div>
-  <div ng-show="isSet(3)">
-    <view-perspectives-directive
-      class="mdl-cell mdl-cell--12-col">
-    </view-perspectives-directive>
-  </div>
 </div>
+
+<view-storylines-directive ng-show="isSet(1)"></view-storylines-directive>
+<view-relations-directive ng-show="isSet(2)"></view-relations-directive>
+<view-perspectives-directive ng-show="isSet(3)"></view-perspectives-directive>

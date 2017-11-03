@@ -1,0 +1,4020 @@
+{"timeline": {
+    "actor_cnt": [100],
+    "event_cnt": [61],
+    "events": [
+        {
+            "actors": {"pb/A1": ["co:presence_wild-type_vzv_vesicular_fluid_patient_zoster_have_be_immunize_twice_varicella_vaccine__presence_different_vzv_genotype_isolate_immunocompetent_man_different_episode_zoster_?"]},
+            "classes": {"ili": ["i115632"]},
+            "climax": 100,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev143",
+            "labels": ["fluid"],
+            "mentions": [{
+                "char": [
+                    "5044",
+                    "5049"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "cite:someone"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["fluid"],
+            "sentence": "5044",
+            "time": "20150721",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Danger": ["dbp:Varicella_vaccine"],
+                "pb/A3": [
+                    "co:vaccine_prevent_zoster",
+                    "co:vaccine_recipient_man_woman",
+                    "co:vaccine_virus_dna",
+                    "co:finding_vaccine_virus_saliva",
+                    "co:presence_wild-type_vzv_vesicular_fluid_patient_zoster_have_be_immunize_twice_varicella_vaccine__presence_different_vzv_genotype_isolate_immunocompetent_man_different_episode_zoster_?",
+                    "co:transmission_vaccine_virus",
+                    "co:vaccine_recipient"
+                ]
+            },
+            "classes": {
+                "fn": ["Protecting"],
+                "ili": [
+                    "i27244",
+                    "i60757"
+                ]
+            },
+            "climax": 74,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev121",
+            "labels": ["vaccine"],
+            "mentions": [
+                {
+                    "char": [
+                        "3665",
+                        "3672"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "3771",
+                        "3778"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "3905",
+                        "3912"
+                    ],
+                    "perspective": [
+                        {
+                            "attribution": {
+                                "belief": "POS",
+                                "certainty": "CERTAIN",
+                                "when": "RECENT"
+                            },
+                            "source": "cite:AdvisoryCouncilforImmunizationPractices"
+                        },
+                        {
+                            "attribution": {
+                                "belief": "POS",
+                                "certainty": "CERTAIN",
+                                "when": "RECENT"
+                            },
+                            "source": "cite:Food_and_Drug_Administration"
+                        }
+                    ],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4103",
+                        "4110"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "5119",
+                        "5126"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "cite:someone"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "5378",
+                        "5385"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "5501",
+                        "5508"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "5540",
+                        "5547"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["vaccine"],
+            "sentence": "3665",
+            "time": "20110504",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A0": ["co:much_indication_potential_use_diagnosis_vzv_persistence_various_clinical_situation"]},
+            "classes": {
+                "fn": ["Process_continue"],
+                "ili": [
+                    "i34905",
+                    "i62550",
+                    "i63554"
+                ]
+            },
+            "climax": 99,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev139",
+            "labels": ["persistence"],
+            "mentions": [{
+                "char": [
+                    "4764",
+                    "4775"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive"
+                    },
+                    "source": "cite:someone"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["persistence"],
+            "sentence": "4764",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"fn/Communicator": ["co:much_indication_potential_use_diagnosis_vzv_persistence_various_clinical_situation"]},
+            "classes": {
+                "fn": [
+                    "Communication",
+                    "Evidence",
+                    "Sign"
+                ],
+                "ili": [
+                    "i72205",
+                    "i26230"
+                ]
+            },
+            "climax": 99,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev137",
+            "labels": ["indication"],
+            "mentions": [{
+                "char": [
+                    "4712",
+                    "4722"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["indication"],
+            "sentence": "4712",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "eso/inuse-entity_1": ["co:presence_infectious_virus_alcohol_other_agent_be_use_wipe_skin_inoculation"],
+                "fn/Event": ["co:healthy_individual"],
+                "pb/AM-LOC": ["co:much_indication_potential_use_diagnosis_vzv_persistence_various_clinical_situation"]
+            },
+            "classes": {
+                "eso": ["BeingInUse"],
+                "fn": [
+                    "Intentionally_affect",
+                    "Using",
+                    "Using_resource"
+                ],
+                "ili": [
+                    "i27416",
+                    "i27417",
+                    "i40384"
+                ]
+            },
+            "climax": 83,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev111",
+            "labels": ["use"],
+            "mentions": [
+                {
+                    "char": [
+                        "2954",
+                        "2958"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4033",
+                        "4036"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4740",
+                        "4743"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive"
+                        },
+                        "source": "cite:someone"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["use"],
+            "sentence": "2954",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:patient_zoster_level_neuraxis_?"]},
+            "classes": {"ili": [
+                "i110200",
+                "i112825",
+                "i23519",
+                "i28220",
+                "i63762"
+            ]},
+            "climax": 99,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev141",
+            "labels": ["level"],
+            "mentions": [{
+                "char": [
+                    "4881",
+                    "4887"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["level"],
+            "sentence": "4881",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Phenomenon": [
+                    "co:transmission_vaccine_virus",
+                    "co:vzv_dna"
+                ],
+                "pb/A1": ["co:?_subject_man_woman_day"],
+                "pb/AM-LOC": [
+                    "co:asymptomatic_astronaut",
+                    "co:patient_zoster_level_neuraxis_?",
+                    "co:?",
+                    "co:vaccine_recipient"
+                ]
+            },
+            "classes": {
+                "eso": [
+                    "Getting",
+                    "Creating"
+                ],
+                "fn": [
+                    "Becoming_aware",
+                    "Getting",
+                    "Intentionally_create",
+                    "Locating"
+                ],
+                "ili": [
+                    "i25308",
+                    "i26207",
+                    "i29932",
+                    "i29973",
+                    "i32526",
+                    "i32811",
+                    "i33162",
+                    "i33867"
+                ]
+            },
+            "climax": 85,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev115",
+            "labels": ["find"],
+            "mentions": [
+                {
+                    "char": [
+                        "3241",
+                        "3246"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4825",
+                        "4830"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "5528",
+                        "5533"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["find"],
+            "sentence": "3241",
+            "time": "20110504",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"fn/Body_part": ["co:vzv"]},
+            "classes": {
+                "eso": ["IntentionalEvent"],
+                "fn": [
+                    "Experience_bodily_harm",
+                    "Using_resource"
+                ],
+                "ili": [
+                    "i112734",
+                    "i27446",
+                    "i79808",
+                    "i98112"
+                ]
+            },
+            "climax": 98,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev132",
+            "labels": ["strain"],
+            "mentions": [{
+                "char": [
+                    "4254",
+                    "4260"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["strain"],
+            "sentence": "4254",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"fn/Message": [
+                "en:OkaMerck",
+                "co:vzv"
+            ]},
+            "classes": {
+                "fn": ["Statement"],
+                "ili": [
+                    "i26422",
+                    "i26423",
+                    "i26431"
+                ]
+            },
+            "climax": 98,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev130",
+            "labels": ["report"],
+            "mentions": [{
+                "char": [
+                    "4277",
+                    "4285"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["report"],
+            "sentence": "4277",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": [
+                "en:OkaMerck",
+                "co:vzv"
+            ]},
+            "classes": {"ili": [
+                "i36043",
+                "i69361"
+            ]},
+            "climax": 97,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev131",
+            "labels": ["Transmission"],
+            "mentions": [{
+                "char": [
+                    "4224",
+                    "4236"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["Transmission"],
+            "sentence": "4224",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": [
+                "dbp:Varicella_vaccine",
+                "co:chicken_pox"
+            ]},
+            "classes": {"ili": ["i39733"]},
+            "climax": 98,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev133",
+            "labels": ["vaccination"],
+            "mentions": [{
+                "char": [
+                    "4304",
+                    "4315"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["vaccination"],
+            "sentence": "4304",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["dbp:Varicella_vaccine"]},
+            "classes": {"ili": ["i39763"]},
+            "climax": 98,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev134",
+            "labels": ["immunization"],
+            "mentions": [{
+                "char": [
+                    "4349",
+                    "4361"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["immunization"],
+            "sentence": "4349",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "pb/A0": ["en:AdvisoryCouncilforImmunizationPractices"],
+                "pb/A1": ["dbp:Varicella_vaccine"],
+                "pb/A3": ["co:healthy_individual"]
+            },
+            "classes": {"ili": [
+                "i25996",
+                "i26035"
+            ]},
+            "climax": 97,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev124",
+            "labels": ["recommend"],
+            "mentions": [{
+                "char": [
+                    "3966",
+                    "3977"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["recommend"],
+            "sentence": "3966",
+            "time": "20060101",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["dbp:Varicella_vaccine"]},
+            "classes": {"ili": [
+                "i40694",
+                "i58672",
+                "i63513",
+                "i81509"
+            ]},
+            "climax": 90,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev135",
+            "labels": ["sequence"],
+            "mentions": [
+                {
+                    "char": [
+                        "4405",
+                        "4414"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4529",
+                        "4538"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["sequence"],
+            "sentence": "4405",
+            "time": "20110504",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"eso/possession-theme": [
+                "dbp:Varicella_vaccine",
+                "co:inoculation_site",
+                "co:skin_swab"
+            ]},
+            "classes": {
+                "eso": [
+                    "Getting",
+                    "Taking",
+                    "Transportation",
+                    "Increasing"
+                ],
+                "fn": [
+                    "Bringing",
+                    "Change_of_leadership",
+                    "Change_of_quantity_of_possession",
+                    "Earnings_and_losses",
+                    "Getting",
+                    "Removing",
+                    "Taking"
+                ],
+                "ili": [
+                    "i22208",
+                    "i24342",
+                    "i25092",
+                    "i25370",
+                    "i31738",
+                    "i32134",
+                    "i32778",
+                    "i32785",
+                    "i33076",
+                    "i33178",
+                    "i33181",
+                    "i34687",
+                    "i34813",
+                    "i35249"
+                ]
+            },
+            "climax": 87,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev105",
+            "labels": ["take"],
+            "mentions": [
+                {
+                    "char": [
+                        "2671",
+                        "2676"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4451",
+                        "4456"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["take"],
+            "sentence": "2671",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Phenomenon": [
+                    "dbp:Varicella_vaccine",
+                    "co:wild-type_vzv_dna",
+                    "co:vzv_dna"
+                ],
+                "pb/AM-LOC": ["co:?_subject_man_woman"]
+            },
+            "classes": {
+                "fn": ["Perception_experience"],
+                "ili": ["i32526"]
+            },
+            "climax": 77,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev114",
+            "labels": ["detect"],
+            "mentions": [
+                {
+                    "char": [
+                        "3129",
+                        "3137"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "3743",
+                        "3751"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "3824",
+                        "3832"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4379",
+                        "4387"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "4503",
+                        "4511"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["detect"],
+            "sentence": "3129",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:reduce_morbidity_associate_important_public_health_threat"]},
+            "classes": {"ili": ["i112933"]},
+            "climax": 97,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev128",
+            "labels": ["health"],
+            "mentions": [{
+                "char": [
+                    "4209",
+                    "4215"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["health"],
+            "sentence": "4209",
+            "time": "20060101",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"fn/Message": ["co:reduce_morbidity_associate_important_public_health_threat"]},
+            "classes": {
+                "eso": ["BeingInExistence"],
+                "fn": [
+                    "Commitment",
+                    "Existence",
+                    "Reporting"
+                ],
+                "ili": [
+                    "i113429",
+                    "i35141",
+                    "i74635"
+                ]
+            },
+            "climax": 97,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev129",
+            "labels": ["threat"],
+            "mentions": [{
+                "char": [
+                    "4216",
+                    "4222"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["threat"],
+            "sentence": "4216",
+            "time": "20060101",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"eso/translocation-theme": ["co:reduce_morbidity_associate_important_public_health_threat"]},
+            "classes": {
+                "eso": ["Translocation"],
+                "fn": [
+                    "Quitting",
+                    "Self_motion"
+                ],
+                "ili": [
+                    "i31362",
+                    "i36329"
+                ]
+            },
+            "climax": 97,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev126",
+            "labels": ["step"],
+            "mentions": [{
+                "char": [
+                    "4140",
+                    "4144"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["step"],
+            "sentence": "4140",
+            "time": "20060101",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Cognizer": [
+                    "co:genotypic",
+                    "co:random_saliva_sample"
+                ],
+                "fn/Ground": ["co:dna"]
+            },
+            "classes": {
+                "fn": ["Scrutiny"],
+                "ili": [
+                    "i24957",
+                    "i38760"
+                ]
+            },
+            "climax": 96,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev119",
+            "labels": ["analysis"],
+            "mentions": [{
+                "char": [
+                    "3611",
+                    "3619"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["analysis"],
+            "sentence": "3611",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:dna"]},
+            "classes": {"ili": ["i107565"]},
+            "climax": 92,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev103",
+            "labels": ["extraction"],
+            "mentions": [{
+                "char": [
+                    "2615",
+                    "2625"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["extraction"],
+            "sentence": "2615",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:percent_immunized_subject_shed_vzv_dna_28-day_study_period"]},
+            "classes": {"ili": ["i109515"]},
+            "climax": 95,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev117",
+            "labels": ["percent"],
+            "mentions": [{
+                "char": [
+                    "3442",
+                    "3449"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "when": "NONFUTURE"
+                    },
+                    "source": "cite:someone"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["percent"],
+            "sentence": "3442",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Means": ["co:percent_immunized_subject_shed_vzv_dna_28-day_study_period"],
+                "fn/Support": ["co:figure"]
+            },
+            "classes": {
+                "fn": [
+                    "Evidence",
+                    "Reasoning"
+                ],
+                "ili": [
+                    "i30180",
+                    "i25049",
+                    "i26230",
+                    "i26321",
+                    "i26457",
+                    "i26656",
+                    "i32440",
+                    "i32451",
+                    "i32498"
+                ]
+            },
+            "climax": 95,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev116",
+            "labels": ["show"],
+            "mentions": [{
+                "char": [
+                    "3432",
+                    "3437"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["show"],
+            "sentence": "3432",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"fn/Copy": [
+                "co:nanogram_total_dna",
+                "co:vzv_dna"
+            ]},
+            "classes": {
+                "eso": ["Creating"],
+                "fn": [
+                    "Duplication",
+                    "Imitating",
+                    "Intentionally_create"
+                ],
+                "ili": [
+                    "i30214",
+                    "i30449",
+                    "i30471"
+                ]
+            },
+            "climax": 93,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev107",
+            "labels": ["copy"],
+            "mentions": [{
+                "char": [
+                    "2788",
+                    "2792"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["copy"],
+            "sentence": "2788",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Cognizer": [
+                    "co:nanogram_total_dna",
+                    "co:vzv_dna"
+                ],
+                "fn/Topic": ["co:presence_infectious_virus_alcohol_other_agent_be_use_wipe_skin_inoculation"]
+            },
+            "classes": {
+                "fn": ["Cogitation"],
+                "ili": [
+                    "i24900",
+                    "i32435",
+                    "i32438"
+                ]
+            },
+            "climax": 93,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev109",
+            "labels": ["reflect"],
+            "mentions": [{
+                "char": [
+                    "2874",
+                    "2884"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["reflect"],
+            "sentence": "2874",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Item": [
+                    "co:nanogram_total_dna",
+                    "co:vzv_dna_copy_number_nanogram_total_dna",
+                    "co:vzv_dna"
+                ],
+                "fn/Variable": [
+                    "co:?_table",
+                    "co:table"
+                ]
+            },
+            "classes": {
+                "fn": ["Delimitation_of_diversity"],
+                "ili": [
+                    "i35106",
+                    "i35302"
+                ]
+            },
+            "climax": 86,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev108",
+            "labels": ["range"],
+            "mentions": [
+                {
+                    "char": [
+                        "2826",
+                        "2832"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "3568",
+                        "3574"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["range"],
+            "sentence": "2826",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": [
+                "co:nanogram_total_dna",
+                "co:vzv_dna_copy_number_nanogram_total_dna"
+            ]},
+            "classes": {"ili": ["i108973"]},
+            "climax": 86,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev110",
+            "labels": ["nanogram"],
+            "mentions": [
+                {
+                    "char": [
+                        "2804",
+                        "2812"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                },
+                {
+                    "char": [
+                        "3546",
+                        "3554"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+                }
+            ],
+            "prefLabel": ["nanogram"],
+            "sentence": "2804",
+            "time": "20060101",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": [
+                "co:us",
+                "co:paralytic_polio"
+            ]},
+            "classes": {"ili": ["i75788"]},
+            "climax": 91,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev124",
+            "labels": ["outbreak"],
+            "mentions": [{
+                "char": [
+                    "2400",
+                    "2408"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["outbreak"],
+            "sentence": "2400",
+            "time": "20110701",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Production": ["co:paralytic_polio"],
+                "pb/A1": ["co:national_stage"]
+            },
+            "classes": {
+                "eso": ["Creating"],
+                "fn": [
+                    "Behind_the_scenes",
+                    "Containing",
+                    "Intentionally_create"
+                ],
+                "ili": [
+                    "i110200",
+                    "i117602",
+                    "i29977",
+                    "i30302"
+                ]
+            },
+            "climax": 84,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev107",
+            "labels": ["stage"],
+            "mentions": [
+                {
+                    "char": [
+                        "1653",
+                        "1658"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "8364",
+                        "8369"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["stage"],
+            "sentence": "1653",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "eso/atPlace-location": ["co:classic_presentation_paralytic_polio_flaccid_asymmetric_limb_paralysis_high_fever_intense_muscle_pain.1"],
+                "pb/A2": ["co:1--2_?"]
+            },
+            "classes": {
+                "eso": ["BeingAtAPlace"],
+                "fn": ["Presence"],
+                "ili": [
+                    "i38130",
+                    "i40906",
+                    "i52984",
+                    "i72715",
+                    "i74319",
+                    "i25556",
+                    "i26920",
+                    "i32498",
+                    "i35277"
+                ]
+            },
+            "climax": 86,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev103",
+            "labels": ["presentation"],
+            "mentions": [{
+                "char": [
+                    "1529",
+                    "1541"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["presentation"],
+            "sentence": "1529",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:classic_presentation_paralytic_polio_flaccid_asymmetric_limb_paralysis_high_fever_intense_muscle_pain.1"]},
+            "climax": 86,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev105",
+            "labels": ["pain.1"],
+            "mentions": [{
+                "char": [
+                    "1629",
+                    "1635"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["pain.1"],
+            "sentence": "1629",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Topic": ["co:classic_viral_prodrome_fever_sore_throat"],
+                "pb/A2": ["co:classic_presentation_paralytic_polio_flaccid_asymmetric_limb_paralysis_high_fever_intense_muscle_pain.1"]
+            },
+            "classes": {
+                "fn": ["Emotion_active"],
+                "ili": [
+                    "i112490",
+                    "i30884"
+                ]
+            },
+            "climax": 77,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev101",
+            "labels": ["fever"],
+            "mentions": [
+                {
+                    "char": [
+                        "1475",
+                        "1480"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "1603",
+                        "1608"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["fever"],
+            "sentence": "1475",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "pb/A1": [
+                    "co:classic_presentation_paralytic_polio_flaccid_asymmetric_limb_paralysis_high_fever_intense_muscle_pain.1",
+                    "co:paralysis_death_several_child",
+                    "co:use_porcelain_size_exclusion_filter_polio_paralysis_be_cause_something_small_bacteria",
+                    "co:patient",
+                    "co:vaccine"
+                ],
+                "pb/AM-LOC": [
+                    "en:UnitedStates19",
+                    "co:much_dose",
+                    "dbp:Cutter_(boat)",
+                    "dbp:Wyeth",
+                    "co:polio"
+                ]
+            },
+            "classes": {"ili": ["i113511"]},
+            "climax": 72,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev104",
+            "labels": ["paralysis"],
+            "mentions": [
+                {
+                    "char": [
+                        "10250",
+                        "10259"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "1587",
+                        "1596"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "1820",
+                        "1829"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "2071",
+                        "2080"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "2956",
+                        "2965"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["paralysis"],
+            "sentence": "1587",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {"pb/A1": [
+                "co:muscle",
+                "co:child",
+                "co:control",
+                "co:fact_trial_be_so_large_entire_process_require_volunteer_carry_trial_design_be_unique_different_clinical_trial_be_conduct_simultaneously_base_control_group_use_study_region"
+            ]},
+            "classes": {
+                "fn": ["Congregating"],
+                "ili": [
+                    "i25009",
+                    "i27044",
+                    "i35589"
+                ]
+            },
+            "climax": 80,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev116",
+            "labels": ["group"],
+            "mentions": [
+                {
+                    "char": [
+                        "1957",
+                        "1963"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "5316",
+                        "5322"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "5814",
+                        "5819"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "6442",
+                        "6447"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["group"],
+            "sentence": "1957",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Event": ["co:person_mostly_child"],
+                "fn/Participants": [
+                    "co:epidemic_involve_almost_cases.4",
+                    "co:involve_case_figure_1_major_us_epidemic_be_involve_case_death",
+                    "co:child",
+                    "co:observed_control",
+                    "co:passive_immunization"
+                ]
+            },
+            "classes": {
+                "fn": ["Participation"],
+                "ili": [
+                    "i34813",
+                    "i34853",
+                    "i35046",
+                    "i35048"
+                ]
+            },
+            "climax": 75,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev125",
+            "labels": ["involve"],
+            "mentions": [
+                {
+                    "char": [
+                        "2451",
+                        "2460"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "2524",
+                        "2533"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "2707",
+                        "2716"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "4435",
+                        "4443"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "5381",
+                        "5390"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["involve"],
+            "sentence": "2451",
+            "time": "20110701",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["en:CDCgovWeb"]},
+            "classes": {"ili": ["i82434"]},
+            "climax": 72,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20131106075027/http://www.cdc.gov:80/vaccines/vpd-vac/j-enceph/#ev13",
+            "labels": ["site"],
+            "mentions": [{
+                "char": [
+                    "478",
+                    "482"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "when": "NONFUTURE"
+                    },
+                    "source": "cite:someone"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20131106075027/http://www.cdc.gov:80/vaccines/vpd-vac/j-enceph/"
+            }],
+            "prefLabel": ["site"],
+            "sentence": "478",
+            "time": "20070601",
+            "topics": [
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4428",
+                "http://eurovoc.europa.eu/4502",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/616"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Proposition": ["en:CDCgovWeb"],
+                "fn/Support": ["co:symbol"]
+            },
+            "classes": {
+                "fn": ["Evidence"],
+                "ili": [
+                    "i25248",
+                    "i26375",
+                    "i34848"
+                ]
+            },
+            "climax": 71,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20131106075027/http://www.cdc.gov:80/vaccines/vpd-vac/j-enceph/#ev11",
+            "labels": ["mean"],
+            "mentions": [{
+                "char": [
+                    "440",
+                    "445"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "NONFUTURE"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20131106075027/http://www.cdc.gov:80/vaccines/vpd-vac/j-enceph/"
+            }],
+            "prefLabel": ["mean"],
+            "sentence": "440",
+            "time": "20070601",
+            "topics": [
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4428",
+                "http://eurovoc.europa.eu/4502",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/616"
+            ]
+        },
+        {
+            "actors": {
+                "eso/quantity-item": ["co:vaccine_product_line"],
+                "fn/Agent": [
+                    "dbp:New_York",
+                    "dbp:Pfizer"
+                ]
+            },
+            "classes": {
+                "eso": ["Increasing"],
+                "fn": [
+                    "Cause_expansion",
+                    "Expansion"
+                ],
+                "ili": [
+                    "i23003",
+                    "i23039",
+                    "i23277",
+                    "i24440",
+                    "i32131",
+                    "i26377"
+                ]
+            },
+            "climax": 53,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20160226231318/http://www.thevaccinereaction.org:80/2015/07/pfizer-vaccines-from-cradle-to-grave/#ev12",
+            "labels": ["expand"],
+            "mentions": [{
+                "char": [
+                    "92",
+                    "101"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20160226231318/http://www.thevaccinereaction.org:80/2015/07/pfizer-vaccines-from-cradle-to-grave/"
+            }],
+            "prefLabel": ["expand"],
+            "sentence": "92",
+            "time": "20150721",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2988",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {"pb/A1": [
+                "dbp:Israel",
+                "dbp:Deerfield",
+                "_New_Hampshire",
+                "dbp:New_York"
+            ]},
+            "climax": 45,
+            "group": "100:[vaccine]",
+            "groupName": "[vaccine]",
+            "groupScore": "100",
+            "instance": "http://web.archive.org/web/20160226231318/http://www.thevaccinereaction.org:80/2015/07/pfizer-vaccines-from-cradle-to-grave/#ev13",
+            "labels": ["Inc."],
+            "mentions": [
+                {
+                    "char": [
+                        "1476",
+                        "1480"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20160226231318/http://www.thevaccinereaction.org:80/2015/07/pfizer-vaccines-from-cradle-to-grave/"
+                },
+                {
+                    "char": [
+                        "52",
+                        "56"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "CERTAIN",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20160226231318/http://www.thevaccinereaction.org:80/2015/07/pfizer-vaccines-from-cradle-to-grave/"
+                }
+            ],
+            "prefLabel": ["Inc."],
+            "sentence": "52",
+            "time": "20160225",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2988",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:electric"]},
+            "classes": {"ili": [
+                "i56060",
+                "i56061",
+                "i56063"
+            ]},
+            "climax": 99,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20160706032856/http://patient.info/health/japanese-encephalitis-immunisation#ev121",
+            "labels": ["mat"],
+            "mentions": [{
+                "char": [
+                    "4911",
+                    "4914"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20160706032856/http://patient.info/health/japanese-encephalitis-immunisation"
+            }],
+            "prefLabel": ["mat"],
+            "sentence": "4911",
+            "time": "20061011",
+            "topics": [
+                "http://eurovoc.europa.eu/1524",
+                "http://eurovoc.europa.eu/1445",
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2356",
+                "http://eurovoc.europa.eu/2560",
+                "http://eurovoc.europa.eu/4636"
+            ]
+        },
+        {
+            "actors": {"fn/Place": ["co:vaccine_prevent_zoster"]},
+            "classes": {
+                "fn": [
+                    "Cause_to_make_progress",
+                    "Coming_to_be"
+                ],
+                "ili": [
+                    "i107495",
+                    "i107620",
+                    "i34794",
+                    "i36707"
+                ]
+            },
+            "climax": 97,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev125",
+            "labels": ["development"],
+            "mentions": [{
+                "char": [
+                    "4086",
+                    "4097"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["development"],
+            "sentence": "4086",
+            "time": "20060101",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:vaccine_virus_dna"]},
+            "classes": {"ili": ["i114985"]},
+            "climax": 96,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev122",
+            "labels": ["DNA"],
+            "mentions": [{
+                "char": [
+                    "3679",
+                    "3682"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["DNA"],
+            "sentence": "3679",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A2": ["co:limit_size_duration_spread_mump_outbreaks._denotes_glossary_term_text_virus_tiny_organism_multiplies_cell_cause_disease_such_chickenpox_measle_mump_rubella_pertussis_hepatitis"]},
+            "classes": {"ili": ["i63794"]},
+            "climax": 96,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20161020224050/http://www.vaccines.gov/diseases/mumps/#ev109",
+            "labels": ["size"],
+            "mentions": [{
+                "char": [
+                    "3770",
+                    "3774"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20161020224050/http://www.vaccines.gov/diseases/mumps/"
+            }],
+            "prefLabel": ["size"],
+            "sentence": "3770",
+            "time": "20150101",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/192",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Asset": ["dbp:Japan"],
+                "fn/Protection": ["co:much_person_receive"]
+            },
+            "classes": {
+                "fn": ["Protecting"],
+                "ili": [
+                    "i27244",
+                    "i39702"
+                ]
+            },
+            "climax": 94,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20160605205834/http://www.nhs.uk/conditions/japanese-encephalitis/Pages/Introduction.aspx#ev116",
+            "labels": ["protection"],
+            "mentions": [{
+                "char": [
+                    "3164",
+                    "3174"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20160605205834/http://www.nhs.uk/conditions/japanese-encephalitis/Pages/Introduction.aspx"
+            }],
+            "prefLabel": ["protection"],
+            "sentence": "3164",
+            "time": "20150727",
+            "topics": [
+                "http://eurovoc.europa.eu/1524",
+                "http://eurovoc.europa.eu/1445",
+                "http://eurovoc.europa.eu/1598",
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/192",
+                "http://eurovoc.europa.eu/4636"
+            ]
+        },
+        {
+            "actors": {"pb/A0": ["co:presence_infectious_virus_alcohol_other_agent_be_use_wipe_skin_inoculation"]},
+            "classes": {"ili": ["i28679"]},
+            "climax": 93,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev112",
+            "labels": ["wipe"],
+            "mentions": [{
+                "char": [
+                    "2962",
+                    "2966"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["wipe"],
+            "sentence": "2962",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "classes": {
+                "fn": ["Processing_materials"],
+                "ili": [
+                    "i24929",
+                    "i33917",
+                    "i24293"
+                ]
+            },
+            "climax": 92,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev102",
+            "labels": ["process"],
+            "mentions": [{
+                "char": [
+                    "2597",
+                    "2606"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["process"],
+            "sentence": "2597",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "classes": {
+                "fn": ["Communicate_categorization"],
+                "ili": [
+                    "i26422",
+                    "i26520",
+                    "i29642"
+                ]
+            },
+            "climax": 92,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev104",
+            "labels": ["describe"],
+            "mentions": [{
+                "char": [
+                    "2629",
+                    "2638"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["describe"],
+            "sentence": "2629",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:?"]},
+            "climax": 92,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev101",
+            "mentions": [{
+                "char": [
+                    "2589",
+                    "2590"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["C"],
+            "sentence": "2589",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {"pb/A1": ["co:minute"]},
+            "classes": {"ili": ["i117558"]},
+            "climax": 91,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/#ev100",
+            "labels": ["rpm"],
+            "mentions": [{
+                "char": [
+                    "2535",
+                    "2538"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150918222355/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3096786/"
+            }],
+            "prefLabel": ["rpm"],
+            "sentence": "2535",
+            "time": "20110601",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/2828",
+                "http://eurovoc.europa.eu/454",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/5181"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Principle": [
+                    "dbp:George_Bernard_Shaw",
+                    "dbp:Harvard_University"
+                ],
+                "fn/State_of_affairs": ["co:1_iron_lung_permit_breathing"]
+            },
+            "classes": {
+                "eso": ["IntentionalEvent"],
+                "fn": [
+                    "Grant_permission",
+                    "Permitting"
+                ],
+                "ili": [
+                    "i25686",
+                    "i33850"
+                ]
+            },
+            "climax": 90,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev120",
+            "labels": ["permit"],
+            "mentions": [{
+                "char": [
+                    "2255",
+                    "2261"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["permit"],
+            "sentence": "2255",
+            "time": "20110701",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "classes": {
+                "fn": ["Recovery"],
+                "ili": [
+                    "i107435",
+                    "i35646",
+                    "i75702",
+                    "i22234"
+                ]
+            },
+            "climax": 89,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev117",
+            "labels": ["recovery"],
+            "mentions": [{
+                "char": [
+                    "1976",
+                    "1984"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["recovery"],
+            "sentence": "1976",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "classes": {"ili": [
+                "i109343",
+                "i35018",
+                "i64041"
+            ]},
+            "climax": 89,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev118",
+            "labels": ["function"],
+            "mentions": [{
+                "char": [
+                    "2021",
+                    "2029"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["function"],
+            "sentence": "2021",
+            "time": "20110701",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "eso/translocation-goal": ["co:enough_strength_return_independent_ventilation"],
+                "eso/translocation-theme": ["co:respiratory_muscle"]
+            },
+            "classes": {
+                "eso": ["Arriving"],
+                "fn": [
+                    "Arriving",
+                    "Resurrection"
+                ],
+                "ili": [
+                    "i23669",
+                    "i31761"
+                ]
+            },
+            "climax": 88,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev112",
+            "labels": ["return"],
+            "mentions": [{
+                "char": [
+                    "1892",
+                    "1898"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["return"],
+            "sentence": "1892",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "classes": {"ili": [
+                "i36798",
+                "i39773"
+            ]},
+            "climax": 88,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev114",
+            "labels": ["ventilation"],
+            "mentions": [{
+                "char": [
+                    "1914",
+                    "1925"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["ventilation"],
+            "sentence": "1914",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "classes": {
+                "eso": ["Taking"],
+                "fn": [
+                    "Arrest",
+                    "Taking"
+                ],
+                "ili": [
+                    "i27698",
+                    "i35870"
+                ]
+            },
+            "climax": 87,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev109",
+            "labels": ["arrest"],
+            "mentions": [{
+                "char": [
+                    "1765",
+                    "1771"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["arrest"],
+            "sentence": "1765",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Principle": [
+                    "co:paralysis_thus_allow_patient_little_survive_disease.2",
+                    "co:design"
+                ],
+                "fn/State_of_affairs": ["co:direct_measurement_actual_effectiveness_vaccine"]
+            },
+            "classes": {
+                "eso": ["IntentionalEvent"],
+                "fn": [
+                    "Grant_permission",
+                    "Permitting"
+                ],
+                "ili": [
+                    "i25686",
+                    "i33850"
+                ]
+            },
+            "climax": 87,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev123",
+            "labels": ["allow"],
+            "mentions": [
+                {
+                    "char": [
+                        "2317",
+                        "2325"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "6227",
+                        "6232"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["allow"],
+            "sentence": "2317",
+            "time": "20110701",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {"pb/A1": [
+                "co:classic_viral_prodrome_fever_sore_throat",
+                "co:poliovirus"
+            ]},
+            "classes": {"ili": [
+                "i60219",
+                "i66072"
+            ]},
+            "climax": 85,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev100",
+            "labels": ["throat"],
+            "mentions": [{
+                "char": [
+                    "1490",
+                    "1496"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "UNCERTAIN",
+                        "possibility": "PROBABLE",
+                        "sentiment": "positive",
+                        "when": "RECENT"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+            }],
+            "prefLabel": ["throat"],
+            "sentence": "1490",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Cause": [
+                    "co:incomplete_recovery",
+                    "co:serious_consequence_result_rapid_translation"
+                ],
+                "fn/Effect": [
+                    "co:good_residual_function",
+                    "dbp:Field_trial"
+                ]
+            },
+            "classes": {
+                "fn": ["Causation"],
+                "ili": [
+                    "i34843",
+                    "i97562"
+                ]
+            },
+            "climax": 84,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev115",
+            "labels": ["result"],
+            "mentions": [
+                {
+                    "char": [
+                        "10944",
+                        "10950"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "1997",
+                        "2003"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "6865",
+                        "6872"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["result"],
+            "sentence": "1997",
+            "time": "20110801",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Arguer": [
+                    "en:Landsteiner",
+                    "co:incident",
+                    "dbp:Karl_Popper",
+                    "co:study",
+                    "co:vaccine"
+                ],
+                "fn/Content": [
+                    "co:use_porcelain_size_exclusion_filter_polio_paralysis_be_cause_something_small_bacteria",
+                    "co:?_effectiveness",
+                    "co:fold_increase_serum_polio_titer",
+                    "co:lack_oversight"
+                ],
+                "sem/hasPlace": ["co:placebo_control"]
+            },
+            "classes": {
+                "fn": ["Reasoning"],
+                "ili": [
+                    "i25049",
+                    "i32498"
+                ]
+            },
+            "climax": 83,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/#ev132",
+            "labels": ["demonstrate"],
+            "mentions": [
+                {
+                    "char": [
+                        "10644",
+                        "10656"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "2893",
+                        "2905"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "4675",
+                        "4687"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                },
+                {
+                    "char": [
+                        "7291",
+                        "7303"
+                    ],
+                    "perspective": [{
+                        "attribution": {
+                            "belief": "POS",
+                            "certainty": "UNCERTAIN",
+                            "possibility": "PROBABLE",
+                            "sentiment": "positive",
+                            "when": "RECENT"
+                        },
+                        "source": "author:unknown"
+                    }],
+                    "snippet": ["Could not find the original text."],
+                    "snippet_char": [
+                        0,
+                        0
+                    ],
+                    "uri": "http://web.archive.org/web/20150402140421/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2928990/"
+                }
+            ],
+            "prefLabel": ["demonstrate"],
+            "sentence": "2893",
+            "time": "20101219",
+            "topics": [
+                "http://eurovoc.europa.eu/1755",
+                "http://eurovoc.europa.eu/1856",
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/994"
+            ]
+        },
+        {
+            "actors": {
+                "fn/Experiencer": [
+                    "dbp:Centers_for_Disease_Control_and_Prevention",
+                    "en:ExitNotification",
+                    "co:disclaimer"
+                ],
+                "pb/A2": ["co:much"]
+            },
+            "classes": {
+                "fn": [
+                    "Experiencer_obj",
+                    "Stimulus_focus"
+                ],
+                "ili": ["i30803"]
+            },
+            "climax": 73,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://web.archive.org/web/20131106075027/http://www.cdc.gov:80/vaccines/vpd-vac/j-enceph/#ev14",
+            "labels": ["please"],
+            "mentions": [{
+                "char": [
+                    "506",
+                    "512"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive",
+                        "when": "NONFUTURE"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://web.archive.org/web/20131106075027/http://www.cdc.gov:80/vaccines/vpd-vac/j-enceph/"
+            }],
+            "prefLabel": ["please"],
+            "sentence": "506",
+            "time": "20070601",
+            "topics": [
+                "http://eurovoc.europa.eu/4281",
+                "http://eurovoc.europa.eu/4428",
+                "http://eurovoc.europa.eu/4502",
+                "http://eurovoc.europa.eu/4635",
+                "http://eurovoc.europa.eu/4636",
+                "http://eurovoc.europa.eu/616"
+            ]
+        },
+        {
+            "actors": {"pb/A3": ["co:vaccine"]},
+            "classes": {
+                "fn": ["Protecting"],
+                "ili": [
+                    "i27244",
+                    "i60757"
+                ]
+            },
+            "climax": 27,
+            "group": "072:[information transfer]",
+            "groupName": "[information transfer]",
+            "groupScore": "072",
+            "instance": "http://icequeen-of-jotunheim.tumblr.com/post/152415794303/flushot-vaccine-at-vasa-centralsjukhus#ev1",
+            "labels": ["vaccine"],
+            "mentions": [{
+                "char": [
+                    "10",
+                    "17"
+                ],
+                "perspective": [{
+                    "attribution": {
+                        "belief": "POS",
+                        "certainty": "CERTAIN",
+                        "sentiment": "positive"
+                    },
+                    "source": "author:unknown"
+                }],
+                "snippet": ["Could not find the original text."],
+                "snippet_char": [
+                    0,
+                    0
+                ],
+                "uri": "http://icequeen-of-jotunheim.tumblr.com/post/152415794303/flushot-vaccine-at-vasa-centralsjukhus"
+            }],
+            "prefLabel": ["vaccine"],
+            "sentence": "10",
+            "time": "20161028"
+        }
+    ],
+    "mention_cnt": [2],
+    "story_cnt": [96]
+}}

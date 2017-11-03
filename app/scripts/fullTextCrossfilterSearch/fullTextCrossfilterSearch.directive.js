@@ -9,7 +9,7 @@
       controllerAs: 'fTCSCtrl',
       scope: true,
       link: function(scope, element, attributes, ctrl) {
-        ctrl.linkedInit(element, attributes.ndxServiceName, attributes.jsonFields, attributes.chartHeader);
+        ctrl.linkedInit(attributes.jsonFields, attributes.chartHeader);
       }
     };
   }

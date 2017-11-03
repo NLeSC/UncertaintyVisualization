@@ -1,18 +1,26 @@
 <button id="show-dialog" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" ng-click="qs.openDialog()">Select Dataset</button>
 <dialog class="mdl-dialog">
+    <!--<div class="mdl-cell mdl-cell--11-col">-->
     <h4 class="mdl-dialog__title">Please select a query result to display.</h4>
-    <div class="mdl-dialog__content">
-        <table>
+    <!--</div>
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-cell mdl-cell--1-col">-->
+    <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" ng-click="qs.refreshQueries()" style="margin-top:20px; position: absolute; right: 1%; top: 1%;">
+            <i class="material-icons">autorenew</i>
+        </button>
+    <!--</div>-->
+    <div class="mdl-dialog__content mdl-cell mdl-cell--12-col">
+        <table class="query-table">
             <tr class="query-selector-item" ng-repeat="query in qs.queryList">
                 <td>{{query.id}}</td>
                 <td>{{query.username}}</td>
-                <td>{{query.status}}</td>
-                <td>{{query.query}}</td>
-                <td><button type="button" class="mdl-button mdl-button--raised mdl-button--colored" ng-click="qs.selectQuery(query)">Load</button></td>
+                <td>{{query.statusText}}</td>
+                <td class="querySelectorQueryField">{{query.query}}</td>
+                <td class="td-right-align"><button type="button" class="mdl-button mdl-button--raised mdl-button--colored" ng-click="qs.selectQuery(query)">Load</button></td>
             </tr>
         </table>
     </div>
     <div class="mdl-dialog__actions">
-      <button type="button" class="mdl-button" ng-click="qs.closeDialog()">Cancel</button>
+        <button type="button" class="mdl-button" ng-click="qs.closeDialog()">Cancel</button>
     </div>
-  </dialog>
+</dialog>

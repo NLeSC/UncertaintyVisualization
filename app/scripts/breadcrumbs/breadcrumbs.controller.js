@@ -41,15 +41,40 @@
         me.filters = [];
         var charts = Object.keys(me.charts);
         charts.forEach(function(chartID) {
+          var anchorName = me.charts[chartID].anchorName();
           me.charts[chartID].filters().forEach(function(f) {
-            me.filters.push(
-              {
-                chartID: chartID,
-                filter: f,
-                filterString: f.toString(),
-                dimension: dimension
-              }
-            );
+            var filterText = f.toString();
+            if (f.filterType === 'RangedTwoDimensionalFilter') {
+              var dateLeft = new Date(f[0][0]);
+              var dateRight = new Date(f[1][0]);
+              var bottom = Math.round(f[0][1]);
+              var top = Math.round(f[1][1]);
+
+              var textLeftBottom = dateLeft.getFullYear() + '-' + dateLeft.getMonth() + '-' + dateLeft.getDay() + ' / ' + bottom;
+              var textRightTop = dateRight.getFullYear() + '-' + dateRight.getMonth() + '-' + dateRight.getDay() + ' / ' + top;
+              filterText = textLeftBottom + ' : ' + textRightTop;
+            } else if (f.filterType === 'RangedFilter') {
+              filterText = (f[0]).toPrecision(2) + ' : ' + (f[1]).toPrecision(2);
+            } else if (f instanceof Array) {
+              filterText = '';
+              f.forEach(function(element) {
+                var textElement = '';
+                var date = new Date(element);
+                if (date instanceof Date && !isNaN(date.valueOf())) {
+                  textElement = date.getFullYear() + '-' + date.getMonth() + '-' + date.getDay();
+                } else {
+                  textElement = element.toString();
+                }
+                filterText += ' ' + textElement;
+              });
+            }
+
+            me.filters.push({
+              chartID: chartID,
+              filter: f,
+              filterString: anchorName+'['+filterText+']',
+              dimension: dimension
+            });            
           });
         });
       });

@@ -1,8 +1,14 @@
 (function() {
   'use strict';
 
-  function FullTextCrossfilterSearchController($scope, $element, d3, dc, NdxService, HelperFunctions) {
+  function FullTextCrossfilterSearchController($scope, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.input ='';
+
+    this.initializeClass = function(jsonFields, chartHeader) {
+      this.jsonFields = jsonFields;
+      this.chartHeader = chartHeader;
+    };
+    
 
     this.applyFilter = function() {
       var key = this.input;
@@ -26,11 +32,8 @@
       dc.redrawAll();
     };
 
-    this.initializeChart = function(element, jsonFields, chartHeader) {
-      var ctrl = this;
-      ctrl.chartHeader = chartHeader;
-
-      var fields = jsonFields.split(',');
+    this.initializeChart = function() {
+      var fields = this.jsonFields.split(',');
       fields.forEach(function (field, index) {
         fields[index] = field.trim();
       });
@@ -38,11 +41,18 @@
       this.dimension = HelperFunctions.buildDimensionWithProperties(NdxService, fields);
     };
 
-    this.linkedInit = function(element, ndxServiceName, jsonFields, chartHeader) {
+    this.linkedInit = function(jsonFields, chartHeader) {
       NdxService.ready.then(function() {
-        this.initializeChart(element, jsonFields, chartHeader);
+        this.initializeClass(jsonFields, chartHeader);
+        this.initializeChart();
       }.bind(this));
     };
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {        
+        this.initializeChart();
+      }.bind(this));
+    }.bind(this));
   }
 
   angular.module('uncertApp.charts').controller('FullTextCrossfilterSearchController', FullTextCrossfilterSearchController);

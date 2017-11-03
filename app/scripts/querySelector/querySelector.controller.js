@@ -28,6 +28,26 @@
         }.bind(this));
     }.bind(this);
 
+    this.queryList = undefined;
+
+    this.refreshQueries = function() {
+      QueryBuilderService.loadQueries();
+
+      QueryBuilderService.ready.then(function() {
+          this.queryList = QueryBuilderService.getList();
+
+          this.queryList.forEach(function (item) {
+            if (item.status === 0) {
+              item.statusText = 'Pending';
+            } else if (item.status === 1) {
+              item.statusText = 'Ready';
+            } else {
+              item.statusText = 'Error';
+            }
+          });
+      }.bind(this));
+    }.bind(this);
+
     this.openDialog = function() {
       this.refreshQueries();
 

@@ -82,7 +82,7 @@
         .width(Math.min($window.innerWidth, 1280) * (1/12) - 16)
         .height(newHeight)
         .margins({
-          top: 10,
+          top: 0,
           right: 2,
           bottom: 0,
           left: 2
@@ -138,6 +138,12 @@
 
     NdxService.ready.then(function() {
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 

@@ -13,32 +13,34 @@
 
       //Custom reduce functions to split events up with multiple keys
       function reduceAdd(p, v) {
-        var keys = Object.keys(v.actors);
-        if (keys.length === 0) {
-          p.none = (p.none || 0) + 1;
-        } else {
+        if (v.actors) {
+          var keys = Object.keys(v.actors);
           keys.forEach(function(key) {
-            var actors = v.actors[key];
-            actors.forEach(function(actor) {
-              p[actor] = (p[actor] || 0) + 1;
+            var keysActors = v.actors[key];
+            keysActors.forEach(function(keysActor) {
+              var actorLabel = key + ' : ' + keysActor;
+              p[actorLabel] = (p[actorLabel] || 0) + 1;
             });
           });
+        } else {
+          p['no actors'] = (p['no actors'] || 0) + 1;
         }
         return p;
       }
 
       function reduceRemove(p, v) {
-        var keys = Object.keys(v.actors);
-        if (keys.length === 0) {
-          p.none = (p.none || 0) - 1;
-        } else {
-          keys.forEach(function(key) {
-            var actors = v.actors[key];
-            actors.forEach(function(actor) {
-              p[actor] = (p[actor] || 0) - 1;
+        if (v.actors) {
+            var keys = Object.keys(v.actors);
+            keys.forEach(function(key) {
+              var keysActors = v.actors[key];
+              keysActors.forEach(function(keysActor) {
+                var actorLabel = key + ' : ' + keysActor;
+                p[actorLabel] = (p[actorLabel] || 0) - 1;
+              });
             });
-          });
-        }
+          } else {
+            p['no actors'] = (p['no actors'] || 0) - 1;
+          }
         return p;
       }
 
@@ -141,6 +143,12 @@
 
     NdxService.ready.then(function() {
       this.initializeChart();
+    }.bind(this));
+
+    Messagebus.subscribe('data loaded', function() {
+      NdxService.ready.then(function() {
+        this.initializeChart();
+      }.bind(this));
     }.bind(this));
   }
 
