@@ -4,8 +4,8 @@
   function PollLaneChartController($element, d3, dc, colorbrewer, NdxService, HelperFunctions, Messagebus, uncertConf) {
     this.initializeChart = function() {
       var customBubbleChart = dc.customBubbleChart('#'+$element[0].children[0].attributes.id.value);
-      var timeMin = undefined;
-      var timeMax = undefined;
+      var timeMin;
+      var timeMax;
 
       //The dimension for the customBubbleChart. We use time for x and group for y,
       //and bin everything in the same group number and day.
@@ -146,7 +146,7 @@
       //   })
 
       //Information on hover
-      .renderTitle(false)
+      .renderTitle(false);
       //   .title(function(p) {
       //     var formattedTime = p.key[1].getDay() + '/' + p.key[1].getMonth() + '/' + p.key[1].getFullYear();
       //
@@ -208,7 +208,7 @@
         this.y().rangeBands([this.yAxisHeight(), 0], 0, 1);
       });
 
-      dc.override(customBubbleChart, 'onClick', function(d) {
+      dc.override(customBubbleChart, 'onClick', function() {
       });
 
       // dc.override(customBubbleChart, 'onClick', onClickOverride);
@@ -237,7 +237,7 @@
       });
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       if (uncertConf.POLLS) {
         this.initializeChart();
       }

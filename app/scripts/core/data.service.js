@@ -27,6 +27,7 @@
      * @returns {Promise}
      */
     this.load = function() {
+      console.log('loading data');
       var dataType = uncertConf.DATA_JSON_URL.split(':')[0];
 
       if (dataType === 'file') {
@@ -37,7 +38,7 @@
           }
           me.data = json;
           deferred.resolve(me.data);
-          Messagebus.publish('data loaded', this.getData);
+          // Messagebus.publish('data loaded', this.getData);
           // Messagebus.publish('new data loaded', this.getData);
         }.bind(this));
       } else if (dataType === 'http' || dataType === 'https') {

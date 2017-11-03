@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function GroupRowChartController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function GroupRowChartController($window, $element, uncertConf, d3, dc, NdxService, HelperFunctions, Messagebus) {
     var symbolRenderlet = function(_chart) {
       //For each row in the chart
       _chart.selectAll('g.row').each(function() {
@@ -44,28 +44,9 @@
       //We sum the climax scores for the groups.
       var climaxSumPerGroup = groupDimension.group();
 
-      ///The group includes a value which tells us how important the group is
-      //in the overall storyline. For this graph, we filter out the groups with
-      //an importance value <= 1%
-      // function filterGroupsOnImportance(sourceGroup) {
-      //   return {
-      //     all: function() {
-      //       return sourceGroup.all().filter(function(d) {
-      //         var groupNum = parseInt(d.key.split(':')[0]);
-      //         return groupNum > 1;
-      //       });
-      //     },
-      //     top: function(n) {
-      //       return sourceGroup.top(Infinity).filter(function(d) {
-      //         var groupNum = parseInt(d.key.split(':')[0]);
-      //         return groupNum > 1;
-      //       }).slice(0, n);
-      //     }
-      //   };
-      // }
-      // var filteredGroups = filterGroupsOnImportance(climaxSumPerGroup);
+      var newChartElements = Math.max(1, Math.min(climaxSumPerGroup.top(Infinity).length, uncertConf.CHART_DIMENSIONS.storylineChartMaxRows));
+      var newHeight = HelperFunctions.determineStoryLineChartHeight(newChartElements);
 
-      //Set up the
       groupRowChart
       //Size in pixels
         .margins({
@@ -74,8 +55,8 @@
           bottom: 20,
           left: 0
         })
-        .width(parseInt($element[0].getClientRects()[1].width, 10))
-        .height(1000)
+        .width(Math.min($window.innerWidth, 1280) * (2/12) - 16)
+        .height(newHeight)
 
       //A smaller-than-default gap between bars
       .gap(2)
@@ -137,11 +118,25 @@
 
       HelperFunctions.setGroupColors(groupRowChart.colors());
 
+      // groupRowChart.on('preRedraw', function(chart) {
+      //   var newChartElements = Math.max(1, Math.min(chart.group().top(Infinity).length, uncertConf.CHART_DIMENSIONS.storylineChartMaxRows));
+      //   var newHeight = HelperFunctions.determineStoryLineChartHeight(newChartElements);
+
+      //   if (chart.height() !== newHeight) {
+      //     chart.height(newHeight);
+      //     chart.render();
+      //   }
+
+      //   chart.data(function(d) {
+      //     return d.top(newChartElements);
+      //   });
+      // });
+
       // dc.override(groupRowChart, 'onClick', onClickOverride);
       groupRowChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }

@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function DataTableController($element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function DataTableController($element, d3, dc, NdxService) {
     var actorsToHtml = function(d) {
       //Get the actors
       var actors = d.actors['actor:'];
@@ -63,13 +63,13 @@
       //Set up the
       dataTable
         // .size(10)
-        // .width(1200)
+        // .width($window.innerWidth * (4/12) - 16)
         .dimension(idDimension)
         .group(function() {
           return '';
         })
         .showGroups(false)
-        .size(Infinity)
+        .size(100)
         .sortBy(function(d) {
           return d.time;
         })
@@ -82,20 +82,20 @@
         //   }
         // },
         {
-          label: '<div class=col_0>Time</div>',
+          label: '<div class="col_0">Time</div>',
           format: function(d) {
             var time = d3.time.format('%Y%m%d').parse(d.time);
-            return '<div class=col_0>' + time.getDate() + '/' + (time.getMonth()+1) + '/' + time.getFullYear() + '</div>';
+            return '<div class="col_0">' + time.getDate() + '/' + (time.getMonth()+1) + '/' + time.getFullYear() + '</div>';
           }
         }, {
-          label: '<div class=col_1>Actors</div>',
+          label: '<div class="col_1">Actors</div>',
           format: function(d) {
-            return '<div class=col_1>' + actorsToHtml(d) + '</div>';
+            return '<div class="col_1">' + actorsToHtml(d) + '</div>';
           }
         }, {
           label: '<div class=col_2>Mentions</div>',
           format: function(d) {
-            return '<div class=col_2>' + mentionToHtml(d) + '</div>';
+            return '<div class="col_2">' + mentionToHtml(d) + '</div>';
           }
         // }
         // , {
@@ -116,7 +116,7 @@
       dataTable.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }

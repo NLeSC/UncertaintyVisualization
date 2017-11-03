@@ -1,0 +1,18 @@
+<button id="show-dialog" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" ng-click="qs.openDialog()">Select Dataset</button>
+<dialog class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Please select a query result to display.</h4>
+    <div class="mdl-dialog__content">
+        <table>
+            <tr class="query-selector-item" ng-repeat="query in qs.queryList">
+                <td>{{query.id}}</td>
+                <td>{{query.username}}</td>
+                <td>{{query.status}}</td>
+                <td>{{query.query}}</td>
+                <td><button type="button" class="mdl-button mdl-button--raised mdl-button--colored" ng-click="qs.selectQuery(query)">Load</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button" ng-click="qs.closeDialog()">Cancel</button>
+    </div>
+  </dialog>

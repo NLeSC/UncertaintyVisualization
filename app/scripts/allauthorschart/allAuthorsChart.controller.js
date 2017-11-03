@@ -1,10 +1,10 @@
 (function() {
   'use strict';
 
-  function AllAuthorsChartController($window, $element, d3, dc, NdxService, HelperFunctions, Messagebus) {
+  function AllAuthorsChartController($window, $element, uncertConf, d3, dc, NdxService, HelperFunctions, Messagebus) {
     this.initializeChart = function() {
       //A rowChart that shows us the importance of the all Authors
-      var allAuthorsChart = dc.rowChart('#'+$element[0].children[0].attributes.id.value);
+      var allAuthorsChart = dc.rowChart('#'+$element[0].children[1].attributes.id.value);
 
       //Dimension of the list of unique Authors present in each event.
       var allAuthorsDimension = NdxService.buildDimension(function(d) {
@@ -73,11 +73,14 @@
         return p;
       };
 
+      var newChartRows = Math.max(1, Math.min(allAuthorsClimaxSum.top(Infinity).length, uncertConf.CHART_DIMENSIONS.perspectiveChartMaxRows));
+      var newHeight = HelperFunctions.determinePerspectiveChartHeight(newChartRows);
+
       //Set up the
       allAuthorsChart
       //Size in pixels
-        .width($window.innerWidth * (8/12) * (2/12) - 32)//parseInt($element[0].getClientRects()[1].width, 10))
-        .height(400)
+        .width(Math.min($window.innerWidth, 1280) * (1/12) - 16)
+        .height(newHeight)
         .margins({
           top: 10,
           right: 2,
@@ -101,7 +104,7 @@
         return d.top(20);
       })
 
-      .gap(1)
+      .gap(uncertConf.CHART_DIMENSIONS.perspectiveChartGapHeight)
       .elasticX(true)
 
       .filterHandler(
@@ -133,7 +136,7 @@
       allAuthorsChart.render();
     };
 
-    Messagebus.subscribe('crossfilter ready', function() {
+    NdxService.ready.then(function() {
       this.initializeChart();
     }.bind(this));
   }

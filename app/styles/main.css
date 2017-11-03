@@ -23,8 +23,12 @@
 
 body {
   margin:10px;
-  overflow:auto;
+  overflow-x: hidden;
   background: #fafafa;
+}
+
+.content-grid {
+  max-width: 1280px;
 }
 
 .mdl-grid {
@@ -40,10 +44,8 @@ body {
   width: 80%;
 }
 
-.nwa_logo {
-  position: absolute;
-  height: 14%;
-  right: 10px;
+.nav-tab {
+    text-align: center;
 }
 
 div.dc-chart {
@@ -60,7 +62,7 @@ div.dc-chart {
     fill: none;
     stroke: #ccc;
     opacity: .75;
-    shape-rendering: crispEdges;
+    /*shape-rendering: crispEdges;*/
 }
 
 .dc-chart .subwayBubble {
@@ -121,32 +123,20 @@ g.node.selected {
     opacity: 1.0;
 }
 
-.breadcrumb_class {
-  font-size: 12px;
-  padding-left: 10px;
-  color: rgb(255, 0, 0);
-}
-
-.breadcrumb_empty {
-  color: rgb(0, 0, 0);
-}
-
 .logo-vu {
   background-image: url("../images/VUlogo.png");
   height: 100px;
   width: 100%;
-  background-size: 60% auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position-x: 50px;
 }
 
 .logo-nwr {
-  background-image: url("../images/NWR_logo_1920x200.png");
+  background-image: url("../images/NWRlogo.png");
   height: 100px;
   width: 100%;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position-y: 35px;
 }
 
 .logo-nlesc {
@@ -155,7 +145,6 @@ g.node.selected {
   width: 100%;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position-y: 40px;
 }
 
 .dc-data-table {
@@ -180,7 +169,8 @@ th, td {
 }
 
 .col_2 {
-    width: 370px;
+    /*width: 200px;*/
+    white-space: normal;
 }
 
 .radio-parent {
@@ -194,9 +184,110 @@ th, td {
 p {
     font-size: 10px;
     margin: 0 0 10px;
-    line-height: 1px;
+    line-height: 1em;
 }
 
 #perspective_filters_flexbox {
   display: flex;
+}
+
+.mdl-grid {
+  padding: 0;
+}
+
+.utilities-bar {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.mdl-textfield {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    max-width: 100%;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.mdl-textfield:focus {
+    outline: none;
+}
+
+.mdl-textfield__input {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  display: block;
+  font-size: 16;
+  font-family: "Helvetica","Arial",sans-serif;
+  margin: 0;
+  padding: 4px 0;
+  width: 100%;
+  background: none;
+  text-align: left;
+  color: inherit;
+
+  outline: none;
+}
+
+.mdl-textfield textarea.mdl-textfield__input {
+  display: block;
+}
+
+.mdl-textfield__label {
+    bottom: 0;
+    color: rgba(0,0,0,.26);
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 6px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.mdl-textfield__label:after {
+    background-color: #3f51b5;
+    bottom: 2px;
+    content: '';
+    height: 2px;
+    left: 45%;
+    position: absolute;
+
+    visibility: hidden;
+    width: 10px;
+  }
+
+  .mdl-textfield.is-focused:after {
+    left: 0;
+    visibility: visible;
+    width: 100%;
+  }
+
+.breadcrumb_class {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: rgb(255, 79, 79);
+  margin-top: 5px;
+}
+
+.breadcrumb_empty {
+  color: rgb(0, 0, 0);
+}
+
+.mdl-dialog {
+    border: none;
+    box-shadow: 0 9px 46px 8px rgba(0,0,0,.14), 0 11px 15px -7px rgba(0,0,0,.12), 0 24px 38px 3px rgba(0,0,0,.2);
+    width: 1280px;
+}
+
+.query-selector-item {
+  /*border-top: 1px solid;*/
+  border-bottom: 1px solid;
 }
