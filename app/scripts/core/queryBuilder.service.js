@@ -12,7 +12,7 @@
 
     this.reset = function() {
       this.deferred = $q.defer();
-      this.ready = this.deferred.promise;
+      // this.ready = this.deferred.promise;
     }.bind(this);
 
     this.getList = function() {
@@ -20,7 +20,7 @@
     }.bind(this);
 
     this.loadQueries = function() {
-      me.data = $http.get(uncertConf.QUERY_BUILDER_SERVER_URL+'queries/').success(this.onLoadQueries).error(this.onLoadQueriesFailure);
+      me.data = $http.get(uncertConf.QUERY_BUILDER_SERVER_URL+'jobs/').success(this.onLoadQueries).error(this.onLoadQueriesFailure);
     };
 
     this.onLoadQueries = function(response) {
@@ -35,7 +35,7 @@
     }.bind(this);
 
     this.getJSON = function(queryID) {
-      $http.get(uncertConf.QUERY_BUILDER_SERVER_URL + 'query/' + queryID).success(this.onJSONLoad).error(this.onJSONLoadFailure);
+      $http.get(uncertConf.QUERY_BUILDER_SERVER_URL + 'jobs/' + queryID).success(this.onJSONLoad).error(this.onJSONLoadFailure);
     };
 
     this.onJSONLoad = function(response) {

@@ -1,13 +1,32 @@
 (function() {
   'use strict';
 
-  function QuerySelectorController($element, dialogPolyfill, QueryBuilderService) {
+  function QuerySelectorController($scope, $element, dialogPolyfill, QueryBuilderService) {
     var dialog = $element[0].children[1];
 
     //register the polyfill for old browsers
     if (! dialog.showModal) {
       dialogPolyfill.registerDialog(dialog);
     }
+    
+    this.queryList = [];
+
+    this.refreshQueries = function() {
+        QueryBuilderService.loadQueries();
+        QueryBuilderService.ready.then(function() {                    
+          this.queryList = QueryBuilderService.getList();
+
+          this.queryList.forEach(function (item) {
+            if (item.status === 0) {
+              item.statusText = 'Pending';
+            } else if (item.status === 1) {
+              item.statusText = 'Ready';
+            } else {
+              item.statusText = 'Error';
+            }
+          });
+        }.bind(this));
+    }.bind(this);
 
     this.queryList = undefined;
 
@@ -36,7 +55,7 @@
     }.bind(this);
 
     this.closeDialog = function() {
-      QueryBuilderService.reset();
+      // QueryBuilderService.reset();
       dialog.close();
     };
 
