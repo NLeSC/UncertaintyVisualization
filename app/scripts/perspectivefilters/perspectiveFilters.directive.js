@@ -4,7 +4,7 @@
   function perspectiveFiltersDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/perspectivefilters/perspectiveFilters.directive.html',
+      template: require('./perspectiveFilters.directive.html'),
       controller: 'PerspectiveFiltersController',
       controllerAs: 'pfCtrl'
     };

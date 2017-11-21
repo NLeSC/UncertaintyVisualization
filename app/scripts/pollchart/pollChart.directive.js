@@ -4,7 +4,7 @@
   function pollChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/pollchart/pollChart.directive.html',
+      template: require('./pollChart.directive.html'),
       controller: 'PollChartController',
       controllerAs: 'pcCtrl'
     };

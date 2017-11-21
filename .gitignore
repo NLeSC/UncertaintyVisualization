@@ -1,18 +1,2 @@
 node_modules
 dist
-.tmp
-.sass-cache
-.project
-.grunt
-bower_components
-test/reports
-e2e/reports
-
-## Non-project files:
-# exvim
-.exvim.project*
-project.exvim
-
-/npm-debug.log
-
-*.pyc

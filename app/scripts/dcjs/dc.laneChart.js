@@ -1,3 +1,4 @@
+import dc from 'dc';
 /**
  * Concrete row chart implementation.
  *

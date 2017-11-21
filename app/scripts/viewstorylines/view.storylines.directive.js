@@ -4,7 +4,7 @@
   function viewStorylinesDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/viewstorylines/view.storylines.directive.html',
+      template: require('./view.storylines.directive.html'),
       controller: 'ViewStorylinesController',
       controllerAs: 'i'
     };

@@ -4,7 +4,7 @@
   function rigSelector() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/selector/selector.directive.html',
+      template: require('./selector.directive.html'),
       controller: 'SelectorController',
       controllerAs: 's'
     };

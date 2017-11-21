@@ -4,7 +4,7 @@
   function perspectiveLaneChartOptionSelectorDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/perspectivelanechart/optionSelector.directive.html',
+      template: require('./optionSelector.directive.html'),
       controller: 'PerspectiveLaneChartOptionSelectorController',
       controllerAs: 'plcOsCtrl'
     };

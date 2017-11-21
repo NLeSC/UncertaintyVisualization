@@ -1,3 +1,7 @@
+import dc from 'dc';
+import d3 from 'd3';
+import crossfilter from 'crossfilter2';
+
 /**
  * `dc.baseMixin` is an abstract functional object representing a basic `dc` chart object
  * for all chart and widget implementations. Methods from the {@link #dc.baseMixin dc.baseMixin} are inherited
@@ -49,6 +53,7 @@ dc.baseMixin = function (_chart) {
     var _controlsUseVisibility = false;
 
     var _transitionDuration = 750;
+    var _transitionDelay = 0;
 
     var _filterPrinter = dc.printers.filters;
 
@@ -595,6 +600,22 @@ dc.baseMixin = function (_chart) {
             return _transitionDuration;
         }
         _transitionDuration = duration;
+        return _chart;
+    };
+
+    /**
+     * Set or get the animation transition delay (in milliseconds) for this chart instance.
+     * @method transitionDelay
+     * @memberof dc.baseMixin
+     * @instance
+     * @param {Number} [delay=0]
+     * @returns {Number|dc.baseMixin}
+     */
+    _chart.transitionDelay = function (delay) {
+        if (!arguments.length) {
+            return _transitionDelay;
+        }
+        _transitionDelay = delay;
         return _chart;
     };
 

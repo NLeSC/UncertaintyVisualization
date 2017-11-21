@@ -4,7 +4,7 @@
   function allCitationsChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/allcitationschart/allCitationsChart.directive.html',
+      template: require('./allCitationsChart.directive.html'),
       controller: 'AllCitationsChartController',
       controllerAs: 'accCtrl'
     };

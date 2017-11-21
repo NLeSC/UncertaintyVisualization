@@ -4,7 +4,7 @@
   function perspectiveLaneChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/perspectivelanechart/perspectiveLaneChart.directive.html',
+      template: require('./perspectiveLaneChart.directive.html'),
       controller: 'PerspectiveLaneChartController',
       controllerAs: 'plcCtrl'
     };

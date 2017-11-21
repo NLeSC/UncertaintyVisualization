@@ -1,3 +1,4 @@
+import dc from 'dc';
 /**
  * A concrete implementation of a general purpose bubble chart that allows data visualization using the
  * following dimensions:
@@ -214,7 +215,7 @@ dc.subwayChart = function (parent, chartGroup) {
       this.visibleTimeStrings = Object.keys(nodes);
       this.visibleTimeStrings.forEach(function(time) {
         this.visibleStations = this.visibleStations.concat(nodes[time]);
-      });
+      }.bind(this));
 
       this.visibleTimeStrings.push(new Date(8640000000000000).toString());
       this.visibleTimeStrings.push(new Date(-8640000000000000).toString());
@@ -257,7 +258,7 @@ dc.subwayChart = function (parent, chartGroup) {
       }.bind(this));
 
       return lines;
-    };
+    }.bind(this);
 
     var buildSegments = function(lines, domain) {
       var domainSortFunc = function(a, b) {

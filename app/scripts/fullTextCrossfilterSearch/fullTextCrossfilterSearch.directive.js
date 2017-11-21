@@ -4,7 +4,7 @@
   function fullTextCrossfilterSearchDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/fullTextCrossfilterSearch/fullTextCrossfilterSearch.directive.html',
+      template: require('./fullTextCrossfilterSearch.directive.html'),
       controller: 'FullTextCrossfilterSearchController',
       controllerAs: 'fTCSCtrl',
       scope: true,

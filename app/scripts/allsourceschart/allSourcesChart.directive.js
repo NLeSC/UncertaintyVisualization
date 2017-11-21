@@ -4,7 +4,7 @@
   function allSourcesChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/allsourceschart/allSourcesChart.directive.html',
+      template: require('./allSourcesChart.directive.html'),
       controller: 'AllSourcesChartController',
       controllerAs: 'ascCtrl'
     };

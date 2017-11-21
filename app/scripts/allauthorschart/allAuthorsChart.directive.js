@@ -4,7 +4,7 @@
   function allAuthorsChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/allauthorschart/allAuthorsChart.directive.html',
+      template: require('./allAuthorsChart.directive.html'),
       controller: 'AllAuthorsChartController',
       controllerAs: 'aaucCtrl'
     };

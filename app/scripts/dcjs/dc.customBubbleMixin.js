@@ -1,3 +1,4 @@
+import dc from 'dc';
 /**
  * This Mixin provides reusable functionalities for any chart that needs to visualize data using bubbles.
  * @name customBubbleMixin

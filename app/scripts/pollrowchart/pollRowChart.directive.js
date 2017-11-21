@@ -4,7 +4,7 @@
   function pollRowChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/pollrowchart/pollRowChart.directive.html',
+      template: require('./pollRowChart.directive.html'),
       controller: 'PollRowChartController',
       controllerAs: 'prcCtrl'
     };
