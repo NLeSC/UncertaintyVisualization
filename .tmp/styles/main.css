@@ -1,0 +1,305 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+#banner {
+  color: white;
+  margin-top: 10px;
+}
+
+#introduction {
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.16);
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.16);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  margin:10px;
+  overflow-x: hidden;
+  background: #fafafa;
+}
+
+.content-grid {
+  max-width: 1280px;
+}
+
+.mdl-grid {
+  padding: 0;
+}
+
+#pagetitle {
+  position: relative;
+  top: -15px;
+}
+
+.logo {
+  width: 80%;
+}
+
+.nav-tab {
+    text-align: center;
+}
+
+div.dc-chart {
+    float: none;
+}
+
+.dc-chart g.row text {
+    fill: black;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.dc-chart .grid-line {
+    fill: none;
+    stroke: #ccc;
+    opacity: .75;
+    /*shape-rendering: crispEdges;*/
+}
+
+.dc-chart .subwayBubble {
+    stroke: black;
+    stroke-width: 2px;
+    fill: white;
+}
+
+.dc-chart .bubble {
+    stroke: black;
+    stroke-width: 1px;
+}
+
+g.dyndom_node :hover {
+    fill-opacity: .8;
+    stroke: red !important;
+}
+
+g.dyndom_node {
+    stroke: black;
+    stroke-width: 1px;
+    stroke-opacity: 1;
+}
+
+.dc-chart .symbol {
+  stroke: black !important;
+}
+
+#subwayChart .bubble-text {
+    color: red;
+    font-size: 12px;
+}
+
+.dc-chart path.diagonal {
+    fill: none;
+    stroke-width: 4px;
+}
+
+.myChart {
+  background: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.dc-chart .brush rect.extent {
+    fill: steelblue;
+    fill-opacity: .6;
+}
+
+span.highlighted-mention {
+    color: red;
+}
+
+g.node.deselected {
+    opacity: 0.5;
+}
+
+g.node.selected {
+    opacity: 1.0;
+}
+
+.logo-vu {
+  background-image: url("../images/VUlogo.png");
+  height: 100px;
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.logo-nwr {
+  background-image: url("../images/NWRlogo.png");
+  height: 100px;
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.logo-nlesc {
+  background-image: url("../images/NLESClogo.png");
+  height: 100px;
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.dc-data-table {
+    font-size: 10px;
+}
+
+table{
+    width: 600px;
+}
+
+th, td {
+  overflow: hidden;
+  white-space:nowrap;
+}
+
+.col_0 {
+  width: 30px;
+}
+
+.col_1 {
+  width: 100px;
+}
+
+.col_2 {
+    /*width: 200px;*/
+    white-space: normal;
+}
+
+.radio-parent {
+    display: flex;
+}
+
+.radio-child {
+    margin: auto;
+}
+
+p {
+    font-size: 10px;
+    margin: 0 0 10px;
+    line-height: 1em;
+}
+
+#perspective_filters_flexbox {
+  display: flex;
+}
+
+.mdl-grid {
+  padding: 0;
+}
+
+.utilities-bar {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.mdl-textfield {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    max-width: 100%;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.mdl-textfield:focus {
+    outline: none;
+}
+
+.mdl-textfield__input {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  display: block;
+  font-size: 16;
+  font-family: "Helvetica","Arial",sans-serif;
+  margin: 0;
+  padding: 4px 0;
+  width: 100%;
+  background: none;
+  text-align: left;
+  color: inherit;
+
+  outline: none;
+}
+
+.mdl-textfield textarea.mdl-textfield__input {
+  display: block;
+}
+
+.mdl-textfield__label {
+    bottom: 0;
+    color: rgba(0,0,0,.26);
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 6px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.mdl-textfield__label:after {
+    background-color: #3f51b5;
+    bottom: 2px;
+    content: '';
+    height: 2px;
+    left: 45%;
+    position: absolute;
+
+    visibility: hidden;
+    width: 10px;
+  }
+
+  .mdl-textfield.is-focused:after {
+    left: 0;
+    visibility: visible;
+    width: 100%;
+  }
+
+.breadcrumb_class {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: rgb(255, 79, 79);
+  margin-top: 5px;
+}
+
+.breadcrumb_empty {
+  color: rgb(0, 0, 0);
+}
+
+.mdl-dialog {
+    border: none;
+    box-shadow: 0 9px 46px 8px rgba(0,0,0,.14), 0 11px 15px -7px rgba(0,0,0,.12), 0 24px 38px 3px rgba(0,0,0,.2);
+    width: 1280px;
+}
+
+.query-selector-item {
+  /*border-top: 1px solid;*/
+  border-bottom: 1px solid;
+}
+
+.query-table {
+    width: 100%;
+}
+
+.td-right-align {
+    text-align: right;
+}
+
+.querySelectorQueryField {
+    white-space: normal;
+}

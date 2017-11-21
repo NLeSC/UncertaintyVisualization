@@ -1,0 +1,40 @@
+{
+  "name": "dialog-polyfill",
+  "main": [
+    "dialog-polyfill.js",
+    "dialog-polyfill.css"
+  ],
+  "homepage": "https://github.com/GoogleChrome/dialog-polyfill",
+  "authors": [
+    "The Chromium Authors"
+  ],
+  "description": "Polyfill for the <dialog> element",
+  "keywords": [
+    "html5",
+    "polyfill",
+    "dialog"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "",
+    "chai": ""
+  },
+  "version": "0.4.6",
+  "_release": "0.4.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.4.6",
+    "commit": "b3630f6ffcbdedf3179b47e62f94046b963420e0"
+  },
+  "_source": "https://github.com/GoogleChrome/dialog-polyfill.git",
+  "_target": "^0.4.6",
+  "_originalSource": "dialog-polyfill",
+  "_direct": true
+}

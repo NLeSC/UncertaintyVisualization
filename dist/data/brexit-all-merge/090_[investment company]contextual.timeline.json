@@ -1,0 +1,3026 @@
+{ "timeline":
+{
+"actor_cnt": [42],
+"event_cnt": [19],
+"events": [
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"dbp:European_Union",
+"ne:asset"
+]},
+"classes": {
+"eso": [
+"Creating",
+"Getting"
+],
+"fn": [
+"Getting",
+"Locating",
+"Intentionally_create",
+"Becoming_aware"
+],
+"ili": [
+"i29932",
+"i32979",
+"i33162",
+"i25279",
+"i32526",
+"i32401",
+"i32811",
+"i26207",
+"i25308"
+]
+},
+"climax": 74,
+"event": "ev74",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a#ev74",
+"labels": ["find"],
+"mentions": [{
+"char": [
+"1333",
+"1337"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" the UK leaves the EU.\n\u201cA UK asset management industry outside of Europe may find itself facing obstacles to the continued management of assets for EU-based"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a"]
+}],
+"prefLabel": ["find"],
+"sentence": "1333",
+"time": "20130127",
+"topics": [
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216870",
+"http://eurovoc.europa.eu/213481"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:United_Kingdom",
+"ne:asset"
+]},
+"classes": {
+"eso": ["HavingAValue"],
+"fn": [
+"Resolve_problem",
+"Amounting_to"
+],
+"ili": [
+"i26742",
+"i33908",
+"i34621",
+"i34893",
+"i33612",
+"i32963",
+"i33645"
+]
+},
+"climax": 79,
+"event": "ev93",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a#ev93",
+"labels": ["deal"],
+"mentions": [{
+"char": [
+"2121",
+"2125"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:PeterAstleworth"
+}],
+"snippet": [" firm, adds that there is a myriad of regulatory changes UK firms would have to deal with.\n\u201c[UK asset managers] would lose Mifid and everything that goes with that;"],
+"snippet_char": [
+80,
+84
+],
+"uri": ["http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a"]
+}],
+"prefLabel": ["deal"],
+"sentence": "2121",
+"time": "20120701",
+"topics": [
+"http://eurovoc.europa.eu/216870",
+"http://eurovoc.europa.eu/213481",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Luxembourg",
+"ne:asset",
+"dbp:United_Kingdom",
+"dbp:Ireland",
+"dbp:European_Union",
+"ne:investment",
+"dbp:Nazi_Germany"
+]},
+"classes": {
+"eso": ["BeingInUse"],
+"fn": [
+"Using_resource",
+"Intentionally_affect",
+"Using"
+],
+"ili": [
+"i27417",
+"i27416"
+]
+},
+"climax": 90,
+"event": "ev189",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818#ev189",
+"labels": [
+"use",
+"account",
+"sell"
+],
+"mentions": [
+{
+"char": [
+"6421",
+"6424"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" access to the single market\u201d. \nEven if UK-based asset managers are able to use Luxembourg or Ireland-based management companies to sell Ucits funds to European"],
+"snippet_char": [
+76,
+79
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+},
+{
+"char": [
+"1405",
+"1412"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" around 30 per cent in December. \nA lot of money is at stake. European investors account for more than a fifth of the £5.5tn of assets in the UK investment industry"],
+"snippet_char": [
+81,
+88
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+},
+{
+"char": [
+"4278",
+"4282"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" Dublin or Luxembourg \u2014 and register Ucits funds to this entity that can be sold across Europe with ease. The funds are still run by investment managers based"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+},
+{
+"char": [
+"808",
+"812"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" less alarmed and less vocal. This is despite the fact that their ability to sell funds across Europe could be seriously hampered by a Brexit. \nSean Tuffy, head"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+},
+{
+"char": [
+"3908",
+"3912"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" the fact that most asset managers believe they will continue to be able to sell European mutual funds, known as Ucits, across the continent in the event of"],
+"snippet_char": [
+76,
+80
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+},
+{
+"char": [
+"6477",
+"6481"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" managers are able to use Luxembourg or Ireland-based management companies to sell Ucits funds to European investors and keep their investment teams in the UK,"],
+"snippet_char": [
+78,
+82
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+}
+],
+"period": ["20160226"],
+"prefLabel": ["use"],
+"sentence": "6421",
+"time": "20160226",
+"topics": [
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/213549",
+"http://eurovoc.europa.eu/216870",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"ne:investment",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Communicate_categorization"],
+"ili": [
+"i25829",
+"i35152",
+"i34777"
+]
+},
+"climax": 88,
+"event": "ev169",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818#ev169",
+"labels": ["represent"],
+"mentions": [{
+"char": [
+"5010",
+"5020"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" specialists, analysts and the Investment Association, an influential body that represents the interests of the UK investment industry, are much less optimistic about"],
+"snippet_char": [
+80,
+90
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+}],
+"prefLabel": ["represent"],
+"sentence": "5010",
+"time": "20160226",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216870",
+"http://eurovoc.europa.eu/213549"
+]
+},
+{
+"actors": {"actor:": [
+"ne:investors",
+"ne:a_deal",
+"ne:investment",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Adopt_selection"],
+"ili": [
+"i24342",
+"i24905"
+]
+},
+"climax": 89,
+"event": "ev181",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818#ev181",
+"labels": [
+"assume",
+"strike"
+],
+"mentions": [
+{
+"char": [
+"5620",
+"5626"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" US bank, published a note this month highlighting the fact that \u201cinvestors assume if Britain were to leave the UK, a deal would be struck allowing investment"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+},
+{
+"char": [
+"5676",
+"5682"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" fact that \u201cinvestors assume if Britain were to leave the UK, a deal would be struck allowing investment management to be delegated back to the UK\u201d.\nBut they believe"],
+"snippet_char": [
+78,
+84
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+}
+],
+"period": ["20160201"],
+"prefLabel": ["assume"],
+"sentence": "5620",
+"time": "20160201",
+"topics": [
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213549",
+"http://eurovoc.europa.eu/216870",
+"http://eurovoc.europa.eu/216970",
+"http://eurovoc.europa.eu/216144"
+]
+},
+{
+"actors": {"actor:": [
+"ne:sides",
+"dbp:European_Commission",
+"dbp:David_Cameron",
+"ne:ahead",
+"dbp:Jean-Claude_Juncker",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": ["Adopt_selection"],
+"ili": [
+"i24905",
+"i24342"
+]
+},
+"climax": 88,
+"event": "ev200",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0#ev200",
+"labels": [
+"assume",
+"offer",
+"help"
+],
+"mentions": [
+{
+"char": [
+"5114",
+"5122"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Gideon_Rachman"
+}],
+"snippet": [" Ms Merkel. So there is a small chance the deal could still unravel.\nSecond, assuming that Mr Juncker\u2019s appointment does go ahead \u2013 with the British isolated \u2013 this"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/067c7d1a-f8a3-11e3-befc-00144feabdc0"]
+},
+{
+"char": [
+"1842",
+"1849"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" initially said she would \u201cfind a way\u201d to accommodate his demands.\nShe also offered to help Mr Cameron stop the appointment of Jean-Claude Juncker as European"],
+"snippet_char": [
+76,
+83
+],
+"uri": ["http://www.ft.com/thing/24106970-19ba-11e5-a130-2e7db721f996"]
+},
+{
+"char": [
+"1853",
+"1857"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" said she would \u201cfind a way\u201d to accommodate his demands.\nShe also offered to help Mr Cameron stop the appointment of Jean-Claude Juncker as European Commission"],
+"snippet_char": [
+77,
+81
+],
+"uri": ["http://www.ft.com/thing/24106970-19ba-11e5-a130-2e7db721f996"]
+},
+{
+"char": [
+"346",
+"350"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:George_Parker"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Stefan_Wagstyl"]
+}
+],
+"snippet": [" on the eve of a European summit will reinforce Ms Merkel\u2019s willingness to help Mr Cameron keep the UK inside the EU.\n\u201cQueen Elizabeth is witness to the development"],
+"snippet_char": [
+75,
+79
+],
+"uri": ["http://www.ft.com/thing/24106970-19ba-11e5-a130-2e7db721f996"]
+}
+],
+"period": ["20140101"],
+"prefLabel": ["assume"],
+"sentence": "5114",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/209284",
+"http://eurovoc.europa.eu/210117",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/210360",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/210455"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Government_of_Australia",
+"ne:fund",
+"dbp:Dublin",
+"dbp:Luxembourg",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Intentionally_create"],
+"ili": [
+"i24923",
+"i33867",
+"i25052",
+"i29973",
+"i25049"
+]
+},
+"climax": 86,
+"event": "ev154",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818#ev154",
+"labels": [
+"establish",
+"register"
+],
+"mentions": [
+{
+"char": [
+"4147",
+"4156"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" moment. \nUnder the current system, an Australian fund group, for example, can establish an EU-based management company \u2014 typically in Dublin or Luxembourg \u2014 and register"],
+"snippet_char": [
+79,
+88
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+},
+{
+"char": [
+"4230",
+"4238"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Madison_Marriage"
+}],
+"snippet": [" establish an EU-based management company \u2014 typically in Dublin or Luxembourg \u2014 and register Ucits funds to this entity that can be sold across Europe with ease. The funds"],
+"snippet_char": [
+84,
+92
+],
+"uri": ["http://www.ft.com/thing/d3b5d766-dbbb-11e5-a72f-1e7744c66818"]
+}
+],
+"period": ["20160226"],
+"prefLabel": ["establish"],
+"sentence": "4147",
+"time": "20160226",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/213549",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/216870",
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/216970"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Martin_Schulz",
+"dbp:Brussels",
+"dbp:10_Downing_Street",
+"ne:surprise",
+"ne:january"
+]},
+"classes": {
+"eso": [
+"Transportation",
+"Arriving",
+"Meeting"
+],
+"fn": [
+"Visiting",
+"Come_together",
+"Arriving"
+],
+"ili": [
+"i81170",
+"i34771",
+"i34159",
+"i26764",
+"i30931",
+"i41854"
+]
+},
+"climax": 76,
+"event": "ev140",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/fa3d9912-d4d3-11e5-829b-8564e7528e54#ev140",
+"labels": ["visit"],
+"mentions": [
+{
+"char": [
+"2947",
+"2953"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" tensions between Downing Street and the parliament.\nHaving been turned down for visits to Downing Street in the past \u2014 including during the European Commission presidency"],
+"snippet_char": [
+81,
+87
+],
+"uri": ["http://www.ft.com/thing/fa3d9912-d4d3-11e5-829b-8564e7528e54"]
+},
+{
+"char": [
+"3832",
+"3837"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" approaching a regular visitor: Tuesday\u2019s meeting followed a surprise January visit to Mr Schulz in Brussels.\nMr Cameron\u2019s difficulties with the European parliament"],
+"snippet_char": [
+78,
+83
+],
+"uri": ["http://www.ft.com/thing/fa3d9912-d4d3-11e5-829b-8564e7528e54"]
+}
+],
+"prefLabel": ["visit"],
+"sentence": "2947",
+"time": "20160216",
+"topics": [
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/210439",
+"http://eurovoc.europa.eu/209523",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/210490"
+]
+},
+{
+"actors": {"actor:": [
+"ne:surprise",
+"dbp:Brussels",
+"ne:january",
+"dbp:Martin_Schulz"
+]},
+"classes": {
+"fn": [
+"Cotheme",
+"Relative_time"
+],
+"ili": [
+"i33953",
+"i35225",
+"i35266",
+"i31731"
+]
+},
+"climax": 85,
+"event": "ev163",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/fa3d9912-d4d3-11e5-829b-8564e7528e54#ev163",
+"labels": ["follow"],
+"mentions": [{
+"char": [
+"3804",
+"3812"
+],
+"perspective": [
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Jim_Brunsden"]
+},
+{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": ["author:Alex_Barker"]
+}
+],
+"snippet": [" parliament, has become something approaching a regular visitor: Tuesday\u2019s meeting followed a surprise January visit to Mr Schulz in Brussels.\nMr Cameron\u2019s difficulties"],
+"snippet_char": [
+83,
+91
+],
+"uri": ["http://www.ft.com/thing/fa3d9912-d4d3-11e5-829b-8564e7528e54"]
+}],
+"prefLabel": ["follow"],
+"sentence": "3804",
+"time": "20160101",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/210490",
+"http://eurovoc.europa.eu/210439",
+"http://eurovoc.europa.eu/209523",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/210765"
+]
+},
+{
+"actors": {"actor:": [
+"ne:by_a_plebiscite",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Cotheme",
+"Relative_time"
+],
+"ili": [
+"i35266",
+"i31731",
+"i33953",
+"i35225"
+]
+},
+"climax": 85,
+"event": "ev147",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/79624872-d624-11e5-8887-98e7feb46f27#ev147",
+"labels": ["follow"],
+"mentions": [{
+"char": [
+"3859",
+"3867"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:George_Parker"
+}],
+"snippet": [" Hungary might take a lead from Mr Cameron\u2019s experiment with an EU negotiation followed by a plebiscite"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/79624872-d624-11e5-8887-98e7feb46f27"]
+}],
+"prefLabel": ["follow"],
+"sentence": "3859",
+"time": "20160218",
+"topics": [
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/211106",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"ne:by_a_plebiscite",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": [
+"Relative_time",
+"Cotheme"
+],
+"ili": [
+"i35225",
+"i31731",
+"i33953"
+]
+},
+"climax": 73,
+"event": "ev68",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead#ev68",
+"labels": ["follow"],
+"mentions": [{
+"char": [
+"1201",
+"1209"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Alex_Barker"
+}],
+"snippet": [" Hungary might take a lead from Mr Cameron\u2019s experiment with an EU negotiation followed by a plebiscite. In an interview with Bloomberg published on Wednesday, Matteo"],
+"snippet_char": [
+79,
+87
+],
+"uri": ["http://www.ft.com/thing/67f2bd1c-d037-11e5-986a-62c79fcbcead"]
+}],
+"prefLabel": ["follow"],
+"sentence": "1201",
+"time": "20160210",
+"topics": [
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/223000",
+"http://eurovoc.europa.eu/222042",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209933",
+"http://eurovoc.europa.eu/223006"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:European_Union",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": [
+"Cause_emotion",
+"Emotion_directed"
+],
+"ili": [
+"i35052",
+"i66717",
+"i76295"
+]
+},
+"climax": 63,
+"event": "ev23",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/c267c7b9-ad0d-3201-87f7-c7ab24521c25#ev23",
+"labels": ["concern"],
+"mentions": [{
+"char": [
+"457",
+"465"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Richard_Blackden"
+}],
+"snippet": [" Elaine Moore in London.\nBy contrast, the pound has been hit by heightened concerns about the UK\u2019s future in the European Union, following London mayor Boris Johnson\u2019s"],
+"snippet_char": [
+75,
+83
+],
+"uri": ["http://www.ft.com/thing/c267c7b9-ad0d-3201-87f7-c7ab24521c25"]
+}],
+"prefLabel": ["concern"],
+"sentence": "457",
+"time": "20160223",
+"topics": [
+"http://eurovoc.europa.eu/216906",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/213481",
+"http://eurovoc.europa.eu/213501",
+"http://eurovoc.europa.eu/213417"
+]
+},
+{
+"actors": {"actor:": [
+"ne:products",
+"ne:funds",
+"dbp:European_Union",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": [
+"Relative_time",
+"Cotheme"
+],
+"ili": [
+"i35225",
+"i31731",
+"i33953"
+]
+},
+"climax": 82,
+"event": "ev115",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a#ev115",
+"labels": [
+"follow",
+"barrier",
+"distribute"
+],
+"mentions": [
+{
+"char": [
+"2920",
+"2929"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" believes it is unlikely that EU authorities would take a \u201cbizarre anti-UK stance\u201d following a UK exit and render UK funds that were previously Ucits-compliant unfit for"],
+"snippet_char": [
+83,
+92
+],
+"uri": ["http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a"]
+},
+{
+"char": [
+"1245",
+"1253"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:RobMellor"
+}],
+"snippet": [" consultancy, says UK firms distributing funds in continental Europe will face new barriers if the UK leaves the EU.\n\u201cA UK asset management industry outside of Europe"],
+"snippet_char": [
+83,
+91
+],
+"uri": ["http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a"]
+},
+{
+"char": [
+"4068",
+"4080"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "now"
+},
+"source": "cite:MrdeFranssu"
+}],
+"snippet": [" he says.\nNonetheless, a UK exit could create difficulties for non-UK firms distributing products in the UK market, Mr de Franssu says.\nMadison Marriage is a reporter"],
+"snippet_char": [
+76,
+88
+],
+"uri": ["http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a"]
+},
+{
+"char": [
+"1190",
+"1202"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:RobMellor"
+}],
+"snippet": [" outcomes.\u201d\nRob Mellor, hedge fund leader at PwC, the consultancy, says UK firms distributing funds in continental Europe will face new barriers if the UK leaves the EU.\n\u201cA"],
+"snippet_char": [
+81,
+93
+],
+"uri": ["http://www.ft.com/thing/9b55b270-66e2-11e2-a805-00144feab49a"]
+}
+],
+"period": ["20130127"],
+"prefLabel": ["follow"],
+"sentence": "2920",
+"time": "20130127",
+"topics": [
+"http://eurovoc.europa.eu/216870",
+"http://eurovoc.europa.eu/216992",
+"http://eurovoc.europa.eu/216811",
+"http://eurovoc.europa.eu/210607",
+"http://eurovoc.europa.eu/213481",
+"http://eurovoc.europa.eu/221975"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Kenneth_Clarke",
+"dbp:Iain_Duncan_Smith",
+"ne:eu",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"eso": ["Motion"],
+"fn": ["Motion"],
+"ili": [
+"i25977",
+"i25815",
+"i25978",
+"i25814"
+]
+},
+"climax": 77,
+"event": "ev94",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/82c2388a-60e0-11e2-a31a-00144feab49a#ev94",
+"labels": [
+"warn",
+"membership"
+],
+"mentions": [
+{
+"char": [
+"1786",
+"1792"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" like Iain Duncan Smith would prefer an early referendum and Ken Clarke has warned that the policy is \u201ca gamble\u201d with Britain\u2019s EU membership.\nBut it became clear"],
+"snippet_char": [
+76,
+82
+],
+"uri": ["http://www.ft.com/thing/82c2388a-60e0-11e2-a31a-00144feab49a"]
+},
+{
+"char": [
+"1084",
+"1094"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" expected to be dominated by a dissection of his plan to renegotiate Britain\u2019s EU membership terms after the 2015 election and to put the final result to a referendum.\nIn"],
+"snippet_char": [
+82,
+92
+],
+"uri": ["http://www.ft.com/thing/82c2388a-60e0-11e2-a31a-00144feab49a"]
+},
+{
+"char": [
+"1841",
+"1851"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "negative",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" and Ken Clarke has warned that the policy is \u201ca gamble\u201d with Britain\u2019s EU membership.\nBut it became clear late yesterday afternoon that the most eagerly awaited"],
+"snippet_char": [
+75,
+85
+],
+"uri": ["http://www.ft.com/thing/82c2388a-60e0-11e2-a31a-00144feab49a"]
+},
+{
+"char": [
+"2333",
+"2343"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "future"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" hoped that it would embolden those in the Tory party who support Britain\u2019s EU membership to be more vocal.\nFor the moment, some pro-Europeans apparently feel cowed"],
+"snippet_char": [
+79,
+89
+],
+"uri": ["http://www.ft.com/thing/82c2388a-60e0-11e2-a31a-00144feab49a"]
+}
+],
+"period": ["20130118"],
+"prefLabel": ["warn"],
+"sentence": "1786",
+"time": "20130118",
+"topics": [
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/217037",
+"http://eurovoc.europa.eu/222752",
+"http://eurovoc.europa.eu/210386",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"ne:of_the_eu",
+"ne:by_an_in-out_referendum",
+"ne:eu",
+"dbp:United_Kingdom"
+]},
+"classes": {
+"fn": [
+"Relative_time",
+"Cotheme"
+],
+"ili": [
+"i31731",
+"i35266",
+"i35267",
+"i35225",
+"i33953"
+]
+},
+"climax": 79,
+"event": "ev139",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/d2b8f110-6c07-11e4-b939-00144feabdc0#ev139",
+"labels": [
+"follow",
+"membership"
+],
+"mentions": [
+{
+"char": [
+"2119",
+"2127"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" contrast, calls for a renegotiation of the terms of the UK\u2019s EU membership followed by an in-out referendum; this has attracted 1,000 names. \nTheir support differs,"],
+"snippet_char": [
+76,
+84
+],
+"uri": ["http://www.ft.com/thing/d2b8f110-6c07-11e4-b939-00144feabdc0"]
+},
+{
+"char": [
+"2108",
+"2118"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Sarah_Gordon"
+}],
+"snippet": [" statement, by contrast, calls for a renegotiation of the terms of the UK\u2019s EU membership followed by an in-out referendum; this has attracted 1,000 names. \nTheir support"],
+"snippet_char": [
+79,
+89
+],
+"uri": ["http://www.ft.com/thing/d2b8f110-6c07-11e4-b939-00144feabdc0"]
+},
+{
+"char": [
+"5440",
+"5450"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:FT-Brexit"
+}],
+"snippet": [" that eight out of 10 of its member companies, both big and small, support UK membership of the EU.\nA BB survey a year ago of 1,000 people, 70 per cent of whom represented"],
+"snippet_char": [
+78,
+88
+],
+"uri": ["http://www.ft.com/thing/d2b8f110-6c07-11e4-b939-00144feabdc0"]
+}
+],
+"period": ["20140101"],
+"prefLabel": ["follow"],
+"sentence": "2119",
+"time": "20140101",
+"topics": [
+"http://eurovoc.europa.eu/210765",
+"http://eurovoc.europa.eu/216645",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/210697",
+"http://eurovoc.europa.eu/217039",
+"http://eurovoc.europa.eu/216992"
+]
+},
+{
+"actors": {"actor:": [
+"ne:economic",
+"dbp:Government_of_the_United_Kingdom",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Estimating"],
+"ili": ["i25082"]
+},
+"climax": 74,
+"event": "ev82",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/7a8ebe9e-ecc1-11e4-a81a-00144feab7de#ev82",
+"labels": ["estimate"],
+"mentions": [{
+"char": [
+"1309",
+"1317"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Stefan_Wagstyl"
+}],
+"snippet": [" conclusions of the report are much more negative than those of most economists who estimate that the economic impact to the UK would be more modest if it were carefully"],
+"snippet_char": [
+84,
+92
+],
+"uri": ["http://www.ft.com/thing/7a8ebe9e-ecc1-11e4-a81a-00144feab7de"]
+}],
+"prefLabel": ["estimate"],
+"sentence": "1309",
+"time": "20140507",
+"topics": [
+"http://eurovoc.europa.eu/213642",
+"http://eurovoc.europa.eu/212159",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/222026",
+"http://eurovoc.europa.eu/213335",
+"http://eurovoc.europa.eu/212101"
+]
+},
+{
+"actors": {"actor:": [
+"dbp:Government_of_the_United_Kingdom",
+"dbp:European_Union"
+]},
+"classes": {
+"fn": ["Adopt_selection"],
+"ili": [
+"i24342",
+"i24905"
+]
+},
+"climax": 77,
+"event": "ev65",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/bebdd9d6-023e-11e6-99cb-83242733f755#ev65",
+"labels": ["assume"],
+"mentions": [{
+"char": [
+"1723",
+"1731"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "future"
+},
+"source": "cite:International_Monetary_Fund"
+}],
+"snippet": [" he said. \nEarlier this week, the International Monetary Fund said that even assuming the UK remained in the EU, the impact of the debate had already knocked 0.3"],
+"snippet_char": [
+77,
+85
+],
+"uri": ["http://www.ft.com/thing/bebdd9d6-023e-11e6-99cb-83242733f755"]
+}],
+"prefLabel": ["assume"],
+"sentence": "1723",
+"time": "20160101",
+"topics": [
+"http://eurovoc.europa.eu/213274",
+"http://eurovoc.europa.eu/213335",
+"http://eurovoc.europa.eu/212101",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/212086"
+]
+},
+{
+"actors": {"actor:": [
+"ne:the_government",
+"dbp:Angela_Merkel",
+"ne:to_access_other_nations_?_welfare_systems",
+"dbp:European_Union",
+"ne:people",
+"dbp:Berlin"
+]},
+"classes": {
+"eso": ["BeingInUse"],
+"fn": [
+"Using_resource",
+"Using",
+"Intentionally_affect"
+],
+"ili": [
+"i27416",
+"i27417"
+]
+},
+"climax": 74,
+"event": "ev74",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/4f6cb6ce-9b20-11e3-b0d0-00144feab7de#ev74",
+"labels": [
+"use",
+"support"
+],
+"mentions": [
+{
+"char": [
+"1271",
+"1274"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:William_Hague"
+}],
+"snippet": [" home.\nWilliam Hague, foreign secretary, said on Sunday the government planned to use Ms Merkel\u2019s visit to try to persuade Berlin to support measures discouraging"],
+"snippet_char": [
+82,
+85
+],
+"uri": ["http://www.ft.com/thing/4f6cb6ce-9b20-11e3-b0d0-00144feab7de"]
+},
+{
+"char": [
+"1322",
+"1329"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "cite:William_Hague"
+}],
+"snippet": [" the government planned to use Ms Merkel\u2019s visit to try to persuade Berlin to support measures discouraging people from moving within the EU to access other nations\u2019"],
+"snippet_char": [
+78,
+85
+],
+"uri": ["http://www.ft.com/thing/4f6cb6ce-9b20-11e3-b0d0-00144feab7de"]
+},
+{
+"char": [
+"1571",
+"1578"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "positive",
+"when": "now"
+},
+"source": "author:Stefan_Wagstyl"
+}],
+"snippet": [" shared \u201ccommon ground\u201d over concerns about benefit tourism within the EU. \n\u201cWe support the principle of free movement\u2009.\u2009.\u2009.\u2009but we don\u2019t support people moving from"],
+"snippet_char": [
+80,
+87
+],
+"uri": ["http://www.ft.com/thing/4f6cb6ce-9b20-11e3-b0d0-00144feab7de"]
+}
+],
+"period": ["20140223"],
+"prefLabel": ["use"],
+"sentence": "1271",
+"time": "20140223",
+"topics": [
+"http://eurovoc.europa.eu/222026",
+"http://www.newsreader-project.eu/ontologies/topic/appointment+of+members++%5BV4.3%5D",
+"http://eurovoc.europa.eu/221975",
+"http://eurovoc.europa.eu/209284",
+"http://eurovoc.europa.eu/217500",
+"http://eurovoc.europa.eu/210360"
+]
+},
+{
+"actors": {"actor:": [
+"ne:officials",
+"ne:money",
+"ne:the_28_days_leading_up_to_the_referendum",
+"dbp:European_Union",
+"ne:to_campaign",
+"ne:the_government",
+"ne:purdah"
+]},
+"classes": {
+"eso": ["BeingInUse"],
+"fn": [
+"Intentionally_affect",
+"Using",
+"Using_resource"
+],
+"ili": [
+"i27417",
+"i27416"
+]
+},
+"climax": 70,
+"event": "ev62",
+"group": "090:[investment company]",
+"groupName": "[investment company]",
+"groupScore": "090",
+"instance": "http://www.ft.com/thing/b8635424-5147-11e5-8642-453585f2cfcd#ev62",
+"labels": [
+"use",
+"forbid",
+"abolish"
+],
+"mentions": [
+{
+"char": [
+"875",
+"880"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" down over its attempt to abolish a rule forbidding it from spending money or using officials to campaign to stay in the EU in the 28 days leading up to the referendum."],
+"snippet_char": [
+78,
+83
+],
+"uri": ["http://www.ft.com/thing/b8635424-5147-11e5-8642-453585f2cfcd"]
+},
+{
+"char": [
+"838",
+"848"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" concessions, the government backed down over its attempt to abolish a rule forbidding it from spending money or using officials to campaign to stay in the EU in"],
+"snippet_char": [
+76,
+86
+],
+"uri": ["http://www.ft.com/thing/b8635424-5147-11e5-8642-453585f2cfcd"]
+},
+{
+"char": [
+"823",
+"830"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" them.\nAs part of the concessions, the government backed down over its attempt to abolish a rule forbidding it from spending money or using officials to campaign to"],
+"snippet_char": [
+82,
+89
+],
+"uri": ["http://www.ft.com/thing/b8635424-5147-11e5-8642-453585f2cfcd"]
+},
+{
+"char": [
+"1643",
+"1650"
+],
+"perspective": [{
+"attribution": {
+"belief": "confirm",
+"certainty": "certain",
+"possibility": "likely",
+"sentiment": "neutral",
+"when": "now"
+},
+"source": "author:Jim_Pickard"
+}],
+"snippet": [" parliamentary vote. \nOne clause would allow the government to retain the ability to abolish purdah altogether, Business for Britain pointed out. \u201cThe amendments replace"],
+"snippet_char": [
+85,
+92
+],
+"uri": ["http://www.ft.com/thing/b8635424-5147-11e5-8642-453585f2cfcd"]
+}
+],
+"period": ["20150902"],
+"prefLabel": ["use"],
+"sentence": "875",
+"time": "20150902",
+"topics": [
+"http://eurovoc.europa.eu/450596",
+"http://eurovoc.europa.eu/222072",
+"http://eurovoc.europa.eu/222018",
+"http://eurovoc.europa.eu/216144",
+"http://eurovoc.europa.eu/223006",
+"http://eurovoc.europa.eu/221975"
+]
+}
+],
+"headline": "brexit4-ne",
+"mention_cnt": [43],
+"polls": [
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20140515"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Opinium;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:43:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov/The Times"]
+}],
+"prefLabel": ["38:43:18"],
+"time": "20160201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:38:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:38:22"],
+"time": "20140808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:40:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes"]
+}],
+"prefLabel": ["46:40:14"],
+"time": "20160208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:42:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Survation;BMG Research;ICM"]
+}],
+"prefLabel": ["43:42:14"],
+"time": "20151115"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:45:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes"]
+}],
+"prefLabel": ["35:45:19"],
+"time": "20141122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;ComRes;Survation;YouGov"]
+}],
+"prefLabel": ["38:41:20"],
+"time": "20140622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:51:9"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:51:9"],
+"time": "20121122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["44:45:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["44:45:11"],
+"time": "20130601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140522"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:35:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:35:22"],
+"time": "20130801"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;ICM"]
+}],
+"prefLabel": ["42:39:18"],
+"time": "20151108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "10",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["32:53:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["32:53:15"],
+"time": "20130808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20140322"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;YouGov;YouGov"]
+}],
+"prefLabel": ["40:41:18"],
+"time": "20140422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20151101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:43:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["33:43:24"],
+"time": "20140108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "13",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:56:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium/Observer"]
+}],
+"prefLabel": ["30:56:14"],
+"time": "20121115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Pew Research Center;Populus;Opinium"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150408"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:41:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["38:41:21"],
+"time": "20130215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:48:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;Survation"]
+}],
+"prefLabel": ["34:48:17"],
+"time": "20141101"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:43:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["36:43:21"],
+"time": "20130408"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["54:37:10"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["54:37:10"],
+"time": "20140508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:14"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ORB;ICM;YouGov"]
+}],
+"prefLabel": ["43:41:14"],
+"time": "20151022"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:46:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["39:46:15"],
+"time": "20140501"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20150608"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:43:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["37:43:20"],
+"time": "20131208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:34:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["43:34:21"],
+"time": "20150601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20131008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "2",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:42:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["37:42:20"],
+"time": "20141022"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:39:20"],
+"time": "20140308"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:40:19"],
+"time": "20141115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov;ICM"]
+}],
+"prefLabel": ["42:39:19"],
+"time": "20151122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:38:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;GQRR;Ipsos MORI;ICM"]
+}],
+"prefLabel": ["45:38:16"],
+"time": "20151015"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["47:38:15"],
+"time": "20150815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:36:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["45:36:19"],
+"time": "20150222"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Panelbase;ICM"]
+}],
+"prefLabel": ["43:41:15"],
+"time": "20160108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:37:20"],
+"time": "20150122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:37:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB;Panelbase;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["42:37:20"],
+"time": "20150322"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:38:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:38:21"],
+"time": "20140708"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["47:40:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["47:40:13"],
+"time": "20150515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:32:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["49:32:18"],
+"time": "20150422"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "13",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["60:33:6"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;Ipsos MORI"]
+}],
+"prefLabel": ["60:33:6"],
+"time": "20150615"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:41:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS BMRB"]
+}],
+"prefLabel": ["30:41:22"],
+"time": "20130201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:39:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["44:39:17"],
+"time": "20151001"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["34:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;ICM/The Guardian;YouGov/The Sun"]
+}],
+"prefLabel": ["34:44:20"],
+"time": "20130508"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:44:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Opinium"]
+}],
+"prefLabel": ["41:44:15"],
+"time": "20150215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:36:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;TNS-BMRB"]
+}],
+"prefLabel": ["40:36:23"],
+"time": "20150115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:37:19"],
+"time": "20150722"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "10",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["56:36:8"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI"]
+}],
+"prefLabel": ["56:36:8"],
+"time": "20141008"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:46:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Times"]
+}],
+"prefLabel": ["35:46:20"],
+"time": "20130501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20111208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "5",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:35:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:35:20"],
+"time": "20150415"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "8",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:50:16"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation/Mail on Sunday;YouGov/The Sun"]
+}],
+"prefLabel": ["33:50:16"],
+"time": "20130101"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:38:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["44:38:18"],
+"time": "20150622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["49:33:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ComRes;YouGov"]
+}],
+"prefLabel": ["49:33:17"],
+"time": "20150522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "5",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:46:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:46:19"],
+"time": "20130701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["43:36:21"],
+"time": "20130708"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "3",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:42:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/Sunday Times"]
+}],
+"prefLabel": ["36:42:21"],
+"time": "20130108"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:40:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM"]
+}],
+"prefLabel": ["43:40:17"],
+"time": "20150908"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["37:40:23"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["TNS-BMRB"]
+}],
+"prefLabel": ["37:40:23"],
+"time": "20150108"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:39:25"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:39:25"],
+"time": "20140208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["41:40:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:40:19"],
+"time": "20140822"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["38:40:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["38:40:22"],
+"time": "20150915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["31:46:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;YouGov;ComRes/Sunday Mirror/Independent;ICM/The Telegraph"]
+}],
+"prefLabel": ["31:46:21"],
+"time": "20130515"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:39:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;Ipsos MORI;BMG Research;ComRes;ICM"]
+}],
+"prefLabel": ["45:39:15"],
+"time": "20160122"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["39:41:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;Survation"]
+}],
+"prefLabel": ["39:41:18"],
+"time": "20151201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["52:36:11"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Ipsos MORI;ICM;ComRes"]
+}],
+"prefLabel": ["52:36:11"],
+"time": "20151208"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:41:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;ORB;YouGov;BMG Research;ICM;ComRes"]
+}],
+"prefLabel": ["42:41:15"],
+"time": "20160222"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["36:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["36:44:20"],
+"time": "20130922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["35:32:32"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun;YouGov/Sunday Times"]
+}],
+"prefLabel": ["35:32:32"],
+"time": "20130115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "2",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:38:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:38:19"],
+"time": "20140922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "6",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:34:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["46:34:20"],
+"time": "20130815"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20141201"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["46:38:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;ICM;YouGov"]
+}],
+"prefLabel": ["46:38:15"],
+"time": "20150922"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "7",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:31:24"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["45:31:24"],
+"time": "20130622"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["43:37:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation;Opinium;Ipsos MORI;TNS"]
+}],
+"prefLabel": ["43:37:19"],
+"time": "20160215"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["41:42:17"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["41:42:17"],
+"time": "20151215"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["44:42:13"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ORB;ICM;Survation"]
+}],
+"prefLabel": ["44:42:13"],
+"time": "20160115"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["39:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ICM;YouGov;YouGov;YouGov"]
+}],
+"prefLabel": ["39:37:18"],
+"time": "20160301"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150701"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "3",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:36:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["42:36:21"],
+"time": "20130522"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "7",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["33:47:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["33:47:19"],
+"time": "20100908"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "8",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["50:33:15"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes;YouGov"]
+}],
+"prefLabel": ["50:33:15"],
+"time": "20150501"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "1",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["40:42:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["ComRes"]
+}],
+"prefLabel": ["40:42:18"],
+"time": "20140601"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["42:39:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["42:39:20"],
+"time": "20130915"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "4",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["35:44:20"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["Financial Times/Harris;Survation/Mail on Sunday;YouGov/Sunday Times;Populus/The Times"]
+}],
+"prefLabel": ["35:44:20"],
+"time": "20130122"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:37:22"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;YouGov"]
+}],
+"prefLabel": ["40:37:22"],
+"time": "20140401"
+},
+{
+"actors": {"-": ["brexit:Leave"]},
+"climax": "11",
+"group": "100:[Leave]",
+"groupName": "Leave",
+"labels": ["30:52:19"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov/The Sun"]
+}],
+"prefLabel": ["30:52:19"],
+"time": "20110808"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "4",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["45:37:18"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov;Survation"]
+}],
+"prefLabel": ["45:37:18"],
+"time": "20150508"
+},
+{
+"actors": {"-": ["brexit:Stay"]},
+"climax": "1",
+"group": "100:[Stay]",
+"groupName": "Stay",
+"labels": ["40:39:21"],
+"mentions": [{
+"char": ["0, 0"],
+"uri": ["YouGov"]
+}],
+"prefLabel": ["40:39:21"],
+"time": "20141215"
+}
+],
+"story_cnt": [1],
+"text": "FT-Brexit",
+"type": "default"
+}}
