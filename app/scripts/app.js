@@ -19,11 +19,6 @@ import '../../node_modules/angular-toastr/dist/angular-toastr.css';
 import '../../node_modules/dialog-polyfill/dialog-polyfill.css';
 import '../styles/main.css';
 
-// import './core/constants';
-// import './core/data.service';
-// import './core/queryBuilder.service';
-// import './selector/selector.directive';
-
 (function () {
   'use strict';
   angular.module('uncertApp.dc', [])
@@ -41,9 +36,6 @@ import '../styles/main.css';
   angular.module('uncertApp.dialogPolyfill', [])
     .constant('dialogPolyfill', dialogPolyfill);
 
-  // import CoreModule from './core/';
-  // import SelectorModule from './selector/selector.directive';
-
   /**
    * @ngdoc overview
    * @name uncertApp
@@ -54,6 +46,7 @@ import '../styles/main.css';
    */
   angular
     .module('uncertApp', [
+      //List all of the angular module dependencies for the main application
       'ngAnimate',
       'ngSanitize',
       'ngTouch',
@@ -93,14 +86,14 @@ import '../styles/main.css';
       // data urls are not allowed by default, so whitelist them
       $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|tel|file|blob):/);
     })
-    .run(function ($timeout, DataService) {
+    //Load the data once all modules are up and running, this kicks off the application
+    .run(function ($timeout, DataService) {      
       angular.element(document).ready(function () {
         DataService.load();
       });
     });
 
-
-
+  //Declare all modules with their dependencies, so we can add controllers, services and directives to them later
   angular.module('uncertApp.core', []);
   angular.module('uncertApp.templates', []);
   angular.module('uncertApp.utils', ['uncertApp.templates']);
@@ -139,6 +132,7 @@ import '../styles/main.css';
 
   angular.module('uncertApp.breadcrumbs', ['uncertApp.core', 'uncertApp.dc', 'uncertApp.utils']);
 
+  //Import all of the individiual components (these assume their modules are pre-declared)
   require('./utils/messagebus.service.js');
 
   require('./core/constants.js');
