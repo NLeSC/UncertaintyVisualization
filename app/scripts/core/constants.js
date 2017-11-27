@@ -3,7 +3,7 @@ import angular from 'angular';
 angular.module('uncertApp.core')
   .constant('uncertConf', {
     DATA_JSON_URL: 'file:data/fromServer.json',
-    QUERY_BUILDER_SERVER_URL: 'http://localhost:8080/',
+    QUERY_BUILDER_SERVER_URL: '/xenon/',
     
     POLLS: false,
 
