@@ -1,23 +1,74 @@
 <button id="show-dialog" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" ng-click="qs.openDialog()">Select Dataset</button>
-<dialog class="mdl-dialog">
-    <!--<div class="mdl-cell mdl-cell--11-col">-->
+<dialog class="mdl-dialog">    
     <h4 class="mdl-dialog__title">Please select a query result to display.</h4>
-    <!--</div>
-    <div class="mdl-layout-spacer"></div>
-    <div class="mdl-cell mdl-cell--1-col">-->
+
     <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" ng-click="qs.refreshQueries()" style="margin-top:20px; position: absolute; right: 1%; top: 1%;">
-            <i class="material-icons">autorenew</i>
-        </button>
-    <!--</div>-->
+        <i class="material-icons">autorenew</i>
+    </button>
+
     <div class="mdl-dialog__content mdl-cell mdl-cell--12-col">
-        <table class="query-table">
-            <tr class="query-selector-item" ng-repeat="query in qs.queryList">
-                <td>{{query.id}}</td>
-                <td>{{query.username}}</td>
-                <td>{{query.statusText}}</td>
-                <td class="querySelectorQueryField">{{query.query}}</td>
-                <td class="td-right-align"><button type="button" class="mdl-button mdl-button--raised mdl-button--colored" ng-click="qs.selectQuery(query)">Load</button></td>
-            </tr>
+        <form action="#">
+            <!-- <div class="form-group"> -->
+                <div class="mdl-textfield mdl-js-textfield" style="width: 100%;">
+                    <!-- <div class="input-group-addon"><i class="fa fa-search"></i></div> -->
+                    <input id="searchJobsTextField" type="text" class="mdl-textfield__input" ng-model="qs.searchJobs">
+                    <label ng-show="!qs.searchJobs" class="mdl-textfield__label" for="searchJobsTextField">Search...</label>
+                </div>      
+            <!-- </div> -->
+        </form>
+    
+
+        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp query-table">
+            <thead>
+                <tr>
+                    <th class="mdl-data-table__cell--non-numeric" style="text-align: left;">
+                        <a href="#" ng-click="qs.sortType = 'name'; qs.sortReverse = !qs.sortReverse">
+                            Username
+                            <span ng-show="qs.sortType == 'name' && !qs.sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="qs.sortType == 'name' && qs.sortReverse" class="fa fa-caret-up"></span>
+                        </a>
+                    </th>
+                    <th class="mdl-data-table__cell--non-numeric" style="text-align: left;">
+                        <a href="#" ng-click="qs.sortType = 'ksQuery'; qs.sortReverse = !qs.sortReverse">
+                            Query String 
+                            <span ng-show="qs.sortType == 'ksQuery' && !qs.sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="qs.sortType == 'ksQuery' && qs.sortReverse" class="fa fa-caret-up"></span>
+                        </a>
+                    </th>
+                    <th style="text-align: left;">
+                        <a href="#" ng-click="qs.sortType = 'ksQuerylimit'; qs.sortReverse = !qs.sortReverse">
+                            Query Limit
+                            <span ng-show="qs.sortType == 'ksQuerylimit' && !qs.sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="qs.sortType == 'ksQuerylimit' && qs.sortReverse" class="fa fa-caret-up"></span>
+                        </a>
+                    </th>
+                    <th class="mdl-data-table__cell--non-numeric" style="text-align: left;">
+                        <a href="#" ng-click="qs.sortType = 'statusText'; qs.sortReverse = !qs.sortReverse">
+                            Status
+                            <span ng-show="qs.sortType == 'statusText' && !qs.sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="qs.sortType == 'statusText' && qs.sortReverse" class="fa fa-caret-up"></span>
+                        </a>
+                    </td>
+                    <td></td>                    
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat="query in qs.queryList | orderBy:qs.sortType:qs.sortReverse | filter:qs.searchJobs">
+                    <td class="querySelectorNameField" style="text-align: left;" >{{query.name}}</td>
+                    <td class="querySelectorQueryField" style="text-align: left;">{{query.input.ksQuery}}</td>
+                    <td class="querySelectorLimitField" style="text-align: left;">{{query.input.ksQuerylimit}}</td>
+                    <td ng-if="query.error" class="querySelectorStatusFieldError" style="text-align: left;">
+                        <a href="{{qs.server}}jobs/{{query.id}}/log">{{query.statusText}}</a> 
+                    </td>
+                    <td ng-if="!query.error" class="querySelectorStatusField" style="text-align: left;">
+                        {{query.statusText}}
+                    </td>
+                    <td class="td-right-align">
+                        <button type="button" class="mdl-button mdl-button--raised mdl-button--colored" ng-click="qs.selectQuery(query)">Load</button>
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </div>
     <div class="mdl-dialog__actions">

@@ -4,7 +4,7 @@
   function datatableDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/datatable/dataTable.directive.html',
+      template: require('./dataTable.directive.html'),
       controller: 'DataTableController',
       controllerAs: 'dtCtrl'
     };

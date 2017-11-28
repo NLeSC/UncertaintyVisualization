@@ -4,7 +4,7 @@
   function datatablePerspectivesDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/datatable-perspectives/dataTablePerspectives.directive.html',
+      template: require('./dataTablePerspectives.directive.html'),
       controller: 'DataTablePerspectivesController',
       controllerAs: 'dtPersCtrl'
     };

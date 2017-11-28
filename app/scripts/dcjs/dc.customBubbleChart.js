@@ -1,3 +1,4 @@
+import dc from 'dc';
 /**
  * A concrete implementation of a general purpose bubble chart that allows data visualization using the
  * following dimensions:

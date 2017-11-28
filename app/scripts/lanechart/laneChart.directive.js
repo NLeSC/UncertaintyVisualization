@@ -4,7 +4,7 @@
   function laneChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/lanechart/laneChart.directive.html',
+      template: require('./laneChart.directive.html'),
       controller: 'LaneChartController',
       controllerAs: 'lcCtrl'
     };

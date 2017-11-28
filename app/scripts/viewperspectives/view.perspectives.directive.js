@@ -4,7 +4,7 @@
   function viewPerspectivesDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/viewperspectives/view.perspectives.directive.html',
+      template: require('./view.perspectives.directive.html'),
       controller: 'ViewPerspectivesController',
       controllerAs: 'vpc'
     };

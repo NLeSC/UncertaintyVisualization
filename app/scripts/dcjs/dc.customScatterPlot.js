@@ -1,3 +1,4 @@
+import dc from 'dc';
 /**
  * A scatter plot chart
  * @name customScatterPlot

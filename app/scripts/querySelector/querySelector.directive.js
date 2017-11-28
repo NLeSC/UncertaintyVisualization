@@ -4,7 +4,7 @@
   function querySelectorDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/querySelector/querySelector.directive.html',
+      template: require('./querySelector.directive.html'),
       controller: 'QuerySelectorController',
       controllerAs: 'qs'
     };

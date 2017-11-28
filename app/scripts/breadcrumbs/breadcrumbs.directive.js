@@ -4,7 +4,7 @@
   function breadcrumbsDirective() {
     return {
       restrict: 'EA',
-      templateUrl: 'scripts/breadcrumbs/breadcrumbs.directive.html',
+      template: require('./breadcrumbs.directive.html'),
       controller: 'BreadcrumbsController',
       controllerAs: 'bc'
     };

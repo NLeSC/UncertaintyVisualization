@@ -4,7 +4,7 @@
   function seriesChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/serieschart/seriesChart.directive.html',
+      template: require('./seriesChart.directive.html'),
       controller: 'SeriesChartController',
       controllerAs: 'scCtrl'
     };

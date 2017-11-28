@@ -4,7 +4,7 @@
   function subwayChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/subwaychart/subwayChart.directive.html',
+      template: require('./subwayChart.directive.html'),
       controller: 'SubwayChartController',
       controllerAs: 'swcCtrl'
     };

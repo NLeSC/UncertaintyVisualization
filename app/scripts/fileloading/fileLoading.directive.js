@@ -4,7 +4,7 @@
   function fileLoadingDirective() {
     return {
       restrict: 'EA',
-      templateUrl: 'scripts/fileloading/fileLoading.directive.html',
+      template: require('./fileLoading.directive.html'),
       controller: 'FileController',
       controllerAs: 'fc'
     };

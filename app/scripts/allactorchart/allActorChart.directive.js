@@ -4,7 +4,7 @@
   function allActorChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/allactorchart/allActorChart.directive.html',
+      template: require('./allActorChart.directive.html'),
       controller: 'AllActorChartController',
       controllerAs: 'aacCtrl'
     };

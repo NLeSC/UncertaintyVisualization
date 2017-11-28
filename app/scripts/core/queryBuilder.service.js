@@ -12,7 +12,7 @@
 
     this.reset = function() {
       this.deferred = $q.defer();
-      // this.ready = this.deferred.promise;
+      this.ready = this.deferred.promise;
     }.bind(this);
 
     this.getList = function() {
@@ -20,7 +20,8 @@
     }.bind(this);
 
     this.loadQueries = function() {
-      me.data = $http.get(uncertConf.QUERY_BUILDER_SERVER_URL+'jobs/').success(this.onLoadQueries).error(this.onLoadQueriesFailure);
+      this.reset();
+      me.data = $http.get(uncertConf.QUERY_BUILDER_SERVER_URL+'jobs/').then(this.onLoadQueries, this.onLoadQueriesFailure);
     };
 
     this.onLoadQueries = function(response) {
@@ -34,12 +35,12 @@
       this.deferred.reject.apply(this, arguments);
     }.bind(this);
 
-    this.getJSON = function(queryID) {
-      $http.get(uncertConf.QUERY_BUILDER_SERVER_URL + 'jobs/' + queryID).success(this.onJSONLoad).error(this.onJSONLoadFailure);
+    this.getJSON = function(outputLocation) {
+      $http.get(outputLocation).then(this.onJSONLoad, this.onJSONLoadFailure);
     };
 
-    this.onJSONLoad = function(response) {
-      NdxService.readData(response);
+    this.onJSONLoad = function(response) {      
+      NdxService.readData(response.data);
       Messagebus.publish('data loaded');
     }.bind(this);
 
@@ -47,6 +48,10 @@
       $log.log('Failed to load data!!');
       toastr.error('Failed to load data!!');
     }.bind(this);
+
+    this.getLogServer = function() {
+      return uncertConf.QUERY_BUILDER_SERVER_URL;
+    }
   }
 
   angular.module('uncertApp.core')

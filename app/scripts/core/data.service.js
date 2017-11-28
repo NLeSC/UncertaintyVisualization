@@ -31,15 +31,17 @@
 
       if (dataType === 'file') {
         var fileName = uncertConf.DATA_JSON_URL.split(':')[1];
-        d3.json(fileName, function(error, json) {
-          if (error) {
-            return console.warn(error);
-          }
-          me.data = json;
+        // var file = require('../../data/fromServer.json');
+
+        // d3.json(fileName, function(error, json) {
+        //   if (error) {
+        //     return console.warn(error);
+        //   }
+          me.data = require('../../data/fromServer.json');
           deferred.resolve(me.data);
           // Messagebus.publish('data loaded', this.getData);
           // Messagebus.publish('new data loaded', this.getData);
-        }.bind(this));
+        // }.bind(this));
       } else if (dataType === 'http' || dataType === 'https') {
         me.data = $http.get(uncertConf.DATA_JSON_URL).success(this.onLoad).error(this.onLoadFailure);
       } else {
@@ -84,6 +86,7 @@
     Messagebus.subscribe('data request', this.urlload);
   }
 
-  angular.module('uncertApp.core')
+  angular
+    .module('uncertApp.core')
     .service('DataService', DataService);
 })();

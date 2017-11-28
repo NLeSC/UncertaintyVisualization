@@ -4,7 +4,7 @@
   function groupRowChartDirective() {
     return {
       restrict: 'E',
-      templateUrl: 'scripts/grouprowchart/groupRowChart.directive.html',
+      template: require('./groupRowChart.directive.html'),
       controller: 'GroupRowChartController',
       controllerAs: 'grcCtrl'
     };

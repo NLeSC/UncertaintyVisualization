@@ -1,3 +1,4 @@
+import dc from 'dc';
 /**
  * A series chart is a chart that shows multiple series of data overlaid on one chart, where the
  * series is specified in the data. It is a specialization of Composite Chart and inherits all
