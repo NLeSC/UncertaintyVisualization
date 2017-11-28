@@ -221,7 +221,10 @@ module.exports = function makeWebpackConfig() {
    */
   config.devServer = {
     contentBase: './app',
-    stats: 'minimal'
+    stats: 'minimal',
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    }
   };
 
   return config;

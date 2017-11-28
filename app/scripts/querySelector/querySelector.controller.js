@@ -4,6 +4,9 @@
   function QuerySelectorController($scope, $element, dialogPolyfill, QueryBuilderService) {
     var dialog = $element[0].children[1];
     this.server = QueryBuilderService.getLogServer();
+    this.sortType     = 'name'; // set the default sort type
+    this.sortReverse  = false;  // set the default sort order
+    this.searchJobs   = '';     // set the default search/filter term
 
     //register the polyfill for old browsers
     if (! dialog.showModal) {

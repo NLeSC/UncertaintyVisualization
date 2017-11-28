@@ -39,8 +39,8 @@
       $http.get(outputLocation).then(this.onJSONLoad, this.onJSONLoadFailure);
     };
 
-    this.onJSONLoad = function(response) {
-      NdxService.readData(response);
+    this.onJSONLoad = function(response) {      
+      NdxService.readData(response.data);
       Messagebus.publish('data loaded');
     }.bind(this);
 
